@@ -456,7 +456,9 @@ const GLRE = (function(){
   const formes = [];
   const norm = s => s.toLowerCase();
   GL.forEach(g=>{
-    [g.terme].concat(g.alias||[]).forEach(f=>{ formes.push(f); GLMAP[norm(f)] = g; });
+    /* une même forme peut désigner deux entrées homonymes, réservées chacune à
+       certains blocs (« puissance » statistique au bloc 0, mécanique ensuite) */
+    [g.terme].concat(g.alias||[]).forEach(f=>{ formes.push(f); (GLMAP[norm(f)] = GLMAP[norm(f)] || []).push(g); });
   });
   formes.sort((a,b)=>b.length-a.length);
   const esr = s => s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
@@ -464,8 +466,11 @@ const GLRE = (function(){
   return new RegExp('(^|[^\\p{L}\\p{N}_-])('+formes.map(esr).join('|')+')(?![\\p{L}\\p{N}_-])','giu');
 })();
 
-function glossify(root){
+const blocNum = b => { const n = parseInt(b,10); return isNaN(n) ? null : n; };
+function glossify(root, bloc){
   if(!GLRE || !root) return;
+  if(bloc===undefined) bloc = null;
+  const permis = g => !g.blocs || !g.blocs.length || (bloc!==null && g.blocs.indexOf(bloc)>=0);
   /* SVG en minuscules : les éléments SVG conservent leur casse d'origine. */
   const SKIP = {A:1,CODE:1,PRE:1,SVG:1,H1:1,BUTTON:1,SCRIPT:1,STYLE:1,FIGCAPTION:1,FIGURE:1};
   let seen = {};
@@ -488,7 +493,7 @@ function glossify(root){
     GLRE.lastIndex = 0;
     let m, last = 0, frag = null;
     while((m = GLRE.exec(txt))){
-      const g = GLMAP[m[2].toLowerCase()];
+      const g = (GLMAP[m[2].toLowerCase()]||[]).find(permis);
       if(!g){ continue; }
       if((seen[g.terme]||0) >= 2) continue;
       seen[g.terme] = (seen[g.terme]||0) + 1;
@@ -725,7 +730,7 @@ function vFiche(id){
       '</div></div>';
   }
   main.innerHTML = h;
-  glossify(main.querySelector('.md'));
+  glossify(main.querySelector('.md'), blocNum(f.bloc));
   marquerLue(id);
 }
 
@@ -1144,7 +1149,7 @@ function cartesEchauffement(max){
   return c.slice(0,max).map(x=>x.id);
 }
 
-function seRender(){ render(); window.scrollTo(0,0); }
+function seRender(){ if(V.view!=='seance') V={view:'seance', arg:null}; render(); window.scrollTo(0,0); }
 function seStart(seules){
   const f = seules ? null : ficheDuJour();
   const cartes = cartesEchauffement(seules ? 20 : SE_CARTES);
@@ -1221,7 +1226,7 @@ function vSeance(){
   else if(S.phase==='qcm') h += seQcm(S);
   else h += seFin(S);
   main.innerHTML = h + '</div>';
-  if(S && S.phase==='lecture') glossify(main.querySelector('.md'));
+  if(S && S.phase==='lecture'){ const f = byId(D.fiches,S.fiche); glossify(main.querySelector('.md'), f ? blocNum(f.bloc) : null); }
 }
 
 function seAccueil(){
