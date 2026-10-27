@@ -845,7 +845,7 @@ function renderQ(){
     '<div class="grow"></div><span class="timer" id="tmr"></span>'+
     '<span style="color:var(--muted);font-size:13px">'+(Q.i+1)+' / '+Q.list.length+'</span></div>';
   h += '<div class="prog"><i style="width:'+((Q.i)/Q.list.length*100).toFixed(1)+'%"></i></div>';
-  h += '<div class="qnum">'+esc(q.id)+' · '+esc(q.dco)+' · '+esc(q.niveau)+'</div>';
+  h += '<div class="qnum">Fiche '+esc(q.fiche)+' · '+esc(q.dco)+' · '+esc(q.niveau)+'</div>';
   h += '<div class="qtxt">'+inline(q.enonce)+'</div>';
   ['A','B','C'].forEach(L=>{
     if(!q.options[L]) return;
@@ -1172,7 +1172,10 @@ function seNext(){
   if(l.pos>=n){
     l.pos = n; l.fini = today(); marquerLue(f.id);
     if(P.choix===f.id) P.choix = null;
-    S.qs = melange(D.qcm.filter(q=>q.fiche===f.id).map(q=>q.id)); S.qi = 0; S.ans = {};
+    /* garde-fou : une question dont le renvoi pointe vers une fiche pas
+       encore terminée attend que cette fiche le soit */
+    const pret = q => ((q.renvoi||'').match(/[A-Z]{3}-\d{3}/g)||[]).every(r=>r===f.id || finie(r));
+    S.qs = melange(D.qcm.filter(q=>q.fiche===f.id && pret(q)).map(q=>q.id)); S.qi = 0; S.ans = {};
     S.phase = S.qs.length ? 'qcm' : 'fin';
   }
   saveP(); seRender();
@@ -1301,7 +1304,7 @@ function seQcm(S){
   let h = '<div class="se-head"><span><b>Consolidation</b> · question '+(S.qi+1)+' / '+S.qs.length+'</span>'+
     '<div class="grow"></div><button class="lnk" onclick="seSkipQcm()">Passer</button></div>'+
     '<div class="prog"><i style="width:'+(S.qi/S.qs.length*100).toFixed(1)+'%"></i></div>'+
-    '<div class="qnum">'+esc(q.id)+' · '+esc(q.niveau)+'</div><div class="qtxt">'+inline(q.enonce)+'</div>';
+    '<div class="qnum">Fiche '+esc(q.fiche)+' · '+esc(q.niveau)+'</div><div class="qtxt">'+inline(q.enonce)+'</div>';
   ['A','B','C'].forEach(L=>{
     if(!q.options[L]) return;
     let cls = 'opt';
