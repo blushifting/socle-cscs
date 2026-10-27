@@ -236,6 +236,12 @@ label.chk{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:va
 #zoom .x{position:fixed;top:calc(10px + env(safe-area-inset-top));right:12px;z-index:61}
 #zoom .hint{position:fixed;top:calc(18px + env(safe-area-inset-top));left:16px;font-size:12.5px;color:var(--muted)}
 
+/* ---------- bandeau de mise à jour ---------- */
+.maj{position:fixed;left:12px;right:12px;bottom:calc(14px + env(safe-area-inset-bottom));z-index:70;
+  background:var(--text);color:var(--bg);border:0;border-radius:12px;padding:13px 16px;font-size:15px;
+  font-weight:600;text-align:left;box-shadow:0 8px 28px rgba(0,0,0,.3);max-width:520px;margin:0 auto}
+.maj span{display:block;font-weight:400;font-size:13px;opacity:.75;margin-top:2px}
+
 /* ---------- barre mobile ---------- */
 #mbar{display:none}
 #veil{display:none}
@@ -1479,6 +1485,27 @@ if('serviceWorker' in navigator && /^https?:/.test(location.protocol)){
   navigator.serviceWorker.register('sw.js').catch(()=>{});
 }
 try{ if(navigator.storage && navigator.storage.persist) navigator.storage.persist(); }catch(e){}
+
+/* Nouvelle version publiée ? On interroge le site en tâche de fond ; si la
+   date de génération de data.js a changé, la nouvelle version est déjà mise
+   en cache par ce même appel et un bandeau propose de l'afficher. */
+function verifierMaj(){
+  if(!/^https?:/.test(location.protocol) || !navigator.onLine) return;
+  fetch('data.js?frais='+Date.now()).then(r=>r.ok?r.text():null).then(t=>{
+    if(!t) return;
+    const m = t.match(/"genere":\s*"([^"]+)"/);
+    if(m && m[1]!==D.genere && !document.getElementById('maj')){
+      fetch('./?frais='+Date.now()).catch(()=>{});
+      const b = document.createElement('button');
+      b.id='maj'; b.className='maj';
+      b.innerHTML='Nouvelle version disponible <span>Toucher pour l\'afficher</span>';
+      b.onclick=()=>location.reload();
+      document.body.appendChild(b);
+    }
+  }).catch(()=>{});
+}
+setTimeout(verifierMaj, 1500);
+document.addEventListener('visibilitychange', ()=>{ if(document.visibilityState==='visible') verifierMaj(); });
 </script>
 </body>
 </html>

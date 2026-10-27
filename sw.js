@@ -3,7 +3,7 @@
    s'ouvre instantanément et sans réseau ; une nouvelle version de data.js
    publiée sur le site est récupérée en tâche de fond et s'affiche à
    l'ouverture suivante. Changer VERSION force le renouvellement complet. */
-const VERSION = 'socle-v2';
+const VERSION = 'socle-v3';
 const FICHIERS = ['./', 'index.html', 'data.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
@@ -18,6 +18,17 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
+  /* « ?frais » : réseau d'abord, et la réponse remplace la version en cache
+     de la même ressource. Sert à la page pour détecter une nouvelle version. */
+  const url = new URL(req.url);
+  if (url.searchParams.has('frais')) {
+    url.search = '';
+    e.respondWith(fetch(url.href, {cache: 'no-store'}).then(r => {
+      if (r && r.ok) { const c = r.clone(); caches.open(VERSION).then(ca => ca.put(url.href, c)); }
+      return r;
+    }));
+    return;
+  }
   e.respondWith(caches.open(VERSION).then(async cache => {
     const enCache = await cache.match(req, {ignoreSearch: true});
     const reseau = fetch(req).then(r => { if (r && r.ok) cache.put(req, r.clone()); return r; }).catch(() => null);
