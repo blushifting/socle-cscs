@@ -437,12 +437,15 @@ function md2html(md){
       }
       o.push('<div class="tw">'+h+'</table></div>'); continue;
     }
+    /* Listes. Un élément peut se poursuivre sur les lignes suivantes, indentées :
+       elles lui sont rattachées au lieu de former un paragraphe à part. */
+    const suite = x => { while(i<L.length && /^\s+\S/.test(L[i]) && !/^\s*([-*]|\d+\.)\s/.test(L[i])){ x += ' '+L[i].trim(); i++; } return x; };
     if(/^[-*]\s/.test(l)){
-      let b=[]; while(i<L.length && /^[-*]\s/.test(L[i])){ b.push(L[i].replace(/^[-*]\s/,'')); i++; }
+      let b=[]; while(i<L.length && /^[-*]\s/.test(L[i])){ const x=L[i].replace(/^[-*]\s/,''); i++; b.push(suite(x)); }
       o.push('<ul>'+b.map(x=>'<li>'+inline(x)+'</li>').join('')+'</ul>'); continue;
     }
     if(/^\d+\.\s/.test(l)){
-      let b=[]; while(i<L.length && /^\d+\.\s/.test(L[i])){ b.push(L[i].replace(/^\d+\.\s/,'')); i++; }
+      let b=[]; while(i<L.length && /^\d+\.\s/.test(L[i])){ const x=L[i].replace(/^\d+\.\s/,''); i++; b.push(suite(x)); }
       o.push('<ol>'+b.map(x=>'<li>'+inline(x)+'</li>').join('')+'</ol>'); continue;
     }
     let b=[];
@@ -1112,15 +1115,17 @@ function blocsMd(md){
     if(/^---+\s*$/.test(l)){ i++; continue; }
     if(/^>/.test(l)){ const b=[]; while(i<L.length && /^>/.test(L[i])){ b.push(L[i]); i++; } push('p', b); continue; }
     if(/^\|/.test(l)){ const b=[]; while(i<L.length && /^\|/.test(L[i])){ b.push(L[i]); i++; } push('table', b); continue; }
+    /* un élément de liste garde ses lignes de suite, indentées */
+    const item = () => { let x=L[i]; i++; while(i<L.length && /^\s+\S/.test(L[i]) && !/^\s*([-*]|\d+\.)\s/.test(L[i])){ x+='\n'+L[i]; i++; } return x; };
     if(/^[-*]\s/.test(l)){
-      const b=[]; while(i<L.length && /^[-*]\s/.test(L[i])){ b.push(L[i]); i++; }
+      const b=[]; while(i<L.length && /^[-*]\s/.test(L[i])){ b.push(item()); }
       /* une longue liste à puces se coupe entre deux éléments */
       let cur=[], w=0;
       b.forEach(x=>{ const wx=mots(x); if(cur.length && w+wx>SE_PLAFOND){ push('ul',cur); cur=[]; w=0; } cur.push(x); w+=wx; });
       if(cur.length) push('ul',cur);
       continue;
     }
-    if(/^\d+\.\s/.test(l)){ const b=[]; while(i<L.length && /^\d+\.\s/.test(L[i])){ b.push(L[i]); i++; } push('ol', b); continue; }
+    if(/^\d+\.\s/.test(l)){ const b=[]; while(i<L.length && /^\d+\.\s/.test(L[i])){ b.push(item()); } push('ol', b); continue; }
     const b=[];
     while(i<L.length && !/^\s*$/.test(L[i]) && !isBlock(L[i])){ b.push(L[i]); i++; }
     if(b.length) push('p', b); else i++;
