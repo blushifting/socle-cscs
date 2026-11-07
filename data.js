@@ -1,6 +1,6 @@
 // Généré par outils/build.py — ne pas éditer à la main.
 window.SOCLE = {
- "genere": "2026-11-07 11:02",
+ "genere": "2026-11-07 11:09",
  "blocs": [
   {
    "id": "00-methodo",
@@ -3733,7 +3733,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-008",
-   "recto": "Quel est le point faible le plus fréquent des essais en sciences de l'exercice ?",
+   "recto": "Quand on évalue le risque de biais des essais en sciences de l'exercice, quel est le point faible le plus fréquent ?",
    "verso": "Le choix du résultat rapporté : on mesure beaucoup de choses et on met en avant celle qui marche.",
    "tags": [
     "bloc0",
@@ -3763,7 +3763,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-011",
-   "recto": "Que se passe-t-il quand on refait des études publiées avec plus de participants ?",
+   "recto": "Une équipe a refait cent études de psychologie déjà publiées, avec beaucoup plus de participants. Qu'a-t-elle observé ?",
    "verso": "Une bonne partie des effets ne se retrouvent pas, et ceux qui se retrouvent sont nettement plus petits.",
    "tags": [
     "bloc0",
@@ -3833,7 +3833,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-018",
-   "recto": "Résultat non significatif, mais l'intervalle va d'un effet nul à un effet important. Que conclure ?",
+   "recto": "Une étude n'est pas significative, mais son intervalle de confiance va d'un effet nul à un effet important. Que conclure ?",
    "verso": "Rien : l'étude est trop imprécise pour trancher. Ne pas trouver d'effet n'est pas prouver qu'il n'y en a pas.",
    "tags": [
     "bloc0",
@@ -3863,7 +3863,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-021",
-   "recto": "D'où vient le seuil de 0,05 ?",
+   "recto": "D'où vient le seuil de 0,05 utilisé pour dire qu'une valeur p est « significative » ?",
    "verso": "D'une convention, sans justification théorique. Il coupe arbitrairement en deux des résultats qui varient en continu.",
    "tags": [
     "bloc0",
@@ -3933,7 +3933,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-028",
-   "recto": "Quel défaut a le modèle à effets aléatoires ?",
+   "recto": "Dans une méta-analyse, quel défaut a le modèle à effets aléatoires ?",
    "verso": "Il donne relativement plus de poids aux petites études, qui sont les plus exposées à l'exagération.",
    "tags": [
     "bloc0",
@@ -4073,7 +4073,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-042",
-   "recto": "Quel défaut d'un essai fausse le plus les résultats d'après les études qui l'ont mesuré ?",
+   "recto": "Quand on compare des essais bien et mal conduits sur une même question, quel défaut gonfle le plus les effets ?",
    "verso": "Une allocation mal dissimulée : quand on peut deviner le groupe à venir, les effets sont nettement gonflés.",
    "tags": [
     "bloc0",
@@ -4113,7 +4113,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-046",
-   "recto": "Pourquoi n'analyser que ceux qui ont bien suivi le programme fausse-t-il la comparaison ?",
+   "recto": "Dans un essai, pourquoi n'analyser que les participants qui ont bien suivi le programme fausse-t-il la comparaison ?",
    "verso": "Ceux qui suivent bien sont souvent différents : plus motivés, moins blessés. On recrée les différences que le tirage au sort avait effacées.",
    "tags": [
     "bloc0",
@@ -4123,7 +4123,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-047",
-   "recto": "Un article donne les deux analyses, en intention de traiter et sur les assidus. Que regarder ?",
+   "recto": "Un essai publie deux analyses : tous les participants (intention de traiter) et seulement les assidus. Que regarder ?",
    "verso": "L'écart entre les deux. S'il est grand, le résultat dépend surtout de qui a vraiment suivi le programme.",
    "tags": [
     "bloc0",
@@ -4183,7 +4183,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-053",
-   "recto": "Petit, moyen, grand effet (0,2 / 0,5 / 0,8) : d'où viennent ces seuils ?",
+   "recto": "D'où viennent les seuils de Cohen pour la taille d'effet (0,2 petit, 0,5 moyen, 0,8 grand) ?",
    "verso": "D'une convention proposée faute de mieux en psychologie. Ils n'ont aucun fondement en entraînement.",
    "tags": [
     "bloc0",
@@ -4193,8 +4193,8 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-054",
-   "recto": "Comment se situent les tailles d'effet habituelles en musculation par rapport à ces seuils ?",
-   "verso": "Elles sont très au-dessus : selon ces seuils, presque tout serait un « grand » effet.",
+   "recto": "Selon les seuils de Cohen (0,2 petit, 0,5 moyen, 0,8 grand), les tailles d'effet habituelles en musculation sont-elles petites ou grandes ?",
+   "verso": "Grandes : la moyenne en musculation dépasse déjà 0,8, donc selon Cohen presque tout serait un « grand » effet.",
    "tags": [
     "bloc0",
     "MET-004",
@@ -4233,7 +4233,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-058",
-   "recto": "Pourquoi des seuils calculés sur les effets publiés sont-ils peu fiables ?",
+   "recto": "Des échelles « petit / moyen / grand » propres à la musculation ont été tirées des effets publiés. Pourquoi sont-elles peu fiables ?",
    "verso": "Parce que les effets publiés sont eux-mêmes gonflés par les petites études et la sélection des résultats positifs.",
    "tags": [
     "bloc0",
@@ -4313,7 +4313,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-066",
-   "recto": "Les études des domaines voisins sont-elles généralement assez grandes ?",
+   "recto": "En neurosciences, les études sont-elles généralement assez grandes pour trouver ce qu'elles cherchent ?",
    "verso": "Non. Dans plusieurs domaines, la plupart sont trop petites pour détecter de façon fiable les effets qu'elles cherchent.",
    "tags": [
     "bloc0",
@@ -4323,7 +4323,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-067",
-   "recto": "Que penser d'un domaine où plus de huit études sur dix confirment leur hypothèse ?",
+   "recto": "En médecine du sport, plus de huit études publiées sur dix confirment leur hypothèse. Qu'en penser ?",
    "verso": "C'est trop beau : avec des études aussi petites, ça suppose qu'on ne publie surtout que ce qui marche.",
    "tags": [
     "bloc0",
@@ -4373,7 +4373,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-072",
-   "recto": "Pourquoi fixer ce seuil à « 0,2 écart-type » est-il discutable ?",
+   "recto": "Le plus petit changement digne d'intérêt est souvent fixé à « 0,2 écart-type ». Pourquoi est-ce discutable ?",
    "verso": "Parce qu'il dépend du groupe : dans un groupe très homogène, un changement insignifiant passerait le seuil.",
    "tags": [
     "bloc0",
@@ -4403,7 +4403,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-075",
-   "recto": "Quelle est l'issue la plus fréquente quand on croise test classique et test d'équivalence ?",
+   "recto": "Quand on soumet une étude à la fois au test classique et à un test d'équivalence, quelle est l'issue la plus fréquente ?",
    "verso": "« Rien de concluant » : ni effet démontré, ni absence d'effet démontrée.",
    "tags": [
     "bloc0",
@@ -4483,7 +4483,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-083",
-   "recto": "Où se perd le plus de résultats non publiés ?",
+   "recto": "Où disparaissent la plupart des résultats de recherche jamais publiés ?",
    "verso": "Dans le tiroir des chercheurs : les études jamais soumises, impossibles à retrouver.",
    "tags": [
     "bloc0",
@@ -4593,7 +4593,7 @@ window.SOCLE = {
   },
   {
    "id": "00-methodo-094",
-   "recto": "Comment rendre un produit gagnant sans aucun défaut méthodologique visible ?",
+   "recto": "Comment un essai financé par une marque peut-il faire gagner son produit sans aucun défaut méthodologique visible ?",
    "verso": "En le comparant à un témoin faible, que tout produit bat.",
    "tags": [
     "bloc0",
@@ -4823,7 +4823,7 @@ window.SOCLE = {
   },
   {
    "id": "01-biomecanique-017",
-   "recto": "Pourquoi la force calculée d'un muscle est-elle souvent sous-estimée ?",
+   "recto": "Quand on calcule la force d'un muscle à partir du moment net à l'articulation, pourquoi la sous-estime-t-on souvent ?",
    "verso": "Le calcul ne voit que le bilan net. Si les muscles opposés se contractent aussi, le muscle principal doit en plus vaincre leur effort.",
    "tags": [
     "bloc1",
@@ -4883,7 +4883,7 @@ window.SOCLE = {
   },
   {
    "id": "01-biomecanique-023",
-   "recto": "Qu'est-ce qui distingue le pied des sprinteurs dans les études ?",
+   "recto": "Comparé à celui de non-sprinteurs de même taille, qu'a de particulier le pied des sprinteurs ?",
    "verso": "Un bras de levier du tendon d'Achille plus court et des orteils plus longs : un pied qui favorise la vitesse plutôt que la force.",
    "tags": [
     "bloc1",
@@ -4913,7 +4913,7 @@ window.SOCLE = {
   },
   {
    "id": "01-biomecanique-026",
-   "recto": "Pourquoi la montée sur pointes est-elle classée tantôt 1er, tantôt 2e genre ?",
+   "recto": "Pourquoi la montée sur pointes de pieds est-elle classée tantôt comme levier du 1er genre, tantôt du 2e ?",
    "verso": "Tout dépend de l'axe choisi. Pour comprendre l'effort du mollet, c'est la cheville qui compte.",
    "tags": [
     "bloc1",
@@ -5013,8 +5013,8 @@ window.SOCLE = {
   },
   {
    "id": "01-biomecanique-036",
-   "recto": "Quand tient-on en équilibre sans bouger ?",
-   "verso": "Quand l'appui au sol se trouve exactement sous le centre de gravité.",
+   "recto": "Debout et immobile, à quelle condition tient-on en équilibre ?",
+   "verso": "Il faut que le centre de pression, l'appui moyen des pieds, soit exactement sous le centre de gravité.",
    "tags": [
     "bloc1",
     "BIO-005",
@@ -5023,7 +5023,7 @@ window.SOCLE = {
   },
   {
    "id": "01-biomecanique-037",
-   "recto": "Que se passe-t-il quand le centre de gravité s'écarte de l'appui ?",
+   "recto": "Que se passe-t-il quand le centre de gravité s'écarte du centre de pression (l'appui des pieds) ?",
    "verso": "Le corps bascule de ce côté, d'autant plus vite que l'écart est grand.",
    "tags": [
     "bloc1",
@@ -5073,7 +5073,7 @@ window.SOCLE = {
   },
   {
    "id": "01-biomecanique-042",
-   "recto": "Comment tient-on debout ?",
+   "recto": "Qu'est-ce qui nous maintient debout sans tomber ?",
    "verso": "En partie grâce à la raideur naturelle des mollets, en partie grâce à des corrections du système nerveux. Leur part respective est débattue.",
    "tags": [
     "bloc1",
@@ -5223,7 +5223,7 @@ window.SOCLE = {
   },
   {
    "id": "01-biomecanique-057",
-   "recto": "Excentrique et concentrique modifient-ils le muscle de la même façon ?",
+   "recto": "Un entraînement excentrique et un entraînement concentrique modifient-ils l'architecture du muscle de la même façon ?",
    "verso": "Non. L'excentrique allonge surtout les faisceaux, le concentrique augmente surtout leur angle. La prise de volume est semblable.",
    "tags": [
     "bloc1",
@@ -5283,7 +5283,7 @@ window.SOCLE = {
   },
   {
    "id": "01-biomecanique-063",
-   "recto": "Peut-on appliquer directement aux humains les longueurs mesurées chez la grenouille ?",
+   "recto": "La longueur de sarcomère optimale a été mesurée chez la grenouille. Vaut-elle pour l'humain ?",
    "verso": "Non. Les filaments humains sont plus longs, donc la longueur optimale est plus grande.",
    "tags": [
     "bloc1",
@@ -5293,7 +5293,7 @@ window.SOCLE = {
   },
   {
    "id": "01-biomecanique-064",
-   "recto": "Allonger un muscle le rend-il toujours plus faible ?",
+   "recto": "Placer un muscle en position plus allongée le rend-il toujours plus faible ?",
    "verso": "Non. Ça dépend de la zone de la courbe où il travaille : certains muscles perdent de la force, d'autres en gagnent.",
    "tags": [
     "bloc1",
