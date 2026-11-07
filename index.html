@@ -1157,11 +1157,21 @@ const minutes = w => Math.max(1, Math.round(w/SE_MPM));
 function lect(id){ if(!P.lecture) P.lecture={}; return P.lecture[id] || (P.lecture[id] = {pos:0}); }
 function finie(id){ return !!(P.lecture && P.lecture[id] && P.lecture[id].fini); }
 
+/* ordre de lecture : celui de parcours.md, puis les fiches hors parcours */
+let ORDRE = null;
+function ordre(){
+  if(ORDRE) return ORDRE;
+  const rang = {}; (D.parcours||[]).forEach((id,i)=>rang[id]=i);
+  const n = (D.parcours||[]).length;
+  ORDRE = D.fiches.map((f,i)=>[f, rang[f.id]!==undefined ? rang[f.id] : n+i])
+    .sort((a,b)=>a[1]-b[1]).map(x=>x[0]);
+  return ORDRE;
+}
 function ficheDuJour(){
   if(P.choix && byId(D.fiches,P.choix)) return byId(D.fiches,P.choix);
-  const l = P.lecture || {};
-  return D.fiches.find(f=>l[f.id] && !l[f.id].fini && l[f.id].pos>0)
-      || D.fiches.find(f=>!finie(f.id)) || D.fiches[0];
+  const l = P.lecture || {}, fs = ordre();
+  return fs.find(f=>l[f.id] && !l[f.id].fini && l[f.id].pos>0)
+      || fs.find(f=>!finie(f.id)) || fs[0];
 }
 function cartesEchauffement(max){
   const t = today();
@@ -1188,7 +1198,8 @@ function seChoisir(id){
   if(l.fini && l.pos>=pauses(f).length) l.pos = 0;
   saveP(); V.arg = null; seRender();
 }
-function seListe(on){ V.arg = on ? 'liste' : null; seRender(); }
+function seListe(on){ V.arg = on ? 'liste' : null; seRender();
+  const c = on && document.getElementById('se-cur'); if(c) c.scrollIntoView({block:'center'}); }
 
 /* échauffement */
 function seReveal(){ P.seance.montre = true; saveP(); seRender(); }
@@ -1285,16 +1296,17 @@ function seAccueil(){
 function seListeHtml(){
   let h = '<div class="se-head"><button class="lnk" onclick="seListe(false)">← Retour</button><div class="grow"></div>'+
     '<span>Fiche à étudier</span></div><div class="flist">';
-  const cur = ficheDuJour();
-  D.blocs.forEach(b=>{
-    const fs = D.fiches.filter(x=>x.bloc===b.id); if(!fs.length) return;
-    h += '<div class="lbl" style="margin:16px 0 8px">'+esc(b.nom)+'</div>';
+  const cur = ficheDuJour(), np = (D.parcours||[]).length;
+  const nomBloc = id => { const b = D.blocs.find(x=>x.id===id); return b ? b.nom : ''; };
+  [ordre().filter((f,i)=>i<np), ordre().filter((f,i)=>i>=np)].forEach((fs,k)=>{
+    if(!fs.length) return;
+    h += '<div class="lbl" style="margin:16px 0 8px">'+(k ? 'Hors parcours' : 'Parcours, dans l\'ordre')+'</div>';
     fs.forEach(f=>{
       const l = (P.lecture||{})[f.id], n = pauses(f).length;
       const pip = l && l.fini ? '<span class="pip ok">terminée</span>'
         : (l && l.pos>0 ? '<span class="pip on">'+l.pos+' / '+n+'</span>' : '<span class="pip">'+n+' pauses</span>');
-      h += '<button class="item" onclick="seChoisir(\''+f.id+'\')"'+(f.id===cur.id?' style="border-color:var(--accent)"':'')+
-        '><div class="grow"><div class="t">'+esc(f.titre)+'</div><div class="m">'+esc(f.id)+'</div></div>'+pip+'</button>';
+      h += '<button class="item" onclick="seChoisir(\''+f.id+'\')"'+(f.id===cur.id?' id="se-cur" style="border-color:var(--accent)"':'')+
+        '><div class="grow"><div class="t">'+esc(f.titre)+'</div><div class="m">'+esc(f.id)+' · '+esc(nomBloc(f.bloc))+'</div></div>'+pip+'</button>';
     });
   });
   return h+'</div>';
