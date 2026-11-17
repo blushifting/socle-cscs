@@ -1,6 +1,6 @@
 // Généré par outils/build.py — ne pas éditer à la main.
 window.SOCLE = {
- "genere": "2026-11-08 18:34",
+ "genere": "2026-11-17 06:21",
  "blocs": [
   {
    "id": "00-methodo",
@@ -1659,15 +1659,15 @@ window.SOCLE = {
    "fiche": "BIO-001",
    "enonce": "Bras le long du corps, paume contre la cuisse, on enchaîne une flexion de 90°, une abduction\nhorizontale de 90°, puis une adduction de 90° dans le plan frontal. Que constate-t-on à\nl'arrivée ?",
    "options": {
-    "A": "Le bras est revenu le long du corps, mais l'humérus a tourné de 90° en rotation externe sans qu'aucune rotation n'ait été commandée",
+    "A": "Le bras est le long du corps, mais l'humérus a tourné de 90° en rotation externe",
     "B": "Le bras a retrouvé exactement sa position et son orientation de départ",
-    "C": "Le bras se retrouve en abduction de 90° dans le plan frontal"
+    "C": "Le bras est le long du corps, mais l'humérus a tourné de 90° en rotation interne"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "c'est le paradoxe de Codman. Après la flexion, la paume regarde vers l'intérieur ; après l'abduction horizontale, elle regarde vers l'avant ; l'adduction ramène le bras le long du corps sans changer cette orientation. L'humérus a donc tourné de 90° en rotation externe, conséquence de la non-commutativité des rotations en trois dimensions [S044].",
     "Pourquoi pas B": "la position du bras est bien retrouvée, mais pas son orientation autour de son propre axe. C'est tout l'intérêt de l'exercice.",
-    "Pourquoi pas C": "l'adduction finale ramène le bras le long du corps ; il n'est pas en abduction."
+    "Pourquoi pas C": "la rotation acquise est externe, pas interne : après l'abduction horizontale, la paume regarde vers l'avant, et l'adduction finale conserve cette orientation."
    },
    "renvoi": "[[BIO-001]], « Quand les plans ne suffisent plus » · [S044]"
   },
@@ -1697,15 +1697,15 @@ window.SOCLE = {
    "fiche": "BIO-001",
    "enonce": "Une étude compare trois variantes de squat chez des powerlifters par dynamique inverse.\nQu'observe-t-elle à la hanche ?",
    "options": {
-    "A": "Les moments de hanche n'existent que dans le plan sagittal, quelle que soit la variante",
-    "B": "La variante pieds écartés et tibia vertical produit les moments de hanche les plus élevés dans les trois plans",
-    "C": "Les trois variantes produisent des moments de hanche identiques"
+    "A": "Les moments de hanche restent cantonnés au plan sagittal, quelle que soit la variante",
+    "B": "Pieds écartés et tibia vertical donnent les moments de hanche les plus élevés, dans les trois plans",
+    "C": "Les moments de hanche diffèrent peu d'une variante à l'autre, la hanche travaillant surtout en flexion"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "chez douze powerlifters, la variante dite « powerlifting », pieds très écartés et tibia proche de la verticale, a produit à la hanche les moments les plus élevés dans chacun des trois plans [S045]. Un exercice dit sagittal charge la hanche dans les trois plans.",
     "Pourquoi pas A": "c'est précisément ce que l'étude dément. Le plan dominant d'un exercice est un nom, pas un modèle de la charge.",
-    "Pourquoi pas C": "les variantes différaient significativement, à la hanche comme au rachis et à la cheville [S045]."
+    "Pourquoi pas C": "les variantes différaient significativement, à la hanche comme au rachis et à la cheville, et la hanche était chargée dans les trois plans [S045]."
    },
    "renvoi": "[[BIO-001]], « Les exercices ne vivent pas dans un plan » · [S045]"
   },
@@ -1811,9 +1811,9 @@ window.SOCLE = {
    "fiche": "BIO-002",
    "enonce": "On calcule la force du quadriceps en divisant le moment net au genou par le bras de levier du\ntendon rotulien. Pourquoi ce calcul sous-estime-t-il probablement la force réelle ?",
    "options": {
-    "A": "Parce que le bras de levier du tendon rotulien augmente fortement avec la flexion",
-    "B": "Parce que le poids de la jambe n'est pas pris en compte dans le moment net",
-    "C": "Parce que le moment net intègre l'action des ischio-jambiers co-contractés, que le quadriceps doit aussi vaincre"
+    "A": "Parce que le bras de levier du tendon rotulien augmente fortement avec la flexion du genou",
+    "B": "Parce que le poids de la jambe et du pied n'est pas pris en compte dans le moment net",
+    "C": "Parce que le quadriceps doit aussi vaincre les ischio-jambiers co-contractés"
    },
    "reponse": "C",
    "justif": {
@@ -1830,8 +1830,8 @@ window.SOCLE = {
    "fiche": "BIO-002",
    "enonce": "Une étude rapporte la force du tendon d'Achille pendant un effort maximal. Que faut-il en\npenser ?",
    "options": {
-    "A": "C'est une mesure directe, comparable d'une étude à l'autre",
-    "B": "C'est une estimation qui dépend de la fonction de bras de levier retenue, et qui peut varier de plus de 70 % selon ce choix",
+    "A": "C'est une mesure directe de la tension, comparable d'une étude à l'autre",
+    "B": "C'est une estimation, qui varie de plus de 70 % selon le bras de levier retenu",
     "C": "Elle est exacte dès lors que le bras de levier a été mesuré par imagerie"
    },
    "reponse": "B",
@@ -1849,15 +1849,15 @@ window.SOCLE = {
    "fiche": "BIO-002",
    "enonce": "Comment se comporte le bras de levier du biceps au coude, d'après les mesures sur pièces\nanatomiques ?",
    "options": {
-    "A": "Il est constant sur toute l'amplitude",
-    "B": "Il est maximal en flexion complète du coude",
-    "C": "Il varie d'au moins 30 % avec l'angle, culmine coude plutôt tendu, et est plus grand en supination"
+    "A": "Il reste à peu près constant sur toute l'amplitude, quelle que soit la position de l'avant-bras",
+    "B": "Il culmine en flexion complète du coude et est plus grand en pronation",
+    "C": "Il varie d'au moins 30 % avec l'angle et culmine coude plutôt tendu"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "sur pièces anatomiques, les bras de levier de flexion-extension du coude varient d'au moins 30 % sur 95° d'amplitude. Celui du biceps culmine coude plutôt tendu et est plus grand avant-bras en supination [S048].",
     "Pourquoi pas A": "c'est l'hypothèse simplificatrice que l'étude réfute.",
-    "Pourquoi pas B": "le pic se situe dans une position plutôt tendue, pas en flexion complète."
+    "Pourquoi pas B": "le pic se situe coude plutôt tendu, pas en flexion complète, et le bras de levier est plus grand en supination qu'en pronation [S048]."
    },
    "renvoi": "[[BIO-002]], « Le bras de levier n'est pas une constante » · [S048]"
   },
@@ -1944,9 +1944,9 @@ window.SOCLE = {
    "fiche": "BIO-003",
    "enonce": "Pourquoi un levier du troisième genre est-il avantageux malgré son désavantage en force ?",
    "options": {
-    "A": "Il réduit la force que doit transmettre le tendon",
-    "B": "Il augmente le moment maximal que l'articulation peut produire",
-    "C": "Il donne au membre une vitesse et une amplitude élevées tout en limitant la vitesse de raccourcissement du muscle"
+    "A": "Il réduit la force que doit transmettre le tendon, ce qui protège l'insertion",
+    "B": "Il augmente le moment maximal que l'articulation peut produire à vitesse élevée",
+    "C": "Il donne au membre vitesse et amplitude, le muscle se raccourcissant peu et lentement"
    },
    "reponse": "C",
    "justif": {
@@ -1963,7 +1963,7 @@ window.SOCLE = {
    "fiche": "BIO-003",
    "enonce": "Que conclure des études qui relient la longueur du bras de levier du tendon d'Achille à la\nvitesse de sprint ou à l'économie de course ?",
    "options": {
-    "A": "Elles se contredisent, avec des effectifs réduits, des populations et des méthodes de mesure différentes",
+    "A": "Elles se contredisent, sur de petits effectifs aux populations et méthodes variées",
     "B": "Elles convergent : un bras de levier court favorise à la fois la vitesse et l'économie",
     "C": "Elles convergent : un bras de levier long favorise à la fois la vitesse et l'économie"
    },
@@ -2001,14 +2001,14 @@ window.SOCLE = {
    "fiche": "BIO-003",
    "enonce": "D'après une étude sur dix membres supérieurs de tailles très différentes, qu'est-ce qui\nexplique le mieux le bras de levier maximal des muscles du coude ?",
    "options": {
-    "A": "Le volume du muscle",
-    "B": "Le niveau d'entraînement de la personne",
+    "A": "Le volume du muscle, qui écarte son tendon de l'axe en se contractant",
+    "B": "Le niveau d'entraînement et la masse musculaire de la personne",
     "C": "La plus courte distance entre l'axe du coude et les attaches du muscle"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "la plus courte distance entre l'axe du coude et les points d'attache du muscle explique 93 à 99 % des différences de bras de levier maximal entre muscles d'un même bras, et 55 à 88 % des différences entre bras pour trois muscles [S053]. L'avantage mécanique est en grande partie inscrit dans le squelette.",
-    "Pourquoi pas A": "le volume du muscle peut modifier un peu le bras de levier pendant la contraction, mais ce n'est pas ce que mesure l'étude.",
+    "Pourquoi pas A": "le volume du muscle peut modifier un peu le bras de levier pendant la contraction, mais l'étude explique les différences par la géométrie osseuse : la distance entre l'axe et les attaches.",
     "Pourquoi pas B": "l'étude porte sur des pièces anatomiques ; elle explique les différences par la géométrie osseuse, qui ne s'entraîne pas."
    },
    "renvoi": "[[BIO-003]], « Les bras de levier suivent la géométrie des os » · [S053]"
@@ -2021,14 +2021,14 @@ window.SOCLE = {
    "enonce": "Dans quelle unité s'exprime une impulsion ?",
    "options": {
     "A": "En newtons-secondes",
-    "B": "En joules",
-    "C": "En watts"
+    "B": "En newtons-mètres",
+    "C": "En watts-secondes"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "l'impulsion est l'intégrale de la force sur le temps, donc des newtons multipliés par des secondes. Elle s'exprime aussi en kg·m/s, puisqu'elle égale une variation de quantité de mouvement.",
-    "Pourquoi pas B": "le joule est l'unité du travail et de l'énergie.",
-    "Pourquoi pas C": "le watt est l'unité de la puissance."
+    "Pourquoi pas B": "le newton-mètre est l'unité du moment de force ; le joule, qui lui est dimensionnellement égal, est celle du travail. Ni l'un ni l'autre n'est une impulsion.",
+    "Pourquoi pas C": "un watt-seconde est un joule : c'est une unité d'énergie, pas d'impulsion."
    },
    "renvoi": "[[BIO-004]], « Quatre grandeurs, quatre unités »"
   },
@@ -2059,7 +2059,7 @@ window.SOCLE = {
    "enonce": "Le même travail est effectué en 2 secondes au lieu d'une. Que devient la puissance mécanique\nmoyenne ?",
    "options": {
     "A": "Elle est inchangée",
-    "B": "Elle double",
+    "B": "Elle est multipliée par deux",
     "C": "Elle est divisée par deux"
    },
    "reponse": "C",
@@ -2115,15 +2115,15 @@ window.SOCLE = {
    "fiche": "BIO-004",
    "enonce": "Qu'est-ce qui détermine surtout le taux de développement de la force dans les 50 à 75\npremières millisecondes d'une contraction explosive ?",
    "options": {
-    "A": "La raideur du tendon",
-    "B": "La capacité à activer le muscle au maximum d'emblée, notamment par la fréquence de décharge des unités motrices",
-    "C": "La taille des fibres musculaires"
+    "A": "La raideur du tendon, qui transmet plus vite la force au squelette",
+    "B": "L'activation nerveuse d'emblée, notamment la fréquence de décharge",
+    "C": "La taille et le type des fibres musculaires recrutées"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "dans la phase précoce, la pente de la montée en force dépend surtout de la capacité à activer le muscle au maximum d'emblée, en particulier par la fréquence de décharge des unités motrices [S060].",
     "Pourquoi pas A": "la raideur du tendon est corrélée au taux de développement de la force selon les études recensées, mais ce n'est pas le déterminant principal de la phase précoce.",
-    "Pourquoi pas C": "les propriétés contractiles du muscle pèsent davantage au-delà d'environ 75 ms [S060]."
+    "Pourquoi pas C": "les propriétés contractiles du muscle, dont la taille et le type des fibres, pèsent davantage au-delà d'environ 75 ms [S060]."
    },
    "renvoi": "[[BIO-004]], « La courbe force-temps et le taux de développement de la force » · [S060]"
   },
@@ -2154,7 +2154,7 @@ window.SOCLE = {
    "enonce": "Après quatorze semaines d'entraînement lourd du quadriceps, qu'observe l'étude classique\nd'Aagaard et collaborateurs ?",
    "options": {
     "A": "Une hausse de la force maximale seule, le taux de développement de la force restant inchangé",
-    "B": "Une hausse de la force maximale et du taux de développement de la force, avec une activité nerveuse précoce accrue",
+    "B": "Une hausse conjointe de la force maximale et du taux de développement de la force",
     "C": "Une baisse du taux de développement de la force, compensée par la hausse de la force maximale"
    },
    "reponse": "B",
@@ -2172,14 +2172,14 @@ window.SOCLE = {
    "fiche": "BIO-004",
    "enonce": "Deux études rapportent des taux de développement de la force pour des athlètes comparables,\navec des valeurs très différentes. Quelle explication faut-il envisager en premier ?",
    "options": {
-    "A": "Une différence de protocole : consigne, fenêtre de temps et détection du début de la contraction changent le résultat",
-    "B": "Une erreur de calcul dans l'une des deux études",
-    "C": "Une différence de masse corporelle entre les deux groupes"
+    "A": "Une différence de protocole : consigne, fenêtre de temps, détection du début",
+    "B": "Une erreur de calcul dans l'une des deux études, la mesure étant pourtant standard",
+    "C": "Une différence de masse corporelle ou de niveau entre les deux groupes"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "le taux de développement de la force est difficile à mesurer de façon valide et fiable. Le choix du début de la contraction, de la fenêtre et de la consigne change le résultat ; demander de pousser « vite » plutôt que « fort et vite » suffit à augmenter le RFD de crête de 20 à 46 % selon les études recensées [S060].",
-    "Pourquoi pas B": "une erreur est possible, mais ce n'est pas l'explication la plus probable quand les protocoles diffèrent.",
+    "Pourquoi pas B": "une erreur est possible, mais ce n'est pas l'explication la plus probable ; et la mesure n'a rien de standard : son protocole varie d'une étude à l'autre [S060].",
     "Pourquoi pas C": "la masse peut jouer sur une valeur absolue, mais elle n'explique pas à elle seule des écarts que la consigne suffit à produire."
    },
    "renvoi": "[[BIO-004]], « Points de désaccord dans la littérature » · [S060]"
@@ -2191,9 +2191,9 @@ window.SOCLE = {
    "fiche": "BIO-005",
    "enonce": "Qu'est-ce que le centre de pression ?",
    "options": {
-    "A": "Le point où s'applique le poids du corps",
-    "B": "Le point d'application de la résultante des forces que le sol exerce sur les pieds",
-    "C": "Le centre géométrique de la base d'appui"
+    "A": "Le point où s'applique le poids du corps, à la verticale du centre de gravité",
+    "B": "Le point d'application de la résultante des forces du sol sur les pieds",
+    "C": "Le centre géométrique de la surface d'appui des deux pieds au sol"
    },
    "reponse": "B",
    "justif": {
@@ -2248,7 +2248,7 @@ window.SOCLE = {
    "fiche": "BIO-005",
    "enonce": "Pour freiner un corps qui part vers l'avant, où faut-il placer le centre de pression ?",
    "options": {
-    "A": "Sous les talons",
+    "A": "Sous les talons, pour reculer le poids du corps",
     "B": "Exactement à la verticale du centre de gravité",
     "C": "Devant le centre de gravité, vers les orteils"
    },
@@ -2305,9 +2305,9 @@ window.SOCLE = {
    "fiche": "BIO-005",
    "enonce": "Lors d'un squat isométrique maximal sur demi-sphère gonflable, comparé au même effort sur sol\nstable, qu'observe-t-on ?",
    "options": {
-    "A": "Une force similaire et une activité musculaire réduite",
-    "B": "Une force réduite d'environ un cinquième, avec une activité musculaire comparable",
-    "C": "Une force augmentée, du fait du travail des stabilisateurs"
+    "A": "Une force similaire, l'instabilité réduisant surtout l'activité des muscles",
+    "B": "Une force réduite d'environ un cinquième, à activité musculaire comparable",
+    "C": "Une force accrue, les muscles stabilisateurs ajoutant leur contribution"
    },
    "reponse": "B",
    "justif": {
@@ -2326,13 +2326,13 @@ window.SOCLE = {
    "options": {
     "A": "Le système nerveux doit moduler en permanence la force du mollet pour tenir l'équilibre",
     "B": "L'équilibre debout est entièrement assuré par la raideur passive des tissus",
-    "C": "La cheville ne joue aucun rôle dans l'équilibre debout"
+    "C": "La cheville joue un rôle secondaire, l'essentiel du contrôle passant par la hanche"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "une raideur proche mais inférieure à celle nécessaire ne suffit pas à stabiliser le pendule inversé. Les auteurs en concluent que le système nerveux module en permanence la force du mollet, de façon anticipatrice [S068].",
     "Pourquoi pas B": "c'est la position du modèle de raideur, que cette mesure conteste.",
-    "Pourquoi pas C": "la cheville est au contraire l'articulation principale du contrôle de l'équilibre debout dans les deux modèles."
+    "Pourquoi pas C": "la cheville est au contraire l'articulation principale du contrôle de l'équilibre debout dans les deux modèles ; la mesure porte d'ailleurs sur elle."
    },
    "renvoi": "[[BIO-005]], « Points de désaccord dans la littérature » · [S068]"
   },
@@ -2362,15 +2362,15 @@ window.SOCLE = {
    "fiche": "BIO-006",
    "enonce": "Pourquoi le terme « isotonique » décrit-il mal un curl avec haltère ?",
    "options": {
-    "A": "Parce que la masse de l'haltère varie au cours du mouvement",
-    "B": "Parce que la force musculaire varie avec les bras de levier et l'accélération, alors que seule la masse est constante",
-    "C": "Parce que le muscle ne se raccourcit pas pendant un curl"
+    "A": "Parce que la masse de l'haltère ne reste pas constante pendant le mouvement",
+    "B": "Parce que la force musculaire varie avec les bras de levier et l'accélération",
+    "C": "Parce que le muscle travaille en isométrie pendant une partie du curl"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "« isotonique » signifie « à tension constante ». Avec un haltère, la masse est constante, mais la force musculaire varie avec le bras de levier de la charge, celui du muscle, et l'accélération imprimée.",
     "Pourquoi pas A": "la masse de l'haltère ne change pas ; c'est précisément la seule grandeur constante.",
-    "Pourquoi pas C": "le muscle se raccourcit à la montée et s'allonge à la descente."
+    "Pourquoi pas C": "le muscle se raccourcit à la montée et s'allonge à la descente ; l'isométrie se limite aux instants où le mouvement s'inverse."
    },
    "renvoi": "[[BIO-006]], « « Isotonique » : une étiquette trompeuse »"
   },
@@ -2419,9 +2419,9 @@ window.SOCLE = {
    "fiche": "BIO-006",
    "enonce": "Lors d'une mesure isocinétique dans le plan vertical, quelles données faut-il analyser ?",
    "options": {
-    "A": "Seulement celles recueillies à vitesse réellement constante, après correction de l'effet de la gravité",
+    "A": "Seulement celles à vitesse réellement constante, corrigées de la gravité",
     "B": "Toutes les données, y compris les phases d'accélération et de freinage",
-    "C": "Seulement le pic de moment, sans correction"
+    "C": "Le seul pic de moment, qui résume la performance sans autre correction"
    },
    "reponse": "A",
    "justif": {
@@ -2438,8 +2438,8 @@ window.SOCLE = {
    "fiche": "BIO-006",
    "enonce": "Avec un élastique, à quel moment du mouvement la résistance est-elle la plus grande ?",
    "options": {
-    "A": "Au début du mouvement",
-    "B": "Au milieu du mouvement",
+    "A": "Au début du mouvement, quand il faut lancer la charge",
+    "B": "Au milieu du mouvement, comme avec une charge libre",
     "C": "En fin de mouvement, quand l'élastique est le plus étiré"
    },
    "reponse": "C",
@@ -2457,9 +2457,9 @@ window.SOCLE = {
    "fiche": "BIO-006",
    "enonce": "Comment définir le point de blocage d'un exercice ?",
    "options": {
-    "A": "L'angle où la résistance externe est maximale",
-    "B": "L'angle où l'écart entre ce que le muscle peut produire et ce que l'exercice exige est le plus faible",
-    "C": "L'angle où le muscle produit sa force maximale"
+    "A": "L'angle où la résistance externe et son bras de levier sont maximaux",
+    "B": "L'angle où la marge entre capacité du muscle et exigence est la plus faible",
+    "C": "L'angle où le muscle, à sa longueur optimale, produit sa force maximale"
    },
    "reponse": "B",
    "justif": {
@@ -2476,9 +2476,9 @@ window.SOCLE = {
    "fiche": "BIO-006",
    "enonce": "Que peut-on conclure aujourd'hui sur l'ajout d'élastiques ou de chaînes à une barre pour gagner\nen force maximale ?",
    "options": {
-    "A": "Il est clairement supérieur à la charge constante, comme l'a montré une méta-analyse de 2015",
-    "B": "Il est inférieur à la charge constante",
-    "C": "Les méta-analyses récentes se contredisent et la plus ancienne a été rétractée : il est au moins équivalent, avec un éventuel avantage modeste"
+    "A": "Il est clairement supérieur à la charge constante, d'après une méta-analyse de 2015",
+    "B": "Il est inférieur à la charge constante, la résistance manquant en bas du mouvement",
+    "C": "Les synthèses divergent ; il est au moins équivalent, avec un avantage modeste possible"
    },
    "reponse": "C",
    "justif": {
@@ -2552,9 +2552,9 @@ window.SOCLE = {
    "fiche": "BIO-007",
    "enonce": "Deux muscles ont le même volume. Le premier est fait de nombreuses fibres courtes, le second de\nfibres longues moins nombreuses. Que peut-on en déduire ?",
    "options": {
-    "A": "Le premier est plus fort ; le second a plus d'amplitude et de vitesse de raccourcissement",
-    "B": "Le second est plus fort ; le premier a plus d'amplitude",
-    "C": "Ils ont les mêmes capacités, puisque leur volume est identique"
+    "A": "Le premier est plus fort ; le second a plus d'amplitude et de vitesse",
+    "B": "Le second est plus fort ; le premier a plus d'amplitude et de vitesse",
+    "C": "Ils ont les mêmes capacités, la force dépendant du volume musculaire"
    },
    "reponse": "A",
    "justif": {
@@ -2590,9 +2590,9 @@ window.SOCLE = {
    "fiche": "BIO-007",
    "enonce": "Pourquoi la pennation peut-elle rendre un muscle plus fort, alors que chaque fibre oblique perd\nune partie de sa traction ?",
    "options": {
-    "A": "Parce qu'elle permet de loger davantage de fibres dans le même volume, ce qui augmente la section physiologique",
-    "B": "Parce qu'elle augmente la vitesse de raccourcissement des fibres",
-    "C": "Parce qu'elle allonge les fibres"
+    "A": "Parce qu'elle loge plus de fibres dans le même volume, d'où une section accrue",
+    "B": "Parce qu'elle augmente la vitesse de raccourcissement de chaque fibre",
+    "C": "Parce qu'elle allonge les fibres, qui comptent alors plus de sarcomères"
    },
    "reponse": "A",
    "justif": {
@@ -2611,13 +2611,13 @@ window.SOCLE = {
    "options": {
     "A": "Le soléaire, le moyen fessier et le vaste latéral",
     "B": "Le sartorius, le gracile et le semi-tendineux",
-    "C": "Le droit fémoral et les vastes"
+    "C": "Le droit fémoral, le vaste médial et le vaste intermédiaire"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "d'après leur architecture, le sartorius, le gracile et le semi-tendineux ont la plus grande amplitude ; le soléaire, le moyen fessier et le vaste latéral sont les plus forts [S078].",
     "Pourquoi pas A": "ce sont les muscles les plus forts, pas les plus amples.",
-    "Pourquoi pas C": "l'étude ne les classe pas parmi les plus amples, et le vaste latéral fait partie des plus forts."
+    "Pourquoi pas C": "l'étude ne classe pas le quadriceps parmi les muscles les plus amples ; le vaste latéral fait même partie des plus forts [S078]."
    },
    "renvoi": "[[BIO-007]], « Deux grandeurs qui résument un muscle » · [S078]"
   },
@@ -2630,13 +2630,13 @@ window.SOCLE = {
    "options": {
     "A": "L'excentrique allonge surtout les faisceaux, le concentrique augmente surtout l'angle de pennation",
     "B": "Le concentrique allonge surtout les faisceaux, l'excentrique augmente surtout la pennation",
-    "C": "Aucune : les deux modes produisent la même architecture"
+    "C": "Les deux allongent autant les faisceaux, seul le concentrique augmentant la pennation"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "longueur des faisceaux + 12 % avec l'excentrique contre + 5 % avec le concentrique ; angle de pennation + 30 % avec le concentrique contre + 5 % avec l'excentrique, pour une croissance semblable [S080].",
     "Pourquoi pas B": "c'est l'inverse des résultats.",
-    "Pourquoi pas C": "la croissance et le gain de force étaient semblables, mais pas l'architecture."
+    "Pourquoi pas C": "les deux modes n'allongeaient pas autant les faisceaux : + 12 % en excentrique contre + 5 % en concentrique [S080]."
    },
    "renvoi": "[[BIO-007]], « L'architecture s'adapte au type d'effort » · [S080]"
   },
@@ -2649,7 +2649,7 @@ window.SOCLE = {
    "options": {
     "A": "Oui, puisque seule une addition de sarcomères peut allonger un faisceau",
     "B": "Non : c'est une hypothèse plausible, mais l'étude n'a pas compté les sarcomères",
-    "C": "Non : l'excentrique raccourcit les sarcomères"
+    "C": "Non : l'excentrique raccourcit au contraire les sarcomères existants"
    },
    "reponse": "B",
    "justif": {
@@ -2666,9 +2666,9 @@ window.SOCLE = {
    "fiche": "BIO-007",
    "enonce": "Chez des hommes allant du non-entraîné au culturiste, comment l'angle de pennation du triceps\nbrachial se comporte-t-il ?",
    "options": {
-    "A": "Il est plus faible chez les culturistes",
-    "B": "Il ne varie pas avec le niveau d'entraînement",
-    "C": "Il est plus grand chez les culturistes et fortement corrélé à l'épaisseur du muscle"
+    "A": "Il est plus faible chez les culturistes, les fibres s'alignant sur le tendon",
+    "B": "Il ne varie pas avec le niveau, l'architecture étant fixée par la génétique",
+    "C": "Il est plus grand chez les culturistes et suit l'épaisseur du muscle"
    },
    "reponse": "C",
    "justif": {
@@ -2687,7 +2687,7 @@ window.SOCLE = {
    "options": {
     "A": "Les filaments d'actine et de myosine raccourcissent pendant la contraction",
     "B": "Les filaments coulissent les uns entre les autres sans changer de longueur",
-    "C": "Seuls les filaments de myosine raccourcissent"
+    "C": "Seuls les filaments de myosine raccourcissent, en tirant sur l'actine"
    },
    "reponse": "B",
    "justif": {
@@ -2705,8 +2705,8 @@ window.SOCLE = {
    "enonce": "D'où vient la force produite par un sarcomère ?",
    "options": {
     "A": "Des ponts d'union entre les têtes de myosine et les filaments d'actine",
-    "B": "Du raccourcissement des filaments d'actine",
-    "C": "De l'élasticité du tendon"
+    "B": "Du raccourcissement des filaments d'actine sous l'effet du calcium",
+    "C": "De l'élasticité du tendon, mise en tension par l'étirement"
    },
    "reponse": "A",
    "justif": {
@@ -2723,15 +2723,15 @@ window.SOCLE = {
    "fiche": "BIO-008",
    "enonce": "Pourquoi un sarcomère très étiré produit-il peu de force active ?",
    "options": {
-    "A": "Parce que ses filaments se gênent",
-    "B": "Parce que le chevauchement diminue et que peu de têtes de myosine trouvent un filament d'actine",
-    "C": "Parce qu'il manque d'ATP"
+    "A": "Parce que ses filaments se chevauchent trop et se gênent mutuellement",
+    "B": "Parce que le chevauchement diminue et que peu de têtes de myosine sont en prise",
+    "C": "Parce que l'étirement freine l'arrivée du calcium et de l'ATP aux têtes de myosine"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "sur la branche descendante, la force suit le chevauchement entre filaments ; quand il diminue, moins de têtes de myosine sont en prise [S083].",
     "Pourquoi pas A": "la gêne entre filaments concerne au contraire le sarcomère trop raccourci.",
-    "Pourquoi pas C": "la baisse de force à l'étirement est géométrique, pas énergétique."
+    "Pourquoi pas C": "la baisse de force à l'étirement est géométrique : elle tient au chevauchement des filaments, pas à l'apport de calcium ou d'énergie."
    },
    "renvoi": "[[BIO-008]], « La relation longueur-tension » · [S083]"
   },
@@ -2780,15 +2780,15 @@ window.SOCLE = {
    "fiche": "BIO-008",
    "enonce": "Un extenseur du poignet travaille sur la branche descendante de sa relation longueur-tension, le\ngastrocnémien sur la branche ascendante. Quelle conclusion générale en tirer ?",
    "options": {
-    "A": "Étirer un muscle l'affaiblit toujours",
-    "B": "Selon la portion de courbe qu'il utilise, un muscle gagne ou perd de la force en s'allongeant",
-    "C": "La longueur du muscle n'a pas d'effet sur sa force in vivo"
+    "A": "Étirer un muscle l'affaiblit toujours, quelle que soit sa longueur de départ",
+    "B": "Selon sa portion de courbe, un muscle gagne ou perd de la force en s'allongeant",
+    "C": "La longueur n'a d'effet sur la force que dans les muscles bi-articulaires"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "le même allongement renforce un muscle sur sa branche ascendante et affaiblit un muscle sur sa branche descendante. C'est la portion de courbe utilisée qui décide [S084], [S085].",
     "Pourquoi pas A": "c'est faux pour un muscle sur sa branche ascendante, comme le gastrocnémien.",
-    "Pourquoi pas C": "les deux études montrent au contraire un effet net de la longueur."
+    "Pourquoi pas C": "rien ne réserve cet effet aux muscles bi-articulaires : la relation longueur-tension est une propriété du sarcomère, et les deux études montrent un effet net de la longueur [S084], [S085]."
    },
    "renvoi": "[[BIO-008]], « Chaque muscle travaille sur sa portion de courbe »"
   },
@@ -2818,9 +2818,9 @@ window.SOCLE = {
    "fiche": "BIO-008",
    "enonce": "Que disent les synthèses de la littérature sur l'entraînement en position longue ?",
    "options": {
-    "A": "Elles confirment un avantage important et bien établi",
-    "B": "Les essais isolés sont favorables, mais les méta-analyses concluent à des différences faibles ou incertaines",
-    "C": "Elles montrent que la position longue est défavorable"
+    "A": "Elles confirment un avantage net, observé dans plusieurs essais randomisés",
+    "B": "Elles concluent à des différences faibles ou incertaines, malgré des essais favorables",
+    "C": "Elles montrent un désavantage, la tension passive limitant la charge utilisable"
    },
    "reponse": "B",
    "justif": {
@@ -2837,9 +2837,9 @@ window.SOCLE = {
    "fiche": "BIO-008",
    "enonce": "En fin d'amplitude, un muscle étiré paraît très tendu. Qu'en penser ?",
    "options": {
-    "A": "Cette tension vient en partie de la force passive, et ne garantit pas une force active élevée",
-    "B": "Elle prouve que le muscle produit sa force active maximale",
-    "C": "Elle indique que le muscle est fatigué"
+    "A": "Elle vient en partie de la force passive et ne garantit pas une force active élevée",
+    "B": "Elle montre que le muscle produit sa force active maximale à cette longueur",
+    "C": "Elle indique que le muscle se fatigue en fin d'amplitude, faute d'irrigation"
    },
    "reponse": "A",
    "justif": {
@@ -2932,9 +2932,9 @@ window.SOCLE = {
    "fiche": "BIO-009",
    "enonce": "Pourquoi la relation force-vitesse mesurée sous les pieds dans une presse est-elle quasi linéaire, alors que celle du muscle est hyperbolique ?",
    "options": {
-    "A": "Parce que le système nerveux inhibe les muscles à faible charge",
-    "B": "Parce qu'à grande vitesse une part croissante de la force musculaire sert à accélérer les segments eux-mêmes",
-    "C": "Parce que les muscles de la cuisse ne suivent pas la relation de Hill"
+    "A": "Parce que le système nerveux inhibe les muscles quand la charge est faible",
+    "B": "Parce qu'à grande vitesse, une part croissante de la force accélère les segments",
+    "C": "Parce que les muscles de la cuisse s'écartent de la relation de Hill en contraction rapide"
    },
    "reponse": "B",
    "justif": {
@@ -2953,7 +2953,7 @@ window.SOCLE = {
    "options": {
     "A": "Une activité électrique du muscle environ six fois plus forte",
     "B": "Une consommation d'oxygène environ six fois plus faible",
-    "C": "Un coût énergétique identique"
+    "C": "Un coût énergétique identique, l'effort mécanique étant le même"
    },
    "reponse": "B",
    "justif": {
@@ -2970,9 +2970,9 @@ window.SOCLE = {
    "fiche": "BIO-009",
    "enonce": "Chez un débutant, la force excentrique maximale volontaire du quadriceps ne dépasse pas sa force isométrique. Quelle interprétation la littérature citée permet-elle ?",
    "options": {
-    "A": "C'est la preuve que le muscle humain ne suit pas la relation force-vitesse",
-    "B": "Une inhibition nerveuse est souvent avancée, mais le résultat dépend aussi beaucoup des conditions de mesure",
-    "C": "C'est un défaut de l'entraînement, qui ne peut pas être corrigé"
+    "A": "C'est la preuve que le muscle humain échappe à la relation force-vitesse",
+    "B": "Une inhibition nerveuse est souvent avancée, mais la mesure pèse aussi beaucoup",
+    "C": "C'est une limite de la commande que l'entraînement ne parvient pas à lever"
    },
    "reponse": "B",
    "justif": {
@@ -2989,9 +2989,9 @@ window.SOCLE = {
    "fiche": "BIO-009",
    "enonce": "Un entraîneur propose de bâtir le programme de saut de chaque athlète sur son « déséquilibre force-vitesse ». Que dit la méta-analyse de 2025 ?",
    "options": {
-    "A": "L'approche corrige le profil mais n'améliore pas le saut davantage qu'un entraînement non ciblé",
-    "B": "L'approche améliore le saut nettement plus qu'un entraînement classique",
-    "C": "L'approche détériore la performance en saut"
+    "A": "Le profil se corrige, mais le saut ne progresse pas plus qu'avec un entraînement non ciblé",
+    "B": "Le saut progresse nettement plus qu'avec un entraînement classique, profil corrigé",
+    "C": "Le profil se corrige au prix d'une baisse de la performance en saut"
    },
    "reponse": "A",
    "justif": {
@@ -3065,8 +3065,8 @@ window.SOCLE = {
    "fiche": "BIO-010",
    "enonce": "Au-delà de 50 % de sa force maximale, comment l'adducteur du pouce augmente-t-il encore sa force ?",
    "options": {
-    "A": "En recrutant ses plus grosses unités motrices",
-    "B": "En allongeant ses fibres",
+    "A": "En recrutant ses plus grosses unités motrices, restées en réserve",
+    "B": "En allongeant ses fibres vers leur longueur optimale",
     "C": "En augmentant la fréquence de décharge des unités déjà actives"
    },
    "reponse": "C",
@@ -3084,9 +3084,9 @@ window.SOCLE = {
    "fiche": "BIO-010",
    "enonce": "Qu'est-ce qui distingue une contraction balistique d'une montée en force lente, pour une même unité motrice ?",
    "options": {
-    "A": "Elle décharge d'emblée à très haute fréquence, avant même que la force ne monte",
-    "B": "Elle est recrutée dans un ordre différent",
-    "C": "Elle n'est pas recrutée du tout"
+    "A": "Elle décharge d'emblée à très haute fréquence, avant que la force ne monte",
+    "B": "Elle est recrutée plus tôt, avant les petites unités, pour gagner du temps",
+    "C": "Elle n'est pas recrutée, la force venant d'unités spécialisées"
    },
    "reponse": "A",
    "justif": {
@@ -3105,7 +3105,7 @@ window.SOCLE = {
    "options": {
     "A": "Le gain vient d'une transformation des fibres lentes en fibres rapides",
     "B": "La mesure est fausse, puisque les deux devraient évoluer ensemble",
-    "C": "Le gain de vitesse est surtout nerveux"
+    "C": "Le gain de vitesse est surtout d'origine nerveuse"
    },
    "reponse": "C",
    "justif": {
@@ -3122,15 +3122,15 @@ window.SOCLE = {
    "fiche": "BIO-010",
    "enonce": "Un client gagne nettement en force dans les quatre premières semaines sans prise de volume visible. Quelle explication est la mieux soutenue ?",
    "options": {
-    "A": "Des adaptations nerveuses, comme une fréquence de décharge plus élevée et des seuils de recrutement abaissés",
-    "B": "Une erreur de mesure, car la force ne peut augmenter sans hypertrophie",
-    "C": "Une transformation complète du type de ses fibres"
+    "A": "Des adaptations nerveuses : fréquence de décharge accrue, seuils de recrutement abaissés",
+    "B": "Une erreur de mesure, la force ne pouvant guère augmenter sans hypertrophie",
+    "C": "Une conversion rapide de ses fibres lentes en fibres rapides"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "le suivi direct des unités motrices après quatre semaines montre une fréquence de décharge plus élevée et des seuils de recrutement abaissés ; les facteurs nerveux dominent les premiers gains.",
     "Pourquoi pas B": "la force peut augmenter sans hypertrophie grâce à une meilleure commande nerveuse.",
-    "Pourquoi pas C": "aucune des études citées ne rapporte un tel changement en quatre semaines."
+    "Pourquoi pas C": "aucune des études citées ne rapporte un tel changement de type en quatre semaines."
    },
    "renvoi": "[[BIO-010]], « Ce que l'entraînement change d'abord »"
   },
@@ -3141,15 +3141,15 @@ window.SOCLE = {
    "fiche": "BIO-010",
    "enonce": "Une vidéo affirme qu'une charge légère « n'active pas les fibres rapides » parce que l'électromyographie de surface est plus faible qu'avec une charge lourde. Quelle objection est la plus solide ?",
    "options": {
-    "A": "Menée jusqu'à l'échec, une charge légère vide autant le glycogène des fibres de type II qu'une charge lourde, et l'amplitude électromyographique ne mesure pas directement le recrutement",
-    "B": "L'électromyographie de surface mesure exactement le nombre de fibres recrutées, donc l'argument est juste",
-    "C": "Les fibres rapides ne sont jamais recrutées en musculation"
+    "A": "Menée à l'échec, la charge légère vide aussi le glycogène des fibres de type II",
+    "B": "L'électromyographie de surface compte exactement les fibres recrutées : l'argument tient",
+    "C": "Les fibres rapides ne sont recrutées qu'au-delà de 85 % du maximum, quelle que soit la série"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "une étude par biopsie a montré une activation des fibres de type I et II comparable jusqu'à l'échec, sans lien avec l'amplitude électromyographique ; une revue rappelle que cette amplitude ne permet pas de conclure au recrutement.",
     "Pourquoi pas B": "l'amplitude de l'électromyographie de surface dépend de nombreux facteurs et n'est pas un comptage de fibres.",
-    "Pourquoi pas C": "les fibres de type II sont activées, en particulier près de l'échec."
+    "Pourquoi pas C": "les fibres de type II sont activées sous des charges bien plus légères, en particulier près de l'échec ; aucun seuil fixe de charge ne conditionne leur recrutement."
    },
    "renvoi": "[[BIO-010]], « Points de désaccord dans la littérature »"
   },
@@ -3236,9 +3236,9 @@ window.SOCLE = {
    "fiche": "BIO-011",
    "enonce": "Trois mois après l'arrêt d'un programme de force, la myosine IIx dépasse son niveau de départ. Un athlète en conclut qu'une coupure le rendra plus rapide. Quelle objection est la plus solide ?",
    "options": {
-    "A": "La myosine IIx n'existe pas chez l'humain",
-    "B": "Pendant un arrêt, la composition des fibres ne change pas",
-    "C": "Dans cette étude, la force était simplement revenue à son niveau initial : le rebond ne s'accompagnait d'aucun gain mesuré"
+    "A": "La myosine IIx n'existe pas chez l'humain, où l'on ne trouve que la IIa",
+    "B": "Pendant un arrêt, la composition des fibres reste stable, seul leur volume change",
+    "C": "La force était seulement revenue à son niveau initial, sans gain mesuré"
    },
    "reponse": "C",
    "justif": {
@@ -3274,9 +3274,9 @@ window.SOCLE = {
    "fiche": "BIO-011",
    "enonce": "Un coach programme des séries légères « pour les fibres lentes » et des séries lourdes « pour les fibres rapides ». Quelle critique est la mieux étayée ?",
    "options": {
-    "A": "Le principe est juste : chaque charge ne sollicite qu'un type de fibre",
-    "B": "Menées jusqu'à l'échec, charges légères et lourdes sollicitent les deux types et font grossir les fibres de type I",
-    "C": "Les fibres de type I ne grossissent jamais, quelle que soit la charge"
+    "A": "Le principe est juste : chaque charge sollicite surtout un type de fibre",
+    "B": "Menées à l'échec, charges légères et lourdes sollicitent les deux types",
+    "C": "Les fibres de type I ne grossissent pas, quelle que soit la charge employée"
    },
    "reponse": "B",
    "justif": {
@@ -3350,9 +3350,9 @@ window.SOCLE = {
    "fiche": "BIO-012",
    "enonce": "Au début d'une contraction volontaire, le muscle se raccourcit, et pourtant la décharge de ses fuseaux augmente. Pourquoi ?",
    "options": {
-    "A": "L'organe tendineux excite le fuseau",
+    "A": "L'organe tendineux excite le fuseau dès que la force monte",
     "B": "Les motoneurones gamma sont activés en même temps que ceux du muscle",
-    "C": "Le fuseau mesure la force, pas la longueur"
+    "C": "Le fuseau mesure la force du muscle, pas sa longueur"
    },
    "reponse": "B",
    "justif": {
@@ -3370,7 +3370,7 @@ window.SOCLE = {
    "enonce": "On percute le tendon rotulien et le quadriceps se contracte. Que reçoivent au même moment les motoneurones des ischio-jambiers ?",
    "options": {
     "A": "Une excitation directe par l'afférence Ia du quadriceps",
-    "B": "Aucun signal",
+    "B": "Aucun signal, le réflexe restant limité au muscle étiré",
     "C": "Une inhibition, par un interneurone"
    },
    "reponse": "C",
@@ -3388,15 +3388,15 @@ window.SOCLE = {
    "fiche": "BIO-012",
    "enonce": "Un manuel affirme que l'organe tendineux coupe la contraction quand la charge devient dangereuse, et que l'entraînement lève ce frein. Quelle évaluation est la mieux étayée ?",
    "options": {
-    "A": "C'est démontré chez l'humain en contraction maximale",
-    "B": "Aucune donnée n'existe en contraction volontaire maximale, et rien ne montre que l'entraînement réduise ce frein",
-    "C": "C'est démontré, mais seulement chez les athlètes de force"
+    "A": "C'est démontré chez l'humain, y compris en contraction maximale",
+    "B": "Rien ne le montre en contraction maximale, ni que l'entraînement lève ce frein",
+    "C": "C'est démontré chez l'animal, et l'entraînement lève ce frein chez les athlètes"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "chez l'animal, l'inhibition autogène varie beaucoup et manque parfois ; aucune donnée n'existe en contraction volontaire maximale, et aucune étude ne montre que l'entraînement la réduise.",
     "Pourquoi pas A": "la seule étude humaine, en contraction modérée, montre même une baisse de cette inhibition pendant la production de force.",
-    "Pourquoi pas C": "aucune étude ne le démontre, chez aucun type d'athlète."
+    "Pourquoi pas C": "chez l'animal, l'inhibition autogène varie beaucoup et manque parfois ; et aucune étude ne montre que l'entraînement la réduise, chez aucun type d'athlète."
    },
    "renvoi": "[[BIO-012]], « Points de désaccord dans la littérature »"
   },
@@ -3427,8 +3427,8 @@ window.SOCLE = {
    "enonce": "Un entraîneur place des sauts pliométriques à la fin d'une séance épuisante de sauts. Quel inconvénient la fiche permet-elle d'anticiper ?",
    "options": {
     "A": "Une contribution du réflexe d'étirement fortement réduite par la fatigue",
-    "B": "Un réflexe d'étirement trop fort, qui bloquerait le saut",
-    "C": "Aucun : la fatigue n'agit pas sur ce réflexe"
+    "B": "Un réflexe d'étirement renforcé, qui raidirait trop le muscle",
+    "C": "Aucun : la fatigue n'agit pas sur ce réflexe, seulement sur la force"
    },
    "reponse": "A",
    "justif": {
@@ -3445,9 +3445,9 @@ window.SOCLE = {
    "fiche": "BIO-012",
    "enonce": "Après quatorze semaines de musculation lourde, le réflexe H au repos n'a pas changé, mais il augmente pendant la contraction maximale, comme l'onde V. Quelle conclusion est la plus juste ?",
    "options": {
-    "A": "Les adaptations nerveuses se voient pendant l'effort maximal : commande centrale plus forte, motoneurones plus excitables",
-    "B": "L'entraînement n'a produit aucune adaptation nerveuse",
-    "C": "L'entraînement a supprimé l'inhibition par l'organe tendineux"
+    "A": "Les adaptations nerveuses se voient pendant l'effort maximal, pas au repos",
+    "B": "L'entraînement n'a produit aucune adaptation nerveuse mesurable",
+    "C": "L'entraînement a levé l'inhibition exercée par l'organe tendineux"
    },
    "reponse": "A",
    "justif": {
@@ -3502,14 +3502,14 @@ window.SOCLE = {
    "fiche": "BIO-013",
    "enonce": "Pendant une extension isocinétique maximale du genou, que font les ischio-jambiers dans l'étude citée ?",
    "options": {
-    "A": "Ils sont totalement relâchés",
+    "A": "Ils sont relâchés, par inhibition réciproque",
     "B": "Ils aident le quadriceps à étendre le genou",
     "C": "Ils produisent un moment opposé d'environ 30 N·m"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "chez seize hommes, les ischio-jambiers produisaient un moment fléchisseur d'environ 30 N·m, à peu près constant sur toute l'amplitude.",
-    "Pourquoi pas A": "c'est l'idée reçue que la mesure contredit.",
+    "Pourquoi pas A": "c'est l'idée reçue que la mesure contredit : l'inhibition réciproque n'empêche pas une cocontraction réelle.",
     "Pourquoi pas B": "au genou, les ischio-jambiers sont fléchisseurs : leur moment s'oppose à l'extension."
    },
    "renvoi": "[[BIO-013]], « L'antagoniste travaille aussi »"
@@ -3521,9 +3521,9 @@ window.SOCLE = {
    "fiche": "BIO-013",
    "enonce": "Le moment net mesuré au genou pendant une extension maximale vaut 100 N·m. Que peut-on dire du moment produit par le quadriceps ?",
    "options": {
-    "A": "Il vaut exactement 100 N·m",
-    "B": "Il est plus grand, car le quadriceps doit aussi vaincre le moment des ischio-jambiers",
-    "C": "Il est plus petit, car les ischio-jambiers l'aident"
+    "A": "Il vaut 100 N·m, le moment net étant celui du quadriceps",
+    "B": "Il est plus grand, car il doit aussi vaincre les ischio-jambiers",
+    "C": "Il est plus petit, car les ischio-jambiers l'aident à étendre"
    },
    "reponse": "B",
    "justif": {
@@ -3578,9 +3578,9 @@ window.SOCLE = {
    "fiche": "BIO-013",
    "enonce": "Un coach conseille le mollet assis « pour cibler le soléaire ». Que dit l'essai cité ?",
    "options": {
-    "A": "Il a raison : le soléaire grossit davantage assis",
-    "B": "Le soléaire a grossi autant debout qu'assis ; seul le gastrocnémien grossissait bien davantage debout",
-    "C": "Le soléaire n'a grossi dans aucune des deux positions"
+    "A": "Il a raison : le soléaire grossit davantage en position assise",
+    "B": "Le soléaire a grossi autant dans les deux positions",
+    "C": "Le soléaire n'a grossi dans aucune des deux positions testées"
    },
    "reponse": "B",
    "justif": {
@@ -3598,8 +3598,8 @@ window.SOCLE = {
    "enonce": "Dans un saut ou un sprint, d'où vient une part notable du travail d'extension du genou d'après les modèles cités ?",
    "options": {
     "A": "Du droit fémoral, qui transfère vers le genou l'énergie produite à la hanche",
-    "B": "Uniquement des vastes",
-    "C": "Des ischio-jambiers, qui étendent le genou"
+    "B": "Uniquement des vastes, seuls extenseurs monoarticulaires du genou",
+    "C": "Des ischio-jambiers, qui étendent le genou en fin d'appui"
    },
    "reponse": "A",
    "justif": {
@@ -3636,7 +3636,7 @@ window.SOCLE = {
    "enonce": "Quel rôle attribue-t-on aux ostéocytes ?",
    "options": {
     "A": "Percevoir les contraintes mécaniques",
-    "B": "Résorber l'os",
+    "B": "Résorber l'os ancien ou endommagé",
     "C": "Fabriquer le cartilage articulaire"
    },
    "reponse": "A",
@@ -3654,9 +3654,9 @@ window.SOCLE = {
    "fiche": "BIO-014",
    "enonce": "Une joueuse a commencé le tennis à 8 ans, avant ses premières règles ; une autre à 35 ans. Que prévoir pour l'écart de minéral osseux entre leurs deux bras ?",
    "options": {
-    "A": "Le même écart chez les deux",
+    "A": "Le même écart chez les deux, à volume de jeu égal",
     "B": "Un écart deux à quatre fois plus grand chez la première",
-    "C": "Un écart plus grand chez la seconde"
+    "C": "Un écart plus grand chez la seconde, à l'os déjà mature"
    },
    "reponse": "B",
    "justif": {
@@ -3674,7 +3674,7 @@ window.SOCLE = {
    "enonce": "Un cycliste master très entraîné ne fait presque aucun exercice en charge. Que lui conseiller pour son squelette ?",
    "options": {
     "A": "Ajouter de la musculation ou des impacts",
-    "B": "Augmenter son volume de vélo",
+    "B": "Augmenter son volume de vélo, en côte",
     "C": "Rien : un athlète entraîné a des os solides"
    },
    "reponse": "A",
@@ -3692,9 +3692,9 @@ window.SOCLE = {
    "fiche": "BIO-014",
    "enonce": "Quelle conclusion tirer de l'essai LIFTMOR chez des femmes ménopausées à masse osseuse basse ?",
    "options": {
-    "A": "La musculation lourde prévient les fractures, c'est démontré",
-    "B": "Supervisée, elle a augmenté la densité du rachis avec un seul incident mineur ; l'effet sur les fractures n'a pas été mesuré",
-    "C": "Elle est dangereuse et doit être proscrite"
+    "A": "Elle prévient les fractures, ce que l'essai a démontré directement",
+    "B": "Supervisée, elle a accru la densité du rachis sans incident sérieux",
+    "C": "Elle est trop risquée à ce niveau de masse osseuse et doit être proscrite"
    },
    "reponse": "B",
    "justif": {
@@ -3731,8 +3731,8 @@ window.SOCLE = {
    "enonce": "En orbite, le tibia des cosmonautes perd de l'os, mais pas leur radius. Que montre ce contraste ?",
    "options": {
     "A": "L'os s'adapte localement à la charge qu'il porte habituellement",
-    "B": "L'apesanteur abîme tous les os de la même façon",
-    "C": "L'entraînement à bord prévient toute perte osseuse"
+    "B": "L'apesanteur fait perdre de l'os partout, au même rythme",
+    "C": "L'entraînement à bord prévient la perte osseuse dans tout le corps"
    },
    "reponse": "A",
    "justif": {
@@ -3749,8 +3749,8 @@ window.SOCLE = {
    "fiche": "BIO-014",
    "enonce": "Chez le rat, 360 chargements quotidiens ont été donnés soit d'un seul tenant, soit en quatre séances espacées de trois heures. Qu'est-ce qui a produit le plus d'os ?",
    "options": {
-    "A": "Une seule séance",
-    "B": "Aucune différence",
+    "A": "Une séance unique et continue",
+    "B": "Les deux, à égalité",
     "C": "Quatre séances courtes espacées"
    },
    "reponse": "C",
@@ -3787,9 +3787,9 @@ window.SOCLE = {
    "fiche": "BIO-015",
    "enonce": "Pendant l'appui de la marche, d'après l'échographie du gastrocnémien médial, quelle structure s'allonge ?",
    "options": {
-    "A": "Les faisceaux du muscle",
-    "B": "Le tendon",
-    "C": "Les deux, dans les mêmes proportions"
+    "A": "Les faisceaux, le tendon restant presque fixe",
+    "B": "Le tendon, les faisceaux restant presque fixes",
+    "C": "Les deux, dans des proportions semblables"
    },
    "reponse": "B",
    "justif": {
@@ -3808,7 +3808,7 @@ window.SOCLE = {
    "options": {
     "A": "Le type de contraction, en passant à l'excentrique",
     "B": "Un grand nombre de répétitions à charge légère",
-    "C": "L'intensité de la charge"
+    "C": "L'intensité de la charge, quel que soit le mode"
    },
    "reponse": "C",
    "justif": {
@@ -3825,9 +3825,9 @@ window.SOCLE = {
    "fiche": "BIO-015",
    "enonce": "Après douze semaines de charges lourdes, le tendon d'un athlète est nettement plus raide, mais sa section a peu changé. Comment l'expliquer ?",
    "options": {
-    "A": "Le matériau du tendon a changé",
+    "A": "Le matériau du tendon a changé, plus que sa taille",
     "B": "La mesure est sûrement fausse, car la raideur dépend surtout de la section",
-    "C": "Le muscle s'est raccourci"
+    "C": "Le muscle s'est raccourci et tire plus tôt sur le tendon"
    },
    "reponse": "A",
    "justif": {
@@ -3844,14 +3844,14 @@ window.SOCLE = {
    "fiche": "BIO-015",
    "enonce": "Que révèle la datation au carbone 14 du cœur du tendon d'Achille adulte ?",
    "options": {
-    "A": "Il se renouvelle tous les deux mois",
-    "B": "Il se forme pendant la croissance et n'est presque plus renouvelé ensuite",
-    "C": "Il se renouvelle aussi vite que le muscle"
+    "A": "Il se renouvelle en continu, en l'espace de quelques mois à l'âge adulte",
+    "B": "Il se forme pendant la croissance, puis n'est presque plus renouvelé",
+    "C": "Il se renouvelle aussi vite que le muscle qui le prolonge"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "le cœur du tendon portait la trace des 17 premières années de vie : il se forme pendant la croissance et n'est presque plus renouvelé ensuite.",
-    "Pourquoi pas A": "c'est la borne basse des estimations anciennes, que l'étude dément.",
+    "Pourquoi pas A": "l'étude dément ce renouvellement rapide, avancé par des estimations anciennes : le cœur du tendon portait la trace des 17 premières années de vie.",
     "Pourquoi pas C": "le muscle se renouvelait en continu, contrairement au cœur du tendon."
    },
    "renvoi": "[[BIO-015]], « Mais il s'adapte lentement »"
@@ -3863,15 +3863,15 @@ window.SOCLE = {
    "fiche": "BIO-015",
    "enonce": "Un volleyeur de 16 ans gagne rapidement en force. Que suggèrent les données sur l'adolescence pour son tendon rotulien ?",
    "options": {
-    "A": "Le tendon progresse toujours plus vite que le muscle",
-    "B": "La force n'a aucun effet sur la contrainte du tendon",
-    "C": "Le tendon peut être en retard sur le muscle et subir une contrainte plus élevée"
+    "A": "Le tendon s'adapte plus vite que le muscle et le protège de la contrainte",
+    "B": "La contrainte du tendon dépend de sa section, pas de la force du muscle",
+    "C": "Le tendon peut être en retard sur le muscle et subir plus de contrainte"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "au milieu de l'adolescence, le muscle prend de l'avance et la contrainte dans le tendon augmente ; le tendon rattrape son retard en fin d'adolescence.",
     "Pourquoi pas A": "c'est vrai de 16 à 18 ans, en rattrapage, mais pas pendant la phase où le muscle prend de l'avance.",
-    "Pourquoi pas B": "plus de force musculaire signifie plus de force transmise au tendon, donc plus de contrainte à section égale."
+    "Pourquoi pas B": "la contrainte est une force par unité de section : plus de force musculaire, à section égale, c'est plus de contrainte dans le tendon."
    },
    "renvoi": "[[BIO-015]], « Mais il s'adapte lentement »"
   },
@@ -3901,15 +3901,15 @@ window.SOCLE = {
    "fiche": "BIO-015",
    "enonce": "Dans un saut sur une jambe, le tendon d'Achille restitue en moyenne 38 J sur 254 J de travail mécanique total. Que peut-on en conclure ?",
    "options": {
-    "A": "Le tendon fournit l'essentiel du travail du saut",
-    "B": "Le tendon ne restitue rien, il dissipe toute l'énergie",
-    "C": "Le tendon apporte une part notable mais minoritaire du travail, environ 16 %"
+    "A": "Le tendon fournit l'essentiel du travail du saut, comme un ressort",
+    "B": "Le tendon ne restitue rien : il dissipe l'énergie par hystérésis",
+    "C": "Le tendon apporte une part réelle mais minoritaire, environ 16 %"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "38 J sur 254 J font environ 16 % : une contribution réelle, mais la plus grande partie du travail a une autre origine.",
     "Pourquoi pas A": "16 % reste une minorité du travail total.",
-    "Pourquoi pas B": "le tendon restitue de l'énergie ; seule une partie est perdue, c'est l'hystérésis."
+    "Pourquoi pas B": "le tendon restitue bien de l'énergie ; l'hystérésis n'en dissipe qu'une partie."
    },
    "renvoi": "[[BIO-015]], « Un ressort dans la jambe »"
   },
@@ -3940,8 +3940,8 @@ window.SOCLE = {
    "enonce": "Qu'appelle-t-on une déformation en came ?",
    "options": {
     "A": "Une bosse à la jonction de la tête et du col du fémur",
-    "B": "Un cotyle qui recouvre trop la tête du fémur",
-    "C": "Un col du fémur très tourné vers l'avant"
+    "B": "Un cotyle qui recouvre trop largement la tête du fémur",
+    "C": "Un col du fémur nettement tourné vers l'avant"
    },
    "reponse": "A",
    "justif": {
@@ -3958,15 +3958,15 @@ window.SOCLE = {
    "fiche": "BIO-016",
    "enonce": "Les basketteurs étudiés avaient dix fois plus de chances que les témoins d'avoir un angle alpha au-delà de 55°. Qu'est-ce qui empêche de conclure que le basket a causé la came ?",
    "options": {
-    "A": "L'étude est transversale : elle ne peut pas écarter une sélection des jeunes dont la hanche s'y prête",
-    "B": "L'échantillon est trop grand pour être fiable",
-    "C": "L'angle alpha ne peut pas se mesurer en IRM"
+    "A": "L'étude est transversale : elle ne peut écarter une sélection des joueurs",
+    "B": "L'angle alpha varie trop d'un observateur à l'autre pour conclure",
+    "C": "Un seuil de 55° est trop bas pour définir une vraie déformation"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "une étude transversale observe une association à un instant donné ; elle ne suit pas les joueurs et ne sépare pas l'effet du sport d'une sélection.",
-    "Pourquoi pas B": "un grand échantillon n'est pas un défaut ; ici, il compte 37 basketteurs.",
-    "Pourquoi pas C": "l'étude a justement mesuré l'angle alpha par IRM."
+    "Pourquoi pas B": "la reproductibilité de la mesure n'est pas en cause ici ; même parfaitement mesurée, une association transversale ne dit pas la cause.",
+    "Pourquoi pas C": "le seuil choisi change la proportion de cames, pas la nature du protocole : quel que soit le seuil, une étude transversale ne sépare pas l'effet du sport d'une sélection."
    },
    "renvoi": "[[BIO-016]], « Points de désaccord dans la littérature »"
   },
@@ -3996,9 +3996,9 @@ window.SOCLE = {
    "fiche": "BIO-016",
    "enonce": "L'IRM d'un athlète sans douleur montre une déformation en came. Quelle conduite est cohérente avec la revue sur les hanches sans symptôme ?",
    "options": {
-    "A": "Lui interdire squats et fentes",
-    "B": "Ne pas décider sur l'image seule, l'histoire et l'examen guident la décision",
-    "C": "Le considérer comme destiné à l'arthrose"
+    "A": "Lui interdire squats et fentes, qui pincent la hanche",
+    "B": "Ne pas décider sur l'image seule : histoire et examen priment",
+    "C": "Le considérer comme promis à l'arthrose à moyen terme"
    },
    "reponse": "B",
    "justif": {
@@ -4015,9 +4015,9 @@ window.SOCLE = {
    "fiche": "BIO-016",
    "enonce": "Chez les hommes, la mobilité de la cheville et de la hanche explique 44 % des différences de profondeur du squat. Que peut-on en conclure ?",
    "options": {
-    "A": "La mobilité détermine à elle seule la profondeur",
-    "B": "La mobilité ne joue aucun rôle",
-    "C": "Plus de la moitié des différences dépendent d'autres facteurs, non mesurés"
+    "A": "La mobilité détermine à elle seule la profondeur atteinte",
+    "B": "La mobilité joue un rôle mineur dans la profondeur",
+    "C": "D'autres facteurs, non mesurés, comptent pour plus de la moitié"
    },
    "reponse": "C",
    "justif": {
@@ -4035,14 +4035,14 @@ window.SOCLE = {
    "enonce": "L'arthrose de hanche ou de genou touche 3,5 % des coureurs de loisir et 10,2 % des sédentaires. Peut-on conclure que la course de loisir protège les articulations ?",
    "options": {
     "A": "Oui, l'écart est trop grand pour être dû au hasard",
-    "B": "Non, ce sont des associations observées, qu'une blessure antérieure ou d'autres facteurs peuvent expliquer",
-    "C": "Oui, mais seulement chez les coureurs de compétition"
+    "B": "Non : une association observée peut avoir d'autres causes",
+    "C": "Oui, et d'autant plus que le volume de course est élevé"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "la méta-analyse repose sur des études d'observation ; les auteurs ne peuvent pas exclure des facteurs de confusion.",
     "Pourquoi pas A": "un écart net ne suffit pas à établir une cause.",
-    "Pourquoi pas C": "les coureurs de compétition ont au contraire la proportion la plus élevée, 13,3 %."
+    "Pourquoi pas C": "les coureurs de compétition, au plus gros volume, ont au contraire la proportion la plus élevée, 13,3 %."
    },
    "renvoi": "[[BIO-016]], « Le cartilage et la charge »"
   },
@@ -4053,9 +4053,9 @@ window.SOCLE = {
    "fiche": "BIO-016",
    "enonce": "Un athlète a le genou immobilisé plusieurs semaines après une opération. Que risque son cartilage, d'après l'IRM quantitative ?",
    "options": {
-    "A": "Il s'épaissit pour compenser",
-    "B": "Il s'amincit",
-    "C": "Il ne change pas, car il ne répond pas à la charge"
+    "A": "Il s'épaissit pour compenser la perte de charge",
+    "B": "Il s'amincit, faute de charge à supporter",
+    "C": "Il ne change pas, ne répondant pas à la charge"
    },
    "reponse": "B",
    "justif": {
@@ -4091,14 +4091,14 @@ window.SOCLE = {
    "fiche": "BIO-017",
    "enonce": "Un pratiquant bloque l'avancée de ses genoux au squat pour « protéger » le genou. Que se passe-t-il ?",
    "options": {
-    "A": "Le moment au genou baisse, mais celui de la hanche et du dos augmente fortement",
-    "B": "L'effort disparaît du genou sans se reporter ailleurs",
-    "C": "Le moment à la hanche baisse aussi"
+    "A": "Le moment au genou baisse, mais celui de la hanche augmente fortement",
+    "B": "Le moment au genou baisse et se reporte surtout sur la cheville",
+    "C": "Les moments au genou et à la hanche baissent tous les deux"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "il n'existe pas de posture sans effort : bloquer les genoux a divisé le moment au genou mais multiplié par plus de dix celui de la hanche.",
-    "Pourquoi pas B": "l'effort se reporte sur la hanche et le dos.",
+    "Pourquoi pas B": "l'effort se reporte sur la hanche et le dos : le bassin recule pour garder la barre au-dessus des pieds.",
     "Pourquoi pas C": "c'est l'inverse : la hanche est bien plus sollicitée."
    },
    "renvoi": "[[BIO-017]], « Le squat, un problème de bras de levier »"
@@ -4110,15 +4110,15 @@ window.SOCLE = {
    "fiche": "BIO-017",
    "enonce": "Un entraîneur veut solliciter fort les extenseurs du genou. Que doit-il privilégier, d'après l'étude sur l'effort relatif ?",
    "options": {
-    "A": "Augmenter la charge sans descendre",
-    "B": "Rester en demi-squat avec une charge légère",
-    "C": "Descendre en profondeur"
+    "A": "Augmenter la charge, à profondeur égale",
+    "B": "Ralentir la descente en demi-squat",
+    "C": "Descendre en profondeur, à charge égale"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "l'effort relatif des extenseurs du genou augmente avec la profondeur, pas avec la charge.",
     "Pourquoi pas A": "la charge augmente surtout l'effort des fléchisseurs plantaires et de la hanche, pas des extenseurs du genou.",
-    "Pourquoi pas B": "le demi-squat sollicite peu les extenseurs du genou."
+    "Pourquoi pas B": "le demi-squat sollicite peu les extenseurs du genou, quel que soit le tempo."
    },
    "renvoi": "[[BIO-017]], « La profondeur change le travail musculaire »"
   },
@@ -4130,14 +4130,14 @@ window.SOCLE = {
    "enonce": "Par rapport au demi-squat, qu'apporte le squat complet sur dix semaines, d'après l'IRM ?",
    "options": {
     "A": "Un développement plus grand des adducteurs et du grand fessier",
-    "B": "Un développement plus grand du droit fémoral",
-    "C": "Aucun développement musculaire"
+    "B": "Un développement plus grand du droit fémoral et des vastes",
+    "C": "Le même développement, la profondeur ne changeant rien"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "adducteurs et grand fessier ont bien plus augmenté en squat complet ; les extenseurs du genou progressaient autant dans les deux groupes.",
-    "Pourquoi pas B": "le droit fémoral n'a changé dans aucun groupe.",
-    "Pourquoi pas C": "les deux profondeurs développent les muscles, le complet davantage à la hanche."
+    "Pourquoi pas B": "le droit fémoral n'a changé dans aucun groupe, et les extenseurs du genou ont progressé autant dans les deux.",
+    "Pourquoi pas C": "les deux profondeurs développent les muscles, mais le squat complet davantage à la hanche."
    },
    "renvoi": "[[BIO-017]], « La profondeur change le travail musculaire »"
   },
@@ -4148,15 +4148,15 @@ window.SOCLE = {
    "fiche": "BIO-017",
    "enonce": "Un pratiquant craint que le squat profond n'abîme son genou sain. Que disent les données ?",
    "options": {
-    "A": "Le squat profond est nocif au-delà de 90°",
-    "B": "Au-delà de 90°, la charge se répartit mieux ; bien exécuté, le squat profond n'est pas dangereux pour un genou sain",
-    "C": "Seul le demi-squat très chargé protège le genou"
+    "A": "Le squat profond use le genou au-delà de 90°, par compression",
+    "B": "Bien exécuté, il n'est pas dangereux pour un genou sain",
+    "C": "Il n'est sûr qu'en limitant la charge à la moitié du maximum"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "au-delà de 90°, le contact cuisse-mollet et l'enroulement du tendon répartissent mieux la charge ; la revue conclut que, bien exécuté, le squat profond protège l'articulation.",
     "Pourquoi pas A": "la compression derrière la rotule est maximale vers 90°, pas au-delà.",
-    "Pourquoi pas C": "ce seraient plutôt les demi-squats très chargés qui favoriseraient l'usure."
+    "Pourquoi pas C": "les données ne posent pas de limite de charge pour le squat profond ; ce seraient plutôt les demi-squats très chargés qui favoriseraient l'usure."
    },
    "renvoi": "[[BIO-017]], « Le squat profond est-il dangereux pour le genou ? »"
   },
@@ -4167,9 +4167,9 @@ window.SOCLE = {
    "fiche": "BIO-017",
    "enonce": "Un powerlifter place la barre basse, sur l'arrière des épaules. Quel effet attendre ?",
    "options": {
-    "A": "Tronc plus droit et plus de quadriceps",
-    "B": "Aucun changement de posture",
-    "C": "Tronc plus penché et plus de hanche, de fessiers et de dos"
+    "A": "Tronc plus droit et plus de travail des quadriceps",
+    "B": "Même posture, seule la stabilité de la barre change",
+    "C": "Tronc plus penché, plus de hanche, de fessiers et de dos"
    },
    "reponse": "C",
    "justif": {
@@ -4186,9 +4186,9 @@ window.SOCLE = {
    "fiche": "BIO-017",
    "enonce": "Pour un pratiquant au genou fragile qui veut garder le tronc droit, quelle variante privilégier ?",
    "options": {
-    "A": "Le squat avant",
-    "B": "Le squat arrière barre basse",
-    "C": "Le demi-squat très chargé"
+    "A": "Le squat avant, barre devant les épaules",
+    "B": "Le squat arrière, barre basse sur les épaules",
+    "C": "Le demi-squat, chargé plus lourd"
    },
    "reponse": "A",
    "justif": {
@@ -4224,9 +4224,9 @@ window.SOCLE = {
    "fiche": "BIO-018",
    "enonce": "Pourquoi le soulevé de terre charge-t-il autant le bas du dos ?",
    "options": {
-    "A": "Parce que le tronc est vertical et la barre collée au dos",
-    "B": "Parce que les jambes ne participent pas",
-    "C": "Parce que le tronc est presque horizontal et la barre reste loin en avant du bas du dos"
+    "A": "Parce que le tronc reste vertical, barre plaquée contre le bas du dos",
+    "B": "Parce que les jambes participent peu, le dos tirant seul",
+    "C": "Parce que le tronc penché laisse la barre loin devant le bas du dos"
    },
    "reponse": "C",
    "justif": {
@@ -4243,15 +4243,15 @@ window.SOCLE = {
    "fiche": "BIO-018",
    "enonce": "Un pratiquant veut alléger son bas du dos au soulevé de terre. Quelle option va dans ce sens ?",
    "options": {
-    "A": "Éloigner la barre des tibias",
+    "A": "Éloigner la barre des tibias pour dégager les genoux",
     "B": "Passer au style sumo ou à la barre hexagonale",
-    "C": "Arrondir fortement le dos"
+    "C": "Garder les hanches plus hautes au départ"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "le sumo redresse le tronc et réduit d'environ 10 % le moment en L4/L5 ; la barre hexagonale rapproche la charge du corps et réduit les moments au dos, à la hanche et à la cheville.",
     "Pourquoi pas A": "éloigner la barre allonge le bras de levier et charge plus le dos.",
-    "Pourquoi pas C": "ce n'est pas un moyen d'alléger le dos, et la question n'est pas là."
+    "Pourquoi pas C": "hanches hautes, le tronc se penche davantage et la barre s'éloigne de la colonne : le bas du dos est plus chargé."
    },
    "renvoi": "[[BIO-018]], « La barre hexagonale »"
   },
@@ -4262,15 +4262,15 @@ window.SOCLE = {
    "fiche": "BIO-018",
    "enonce": "En quoi le style sumo diffère-t-il du conventionnel, d'après l'analyse en trois dimensions ?",
    "options": {
-    "A": "Tronc plus vertical, pieds plus larges et tournés, course de la barre plus courte",
-    "B": "Tronc plus penché et course de la barre plus longue",
-    "C": "Aucune différence mesurable"
+    "A": "Tronc plus vertical, pieds plus larges, course de la barre plus courte",
+    "B": "Tronc plus penché, pieds plus serrés, course de la barre plus longue",
+    "C": "Même inclinaison du tronc, seule la largeur des pieds change"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "en sumo, le tronc est plus vertical de 5 à 10°, l'écartement d'environ 70 contre 32 cm, les pieds plus tournés, et la course de la barre 25 à 40 % plus courte.",
     "Pourquoi pas B": "c'est le conventionnel qui a la course la plus longue.",
-    "Pourquoi pas C": "les différences sont nettes et mesurées."
+    "Pourquoi pas C": "les différences dépassent la largeur des pieds : tronc plus vertical et course de barre plus courte en sumo."
    },
    "renvoi": "[[BIO-018]], « Sumo et conventionnel »"
   },
@@ -4281,14 +4281,14 @@ window.SOCLE = {
    "fiche": "BIO-018",
    "enonce": "Avec une barre hexagonale, par rapport à la barre droite, quels moments sont réduits ?",
    "options": {
-    "A": "Aucun, tous augmentent",
-    "B": "Celui du genou seulement",
+    "A": "Ceux du genou et de la hanche, mais pas du dos",
+    "B": "Celui du genou seulement, les autres restant inchangés",
     "C": "Ceux du bas du dos, de la hanche et de la cheville"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "la barre hexagonale réduit les moments au bas du dos, à la hanche et à la cheville, et augmente celui du genou.",
-    "Pourquoi pas A": "plusieurs moments baissent ; seul celui du genou monte.",
+    "Pourquoi pas A": "le moment du genou augmente avec la barre hexagonale ; ce sont ceux du dos, de la hanche et de la cheville qui baissent.",
     "Pourquoi pas B": "le moment du genou, lui, augmente."
    },
    "renvoi": "[[BIO-018]], « La barre hexagonale »"
@@ -4300,9 +4300,9 @@ window.SOCLE = {
    "fiche": "BIO-018",
    "enonce": "Faut-il absolument garder le dos parfaitement plat pour éviter la lombalgie, d'après les revues ?",
    "options": {
-    "A": "Oui, fléchir le dos est un facteur de risque établi",
-    "B": "Non : soulever jambes fléchies n'a pas d'avantage net et la flexion du dos n'est pas un facteur de risque établi",
-    "C": "Oui, mais seulement en sumo"
+    "A": "Oui : fléchir le dos en soulevant est un facteur de risque établi",
+    "B": "Non : la flexion du dos n'est pas un facteur de risque établi",
+    "C": "Oui, sauf en sumo, où le tronc plus vertical protège"
    },
    "reponse": "B",
    "justif": {
@@ -4319,9 +4319,9 @@ window.SOCLE = {
    "fiche": "BIO-018",
    "enonce": "Un kinésithérapeute envisage le soulevé de terre pour un patient lombalgique. Que disent les essais ?",
    "options": {
-    "A": "Encadré, il peut améliorer douleur et fonction, surtout chez ceux qui ont peu de douleur et une bonne endurance au départ",
-    "B": "Il aggrave toujours la douleur",
-    "C": "Il n'a aucun effet"
+    "A": "Encadré, il peut améliorer douleur et fonction",
+    "B": "Il aggrave la douleur, la charge lombaire étant trop élevée",
+    "C": "Il n'a aucun effet sur la douleur ni sur la fonction"
    },
    "reponse": "A",
    "justif": {
@@ -4338,9 +4338,9 @@ window.SOCLE = {
    "fiche": "BIO-018",
    "enonce": "Que fait une ceinture de force au squat ou au soulevé de terre ?",
    "options": {
-    "A": "Elle n'a aucun effet mesurable",
-    "B": "Elle remplace la musculature du tronc",
-    "C": "Elle augmente la pression dans le ventre et réduit l'activité des érecteurs du rachis"
+    "A": "Elle n'a pas d'effet mesurable sur la pression ni sur les muscles",
+    "B": "Elle remplace le gainage en soutenant passivement le tronc",
+    "C": "Elle accroît la pression abdominale et réduit l'activité des érecteurs"
    },
    "reponse": "C",
    "justif": {
@@ -4357,9 +4357,9 @@ window.SOCLE = {
    "fiche": "BIO-018",
    "enonce": "On lit que la compression en L4/L5 au soulevé de terre lourd atteint environ 17 000 N. Comment interpréter ce chiffre ?",
    "options": {
-    "A": "C'est une mesure directe dans la colonne",
-    "B": "C'est une estimation de modèle, qui donne l'ordre de grandeur de la charge",
-    "C": "C'est la charge soulevée sur la barre"
+    "A": "C'est une mesure directe, par capteur, dans la colonne",
+    "B": "C'est une estimation de modèle, utile pour l'ordre de grandeur",
+    "C": "C'est la force exercée sur la barre pendant le tirage"
    },
    "reponse": "B",
    "justif": {
@@ -4395,7 +4395,7 @@ window.SOCLE = {
    "fiche": "MET-001",
    "enonce": "Une étude transversale portant sur 400 pratiquants rapporte que les sujets les plus forts au\nsquat présentent aussi la plus grande amplitude de flexion de hanche. Quelle conclusion ce\nprotocole autorise-t-il ?",
    "options": {
-    "A": "Une plus grande amplitude de hanche contribue à un squat plus lourd",
+    "A": "Une plus grande amplitude de hanche permet, à terme, de soulever plus lourd au squat",
     "B": "Force au squat et amplitude de hanche sont associées, sans ordre temporel établi",
     "C": "Aucune conclusion, l'effectif étant insuffisant pour une étude transversale"
    },
@@ -4433,9 +4433,9 @@ window.SOCLE = {
    "fiche": "MET-001",
    "enonce": "Deux publications traitent du même sujet. La première est un essai randomisé sur 12 sujets,\ndont l'adhérence au protocole n'est pas rapportée et dont le critère de jugement principal\nn'était pas préspécifié. La seconde est une étude de cohorte prospective sur 1 200 sujets, avec\najustement sur les principaux facteurs de confusion connus. Quelle lecture est la plus\ndéfendable ?",
    "options": {
-    "A": "L'essai randomisé prime, la randomisation étant la seule garantie contre la confusion",
-    "B": "Aucune des deux ne permet de conclure, faute d'être une méta-analyse",
-    "C": "La hiérarchie nominale favorise l'essai, mais sa qualité d'exécution le déclasse au point que la cohorte devient au moins aussi informative"
+    "A": "L'essai randomisé prime : seule la randomisation protège de la confusion, quelle que soit sa taille",
+    "B": "Ni l'un ni l'autre : en l'absence de méta-analyse, la question reste ouverte",
+    "C": "La cohorte est au moins aussi informative, l'exécution de l'essai le déclassant"
    },
    "reponse": "C",
    "justif": {
@@ -4471,7 +4471,7 @@ window.SOCLE = {
    "fiche": "MET-001",
    "enonce": "Dans le programme de réplication de 100 études de psychologie publié en 2015, quel constat\nconcernait l'**amplitude** des effets ?",
    "options": {
-    "A": "Les effets répliqués étaient d'amplitude comparable aux effets originaux",
+    "A": "Les effets répliqués étaient d'amplitude comparable, mais avec des intervalles de confiance plus larges",
     "B": "Les effets répliqués représentaient en moyenne environ la moitié de l'amplitude des effets originaux",
     "C": "L'amplitude n'a pas pu être comparée, les protocoles de réplication ayant différé des protocoles originaux"
    },
@@ -4490,9 +4490,9 @@ window.SOCLE = {
    "fiche": "MET-003",
    "enonce": "Un essai sur 10 sujets par groupe rapporte un gain de force supérieur de 28 % dans le groupe\nexpérimental, avec p = 0,04. Quelle attente est la plus raisonnable concernant l'effet réel ?",
    "options": {
-    "A": "L'effet réel est probablement proche de 28 %, la significativité statistique confirmant l'estimation",
-    "B": "L'effet réel est probablement nul, un essai de cette taille ne pouvant rien établir",
-    "C": "Si l'effet est réel, son amplitude est vraisemblablement inférieure à 28 %, la faible puissance sélectionnant les échantillons où le hasard a amplifié l'écart"
+    "A": "Proche de 28 % : la significativité confirme que l'estimation observée est fiable",
+    "B": "Probablement nul : avec dix sujets par groupe, un tel écart relève du hasard",
+    "C": "Inférieure à 28 % s'il est réel : la faible puissance sélectionne les écarts gonflés"
    },
    "reponse": "C",
    "justif": {
@@ -4509,9 +4509,9 @@ window.SOCLE = {
    "fiche": "MET-003",
    "enonce": "Que représente une valeur p ?",
    "options": {
-    "A": "La probabilité que l'hypothèse nulle soit vraie compte tenu des données observées",
-    "B": "La probabilité d'observer un écart au moins aussi grand que celui observé, si l'hypothèse nulle et l'ensemble des hypothèses du modèle étaient vraies",
-    "C": "La probabilité que le résultat observé soit dû au hasard"
+    "A": "La probabilité que l'hypothèse nulle soit vraie, compte tenu des données observées et du modèle statistique employé",
+    "B": "La probabilité d'un écart au moins aussi grand que celui observé, si l'hypothèse nulle et le modèle étaient vrais",
+    "C": "La probabilité que l'écart observé soit dû au seul hasard d'échantillonnage plutôt qu'à un effet réel"
    },
    "reponse": "B",
    "justif": {
@@ -4528,15 +4528,15 @@ window.SOCLE = {
    "fiche": "MET-003",
    "enonce": "Un article rapporte p = 0,03 pour la différence entre deux protocoles. Quelle interprétation\nest correcte ?",
    "options": {
-    "A": "Il y a 3 % de chances que les deux protocoles soient équivalents",
-    "B": "Le protocole expérimental est supérieur avec une probabilité de 97 %",
-    "C": "Sous le modèle statistique employé, hypothèse nulle comprise, des données au moins aussi extrêmes surviendraient dans 3 % des répétitions de l'étude"
+    "A": "Il y a 3 % de chances que les deux protocoles soient en réalité équivalents en efficacité",
+    "B": "Si l'étude était répétée, le protocole expérimental l'emporterait dans environ 97 % des cas",
+    "C": "Sous le modèle nul, un écart au moins aussi extrême surviendrait dans 3 % des répétitions"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "la formulation respecte le conditionnement et la nature fréquentiste de la valeur p — elle décrit ce qui se produirait sur des répétitions de l'étude sous le modèle nul.",
     "Pourquoi pas A": "inversion du conditionnement. On ne peut pas déduire de p la probabilité que l'hypothèse nulle soit vraie.",
-    "Pourquoi pas B": "le complément à 1 d'une valeur p n'est pas une probabilité que l'hypothèse alternative soit vraie. Ce calcul n'a aucune justification."
+    "Pourquoi pas B": "le complément à 1 d'une valeur p n'est ni la probabilité que l'hypothèse alternative soit vraie, ni la probabilité de retrouver le même résultat en répétant l'étude. Ce calcul n'a aucune justification."
    },
    "renvoi": "[[MET-003]], « L'inversion de conditionnement » · [S003]"
   },
@@ -4547,9 +4547,9 @@ window.SOCLE = {
    "fiche": "MET-003",
    "enonce": "Quelle est la définition correcte d'un intervalle de confiance à 95 % ?",
    "options": {
-    "A": "Un intervalle qui contient la vraie valeur du paramètre avec une probabilité de 95 %",
-    "B": "Un intervalle construit par une procédure telle que, sur des répétitions de l'étude, 95 % des intervalles ainsi obtenus contiendraient la vraie valeur",
-    "C": "Un intervalle contenant 95 % des observations de l'échantillon"
+    "A": "Un intervalle qui contient la vraie valeur du paramètre avec une probabilité de 95 %, une fois les données recueillies",
+    "B": "Un intervalle issu d'une procédure qui, sur des répétitions de l'étude, capture la vraie valeur dans 95 % des cas",
+    "C": "Un intervalle qui contient 95 % des valeurs individuelles mesurées dans l'échantillon de l'étude"
    },
    "reponse": "B",
    "justif": {
@@ -4566,9 +4566,9 @@ window.SOCLE = {
    "fiche": "MET-003",
    "enonce": "Un essai rapporte une différence moyenne de 1,6 kg de masse maigre, IC 95 % [−0,1 ; 3,4],\np = 0,07. Que peut-on conclure ?",
    "options": {
-    "A": "L'intervention n'a pas d'effet sur la masse maigre",
-    "B": "L'étude est compatible avec l'absence d'effet comme avec un effet substantiel, et ne tranche donc pas",
-    "C": "L'intervention a un effet, la borne inférieure étant très proche de zéro"
+    "A": "L'intervention n'a pas d'effet sur la masse maigre, l'intervalle incluant la valeur zéro",
+    "B": "Les données sont compatibles avec un effet nul comme avec un effet substantiel",
+    "C": "L'intervention a un effet réel, la borne inférieure n'étant que très légèrement négative"
    },
    "reponse": "B",
    "justif": {
@@ -4585,7 +4585,7 @@ window.SOCLE = {
    "fiche": "MET-003",
    "enonce": "Deux essais comparables testent la même intervention. Le premier rapporte p = 0,049, le second\np = 0,051, avec des estimations d'effet quasi identiques. Quelle lecture s'impose ?",
    "options": {
-    "A": "Les deux essais produisent des résultats concordants, la différence entre les deux valeurs p étant sans portée",
+    "A": "Les deux essais concordent : l'écart entre les deux valeurs p est sans portée",
     "B": "Les essais se contredisent, l'un ayant atteint le seuil de significativité et l'autre non",
     "C": "Le second essai doit être écarté, son résultat n'étant pas statistiquement significatif"
    },
@@ -4604,9 +4604,9 @@ window.SOCLE = {
    "fiche": "MET-003",
    "enonce": "Quelle conséquence, souvent méconnue, une puissance statistique faible entraîne-t-elle sur les\nrésultats **significatifs** qui sont publiés ?",
    "options": {
-    "A": "Elle les rend plus conservateurs, l'exigence de significativité étant plus difficile à satisfaire",
-    "B": "Elle en surestime systématiquement l'amplitude",
-    "C": "Elle n'a pas d'effet sur l'amplitude, qui est une estimation non biaisée quelle que soit la taille de l'échantillon"
+    "A": "Elle les rend plus solides, le seuil de significativité étant plus dur à franchir",
+    "B": "Elle en surestime l'amplitude, d'autant plus que la puissance est basse",
+    "C": "Aucune : l'amplitude estimée reste non biaisée, quelle que soit la taille de l'échantillon"
    },
    "reponse": "B",
    "justif": {
@@ -4661,15 +4661,15 @@ window.SOCLE = {
    "fiche": "MET-008",
    "enonce": "Une méta-analyse portant sur des études individuellement très précises rapporte un I² de 88 %.\nQue peut-on en déduire ?",
    "options": {
-    "A": "L'hétérogénéité absolue entre les études est nécessairement importante en pratique",
-    "B": "Une part élevée de la variabilité observée excède l'erreur d'échantillonnage, sans que cela implique une dispersion importante en valeur absolue",
-    "C": "Les études sont trop imprécises pour que le résultat agrégé ait un sens"
+    "A": "Une part élevée de la dispersion entre études est réelle, et cette dispersion est donc importante en pratique",
+    "B": "Une part élevée de la variabilité dépasse le hasard, sans que la dispersion absolue soit forcément grande",
+    "C": "Les études divergent trop pour que l'effet agrégé ait un sens, et il faut renoncer à le résumer"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "I² est une **proportion** de variabilité, pas une quantité absolue [S002]. Quand les études sont très précises, une dispersion faible en valeur absolue suffit à dominer l'erreur d'échantillonnage et à produire un I² élevé, sans conséquence pratique.",
     "Pourquoi pas A": "c'est le contresens le plus répandu sur cette statistique. Un I² élevé ne dit rien de l'ampleur absolue de la dispersion entre contextes.",
-    "Pourquoi pas C": "l'énoncé précise que les études sont individuellement très précises, c'est-à-dire le contraire de ce que suppose cette option."
+    "Pourquoi pas C": "I² est une proportion, pas une mesure de divergence absolue. Avec des études très précises, une dispersion faible en valeur absolue suffit à produire un I² élevé ; cela ne prive pas l'effet agrégé de sens."
    },
    "renvoi": "[[MET-008]], « Hétérogénéité » · [S002]"
   },
@@ -4682,7 +4682,7 @@ window.SOCLE = {
    "options": {
     "A": "Il existe une vraie valeur unique de l'effet, les écarts observés étant dus à l'erreur d'échantillonnage",
     "B": "Les vraies valeurs de l'effet varient selon les contextes, les études échantillonnant une distribution d'effets",
-    "C": "Toutes les études incluses présentent le même risque de biais"
+    "C": "Toutes les études partagent le même risque de biais, ce qui autorise à les combiner"
    },
    "reponse": "B",
    "justif": {
@@ -4699,9 +4699,9 @@ window.SOCLE = {
    "fiche": "MET-008",
    "enonce": "Le funnel plot d'une méta-analyse est nettement asymétrique. Quelle interprétation est la plus\ndéfendable ?",
    "options": {
-    "A": "Un biais de publication est démontré, les petites études aux résultats défavorables n'ayant pas été publiées",
-    "B": "L'asymétrie est compatible avec un biais de publication, mais aussi avec une hétérogénéité réelle, une différence de qualité entre petites et grandes études, ou le hasard",
-    "C": "L'asymétrie invalide la méta-analyse, qui ne peut pas être interprétée"
+    "A": "Un biais de publication est démontré : les petites études aux résultats défavorables manquent",
+    "B": "Un biais de publication est possible, mais aussi une hétérogénéité réelle, des écarts de qualité ou le hasard",
+    "C": "L'asymétrie invalide la méta-analyse, dont le résultat agrégé ne peut plus être interprété"
    },
    "reponse": "B",
    "justif": {
@@ -4718,7 +4718,7 @@ window.SOCLE = {
    "fiche": "MET-008",
    "enonce": "Sur le forest plot d'une méta-analyse de neuf essais, un seul essai concentre environ 70 % du\npoids total. Quelle conséquence de lecture s'impose ?",
    "options": {
-    "A": "Le résultat agrégé reflète essentiellement cet essai, et sa validité conditionne celle de la synthèse",
+    "A": "Le résultat agrégé reflète surtout cet essai, dont la validité conditionne celle de la synthèse",
     "B": "Le résultat est plus fiable, un essai de grande taille dominant l'agrégation",
     "C": "Le poids des études n'affecte pas l'interprétation du résultat agrégé, seule compte leur direction"
    },
@@ -4737,9 +4737,9 @@ window.SOCLE = {
    "fiche": "MET-008",
    "enonce": "Que garantit la conformité d'une revue systématique à la ligne directrice PRISMA 2020 ?",
    "options": {
-    "A": "La qualité méthodologique des études incluses",
-    "B": "La qualité du rapportage de la revue, et non celle des études incluses ni de la conduite de l'étude",
-    "C": "L'absence de biais de publication dans le corpus agrégé"
+    "A": "La qualité méthodologique des études incluses, évaluée selon une grille standardisée",
+    "B": "La qualité du rapportage de la revue, pas celle de sa conduite ni des études",
+    "C": "L'absence de biais de publication, la recherche documentaire étant exhaustive"
    },
    "reponse": "B",
    "justif": {
@@ -4756,15 +4756,15 @@ window.SOCLE = {
    "fiche": "MET-008",
    "enonce": "Une méta-analyse conclut qu'une fréquence d'entraînement plus élevée par groupe musculaire est\nassociée à une hypertrophie supérieure. Plusieurs études incluses présentent également un\nvolume hebdomadaire total plus élevé dans les groupes à fréquence élevée. Quelle est la portée\nréelle du résultat ?",
    "options": {
-    "A": "La fréquence est établie comme un déterminant indépendant de l'hypertrophie",
-    "B": "Le résultat porte sur une organisation d'entraînement dans son ensemble, la contribution propre de la fréquence n'étant pas isolable",
-    "C": "Le résultat est invalide et ne doit pas être pris en compte"
+    "A": "La fréquence est un déterminant indépendant de l'hypertrophie, à volume total équivalent",
+    "B": "Le résultat porte sur une organisation d'entraînement, sans isoler la part de la fréquence",
+    "C": "Le résultat traduit un effet du volume total, la fréquence n'ayant en réalité aucun rôle"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "quand la fréquence et le volume varient conjointement dans les études incluses, leurs effets sont confondus. La méta-analyse estime l'effet d'une organisation d'entraînement prise en bloc, sans pouvoir isoler la contribution de la fréquence [S018]. Les auteurs le reconnaissent explicitement.",
     "Pourquoi pas A": "c'est précisément la conclusion que la confusion interdit, et c'est pourtant celle qui circule ensuite dans la diffusion secondaire du résultat.",
-    "Pourquoi pas C": "le résultat n'est pas invalide, il est mal interprété. Il renseigne sur une question — que produit telle organisation — qui n'est pas celle qu'on lui pose."
+    "Pourquoi pas C": "c'est la même erreur dans l'autre sens. La confusion interdit d'attribuer l'effet à la fréquence, mais tout autant de l'attribuer au seul volume. Le résultat n'est pas invalide : il ne répond simplement pas à la question de la fréquence."
    },
    "renvoi": "[[MET-008]], « Un cas d'école » · [S018]"
   },
@@ -4794,7 +4794,7 @@ window.SOCLE = {
    "fiche": "MET-002",
    "enonce": "Un essai utilise une séquence de randomisation informatisée irréprochable. Les enveloppes\nd'attribution sont transparentes et l'investigateur qui recrute peut voir le groupe suivant\navant de décider d'inclure un candidat. Quel dispositif fait défaut ?",
    "options": {
-    "A": "La randomisation, puisque la séquence peut être devinée",
+    "A": "La randomisation, puisque l'investigateur peut deviner la séquence à l'avance",
     "B": "L'aveugle des évaluateurs, qui devient impossible dans cette configuration",
     "C": "L'allocation dissimulée, ce qui permet de sélectionner qui entre dans quel groupe"
    },
@@ -4852,8 +4852,8 @@ window.SOCLE = {
    "enonce": "Que fait une analyse en intention de traiter ?",
    "options": {
     "A": "Elle n'analyse que les participants ayant respecté le protocole, pour estimer l'effet réel du traitement",
-    "B": "Elle pondère chaque participant par son niveau d'adhérence au protocole",
-    "C": "Elle analyse chaque participant dans le groupe qui lui a été attribué, quelle qu'ait été son adhérence effective"
+    "B": "Elle pondère chaque participant par son adhérence, pour refléter l'exposition réelle au programme",
+    "C": "Elle analyse chaque participant dans son groupe d'attribution, quelle qu'ait été son adhérence"
    },
    "reponse": "C",
    "justif": {
@@ -4870,9 +4870,9 @@ window.SOCLE = {
    "fiche": "MET-002",
    "enonce": "Un essai de douze semaines randomise 50 sujets par groupe. Le groupe A perd 12 participants, le\ngroupe B en perd 5. L'article ne rapporte qu'une analyse per protocole, sur 38 contre 45.\nComment lire ce résultat ?",
    "options": {
-    "A": "La comparabilité produite par le tirage au sort n'est plus garantie, puisque ceux qui ont abandonné diffèrent probablement de ceux qui sont restés",
-    "B": "C'est la bonne pratique : n'analyser que les sujets ayant suivi le protocole donne l'effet réel de l'intervention",
-    "C": "L'écart entre les deux taux d'abandon est sans conséquence tant que l'effectif analysé reste supérieur à trente par groupe"
+    "A": "Elle est fragile : ceux qui ont abandonné diffèrent sans doute de ceux qui sont restés",
+    "B": "Elle est valide : n'analyser que ceux qui ont suivi le protocole donne l'effet réel du programme",
+    "C": "Elle est valide tant que l'effectif analysé reste supérieur à trente sujets dans chaque groupe"
    },
    "reponse": "A",
    "justif": {
@@ -4890,8 +4890,8 @@ window.SOCLE = {
    "enonce": "Un essai compare un groupe s'entraînant quatre fois par semaine à un groupe s'entraînant deux\nfois par semaine. Le nombre total de séries hebdomadaires n'est pas apparié : il est deux fois\nplus élevé dans le groupe à haute fréquence. Que teste réellement cet essai ?",
    "options": {
     "A": "L'effet de la fréquence d'entraînement, la randomisation garantissant que les autres variables sont équilibrées",
-    "B": "L'effet d'une organisation d'entraînement prise en bloc, sans que la contribution propre de la fréquence soit isolable",
-    "C": "Rien du tout : en l'absence d'appariement, aucune conclusion n'est possible"
+    "B": "L'effet d'une organisation d'entraînement entière, sans isoler la contribution de la fréquence",
+    "C": "Rien d'exploitable : sans appariement du volume, l'essai ne permet aucune conclusion pratique"
    },
    "reponse": "B",
    "justif": {
@@ -4927,14 +4927,14 @@ window.SOCLE = {
    "fiche": "MET-004",
    "enonce": "Deux essais testent le même programme et obtiennent le même gain moyen de 10 kg au développé\ncouché. Le premier, mené chez des sédentaires, rapporte *d* = 0,5. Le second, mené chez des\npratiquants confirmés, rapporte *d* = 2,0. Quelle en est la raison ?",
    "options": {
-    "A": "Les charges initiales sont beaucoup moins dispersées chez les pratiquants confirmés, ce qui réduit le dénominateur de la taille d'effet",
-    "B": "Le programme est réellement plus efficace chez les pratiquants confirmés",
-    "C": "Le second essai comptait un effectif plus important, ce qui accroît la taille d'effet mesurée"
+    "A": "Les charges initiales sont moins dispersées chez les confirmés, ce qui réduit le dénominateur",
+    "B": "Le même gain représente un progrès relatif bien plus grand chez des pratiquants proches de leur plafond",
+    "C": "Le second essai comptait plus de sujets, ce qui accroît mécaniquement la taille d'effet mesurée"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "une taille d'effet standardisée est un rapport. Le numérateur — le gain de 10 kg — est identique dans les deux essais ; seul le dénominateur change. Des charges initiales étalées de 90 à 110 kg donnent un écart-type de l'ordre de 5 kg, contre environ 20 kg chez des sédentaires dont les charges vont de 30 à 90 kg. Le rapport quadruple sans qu'aucun phénomène physique n'ait changé [S024].",
-    "Pourquoi pas B": "l'énoncé précise que le gain moyen est identique. Conclure à une plus grande efficacité revient à lire le rapport comme s'il était le numérateur.",
+    "Pourquoi pas B": "l'énoncé précise que le gain moyen est identique. Une taille d'effet standardisée ne mesure ni l'efficacité du programme ni la difficulté du progrès : seul son dénominateur, la dispersion initiale, a changé.",
     "Pourquoi pas C": "l'effectif influence la précision de l'estimation et son intervalle de confiance, pas la valeur attendue de la taille d'effet."
    },
    "renvoi": "[[MET-004]], « Pourquoi le dénominateur décide de tout » · [S024]"
@@ -4965,9 +4965,9 @@ window.SOCLE = {
    "fiche": "MET-004",
    "enonce": "Une échelle de tailles d'effet spécifique à l'entraînement est construite à partir de la\ndistribution des effets publiés dans le domaine. À quelle question une telle échelle répond-elle ?",
    "options": {
-    "A": "Cet effet vaut-il la peine d'être obtenu compte tenu du coût du programme ?",
-    "B": "Cet effet est-il statistiquement significatif au seuil conventionnel ?",
-    "C": "Cet effet est-il grand par rapport à ce que la littérature du domaine rapporte habituellement ?"
+    "A": "Cet effet vaut-il la peine d'être obtenu, compte tenu du coût et de la durée du programme ?",
+    "B": "Cet effet a-t-il peu de chances d'être dû au hasard, au seuil conventionnel de 5 % ?",
+    "C": "Cet effet est-il grand par rapport aux effets habituellement publiés dans le domaine ?"
    },
    "reponse": "C",
    "justif": {
@@ -5003,9 +5003,9 @@ window.SOCLE = {
    "fiche": "MET-004",
    "enonce": "Un essai rapporte, chez des pratiquants entraînés depuis plus de cinq ans, une taille d'effet\nde 3,5 sur le squat. Quelle est la réaction appropriée ?",
    "options": {
-    "A": "Considérer qu'il s'agit d'un effet exceptionnellement large et d'un argument fort en faveur du protocole",
-    "B": "Aller vérifier l'effectif, la dispersion initiale et le mode de calcul, une telle valeur étant plus souvent un artefact de dénominateur qu'une découverte",
-    "C": "Rejeter l'étude, les tailles d'effet supérieures à 2,0 étant par construction impossibles"
+    "A": "Y voir un effet exceptionnel, les pratiquants avancés répondant fortement aux protocoles bien conçus",
+    "B": "Vérifier l'effectif, la dispersion initiale et le calcul : la valeur est plus probablement un artefact",
+    "C": "Rejeter l'étude, une taille d'effet supérieure à 2,0 étant mathématiquement impossible"
    },
    "reponse": "B",
    "justif": {
@@ -5022,9 +5022,9 @@ window.SOCLE = {
    "fiche": "MET-004",
    "enonce": "Un tableau récapitulatif d'article présente côte à côte, dans une même colonne intitulée\n« taille d'effet », des valeurs calculées pour certaines lignes comme différence entre groupes\ndivisée par l'écart-type combiné, et pour d'autres comme différence avant-après divisée par\nl'écart-type initial. Quel est le problème ?",
    "options": {
-    "A": "Aucun, ces deux quantités sont deux expressions équivalentes du même effet standardisé",
-    "B": "Le problème tient uniquement à l'absence de correction de Hedges sur les valeurs avant-après",
-    "C": "Les deux quantités n'ont pas le même dénominateur ni le même numérateur : elles ne sont pas comparables entre elles"
+    "A": "Aucun : ce sont deux expressions équivalentes du même effet standardisé, à l'arrondi près",
+    "B": "Seules les valeurs avant-après posent problème, faute de correction de Hedges appliquée",
+    "C": "Numérateur et dénominateur diffèrent tous deux : ces quantités ne sont pas comparables"
    },
    "reponse": "C",
    "justif": {
@@ -5041,9 +5041,9 @@ window.SOCLE = {
    "fiche": "MET-005",
    "enonce": "Que mesure la puissance statistique d'une étude ?",
    "options": {
-    "A": "La probabilité que le résultat obtenu soit exact",
-    "B": "La probabilité de détecter un effet donné s'il existe réellement, à effectif et dispersion fixés",
-    "C": "La proportion de la variabilité expliquée par l'intervention"
+    "A": "La probabilité que le résultat obtenu soit exact, compte tenu de l'effectif et de la dispersion",
+    "B": "La probabilité de détecter un effet donné s'il existe, à effectif et dispersion fixés",
+    "C": "La part de la variabilité du critère de jugement qui est expliquée par l'intervention"
    },
    "reponse": "B",
    "justif": {
@@ -5079,9 +5079,9 @@ window.SOCLE = {
    "fiche": "MET-005",
    "enonce": "Un essai portant sur dix sujets par groupe rapporte une différence significative de grande\namplitude. Quelle attitude est la plus justifiée ?",
    "options": {
-    "A": "Se méfier : sur un si petit effectif, seules les estimations gonflées par le hasard franchissent le seuil, et l'amplitude publiée est donc surestimée",
-    "B": "Être rassuré : détecter un effet malgré un petit effectif indique que cet effet est particulièrement fort",
-    "C": "Considérer le résultat comme équivalent à celui d'une grande étude, la significativité corrigeant déjà la taille de l'échantillon"
+    "A": "Se méfier : sur dix sujets, seules les estimations gonflées par le hasard franchissent le seuil",
+    "B": "Être rassuré : franchir le seuil malgré un si petit effectif signe un effet particulièrement fort",
+    "C": "Le traiter comme une grande étude, la valeur p tenant déjà compte de la taille de l'échantillon"
    },
    "reponse": "A",
    "justif": {
@@ -5098,9 +5098,9 @@ window.SOCLE = {
    "fiche": "MET-005",
    "enonce": "Qu'appelle-t-on erreur de signe dans l'évaluation d'un protocole d'étude ?",
    "options": {
-    "A": "Une inversion des groupes lors de la saisie des données",
-    "B": "Le fait qu'un résultat statistiquement significatif pointe dans la direction opposée à l'effet réel",
-    "C": "Le fait de retenir un seuil unilatéral au lieu d'un seuil bilatéral"
+    "A": "Une inversion des groupes lors de la saisie, qui change le sens de la différence observée",
+    "B": "Un résultat significatif qui pointe dans la direction opposée à l'effet réel",
+    "C": "Le fait de tester dans une seule direction alors que l'effet pourrait aller dans l'autre"
    },
    "reponse": "B",
    "justif": {
@@ -5119,7 +5119,7 @@ window.SOCLE = {
    "options": {
     "A": "Il est correct et constitue la bonne façon de justifier une absence de résultat",
     "B": "Il est correct uniquement si l'effectif dépasse trente sujets par groupe",
-    "C": "Il est sans valeur informative : cette puissance ne fait que retranscrire la valeur p obtenue"
+    "C": "Il est sans valeur : cette puissance ne fait que retranscrire la valeur p obtenue"
    },
    "reponse": "C",
    "justif": {
@@ -5136,9 +5136,9 @@ window.SOCLE = {
    "fiche": "MET-005",
    "enonce": "Sur 129 études publiées dans des revues de médecine du sport et de l'exercice, 82 % rapportent\nune hypothèse soutenue par les données. Que peut-on en déduire ?",
    "options": {
-    "A": "Qu'une telle proportion est incompatible avec les effectifs observés dans le domaine, et signale une sélection des résultats publiés ou des analyses",
-    "B": "Que le domaine formule des hypothèses particulièrement bien fondées",
-    "C": "Que la puissance moyenne des études du domaine dépasse 80 %"
+    "A": "Une sélection des résultats ou des analyses, cette proportion étant incompatible avec les effectifs",
+    "B": "Des hypothèses particulièrement bien fondées, le domaine s'appuyant sur une physiologie solide",
+    "C": "Une puissance moyenne supérieure à 80 %, les études détectant presque toujours l'effet cherché"
    },
    "reponse": "A",
    "justif": {
@@ -5155,9 +5155,9 @@ window.SOCLE = {
    "fiche": "MET-005",
    "enonce": "Quel dispositif augmente la puissance d'une étude d'entraînement sans recruter un sujet\nsupplémentaire ?",
    "options": {
-    "A": "Réduire le seuil de significativité de 0,05 à 0,01",
-    "B": "Comparer les deux conditions chez les mêmes sujets, ou multiplier les mesures du critère de jugement",
-    "C": "Rapporter le résultat sous forme de taille d'effet standardisée plutôt qu'en unités brutes"
+    "A": "Abaisser le seuil de significativité de 0,05 à 0,01, pour limiter les faux positifs",
+    "B": "Comparer les conditions chez les mêmes sujets, ou multiplier les mesures du critère",
+    "C": "Exprimer le résultat en taille d'effet standardisée, qui neutralise la dispersion entre sujets"
    },
    "reponse": "B",
    "justif": {
@@ -5193,9 +5193,9 @@ window.SOCLE = {
    "fiche": "MET-006",
    "enonce": "L'erreur typique d'une estimation de charge maximale est de 3 kg. Un pratiquant mesure 103 kg\navant un cycle et 105 kg après. Que peut-on conclure ?",
    "options": {
-    "A": "Que l'écart observé est plus petit que le bruit de la mesure et ne peut pas être interprété",
-    "B": "Qu'il a progressé de 2 kg, l'écart étant positif",
-    "C": "Qu'il faudrait mesurer davantage de personnes pour savoir s'il a progressé"
+    "A": "L'écart observé, plus petit que le bruit de mesure, n'est pas interprétable",
+    "B": "Il a progressé de 2 kg : c'est faible, mais l'écart va dans le bon sens",
+    "C": "Il faudrait mesurer davantage de pratiquants pour savoir si lui a progressé"
    },
    "reponse": "A",
    "justif": {
@@ -5212,9 +5212,9 @@ window.SOCLE = {
    "fiche": "MET-006",
    "enonce": "Une étude portant sur 800 sujets rapporte un gain moyen supplémentaire de 400 grammes au\ndéveloppé couché, statistiquement significatif. Comment lire ce résultat ?",
    "options": {
-    "A": "L'effet est établi et justifie de modifier la programmation",
-    "B": "L'effet est probablement réel mais son ampleur est sans conséquence pratique : significatif ne veut pas dire digne d'intérêt",
-    "C": "Le résultat est douteux, un effectif aussi grand produisant mécaniquement des faux positifs"
+    "A": "L'effet est établi sur un grand effectif et justifie de modifier la programmation",
+    "B": "L'effet est sans doute réel, mais trop petit pour avoir une portée pratique",
+    "C": "Le résultat est douteux, un effectif aussi grand produisant des faux positifs"
    },
    "reponse": "B",
    "justif": {
@@ -5232,7 +5232,7 @@ window.SOCLE = {
    "enonce": "Que permet d'établir un test d'équivalence, que le test de signification classique ne permet\npas ?",
    "options": {
     "A": "Que deux protocoles produisent exactement le même effet",
-    "B": "Que l'hypothèse nulle est vraie",
+    "B": "Que l'hypothèse nulle est vraie, au seuil de 5 % retenu",
     "C": "Que l'effet est plus petit qu'un seuil de pertinence fixé à l'avance"
    },
    "reponse": "C",
@@ -5250,9 +5250,9 @@ window.SOCLE = {
    "fiche": "MET-006",
    "enonce": "Un seuil de pertinence est fixé comme 0,2 fois l'écart-type entre sujets de la population\nétudiée. Quelle est la principale limite de cette méthode ?",
    "options": {
-    "A": "Elle fait dépendre un jugement d'importance de l'homogénéité de l'échantillon, si bien qu'un changement trivial peut devenir « digne d'intérêt » dans une population très homogène",
-    "B": "Elle exige une donnée externe que le domaine possède rarement",
-    "C": "Elle ne peut pas être calculée lorsque la distribution n'est pas normale"
+    "A": "Elle rend le seuil dépendant de l'homogénéité de l'échantillon étudié",
+    "B": "Elle exige une donnée externe, rarement disponible dans le domaine",
+    "C": "Elle ne peut pas être calculée quand la distribution des mesures n'est pas normale"
    },
    "reponse": "A",
    "justif": {
@@ -5269,9 +5269,9 @@ window.SOCLE = {
    "fiche": "MET-006",
    "enonce": "Dans un test d'équivalence, quelle configuration établit l'équivalence au seuil retenu ?",
    "options": {
-    "A": "L'intervalle de confiance contient la valeur zéro",
-    "B": "L'intervalle de confiance est entièrement contenu dans la zone d'équivalence",
-    "C": "La valeur p du test de signification classique dépasse 0,05"
+    "A": "L'intervalle de confiance contient la valeur zéro en son centre",
+    "B": "L'intervalle de confiance tient entièrement dans la zone d'équivalence",
+    "C": "La valeur p du test de signification classique dépasse nettement 0,05"
    },
    "reponse": "B",
    "justif": {
@@ -5289,8 +5289,8 @@ window.SOCLE = {
    "enonce": "Une étude conclut à l'absence de différence entre deux protocoles. Son intervalle de confiance\nsur la différence s'étend de − 4 kg à + 9 kg, et le seuil de pertinence retenu est de 3 kg.\nQuelle conclusion est correcte ?",
    "options": {
     "A": "Les deux protocoles sont équivalents, l'intervalle contenant la valeur zéro",
-    "B": "Le second protocole est supérieur, la borne haute de l'intervalle dépassant le seuil de pertinence",
-    "C": "L'étude ne tranche pas : l'intervalle déborde largement la zone d'équivalence des deux côtés, ni la présence ni l'absence d'un effet utile n'est établie"
+    "B": "Le second protocole est probablement supérieur, la borne haute dépassant largement 3 kg",
+    "C": "L'étude ne tranche pas : l'intervalle déborde la zone d'équivalence des deux côtés"
    },
    "reponse": "C",
    "justif": {
@@ -5326,15 +5326,15 @@ window.SOCLE = {
    "fiche": "MET-007",
    "enonce": "Deux équipes évaluent la fidélité du même test de force. La première recrute des sujets dont les\ncharges vont de 85 à 135 kg et obtient un coefficient de 0,96. La seconde recrute des sujets\nentre 105 et 115 kg et obtient 0,48. L'erreur typique est de 3 kg dans les deux cas. Comment\nlire cet écart ?",
    "options": {
-    "A": "Le test est moins fidèle chez les pratiquants homogènes",
-    "B": "Le coefficient dépend de l'hétérogénéité de l'échantillon ; la précision de la mesure, elle, est identique dans les deux cas",
-    "C": "La seconde équipe a commis une erreur de protocole"
+    "A": "Le test est moins fidèle chez des pratiquants homogènes, dont la mesure varie davantage",
+    "B": "Le coefficient dépend de la dispersion de l'échantillon ; la précision de la mesure est la même",
+    "C": "La seconde équipe a moins bien standardisé ses conditions de test, d'où un coefficient plus bas"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "un coefficient de corrélation test-retest rapporte la variance vraie à la variance totale. Dans un groupe étalé, la variance vraie écrase le bruit et le coefficient monte sans que l'instrument soit meilleur [S011]. L'erreur typique, exprimée en kilogrammes, ne bouge pas — et c'est elle qui détermine ce qu'on peut détecter.",
     "Pourquoi pas A": "la fidélité de l'instrument est identique. Seule la statistique employée pour la décrire a changé de valeur.",
-    "Pourquoi pas C": "rien dans l'énoncé n'indique une erreur ; le phénomène est attendu et se prédit à partir de la dispersion des deux échantillons."
+    "Pourquoi pas C": "rien n'indique un défaut de standardisation : l'erreur typique, qui le refléterait, est identique dans les deux cas. L'écart se prédit à partir de la dispersion des deux échantillons."
    },
    "renvoi": "[[MET-007]], « Le coefficient de corrélation test-retest » · [S011]"
   },
@@ -5345,7 +5345,7 @@ window.SOCLE = {
    "fiche": "MET-007",
    "enonce": "Combien de sujets et d'essais sont nécessaires pour estimer une fidélité avec une précision\nraisonnable ?",
    "options": {
-    "A": "Une dizaine de sujets et deux essais",
+    "A": "Une quinzaine de sujets et deux essais bien standardisés",
     "B": "L'effectif est indifférent, seule la standardisation des conditions compte",
     "C": "Environ cinquante sujets et au moins trois essais"
    },
@@ -5402,9 +5402,9 @@ window.SOCLE = {
    "fiche": "MET-007",
    "enonce": "Un article annonce un test « validé et fiable » sans autre précision. Quelle est la principale\ninsuffisance de cette formulation ?",
    "options": {
-    "A": "Aucune : ces deux termes couvrent l'ensemble des propriétés métrologiques utiles",
-    "B": "Le terme « fiable » devrait être remplacé par « exact », qui est le terme consacré",
-    "C": "La validité est relative à un usage et à une population ; annoncée sans les préciser, elle n'est pas une information"
+    "A": "Aucune : ces deux termes couvrent les propriétés métrologiques utiles d'un test",
+    "B": "« Fiable » devrait être remplacé par « exact », le terme consacré en métrologie",
+    "C": "La validité dépend d'un usage et d'une population, que la formule ne précise pas"
    },
    "reponse": "C",
    "justif": {
@@ -5421,9 +5421,9 @@ window.SOCLE = {
    "fiche": "MET-009",
    "enonce": "Sur quoi porte le biais de publication ?",
    "options": {
-    "A": "Sur la sélection des résultats qui paraissent, donc sur la collection et tout ce qu'on en agrège",
-    "B": "Sur la conduite de chaque étude prise isolément",
-    "C": "Sur la qualité du rapportage des études publiées"
+    "A": "Sur la sélection des résultats qui paraissent, donc sur ce qu'on agrège",
+    "B": "Sur la conduite de chaque étude, en particulier le choix des analyses",
+    "C": "Sur la qualité du rapportage des études qui sont publiées"
    },
    "reponse": "A",
    "justif": {
@@ -5440,8 +5440,8 @@ window.SOCLE = {
    "fiche": "MET-009",
    "enonce": "Dans un corpus de 89 études d'une revue majeure du domaine, 68 % des résultats rapportés sont\nsignificatifs, alors que la puissance estimée permet d'en attendre entre 5 et 33 %. Que signale\ncet écart ?",
    "options": {
-    "A": "Que les hypothèses testées dans ce domaine sont particulièrement bien choisies",
-    "B": "Que des résultats manquent ou ont été ajustés, sans que la méthode permette de distinguer les deux mécanismes",
+    "A": "Que les hypothèses testées dans ce domaine sont particulièrement bien choisies et fondées",
+    "B": "Que des résultats manquent ou ont été ajustés, sans pouvoir dire lequel des deux",
     "C": "Que la puissance a été mal estimée, puisqu'elle est incompatible avec les résultats observés"
    },
    "reponse": "B",
@@ -5459,9 +5459,9 @@ window.SOCLE = {
    "fiche": "MET-009",
    "enonce": "Une méta-analyse porte sur six études. Le funnel plot n'est pas rapporté. Comment le lire ?",
    "options": {
-    "A": "C'est une omission grave qui invalide la synthèse",
-    "B": "Il faut reconstruire soi-même le funnel plot à partir des données publiées",
-    "C": "En dessous d'une dizaine d'études, l'évaluation de l'asymétrie n'a pas de puissance et son absence n'est pas un défaut"
+    "A": "C'est une omission grave, qui empêche d'écarter un biais de publication dans la synthèse",
+    "B": "Il faut reconstruire le funnel plot soi-même à partir des données publiées",
+    "C": "Avec six études, ce graphique n'aurait pas eu la puissance de détecter quoi que ce soit"
    },
    "reponse": "C",
    "justif": {
@@ -5478,9 +5478,9 @@ window.SOCLE = {
    "fiche": "MET-009",
    "enonce": "Que peut-on conclure d'un funnel plot parfaitement symétrique ?",
    "options": {
-    "A": "Rien de décisif : une littérature intégralement biaisée dans le même sens produit un entonnoir symétrique centré sur une valeur fausse",
-    "B": "Que le corpus est exempt de biais de publication",
-    "C": "Que les études incluses sont homogènes"
+    "A": "Rien de décisif : une littérature biaisée dans un même sens reste symétrique",
+    "B": "Que le corpus est exempt de biais de publication, faute d'études manquantes",
+    "C": "Que les études incluses sont homogènes et mesurent un même effet"
    },
    "reponse": "A",
    "justif": {
@@ -5497,9 +5497,9 @@ window.SOCLE = {
    "fiche": "MET-009",
    "enonce": "Quel dispositif s'attaque le plus directement à l'effet du tiroir, c'est-à-dire aux études\njamais soumises ?",
    "options": {
-    "A": "Le test d'Egger appliqué systématiquement",
-    "B": "Le rapport enregistré, où la revue accepte l'article sur le protocole avant collecte des données",
-    "C": "L'exigence d'un effectif minimal pour la publication"
+    "A": "Le test d'Egger appliqué systématiquement à chaque méta-analyse publiée",
+    "B": "Le rapport enregistré, accepté sur protocole avant la collecte des données",
+    "C": "L'exigence d'un effectif minimal pour pouvoir soumettre un article"
    },
    "reponse": "B",
    "justif": {
@@ -5516,9 +5516,9 @@ window.SOCLE = {
    "fiche": "MET-009",
    "enonce": "Une méta-analyse montre des signes nets de biais de publication. Quelle conduite est la plus\ndéfendable ?",
    "options": {
-    "A": "Appliquer une méthode de correction et retenir l'estimation corrigée comme valeur de référence",
+    "A": "Appliquer une méthode de correction et retenir l'estimation corrigée comme référence",
     "B": "Écarter la méta-analyse et s'en tenir aux études individuelles les plus rigoureuses",
-    "C": "Déplacer son estimation vers le bas sans chiffrer l'ampleur, les méthodes de correction reposant sur des hypothèses invérifiables"
+    "C": "Revoir son estimation à la baisse, sans prétendre chiffrer l'ampleur du biais"
    },
    "reponse": "C",
    "justif": {
@@ -5535,15 +5535,15 @@ window.SOCLE = {
    "fiche": "MET-012",
    "enonce": "Quels éléments faut-il examiner pour juger de la transférabilité d'un résultat ?",
    "options": {
-    "A": "La population, l'intervention réellement appliquée, le comparateur, le critère de jugement et le contexte",
-    "B": "La taille de l'échantillon et la valeur p",
-    "C": "Le facteur d'impact de la revue et le nombre de citations"
+    "A": "La population, l'intervention, le comparateur, le critère de jugement et le contexte",
+    "B": "La taille de l'échantillon, la valeur p et l'amplitude de l'intervalle de confiance",
+    "C": "Le niveau de preuve du protocole, le facteur d'impact de la revue et les citations"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "ce sont les cinq points où le mécanisme peut se rompre, et aucun ne se lit dans les résultats [S037]. La question à poser n'est pas « cette étude me ressemble-t-elle ? » mais « lequel de ces cinq points pourrait rompre, et à quel point est-ce plausible ? ».",
-    "Pourquoi pas B": "effectif et valeur p relèvent de la validité interne et de la précision. Une étude parfaite sur ces deux plans peut être totalement non transférable.",
-    "Pourquoi pas C": "ce sont des indicateurs de notoriété, sans rapport avec la question posée."
+    "Pourquoi pas B": "effectif, valeur p et intervalle de confiance relèvent de la validité interne et de la précision. Une étude parfaite sur ces plans peut être totalement non transférable.",
+    "Pourquoi pas C": "le facteur d'impact et les citations sont des indicateurs de notoriété ; le niveau de preuve renseigne sur la validité interne. Aucun ne dit si le résultat se transporte à une autre population ou un autre contexte."
    },
    "renvoi": "[[MET-012]], « Cinq points de rupture » · [S037]"
   },
@@ -5554,8 +5554,8 @@ window.SOCLE = {
    "fiche": "MET-012",
    "enonce": "Pourquoi la littérature en entraînement porte-t-elle majoritairement sur des sujets peu\nentraînés ?",
    "options": {
-    "A": "Parce que les sujets entraînés répondent moins bien aux interventions et faussent les résultats",
-    "B": "Parce que les effets y sont plus faciles à obtenir et les sujets plus faciles à recruter, ce qui est une contrainte de faisabilité et non un choix scientifique",
+    "A": "Parce que les sujets entraînés répondent moins aux interventions, ce qui brouille les résultats",
+    "B": "Parce que les effets y sont plus faciles à obtenir et les sujets à recruter",
     "C": "Parce que les comités d'éthique restreignent les protocoles chez les athlètes confirmés"
    },
    "reponse": "B",
@@ -5573,9 +5573,9 @@ window.SOCLE = {
    "fiche": "MET-012",
    "enonce": "Dans un essai, certains sujets progressent de 10 kg et d'autres de 1 kg. Que peut-on en\nconclure sur l'existence de répondeurs et de non-répondeurs ?",
    "options": {
-    "A": "Que la réponse au traitement varie fortement entre individus",
-    "B": "Que l'intervention doit être individualisée, la moyenne ne décrivant personne",
-    "C": "Rien sans groupe contrôle : cette dispersion est compatible avec une réponse identique chez tout le monde, l'erreur de mesure et la variabilité biologique suffisant à la produire"
+    "A": "Que la réponse au programme varie fortement d'un individu à l'autre, d'où ces écarts",
+    "B": "Que le programme doit être individualisé, la moyenne du groupe ne décrivant personne",
+    "C": "Rien sans groupe contrôle : erreur de mesure et variabilité biologique peuvent la produire"
    },
    "reponse": "C",
    "justif": {
@@ -5592,8 +5592,8 @@ window.SOCLE = {
    "fiche": "MET-012",
    "enonce": "Parmi les affirmations suivantes, laquelle transfère le mieux d'une population à une autre ?",
    "options": {
-    "A": "« Une tension mécanique élevée sur le muscle est un déterminant de l'adaptation hypertrophique »",
-    "B": "« Trois séries de dix répétitions à 70 % constituent le schéma optimal »",
+    "A": "« Une tension mécanique élevée est un déterminant de l'hypertrophie »",
+    "B": "« Trois séries de dix répétitions à 70 % du maximum constituent le schéma optimal »",
     "C": "« Le protocole A produit 0,3 kg de masse maigre de plus que le protocole B »"
    },
    "reponse": "A",
@@ -5611,9 +5611,9 @@ window.SOCLE = {
    "fiche": "MET-012",
    "enonce": "Un essai conduit chez des étudiants non entraînés compare deux amplitudes de mouvement à volume\napparié et conclut à la supériorité de l'amplitude complète sur l'hypertrophie. Quelle\nconclusion est la mieux calibrée pour un pratiquant confirmé ?",
    "options": {
-    "A": "Le résultat ne s'applique pas, la population étant trop différente",
-    "B": "L'orientation transfère probablement, le mécanisme invoqué étant physiologique ; l'amplitude de l'effet, non, et le degré de confiance reste moyen",
-    "C": "Le résultat s'applique intégralement, la randomisation garantissant la généralisation"
+    "A": "Le résultat ne s'applique pas : la population étudiée est trop différente de la sienne",
+    "B": "Le sens de l'effet transfère probablement, son amplitude non ; confiance moyenne",
+    "C": "Le résultat s'applique, la randomisation et l'appariement du volume garantissant sa portée"
    },
    "reponse": "B",
    "justif": {
@@ -5630,15 +5630,15 @@ window.SOCLE = {
    "fiche": "MET-012",
    "enonce": "Un essai compare un protocole à un groupe témoin sans entraînement et conclut à son efficacité.\nQuelle est la portée de ce résultat pour quelqu'un qui s'entraîne déjà ?",
    "options": {
-    "A": "Elle est complète : l'efficacité du protocole est établie",
-    "B": "Elle dépend uniquement de la taille de l'échantillon",
-    "C": "Elle est faible : l'effet est relatif au comparateur, et « mieux que rien » ne renseigne pas sur « mieux que ce que je fais »"
+    "A": "Elle est complète : l'efficacité du protocole est établie par un essai contrôlé",
+    "B": "Elle dépend surtout de la taille de l'échantillon et de la durée de l'essai",
+    "C": "Elle est faible : « mieux que rien » n'est pas « mieux que ce que je fais »"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "un effet n'existe que relativement à ce à quoi on l'a comparé ([[MET-002]]). Comparé à ne rien faire, presque tout fonctionne en entraînement, et l'essai n'apprend pratiquement rien à quelqu'un qui s'entraîne déjà.",
     "Pourquoi pas A": "« efficace » sans comparateur nommé n'a pas de contenu. C'est l'omission la plus fréquente dans la diffusion secondaire.",
-    "Pourquoi pas B": "l'effectif détermine la précision de l'estimation, pas la pertinence de la comparaison."
+    "Pourquoi pas B": "l'effectif et la durée déterminent la précision et l'horizon de l'estimation, pas la pertinence de la comparaison."
    },
    "renvoi": "[[MET-012]], « Cinq points de rupture » · [[MET-002]]"
   },
@@ -5649,9 +5649,9 @@ window.SOCLE = {
    "fiche": "MET-010",
    "enonce": "Qu'appelle-t-on degrés de liberté du chercheur ?",
    "options": {
-    "A": "Les décisions d'analyse laissées à la discrétion du chercheur, dont l'usage opportuniste gonfle le taux de faux positifs",
-    "B": "Le nombre de paramètres libres d'un modèle statistique",
-    "C": "La latitude accordée par le comité d'éthique sur les modalités d'un protocole"
+    "A": "Les choix d'analyse laissés au chercheur, dont l'usage opportuniste multiplie les faux positifs",
+    "B": "Le nombre de paramètres libres d'un modèle, qui détermine la valeur critique du test",
+    "C": "La latitude que le comité d'éthique accorde sur les modalités pratiques du protocole"
    },
    "reponse": "A",
    "justif": {
@@ -5687,9 +5687,9 @@ window.SOCLE = {
    "fiche": "MET-010",
    "enonce": "Un article mesure huit variables et n'en discute qu'une dans ses résultats. Quel est le signal ?",
    "options": {
-    "A": "Un défaut de puissance sur les sept autres variables",
-    "B": "Une bonne pratique de concision rédactionnelle",
-    "C": "Une sélection possible du critère de jugement rapporté, qui rend la valeur p non interprétable en l'état"
+    "A": "Un défaut de puissance sur les sept autres variables, jugées non concluantes",
+    "B": "Une bonne pratique de concision rédactionnelle, imposée par les revues",
+    "C": "Une sélection possible du critère rapporté, qui rend la valeur p ininterprétable"
    },
    "reponse": "C",
    "justif": {
@@ -5725,9 +5725,9 @@ window.SOCLE = {
    "fiche": "MET-010",
    "enonce": "Que rend vérifiable un préenregistrement de protocole ?",
    "options": {
-    "A": "La qualité de l'exécution de l'étude",
-    "B": "La distinction entre un résultat testé et un résultat trouvé après coup",
-    "C": "L'absence de conflit d'intérêts des auteurs"
+    "A": "La qualité de l'exécution de l'étude, du recrutement à l'analyse",
+    "B": "La distinction entre résultat testé et résultat trouvé après coup",
+    "C": "L'absence de conflit d'intérêts entre les auteurs et le financeur"
    },
    "reponse": "B",
    "justif": {
@@ -5745,14 +5745,14 @@ window.SOCLE = {
    "enonce": "Un essai ne trouve pas d'effet dans l'ensemble de l'échantillon, mais en trouve un chez les\nhommes de plus de trente ans, sous-groupe qui n'était pas annoncé dans la méthode. Quelle\nlecture s'impose ?",
    "options": {
     "A": "L'effet est établi dans ce sous-groupe, la randomisation ayant été respectée",
-    "B": "L'essai doit être écarté dans son intégralité",
-    "C": "Le résultat n'a valeur que d'hypothèse : une analyse en sous-groupes non préspécifiée multiplie les chemins d'analyse"
+    "B": "L'essai doit être écarté, son résultat principal étant manifestement mal mesuré",
+    "C": "Ce n'est qu'une hypothèse : le sous-groupe n'était pas annoncé dans la méthode"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "une analyse en sous-groupes non préspécifiée multiplie les chemins d'analyse et ne conserve pas les propriétés du test [S014]. Le résultat mérite d'être exploré dans une étude conçue pour cela, mais il ne peut pas fonder une conclusion.",
     "Pourquoi pas A": "la randomisation garantit la comparabilité dans l'ensemble de l'échantillon, pas dans un sous-ensemble choisi après avoir vu les résultats.",
-    "Pourquoi pas B": "le rejet global est excessif. Le résultat principal — l'absence d'effet dans l'ensemble — reste valide et informatif."
+    "Pourquoi pas B": "le rejet global est excessif et rien n'indique un défaut de mesure. Le résultat principal — l'absence d'effet dans l'ensemble — reste valide et informatif."
    },
    "renvoi": "[[MET-010]], « Les quatre manœuvres les plus courantes »"
   },
@@ -5801,9 +5801,9 @@ window.SOCLE = {
    "fiche": "MET-011",
    "enonce": "Par quel levier un financeur peut-il obtenir un résultat favorable sans qu'aucune donnée ne soit\nmanipulée ni qu'aucun défaut méthodologique n'apparaisse ?",
    "options": {
-    "A": "En imposant un seuil de significativité plus permissif",
+    "A": "En imposant un seuil de significativité plus permissif que 0,05",
     "B": "En augmentant l'effectif jusqu'à ce que l'écart devienne significatif",
-    "C": "En choisissant le comparateur, par exemple un témoin sans intervention ou une dose sous-optimale du concurrent"
+    "C": "En choisissant le comparateur, par exemple un témoin sans intervention"
    },
    "reponse": "C",
    "justif": {
@@ -5820,9 +5820,9 @@ window.SOCLE = {
    "fiche": "MET-011",
    "enonce": "Une étude financée par un fabricant est méthodologiquement irréprochable. Quelle attitude est la\nmieux calibrée ?",
    "options": {
-    "A": "La lire en dirigeant la vigilance vers le comparateur, le critère de jugement et la population, et chercher une réplication indépendante",
-    "B": "L'écarter, le financement constituant un biais rédhibitoire",
-    "C": "La traiter exactement comme n'importe quelle autre étude, le rapport de cotes ne disant rien d'un article particulier"
+    "A": "La lire en surveillant comparateur, critère et population, et chercher une réplication",
+    "B": "L'écarter, le financement constituant à lui seul un biais rédhibitoire",
+    "C": "La traiter comme les autres, le rapport de cotes portant sur un corpus et non sur un article"
    },
    "reponse": "A",
    "justif": {
@@ -5839,9 +5839,9 @@ window.SOCLE = {
    "fiche": "MET-011",
    "enonce": "Pourquoi la chaîne de diffusion pose-t-elle un problème particulier en sciences de l'exercice ?",
    "options": {
-    "A": "Parce que les revues du domaine ont un facteur d'impact plus faible",
-    "B": "Parce qu'entre l'étude et le pratiquant s'intercale souvent un seul acteur, qui a un produit à vendre",
-    "C": "Parce que la littérature du domaine est majoritairement en accès restreint"
+    "A": "Parce que les revues du domaine ont un facteur d'impact plus faible qu'en médecine",
+    "B": "Parce qu'un seul acteur, qui a un produit à vendre, s'intercale souvent",
+    "C": "Parce que la littérature du domaine est majoritairement en accès payant"
    },
    "reponse": "B",
    "justif": {
@@ -5896,9 +5896,9 @@ window.SOCLE = {
    "fiche": "MET-013",
    "enonce": "Quel est l'apport principal du cadre PICOT en sciences de l'exercice ?",
    "options": {
-    "A": "Il garantit l'exhaustivité de la recherche documentaire",
-    "B": "Il force à nommer le comparateur et le critère de jugement, que la question vague escamote",
-    "C": "Il permet de coter le niveau de preuve des articles trouvés"
+    "A": "Il garantit l'exhaustivité de la recherche documentaire dans les bases",
+    "B": "Il force à nommer le comparateur et le critère de jugement",
+    "C": "Il permet de coter d'emblée le niveau de preuve des articles trouvés"
    },
    "reponse": "B",
    "justif": {
@@ -5915,9 +5915,9 @@ window.SOCLE = {
    "fiche": "MET-013",
    "enonce": "Une recherche documentaire ramène huit résultats. Quelle est la lecture correcte ?",
    "options": {
-    "A": "La question est bien calibrée et le champ est cerné",
-    "B": "Le sujet est trop récent pour avoir été traité",
-    "C": "Deux causes possibles à distinguer : le vocabulaire employé n'est pas celui de la littérature, ou la question n'a pas été étudiée"
+    "A": "La question est bien calibrée : le champ est cerné et la lecture faisable",
+    "B": "Le sujet est trop récent pour avoir déjà été traité par la littérature",
+    "C": "Vocabulaire inadapté ou question non étudiée : deux causes à distinguer"
    },
    "reponse": "C",
    "justif": {
@@ -5934,9 +5934,9 @@ window.SOCLE = {
    "fiche": "MET-013",
    "enonce": "Dans quel ordre lire la littérature sur une question nouvelle pour soi ?",
    "options": {
-    "A": "Les revues systématiques et méta-analyses récentes d'abord, pour cartographier le champ et son vocabulaire",
+    "A": "Les synthèses récentes d'abord, pour cartographier le champ et son vocabulaire",
     "B": "Les études primaires les plus récentes, puis les synthèses pour vérifier",
-    "C": "Indifféremment, l'ordre n'ayant pas d'incidence sur le résultat"
+    "C": "Indifféremment, l'ordre n'ayant pas d'incidence sur ce qu'on finit par lire"
    },
    "reponse": "A",
    "justif": {
@@ -5953,9 +5953,9 @@ window.SOCLE = {
    "fiche": "MET-013",
    "enonce": "Pourquoi chercher sur le sujet plutôt que sur la conclusion espérée ?",
    "options": {
-    "A": "Parce que les moteurs de recherche ne traitent pas les formulations négatives",
-    "B": "Parce qu'interroger une base sur la conclusion attendue ramène ce qui la confirme et fabrique un consensus apparent",
-    "C": "Parce que les termes de conclusion ne figurent pas dans les résumés"
+    "A": "Parce que les moteurs de recherche traitent mal les formulations négatives",
+    "B": "Parce que chercher la conclusion attendue ramène ce qui la confirme",
+    "C": "Parce que les termes de conclusion figurent rarement dans les résumés"
    },
    "reponse": "B",
    "justif": {
@@ -6029,15 +6029,15 @@ window.SOCLE = {
    "fiche": "PHY-001",
    "enonce": "Dans le premier sprint de six secondes d'une série, d'où vient l'énergie anaérobie d'après l'étude citée ?",
    "options": {
-    "A": "Presque uniquement de la phosphocréatine",
+    "A": "Presque uniquement de la phosphocréatine, la glycolyse démarrant ensuite",
     "B": "À parts à peu près égales de la phosphocréatine et de la glycolyse",
-    "C": "Presque uniquement de la glycolyse"
+    "C": "Surtout de la glycolyse, la phosphocréatine servant d'amorce"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "dès les six premières secondes, la phosphocréatine chutait de 57 % et le lactate musculaire montait nettement : les deux voies contribuaient à parts égales.",
     "Pourquoi pas A": "c'est le modèle « en relais » que ces mesures contredisent.",
-    "Pourquoi pas C": "la phosphocréatine fournissait la moitié de l'énergie anaérobie."
+    "Pourquoi pas C": "la phosphocréatine fournissait la moitié de l'énergie anaérobie : bien plus qu'une amorce."
    },
    "renvoi": "[[PHY-001]], « Un continuum, pas un relais »"
   },
@@ -6068,8 +6068,8 @@ window.SOCLE = {
    "enonce": "Dix sprints de six secondes sont séparés de trente secondes de récupération. Comment évolue l'origine de l'énergie du premier au dixième sprint ?",
    "options": {
     "A": "La glycolyse s'éteint presque, et la part aérobie augmente",
-    "B": "La glycolyse prend une place croissante",
-    "C": "La phosphocréatine n'intervient plus du tout"
+    "B": "La glycolyse prend une place croissante à chaque sprint",
+    "C": "La phosphocréatine cesse d'intervenir faute de recharge"
    },
    "reponse": "A",
    "justif": {
@@ -6105,9 +6105,9 @@ window.SOCLE = {
    "fiche": "PHY-001",
    "enonce": "Un manuel présente un schéma où la phosphocréatine travaille seule les dix premières secondes, puis la glycolyse jusqu'à deux minutes, puis l'aérobie. Quelle critique est la plus juste ?",
    "options": {
-    "A": "Le schéma est exact, il simplifie à peine",
-    "B": "Les trois voies fonctionnent ensemble dès le début, et l'aérobie compte bien plus tôt",
-    "C": "Le schéma oublie que l'aérobie n'intervient qu'après cinq minutes"
+    "A": "Le schéma est exact : il simplifie à peine la réalité mesurée",
+    "B": "Les trois voies coexistent dès le début, l'aérobie comptant bien plus tôt",
+    "C": "Le schéma est juste, mais l'aérobie n'intervient qu'après cinq minutes"
    },
    "reponse": "B",
    "justif": {
@@ -6124,9 +6124,9 @@ window.SOCLE = {
    "fiche": "PHY-001",
    "enonce": "Un athlète affirme que le lactate est un déchet qui « encrasse » le muscle. Quelle réponse est la mieux étayée par la fiche ?",
    "options": {
-    "A": "Il a raison : le lactate est le principal déchet de l'exercice",
-    "B": "Le lactate est produit en permanence et sert de carburant, de précurseur du glucose et de signal",
-    "C": "Le lactate n'est produit qu'en l'absence totale d'oxygène"
+    "A": "Il a raison : c'est le principal déchet métabolique de l'exercice",
+    "B": "Le lactate, produit en continu, sert notamment de carburant",
+    "C": "Le lactate ne se forme qu'en l'absence totale d'oxygène dans la fibre"
    },
    "reponse": "B",
    "justif": {
@@ -6181,7 +6181,7 @@ window.SOCLE = {
    "fiche": "PHY-002",
    "enonce": "Que se passe-t-il pour la recharge de la phosphocréatine quand on bloque la circulation du muscle avec un garrot ?",
    "options": {
-    "A": "Elle s'accélère",
+    "A": "Elle s'accélère nettement",
     "B": "Elle s'arrête complètement",
     "C": "Elle n'est pas modifiée"
    },
@@ -6239,8 +6239,8 @@ window.SOCLE = {
    "enonce": "Après un sprint de trente secondes, la puissance du sprint suivant récupère-t-elle plutôt avec la phosphocréatine ou avec le pH musculaire ?",
    "options": {
     "A": "Avec le pH : tant que le muscle reste acide, la puissance ne revient pas",
-    "B": "Ni l'un ni l'autre : la puissance revient en trente secondes",
-    "C": "Avec la phosphocréatine : les deux récupèrent en parallèle, alors que le pH reste bas"
+    "B": "Ni l'un ni l'autre : la puissance revient en trente secondes environ",
+    "C": "Avec la phosphocréatine, alors même que le pH reste bas"
    },
    "reponse": "C",
    "justif": {
@@ -6257,14 +6257,14 @@ window.SOCLE = {
    "fiche": "PHY-002",
    "enonce": "Un coach affirme que « la phosphocréatine se recharge en trente secondes, donc trente secondes de repos suffisent toujours ». Quelle objection est la plus solide ?",
    "options": {
-    "A": "La phosphocréatine ne se recharge jamais pendant la séance",
-    "B": "Le coach a raison, mais seulement en hypoxie",
-    "C": "Le demi-temps de recharge varie selon l'effort : environ 21 secondes pour la phase rapide après un effort épuisant, mais près de 57 secondes après un sprint de trente secondes, et la recharge reste incomplète après six minutes"
+    "A": "Elle ne se recharge pas pendant la séance, seulement des heures après",
+    "B": "Il a raison, mais seulement en altitude, où l'oxygène manque",
+    "C": "La recharge dépend de l'effort et peut rester incomplète après six minutes"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "les demi-temps publiés varient d'un facteur deux ou trois selon l'intensité de l'effort, l'acidité et l'oxygène disponible ; un chiffre unique n'a pas de sens.",
-    "Pourquoi pas A": "elle se recharge bien, en deux phases, rapide puis lente.",
+    "Pourquoi pas A": "elle se recharge bien pendant la séance, en deux phases, rapide puis lente.",
     "Pourquoi pas B": "l'hypoxie ralentit la recharge, elle ne la rend pas plus rapide."
    },
    "renvoi": "[[PHY-002]], « Points de désaccord dans la littérature »"
@@ -6277,8 +6277,8 @@ window.SOCLE = {
    "enonce": "Pour l'hypertrophie, un essai trouve trois minutes de repos meilleures qu'une minute, alors qu'une méta-analyse ne voit plus de différence au-delà de 90 secondes. Comment concilier ces résultats ?",
    "options": {
     "A": "Ils se contredisent : l'un des deux est forcément faux",
-    "B": "Ils sont compatibles : l'essai compare une minute à trois, dans la zone où la méta-analyse voit un petit écart",
-    "C": "La méta-analyse ne portait que sur la force, pas sur l'hypertrophie"
+    "B": "Ils sont compatibles : l'essai compare une minute à trois",
+    "C": "La méta-analyse ne portait que sur la force, pas sur la masse musculaire"
    },
    "reponse": "B",
    "justif": {
@@ -6333,15 +6333,15 @@ window.SOCLE = {
    "fiche": "PHY-003",
    "enonce": "Un athlète voit son lactate sanguin monter pendant l'effort et en conclut que ses muscles manquent d'oxygène. Quelle réponse est la mieux étayée ?",
    "options": {
-    "A": "Il a raison : le lactate signe toujours un manque d'oxygène",
-    "B": "Le lactate ne se forme qu'au repos, pas à l'effort",
-    "C": "Le lactate se forme aussi quand l'oxygène ne manque pas ; le manque d'oxygène est l'exception"
+    "A": "Il a raison : le lactate signe un manque d'oxygène dans le muscle",
+    "B": "Le lactate sanguin vient du foie, pas des muscles à l'effort",
+    "C": "Le lactate se forme aussi sans manque d'oxygène, qui est l'exception"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "le lactate se forme en continu, y compris en conditions aérobies ; les variations du lactate sanguin ne sont habituellement pas dues à un manque d'oxygène.",
     "Pourquoi pas A": "le manque d'oxygène augmente bien la production de lactate, mais c'est l'exception, pas la règle.",
-    "Pourquoi pas B": "le lactate se forme aussi à l'effort, et en plus grande quantité quand la glycolyse tourne vite."
+    "Pourquoi pas B": "le lactate se forme dans les muscles qui travaillent, et en plus grande quantité quand la glycolyse tourne vite."
    },
    "renvoi": "[[PHY-003]], « Un carburant, pas un déchet »"
   },
@@ -6353,14 +6353,14 @@ window.SOCLE = {
    "enonce": "Que montre l'expérience d'injection de protons, de lactate et d'ATP sous le fascia d'un muscle ?",
    "options": {
     "A": "Le lactate seul suffit à provoquer une sensation de brûlure",
-    "B": "Les sensations de fatigue et de douleur naissent de leur combinaison, pas d'une molécule seule",
-    "C": "Aucune combinaison ne provoque de sensation"
+    "B": "Les sensations naissent de leur combinaison, pas d'une molécule seule",
+    "C": "Seuls les protons provoquent la douleur, quelle que soit la dose"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "injectées seules, ces molécules ne provoquaient rien ; combinées aux concentrations de l'effort, elles provoquaient fatigue puis début de douleur.",
     "Pourquoi pas A": "aucune molécule seule, même à forte dose, ne provoquait de sensation.",
-    "Pourquoi pas C": "les combinaisons d'effort modéré et intense provoquaient bien des sensations."
+    "Pourquoi pas C": "aucune molécule seule, protons compris, ne provoquait de sensation ; il fallait leur combinaison."
    },
    "renvoi": "[[PHY-003]], « La brûlure de l'effort »"
   },
@@ -6371,8 +6371,8 @@ window.SOCLE = {
    "fiche": "PHY-003",
    "enonce": "Un étudiant écrit : « Le lactate cause l'acidose de l'effort, c'est établi. » Quelle correction est la plus juste ?",
    "options": {
-    "A": "C'est disputé : une revue soutient que les protons viennent de la scission de l'ATP et que le lactate retarde l'acidose, d'autres maintiennent l'acide lactique comme cause",
-    "B": "C'est établi : tous les auteurs s'accordent depuis 2004",
+    "A": "C'est disputé : une revue attribue les protons à la scission de l'ATP",
+    "B": "C'est établi : tous les auteurs s'accordent sur ce point depuis 2004",
     "C": "C'est faux : le pH du muscle ne baisse pas pendant l'effort"
    },
    "reponse": "A",
@@ -6390,15 +6390,15 @@ window.SOCLE = {
    "fiche": "PHY-003",
    "enonce": "Sur des fibres de rat à pH 6,2 et à 30 °C, la force isométrique baisse peu, mais la puissance maximale baisse nettement. Que peut-on en conclure ?",
    "options": {
-    "A": "L'acidité n'a aucun effet près de la température du corps",
-    "B": "Juger l'acidité sur la seule force isométrique sous-estime son effet sur la puissance",
-    "C": "L'acidité augmente la puissance des fibres rapides"
+    "A": "L'acidité n'a guère d'effet près de la température du corps",
+    "B": "La seule force isométrique sous-estime l'effet de l'acidité",
+    "C": "L'acidité réduit la force, mais préserve la puissance des fibres rapides"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "à 30 °C, la force baissait de 4 à 12 %, mais la puissance maximale de 18 à 34 % selon le type de fibre ; l'effet de l'acidité sur la puissance est plus grand que ne le laisse prévoir la force.",
     "Pourquoi pas A": "la baisse de puissance reste nette près de la température du corps.",
-    "Pourquoi pas C": "la puissance des fibres rapides baissait aussi, de 18 % à 30 °C."
+    "Pourquoi pas C": "la puissance des fibres rapides baissait aussi, de 18 % à 30 °C, et plus nettement que la force."
    },
    "renvoi": "[[PHY-003]], « L'acidité fatigue-t-elle le muscle ? »"
   },
@@ -6428,9 +6428,9 @@ window.SOCLE = {
    "fiche": "PHY-003",
    "enonce": "Après une course intense, un athlète veut faire baisser le plus vite possible son lactate sanguin. Que lui conseiller d'après l'étude citée ?",
    "options": {
-    "A": "Rester allongé, au repos complet",
-    "B": "Enchaîner un sprint court",
-    "C": "Récupérer activement, à une intensité proche de son seuil lactique"
+    "A": "Rester allongé, au repos complet, jambes surélevées",
+    "B": "Enchaîner un sprint court pour relancer la circulation",
+    "C": "Récupérer activement, près de son seuil lactique"
    },
    "reponse": "C",
    "justif": {
@@ -6486,8 +6486,8 @@ window.SOCLE = {
    "enonce": "Dans le concept du croisement, qu'appelle-t-on le point de croisement ?",
    "options": {
     "A": "L'intensité à laquelle l'oxydation des graisses est maximale",
-    "B": "Le moment où le glycogène musculaire est épuisé",
-    "C": "L'intensité à partir de laquelle les glucides fournissent plus d'énergie que les graisses"
+    "B": "Le moment où le glycogène musculaire passe sous la moitié de sa réserve",
+    "C": "L'intensité où les glucides prennent le pas sur les graisses"
    },
    "reponse": "C",
    "justif": {
@@ -6543,8 +6543,8 @@ window.SOCLE = {
    "enonce": "Au début d'un footing modéré, la phosphocréatine et la glycolyse fournissent une partie de l'énergie. Pourquoi ?",
    "options": {
     "A": "Parce que l'oxygène gêne la contraction au démarrage",
-    "B": "Parce que la consommation d'oxygène monte progressivement : elles comblent ce déficit",
-    "C": "Parce que les mitochondries n'ont pas encore de carburant"
+    "B": "Parce que la consommation d'oxygène monte progressivement",
+    "C": "Parce que les mitochondries manquent encore de carburant"
    },
    "reponse": "B",
    "justif": {
@@ -6561,15 +6561,15 @@ window.SOCLE = {
    "fiche": "PHY-004",
    "enonce": "Une cliente veut courir à jeun pour « brûler plus de graisse » et maigrir davantage. Quelle réponse est la mieux étayée ?",
    "options": {
-    "A": "À programme et déficit calorique égaux, la perte de masse grasse était la même à jeun ou après un repas",
+    "A": "À déficit égal, la perte de graisse était la même à jeun ou non",
     "B": "Courir à jeun fait perdre environ deux fois plus de graisse",
-    "C": "Courir à jeun empêche toute perte de graisse"
+    "C": "Courir à jeun fait perdre du muscle plutôt que de la graisse"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "chez vingt jeunes femmes en déficit calorique, la perte de masse grasse ne différait pas entre l'entraînement à jeun et après un repas.",
     "Pourquoi pas B": "aucune différence entre les deux groupes n'a été trouvée.",
-    "Pourquoi pas C": "les deux groupes ont perdu du poids et de la masse grasse."
+    "Pourquoi pas C": "les deux groupes ont perdu du poids et de la masse grasse, sans différence entre eux."
    },
    "renvoi": "[[PHY-004]], « Application pratique »"
   },
@@ -6580,14 +6580,14 @@ window.SOCLE = {
    "fiche": "PHY-004",
    "enonce": "Des ultra-endurants adaptés au régime cétogène oxydent deux fois plus de graisses, alors que des marcheurs d'élite au régime cétogène n'ont pas progressé. Comment concilier ces résultats ?",
    "options": {
-    "A": "L'une des deux études est forcément fausse",
+    "A": "Le régime cétogène profite aux ultras, pas aux épreuves rapides comme la marche",
     "B": "Les deux études montrent un gain de performance avec le régime cétogène",
-    "C": "La première, transversale, ne mesure pas la performance ; la seconde, contrôlée, montre un coût en oxygène accru et aucun progrès"
+    "C": "Seule la seconde mesure la performance, et elle ne voit aucun progrès"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "l'étude des ultra-endurants est transversale, sur des athlètes qui ont choisi leur régime, et sans mesure de performance ; l'essai sur les marcheurs est contrôlé et montre un coût en oxygène accru, sans progrès sur 10 km.",
-    "Pourquoi pas A": "les deux études mesurent des choses différentes et sont compatibles.",
+    "Pourquoi pas A": "l'étude des ultras ne mesure pas la performance : elle montre une oxydation des graisses accrue, pas un bénéfice. Les deux études sont compatibles.",
     "Pourquoi pas B": "le groupe cétogène des marcheurs n'a pas progressé, contre 6,6 et 5,3 % pour les groupes nourris en glucides."
    },
    "renvoi": "[[PHY-004]], « Points de désaccord dans la littérature »"
@@ -6618,7 +6618,7 @@ window.SOCLE = {
    "fiche": "PHY-005",
    "enonce": "D'après l'équation de Fick, de quoi la consommation d'oxygène est-elle le produit ?",
    "options": {
-    "A": "De la fréquence cardiaque et de la pression artérielle",
+    "A": "De la fréquence cardiaque et de la pression artérielle moyenne",
     "B": "Du débit cardiaque et de la différence artério-veineuse en oxygène",
     "C": "De la ventilation et de la fréquence respiratoire"
    },
@@ -6657,8 +6657,8 @@ window.SOCLE = {
    "enonce": "Deux coureurs ont la même consommation maximale d'oxygène. Lequel a le plus de chances de gagner un 10 km ?",
    "options": {
     "A": "Celui dont la vitesse au seuil lactique est la plus élevée",
-    "B": "Le plus lourd des deux",
-    "C": "Aucune différence possible : le plafond est le même"
+    "B": "Le plus lourd, dont la foulée est plus puissante",
+    "C": "Aucun : à plafond égal, la performance est la même"
    },
    "reponse": "A",
    "justif": {
@@ -6675,9 +6675,9 @@ window.SOCLE = {
    "fiche": "PHY-005",
    "enonce": "Un test progressif s'arrête sans plateau de consommation d'oxygène. Quelle conclusion est la plus prudente ?",
    "options": {
-    "A": "Le sujet n'a pas fait d'effort",
-    "B": "On parle de pic ; une phase de vérification au-dessus de la vitesse finale permettrait de confirmer le maximum",
-    "C": "Sa vraie consommation maximale est forcément beaucoup plus haute"
+    "A": "Le sujet n'a pas fourni un effort maximal",
+    "B": "On parle de pic ; un palier de vérification dira s'il s'agit du maximum",
+    "C": "Sa vraie consommation maximale est nettement plus haute que le pic"
    },
    "reponse": "B",
    "justif": {
@@ -6694,9 +6694,9 @@ window.SOCLE = {
    "fiche": "PHY-005",
    "enonce": "Deux laboratoires donnent deux seuils lactiques différents pour le même athlète, testé la même semaine. Quelle explication est la plus probable ?",
    "options": {
-    "A": "L'athlète a changé entre les deux tests",
-    "B": "L'un des deux seuils est forcément faux",
-    "C": "Les deux laboratoires n'utilisent pas le même concept de seuil"
+    "A": "L'athlète a progressé ou s'est fatigué entre les deux tests",
+    "B": "L'un des deux laboratoires a forcément mal mesuré le lactate",
+    "C": "Les laboratoires n'utilisent pas le même concept de seuil"
    },
    "reponse": "C",
    "justif": {
@@ -6713,9 +6713,9 @@ window.SOCLE = {
    "fiche": "PHY-005",
    "enonce": "Qu'est-ce que la puissance critique ?",
    "options": {
-    "A": "La puissance maximale d'un sprint",
-    "B": "L'asymptote de la relation puissance-durée, au-delà de laquelle les réponses ne se stabilisent plus",
-    "C": "La puissance à la première hausse du lactate"
+    "A": "La puissance maximale atteinte lors d'un sprint court",
+    "B": "L'asymptote de la relation puissance-durée d'un athlète",
+    "C": "La puissance à laquelle le lactate commence à monter"
    },
    "reponse": "B",
    "justif": {
@@ -6732,9 +6732,9 @@ window.SOCLE = {
    "fiche": "PHY-005",
    "enonce": "Un coureur de fond entraîné veut améliorer son économie de course. Qu'ajouter à son programme d'après la méta-analyse citée ?",
    "options": {
-    "A": "De la musculation et de la pliométrie, deux à trois fois par semaine",
-    "B": "Uniquement davantage de kilomètres",
-    "C": "Des séances d'étirement statique"
+    "A": "De la musculation et de la pliométrie",
+    "B": "Davantage de kilomètres à allure spécifique",
+    "C": "Des séances d'étirement statique quotidiennes"
    },
    "reponse": "A",
    "justif": {
@@ -6770,8 +6770,8 @@ window.SOCLE = {
    "fiche": "PHY-006",
    "enonce": "Dix sprints de six secondes sont séparés de trente secondes de repos. Que devient la glycolyse au fil des sprints ?",
    "options": {
-    "A": "Elle augmente à chaque sprint",
-    "B": "Elle devient la seule source d'énergie",
+    "A": "Elle augmente à chaque sprint, faute de récupération",
+    "B": "Elle devient la seule source d'énergie au dixième sprint",
     "C": "Elle s'éteint presque, et la part aérobie augmente"
    },
    "reponse": "C",
@@ -6808,9 +6808,9 @@ window.SOCLE = {
    "fiche": "PHY-006",
    "enonce": "En deux semaines, six séances de sprints de trente secondes ont donné les mêmes gains que de longues sorties continues. Quelle conclusion est la plus juste ?",
    "options": {
-    "A": "Les sprints peuvent remplacer définitivement le continu",
-    "B": "Sur deux semaines, les sprints produisent les mêmes adaptations pour bien moins de travail ; le long terme n'est pas établi",
-    "C": "Le continu reste nettement supérieur"
+    "A": "Les sprints peuvent remplacer le continu sur le long terme",
+    "B": "Les adaptations sont les mêmes à court terme, pour bien moins de travail",
+    "C": "Le continu reste supérieur, car il cumule plus de travail"
    },
    "reponse": "B",
    "justif": {
@@ -6827,15 +6827,15 @@ window.SOCLE = {
    "fiche": "PHY-006",
    "enonce": "Quels effets ont eu six semaines d'efforts de 20 secondes à environ 170 % séparés de 10 secondes, dans l'étude de 1996 ?",
    "options": {
-    "A": "Une hausse de la seule consommation maximale d'oxygène",
-    "B": "Une hausse de la seule capacité anaérobie",
+    "A": "Une hausse de la consommation maximale, la capacité anaérobie stagnant",
+    "B": "Une hausse de la capacité anaérobie, la consommation maximale stagnant",
     "C": "Une hausse de la consommation maximale et de la capacité anaérobie"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "+ 7 mL/kg/min de consommation maximale et + 28 % de capacité anaérobie.",
     "Pourquoi pas A": "c'est l'effet du continu modéré, qui ne changeait pas la capacité anaérobie.",
-    "Pourquoi pas B": "la consommation maximale augmentait aussi."
+    "Pourquoi pas B": "la consommation maximale augmentait aussi, de 7 mL/kg/min."
    },
    "renvoi": "[[PHY-006]], « Entraîner deux systèmes à la fois »"
   },
@@ -6846,9 +6846,9 @@ window.SOCLE = {
    "fiche": "PHY-006",
    "enonce": "Que conclut la méta-analyse comparant intervalles et continu sur la consommation maximale d'oxygène ?",
    "options": {
-    "A": "Les deux sont efficaces, les intervalles un peu plus, d'environ 1,2 mL/kg/min",
-    "B": "Seuls les intervalles améliorent la consommation maximale",
-    "C": "Le continu est nettement supérieur"
+    "A": "Les deux sont efficaces, les intervalles un peu plus",
+    "B": "Seuls les intervalles améliorent nettement la consommation maximale",
+    "C": "Le continu est nettement supérieur, à volume égal"
    },
    "reponse": "A",
    "justif": {
@@ -6865,9 +6865,9 @@ window.SOCLE = {
    "fiche": "PHY-006",
    "enonce": "Un joueur de football doit mieux répéter les sprints. Quelle approche la revue citée recommande-t-elle ?",
    "options": {
-    "A": "Uniquement des séries de sprints répétés",
-    "B": "Combiner travail de sprint isolé et de force, et intervalles à 80-90 % de la consommation maximale",
-    "C": "Uniquement de l'endurance continue"
+    "A": "Des séries de sprints répétés, à l'exclusion du reste",
+    "B": "Combiner sprint, force et intervalles à 80-90 % du maximum",
+    "C": "De l'endurance continue, qui accélère la récupération"
    },
    "reponse": "B",
    "justif": {
@@ -6884,9 +6884,9 @@ window.SOCLE = {
    "fiche": "PHY-006",
    "enonce": "Après trois semaines d'endurance continue, un client n'a pas progressé sur sa consommation maximale. Que faire d'abord ?",
    "options": {
-    "A": "Conclure qu'il ne répond pas à l'entraînement",
-    "B": "Doubler le volume du même programme",
-    "C": "Essayer un autre format, car les non-répondeurs diffèrent d'un programme à l'autre"
+    "A": "Conclure qu'il ne répond pas à l'entraînement d'endurance",
+    "B": "Doubler le volume du même programme pour franchir un palier",
+    "C": "Essayer un autre format d'entraînement"
    },
    "reponse": "C",
    "justif": {
@@ -6903,9 +6903,9 @@ window.SOCLE = {
    "fiche": "PHY-007",
    "enonce": "Quel terme est recommandé pour décrire le surplus d'oxygène consommé après l'effort ?",
    "options": {
-    "A": "Dette lactique",
+    "A": "Dette d'oxygène, lactique et alactique",
     "B": "Consommation d'oxygène post-exercice",
-    "C": "Déficit en oxygène"
+    "C": "Déficit en oxygène de récupération"
    },
    "reponse": "B",
    "justif": {
@@ -6960,8 +6960,8 @@ window.SOCLE = {
    "fiche": "PHY-007",
    "enonce": "Pourquoi l'explication de Hill, une dette d'oxygène servant à éliminer le lactate, est-elle jugée trop simple ?",
    "options": {
-    "A": "L'élimination du lactate et la composante lente n'évoluent pas de la même façon dans le temps",
-    "B": "Il n'y a plus de lactate dans le sang après l'effort",
+    "A": "Lactate et composante lente n'évoluent pas de la même façon",
+    "B": "Le lactate a déjà disparu du sang au moment de l'arrêt",
     "C": "La consommation d'oxygène revient au repos dès l'arrêt"
    },
    "reponse": "A",
@@ -6979,15 +6979,15 @@ window.SOCLE = {
    "fiche": "PHY-007",
    "enonce": "Un client veut une séance qui « brûle surtout après l'effort ». Que lui répondre ?",
    "options": {
-    "A": "C'est le bon critère, l'après-effort représente l'essentiel de la dépense",
-    "B": "L'après-effort n'ajoute que 6 à 15 % : mieux vaut juger une séance sur la dépense pendant l'effort",
-    "C": "L'après-effort n'existe pas"
+    "A": "C'est le bon critère : l'après-effort fait l'essentiel de la dépense",
+    "B": "L'après-effort pèse peu : mieux vaut juger la dépense pendant l'effort",
+    "C": "L'après-effort est négligeable, sauf après la musculation lourde"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "même après des efforts importants, le surplus ne vaut que 6 à 15 % du coût net de l'effort.",
     "Pourquoi pas A": "c'est l'idée que les études récentes jugent infondée.",
-    "Pourquoi pas C": "il existe, il est simplement modeste."
+    "Pourquoi pas C": "l'après-effort existe après tout effort important ; il reste modeste, 6 à 15 % du coût net, quel que soit le type de séance."
    },
    "renvoi": "[[PHY-007]], « Ce que ça pèse dans le bilan »"
   },
@@ -6998,9 +6998,9 @@ window.SOCLE = {
    "fiche": "PHY-007",
    "enonce": "Laquelle de ces séances a le plus de chances de produire une composante prolongée, de plusieurs heures ?",
    "options": {
-    "A": "15 min à 50 % de la consommation maximale d'oxygène",
-    "B": "5 min à 60 %",
-    "C": "60 min à 75 %"
+    "A": "15 min à 50 % de la consommation maximale",
+    "B": "5 min à 60 % de la consommation maximale",
+    "C": "60 min à 75 % de la consommation maximale"
    },
    "reponse": "C",
    "justif": {
@@ -7036,9 +7036,9 @@ window.SOCLE = {
    "fiche": "PHY-007",
    "enonce": "On veut mesurer la dépense de repos d'un athlète, qui a fait un circuit lourd de musculation jusqu'à l'échec la veille au soir. Que faut-il craindre ?",
    "options": {
-    "A": "Rien : l'effet d'une séance disparaît en une heure",
-    "B": "Une mesure plus basse que d'habitude",
-    "C": "Une mesure faussée vers le haut, car la consommation d'oxygène peut rester élevée plus d'une journée"
+    "A": "Rien : l'effet d'une séance disparaît en une heure ou deux",
+    "B": "Une mesure plus basse, par fatigue du métabolisme",
+    "C": "Une mesure faussée vers le haut, l'effet durant plus d'une journée"
    },
    "reponse": "C",
    "justif": {
@@ -7131,9 +7131,9 @@ window.SOCLE = {
    "fiche": "PHY-008",
    "enonce": "Chez 49 hommes entraînés, aucune hormone ne prédisait le gain de masse, mais la quantité de récepteurs des androgènes du muscle y était liée. Quelle interprétation est la plus prudente ?",
    "options": {
-    "A": "Les récepteurs causent l'hypertrophie",
-    "B": "Les hormones ne servent à rien dans le muscle",
-    "C": "L'effet d'une hormone dépend aussi de sa cible, mais ce lien reste une association"
+    "A": "Les récepteurs causent l'hypertrophie, l'étude le démontre",
+    "B": "Les hormones sanguines ne jouent aucun rôle dans le muscle",
+    "C": "La cible compte aussi, mais ce lien reste une association"
    },
    "reponse": "C",
    "justif": {
@@ -7151,8 +7151,8 @@ window.SOCLE = {
    "enonce": "Pendant une séance, un muscle qui se contracte capte du glucose même quand l'insuline est basse. Pourquoi ?",
    "options": {
     "A": "La contraction fait migrer le transporteur GLUT4 vers la membrane",
-    "B": "Le glucose traverse la membrane sans transporteur",
-    "C": "Le cortisol fait entrer le glucose dans le muscle"
+    "B": "Le glucose traverse librement la membrane à l'effort",
+    "C": "Le cortisol de l'effort fait entrer le glucose dans le muscle"
    },
    "reponse": "A",
    "justif": {
@@ -7169,9 +7169,9 @@ window.SOCLE = {
    "fiche": "PHY-008",
    "enonce": "Un entraîneur conçoit une séance dans le seul but de provoquer un grand pic de testostérone pour faire grossir les muscles. Que montrent les données ?",
    "options": {
-    "A": "Dans un essai, élever fortement les hormones après le travail d'un bras n'a ajouté ni masse ni force",
-    "B": "Le pic de testostérone double l'hypertrophie",
-    "C": "Sans pic hormonal, aucune hypertrophie n'est possible"
+    "A": "Élever les hormones après le travail d'un bras n'a rien ajouté",
+    "B": "Un pic de testostérone double l'hypertrophie du muscle travaillé",
+    "C": "Sans pic hormonal, l'hypertrophie reste très limitée"
    },
    "reponse": "A",
    "justif": {
@@ -7189,8 +7189,8 @@ window.SOCLE = {
    "enonce": "Un garçon de 11 ans, avant la puberté, fait une séance de musculation. Quelle réponse aiguë de la testostérone attendre ?",
    "options": {
     "A": "Une forte hausse, comme chez l'adulte",
-    "B": "Pas de hausse aiguë",
-    "C": "Une baisse durable"
+    "B": "Pas de hausse aiguë notable",
+    "C": "Une baisse durable de la testostérone"
    },
    "reponse": "B",
    "justif": {
@@ -7207,15 +7207,15 @@ window.SOCLE = {
    "fiche": "PHY-009",
    "enonce": "Quels sont les trois signaux souvent présentés comme « anaboliques » ?",
    "options": {
-    "A": "Insuline, cortisol, adrénaline",
+    "A": "Insuline, cortisol et hormones thyroïdiennes",
     "B": "Testostérone, hormone de croissance, IGF-1",
-    "C": "Testostérone, cortisol, GLUT4"
+    "C": "Testostérone, insuline et cortisol"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "testostérone, hormone de croissance et IGF sont présentés comme les trois grands signaux anaboliques, avec le cortisol pour contrepoids.",
-    "Pourquoi pas A": "le cortisol et l'adrénaline ne sont pas comptés parmi les signaux anaboliques.",
-    "Pourquoi pas C": "le cortisol est un contrepoids et GLUT4 un transporteur, pas une hormone."
+    "Pourquoi pas A": "le cortisol n'est pas compté parmi les signaux anaboliques : il en est le contrepoids.",
+    "Pourquoi pas C": "le cortisol est présenté comme le contrepoids des signaux anaboliques, pas comme l'un d'eux."
    },
    "renvoi": "[[PHY-009]], « Trois signaux, trois chemins »"
   },
@@ -7226,9 +7226,9 @@ window.SOCLE = {
    "fiche": "PHY-009",
    "enonce": "Une dose élevée et durable de testostérone augmente le muscle même sans entraînement. Qu'en conclure sur son effet au repos ?",
    "options": {
-    "A": "Un changement fort et durable du taux de repos agit sur le muscle",
-    "B": "La testostérone n'agit pas sur le muscle",
-    "C": "Seule la testostérone de la séance compte"
+    "A": "Le taux de repos agit sur le muscle s'il change fortement",
+    "B": "La testostérone de repos n'agit pas sur le muscle",
+    "C": "Seul le pic de testostérone de la séance compte"
    },
    "reponse": "A",
    "justif": {
@@ -7264,15 +7264,15 @@ window.SOCLE = {
    "fiche": "PHY-009",
    "enonce": "Une cure d'hormone de croissance augmente la masse maigre d'environ 2 kg mais pas la force ni la taille du muscle. Comment l'expliquer ?",
    "options": {
-    "A": "Le gain de masse maigre serait surtout de l'eau et du collagène, pas du muscle contractile",
-    "B": "Le muscle a beaucoup grossi",
-    "C": "La force a forcément augmenté aussi"
+    "A": "Le gain porterait surtout sur l'eau et le collagène, pas sur le muscle",
+    "B": "Le muscle a grossi, mais sans gagner en qualité contractile",
+    "C": "La force a augmenté, mais trop peu pour être détectée"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "la masse maigre monte sans gain de force ni de taille du muscle entraîné : le gain porte sur un autre tissu, surtout de l'eau.",
     "Pourquoi pas B": "la taille du muscle entraîné n'a pas changé.",
-    "Pourquoi pas C": "ni la force ni la capacité d'effort n'ont augmenté."
+    "Pourquoi pas C": "ni la force ni la capacité d'effort n'ont augmenté ; rien ne permet de supposer un gain caché."
    },
    "renvoi": "[[PHY-009]], « L'hormone de croissance : moins directe qu'on ne croit »"
   },
@@ -7283,15 +7283,15 @@ window.SOCLE = {
    "fiche": "PHY-009",
    "enonce": "Un vendeur promet que son produit « booste l'hormone de croissance pour prendre du muscle ». Que répondre ?",
    "options": {
-    "A": "C'est fondé, l'hormone de croissance fait grossir le muscle sain",
-    "B": "Élever l'hormone de croissance n'augmente pas la force ni la taille du muscle d'une personne saine",
-    "C": "Cela augmente forcément la force"
+    "A": "C'est fondé : l'hormone de croissance fait grossir le muscle sain",
+    "B": "Élever cette hormone n'augmente ni la force ni la taille du muscle sain",
+    "C": "C'est fondé pour la force, mais pas pour la taille du muscle"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "une cure d'hormone de croissance augmente la masse maigre mais pas la force ni la taille du muscle ; il y a peu de preuves d'un effet sur le muscle sain.",
     "Pourquoi pas A": "c'est justement ce que les données ne soutiennent pas.",
-    "Pourquoi pas C": "la force n'était pas améliorée."
+    "Pourquoi pas C": "la force n'était pas améliorée non plus."
    },
    "renvoi": "[[PHY-009]], « L'hormone de croissance : moins directe qu'on ne croit »"
   },
@@ -7340,9 +7340,9 @@ window.SOCLE = {
    "fiche": "PHY-009",
    "enonce": "Un pratiquant âgé de 60 ans s'étonne de progresser plus lentement. Quel facteur hormonal, parmi ceux-ci, est cohérent ?",
    "options": {
-    "A": "La testostérone augmente avec l'âge",
+    "A": "La testostérone de l'homme augmente avec l'âge",
     "B": "La sécrétion d'hormone de croissance baisse avec l'âge",
-    "C": "L'IGF-1 local disparaît complètement"
+    "C": "L'IGF-1 local ne répond plus à l'exercice lourd"
    },
    "reponse": "B",
    "justif": {
@@ -7359,15 +7359,15 @@ window.SOCLE = {
    "fiche": "PHY-010",
    "enonce": "Que postule l'« hypothèse hormonale » à propos de la séance de musculation ?",
    "options": {
-    "A": "Que seul le taux de repos compte",
-    "B": "Que les hormones n'ont aucun rôle",
+    "A": "Que seul le taux d'hormones de repos compte pour le muscle",
+    "B": "Que les hormones freinent la croissance après l'effort",
     "C": "Que les pics d'hormones après l'effort font grossir le muscle"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "l'hypothèse veut que les montées d'hormones après l'effort amplifient la croissance du muscle.",
     "Pourquoi pas A": "elle porte sur les pics après l'effort, pas sur le taux de repos.",
-    "Pourquoi pas B": "l'hypothèse accorde au contraire un grand rôle à ces pics."
+    "Pourquoi pas B": "l'hypothèse accorde au contraire aux pics un rôle favorable à la croissance."
    },
    "renvoi": "[[PHY-010]], « L'hypothèse hormonale »"
   },
@@ -7378,9 +7378,9 @@ window.SOCLE = {
    "fiche": "PHY-010",
    "enonce": "Dans l'expérience des deux bras, un bras est entraîné après un gros travail des jambes. Pourquoi ce protocole est-il convaincant ?",
    "options": {
-    "A": "Parce qu'il compare deux personnes différentes",
-    "B": "Parce qu'il compare deux conditions chez la même personne, à génétique et alimentation identiques",
-    "C": "Parce qu'il mesure la force sans entraînement"
+    "A": "Parce qu'il compare deux personnes aux profils hormonaux opposés",
+    "B": "Parce qu'il compare deux conditions chez la même personne",
+    "C": "Parce qu'il mesure la croissance sans aucun entraînement"
    },
    "reponse": "B",
    "justif": {
@@ -7398,14 +7398,14 @@ window.SOCLE = {
    "enonce": "Dans l'expérience des deux bras de West, qu'a changé la montée d'hormones après l'effort ?",
    "options": {
     "A": "Rien : ni la synthèse des protéines ni le gain de muscle",
-    "B": "Elle a doublé le gain de muscle",
-    "C": "Elle a réduit le gain de muscle"
+    "B": "Elle a nettement accru le gain de muscle du bras",
+    "C": "Elle a accru la synthèse des protéines, sans gain durable"
    },
    "reponse": "A",
    "justif": {
     "Pourquoi A": "la montée d'hormones n'a augmenté ni la synthèse des protéines ni, sur 15 semaines, la masse ou la force du bras concerné.",
     "Pourquoi pas B": "aucun gain supplémentaire n'a été observé.",
-    "Pourquoi pas C": "elle n'a pas réduit le gain non plus : elle n'a rien changé."
+    "Pourquoi pas C": "la synthèse des protéines n'a pas augmenté non plus : la montée d'hormones n'a rien changé."
    },
    "renvoi": "[[PHY-010]], « L'expérience des deux bras »"
   },
@@ -7417,8 +7417,8 @@ window.SOCLE = {
    "enonce": "Chez 49 à 56 hommes, la montée d'hormones après la séance ne prédit pas le gain de muscle. Qu'en déduire ?",
    "options": {
     "A": "Le pic hormonal est un bon guide pour l'hypertrophie",
-    "B": "Le gain de muscle est impossible à mesurer",
-    "C": "Le pic hormonal n'est pas un indicateur fiable du gain de muscle"
+    "B": "Le gain de muscle est trop variable pour être mesuré",
+    "C": "Le pic n'est pas un indicateur fiable du gain de muscle"
    },
    "reponse": "C",
    "justif": {
@@ -7435,9 +7435,9 @@ window.SOCLE = {
    "fiche": "PHY-010",
    "enonce": "Un pratiquant choisit des repos très courts « pour faire monter l'hormone de croissance et grossir ». Que lui conseiller ?",
    "options": {
-    "A": "C'est la bonne stratégie pour l'hypertrophie",
-    "B": "Choisir le repos selon la force et le volume visés ; les repos plus longs ne nuisent pas à l'hypertrophie",
-    "C": "Supprimer tout repos"
+    "A": "C'est la bonne stratégie, le pic d'hormone favorisant la croissance",
+    "B": "Choisir le repos selon la force et le volume visés",
+    "C": "Supprimer tout repos pour maximiser le pic"
    },
    "reponse": "B",
    "justif": {
@@ -7454,9 +7454,9 @@ window.SOCLE = {
    "fiche": "PHY-010",
    "enonce": "D'après les données, qu'est-ce qui déclenche surtout la croissance du muscle ?",
    "options": {
-    "A": "La tension sur le muscle travaillé et la synthèse locale des protéines",
-    "B": "La montée d'hormones dans le sang",
-    "C": "Le pic de cortisol"
+    "A": "La tension mécanique sur le muscle travaillé",
+    "B": "La montée des hormones anabolisantes dans le sang",
+    "C": "Le pic de cortisol, qui signale le stress"
    },
    "reponse": "A",
    "justif": {
@@ -7474,14 +7474,14 @@ window.SOCLE = {
    "enonce": "Une étude (Rønnestad) trouve un petit avantage au bras « hormones élevées ». Comment la situer ?",
    "options": {
     "A": "Elle renverse à elle seule l'ensemble des preuves",
-    "B": "Elle prouve que le pic hormonal double le muscle",
-    "C": "C'est un résultat minoritaire ; le poids de la preuve va contre l'hypothèse hormonale"
+    "B": "Elle confirme un effet du pic, bien établi par ailleurs",
+    "C": "C'est un résultat minoritaire face aux autres études"
    },
    "reponse": "C",
    "justif": {
     "Pourquoi C": "ce résultat maintient le débat ouvert, mais reste minoritaire face aux études qui ne trouvent aucun effet.",
     "Pourquoi pas A": "un résultat isolé ne renverse pas l'ensemble.",
-    "Pourquoi pas B": "l'avantage rapporté est petit, pas un doublement."
+    "Pourquoi pas B": "l'effet n'est pas établi par ailleurs : les autres études n'en trouvent pas, et l'avantage rapporté est petit."
    },
    "renvoi": "[[PHY-010]], « Le débat subsiste »"
   },
@@ -7492,14 +7492,14 @@ window.SOCLE = {
    "fiche": "PHY-010",
    "enonce": "Pourquoi les hormones montent-elles après une séance, selon une interprétation avancée ?",
    "options": {
-    "A": "Pour détruire le muscle",
-    "B": "Pour mobiliser l'énergie pendant l'effort, plus que pour construire du muscle après",
-    "C": "Uniquement pour augmenter la testostérone de repos"
+    "A": "Pour dégrader le muscle et libérer des acides aminés",
+    "B": "Pour mobiliser l'énergie pendant l'effort",
+    "C": "Pour relever durablement la testostérone de repos"
    },
    "reponse": "B",
    "justif": {
     "Pourquoi B": "une interprétation est que ces montées servent surtout à mobiliser l'énergie pendant l'effort.",
-    "Pourquoi pas A": "elles ne détruisent pas le muscle.",
+    "Pourquoi pas A": "elles ne servent pas à détruire le muscle.",
     "Pourquoi pas C": "le taux de repos n'est pas durablement modifié par ces pics."
    },
    "renvoi": "[[PHY-010]], « Points de désaccord dans la littérature »"
