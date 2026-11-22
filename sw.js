@@ -3,7 +3,7 @@
    s'ouvre instantanément et sans réseau ; une nouvelle version de data.js
    publiée sur le site est récupérée en tâche de fond et s'affiche à
    l'ouverture suivante. Changer VERSION force le renouvellement complet. */
-const VERSION = 'socle-v3';
+const VERSION = 'socle-v4';
 const FICHIERS = ['./', 'index.html', 'data.js', 'manifest.webmanifest',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 

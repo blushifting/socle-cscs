@@ -1,6 +1,6 @@
 // Généré par outils/build.py — ne pas éditer à la main.
 window.SOCLE = {
- "genere": "2026-11-17 11:45",
+ "genere": "2026-11-22 12:37",
  "blocs": [
   {
    "id": "00-methodo",
@@ -13033,7 +13033,7 @@ window.SOCLE = {
    "id": "glossaire",
    "titre": "Glossaire",
    "fichier": "glossaire.md",
-   "md": "# Glossaire\n\n**Dernière révision** : 2026-11-17 · **Entrées** : 380\n\nUne seule définition canonique par terme. Si une fiche a besoin d'une définition différente,\nc'est le glossaire qu'on modifie, pas la fiche. L'équivalent anglais figure systématiquement,\npuisque l'examen se passe en anglais et que la traduction française n'est pas toujours celle\nqu'on croit.\n\nLe glossaire se remplit au fil des blocs. À ce stade, il couvre le bloc 0, le bloc 1 et le début du\nbloc 2.\n\nDeux mentions techniques peuvent clore une définition. `(aussi : …)` déclare les formes\nfléchies à reconnaître dans les fiches. `(blocs : …)` réserve l'infobulle aux fiches de ces\nblocs : c'est ce qui permet de garder deux homonymes, comme la puissance statistique du bloc 0\net la puissance mécanique du bloc 1. Quand les deux figurent, `(aussi : …)` vient en premier.\n\n---\n\n## A\n\n**Acétyl-CoA** — *acetyl-CoA*. Molécule à laquelle aboutissent glucides et graisses avant d'entrer dans le cycle de Krebs, dans la mitochondrie.\n\n**Acides gras** — *fatty acids*. Forme sous laquelle les graisses circulent dans le sang et entrent dans la mitochondrie, où la bêta-oxydation les découpe. (aussi : acide gras)\n\n**Acidose** — *acidosis*. Baisse du pH d'un milieu, c'est-à-dire hausse de son acidité. Pendant un effort épuisant, elle accompagne la montée du lactate ; sa cause et son rôle dans la fatigue sont discutés. (aussi : acidose lactique)\n\n**Acromion** — *acromion*. Avancée de l'omoplate qui forme le toit osseux de l'épaule, au-dessus de la tête humérale.\n\n**ACTH** — *adrenocorticotropic hormone*. Hormone libérée par l'hypophyse sous l'effet de la CRH ; elle fait libérer le cortisol par la corticosurrénale.\n\n**Actine** — *actin*. Protéine qui forme les filaments fins du sarcomère, ancrés à ses extrémités. Les têtes de myosine s'y accrochent pour la faire coulisser.\n\n**Action concentrique** — *concentric muscle action*. Action d'un muscle qui se raccourcit en produisant de la force : son moment dépasse le moment externe. La montée d'un curl. (aussi : concentrique, concentriques)\n\n**Action excentrique** — *eccentric muscle action*. Action d'un muscle qui s'allonge tout en produisant de la force, parce que le moment externe dépasse le sien. La descente contrôlée d'un curl ; le travail mécanique du muscle y est négatif. (aussi : excentrique, excentriques)\n\n**Adrénaline** — *epinephrine, adrenaline*. Catécholamine libérée par la médullosurrénale ; elle accélère le cœur et mobilise les carburants pendant l'effort.\n\n**Afférence Ia** — *group Ia afferent*. Fibre nerveuse sensitive principale du fuseau neuromusculaire, très sensible à la vitesse d'étirement. Elle excite directement les motoneurones du même muscle. (aussi : afférences Ia)\n\n**Afférence Ib** — *group Ib afferent*. Fibre nerveuse sensitive de l'organe tendineux de Golgi, qui signale la force de contraction. (aussi : afférences Ib)\n\n**Agoniste** — *agonist, prime mover*. Muscle qui produit le mouvement voulu. C'est un rôle tenu dans un mouvement donné, pas une propriété du muscle. (aussi : agonistes)\n\n**Allégation** — *claim*. Affirmation d'effet portée par un produit ou un service. Une\névaluation systématique des allégations de performance sportive a conclu que la qualité des\npreuves les soutenant était largement insuffisante. À distinguer du résultat d'étude sur lequel\nelle prétend s'appuyer.\n\n**Allocation dissimulée** — *allocation concealment*. Procédure garantissant que la personne\nqui inclut un participant ne peut pas connaître à l'avance le groupe qui lui sera attribué.\nDistinct de l'aveugle, qui intervient après l'inclusion. Son absence permet une sélection\nconsciente ou non des participants selon le groupe.\n\n**Alvéole** — *alveolus*. Petit sac terminal des voies respiratoires, d'environ 200 µm de diamètre, où se font les échanges gazeux. (aussi : alvéoles)\n\n**Analyse de sensibilité** — *sensitivity analysis*. Réexécution d'une analyse en modifiant un\nchoix méthodologique, pour vérifier si la conclusion y survit. Le test le plus informatif d'une\nméta-analyse.\n\n**Analyse en intention de traiter** — *intention-to-treat analysis*. Analyse des participants\ndans le groupe auquel ils ont été attribués, indépendamment de leur adhérence effective.\nPréserve la comparabilité produite par la randomisation, au prix d'une dilution de l'effet.\n\n**Analyse per protocole** — *per-protocol analysis*. Analyse restreinte aux participants ayant\neffectivement suivi le protocole. Elle répond à une question légitime — que produit le\nprogramme quand on le fait — mais elle sélectionne sur une variable postérieure à\nl'attribution, ce qui rompt la comparabilité produite par le tirage au sort. À lire toujours en\nregard de l'analyse en intention de traiter.\n\n**Angle alpha** — *alpha angle*. Angle, mesuré en imagerie, entre l'axe du col du fémur et le point où la tête cesse d'être ronde. Il chiffre la déformation en came.\n\n**Angle de pennation** — *pennation angle*. Angle entre les fibres d'un muscle penné et la lame tendineuse sur laquelle elles s'insèrent. Seule la composante F × cos θ de la force d'une fibre est transmise ; il augmente avec l'hypertrophie. (aussi : pennation)\n\n**Antagoniste** — *antagonist*. Muscle dont l'action est opposée à celle de l'agoniste dans un mouvement donné. Il ne se tait pas forcément : il peut produire un moment opposé notable. (aussi : antagonistes)\n\n**Antéversion** — *femoral anteversion*. Angle dont le col du fémur est tourné vers l'avant par rapport à l'axe du genou. Il varie jusqu'à 30° entre adultes en bonne santé.\n\n**Aponévrose** — *aponeurosis*. Lame de tissu conjonctif, prolongement du tendon, sur laquelle s'insèrent obliquement les fibres d'un muscle penné.\n\n**Architecture musculaire** — *muscle architecture*. Agencement des fibres à l'intérieur d'un muscle : longueur des fibres, angle de pennation, section physiologique. Elle détermine la fonction du muscle davantage que son volume.\n\n**Arraché** — *snatch*. Mouvement d'haltérophilie où la barre passe du sol au-dessus de la tête en un seul geste.\n\n**Artériole** — *arteriole*. Petite artère dont le muscle lisse règle la résistance et la répartition du sang entre les organes.\n\n**Arthrose** — *osteoarthritis*. Maladie d'une articulation marquée par la dégradation du cartilage.\n\n**Articulation gléno-humérale** — *glenohumeral joint*. Articulation entre la glène de l'omoplate et la tête de l'humérus.\n\n**Articulation scapulo-thoracique** — *scapulothoracic joint*. Glissement de l'omoplate sur les côtes. Sans cartilage ni capsule, ce n'est pas une vraie articulation.\n\n**Articulation synoviale** — *synovial joint*. Articulation où deux surfaces osseuses couvertes de cartilage glissent l'une sur l'autre, dans une capsule renforcée de ligaments. (aussi : articulations synoviales)\n\n**Association** — *association*. Relation statistique entre deux variables. N'implique aucun\nordre temporel ni aucune causalité.\n\n**ATP** — *adenosine triphosphate*. Molécule dont la scission en ADP et phosphate fournit l'énergie de la contraction. Les réserves du muscle sont faibles et doivent être reconstituées en continu. (aussi : adénosine triphosphate)\n\n**ATP synthase** — *ATP synthase*. Enzyme de la membrane interne de la mitochondrie qui fabrique l'ATP en utilisant le gradient de protons créé par la chaîne respiratoire.\n\n**Autocrine** — *autocrine*. Se dit d'un signal qui agit sur la cellule même qui l'a produit.\n\n**Autorythmicité** — *autorhythmicity*. Propriété du muscle cardiaque de déclencher seul des impulsions électriques, à un rythme fixe.\n\n**Avantage mécanique** — *mechanical advantage*. Rapport du bras de levier de la force motrice à celui de la résistance. Inférieur à 1 dans la plupart des articulations des membres : le muscle produit alors plus de force que la charge ne pèse, en échange de vitesse et d'amplitude.\n\n**Aveugle** — *blinding*, *masking*. Dissimulation de l'attribution du groupe aux participants,\naux intervenants ou aux évaluateurs. En sciences de l'exercice, l'aveugle des participants est\ngénéralement impossible ; celui des évaluateurs du critère de jugement reste réalisable et\nconstitue un marqueur de qualité.\n\n**Axe hypothalamo-hypophyso-surrénalien** — *hypothalamic-pituitary-adrenal axis*. Cascade CRH, ACTH, cortisol : la réponse hormonale lente au stress.\n\n## B\n\n**Barre basse** — *low-bar squat*. Squat où la barre repose plus bas, sur l'arrière des épaules : tronc plus penché, plus de travail de la hanche et du dos.\n\n**Barre haute** — *high-bar squat*. Squat où la barre repose sur le haut des trapèzes : tronc plus droit, plus de travail du quadriceps.\n\n**Barre hexagonale** — *hexagonal bar*. Barre en forme de cadre dans lequel on se tient ; elle rapproche la charge du corps et réduit les moments au bas du dos, à la hanche et à la cheville.\n\n**Base d'appui** — *base of support*. Polygone qui englobe toutes les surfaces en contact avec le sol. Le centre de pression ne peut se trouver qu'à l'intérieur.\n\n**Bêta-oxydation** — *beta-oxidation*. Découpage des acides gras en acétyl-CoA dans la mitochondrie : première étape de l'oxydation des graisses.\n\n**Biais** — *bias*. Erreur systématique, qui ne diminue pas avec la taille de l'échantillon. À\ndistinguer strictement de l'erreur aléatoire.\n\n**Biais de confusion** — *confounding*. Situation où une troisième variable, associée à la fois à\nl'exposition et au résultat, produit tout ou partie de l'association observée. Le problème que\nla randomisation résout. (aussi : facteur de confusion, facteurs de confusion, confusion résiduelle)\n\n**Biais de publication** — *publication bias*. Tendance des résultats positifs et significatifs\nà être publiés plus souvent et plus vite que les résultats nuls. Produit une littérature qui\nsurestime les effets.\n\n**Biopsie musculaire** — *muscle biopsy*. Prélèvement d'un petit fragment de muscle à l'aiguille, pour mesurer types de fibres, glycogène ou métabolites. Ne représente qu'un point d'un muscle hétérogène. (aussi : biopsie, biopsies)\n\n**Blessure de surmenage** — *overuse injury*. Blessure due à des charges répétées dont aucune, isolément, ne dépasse la résistance du tissu. (aussi : blessures de surmenage)\n\n**Bourrelet** — *labrum*. Anneau qui borde le cotyle et l'approfondit. (aussi : labrum)\n\n**Bras de levier** — *moment arm, lever arm*. Distance perpendiculaire entre la ligne d'action d'une force et l'axe de rotation. Celui d'un muscle n'est pas une constante : il varie avec l'angle articulaire, avec l'intensité de la contraction et d'une personne à l'autre.\n\n## C\n\n**Calorimétrie indirecte** — *indirect calorimetry*. Estimation des carburants brûlés à partir de l'oxygène consommé et du dioxyde de carbone rejeté. Moins fiable aux intensités élevées.\n\n**Capacité anaérobie** — *anaerobic capacity*. Quantité totale d'énergie que les voies anaérobies peuvent fournir lors d'un effort épuisant, souvent estimée par le déficit en oxygène accumulé maximal.\n\n**Capillaire** — *capillary*. Vaisseau le plus fin, où se font les échanges de gaz et de nutriments entre le sang et les tissus.\n\n**Cartilage articulaire** — *articular cartilage*. Tissu lisse qui recouvre les surfaces osseuses d'une articulation synoviale. Il s'amincit sans charge mais ne s'épaissit pas avec une charge élevée.\n\n**Catécholamines** — *catecholamines*. Hormones du stress, comme l'adrénaline, indispensables à la production de force et à la libération d'énergie pendant l'effort. (aussi : catécholamine)\n\n**Ceinture de force** — *weightlifting belt*. Ceinture qui augmente la pression intra-abdominale et aide à soutenir le tronc sous charge lourde. (aussi : ceinture)\n\n**Centre de gravité** — *centre of gravity, centre of mass*. Point où l'on peut considérer que s'applique le poids d'un corps ou d'un système, par exemple le système corps-barre. Sa position dépend de la posture. (aussi : centre de masse)\n\n**Centre de masse extrapolé** — *extrapolated centre of mass (XcoM)*. Position du centre de gravité augmentée de sa vitesse multipliée par √(l / g), l étant la longueur de jambe. En mouvement, c'est lui, et non le centre de gravité, qui doit rester au-dessus de la base d'appui.\n\n**Centre de pression** — *centre of pressure*. Point d'application de la résultante des forces que le sol exerce sur les pieds. Toujours dans la base d'appui ; en le déplaçant, le corps pilote son centre de gravité.\n\n**Chaîne lourde** — *myosin heavy chain*. Partie de la myosine dont la forme varie d'une fibre à l'autre ; elle sert de marqueur pour classer les types de fibres. (aussi : chaîne lourde de myosine, chaînes lourdes)\n\n**Chaîne respiratoire** — *electron transport chain*. Ensemble de protéines de la membrane interne de la mitochondrie qui conduit les électrons jusqu'à l'oxygène et crée le gradient de protons utilisé par l'ATP synthase.\n\n**Charge lourde et lente** — *heavy slow resistance*. Programme de musculation à charges lourdes et mouvements lents ; une option aussi efficace que l'excentrique dans la tendinopathie d'Achille.\n\n**Chef claviculaire** — *clavicular head*. Partie haute du grand pectoral, qui part de la clavicule.\n\n**Chef sternocostal** — *sternocostal head*. Partie principale du grand pectoral, qui part du sternum et des côtes.\n\n**Chirurgie placebo** — *placebo surgery, sham surgery*. Intervention qui reproduit l'opération sans en réaliser le geste actif, pour isoler l'effet propre de ce geste.\n\n**Cinématique** — *kinematics*. Description du mouvement — positions, vitesses, accélérations — sans considération de ses causes. Préalable de toute analyse de la charge.\n\n**Cinétique** — *kinetics*. Étude des causes du mouvement : forces, moments, impulsions. En biomécanique, rien à voir avec la cinétique chimique, qui étudie la vitesse des réactions.\n\n**Circulation coronaire** — *coronary circulation*. Vaisseaux qui irriguent le muscle cardiaque lui-même.\n\n**Circulation pulmonaire** — *pulmonary circulation*. Circuit qui va du ventricule droit aux poumons et revient à l'oreillette gauche.\n\n**Circulation systémique** — *systemic circulation*. Circuit qui va du ventricule gauche à tout le corps et revient à l'oreillette droite.\n\n**Classes de levier** — *lever classes*. Classement d'un levier selon l'élément placé au milieu : l'axe (premier genre), la résistance (deuxième genre) ou la force motrice (troisième genre). La classe dépend du point choisi comme axe et de la force appelée résistance. (aussi : levier du premier genre, levier du deuxième genre, levier du troisième genre)\n\n**Cocontraction** — *coactivation, co-contraction*. Activation simultanée de muscles aux actions opposées autour d'une articulation, par exemple ischio-jambiers et quadriceps au genou.\n\n**Codage en fréquence** — *rate coding*. Modulation de la force par la fréquence de décharge des unités motrices déjà actives. Prédomine au-delà des forces faibles et dans les contractions rapides. (blocs : 1-8)\n\n**Cohorte prospective** — *prospective cohort study*. Suivi dans le temps de sujets classés\nselon leur exposition. Résout l'ambiguïté temporelle, reste exposé à la confusion.\n\n**Coiffe des rotateurs** — *rotator cuff*. Quatre muscles de l'omoplate, sus-épineux, sous-épineux, petit rond et sous-scapulaire, dont les tendons entourent la tête humérale et la plaquent dans la glène.\n\n**Collagène** — *collagen*. Protéine fibreuse, principal constituant des tendons et des ligaments, assemblée en fibrilles, en fibres puis en faisceaux.\n\n**Composante prolongée** — *prolonged component*. Partie de la consommation d'oxygène post-exercice qui peut durer des heures après un effort important, liée notamment au métabolisme des graisses.\n\n**Composante rapide** — *rapid component*. Partie de la consommation d'oxygène post-exercice qui recharge l'oxygène, l'ATP et la phosphocréatine dans les minutes qui suivent l'effort.\n\n**Compression dans la concavité** — *concavity compression*. Mécanisme de stabilité de l'épaule : les muscles de la coiffe plaquent la tête humérale dans le creux de la glène.\n\n**Conflit d'intérêts** — *conflict of interest*. Situation où un intérêt secondaire —\nfinancier, professionnel ou intellectuel — peut influer sur un jugement scientifique. C'est une\nsituation, pas un comportement : les mécanismes par lesquels il agit opèrent en grande partie\nsans intention. Les conflits non financiers, non déclarables, sont probablement les plus actifs\nen sciences de l'exercice.\n\n**Conflit fémoro-acétabulaire** — *femoroacetabular impingement*. Contact anormal entre le col du fémur et le bord du cotyle, avant la fin du mouvement, lié à une came ou à une pince.\n\n**Conflit sous-acromial** — *subacromial impingement*. Étiquette donnée aux douleurs attribuées à un frottement sous l'acromion ; une hypothèse clinique plus qu'une cause démontrée.\n\n**Consommation d'oxygène post-exercice** — *excess post-exercise oxygen consumption, EPOC*. Surplus d'oxygène consommé après l'effort, au-dessus de la valeur de repos. Il comprend une composante rapide et une composante prolongée.\n\n**Consommation maximale d'oxygène** — *maximal oxygen uptake, VO2max*. Plus haut débit d'oxygène que l'organisme peut consommer pendant un effort. Produit du débit cardiaque maximal et de la différence artério-veineuse. (aussi : consommation maximale)\n\n**CONSORT** — *CONSORT statement*. Ligne directrice de rapportage des essais contrôlés\nrandomisés : 25 points et un diagramme de flux. Évalue ce qui est décrit, pas ce qui a été fait\n— même distinction que pour [[PRISMA]]. Le diagramme de flux donne le nombre de randomisés et\nle nombre d'analysés, donc les perdus de vue.\n\n**Contenu minéral osseux** — *bone mineral content*. Quantité totale de minéral d'un os ou d'une région, sans rapport à sa taille.\n\n**Contraction balistique** — *ballistic contraction*. Contraction produite le plus vite possible, en une salve de décharges à très haute fréquence qui précède la montée de la force. (aussi : balistique, balistiques) (blocs : 1-8)\n\n**Contraction isométrique** — *isometric contraction*. Contraction sans mouvement articulaire : le muscle produit de la force sans que l'angle change. Format de référence pour mesurer la force maximale et le taux de développement de la force.\n\n**Contrainte** — *stress*. Force rapportée à la section du tissu qui la supporte. Avec la déformation, elle décrit la sollicitation mécanique d'un os, d'un tendon ou d'un ligament. (aussi : contraintes) (blocs : 1)\n\n**Corticosurrénale** — *adrenal cortex*. Partie périphérique de la glande surrénale ; elle libère notamment le cortisol, sous l'effet de l'ACTH.\n\n**Cortisol** — *cortisol*. Glucocorticoïde libéré par la corticosurrénale. Il mobilise les réserves ; élevé longtemps, il fait fondre le muscle.\n\n**Cotyle** — *acetabulum*. Cavité de l'os coxal qui reçoit la tête du fémur.\n\n**Courbatures** — *delayed-onset muscle soreness*. Douleurs musculaires qui apparaissent dans les jours suivant une séance, surtout après des actions excentriques. Sans lien établi avec le lactate. (aussi : courbature)\n\n**Courbe de force** — *strength curve*. Moment maximal qu'une personne peut produire en fonction de l'angle articulaire. Elle dépend de la relation longueur-tension et des bras de levier. (aussi : courbes de force)\n\n**Courbe force-temps** — *force-time curve*. Enregistrement de la force produite en fonction du temps, typiquement sur plateforme de force. Sa pente donne le taux de développement de la force, son aire l'impulsion.\n\n**Créatine kinase** — *creatine kinase*. Enzyme qui transfère le phosphate de la phosphocréatine à l'ADP pour reformer de l'ATP, et réalise la réaction inverse au repos.\n\n**CRH** — *corticotropin-releasing hormone*. Hormone libérée par l'hypothalamus ; elle fait libérer l'ACTH par l'hypophyse.\n\n**Critère de jugement** — *outcome*. Grandeur mesurée pour évaluer l'effet. Un critère\n**principal** est préspécifié et unique ; les critères secondaires ne peuvent pas fonder la\nconclusion principale.\n\n**Cycle de Krebs** — *citric acid cycle*. Suite de réactions de la mitochondrie qui oxyde l'acétyl-CoA et charge des transporteurs d'électrons, surtout le NADH.\n\n**Cycle étirement-raccourcissement** — *stretch-shortening cycle*. Étirement d'un muscle sous charge suivi aussitôt de son raccourcissement, comme dans un rebond. Produit plus de force, à vitesse égale, qu'un raccourcissement seul. (aussi : cycles étirement-raccourcissement)\n\n**Cycle triglycérides-acides gras** — *triglyceride-fatty acid cycling*. Dégradation des triglycérides en acides gras, suivie de leur reconstitution ; ce cycle consomme de l'énergie.\n\n## D\n\n**d de Cohen** — *Cohen's d*. Écart entre deux moyennes divisé par une mesure de dispersion,\nexprimant l'effet en unités d'écart-type. Sa valeur dépend autant de la dispersion de\nl'échantillon que de l'effet lui-même : un même gain réel produit un d plus grand dans une\npopulation homogène. Toujours demander ce qui figure au dénominateur.\n\n**Débit cardiaque** — *cardiac output*. Volume de sang éjecté par le cœur par minute : volume d'éjection multiplié par la fréquence cardiaque.\n\n**Décompression sous-acromiale** — *subacromial decompression*. Opération qui retire de l'os et des tissus sous l'acromion. Elle ne fait pas mieux qu'une chirurgie placebo.\n\n**Déficit en oxygène** — *oxygen deficit*. Écart entre l'oxygène qu'aurait exigé un effort et celui réellement consommé ; méthode la plus utilisée pour estimer la part anaérobie d'un effort maximal.\n\n**Déformation en came** — *cam deformity*. Bosse à la jonction de la tête et du col du fémur : la tête n'est pas tout à fait ronde. Fréquente sans symptôme, surtout chez les athlètes.\n\n**Déformation en pince** — *pincer deformity*. Cotyle qui recouvre trop la tête du fémur.\n\n**Degré de liberté** — *degree of freedom*. Nombre de rotations indépendantes qu'autorise une articulation : un pour une charnière, trois pour une rotule comme la hanche. La description complète du mouvement relatif de deux os en demande six, trois rotations et trois translations. (aussi : degrés de liberté) (blocs : 1-8)\n\n**Degrés de liberté du chercheur** — *researcher degrees of freedom*. Ensemble des décisions\nanalytiques laissées au libre choix de l'analyste et non déclarées. Portent le taux de faux\npositifs bien au-delà du seuil nominal.\n\n**Demi-temps de recharge** — *half-time of resynthesis*. Temps nécessaire pour reconstituer la moitié de la phosphocréatine perdue. Varie de 20 secondes environ à près d'une minute selon l'effort précédent et l'oxygène disponible. (aussi : demi-temps)\n\n**Densité minérale** — *bone mineral density*. Quantité de minéral rapportée à une surface ou à un volume d'os, mesurée par absorptiométrie. Indicateur imparfait de la solidité. (aussi : densité minérale osseuse)\n\n**Dentelé antérieur** — *serratus anterior*. Muscle qui fait tourner l'omoplate vers le haut et la garde plaquée contre le thorax.\n\n**Dérive cardiovasculaire** — *cardiovascular drift*. Pendant un effort prolongé à intensité constante, baisse progressive du volume d'éjection et hausse de la fréquence cardiaque, après 10 à 20 minutes.\n\n**Dérivé de tirage** — *weightlifting pulling derivative*. Variante d'un mouvement d'haltérophilie qui supprime la réception de la barre : tirage d'épaulé ou d'arraché, tirage haut, shrug sauté, tirage depuis la mi-cuisse. (aussi : dérivés de tirage)\n\n**Dette d'oxygène** — *oxygen debt*. Ancien nom de la consommation d'oxygène post-exercice, lié à l'hypothèse, jugée trop simple, d'un remboursement par l'élimination du lactate.\n\n**Différence artério-veineuse** — *arteriovenous oxygen difference*. Quantité d'oxygène retirée du sang par les tissus, entre le sang artériel et le sang veineux.\n\n**Différence d'ions forts** — *strong ion difference*. Approche physico-chimique de l'équilibre acide-base, qui explique le pH par l'équilibre des ions chargés plutôt que par le compte des protons.\n\n**Différence moyenne standardisée** — *standardized mean difference*, SMD. Différence entre\ngroupes exprimée en écarts-types, permettant l'agrégation d'études employant des échelles\ndifférentes. Le *d* de Cohen et le *g* de Hedges en sont deux variantes.\n\n**Distance acromio-humérale** — *acromiohumeral distance*. Plus courte distance entre l'acromion et l'humérus ; elle mesure l'espace sous-acromial.\n\n**Distance biacromiale** — *biacromial distance*. Largeur des épaules, d'un acromion à l'autre ; elle sert à exprimer la largeur de prise.\n\n**Dose-réponse** — *dose-response*. Relation monotone entre l'intensité d'une exposition et\nl'amplitude d'un résultat. Argument causal classique, difficile à produire par une confusion\nsimple.\n\n**Doublet** — *doublet discharge*. Deux décharges d'un motoneurone très rapprochées, qui accélèrent la montée en force. Plus fréquents après un entraînement à contractions rapides. (aussi : doublets) (blocs : 1-8)\n\n**Dynamique inverse** — *inverse dynamics*. Calcul des forces et des moments nets aux articulations à partir des mouvements mesurés et des forces extérieures, en remontant des effets aux causes. Donne des moments nets, pas la force de chaque muscle.\n\n**Dyskinésie scapulaire** — *scapular dyskinesis*. Mouvement ou position anormale de l'omoplate, fréquente avec ou sans douleur.\n\n## E\n\n**Économie de course** — *running economy*. Consommation d'oxygène à une vitesse de course donnée. Plus elle est basse, plus le coureur est économe.\n\n**Effet Bohr** — *Bohr effect*. Baisse de l'affinité de l'hémoglobine pour l'oxygène quand le pH baisse : le sang plus acide du muscle actif y libère davantage d'oxygène.\n\n**Effet du tiroir** — *file drawer effect*. Non-soumission des études aux résultats non\nsignificatifs. Premier des trois filtres de la sélection des résultats, probablement le plus\nlourd, et le seul qu'aucune lecture d'article ne peut détecter. Les registres d'essais et les\nrapports enregistrés sont les parades.\n\n**Effet fixe (modèle à)** — *fixed-effect model*. Modèle d'agrégation supposant une vraie\nvaleur unique de l'effet. Attention au faux ami : *fixed effects* au pluriel désigne autre\nchose en économétrie.\n\n**Effets aléatoires (modèle à)** — *random-effects model*. Modèle d'agrégation supposant que\nles vraies valeurs varient selon les contextes.\n\n**Effort relatif** — *relative muscular effort*. Moment produit par un groupe musculaire rapporté au moment maximal qu'il peut produire au même angle. Au squat, celui des extenseurs du genou augmente avec la profondeur.\n\n**Électromyographie de surface** — *surface electromyography (sEMG)*. Enregistrement, par des électrodes posées sur la peau, de l'activité électrique d'un muscle. Son amplitude ne mesure pas directement le recrutement et ne prédit pas l'adaptation. (aussi : électromyographie, électromyographique, EMG)\n\n**Endocrine** — *endocrine*. Se dit d'un signal libéré dans le sang, qui agit sur des cellules lointaines.\n\n**Entraînement par intervalles** — *interval training, HIIT*. Alternance d'efforts intenses et de récupérations, dont la réponse dépend d'une dizaine de variables : intensités, durées, nombre de répétitions et de séries.\n\n**Épaulé** — *clean*. Mouvement d'haltérophilie où la barre passe du sol aux épaules ; suivi du jeté, il forme l'épaulé-jeté. L'épaulé en force (*power clean*) se réceptionne jambes peu fléchies. (aussi : épaulés)\n\n**Équation de Fick** — *Fick equation*. Consommation d'oxygène égale au débit cardiaque multiplié par la différence artério-veineuse.\n\n**Erreur de magnitude** — *type M error, magnitude error, exaggeration ratio*. Surestimation\nsystématique de l'amplitude des effets qui franchissent le seuil de significativité dans une\nétude peu puissante. Elle se quantifie par un facteur d'exagération : le rapport entre\nl'amplitude attendue d'un résultat significatif et l'amplitude réelle. Distincte de l'erreur de\ntype I, qui porte sur l'existence de l'effet et non sur sa taille.\n\n**Erreur de mesure différentielle** — *differential measurement error*. Erreur de mesure dont\nl'ampleur ou le sens dépend du groupe auquel appartient le sujet. Contrairement à une erreur\nqui frappe les deux groupes de la même façon, elle crée un écart artificiel entre eux et ne se\ndilue pas quand l'effectif augmente.\n\n**Erreur de signe** — *type S error, sign error*. Probabilité qu'un résultat statistiquement\nsignificatif pointe dans la direction opposée à l'effet réel. Négligeable à puissance élevée,\nelle devient substantielle en deçà de 10 % de puissance. Conséquence la plus contre-intuitive\nde la sous-puissance.\n\n**Erreur de type I** — *type I error*. Rejet d'une hypothèse nulle vraie. Faux positif. Son\ntaux nominal est le seuil de significativité.\n\n**Erreur de type II** — *type II error*. Non-rejet d'une hypothèse nulle fausse. Faux négatif.\nSon complément à 1 est la puissance.\n\n**Erreur standard** — *standard error*. Dispersion attendue d'une estimation si l'on répétait\nl'étude. Elle décrit la précision de l'estimation, non la variabilité entre individus — cette\ndernière est l'écart-type. C'est l'erreur standard qui détermine la largeur de l'intervalle de\nconfiance et le poids d'une étude en méta-analyse.\n\n**Erreur typique** — *typical error*, *standard error of measurement*. Écart-type des mesures\nrépétées d'un même individu. Mesure de fidélité exprimée dans l'unité de la grandeur mesurée,\ndonc directement interprétable — contrairement à un coefficient de corrélation.\n\n**Espace sous-acromial** — *subacromial space*. Espace entre la tête humérale et l'acromion, où passent le tendon du sus-épineux et une bourse séreuse.\n\n**Espérance** — *expectation, expected value*. Valeur moyenne d'une quantité aléatoire sur un\ntrès grand nombre de répétitions. Dire que la randomisation équilibre les groupes « en\nespérance » signifie qu'elle les équilibre en moyenne sur l'ensemble des tirages possibles, pas\nnécessairement dans le tirage effectué.\n\n**Essai contrôlé randomisé** — *randomised controlled trial, RCT*. Étude dans laquelle\nl'attribution de l'intervention est décidée par un procédé aléatoire. C'est ce tirage au sort,\net lui seul, qui autorise une conclusion causale — la présence d'un groupe contrôle sans\nrandomisation ne suffit pas. (aussi : essais contrôlés randomisés, essai randomisé, essais\nrandomisés)\n\n**Estimation ponctuelle** — *point estimate*. Valeur unique proposée comme meilleure estimation\nd'un effet, par opposition à l'intervalle qui l'accompagne. C'est le chiffre que reprennent les\nrésumés et la diffusion secondaire, et c'est l'information la moins fiable d'une étude de\npetite taille.\n\n**État stable maximal du lactate** — *maximal lactate steady state*. Plus haute intensité à laquelle la production et l'élimination du lactate s'équilibrent pendant un effort constant.\n\n**Étude méta-épidémiologique** — *meta-epidemiological study*. Étude qui prend pour unité\nd'analyse non pas un patient mais un essai. On rassemble un grand nombre de méta-analyses, on\nclasse les essais selon la présence d'un dispositif méthodologique, et on compare les\nestimations d'effet des deux classes. C'est ainsi qu'a été mesuré le coût de l'absence\nd'allocation dissimulée ou d'aveugle. (aussi : études méta-épidémiologiques)\n\n**Événement déclencheur** — *inciting event*. Dans le modèle multifactoriel de la blessure, la situation et le mécanisme précis au moment où elle survient. (aussi : événements déclencheurs)\n\n**Exercice nordique des ischio-jambiers** — *Nordic hamstring exercise*. Exercice à genoux, chevilles tenues, où l'on freine la chute du buste vers l'avant par une contraction excentrique des ischio-jambiers. (aussi : exercice nordique)\n\n## F\n\n**Facilitation neuromusculaire proprioceptive** — *proprioceptive neuromuscular facilitation*. Technique d'étirement qui alterne étirement et contraction du muscle étiré ou de son opposé. Son efficacité tient surtout à la tolérance à l'étirement, pas à un relâchement réflexe.\n\n**Facteur de risque externe** — *external risk factor*. Caractéristique de l'environnement ou de l'activité qui modifie le risque de blessure. (aussi : facteurs de risque externes)\n\n**Facteur de risque interne** — *internal risk factor*. Caractéristique propre à l'athlète qui modifie son risque de blessure. (aussi : facteurs de risque internes)\n\n**Faisceau musculaire** — *muscle fascicle*. Groupe de fibres musculaires entouré de périmysium. C'est l'unité visible à l'échographie, sur laquelle on mesure longueur et angle de pennation. (aussi : faisceaux musculaires, faisceau, faisceaux) (blocs : 1)\n\n**Fatigue mécanique** — *mechanical fatigue*. Accumulation de dommages dans un matériau soumis à des charges répétées inférieures à sa résistance. Sert de modèle aux blessures de surmenage.\n\n**Fatmax** — *Fatmax*. Intensité d'effort à laquelle l'oxydation des graisses est maximale. Elle varie beaucoup d'une personne à l'autre.\n\n**Fibre lente** — *slow-twitch fiber, type I fiber*. Fibre de type I : contraction lente, puissance plus faible, métabolisme très oxydatif. Elle travaille la première dans un effort modéré. (aussi : fibres lentes, fibre de type I, fibres de type I)\n\n**Fibre musculaire** — *muscle fibre*. Cellule musculaire, très longue et à plusieurs noyaux, remplie de myofibrilles. (aussi : fibres musculaires)\n\n**Fibre rapide** — *fast-twitch fiber, type II fiber*. Fibre de type II, IIa ou IIx : contraction plus rapide, puissance plus grande. Les études humaines anciennes appellent « IIb » les fibres IIx. (aussi : fibres rapides, fibre de type II, fibres de type II)\n\n**Fibres hybrides** — *hybrid fibers*. Fibres musculaires qui contiennent deux formes de myosine à la fois : I et IIa, ou IIa et IIx. (aussi : fibre hybride)\n\n**Fibres intrafusales** — *intrafusal fibers*. Fibres musculaires spécialisées contenues dans le fuseau neuromusculaire, commandées par les motoneurones gamma. (aussi : fibre intrafusale, intrafusales)\n\n**Fidélité** — *reliability*. Reproductibilité d'une mesure sur des essais répétés. **Faux ami\nmajeur** : *reliability* ne se traduit pas par « fiabilité » dans ce contexte technique, et n'a\nrien à voir avec la validité.\n\n**Filaments glissants** — *sliding filament theory*. Modèle de la contraction : les filaments d'actine et de myosine gardent leur longueur et coulissent les uns entre les autres, ce qui raccourcit le sarcomère.\n\n**Force passive** — *passive force*. Résistance qu'oppose un muscle à l'étirement sans être activé, due à ses structures élastiques. Elle s'ajoute à la force active aux grandes longueurs.\n\n**Forest plot** — *forest plot*. Représentation graphique d'une méta-analyse, une ligne par\nétude, la surface du carré indiquant le poids et le losange final l'estimation agrégée.\n\n**Fréquence cardiaque de réserve** — *heart rate reserve*. Écart entre la fréquence cardiaque maximale et la fréquence de repos ; sert à prescrire l'intensité en pourcentage.\n\n**Fréquence cardiaque maximale** — *maximal heart rate*. Fréquence la plus haute atteinte à l'effort maximal. En moyenne mieux estimée par 208 − 0,7 × âge que par 220 moins l'âge ; pour un individu, l'erreur peut atteindre environ 25 battements par minute.\n\n**Fréquence de décharge** — *discharge rate, firing rate*. Nombre d'influx nerveux émis par seconde par un motoneurone. Principal déterminant nerveux de la montée en force au tout début d'une contraction explosive.\n\n**Funnel plot** — *funnel plot*. Nuage des estimations d'effet portées contre leur précision.\nSon asymétrie est un signal d'alerte, jamais une preuve de biais de publication.\n\n**Fuseau neuromusculaire** — *muscle spindle*. Capteur logé parmi les fibres du muscle, qui signale sa longueur et la vitesse de son changement. Contrairement aux autres capteurs mécaniques, il reçoit une commande motrice propre, par les motoneurones gamma. (aussi : fuseau, fuseaux, fuseaux neuromusculaires)\n\n## G\n\n**g de Hedges** — *Hedges' g*. Taille d'effet standardisée égale au d de Cohen multiplié par un\nfacteur légèrement inférieur à 1, qui corrige la surestimation du d en petit échantillon —\nenviron 4 % à vingt sujets, 8 % à dix. Forme à privilégier en méta-analyse.\n\n**Glandes surrénales** — *adrenal glands*. Glandes posées sur les reins, faites d'une corticosurrénale et d'une médullosurrénale.\n\n**Glène** — *glenoid cavity*. Surface articulaire de l'omoplate, petite et peu creuse, qui reçoit la tête humérale.\n\n**Glucocorticoïdes** — *glucocorticoids*. Famille d'hormones de la corticosurrénale, dont le cortisol. Elles mobilisent les réserves et freinent la construction des tissus.\n\n**GLUT4** — *glucose transporter 4*. Transporteur par lequel le glucose entre dans la fibre musculaire. La contraction et l'insuline le font migrer vers la membrane.\n\n**Glycogène** — *glycogen*. Réserve de glucose stockée dans le muscle et le foie. Le muscle le consomme d'autant plus vite que l'effort est intense.\n\n**Glycolyse** — *glycolysis*. Découpage du glucose, issu surtout du glycogène musculaire, en pyruvate puis en lactate. Produit de l'ATP sans oxygène, à débit élevé mais pour une durée limitée. (aussi : glycolytique, glycolytiques)\n\n**GRADE** — *Grading of Recommendations Assessment, Development and Evaluation*. Cadre\ninternational de cotation de la certitude des preuves, fondé sur un déclassement et un\nreclassement par domaines plutôt que sur le seul protocole d'étude.\n\n**Grand dorsal** — *latissimus dorsi*. Grand muscle du dos, tendu du bas du dos et du bassin à l'humérus ; il ramène le bras le long du corps.\n\n**Grand pectoral** — *pectoralis major*. Muscle de la poitrine à deux chefs, claviculaire et sternocostal, qui rapproche le bras de la ligne médiane.\n\n## H\n\n**Haltérophilie** — *Olympic weightlifting*. Sport de force à deux mouvements, l'arraché et l'épaulé-jeté ; par extension, l'entraînement fondé sur ces mouvements et leurs variantes.\n\n**Hémoconcentration** — *hemoconcentration*. Concentration du sang quand le plasma perd de l'eau à l'effort ; elle augmente les dosages sans sécrétion accrue.\n\n**Hémoglobine** — *hemoglobin*. Protéine des globules rouges qui transporte environ 98,5 % de l'oxygène du sang ; la fixation de chaque molécule d'oxygène facilite celle de la suivante.\n\n**Héritabilité** — *heritability*. Part de la variabilité d'un caractère entre personnes attribuée aux différences génétiques, dans une population donnée.\n\n**Hétérogénéité** — *heterogeneity*. Variabilité des vraies valeurs d'effet entre les études\nd'une méta-analyse, par opposition à la variabilité d'échantillonnage.\n\n**Hormone** — *hormone*. Messager chimique libéré par une glande, qui agit sur les cellules portant son récepteur. (aussi : hormones)\n\n**Hormone de croissance** — *growth hormone*. Hormone de l'hypophyse qui élève l'IGF-1 du sang et agit sur le muscle, l'os, le collagène et les graisses ; sa cure n'augmente pas la force du muscle sain.\n\n**Hormone peptidique** — *peptide hormone*. Hormone qui agit par un récepteur de la membrane, comme l'insuline. (aussi : hormones peptidiques)\n\n**Hormone stéroïde** — *steroid hormone*. Hormone qui traverse la membrane de la cellule et agit par un récepteur intérieur, comme la testostérone. (aussi : hormones stéroïdes)\n\n**Hyperlaxité** — *generalized joint hypermobility*. Amplitude inhabituellement grande dans plusieurs articulations. Plus fréquente chez l'enfant et la femme.\n\n**Hypothèse d'identification** — *identification assumption*. Hypothèse explicite, non\nvérifiable par les données seules, sous laquelle une association observée peut être lue comme\nun effet causal. Toute inférence causale hors essai randomisé en repose sur une : la\nrandomisation a l'avantage de rendre la sienne quasi automatique.\n\n**Hypothèse de l'hormone libre** — *free hormone hypothesis*. Idée que seule la forme libre d'une hormone, non liée aux protéines de transport, agit sur les tissus. Elle ne vaut pas pour toutes les hormones ni tous les tissus.\n\n**Hypothèse hormonale** — *hormone hypothesis*. Idée, peu soutenue par les données, selon laquelle les pics d'hormones juste après une séance feraient grossir le muscle.\n\n**Hypothèse nulle** — *null hypothesis*. Hypothèse d'absence d'effet, ou d'effet égal à une\n\n**Hypoxémie artérielle induite par l'effort** — *exercise-induced arterial hypoxemia*. Baisse de la saturation en oxygène du sang artériel pendant un effort intense, fréquente chez les athlètes d'endurance très entraînés ; dite légère entre 93 et 95 %.\n\n**Hystérésis** — *hysteresis*. Part de l'énergie reçue par un tissu étiré qu'il ne restitue pas en revenant à sa longueur, dissipée en chaleur.\nvaleur de référence, sous laquelle la valeur p est calculée.\n\n## I\n\n**IGF-1** — *insulin-like growth factor 1*. Facteur de croissance. Le muscle en produit ses propres formes sous l'effet de la tension mécanique.\n\n**Impulsion** — *impulse*. Intégrale de la force sur sa durée d'application, en newtons-secondes. Égale à la variation de quantité de mouvement : c'est elle, nette du poids du corps, qui fixe la vitesse de décollage d'un saut. (blocs : 1)\n\n**Inférence causale** — *causal inference*. Passage d'une association observée à l'affirmation\nqu'une variable produit l'autre. Elle exige soit une randomisation, soit une hypothèse\nd'identification explicite et défendable. Aucun ajustement statistique ne la produit à lui\nseul.\n\n**Inflation d'amplitude** — *effect size inflation, winner's curse*. Surestimation systématique\nde la taille des effets qui franchissent le seuil de significativité dans les études de faible\npuissance. Elle ne résulte d'aucune faute : c'est une conséquence mécanique de la sélection des\nrésultats par un seuil.\n\n**Inhibition autogène** — *autogenic inhibition*. Freinage d'un muscle par ses propres organes tendineux. Son rôle protecteur sous les charges lourdes, répandu dans les manuels, n'est pas démontré.\n\n**Inhibition nerveuse** — *neural inhibition*. Baisse de l'activation volontaire d'un muscle malgré un effort maximal, avancée pour expliquer que la force excentrique humaine dépasse peu la force isométrique. Réduite par l'entraînement ; son existence même reste discutée. (blocs : 1-8)\n\n**Inhibition réciproque** — *reciprocal inhibition*. Freinage du muscle opposé quand un muscle est étiré, par un interneurone activé par l'afférence Ia.\n\n**Insuffisance active** — *active insufficiency*. Incapacité supposée d'un muscle biarticulaire à produire beaucoup de force quand les deux articulations le raccourcissent à la fois.\n\n**Insuline** — *insulin*. Hormone peptidique dont la sécrétion dépend du glucose et des acides aminés du sang ; elle agit surtout sur le muscle, le foie et le tissu adipeux.\n\n**Interneurone** — *interneuron*. Neurone de la moelle épinière intercalé entre une fibre sensitive et un motoneurone, par exemple pour inhiber le muscle opposé. (aussi : interneurones)\n\n**Intervalle de compatibilité** — *compatibility interval*. Dénomination proposée pour\nl'intervalle de confiance, décrivant plus fidèlement ce qu'il contient : les valeurs de\nparamètre compatibles avec les données sous le modèle.\n\n**Intervalle de confiance** — *confidence interval*. Intervalle construit par une procédure\ndont la couverture nominale vaut sur des répétitions de l'étude. La propriété appartient à la\nprocédure, pas à l'intervalle observé.\n\n**Intervalle de crédibilité** — *credible interval*. Équivalent bayésien de l'intervalle de\nconfiance, qui possède bien la propriété interprétative intuitive de contenir la vraie valeur\navec la probabilité annoncée.\n\n**Intervalle de prédiction** — *prediction interval*. Dans une méta-analyse à effets\naléatoires, intervalle décrivant l'étendue des effets attendus dans un nouveau contexte.\nToujours plus large que l'intervalle de confiance de la moyenne, et rarement rapporté.\n\n**Isocinétique** — *isokinetic*. Se dit d'un mouvement à vitesse angulaire constante, imposée par un dynamomètre qui oppose une résistance égale à la force appliquée. Outil surtout de mesure et de rééducation.\n\n**Isotonique** — *isotonic*. Littéralement « à tension constante ». Désigne couramment le travail à charge constante, où la force musculaire varie pourtant avec les bras de levier et l'accélération : terme trompeur, à comprendre comme « à charge constante ».\n\n**I²** — *I-squared*. Proportion de la variabilité observée entre études attribuable à\nl'hétérogénéité plutôt qu'à l'erreur d'échantillonnage. Proportion, jamais quantité absolue.\n\n## L\n\n**Lactate** — *lactate*. Produit de la glycolyse formé en permanence, y compris en conditions aérobies. Carburant, précurseur du glucose et molécule de signalisation, et non simple déchet.\n\n**Levier** — *lever*. Solide qui tourne autour d'un axe sous l'action d'une force motrice et d'une résistance. Il ne crée pas d'énergie : il échange de la force contre du déplacement, ou l'inverse. (blocs : 1-8)\n\n**Ligament** — *ligament*. Tissu de collagène qui relie deux os et participe à la stabilité d'une articulation. (aussi : ligaments)\n\n**Ligament croisé antérieur** — *anterior cruciate ligament (ACL)*. Ligament situé au centre du genou, qui limite le glissement du tibia vers l'avant sous le fémur.\n\n**Ligne d'action** — *line of action*. Droite qui porte une force. Le bras de levier se mesure perpendiculairement à elle ; une force dont la ligne d'action passe par l'axe ne produit aucun moment.\n\n**Loi de Frank-Starling** — *Frank-Starling law*. Le cœur ajuste son éjection à son remplissage : un ventricule plus rempli éjecte davantage.\n\n## M\n\n**Marge de stabilité** — *margin of stability*. Distance entre le centre de masse extrapolé et le bord de la base d'appui. Négative, elle impose de faire un pas.\n\n**Mécanostat** — *mechanostat*. Hypothèse selon laquelle l'usage mécanique règle l'essentiel de la solidité d'un os sain, qui s'adapte aux charges reçues.\n\n**Médullosurrénale** — *adrenal medulla*. Partie centrale de la glande surrénale, prolongement du système nerveux sympathique ; elle libère l'adrénaline et la noradrénaline.\n\n**Membrane respiratoire** — *respiratory membrane*. Paroi de l'alvéole et paroi du capillaire accolées, épaisses d'environ 0,5 µm, que les gaz traversent par diffusion.\n\n**Ménarche** — *menarche*. Premières règles. Sert de repère de maturation dans les études sur l'os des filles.\n\n**Méta-analyse** — *meta-analysis*. Agrégation quantitative des estimations d'un ensemble\nd'études, généralement par pondération inverse-variance.\n\n**Méta-régression** — *meta-regression*. Modélisation de la variation de l'effet entre études\nen fonction de caractéristiques d'étude. Puissante et fortement exposée à l'exploration\nopportuniste.\n\n**Métabolisme aérobie** — *aerobic metabolism*. Production d'ATP avec oxygène, par la voie oxydative. Contribue dès le début de l'effort et devient majoritaire au-delà de 80 secondes environ d'effort maximal. (aussi : aérobie, aérobies)\n\n**Métabolisme anaérobie** — *anaerobic metabolism*. Production d'ATP sans oxygène, par la phosphocréatine et la glycolyse. Majoritaire dans un effort maximal de moins de 80 secondes environ. (aussi : anaérobie, anaérobies)\n\n**Métaboréflexe** — *metaboreflex*. Réflexe déclenché par l'accumulation de métabolites dans un muscle qui se fatigue ; celui des muscles respiratoires resserre les vaisseaux des muscles locomoteurs.\n\n**Mitochondrie** — *mitochondrion*. Organite de la cellule où se déroule la voie oxydative. Sa densité dans le muscle conditionne la capacité aérobie. (aussi : mitochondries, mitochondrial, mitochondriale)\n\n**Module d'Young** — *Young's modulus*. Rapport de la contrainte à la déformation. Il décrit la rigidité du matériau seul, indépendamment de la taille de la structure.\n\n**Moment de force** — *torque, moment of force*. Produit d'une force par son bras de levier, M = r × F, en newtons-mètres. C'est lui, et non la force, qui fait tourner une articulation. (aussi : moments de force)\n\n**Moment externe** — *external moment*. Moment produit autour d'une articulation par les charges et le poids des segments. Il dépend de la distance horizontale entre la charge et l'articulation, donc de la posture.\n\n**Moment interne** — *internal moment*. Moment produit par les muscles et les structures passives pour s'opposer au moment externe. À l'équilibre, les deux sont égaux.\n\n**Moment net** — *net joint moment*. Somme algébrique des moments de tous les muscles et structures qui croisent une articulation. C'est ce que calcule la dynamique inverse ; il masque les co-contractions, qui augmentent la force réelle des agonistes. (aussi : moment articulaire net)\n\n**Monoarticulaire** — *monoarticular muscle*. Se dit d'un muscle qui ne croise qu'une articulation, comme le soléaire. (aussi : muscle monoarticulaire, muscles monoarticulaires)\n\n**Motoneurone alpha** — *alpha motor neuron*. Neurone de la moelle épinière qui commande les fibres productrices de force d'une unité motrice. (aussi : motoneurones alpha)\n\n**Motoneurones gamma** — *gamma motor neurons, fusimotor neurons*. Neurones qui commandent les fibres intrafusales et règlent la sensibilité du fuseau. Activés avec les motoneurones alpha lors d'une contraction volontaire. (aussi : motoneurone gamma)\n\n**Muscle biarticulaire** — *biarticular muscle, two-joint muscle*. Muscle qui croise deux articulations, comme le droit fémoral, la plupart des ischio-jambiers ou le gastrocnémien. Sa longueur dépend des deux angles. (aussi : muscles biarticulaires, biarticulaire, biarticulaires)\n\n**Myocarde** — *myocardium*. Muscle du cœur.\n\n**Myofibrille** — *myofibril*. Filament contractile qui parcourt la fibre musculaire sur toute sa longueur, fait de sarcomères placés bout à bout.\n\n**Myosine** — *myosin*. Protéine qui forme les filaments épais du sarcomère. Ses têtes s'accrochent à l'actine, basculent et la tirent : ce sont les moteurs de la contraction.\n\n## N\n\n**NAD⁺** — *nicotinamide adenine dinucleotide*. Molécule qui accepte des électrons et devient NADH. La glycolyse en consomme ; la formation de lactate le régénère. (aussi : NADH)\n\n**Navette du lactate** — *lactate shuttle*. Théorie selon laquelle le lactate circule entre les cellules qui le produisent et celles qui le consomment, comme carburant et comme signal.\n\n**Néoglucogenèse** — *gluconeogenesis*. Fabrication de glucose à partir d'autres molécules, dont le lactate, qui en est la principale matière première.\n\n**Neutralisateur** — *neutralizer*. Muscle qui annule une action secondaire indésirable de l'agoniste. (aussi : neutralisateurs)\n\n**Nœud auriculo-ventriculaire** — *atrioventricular node*. Relais électrique entre oreillettes et ventricules ; l'impulsion y marque une pause d'environ 100 ms.\n\n**Nœud sinusal** — *sinoatrial node*. Groupe de cellules de l'oreillette droite qui déclenche chaque battement du cœur.\n\n**Non-répondeur** — *non-responder*. Personne qui ne progresse pas, au-delà de l'erreur de mesure, sur une variable après un programme donné. (aussi : non-répondeurs)\n\n**Noradrénaline** — *norepinephrine, noradrenaline*. Catécholamine libérée par les nerfs sympathiques et la médullosurrénale.\n\n## O\n\n**Omoplate** — *scapula*. Os plat triangulaire du dos, qui porte la glène et l'acromion.\n\n**Onde V** — *V-wave*. Réponse électrique d'un muscle à la stimulation de son nerf pendant une contraction maximale ; elle reflète la commande qui descend vers les motoneurones.\n\n**Oreillette** — *atrium*. Cavité supérieure du cœur, qui reçoit le sang.\n\n**Organe tendineux de Golgi** — *Golgi tendon organ*. Capteur situé à la jonction du muscle et du tendon, qui signale la force de contraction par son afférence Ib. (aussi : organe tendineux, organes tendineux, organe de Golgi)\n\n**Os cortical** — *cortical bone, compact bone*. Os compact qui forme la coque des os, surtout le long de leur partie centrale.\n\n**Os spongieux** — *cancellous bone, trabecular bone*. Os en réseau de travées, à l'intérieur des extrémités des os longs et des vertèbres. (aussi : os trabéculaire)\n\n**Ostéoblaste** — *osteoblast*. Cellule qui fabrique l'os nouveau puis le minéralise. (aussi : ostéoblastes)\n\n**Ostéoclaste** — *osteoclast*. Cellule qui résorbe l'os. (aussi : ostéoclastes)\n\n**Ostéocyte** — *osteocyte*. Cellule enfermée dans l'os ; leur réseau perçoit les contraintes mécaniques. (aussi : ostéocytes)\n\n**Ostéoporose** — *osteoporosis*. Fragilité osseuse avec risque accru de fracture ; en densitométrie, un T-score inférieur à - 2,5. Son diagnostic et son traitement relèvent du médecin.\n\n## P\n\n**Paracrine** — *paracrine*. Se dit d'un signal qui agit sur des cellules voisines, sans passer par le sang.\n\n**Paradoxe de Codman** — *Codman's paradox*. Rotation de l'humérus sur son axe qui apparaît, sans avoir été commandée, au terme d'une séquence de mouvements plans de l'épaule. Conséquence du fait que les rotations en trois dimensions ne commutent pas.\n\n**Paradoxe de Lombard** — *Lombard's paradox*. Activité simultanée de muscles antagonistes, comme quadriceps et ischio-jambiers, dans un mouvement qu'ils semblent tous deux produire. Il dépend en partie de la méthode de classement des rôles.\n\n**PEDro** — base de données d'essais et de revues en thérapie physique, chaque essai coté sur\nl'échelle PEDro.\n\n**Pendule inversé** — *inverted pendulum*. Modèle du corps debout, articulé aux chevilles. Le centre de gravité y accélère dans le sens qui l'éloigne du centre de pression, proportionnellement à l'écart entre les deux.\n\n**Perdus de vue** — *loss to follow-up, attrition*. Participants randomisés dont le résultat\nfinal n'est pas disponible. Leur nombre, et surtout son asymétrie entre les groupes, est l'une\ndes informations les plus utiles du diagramme de flux d'un essai : l'abandon n'est jamais\naléatoire.\n\n**Phase de vérification** — *verification phase*. Effort à vitesse constante au-dessus de la fin d'un test progressif, pour confirmer qu'une vraie consommation maximale a été atteinte.\n\n**Phosphate inorganique** — *inorganic phosphate*. Phosphate libre, libéré notamment quand la phosphocréatine se dégrade. Il s'accumule pendant un effort intense et apparaît comme une cause majeure de fatigue.\n\n**Phosphocréatine** — *phosphocreatine (PCr)*. Réserve de phosphate riche en énergie qui refait de l'ATP en une seule réaction. Voie la plus rapide, épuisée en quelques secondes d'effort maximal, rechargée grâce à l'oxygène.\n\n**PICOT** — *Population, Intervention, Comparison, Outcome, Time*. Structure de formulation\nd'une question de recherche à laquelle on peut répondre. Explicitement au programme de l'examen\n(DCO SF 1.J.2).\n\n**Pied de courbe** — *toe region*. Début de la courbe contrainte-déformation du tendon, où la raideur augmente peu à peu avant la zone linéaire.\n\n**Plan frontal** — *frontal plane, coronal plane*. Plan qui sépare l'avant et l'arrière du corps. Les mouvements y tournent autour d'un axe antéro-postérieur : abduction, adduction, inclinaison latérale.\n\n**Plan sagittal** — *sagittal plane*. Plan qui sépare la gauche et la droite du corps. Les mouvements y tournent autour d'un axe médio-latéral : flexion, extension.\n\n**Plan transversal** — *transverse plane, horizontal plane*. Plan qui sépare le haut et le bas du corps. Les mouvements y tournent autour d'un axe longitudinal : rotations interne et externe, pronation, supination.\n\n**Plateforme de force** — *force plate*. Instrument qui mesure les forces exercées sur le sol au cours du temps. Permet de calculer la hauteur d'un saut par trois méthodes indépendantes.\n\n**Pliométrie** — *plyometric training*. Entraînement fait de sauts et de rebonds enchaînés, qui sollicite le cycle étirement-raccourcissement.\n\n**Plus petit changement digne d'intérêt** — *smallest worthwhile change, minimal important\ndifference*. Plus petite différence à partir de laquelle on accepterait de modifier une\npratique, compte tenu de son coût. Ce n'est pas une quantité statistique : elle se fixe par\nancrage sur une conséquence externe, par une fraction de la dispersion entre sujets — souvent\n0,2 écart-type — ou par jugement. Doit être annoncée avant l'analyse, jamais découverte après.\n\n**Point de blocage** — *sticking point, sticking region*. Portion de l'amplitude où l'écart entre ce que le muscle peut produire et ce que l'exercice exige est le plus faible. C'est là qu'une répétition échoue.\n\n**Point de croisement** — *crossover point*. Intensité à partir de laquelle les glucides fournissent plus d'énergie que les graisses. Cœur du concept du croisement, dont la portée est discutée. (aussi : concept du croisement)\n\n**Polarisé** — *polarized training*. Se dit d'une répartition de l'entraînement qui combine beaucoup de travail à faible intensité et un peu de travail très intense, avec peu de travail au seuil. (aussi : polarisée, entraînement polarisé)\n\n**Pompe musculaire** — *muscle pump*. Compression des veines par les muscles qui se contractent ; les valves orientent le sang vers le cœur.\n\n**Pont d'union** — *cross-bridge*. Liaison transitoire entre une tête de myosine et un filament d'actine. La force d'un sarcomère est la somme de celles de ses ponts d'union actifs. (aussi : ponts d'union)\n\n**Position anatomique** — *anatomical position*. Posture de référence : debout, regard vers l'avant, bras le long du corps, paumes tournées vers l'avant. La plupart des angles articulaires y valent zéro par convention.\n\n**Précharge** — *preload*. Remplissage du ventricule avant sa contraction.\n\n**Préenregistrement** — *preregistration*. Dépôt public du protocole et du plan d'analyse avant\nla collecte des données. Il distingue un résultat testé d'un résultat trouvé, en fermant la\npossibilité de choisir après coup le critère de jugement ou l'analyse qui donne le résultat le\nplus favorable.\n\n**Pression diastolique** — *diastolic blood pressure*. Pression artérielle pendant le remplissage des ventricules ; elle varie peu à l'effort dynamique.\n\n**Pression intra-abdominale** — *intra-abdominal pressure*. Pression dans la cavité abdominale, augmentée par le gainage ou une ceinture, qui participe au soutien du tronc.\n\n**Pression partielle** — *partial pressure*. Pression exercée par un gaz dans un mélange. Un gaz se déplace de là où sa pression partielle est la plus haute vers là où elle est la plus basse. (aussi : pressions partielles)\n\n**Pression systolique** — *systolic blood pressure*. Pression artérielle au moment où les ventricules éjectent ; elle monte nettement à l'effort dynamique.\n\n**Principe de taille** — *size principle, Henneman's principle*. Ordre de recrutement des unités motrices, des plus petites, à motoneurone de petite taille, aux plus grandes. Conservé dans les contractions lentes comme explosives. (aussi : principe de Henneman) (blocs : 1-8)\n\n**PRISMA** — *Preferred Reporting Items for Systematic Reviews and Meta-Analyses*. Ligne\ndirectrice de **rapportage** des revues systématiques. N'évalue ni la conduite de l'étude ni la\nqualité des études incluses.\n\n**Profil de résistance** — *resistance profile*. Variation du moment externe à vaincre le long de l'amplitude d'un exercice. Il dépend du dispositif : charge libre, câble, came, élastique, chaînes. (aussi : profils de résistance)\n\n**Profil force-vitesse** — *force-velocity profile*. Droite force-vitesse d'un athlète, mesurée par quelques sauts ou poussées sous charges croissantes et résumée par la force à vitesse nulle et la vitesse à force nulle. Outil descriptif ; son usage pour individualiser l'entraînement n'est pas validé. (aussi : profils force-vitesse) (blocs : 1-8)\n\n**Pronation** — *pronation*. Rotation de l'avant-bras qui tourne la paume vers l'arrière, bras le long du corps. Aux tractions, la prise en pronation place les paumes vers l'avant.\n\n**Proprioception** — *proprioception*. Sens de la position, du mouvement et de la force des membres, alimenté notamment par les fuseaux et les organes tendineux. Elle se dégrade avec l'âge.\n\n**PROSPERO** — registre international de préenregistrement des revues systématiques. Sa mention\ndans un article est un marqueur de sérieux vérifiable.\n\n**Protéine de transport** — *binding protein*. Protéine du sang à laquelle une hormone peut se lier pour circuler. (aussi : protéines de transport)\n\n**Puissance** — *statistical power*. Probabilité de détecter un effet d'une amplitude donnée\ns'il existe. Une puissance faible ne fait pas que manquer des effets : elle gonfle l'amplitude\nde ceux qu'elle détecte. (blocs : 0)\n\n**Puissance critique** — *critical power*. Asymptote de la relation puissance-durée. Au-dessous, les réponses de l'organisme se stabilisent ; au-dessus, non, jusqu'à l'épuisement d'une réserve de travail.\n\n**Puissance mécanique** — *mechanical power*. Travail mécanique par unité de temps, en watts ; instantanément, P = F · v. À distinguer de l'usage courant qui appelle « puissance » une qualité d'effort bref et intense. (aussi : puissance) (blocs : 1-8)\n\n**Puissance rétrospective** — *post hoc power, observed power*. Puissance recalculée après\nl'étude à partir de l'effet observé. Elle est une fonction directe de la valeur p obtenue et\nn'apporte donc aucune information nouvelle. À ne pas confondre avec le calcul, légitime, de la\npuissance dont l'étude disposait pour détecter un effet digne d'intérêt fixé indépendamment du\nrésultat.\n\n**Pyruvate** — *pyruvate*. Produit de la glycolyse. Il entre dans la mitochondrie pour y être oxydé, ou devient lactate.\n\n## Q\n\n**Quantité de mouvement** — *momentum*. Produit de la masse par la vitesse, en kilogrammes-mètres par seconde. Sa variation égale l'impulsion reçue.\n\n**Quaternion** — *quaternion*. Représentation d'une orientation en trois dimensions par quatre nombres, équivalente à une rotation d'un angle donné autour d'un axe. Ne souffre ni de singularités ni du paradoxe de Codman, au prix d'une lecture moins intuitive que les angles articulaires.\n\n## R\n\n**Raideur** — *stiffness*. Force, ou moment, nécessaire pour déformer une structure d'une unité : par exemple, pour allonger un tendon d'un millimètre. Elle dépend du matériau et de la taille de la structure.\n\n**Randomisation** — *randomization*. Attribution de l'intervention par un procédé aléatoire.\nFondement de l'inférence causale expérimentale.\n\n**Rapport charge aiguë-charge chronique** — *acute:chronic workload ratio (ACWR)*. Rapport entre la charge d'entraînement récente, souvent d'une semaine, et la charge moyenne des semaines précédentes. Son usage pour prévenir les blessures n'est pas étayé.\n\n**Rapport de démultiplication** — *gear ratio*. Rapport entre le déplacement de l'extrémité d'un segment et le raccourcissement du muscle qui le met en mouvement. Inverse de l'avantage mécanique.\n\n**Rapport enregistré** — *registered report*. Format éditorial où la revue accepte l'article\nsur la base du protocole, avant collecte des données, et s'engage à publier quel que soit le\nrésultat. Seul dispositif qui neutralise simultanément le tiroir du chercheur et la sélection\npar la revue.\n\n**Rapport travail-repos** — *work-to-rest ratio*. Rapport entre la durée de l'effort et celle de la récupération dans une séance par intervalles. (aussi : rapports travail-repos)\n\n**Rapport ventilation-perfusion** — *ventilation-perfusion ratio*. Rapport entre l'air qui arrive dans une région du poumon et le sang qui la traverse ; l'échange est efficace quand les deux concordent.\n\n**Récepteur** — *receptor*. Protéine qui reconnaît une molécule précise, hormone ou autre signal, et s'y lie pour déclencher une réponse de la cellule. (aussi : récepteurs)\n\n**Récepteur des androgènes** — *androgen receptor*. Récepteur situé dans la cellule, par lequel agit la testostérone. (aussi : récepteurs des androgènes)\n\n**Recrutement** — *motor unit recruitment*. Entrée en activité d'unités motrices supplémentaires pour augmenter la force. L'un des deux leviers nerveux de la gradation de la force, avec le codage en fréquence. (aussi : recruter, recrutée, recrutées, recruté, recrutés) (blocs : 1-8)\n\n**Récupération active** — *active recovery*. Exercice léger après un effort intense, à la place du repos complet. Fait disparaître plus vite le lactate sanguin.\n\n**Réflexe H** — *H-reflex, Hoffmann reflex*. Version électrique du réflexe myotatique, obtenue en stimulant le nerf. Sert à mesurer l'excitabilité des motoneurones et la transmission des afférences Ia.\n\n**Réflexe myotatique** — *stretch reflex*. Contraction d'un muscle en réponse à son étirement, par la synapse directe entre l'afférence Ia du fuseau et ses motoneurones alpha. (aussi : réflexe d'étirement)\n\n**Régime cétogène** — *ketogenic diet, low-carbohydrate high-fat diet*. Alimentation très pauvre en glucides et riche en graisses. Augmente fortement l'oxydation des graisses à l'effort, sans gain de performance démontré. (aussi : cétogène)\n\n**Relation force-vitesse** — *force-velocity relationship*. Relation entre la force qu'un muscle peut produire et sa vitesse de raccourcissement : plus il va vite, moins il est fort. Hyperbolique sur muscle isolé, presque linéaire mesurée sur un geste à plusieurs articulations. (aussi : courbe force-vitesse, courbes force-vitesse) (blocs : 1-8)\n\n**Relation longueur-tension** — *length-tension relationship*. Variation de la force active d'un muscle ou d'un sarcomère avec sa longueur : en cloche, avec une branche ascendante, un plateau et une branche descendante, qui suivent le chevauchement des filaments.\n\n**Remodelage** — *bone remodeling*. Renouvellement permanent de l'os par la résorption puis la reformation, qui règle sa densité et répare ses microdommages. (aussi : remodelage osseux)\n\n**Réponse individuelle** — *individual response*. Variabilité vraie de l'effet d'une\nintervention entre personnes. Presque toujours surestimée : la dispersion des changements\nobservés contient aussi l'erreur de mesure, comptée deux fois, et la variabilité biologique\nnormale. L'établir exige un groupe contrôle ou la répétition de l'intervention chez les mêmes\nsujets.\n\n**Réponse tensionnelle exagérée** — *exaggerated blood pressure response to exercise*. Hausse de la pression systolique à l'effort plus forte que la normale ; associée à davantage d'événements cardiovasculaires.\n\n**Réserve cardiaque** — *cardiac reserve*. Écart entre le débit cardiaque maximal et le débit de repos.\n\n**Résistance variable** — *variable resistance training*. Ajout d'élastiques ou de chaînes à une charge libre pour que la résistance augmente au cours du mouvement. Son avantage sur la charge constante est discuté.\n\n**RoB 2** — *revised Cochrane risk-of-bias tool for randomized trials*. Outil d'évaluation du\nrisque de biais d'un essai randomisé, structuré en cinq domaines.\n\n**Rythme scapulo-huméral** — *scapulohumeral rhythm*. Partage de l'élévation du bras entre l'humérus et l'omoplate : en moyenne 1,7° gléno-huméral pour 1° de l'omoplate.\n\n## S\n\n**Sarcomère** — *sarcomere*. Unité contractile du muscle, segment répété bout à bout le long des myofibrilles, délimité par deux disques où s'ancrent les filaments d'actine.\n\n**Saturation en oxygène** — *oxygen saturation*. Part des sites de l'hémoglobine occupés par l'oxygène ; de 95 à 99 % chez une personne en bonne santé. (aussi : saturation) (blocs : 2)\n\n**Saut avec contre-mouvement** — *countermovement jump (CMJ)*. Saut vertical précédé d'une flexion rapide des jambes. Sa courbe force-temps se découpe en six phases : pesée, allègement, freinage, propulsion, vol, réception.\n\n**Saut sans contre-mouvement** — *squat jump (SJ)*. Saut vertical lancé depuis une position fléchie immobile, sans flexion préalable. (aussi : sauts sans contre-mouvement)\n\n**Score de Beighton** — *Beighton score*. Test de l'hyperlaxité généralisée en neuf points ; elle est retenue à partir de 4 tests positifs.\n\n**Section physiologique** — *physiological cross-sectional area (PCSA)*. Surface obtenue en coupant toutes les fibres d'un muscle perpendiculairement à leur axe. Elle fixe la force maximale, quand la longueur des fibres fixe l'amplitude et la vitesse.\n\n**Sensibilité au changement** — *responsiveness*. Capacité d'une mesure à détecter une\nvariation réelle. Troisième propriété métrologique, distincte de la fidélité et de la validité\n: un test peut être fidèle et valide en coupe transversale et incapable de suivre une\nprogression, si son erreur typique dépasse le changement visé.\n\n**Série de cas** — *case series*. Description détaillée de plusieurs patients ou sujets\npartageant une caractéristique, sans groupe de comparaison. Sert à signaler un phénomène et à\nformuler une hypothèse ; n'autorise aucune inférence, causale ou même associative.\n\n**Seuil lactique** — *lactate threshold*. Intensité d'effort au-delà de laquelle le lactate commence à s'accumuler dans le sang.\n\n**Significativité statistique** — *statistical significance*. Franchissement d'un seuil\nconventionnel par la valeur p. Ne renseigne ni sur l'amplitude, ni sur l'importance pratique,\nni sur la probabilité que l'effet soit réel.\n\n**Sommation** — *summation*. Addition des secousses d'une fibre quand les influx arrivent avant qu'elle ne se relâche ; à fréquence élevée, la contraction devient continue et maximale. (blocs : 1-8)\n\n**Squat avant** — *front squat*. Squat où la barre repose sur l'avant des épaules : moins de compression et de moment au genou que le squat arrière.\n\n**Stabilisateur** — *stabilizer*. Muscle qui immobilise un segment pour donner à l'agoniste un appui solide. (aussi : stabilisateurs)\n\n**Supination** — *supination*. Rotation de l'avant-bras qui tourne la paume vers l'avant, bras le long du corps. Aux tractions, la prise en supination place les paumes vers soi.\n\n**Surmenage fonctionnel** — *functional overreaching*. Baisse passagère de performance après une surcharge, suivie d'une amélioration après récupération.\n\n**Surmenage non fonctionnel** — *non-functional overreaching*. Baisse de performance qui dure, quand l'équilibre entre entraînement et récupération n'est pas respecté.\n\n**Sus-épineux** — *supraspinatus*. Muscle de la coiffe situé au-dessus de l'épine de l'omoplate ; son tendon passe sous l'acromion.\n\n**Syndrome de surentraînement** — *overtraining syndrome*. Mauvaise adaptation prolongée à l'entraînement, plus sévère que le surmenage ; son diagnostic se fait par exclusion.\n\n**Synergiste** — *synergist*. Muscle qui aide l'agoniste à produire le mouvement. (aussi : synergistes)\n\n**Système de coordonnées articulaires** — *joint coordinate system*. Repère attaché aux deux os d'une articulation, qui définit les angles autour d'axes précis et rend leur valeur indépendante de l'ordre des rotations. Normalisé articulation par articulation par la Société internationale de biomécanique.\n\n**Système énergétique** — *energy system*. Ensemble des réactions qui reconstituent l'ATP : phosphagènes, glycolyse, voie oxydative. Les trois fonctionnent simultanément, dans des proportions qui dépendent de l'intensité et de la durée. (aussi : systèmes énergétiques)\n\n## T\n\n**Taille d'effet** — *effect size*. Mesure de l'amplitude d'un effet, indépendante de la taille\nde l'échantillon. Les seuils d'interprétation usuels — petit, moyen, grand — sont des\nconventions sans validité universelle.\n\n**Taux de développement de la force** — *rate of force development (RFD)*. Pente de la courbe force-temps, en newtons par seconde. Mesure la capacité à produire de la force vite, qualité distincte de la force maximale. (aussi : RFD)\n\n**Témoin apparié sur le volume** — *volume-matched control*. Groupe de comparaison recevant la\nmême quantité totale d'entraînement que le groupe expérimental, seule la variable étudiée\ndifférant. C'est le seul montage qui isole réellement un ingrédient de l'entraînement ; son\nabsence est la limite la plus fréquente de la littérature en programmation.\n\n**Tendinopathie** — *tendinopathy*. Atteinte douloureuse d'un tendon, liée à la surcharge. (aussi : tendinopathies)\n\n**Tendon** — *tendon*. Tissu de collagène qui relie un muscle à un os et lui transmet la force du muscle. Il se comporte comme un ressort raide. (aussi : tendons)\n\n**Test d'Egger** — *Egger's test*. Test de régression évaluant l'asymétrie d'un funnel plot.\nUne asymétrie significative est compatible avec un biais de publication, mais aussi avec une\nhétérogénéité liée à la taille des études, une différence de qualité, ou le hasard quand les\nétudes sont peu nombreuses.\n\n**Test d'équivalence** — *equivalence test, TOST*. Procédure inversant la charge de la preuve :\nau lieu de tester l'hypothèse d'un effet nul, elle teste l'hypothèse d'un effet situé en dehors\nd'une zone d'équivalence bornée par le plus petit changement digne d'intérêt. Lecture graphique\n: si l'intervalle de confiance tient entièrement dans la zone, l'équivalence est établie. Seule\nfaçon de conclure qu'un effet est trop petit pour compter.\n\n**Testostérone** — *testosterone*. Hormone stéroïde androgène. Dans le muscle, elle stimule la synthèse des protéines et freine leur dégradation.\n\n**Tirage vertical** — *lat pull-down*. Exercice à la poulie haute où l'on tire une barre vers le haut de la poitrine.\n\n**Tolérance à l'étirement** — *stretch tolerance*. Capacité à supporter un étirement plus poussé avant de l'arrêter. Principale explication du gain d'amplitude obtenu par l'étirement régulier.\n\n**Transitivité** — *transitivity*. Hypothèse propre aux méta-analyses en réseau : les essais\ncomparant A à B et ceux comparant B à C doivent être suffisamment semblables sur tout le reste\npour qu'on puisse en déduire la comparaison entre A et C. Elle est forte et rarement\nvérifiable.\n\n**Transversale (étude)** — *cross-sectional study*. Mesure simultanée d'une exposition et d'un\nrésultat. Ambiguïté temporelle irréductible.\n\n**Travail mécanique** — *mechanical work*. Produit d'une force par le déplacement dans sa direction, en joules. Négatif quand le muscle freine et nul sur une répétition complète, ce qui en fait une mauvaise mesure de l'effort.\n\n**Triglycérides** — *triglycerides*. Forme de stockage des graisses, dans le tissu adipeux et dans le muscle. (aussi : triglycéride)\n\n**Triple extension** — *triple extension*. Extension simultanée de la hanche, du genou et de la cheville, commune au saut et au deuxième tirage des mouvements d'haltérophilie.\n\n**Typologie musculaire** — *muscle fiber typology*. Proportion de fibres lentes et rapides d'une personne. Estimable sans biopsie par spectroscopie, méthode encore en validation. (aussi : typologie)\n\n## U\n\n**Unité motrice** — *motor unit*. Un motoneurone et l'ensemble des fibres musculaires qu'il commande. Unité élémentaire de la gradation de la force. (aussi : unités motrices)\n\n**Unités multicellulaires de base** — *basic multicellular units*. Groupes temporaires d'ostéoclastes et d'ostéoblastes qui renouvellent chacun une petite zone d'os. (aussi : unité multicellulaire de base, unité de remodelage, unités de remodelage)\n\n## V\n\n**Valeur p** — *p-value*. Probabilité d'observer un écart au moins aussi grand que celui\nobtenu, si l'hypothèse nulle **et l'ensemble des autres hypothèses du modèle** étaient vraies.\nCe n'est ni la probabilité que l'hypothèse nulle soit vraie, ni la probabilité que le résultat\nsoit dû au hasard, ni une mesure de l'importance de l'effet. (aussi : valeurs p)\n\n**Validité concourante** — *concurrent validity*. Accord d'un test avec une référence mesurée\nau même moment. N'implique jamais la validité prédictive, qui porte sur un événement futur.\nConclure de l'une à l'autre est le contresens le plus documenté du domaine.\n\n**Validité externe** — *external validity*, *generalizability*. Degré auquel un résultat\ns'applique à d'autres populations, contextes ou protocoles que ceux étudiés.\n\n**Validité interne** — *internal validity*. Degré auquel le résultat observé reflète bien\nl'effet de l'intervention dans l'étude considérée, en l'absence de biais.\n\n**Validité prédictive** — *predictive validity*. Capacité d'un test à annoncer un événement\nfutur. Se démontre par un suivi prospectif, jamais par une corrélation transversale, et dépend\nfortement de la fréquence de l'événement visé.\n\n**Valve** — *valve*. Dans le cœur ou les veines, clapet qui empêche le sang de refluer.\n\n**Veine** — *vein*. Vaisseau qui ramène le sang au cœur ; à paroi fine, il sert de réservoir.\n\n**Ventricule** — *ventricle*. Cavité inférieure du cœur, qui éjecte le sang.\n\n**Vitesse angulaire** — *angular velocity*. Vitesse de rotation d'un segment, en radians par seconde, la même pour tous ses points. La vitesse linéaire d'un point vaut ω · r, d'où l'intérêt des segments longs pour la vitesse.\n\n**Voie oxydative** — *oxidative phosphorylation*. Production d'ATP dans les mitochondries par l'oxydation complète des glucides et des graisses grâce à l'oxygène. Capacité immense, débit maximal plus faible que les voies anaérobies. (aussi : phosphorylation oxydative)\n\n**Volume d'éjection systolique** — *stroke volume*. Volume de sang éjecté par un ventricule à chaque battement, de 60 à 100 mL au repos. (aussi : volume d'éjection, volumes d'éjection)\n\n## Z\n\n**Zone d'équivalence** — *equivalence bounds*. Intervalle centré sur zéro et borné par le plus\npetit changement digne d'intérêt, à l'intérieur duquel un effet est jugé sans conséquence\npratique. Doit être fixée avant l'analyse.\n\n**Zone de conduction** — *conducting zone*. Partie des voies respiratoires qui achemine l'air sans échange gazeux, de la cavité nasale à la plupart des bronchioles ; elle le filtre, le réchauffe et l'humidifie.\n\n**Zone respiratoire** — *respiratory zone*. Partie des poumons où se font les échanges gazeux : les dernières bronchioles et les alvéoles.\n"
+   "md": "# Glossaire\n\n**Dernière révision** : 2026-11-22 · **Entrées** : 418\n\nUne seule définition canonique par terme. Si une fiche a besoin d'une définition différente,\nc'est le glossaire qu'on modifie, pas la fiche. L'équivalent anglais figure systématiquement,\npuisque l'examen se passe en anglais et que la traduction française n'est pas toujours celle\nqu'on croit.\n\nLe glossaire se remplit au fil des blocs. À ce stade, il couvre le bloc 0, le bloc 1 et le début du\nbloc 2.\n\nTrois mentions techniques peuvent clore une définition. `(aussi : …)` déclare les formes\nfléchies à reconnaître dans les fiches. `(blocs : …)` réserve l'infobulle aux fiches de ces\nblocs : c'est ce qui permet de garder deux homonymes, comme la puissance statistique du bloc 0\net la puissance mécanique du bloc 1. `(visuel : planche#partie)` affiche, quand on touche le\nterme, la planche anatomique avec cette partie mise en évidence (plusieurs parties : `a+b`) ;\nles planches sont dans `planches/`, produites par `outils/figures/anatomie/`. Ordre :\n`(aussi : …)`, puis `(blocs : …)`, puis `(visuel : …)`.\n\n---\n\n## A\n\n**Acétyl-CoA** — *acetyl-CoA*. Molécule à laquelle aboutissent glucides et graisses avant d'entrer dans le cycle de Krebs, dans la mitochondrie.\n\n**Acides gras** — *fatty acids*. Forme sous laquelle les graisses circulent dans le sang et entrent dans la mitochondrie, où la bêta-oxydation les découpe. (aussi : acide gras)\n\n**Acidose** — *acidosis*. Baisse du pH d'un milieu, c'est-à-dire hausse de son acidité. Pendant un effort épuisant, elle accompagne la montée du lactate ; sa cause et son rôle dans la fatigue sont discutés. (aussi : acidose lactique)\n\n**Acromion** — *acromion*. Avancée de l'omoplate qui forme le toit osseux de l'épaule, au-dessus de la tête humérale.\n\n**ACTH** — *adrenocorticotropic hormone*. Hormone libérée par l'hypophyse sous l'effet de la CRH ; elle fait libérer le cortisol par la corticosurrénale.\n\n**Actine** — *actin*. Protéine qui forme les filaments fins du sarcomère, ancrés à ses extrémités. Les têtes de myosine s'y accrochent pour la faire coulisser.\n\n**Action concentrique** — *concentric muscle action*. Action d'un muscle qui se raccourcit en produisant de la force : son moment dépasse le moment externe. La montée d'un curl. (aussi : concentrique, concentriques)\n\n**Action excentrique** — *eccentric muscle action*. Action d'un muscle qui s'allonge tout en produisant de la force, parce que le moment externe dépasse le sien. La descente contrôlée d'un curl ; le travail mécanique du muscle y est négatif. (aussi : excentrique, excentriques)\n\n**Adducteurs** — *hip adductors*. Groupe de muscles de la face interne de la cuisse, tendus du bassin au fémur. Ils ramènent la cuisse vers l'axe du corps ; le grand adducteur aide aussi à redresser la hanche en bas du squat. (aussi : adducteurs de hanche) (visuel : muscles#adducteurs+gracile)\n\n**Adrénaline** — *epinephrine, adrenaline*. Catécholamine libérée par la médullosurrénale ; elle accélère le cœur et mobilise les carburants pendant l'effort.\n\n**Afférence Ia** — *group Ia afferent*. Fibre nerveuse sensitive principale du fuseau neuromusculaire, très sensible à la vitesse d'étirement. Elle excite directement les motoneurones du même muscle. (aussi : afférences Ia)\n\n**Afférence Ib** — *group Ib afferent*. Fibre nerveuse sensitive de l'organe tendineux de Golgi, qui signale la force de contraction. (aussi : afférences Ib)\n\n**Agoniste** — *agonist, prime mover*. Muscle qui produit le mouvement voulu. C'est un rôle tenu dans un mouvement donné, pas une propriété du muscle. (aussi : agonistes)\n\n**Allégation** — *claim*. Affirmation d'effet portée par un produit ou un service. Une\névaluation systématique des allégations de performance sportive a conclu que la qualité des\npreuves les soutenant était largement insuffisante. À distinguer du résultat d'étude sur lequel\nelle prétend s'appuyer.\n\n**Allocation dissimulée** — *allocation concealment*. Procédure garantissant que la personne\nqui inclut un participant ne peut pas connaître à l'avance le groupe qui lui sera attribué.\nDistinct de l'aveugle, qui intervient après l'inclusion. Son absence permet une sélection\nconsciente ou non des participants selon le groupe.\n\n**Alvéole** — *alveolus*. Petit sac terminal des voies respiratoires, d'environ 200 µm de diamètre, où se font les échanges gazeux. (aussi : alvéoles)\n\n**Analyse de sensibilité** — *sensitivity analysis*. Réexécution d'une analyse en modifiant un\nchoix méthodologique, pour vérifier si la conclusion y survit. Le test le plus informatif d'une\nméta-analyse.\n\n**Analyse en intention de traiter** — *intention-to-treat analysis*. Analyse des participants\ndans le groupe auquel ils ont été attribués, indépendamment de leur adhérence effective.\nPréserve la comparabilité produite par la randomisation, au prix d'une dilution de l'effet.\n\n**Analyse per protocole** — *per-protocol analysis*. Analyse restreinte aux participants ayant\neffectivement suivi le protocole. Elle répond à une question légitime — que produit le\nprogramme quand on le fait — mais elle sélectionne sur une variable postérieure à\nl'attribution, ce qui rompt la comparabilité produite par le tirage au sort. À lire toujours en\nregard de l'analyse en intention de traiter.\n\n**Angle alpha** — *alpha angle*. Angle, mesuré en imagerie, entre l'axe du col du fémur et le point où la tête cesse d'être ronde. Il chiffre la déformation en came.\n\n**Angle de pennation** — *pennation angle*. Angle entre les fibres d'un muscle penné et la lame tendineuse sur laquelle elles s'insèrent. Seule la composante F × cos θ de la force d'une fibre est transmise ; il augmente avec l'hypertrophie. (aussi : pennation)\n\n**Antagoniste** — *antagonist*. Muscle dont l'action est opposée à celle de l'agoniste dans un mouvement donné. Il ne se tait pas forcément : il peut produire un moment opposé notable. (aussi : antagonistes)\n\n**Antéversion** — *femoral anteversion*. Angle dont le col du fémur est tourné vers l'avant par rapport à l'axe du genou. Il varie jusqu'à 30° entre adultes en bonne santé.\n\n**Aponévrose** — *aponeurosis*. Lame de tissu conjonctif, prolongement du tendon, sur laquelle s'insèrent obliquement les fibres d'un muscle penné.\n\n**Architecture musculaire** — *muscle architecture*. Agencement des fibres à l'intérieur d'un muscle : longueur des fibres, angle de pennation, section physiologique. Elle détermine la fonction du muscle davantage que son volume.\n\n**Arraché** — *snatch*. Mouvement d'haltérophilie où la barre passe du sol au-dessus de la tête en un seul geste.\n\n**Artériole** — *arteriole*. Petite artère dont le muscle lisse règle la résistance et la répartition du sang entre les organes.\n\n**Arthrose** — *osteoarthritis*. Maladie d'une articulation marquée par la dégradation du cartilage.\n\n**Articulation gléno-humérale** — *glenohumeral joint*. Articulation entre la glène de l'omoplate et la tête de l'humérus.\n\n**Articulation scapulo-thoracique** — *scapulothoracic joint*. Glissement de l'omoplate sur les côtes. Sans cartilage ni capsule, ce n'est pas une vraie articulation.\n\n**Articulation synoviale** — *synovial joint*. Articulation où deux surfaces osseuses couvertes de cartilage glissent l'une sur l'autre, dans une capsule renforcée de ligaments. (aussi : articulations synoviales)\n\n**Association** — *association*. Relation statistique entre deux variables. N'implique aucun\nordre temporel ni aucune causalité.\n\n**ATP** — *adenosine triphosphate*. Molécule dont la scission en ADP et phosphate fournit l'énergie de la contraction. Les réserves du muscle sont faibles et doivent être reconstituées en continu. (aussi : adénosine triphosphate)\n\n**ATP synthase** — *ATP synthase*. Enzyme de la membrane interne de la mitochondrie qui fabrique l'ATP en utilisant le gradient de protons créé par la chaîne respiratoire.\n\n**Autocrine** — *autocrine*. Se dit d'un signal qui agit sur la cellule même qui l'a produit.\n\n**Autorythmicité** — *autorhythmicity*. Propriété du muscle cardiaque de déclencher seul des impulsions électriques, à un rythme fixe.\n\n**Avantage mécanique** — *mechanical advantage*. Rapport du bras de levier de la force motrice à celui de la résistance. Inférieur à 1 dans la plupart des articulations des membres : le muscle produit alors plus de force que la charge ne pèse, en échange de vitesse et d'amplitude.\n\n**Aveugle** — *blinding*, *masking*. Dissimulation de l'attribution du groupe aux participants,\naux intervenants ou aux évaluateurs. En sciences de l'exercice, l'aveugle des participants est\ngénéralement impossible ; celui des évaluateurs du critère de jugement reste réalisable et\nconstitue un marqueur de qualité.\n\n**Axe hypothalamo-hypophyso-surrénalien** — *hypothalamic-pituitary-adrenal axis*. Cascade CRH, ACTH, cortisol : la réponse hormonale lente au stress.\n\n## B\n\n**Barre basse** — *low-bar squat*. Squat où la barre repose plus bas, sur l'arrière des épaules : tronc plus penché, plus de travail de la hanche et du dos.\n\n**Barre haute** — *high-bar squat*. Squat où la barre repose sur le haut des trapèzes : tronc plus droit, plus de travail du quadriceps.\n\n**Barre hexagonale** — *hexagonal bar*. Barre en forme de cadre dans lequel on se tient ; elle rapproche la charge du corps et réduit les moments au bas du dos, à la hanche et à la cheville.\n\n**Base d'appui** — *base of support*. Polygone qui englobe toutes les surfaces en contact avec le sol. Le centre de pression ne peut se trouver qu'à l'intérieur.\n\n**Bêta-oxydation** — *beta-oxidation*. Découpage des acides gras en acétyl-CoA dans la mitochondrie : première étape de l'oxydation des graisses.\n\n**Biais** — *bias*. Erreur systématique, qui ne diminue pas avec la taille de l'échantillon. À\ndistinguer strictement de l'erreur aléatoire.\n\n**Biais de confusion** — *confounding*. Situation où une troisième variable, associée à la fois à\nl'exposition et au résultat, produit tout ou partie de l'association observée. Le problème que\nla randomisation résout. (aussi : facteur de confusion, facteurs de confusion, confusion résiduelle)\n\n**Biais de publication** — *publication bias*. Tendance des résultats positifs et significatifs\nà être publiés plus souvent et plus vite que les résultats nuls. Produit une littérature qui\nsurestime les effets.\n\n**Biceps brachial** — *biceps brachii*. Muscle de la face avant du bras, à deux chefs. Il plie le coude et tourne la paume vers le haut (supination). (aussi : biceps) (visuel : muscles#biceps)\n\n**Biceps fémoral** — *biceps femoris*. Ischio-jambier du côté externe de l'arrière de la cuisse. Il plie le genou ; son chef long étend aussi la hanche. (visuel : muscles#biceps-femoral)\n\n**Biopsie musculaire** — *muscle biopsy*. Prélèvement d'un petit fragment de muscle à l'aiguille, pour mesurer types de fibres, glycogène ou métabolites. Ne représente qu'un point d'un muscle hétérogène. (aussi : biopsie, biopsies)\n\n**Blessure de surmenage** — *overuse injury*. Blessure due à des charges répétées dont aucune, isolément, ne dépasse la résistance du tissu. (aussi : blessures de surmenage)\n\n**Bourrelet** — *labrum*. Anneau qui borde le cotyle et l'approfondit. (aussi : labrum)\n\n**Brachio-radial** — *brachioradialis*. Muscle de l'avant-bras, côté pouce, qui part du bas de l'humérus. Il plie le coude, surtout en prise marteau. (visuel : muscles#brachio-radial)\n\n**Bras de levier** — *moment arm, lever arm*. Distance perpendiculaire entre la ligne d'action d'une force et l'axe de rotation. Celui d'un muscle n'est pas une constante : il varie avec l'angle articulaire, avec l'intensité de la contraction et d'une personne à l'autre.\n\n## C\n\n**Calorimétrie indirecte** — *indirect calorimetry*. Estimation des carburants brûlés à partir de l'oxygène consommé et du dioxyde de carbone rejeté. Moins fiable aux intensités élevées.\n\n**Capacité anaérobie** — *anaerobic capacity*. Quantité totale d'énergie que les voies anaérobies peuvent fournir lors d'un effort épuisant, souvent estimée par le déficit en oxygène accumulé maximal.\n\n**Capillaire** — *capillary*. Vaisseau le plus fin, où se font les échanges de gaz et de nutriments entre le sang et les tissus.\n\n**Cartilage articulaire** — *articular cartilage*. Tissu lisse qui recouvre les surfaces osseuses d'une articulation synoviale. Il s'amincit sans charge mais ne s'épaissit pas avec une charge élevée.\n\n**Catécholamines** — *catecholamines*. Hormones du stress, comme l'adrénaline, indispensables à la production de force et à la libération d'énergie pendant l'effort. (aussi : catécholamine)\n\n**Ceinture de force** — *weightlifting belt*. Ceinture qui augmente la pression intra-abdominale et aide à soutenir le tronc sous charge lourde. (aussi : ceinture)\n\n**Centre de gravité** — *centre of gravity, centre of mass*. Point où l'on peut considérer que s'applique le poids d'un corps ou d'un système, par exemple le système corps-barre. Sa position dépend de la posture. (aussi : centre de masse)\n\n**Centre de masse extrapolé** — *extrapolated centre of mass (XcoM)*. Position du centre de gravité augmentée de sa vitesse multipliée par √(l / g), l étant la longueur de jambe. En mouvement, c'est lui, et non le centre de gravité, qui doit rester au-dessus de la base d'appui.\n\n**Centre de pression** — *centre of pressure*. Point d'application de la résultante des forces que le sol exerce sur les pieds. Toujours dans la base d'appui ; en le déplaçant, le corps pilote son centre de gravité.\n\n**Chaîne lourde** — *myosin heavy chain*. Partie de la myosine dont la forme varie d'une fibre à l'autre ; elle sert de marqueur pour classer les types de fibres. (aussi : chaîne lourde de myosine, chaînes lourdes)\n\n**Chaîne respiratoire** — *electron transport chain*. Ensemble de protéines de la membrane interne de la mitochondrie qui conduit les électrons jusqu'à l'oxygène et crée le gradient de protons utilisé par l'ATP synthase.\n\n**Charge lourde et lente** — *heavy slow resistance*. Programme de musculation à charges lourdes et mouvements lents ; une option aussi efficace que l'excentrique dans la tendinopathie d'Achille.\n\n**Chef claviculaire** — *clavicular head*. Partie haute du grand pectoral, qui part de la clavicule. (visuel : muscles#pectoral-clav)\n\n**Chef sternocostal** — *sternocostal head*. Partie principale du grand pectoral, qui part du sternum et des côtes. (visuel : muscles#pectoral-stern)\n\n**Chirurgie placebo** — *placebo surgery, sham surgery*. Intervention qui reproduit l'opération sans en réaliser le geste actif, pour isoler l'effet propre de ce geste.\n\n**Cinématique** — *kinematics*. Description du mouvement — positions, vitesses, accélérations — sans considération de ses causes. Préalable de toute analyse de la charge.\n\n**Cinétique** — *kinetics*. Étude des causes du mouvement : forces, moments, impulsions. En biomécanique, rien à voir avec la cinétique chimique, qui étudie la vitesse des réactions.\n\n**Circulation coronaire** — *coronary circulation*. Vaisseaux qui irriguent le muscle cardiaque lui-même.\n\n**Circulation pulmonaire** — *pulmonary circulation*. Circuit qui va du ventricule droit aux poumons et revient à l'oreillette gauche.\n\n**Circulation systémique** — *systemic circulation*. Circuit qui va du ventricule gauche à tout le corps et revient à l'oreillette droite.\n\n**Classes de levier** — *lever classes*. Classement d'un levier selon l'élément placé au milieu : l'axe (premier genre), la résistance (deuxième genre) ou la force motrice (troisième genre). La classe dépend du point choisi comme axe et de la force appelée résistance. (aussi : levier du premier genre, levier du deuxième genre, levier du troisième genre)\n\n**Cocontraction** — *coactivation, co-contraction*. Activation simultanée de muscles aux actions opposées autour d'une articulation, par exemple ischio-jambiers et quadriceps au genou.\n\n**Codage en fréquence** — *rate coding*. Modulation de la force par la fréquence de décharge des unités motrices déjà actives. Prédomine au-delà des forces faibles et dans les contractions rapides. (blocs : 1-8)\n\n**Cohorte prospective** — *prospective cohort study*. Suivi dans le temps de sujets classés\nselon leur exposition. Résout l'ambiguïté temporelle, reste exposé à la confusion.\n\n**Coiffe des rotateurs** — *rotator cuff*. Quatre muscles de l'omoplate, sus-épineux, sous-épineux, petit rond et sous-scapulaire, dont les tendons entourent la tête humérale et la plaquent dans la glène. (visuel : muscles#sus-epineux+sous-epineux+petit-rond+sous-scapulaire)\n\n**Collagène** — *collagen*. Protéine fibreuse, principal constituant des tendons et des ligaments, assemblée en fibrilles, en fibres puis en faisceaux.\n\n**Composante prolongée** — *prolonged component*. Partie de la consommation d'oxygène post-exercice qui peut durer des heures après un effort important, liée notamment au métabolisme des graisses.\n\n**Composante rapide** — *rapid component*. Partie de la consommation d'oxygène post-exercice qui recharge l'oxygène, l'ATP et la phosphocréatine dans les minutes qui suivent l'effort.\n\n**Compression dans la concavité** — *concavity compression*. Mécanisme de stabilité de l'épaule : les muscles de la coiffe plaquent la tête humérale dans le creux de la glène.\n\n**Conflit d'intérêts** — *conflict of interest*. Situation où un intérêt secondaire —\nfinancier, professionnel ou intellectuel — peut influer sur un jugement scientifique. C'est une\nsituation, pas un comportement : les mécanismes par lesquels il agit opèrent en grande partie\nsans intention. Les conflits non financiers, non déclarables, sont probablement les plus actifs\nen sciences de l'exercice.\n\n**Conflit fémoro-acétabulaire** — *femoroacetabular impingement*. Contact anormal entre le col du fémur et le bord du cotyle, avant la fin du mouvement, lié à une came ou à une pince.\n\n**Conflit sous-acromial** — *subacromial impingement*. Étiquette donnée aux douleurs attribuées à un frottement sous l'acromion ; une hypothèse clinique plus qu'une cause démontrée.\n\n**Consommation d'oxygène post-exercice** — *excess post-exercise oxygen consumption, EPOC*. Surplus d'oxygène consommé après l'effort, au-dessus de la valeur de repos. Il comprend une composante rapide et une composante prolongée.\n\n**Consommation maximale d'oxygène** — *maximal oxygen uptake, VO2max*. Plus haut débit d'oxygène que l'organisme peut consommer pendant un effort. Produit du débit cardiaque maximal et de la différence artério-veineuse. (aussi : consommation maximale)\n\n**CONSORT** — *CONSORT statement*. Ligne directrice de rapportage des essais contrôlés\nrandomisés : 25 points et un diagramme de flux. Évalue ce qui est décrit, pas ce qui a été fait\n— même distinction que pour [[PRISMA]]. Le diagramme de flux donne le nombre de randomisés et\nle nombre d'analysés, donc les perdus de vue.\n\n**Contenu minéral osseux** — *bone mineral content*. Quantité totale de minéral d'un os ou d'une région, sans rapport à sa taille.\n\n**Contraction balistique** — *ballistic contraction*. Contraction produite le plus vite possible, en une salve de décharges à très haute fréquence qui précède la montée de la force. (aussi : balistique, balistiques) (blocs : 1-8)\n\n**Contraction isométrique** — *isometric contraction*. Contraction sans mouvement articulaire : le muscle produit de la force sans que l'angle change. Format de référence pour mesurer la force maximale et le taux de développement de la force.\n\n**Contrainte** — *stress*. Force rapportée à la section du tissu qui la supporte. Avec la déformation, elle décrit la sollicitation mécanique d'un os, d'un tendon ou d'un ligament. (aussi : contraintes) (blocs : 1)\n\n**Corticosurrénale** — *adrenal cortex*. Partie périphérique de la glande surrénale ; elle libère notamment le cortisol, sous l'effet de l'ACTH.\n\n**Cortisol** — *cortisol*. Glucocorticoïde libéré par la corticosurrénale. Il mobilise les réserves ; élevé longtemps, il fait fondre le muscle.\n\n**Cotyle** — *acetabulum*. Cavité de l'os coxal qui reçoit la tête du fémur.\n\n**Courbatures** — *delayed-onset muscle soreness*. Douleurs musculaires qui apparaissent dans les jours suivant une séance, surtout après des actions excentriques. Sans lien établi avec le lactate. (aussi : courbature)\n\n**Courbe de force** — *strength curve*. Moment maximal qu'une personne peut produire en fonction de l'angle articulaire. Elle dépend de la relation longueur-tension et des bras de levier. (aussi : courbes de force)\n\n**Courbe force-temps** — *force-time curve*. Enregistrement de la force produite en fonction du temps, typiquement sur plateforme de force. Sa pente donne le taux de développement de la force, son aire l'impulsion.\n\n**Créatine kinase** — *creatine kinase*. Enzyme qui transfère le phosphate de la phosphocréatine à l'ADP pour reformer de l'ATP, et réalise la réaction inverse au repos.\n\n**CRH** — *corticotropin-releasing hormone*. Hormone libérée par l'hypothalamus ; elle fait libérer l'ACTH par l'hypophyse.\n\n**Critère de jugement** — *outcome*. Grandeur mesurée pour évaluer l'effet. Un critère\n**principal** est préspécifié et unique ; les critères secondaires ne peuvent pas fonder la\nconclusion principale.\n\n**Cycle de Krebs** — *citric acid cycle*. Suite de réactions de la mitochondrie qui oxyde l'acétyl-CoA et charge des transporteurs d'électrons, surtout le NADH.\n\n**Cycle étirement-raccourcissement** — *stretch-shortening cycle*. Étirement d'un muscle sous charge suivi aussitôt de son raccourcissement, comme dans un rebond. Produit plus de force, à vitesse égale, qu'un raccourcissement seul. (aussi : cycles étirement-raccourcissement)\n\n**Cycle triglycérides-acides gras** — *triglyceride-fatty acid cycling*. Dégradation des triglycérides en acides gras, suivie de leur reconstitution ; ce cycle consomme de l'énergie.\n\n## D\n\n**d de Cohen** — *Cohen's d*. Écart entre deux moyennes divisé par une mesure de dispersion,\nexprimant l'effet en unités d'écart-type. Sa valeur dépend autant de la dispersion de\nl'échantillon que de l'effet lui-même : un même gain réel produit un d plus grand dans une\npopulation homogène. Toujours demander ce qui figure au dénominateur.\n\n**Débit cardiaque** — *cardiac output*. Volume de sang éjecté par le cœur par minute : volume d'éjection multiplié par la fréquence cardiaque.\n\n**Décompression sous-acromiale** — *subacromial decompression*. Opération qui retire de l'os et des tissus sous l'acromion. Elle ne fait pas mieux qu'une chirurgie placebo.\n\n**Déficit en oxygène** — *oxygen deficit*. Écart entre l'oxygène qu'aurait exigé un effort et celui réellement consommé ; méthode la plus utilisée pour estimer la part anaérobie d'un effort maximal.\n\n**Déformation en came** — *cam deformity*. Bosse à la jonction de la tête et du col du fémur : la tête n'est pas tout à fait ronde. Fréquente sans symptôme, surtout chez les athlètes.\n\n**Déformation en pince** — *pincer deformity*. Cotyle qui recouvre trop la tête du fémur.\n\n**Degré de liberté** — *degree of freedom*. Nombre de rotations indépendantes qu'autorise une articulation : un pour une charnière, trois pour une rotule comme la hanche. La description complète du mouvement relatif de deux os en demande six, trois rotations et trois translations. (aussi : degrés de liberté) (blocs : 1-8)\n\n**Degrés de liberté du chercheur** — *researcher degrees of freedom*. Ensemble des décisions\nanalytiques laissées au libre choix de l'analyste et non déclarées. Portent le taux de faux\npositifs bien au-delà du seuil nominal.\n\n**Deltoïde** — *deltoid*. Muscle qui coiffe l'épaule, en trois portions : antérieure (lève le bras vers l'avant), moyenne (l'écarte sur le côté), postérieure (le tire vers l'arrière). (aussi : deltoïdes) (visuel : muscles#deltoide-ant+deltoide-moy+deltoide-post)\n\n**Deltoïde antérieur** — *anterior deltoid*. Portion avant du deltoïde. Elle lève le bras vers l'avant et travaille au développé couché. (visuel : muscles#deltoide-ant)\n\n**Deltoïde moyen** — *middle deltoid*. Portion latérale du deltoïde. Elle écarte le bras sur le côté (abduction). (visuel : muscles#deltoide-moy)\n\n**Deltoïde postérieur** — *posterior deltoid*. Portion arrière du deltoïde. Elle tire le bras vers l'arrière. (visuel : muscles#deltoide-post)\n\n**Demi-temps de recharge** — *half-time of resynthesis*. Temps nécessaire pour reconstituer la moitié de la phosphocréatine perdue. Varie de 20 secondes environ à près d'une minute selon l'effort précédent et l'oxygène disponible. (aussi : demi-temps)\n\n**Densité minérale** — *bone mineral density*. Quantité de minéral rapportée à une surface ou à un volume d'os, mesurée par absorptiométrie. Indicateur imparfait de la solidité. (aussi : densité minérale osseuse)\n\n**Dentelé antérieur** — *serratus anterior*. Muscle du côté du thorax, sous l'aisselle, en digitations sur les côtes. Il fait tourner l'omoplate vers le haut et la garde plaquée contre le thorax. (visuel : muscles#dentele)\n\n**Dérive cardiovasculaire** — *cardiovascular drift*. Pendant un effort prolongé à intensité constante, baisse progressive du volume d'éjection et hausse de la fréquence cardiaque, après 10 à 20 minutes.\n\n**Dérivé de tirage** — *weightlifting pulling derivative*. Variante d'un mouvement d'haltérophilie qui supprime la réception de la barre : tirage d'épaulé ou d'arraché, tirage haut, shrug sauté, tirage depuis la mi-cuisse. (aussi : dérivés de tirage)\n\n**Dette d'oxygène** — *oxygen debt*. Ancien nom de la consommation d'oxygène post-exercice, lié à l'hypothèse, jugée trop simple, d'un remboursement par l'élimination du lactate.\n\n**Différence artério-veineuse** — *arteriovenous oxygen difference*. Quantité d'oxygène retirée du sang par les tissus, entre le sang artériel et le sang veineux.\n\n**Différence d'ions forts** — *strong ion difference*. Approche physico-chimique de l'équilibre acide-base, qui explique le pH par l'équilibre des ions chargés plutôt que par le compte des protons.\n\n**Différence moyenne standardisée** — *standardized mean difference*, SMD. Différence entre\ngroupes exprimée en écarts-types, permettant l'agrégation d'études employant des échelles\ndifférentes. Le *d* de Cohen et le *g* de Hedges en sont deux variantes.\n\n**Distance acromio-humérale** — *acromiohumeral distance*. Plus courte distance entre l'acromion et l'humérus ; elle mesure l'espace sous-acromial.\n\n**Distance biacromiale** — *biacromial distance*. Largeur des épaules, d'un acromion à l'autre ; elle sert à exprimer la largeur de prise.\n\n**Dose-réponse** — *dose-response*. Relation monotone entre l'intensité d'une exposition et\nl'amplitude d'un résultat. Argument causal classique, difficile à produire par une confusion\nsimple.\n\n**Doublet** — *doublet discharge*. Deux décharges d'un motoneurone très rapprochées, qui accélèrent la montée en force. Plus fréquents après un entraînement à contractions rapides. (aussi : doublets) (blocs : 1-8)\n\n**Droit fémoral** — *rectus femoris*. Chef central du quadriceps, à l'avant de la cuisse. Seul chef biarticulaire du quadriceps : il étend le genou et plie la hanche. (visuel : muscles#droit-femoral)\n\n**Dynamique inverse** — *inverse dynamics*. Calcul des forces et des moments nets aux articulations à partir des mouvements mesurés et des forces extérieures, en remontant des effets aux causes. Donne des moments nets, pas la force de chaque muscle.\n\n**Dyskinésie scapulaire** — *scapular dyskinesis*. Mouvement ou position anormale de l'omoplate, fréquente avec ou sans douleur.\n\n## E\n\n**Économie de course** — *running economy*. Consommation d'oxygène à une vitesse de course donnée. Plus elle est basse, plus le coureur est économe.\n\n**Effet Bohr** — *Bohr effect*. Baisse de l'affinité de l'hémoglobine pour l'oxygène quand le pH baisse : le sang plus acide du muscle actif y libère davantage d'oxygène.\n\n**Effet du tiroir** — *file drawer effect*. Non-soumission des études aux résultats non\nsignificatifs. Premier des trois filtres de la sélection des résultats, probablement le plus\nlourd, et le seul qu'aucune lecture d'article ne peut détecter. Les registres d'essais et les\nrapports enregistrés sont les parades.\n\n**Effet fixe (modèle à)** — *fixed-effect model*. Modèle d'agrégation supposant une vraie\nvaleur unique de l'effet. Attention au faux ami : *fixed effects* au pluriel désigne autre\nchose en économétrie.\n\n**Effets aléatoires (modèle à)** — *random-effects model*. Modèle d'agrégation supposant que\nles vraies valeurs varient selon les contextes.\n\n**Effort relatif** — *relative muscular effort*. Moment produit par un groupe musculaire rapporté au moment maximal qu'il peut produire au même angle. Au squat, celui des extenseurs du genou augmente avec la profondeur.\n\n**Électromyographie de surface** — *surface electromyography (sEMG)*. Enregistrement, par des électrodes posées sur la peau, de l'activité électrique d'un muscle. Son amplitude ne mesure pas directement le recrutement et ne prédit pas l'adaptation. (aussi : électromyographie, électromyographique, EMG)\n\n**Endocrine** — *endocrine*. Se dit d'un signal libéré dans le sang, qui agit sur des cellules lointaines.\n\n**Entraînement par intervalles** — *interval training, HIIT*. Alternance d'efforts intenses et de récupérations, dont la réponse dépend d'une dizaine de variables : intensités, durées, nombre de répétitions et de séries.\n\n**Épaulé** — *clean*. Mouvement d'haltérophilie où la barre passe du sol aux épaules ; suivi du jeté, il forme l'épaulé-jeté. L'épaulé en force (*power clean*) se réceptionne jambes peu fléchies. (aussi : épaulés)\n\n**Équation de Fick** — *Fick equation*. Consommation d'oxygène égale au débit cardiaque multiplié par la différence artério-veineuse.\n\n**Érecteurs du rachis** — *erector spinae*. Colonnes musculaires de part et d'autre de la colonne vertébrale, du bassin à la nuque. Elles redressent le dos et le gardent droit sous la charge. (visuel : muscles#erecteurs)\n\n**Erreur de magnitude** — *type M error, magnitude error, exaggeration ratio*. Surestimation\nsystématique de l'amplitude des effets qui franchissent le seuil de significativité dans une\nétude peu puissante. Elle se quantifie par un facteur d'exagération : le rapport entre\nl'amplitude attendue d'un résultat significatif et l'amplitude réelle. Distincte de l'erreur de\ntype I, qui porte sur l'existence de l'effet et non sur sa taille.\n\n**Erreur de mesure différentielle** — *differential measurement error*. Erreur de mesure dont\nl'ampleur ou le sens dépend du groupe auquel appartient le sujet. Contrairement à une erreur\nqui frappe les deux groupes de la même façon, elle crée un écart artificiel entre eux et ne se\ndilue pas quand l'effectif augmente.\n\n**Erreur de signe** — *type S error, sign error*. Probabilité qu'un résultat statistiquement\nsignificatif pointe dans la direction opposée à l'effet réel. Négligeable à puissance élevée,\nelle devient substantielle en deçà de 10 % de puissance. Conséquence la plus contre-intuitive\nde la sous-puissance.\n\n**Erreur de type I** — *type I error*. Rejet d'une hypothèse nulle vraie. Faux positif. Son\ntaux nominal est le seuil de significativité.\n\n**Erreur de type II** — *type II error*. Non-rejet d'une hypothèse nulle fausse. Faux négatif.\nSon complément à 1 est la puissance.\n\n**Erreur standard** — *standard error*. Dispersion attendue d'une estimation si l'on répétait\nl'étude. Elle décrit la précision de l'estimation, non la variabilité entre individus — cette\ndernière est l'écart-type. C'est l'erreur standard qui détermine la largeur de l'intervalle de\nconfiance et le poids d'une étude en méta-analyse.\n\n**Erreur typique** — *typical error*, *standard error of measurement*. Écart-type des mesures\nrépétées d'un même individu. Mesure de fidélité exprimée dans l'unité de la grandeur mesurée,\ndonc directement interprétable — contrairement à un coefficient de corrélation.\n\n**Espace sous-acromial** — *subacromial space*. Espace entre la tête humérale et l'acromion, où passent le tendon du sus-épineux et une bourse séreuse.\n\n**Espérance** — *expectation, expected value*. Valeur moyenne d'une quantité aléatoire sur un\ntrès grand nombre de répétitions. Dire que la randomisation équilibre les groupes « en\nespérance » signifie qu'elle les équilibre en moyenne sur l'ensemble des tirages possibles, pas\nnécessairement dans le tirage effectué.\n\n**Essai contrôlé randomisé** — *randomised controlled trial, RCT*. Étude dans laquelle\nl'attribution de l'intervention est décidée par un procédé aléatoire. C'est ce tirage au sort,\net lui seul, qui autorise une conclusion causale — la présence d'un groupe contrôle sans\nrandomisation ne suffit pas. (aussi : essais contrôlés randomisés, essai randomisé, essais\nrandomisés)\n\n**Estimation ponctuelle** — *point estimate*. Valeur unique proposée comme meilleure estimation\nd'un effet, par opposition à l'intervalle qui l'accompagne. C'est le chiffre que reprennent les\nrésumés et la diffusion secondaire, et c'est l'information la moins fiable d'une étude de\npetite taille.\n\n**État stable maximal du lactate** — *maximal lactate steady state*. Plus haute intensité à laquelle la production et l'élimination du lactate s'équilibrent pendant un effort constant.\n\n**Étude méta-épidémiologique** — *meta-epidemiological study*. Étude qui prend pour unité\nd'analyse non pas un patient mais un essai. On rassemble un grand nombre de méta-analyses, on\nclasse les essais selon la présence d'un dispositif méthodologique, et on compare les\nestimations d'effet des deux classes. C'est ainsi qu'a été mesuré le coût de l'absence\nd'allocation dissimulée ou d'aveugle. (aussi : études méta-épidémiologiques)\n\n**Événement déclencheur** — *inciting event*. Dans le modèle multifactoriel de la blessure, la situation et le mécanisme précis au moment où elle survient. (aussi : événements déclencheurs)\n\n**Exercice nordique des ischio-jambiers** — *Nordic hamstring exercise*. Exercice à genoux, chevilles tenues, où l'on freine la chute du buste vers l'avant par une contraction excentrique des ischio-jambiers. (aussi : exercice nordique) (visuel : muscles#biceps-femoral+semi-tendineux+semi-membraneux)\n\n**Extenseurs de hanche** — *hip extensors*. Muscles qui ramènent la cuisse vers l'arrière ou redressent le buste : grand fessier, ischio-jambiers, grand adducteur. (visuel : muscles#grand-fessier+biceps-femoral+semi-tendineux+semi-membraneux+adducteurs)\n\n**Extenseurs du genou** — *knee extensors*. Muscles qui tendent la jambe : c'est le quadriceps. (visuel : muscles#droit-femoral+vaste-lat+vaste-med)\n\n## F\n\n**Facilitation neuromusculaire proprioceptive** — *proprioceptive neuromuscular facilitation*. Technique d'étirement qui alterne étirement et contraction du muscle étiré ou de son opposé. Son efficacité tient surtout à la tolérance à l'étirement, pas à un relâchement réflexe.\n\n**Facteur de risque externe** — *external risk factor*. Caractéristique de l'environnement ou de l'activité qui modifie le risque de blessure. (aussi : facteurs de risque externes)\n\n**Facteur de risque interne** — *internal risk factor*. Caractéristique propre à l'athlète qui modifie son risque de blessure. (aussi : facteurs de risque internes)\n\n**Faisceau musculaire** — *muscle fascicle*. Groupe de fibres musculaires entouré de périmysium. C'est l'unité visible à l'échographie, sur laquelle on mesure longueur et angle de pennation. (aussi : faisceaux musculaires, faisceau, faisceaux) (blocs : 1)\n\n**Fatigue mécanique** — *mechanical fatigue*. Accumulation de dommages dans un matériau soumis à des charges répétées inférieures à sa résistance. Sert de modèle aux blessures de surmenage.\n\n**Fatmax** — *Fatmax*. Intensité d'effort à laquelle l'oxydation des graisses est maximale. Elle varie beaucoup d'une personne à l'autre.\n\n**Fessiers** — *gluteal muscles*. Muscles de la fesse : le grand fessier en surface ; le moyen et le petit fessier plus haut et plus en dehors, en partie dessous. (visuel : muscles#grand-fessier+moyen-fessier)\n\n**Fibre lente** — *slow-twitch fiber, type I fiber*. Fibre de type I : contraction lente, puissance plus faible, métabolisme très oxydatif. Elle travaille la première dans un effort modéré. (aussi : fibres lentes, fibre de type I, fibres de type I)\n\n**Fibre musculaire** — *muscle fibre*. Cellule musculaire, très longue et à plusieurs noyaux, remplie de myofibrilles. (aussi : fibres musculaires)\n\n**Fibre rapide** — *fast-twitch fiber, type II fiber*. Fibre de type II, IIa ou IIx : contraction plus rapide, puissance plus grande. Les études humaines anciennes appellent « IIb » les fibres IIx. (aussi : fibres rapides, fibre de type II, fibres de type II)\n\n**Fibres hybrides** — *hybrid fibers*. Fibres musculaires qui contiennent deux formes de myosine à la fois : I et IIa, ou IIa et IIx. (aussi : fibre hybride)\n\n**Fibres intrafusales** — *intrafusal fibers*. Fibres musculaires spécialisées contenues dans le fuseau neuromusculaire, commandées par les motoneurones gamma. (aussi : fibre intrafusale, intrafusales)\n\n**Fidélité** — *reliability*. Reproductibilité d'une mesure sur des essais répétés. **Faux ami\nmajeur** : *reliability* ne se traduit pas par « fiabilité » dans ce contexte technique, et n'a\nrien à voir avec la validité.\n\n**Filaments glissants** — *sliding filament theory*. Modèle de la contraction : les filaments d'actine et de myosine gardent leur longueur et coulissent les uns entre les autres, ce qui raccourcit le sarcomère.\n\n**Fléchisseurs du coude** — *elbow flexors*. Muscles qui plient le coude : biceps brachial, brachial (en partie sous le biceps) et brachio-radial. (visuel : muscles#biceps+brachial+brachio-radial)\n\n**Fléchisseurs du genou** — *knee flexors*. Muscles qui plient le genou : surtout les ischio-jambiers, aidés par le gastrocnémien. (visuel : muscles#biceps-femoral+semi-tendineux+semi-membraneux+gastrocnemien)\n\n**Fléchisseurs plantaires** — *plantar flexors*. Muscles qui tendent la cheville, pointe du pied vers le bas, comme pour monter sur la pointe des pieds : surtout le triceps sural. (visuel : muscles#gastrocnemien+soleaire)\n\n**Force passive** — *passive force*. Résistance qu'oppose un muscle à l'étirement sans être activé, due à ses structures élastiques. Elle s'ajoute à la force active aux grandes longueurs.\n\n**Forest plot** — *forest plot*. Représentation graphique d'une méta-analyse, une ligne par\nétude, la surface du carré indiquant le poids et le losange final l'estimation agrégée.\n\n**Fréquence cardiaque de réserve** — *heart rate reserve*. Écart entre la fréquence cardiaque maximale et la fréquence de repos ; sert à prescrire l'intensité en pourcentage.\n\n**Fréquence cardiaque maximale** — *maximal heart rate*. Fréquence la plus haute atteinte à l'effort maximal. En moyenne mieux estimée par 208 − 0,7 × âge que par 220 moins l'âge ; pour un individu, l'erreur peut atteindre environ 25 battements par minute.\n\n**Fréquence de décharge** — *discharge rate, firing rate*. Nombre d'influx nerveux émis par seconde par un motoneurone. Principal déterminant nerveux de la montée en force au tout début d'une contraction explosive.\n\n**Funnel plot** — *funnel plot*. Nuage des estimations d'effet portées contre leur précision.\nSon asymétrie est un signal d'alerte, jamais une preuve de biais de publication.\n\n**Fuseau neuromusculaire** — *muscle spindle*. Capteur logé parmi les fibres du muscle, qui signale sa longueur et la vitesse de son changement. Contrairement aux autres capteurs mécaniques, il reçoit une commande motrice propre, par les motoneurones gamma. (aussi : fuseau, fuseaux, fuseaux neuromusculaires)\n\n## G\n\n**g de Hedges** — *Hedges' g*. Taille d'effet standardisée égale au d de Cohen multiplié par un\nfacteur légèrement inférieur à 1, qui corrige la surestimation du d en petit échantillon —\nenviron 4 % à vingt sujets, 8 % à dix. Forme à privilégier en méta-analyse.\n\n**Gastrocnémien** — *gastrocnemius*. Muscle superficiel du mollet, à deux chefs qui en dessinent le galbe. Biarticulaire : il tend la cheville et aide à plier le genou. (aussi : gastrocnémiens) (visuel : muscles#gastrocnemien)\n\n**Glandes surrénales** — *adrenal glands*. Glandes posées sur les reins, faites d'une corticosurrénale et d'une médullosurrénale.\n\n**Glène** — *glenoid cavity*. Surface articulaire de l'omoplate, petite et peu creuse, qui reçoit la tête humérale.\n\n**Glucocorticoïdes** — *glucocorticoids*. Famille d'hormones de la corticosurrénale, dont le cortisol. Elles mobilisent les réserves et freinent la construction des tissus.\n\n**GLUT4** — *glucose transporter 4*. Transporteur par lequel le glucose entre dans la fibre musculaire. La contraction et l'insuline le font migrer vers la membrane.\n\n**Glycogène** — *glycogen*. Réserve de glucose stockée dans le muscle et le foie. Le muscle le consomme d'autant plus vite que l'effort est intense.\n\n**Glycolyse** — *glycolysis*. Découpage du glucose, issu surtout du glycogène musculaire, en pyruvate puis en lactate. Produit de l'ATP sans oxygène, à débit élevé mais pour une durée limitée. (aussi : glycolytique, glycolytiques)\n\n**Gracile** — *gracilis*. Long muscle fin de la face interne de la cuisse, du pubis au tibia. Il rapproche la cuisse et aide à plier le genou. (visuel : muscles#gracile)\n\n**GRADE** — *Grading of Recommendations Assessment, Development and Evaluation*. Cadre\ninternational de cotation de la certitude des preuves, fondé sur un déclassement et un\nreclassement par domaines plutôt que sur le seul protocole d'étude.\n\n**Grand dorsal** — *latissimus dorsi*. Grand muscle plat du bas et du côté du dos, tendu du bas du dos et du bassin à l'humérus ; il ramène le bras le long du corps. (visuel : muscles#grand-dorsal)\n\n**Grand droit** — *rectus abdominis*. Muscle de l'abdomen, une bande verticale de chaque côté de la ligne médiane (les « tablettes »). Il plie le tronc vers l'avant et le rigidifie. (aussi : grand droit de l'abdomen) (visuel : muscles#grand-droit)\n\n**Grand fessier** — *gluteus maximus*. Le plus gros muscle de la fesse. Il étend la hanche : remonter du squat, se redresser au soulevé de terre, pousser au sprint. (visuel : muscles#grand-fessier)\n\n**Grand pectoral** — *pectoralis major*. Muscle de la poitrine à deux chefs, claviculaire et sternocostal, qui rapproche le bras de la ligne médiane. (visuel : muscles#pectoral-clav+pectoral-stern)\n\n## H\n\n**Haltérophilie** — *Olympic weightlifting*. Sport de force à deux mouvements, l'arraché et l'épaulé-jeté ; par extension, l'entraînement fondé sur ces mouvements et leurs variantes.\n\n**Hémoconcentration** — *hemoconcentration*. Concentration du sang quand le plasma perd de l'eau à l'effort ; elle augmente les dosages sans sécrétion accrue.\n\n**Hémoglobine** — *hemoglobin*. Protéine des globules rouges qui transporte environ 98,5 % de l'oxygène du sang ; la fixation de chaque molécule d'oxygène facilite celle de la suivante.\n\n**Héritabilité** — *heritability*. Part de la variabilité d'un caractère entre personnes attribuée aux différences génétiques, dans une population donnée.\n\n**Hétérogénéité** — *heterogeneity*. Variabilité des vraies valeurs d'effet entre les études\nd'une méta-analyse, par opposition à la variabilité d'échantillonnage.\n\n**Hormone** — *hormone*. Messager chimique libéré par une glande, qui agit sur les cellules portant son récepteur. (aussi : hormones)\n\n**Hormone de croissance** — *growth hormone*. Hormone de l'hypophyse qui élève l'IGF-1 du sang et agit sur le muscle, l'os, le collagène et les graisses ; sa cure n'augmente pas la force du muscle sain.\n\n**Hormone peptidique** — *peptide hormone*. Hormone qui agit par un récepteur de la membrane, comme l'insuline. (aussi : hormones peptidiques)\n\n**Hormone stéroïde** — *steroid hormone*. Hormone qui traverse la membrane de la cellule et agit par un récepteur intérieur, comme la testostérone. (aussi : hormones stéroïdes)\n\n**Hyperlaxité** — *generalized joint hypermobility*. Amplitude inhabituellement grande dans plusieurs articulations. Plus fréquente chez l'enfant et la femme.\n\n**Hypothèse d'identification** — *identification assumption*. Hypothèse explicite, non\nvérifiable par les données seules, sous laquelle une association observée peut être lue comme\nun effet causal. Toute inférence causale hors essai randomisé en repose sur une : la\nrandomisation a l'avantage de rendre la sienne quasi automatique.\n\n**Hypothèse de l'hormone libre** — *free hormone hypothesis*. Idée que seule la forme libre d'une hormone, non liée aux protéines de transport, agit sur les tissus. Elle ne vaut pas pour toutes les hormones ni tous les tissus.\n\n**Hypothèse hormonale** — *hormone hypothesis*. Idée, peu soutenue par les données, selon laquelle les pics d'hormones juste après une séance feraient grossir le muscle.\n\n**Hypothèse nulle** — *null hypothesis*. Hypothèse d'absence d'effet, ou d'effet égal à une\n\n**Hypoxémie artérielle induite par l'effort** — *exercise-induced arterial hypoxemia*. Baisse de la saturation en oxygène du sang artériel pendant un effort intense, fréquente chez les athlètes d'endurance très entraînés ; dite légère entre 93 et 95 %.\n\n**Hystérésis** — *hysteresis*. Part de l'énergie reçue par un tissu étiré qu'il ne restitue pas en revenant à sa longueur, dissipée en chaleur.\nvaleur de référence, sous laquelle la valeur p est calculée.\n\n## I\n\n**IGF-1** — *insulin-like growth factor 1*. Facteur de croissance. Le muscle en produit ses propres formes sous l'effet de la tension mécanique.\n\n**Impulsion** — *impulse*. Intégrale de la force sur sa durée d'application, en newtons-secondes. Égale à la variation de quantité de mouvement : c'est elle, nette du poids du corps, qui fixe la vitesse de décollage d'un saut. (blocs : 1)\n\n**Inférence causale** — *causal inference*. Passage d'une association observée à l'affirmation\nqu'une variable produit l'autre. Elle exige soit une randomisation, soit une hypothèse\nd'identification explicite et défendable. Aucun ajustement statistique ne la produit à lui\nseul.\n\n**Inflation d'amplitude** — *effect size inflation, winner's curse*. Surestimation systématique\nde la taille des effets qui franchissent le seuil de significativité dans les études de faible\npuissance. Elle ne résulte d'aucune faute : c'est une conséquence mécanique de la sélection des\nrésultats par un seuil.\n\n**Inhibition autogène** — *autogenic inhibition*. Freinage d'un muscle par ses propres organes tendineux. Son rôle protecteur sous les charges lourdes, répandu dans les manuels, n'est pas démontré.\n\n**Inhibition nerveuse** — *neural inhibition*. Baisse de l'activation volontaire d'un muscle malgré un effort maximal, avancée pour expliquer que la force excentrique humaine dépasse peu la force isométrique. Réduite par l'entraînement ; son existence même reste discutée. (blocs : 1-8)\n\n**Inhibition réciproque** — *reciprocal inhibition*. Freinage du muscle opposé quand un muscle est étiré, par un interneurone activé par l'afférence Ia.\n\n**Insuffisance active** — *active insufficiency*. Incapacité supposée d'un muscle biarticulaire à produire beaucoup de force quand les deux articulations le raccourcissent à la fois.\n\n**Insuline** — *insulin*. Hormone peptidique dont la sécrétion dépend du glucose et des acides aminés du sang ; elle agit surtout sur le muscle, le foie et le tissu adipeux.\n\n**Interneurone** — *interneuron*. Neurone de la moelle épinière intercalé entre une fibre sensitive et un motoneurone, par exemple pour inhiber le muscle opposé. (aussi : interneurones)\n\n**Intervalle de compatibilité** — *compatibility interval*. Dénomination proposée pour\nl'intervalle de confiance, décrivant plus fidèlement ce qu'il contient : les valeurs de\nparamètre compatibles avec les données sous le modèle.\n\n**Intervalle de confiance** — *confidence interval*. Intervalle construit par une procédure\ndont la couverture nominale vaut sur des répétitions de l'étude. La propriété appartient à la\nprocédure, pas à l'intervalle observé.\n\n**Intervalle de crédibilité** — *credible interval*. Équivalent bayésien de l'intervalle de\nconfiance, qui possède bien la propriété interprétative intuitive de contenir la vraie valeur\navec la probabilité annoncée.\n\n**Intervalle de prédiction** — *prediction interval*. Dans une méta-analyse à effets\naléatoires, intervalle décrivant l'étendue des effets attendus dans un nouveau contexte.\nToujours plus large que l'intervalle de confiance de la moyenne, et rarement rapporté.\n\n**Ischio-jambiers** — *hamstrings*. Groupe de trois muscles de l'arrière de la cuisse : biceps fémoral, semi-tendineux, semi-membraneux. Ils plient le genou et étendent la hanche. (aussi : ischio-jambier) (visuel : muscles#biceps-femoral+semi-tendineux+semi-membraneux)\n\n**Isocinétique** — *isokinetic*. Se dit d'un mouvement à vitesse angulaire constante, imposée par un dynamomètre qui oppose une résistance égale à la force appliquée. Outil surtout de mesure et de rééducation.\n\n**Isotonique** — *isotonic*. Littéralement « à tension constante ». Désigne couramment le travail à charge constante, où la force musculaire varie pourtant avec les bras de levier et l'accélération : terme trompeur, à comprendre comme « à charge constante ».\n\n**I²** — *I-squared*. Proportion de la variabilité observée entre études attribuable à\nl'hétérogénéité plutôt qu'à l'erreur d'échantillonnage. Proportion, jamais quantité absolue.\n\n## L\n\n**Lactate** — *lactate*. Produit de la glycolyse formé en permanence, y compris en conditions aérobies. Carburant, précurseur du glucose et molécule de signalisation, et non simple déchet.\n\n**Levier** — *lever*. Solide qui tourne autour d'un axe sous l'action d'une force motrice et d'une résistance. Il ne crée pas d'énergie : il échange de la force contre du déplacement, ou l'inverse. (blocs : 1-8)\n\n**Ligament** — *ligament*. Tissu de collagène qui relie deux os et participe à la stabilité d'une articulation. (aussi : ligaments)\n\n**Ligament croisé antérieur** — *anterior cruciate ligament (ACL)*. Ligament situé au centre du genou, qui limite le glissement du tibia vers l'avant sous le fémur.\n\n**Ligne d'action** — *line of action*. Droite qui porte une force. Le bras de levier se mesure perpendiculairement à elle ; une force dont la ligne d'action passe par l'axe ne produit aucun moment.\n\n**Loi de Frank-Starling** — *Frank-Starling law*. Le cœur ajuste son éjection à son remplissage : un ventricule plus rempli éjecte davantage.\n\n## M\n\n**Marge de stabilité** — *margin of stability*. Distance entre le centre de masse extrapolé et le bord de la base d'appui. Négative, elle impose de faire un pas.\n\n**Mécanostat** — *mechanostat*. Hypothèse selon laquelle l'usage mécanique règle l'essentiel de la solidité d'un os sain, qui s'adapte aux charges reçues.\n\n**Médullosurrénale** — *adrenal medulla*. Partie centrale de la glande surrénale, prolongement du système nerveux sympathique ; elle libère l'adrénaline et la noradrénaline.\n\n**Membrane respiratoire** — *respiratory membrane*. Paroi de l'alvéole et paroi du capillaire accolées, épaisses d'environ 0,5 µm, que les gaz traversent par diffusion.\n\n**Ménarche** — *menarche*. Premières règles. Sert de repère de maturation dans les études sur l'os des filles.\n\n**Méta-analyse** — *meta-analysis*. Agrégation quantitative des estimations d'un ensemble\nd'études, généralement par pondération inverse-variance.\n\n**Méta-régression** — *meta-regression*. Modélisation de la variation de l'effet entre études\nen fonction de caractéristiques d'étude. Puissante et fortement exposée à l'exploration\nopportuniste.\n\n**Métabolisme aérobie** — *aerobic metabolism*. Production d'ATP avec oxygène, par la voie oxydative. Contribue dès le début de l'effort et devient majoritaire au-delà de 80 secondes environ d'effort maximal. (aussi : aérobie, aérobies)\n\n**Métabolisme anaérobie** — *anaerobic metabolism*. Production d'ATP sans oxygène, par la phosphocréatine et la glycolyse. Majoritaire dans un effort maximal de moins de 80 secondes environ. (aussi : anaérobie, anaérobies)\n\n**Métaboréflexe** — *metaboreflex*. Réflexe déclenché par l'accumulation de métabolites dans un muscle qui se fatigue ; celui des muscles respiratoires resserre les vaisseaux des muscles locomoteurs.\n\n**Mitochondrie** — *mitochondrion*. Organite de la cellule où se déroule la voie oxydative. Sa densité dans le muscle conditionne la capacité aérobie. (aussi : mitochondries, mitochondrial, mitochondriale)\n\n**Module d'Young** — *Young's modulus*. Rapport de la contrainte à la déformation. Il décrit la rigidité du matériau seul, indépendamment de la taille de la structure.\n\n**Moment de force** — *torque, moment of force*. Produit d'une force par son bras de levier, M = r × F, en newtons-mètres. C'est lui, et non la force, qui fait tourner une articulation. (aussi : moments de force)\n\n**Moment externe** — *external moment*. Moment produit autour d'une articulation par les charges et le poids des segments. Il dépend de la distance horizontale entre la charge et l'articulation, donc de la posture.\n\n**Moment interne** — *internal moment*. Moment produit par les muscles et les structures passives pour s'opposer au moment externe. À l'équilibre, les deux sont égaux.\n\n**Moment net** — *net joint moment*. Somme algébrique des moments de tous les muscles et structures qui croisent une articulation. C'est ce que calcule la dynamique inverse ; il masque les co-contractions, qui augmentent la force réelle des agonistes. (aussi : moment articulaire net)\n\n**Monoarticulaire** — *monoarticular muscle*. Se dit d'un muscle qui ne croise qu'une articulation, comme le soléaire. (aussi : muscle monoarticulaire, muscles monoarticulaires)\n\n**Motoneurone alpha** — *alpha motor neuron*. Neurone de la moelle épinière qui commande les fibres productrices de force d'une unité motrice. (aussi : motoneurones alpha)\n\n**Motoneurones gamma** — *gamma motor neurons, fusimotor neurons*. Neurones qui commandent les fibres intrafusales et règlent la sensibilité du fuseau. Activés avec les motoneurones alpha lors d'une contraction volontaire. (aussi : motoneurone gamma)\n\n**Moyen fessier** — *gluteus medius*. Muscle du haut et du côté de la fesse, en partie caché par le grand fessier. Il écarte la cuisse et tient le bassin à niveau en appui sur une jambe. (visuel : muscles#moyen-fessier)\n\n**Muscle biarticulaire** — *biarticular muscle, two-joint muscle*. Muscle qui croise deux articulations, comme le droit fémoral, la plupart des ischio-jambiers ou le gastrocnémien. Sa longueur dépend des deux angles. (aussi : muscles biarticulaires, biarticulaire, biarticulaires)\n\n**Myocarde** — *myocardium*. Muscle du cœur.\n\n**Myofibrille** — *myofibril*. Filament contractile qui parcourt la fibre musculaire sur toute sa longueur, fait de sarcomères placés bout à bout.\n\n**Myosine** — *myosin*. Protéine qui forme les filaments épais du sarcomère. Ses têtes s'accrochent à l'actine, basculent et la tirent : ce sont les moteurs de la contraction.\n\n## N\n\n**NAD⁺** — *nicotinamide adenine dinucleotide*. Molécule qui accepte des électrons et devient NADH. La glycolyse en consomme ; la formation de lactate le régénère. (aussi : NADH)\n\n**Navette du lactate** — *lactate shuttle*. Théorie selon laquelle le lactate circule entre les cellules qui le produisent et celles qui le consomment, comme carburant et comme signal.\n\n**Néoglucogenèse** — *gluconeogenesis*. Fabrication de glucose à partir d'autres molécules, dont le lactate, qui en est la principale matière première.\n\n**Neutralisateur** — *neutralizer*. Muscle qui annule une action secondaire indésirable de l'agoniste. (aussi : neutralisateurs)\n\n**Nœud auriculo-ventriculaire** — *atrioventricular node*. Relais électrique entre oreillettes et ventricules ; l'impulsion y marque une pause d'environ 100 ms.\n\n**Nœud sinusal** — *sinoatrial node*. Groupe de cellules de l'oreillette droite qui déclenche chaque battement du cœur.\n\n**Non-répondeur** — *non-responder*. Personne qui ne progresse pas, au-delà de l'erreur de mesure, sur une variable après un programme donné. (aussi : non-répondeurs)\n\n**Noradrénaline** — *norepinephrine, noradrenaline*. Catécholamine libérée par les nerfs sympathiques et la médullosurrénale.\n\n## O\n\n**Omoplate** — *scapula*. Os plat triangulaire du dos, qui porte la glène et l'acromion. (visuel : muscles#omoplate)\n\n**Onde V** — *V-wave*. Réponse électrique d'un muscle à la stimulation de son nerf pendant une contraction maximale ; elle reflète la commande qui descend vers les motoneurones.\n\n**Oreillette** — *atrium*. Cavité supérieure du cœur, qui reçoit le sang.\n\n**Organe tendineux de Golgi** — *Golgi tendon organ*. Capteur situé à la jonction du muscle et du tendon, qui signale la force de contraction par son afférence Ib. (aussi : organe tendineux, organes tendineux, organe de Golgi)\n\n**Os cortical** — *cortical bone, compact bone*. Os compact qui forme la coque des os, surtout le long de leur partie centrale.\n\n**Os spongieux** — *cancellous bone, trabecular bone*. Os en réseau de travées, à l'intérieur des extrémités des os longs et des vertèbres. (aussi : os trabéculaire)\n\n**Ostéoblaste** — *osteoblast*. Cellule qui fabrique l'os nouveau puis le minéralise. (aussi : ostéoblastes)\n\n**Ostéoclaste** — *osteoclast*. Cellule qui résorbe l'os. (aussi : ostéoclastes)\n\n**Ostéocyte** — *osteocyte*. Cellule enfermée dans l'os ; leur réseau perçoit les contraintes mécaniques. (aussi : ostéocytes)\n\n**Ostéoporose** — *osteoporosis*. Fragilité osseuse avec risque accru de fracture ; en densitométrie, un T-score inférieur à - 2,5. Son diagnostic et son traitement relèvent du médecin.\n\n## P\n\n**Paracrine** — *paracrine*. Se dit d'un signal qui agit sur des cellules voisines, sans passer par le sang.\n\n**Paradoxe de Codman** — *Codman's paradox*. Rotation de l'humérus sur son axe qui apparaît, sans avoir été commandée, au terme d'une séquence de mouvements plans de l'épaule. Conséquence du fait que les rotations en trois dimensions ne commutent pas.\n\n**Paradoxe de Lombard** — *Lombard's paradox*. Activité simultanée de muscles antagonistes, comme quadriceps et ischio-jambiers, dans un mouvement qu'ils semblent tous deux produire. Il dépend en partie de la méthode de classement des rôles.\n\n**PEDro** — base de données d'essais et de revues en thérapie physique, chaque essai coté sur\nl'échelle PEDro.\n\n**Pendule inversé** — *inverted pendulum*. Modèle du corps debout, articulé aux chevilles. Le centre de gravité y accélère dans le sens qui l'éloigne du centre de pression, proportionnellement à l'écart entre les deux.\n\n**Perdus de vue** — *loss to follow-up, attrition*. Participants randomisés dont le résultat\nfinal n'est pas disponible. Leur nombre, et surtout son asymétrie entre les groupes, est l'une\ndes informations les plus utiles du diagramme de flux d'un essai : l'abandon n'est jamais\naléatoire.\n\n**Petit rond** — *teres minor*. Petit muscle de la coiffe des rotateurs, au bord externe de l'omoplate, sous le sous-épineux. Il tourne le bras vers l'extérieur. (visuel : muscles#petit-rond)\n\n**Phase de vérification** — *verification phase*. Effort à vitesse constante au-dessus de la fin d'un test progressif, pour confirmer qu'une vraie consommation maximale a été atteinte.\n\n**Phosphate inorganique** — *inorganic phosphate*. Phosphate libre, libéré notamment quand la phosphocréatine se dégrade. Il s'accumule pendant un effort intense et apparaît comme une cause majeure de fatigue.\n\n**Phosphocréatine** — *phosphocreatine (PCr)*. Réserve de phosphate riche en énergie qui refait de l'ATP en une seule réaction. Voie la plus rapide, épuisée en quelques secondes d'effort maximal, rechargée grâce à l'oxygène.\n\n**PICOT** — *Population, Intervention, Comparison, Outcome, Time*. Structure de formulation\nd'une question de recherche à laquelle on peut répondre. Explicitement au programme de l'examen\n(DCO SF 1.J.2).\n\n**Pied de courbe** — *toe region*. Début de la courbe contrainte-déformation du tendon, où la raideur augmente peu à peu avant la zone linéaire.\n\n**Plan frontal** — *frontal plane, coronal plane*. Plan qui sépare l'avant et l'arrière du corps. Les mouvements y tournent autour d'un axe antéro-postérieur : abduction, adduction, inclinaison latérale.\n\n**Plan sagittal** — *sagittal plane*. Plan qui sépare la gauche et la droite du corps. Les mouvements y tournent autour d'un axe médio-latéral : flexion, extension.\n\n**Plan transversal** — *transverse plane, horizontal plane*. Plan qui sépare le haut et le bas du corps. Les mouvements y tournent autour d'un axe longitudinal : rotations interne et externe, pronation, supination.\n\n**Plateforme de force** — *force plate*. Instrument qui mesure les forces exercées sur le sol au cours du temps. Permet de calculer la hauteur d'un saut par trois méthodes indépendantes.\n\n**Pliométrie** — *plyometric training*. Entraînement fait de sauts et de rebonds enchaînés, qui sollicite le cycle étirement-raccourcissement.\n\n**Plus petit changement digne d'intérêt** — *smallest worthwhile change, minimal important\ndifference*. Plus petite différence à partir de laquelle on accepterait de modifier une\npratique, compte tenu de son coût. Ce n'est pas une quantité statistique : elle se fixe par\nancrage sur une conséquence externe, par une fraction de la dispersion entre sujets — souvent\n0,2 écart-type — ou par jugement. Doit être annoncée avant l'analyse, jamais découverte après.\n\n**Point de blocage** — *sticking point, sticking region*. Portion de l'amplitude où l'écart entre ce que le muscle peut produire et ce que l'exercice exige est le plus faible. C'est là qu'une répétition échoue.\n\n**Point de croisement** — *crossover point*. Intensité à partir de laquelle les glucides fournissent plus d'énergie que les graisses. Cœur du concept du croisement, dont la portée est discutée. (aussi : concept du croisement)\n\n**Polarisé** — *polarized training*. Se dit d'une répartition de l'entraînement qui combine beaucoup de travail à faible intensité et un peu de travail très intense, avec peu de travail au seuil. (aussi : polarisée, entraînement polarisé)\n\n**Pompe musculaire** — *muscle pump*. Compression des veines par les muscles qui se contractent ; les valves orientent le sang vers le cœur.\n\n**Pont d'union** — *cross-bridge*. Liaison transitoire entre une tête de myosine et un filament d'actine. La force d'un sarcomère est la somme de celles de ses ponts d'union actifs. (aussi : ponts d'union)\n\n**Position anatomique** — *anatomical position*. Posture de référence : debout, regard vers l'avant, bras le long du corps, paumes tournées vers l'avant. La plupart des angles articulaires y valent zéro par convention.\n\n**Précharge** — *preload*. Remplissage du ventricule avant sa contraction.\n\n**Préenregistrement** — *preregistration*. Dépôt public du protocole et du plan d'analyse avant\nla collecte des données. Il distingue un résultat testé d'un résultat trouvé, en fermant la\npossibilité de choisir après coup le critère de jugement ou l'analyse qui donne le résultat le\nplus favorable.\n\n**Pression diastolique** — *diastolic blood pressure*. Pression artérielle pendant le remplissage des ventricules ; elle varie peu à l'effort dynamique.\n\n**Pression intra-abdominale** — *intra-abdominal pressure*. Pression dans la cavité abdominale, augmentée par le gainage ou une ceinture, qui participe au soutien du tronc.\n\n**Pression partielle** — *partial pressure*. Pression exercée par un gaz dans un mélange. Un gaz se déplace de là où sa pression partielle est la plus haute vers là où elle est la plus basse. (aussi : pressions partielles)\n\n**Pression systolique** — *systolic blood pressure*. Pression artérielle au moment où les ventricules éjectent ; elle monte nettement à l'effort dynamique.\n\n**Principe de taille** — *size principle, Henneman's principle*. Ordre de recrutement des unités motrices, des plus petites, à motoneurone de petite taille, aux plus grandes. Conservé dans les contractions lentes comme explosives. (aussi : principe de Henneman) (blocs : 1-8)\n\n**PRISMA** — *Preferred Reporting Items for Systematic Reviews and Meta-Analyses*. Ligne\ndirectrice de **rapportage** des revues systématiques. N'évalue ni la conduite de l'étude ni la\nqualité des études incluses.\n\n**Profil de résistance** — *resistance profile*. Variation du moment externe à vaincre le long de l'amplitude d'un exercice. Il dépend du dispositif : charge libre, câble, came, élastique, chaînes. (aussi : profils de résistance)\n\n**Profil force-vitesse** — *force-velocity profile*. Droite force-vitesse d'un athlète, mesurée par quelques sauts ou poussées sous charges croissantes et résumée par la force à vitesse nulle et la vitesse à force nulle. Outil descriptif ; son usage pour individualiser l'entraînement n'est pas validé. (aussi : profils force-vitesse) (blocs : 1-8)\n\n**Pronation** — *pronation*. Rotation de l'avant-bras qui tourne la paume vers l'arrière, bras le long du corps. Aux tractions, la prise en pronation place les paumes vers l'avant.\n\n**Proprioception** — *proprioception*. Sens de la position, du mouvement et de la force des membres, alimenté notamment par les fuseaux et les organes tendineux. Elle se dégrade avec l'âge.\n\n**PROSPERO** — registre international de préenregistrement des revues systématiques. Sa mention\ndans un article est un marqueur de sérieux vérifiable.\n\n**Protéine de transport** — *binding protein*. Protéine du sang à laquelle une hormone peut se lier pour circuler. (aussi : protéines de transport)\n\n**Puissance** — *statistical power*. Probabilité de détecter un effet d'une amplitude donnée\ns'il existe. Une puissance faible ne fait pas que manquer des effets : elle gonfle l'amplitude\nde ceux qu'elle détecte. (blocs : 0)\n\n**Puissance critique** — *critical power*. Asymptote de la relation puissance-durée. Au-dessous, les réponses de l'organisme se stabilisent ; au-dessus, non, jusqu'à l'épuisement d'une réserve de travail.\n\n**Puissance mécanique** — *mechanical power*. Travail mécanique par unité de temps, en watts ; instantanément, P = F · v. À distinguer de l'usage courant qui appelle « puissance » une qualité d'effort bref et intense. (aussi : puissance) (blocs : 1-8)\n\n**Puissance rétrospective** — *post hoc power, observed power*. Puissance recalculée après\nl'étude à partir de l'effet observé. Elle est une fonction directe de la valeur p obtenue et\nn'apporte donc aucune information nouvelle. À ne pas confondre avec le calcul, légitime, de la\npuissance dont l'étude disposait pour détecter un effet digne d'intérêt fixé indépendamment du\nrésultat.\n\n**Pyruvate** — *pyruvate*. Produit de la glycolyse. Il entre dans la mitochondrie pour y être oxydé, ou devient lactate.\n\n## Q\n\n**Quadriceps** — *quadriceps femoris*. Groupe de quatre muscles de l'avant de la cuisse : droit fémoral, vaste latéral, vaste médial et vaste intermédiaire, caché sous les autres. Il étend le genou. (visuel : muscles#droit-femoral+vaste-lat+vaste-med)\n\n**Quantité de mouvement** — *momentum*. Produit de la masse par la vitesse, en kilogrammes-mètres par seconde. Sa variation égale l'impulsion reçue.\n\n**Quaternion** — *quaternion*. Représentation d'une orientation en trois dimensions par quatre nombres, équivalente à une rotation d'un angle donné autour d'un axe. Ne souffre ni de singularités ni du paradoxe de Codman, au prix d'une lecture moins intuitive que les angles articulaires.\n\n## R\n\n**Raideur** — *stiffness*. Force, ou moment, nécessaire pour déformer une structure d'une unité : par exemple, pour allonger un tendon d'un millimètre. Elle dépend du matériau et de la taille de la structure.\n\n**Randomisation** — *randomization*. Attribution de l'intervention par un procédé aléatoire.\nFondement de l'inférence causale expérimentale.\n\n**Rapport charge aiguë-charge chronique** — *acute:chronic workload ratio (ACWR)*. Rapport entre la charge d'entraînement récente, souvent d'une semaine, et la charge moyenne des semaines précédentes. Son usage pour prévenir les blessures n'est pas étayé.\n\n**Rapport de démultiplication** — *gear ratio*. Rapport entre le déplacement de l'extrémité d'un segment et le raccourcissement du muscle qui le met en mouvement. Inverse de l'avantage mécanique.\n\n**Rapport enregistré** — *registered report*. Format éditorial où la revue accepte l'article\nsur la base du protocole, avant collecte des données, et s'engage à publier quel que soit le\nrésultat. Seul dispositif qui neutralise simultanément le tiroir du chercheur et la sélection\npar la revue.\n\n**Rapport travail-repos** — *work-to-rest ratio*. Rapport entre la durée de l'effort et celle de la récupération dans une séance par intervalles. (aussi : rapports travail-repos)\n\n**Rapport ventilation-perfusion** — *ventilation-perfusion ratio*. Rapport entre l'air qui arrive dans une région du poumon et le sang qui la traverse ; l'échange est efficace quand les deux concordent.\n\n**Récepteur** — *receptor*. Protéine qui reconnaît une molécule précise, hormone ou autre signal, et s'y lie pour déclencher une réponse de la cellule. (aussi : récepteurs)\n\n**Récepteur des androgènes** — *androgen receptor*. Récepteur situé dans la cellule, par lequel agit la testostérone. (aussi : récepteurs des androgènes)\n\n**Recrutement** — *motor unit recruitment*. Entrée en activité d'unités motrices supplémentaires pour augmenter la force. L'un des deux leviers nerveux de la gradation de la force, avec le codage en fréquence. (aussi : recruter, recrutée, recrutées, recruté, recrutés) (blocs : 1-8)\n\n**Récupération active** — *active recovery*. Exercice léger après un effort intense, à la place du repos complet. Fait disparaître plus vite le lactate sanguin.\n\n**Réflexe H** — *H-reflex, Hoffmann reflex*. Version électrique du réflexe myotatique, obtenue en stimulant le nerf. Sert à mesurer l'excitabilité des motoneurones et la transmission des afférences Ia.\n\n**Réflexe myotatique** — *stretch reflex*. Contraction d'un muscle en réponse à son étirement, par la synapse directe entre l'afférence Ia du fuseau et ses motoneurones alpha. (aussi : réflexe d'étirement)\n\n**Régime cétogène** — *ketogenic diet, low-carbohydrate high-fat diet*. Alimentation très pauvre en glucides et riche en graisses. Augmente fortement l'oxydation des graisses à l'effort, sans gain de performance démontré. (aussi : cétogène)\n\n**Relation force-vitesse** — *force-velocity relationship*. Relation entre la force qu'un muscle peut produire et sa vitesse de raccourcissement : plus il va vite, moins il est fort. Hyperbolique sur muscle isolé, presque linéaire mesurée sur un geste à plusieurs articulations. (aussi : courbe force-vitesse, courbes force-vitesse) (blocs : 1-8)\n\n**Relation longueur-tension** — *length-tension relationship*. Variation de la force active d'un muscle ou d'un sarcomère avec sa longueur : en cloche, avec une branche ascendante, un plateau et une branche descendante, qui suivent le chevauchement des filaments.\n\n**Remodelage** — *bone remodeling*. Renouvellement permanent de l'os par la résorption puis la reformation, qui règle sa densité et répare ses microdommages. (aussi : remodelage osseux)\n\n**Réponse individuelle** — *individual response*. Variabilité vraie de l'effet d'une\nintervention entre personnes. Presque toujours surestimée : la dispersion des changements\nobservés contient aussi l'erreur de mesure, comptée deux fois, et la variabilité biologique\nnormale. L'établir exige un groupe contrôle ou la répétition de l'intervention chez les mêmes\nsujets.\n\n**Réponse tensionnelle exagérée** — *exaggerated blood pressure response to exercise*. Hausse de la pression systolique à l'effort plus forte que la normale ; associée à davantage d'événements cardiovasculaires.\n\n**Réserve cardiaque** — *cardiac reserve*. Écart entre le débit cardiaque maximal et le débit de repos.\n\n**Résistance variable** — *variable resistance training*. Ajout d'élastiques ou de chaînes à une charge libre pour que la résistance augmente au cours du mouvement. Son avantage sur la charge constante est discuté.\n\n**RoB 2** — *revised Cochrane risk-of-bias tool for randomized trials*. Outil d'évaluation du\nrisque de biais d'un essai randomisé, structuré en cinq domaines.\n\n**Rythme scapulo-huméral** — *scapulohumeral rhythm*. Partage de l'élévation du bras entre l'humérus et l'omoplate : en moyenne 1,7° gléno-huméral pour 1° de l'omoplate.\n\n## S\n\n**Sarcomère** — *sarcomere*. Unité contractile du muscle, segment répété bout à bout le long des myofibrilles, délimité par deux disques où s'ancrent les filaments d'actine.\n\n**Sartorius** — *sartorius*. Le plus long muscle du corps : une bande fine qui traverse l'avant de la cuisse en diagonale, de la hanche au côté interne du genou. (visuel : muscles#sartorius)\n\n**Saturation en oxygène** — *oxygen saturation*. Part des sites de l'hémoglobine occupés par l'oxygène ; de 95 à 99 % chez une personne en bonne santé. (aussi : saturation) (blocs : 2)\n\n**Saut avec contre-mouvement** — *countermovement jump (CMJ)*. Saut vertical précédé d'une flexion rapide des jambes. Sa courbe force-temps se découpe en six phases : pesée, allègement, freinage, propulsion, vol, réception.\n\n**Saut sans contre-mouvement** — *squat jump (SJ)*. Saut vertical lancé depuis une position fléchie immobile, sans flexion préalable. (aussi : sauts sans contre-mouvement)\n\n**Score de Beighton** — *Beighton score*. Test de l'hyperlaxité généralisée en neuf points ; elle est retenue à partir de 4 tests positifs.\n\n**Section physiologique** — *physiological cross-sectional area (PCSA)*. Surface obtenue en coupant toutes les fibres d'un muscle perpendiculairement à leur axe. Elle fixe la force maximale, quand la longueur des fibres fixe l'amplitude et la vitesse.\n\n**Semi-tendineux** — *semitendinosus*. Ischio-jambier du côté interne de l'arrière de la cuisse, terminé par un long tendon. Il plie le genou et étend la hanche. (visuel : muscles#semi-tendineux)\n\n**Sensibilité au changement** — *responsiveness*. Capacité d'une mesure à détecter une\nvariation réelle. Troisième propriété métrologique, distincte de la fidélité et de la validité\n: un test peut être fidèle et valide en coupe transversale et incapable de suivre une\nprogression, si son erreur typique dépasse le changement visé.\n\n**Série de cas** — *case series*. Description détaillée de plusieurs patients ou sujets\npartageant une caractéristique, sans groupe de comparaison. Sert à signaler un phénomène et à\nformuler une hypothèse ; n'autorise aucune inférence, causale ou même associative.\n\n**Seuil lactique** — *lactate threshold*. Intensité d'effort au-delà de laquelle le lactate commence à s'accumuler dans le sang.\n\n**Significativité statistique** — *statistical significance*. Franchissement d'un seuil\nconventionnel par la valeur p. Ne renseigne ni sur l'amplitude, ni sur l'importance pratique,\nni sur la probabilité que l'effet soit réel.\n\n**Soléaire** — *soleus*. Muscle du mollet placé sous le gastrocnémien, dont il dépasse de chaque côté. Il ne croise que la cheville, qu'il tend même genou plié. (visuel : muscles#soleaire)\n\n**Sommation** — *summation*. Addition des secousses d'une fibre quand les influx arrivent avant qu'elle ne se relâche ; à fréquence élevée, la contraction devient continue et maximale. (blocs : 1-8)\n\n**Sous-épineux** — *infraspinatus*. Muscle de la coiffe des rotateurs qui couvre l'omoplate sous son épine. Il tourne le bras vers l'extérieur. (visuel : muscles#sous-epineux)\n\n**Sous-scapulaire** — *subscapularis*. Muscle de la coiffe des rotateurs logé sur la face avant de l'omoplate, contre les côtes : on ne le voit pas de dos. Il tourne le bras vers l'intérieur. (visuel : muscles#sous-scapulaire)\n\n**Squat avant** — *front squat*. Squat où la barre repose sur l'avant des épaules : moins de compression et de moment au genou que le squat arrière.\n\n**Stabilisateur** — *stabilizer*. Muscle qui immobilise un segment pour donner à l'agoniste un appui solide. (aussi : stabilisateurs)\n\n**Supination** — *supination*. Rotation de l'avant-bras qui tourne la paume vers l'avant, bras le long du corps. Aux tractions, la prise en supination place les paumes vers soi.\n\n**Surmenage fonctionnel** — *functional overreaching*. Baisse passagère de performance après une surcharge, suivie d'une amélioration après récupération.\n\n**Surmenage non fonctionnel** — *non-functional overreaching*. Baisse de performance qui dure, quand l'équilibre entre entraînement et récupération n'est pas respecté.\n\n**Sus-épineux** — *supraspinatus*. Muscle de la coiffe situé au-dessus de l'épine de l'omoplate ; son tendon passe sous l'acromion. (visuel : muscles#sus-epineux)\n\n**Syndrome de surentraînement** — *overtraining syndrome*. Mauvaise adaptation prolongée à l'entraînement, plus sévère que le surmenage ; son diagnostic se fait par exclusion.\n\n**Synergiste** — *synergist*. Muscle qui aide l'agoniste à produire le mouvement. (aussi : synergistes)\n\n**Système de coordonnées articulaires** — *joint coordinate system*. Repère attaché aux deux os d'une articulation, qui définit les angles autour d'axes précis et rend leur valeur indépendante de l'ordre des rotations. Normalisé articulation par articulation par la Société internationale de biomécanique.\n\n**Système énergétique** — *energy system*. Ensemble des réactions qui reconstituent l'ATP : phosphagènes, glycolyse, voie oxydative. Les trois fonctionnent simultanément, dans des proportions qui dépendent de l'intensité et de la durée. (aussi : systèmes énergétiques)\n\n## T\n\n**Taille d'effet** — *effect size*. Mesure de l'amplitude d'un effet, indépendante de la taille\nde l'échantillon. Les seuils d'interprétation usuels — petit, moyen, grand — sont des\nconventions sans validité universelle.\n\n**Taux de développement de la force** — *rate of force development (RFD)*. Pente de la courbe force-temps, en newtons par seconde. Mesure la capacité à produire de la force vite, qualité distincte de la force maximale. (aussi : RFD)\n\n**Témoin apparié sur le volume** — *volume-matched control*. Groupe de comparaison recevant la\nmême quantité totale d'entraînement que le groupe expérimental, seule la variable étudiée\ndifférant. C'est le seul montage qui isole réellement un ingrédient de l'entraînement ; son\nabsence est la limite la plus fréquente de la littérature en programmation.\n\n**Tendinopathie** — *tendinopathy*. Atteinte douloureuse d'un tendon, liée à la surcharge. (aussi : tendinopathies)\n\n**Tendon** — *tendon*. Tissu de collagène qui relie un muscle à un os et lui transmet la force du muscle. Il se comporte comme un ressort raide. (aussi : tendons)\n\n**Tendon d'Achille** — *Achilles tendon*. Tendon qui relie le triceps sural au talon et transmet au pied la force du mollet. (aussi : tendons d'Achille) (visuel : muscles#achille)\n\n**Test d'Egger** — *Egger's test*. Test de régression évaluant l'asymétrie d'un funnel plot.\nUne asymétrie significative est compatible avec un biais de publication, mais aussi avec une\nhétérogénéité liée à la taille des études, une différence de qualité, ou le hasard quand les\nétudes sont peu nombreuses.\n\n**Test d'équivalence** — *equivalence test, TOST*. Procédure inversant la charge de la preuve :\nau lieu de tester l'hypothèse d'un effet nul, elle teste l'hypothèse d'un effet situé en dehors\nd'une zone d'équivalence bornée par le plus petit changement digne d'intérêt. Lecture graphique\n: si l'intervalle de confiance tient entièrement dans la zone, l'équivalence est établie. Seule\nfaçon de conclure qu'un effet est trop petit pour compter.\n\n**Testostérone** — *testosterone*. Hormone stéroïde androgène. Dans le muscle, elle stimule la synthèse des protéines et freine leur dégradation.\n\n**Tibial antérieur** — *tibialis anterior*. Muscle de l'avant de la jambe, le long du tibia. Il relève la pointe du pied (flexion dorsale). (visuel : muscles#tibial-ant)\n\n**Tirage vertical** — *lat pull-down*. Exercice à la poulie haute où l'on tire une barre vers le haut de la poitrine.\n\n**Tolérance à l'étirement** — *stretch tolerance*. Capacité à supporter un étirement plus poussé avant de l'arrêter. Principale explication du gain d'amplitude obtenu par l'étirement régulier.\n\n**Transitivité** — *transitivity*. Hypothèse propre aux méta-analyses en réseau : les essais\ncomparant A à B et ceux comparant B à C doivent être suffisamment semblables sur tout le reste\npour qu'on puisse en déduire la comparaison entre A et C. Elle est forte et rarement\nvérifiable.\n\n**Transversale (étude)** — *cross-sectional study*. Mesure simultanée d'une exposition et d'un\nrésultat. Ambiguïté temporelle irréductible.\n\n**Trapèze** — *trapezius*. Grand muscle en losange de la nuque et du haut du dos, en trois parties : supérieure (hausse les épaules), moyenne (rapproche les omoplates), inférieure (les abaisse). (aussi : trapèzes) (visuel : muscles#trapeze-sup+trapeze-moy+trapeze-inf)\n\n**Trapèze inférieur** — *lower trapezius*. Partie basse du trapèze, en pointe vers le milieu du dos. Elle abaisse l'omoplate et l'aide à tourner vers le haut. (visuel : muscles#trapeze-inf)\n\n**Travail mécanique** — *mechanical work*. Produit d'une force par le déplacement dans sa direction, en joules. Négatif quand le muscle freine et nul sur une répétition complète, ce qui en fait une mauvaise mesure de l'effort.\n\n**Triceps brachial** — *triceps brachii*. Muscle de l'arrière du bras, à trois chefs (long, latéral, médial), qui étend le coude ; le chef long croise aussi l'épaule. (aussi : triceps) (visuel : muscles#triceps-long+triceps-lat)\n\n**Triceps sural** — *triceps surae*. Le muscle du mollet : les deux chefs du gastrocnémien et le soléaire, réunis par le tendon d'Achille. Il tend la cheville. (aussi : mollet, mollets) (visuel : muscles#gastrocnemien+soleaire)\n\n**Triglycérides** — *triglycerides*. Forme de stockage des graisses, dans le tissu adipeux et dans le muscle. (aussi : triglycéride)\n\n**Triple extension** — *triple extension*. Extension simultanée de la hanche, du genou et de la cheville, commune au saut et au deuxième tirage des mouvements d'haltérophilie.\n\n**Typologie musculaire** — *muscle fiber typology*. Proportion de fibres lentes et rapides d'une personne. Estimable sans biopsie par spectroscopie, méthode encore en validation. (aussi : typologie)\n\n## U\n\n**Unité motrice** — *motor unit*. Un motoneurone et l'ensemble des fibres musculaires qu'il commande. Unité élémentaire de la gradation de la force. (aussi : unités motrices)\n\n**Unités multicellulaires de base** — *basic multicellular units*. Groupes temporaires d'ostéoclastes et d'ostéoblastes qui renouvellent chacun une petite zone d'os. (aussi : unité multicellulaire de base, unité de remodelage, unités de remodelage)\n\n## V\n\n**Valeur p** — *p-value*. Probabilité d'observer un écart au moins aussi grand que celui\nobtenu, si l'hypothèse nulle **et l'ensemble des autres hypothèses du modèle** étaient vraies.\nCe n'est ni la probabilité que l'hypothèse nulle soit vraie, ni la probabilité que le résultat\nsoit dû au hasard, ni une mesure de l'importance de l'effet. (aussi : valeurs p)\n\n**Validité concourante** — *concurrent validity*. Accord d'un test avec une référence mesurée\nau même moment. N'implique jamais la validité prédictive, qui porte sur un événement futur.\nConclure de l'une à l'autre est le contresens le plus documenté du domaine.\n\n**Validité externe** — *external validity*, *generalizability*. Degré auquel un résultat\ns'applique à d'autres populations, contextes ou protocoles que ceux étudiés.\n\n**Validité interne** — *internal validity*. Degré auquel le résultat observé reflète bien\nl'effet de l'intervention dans l'étude considérée, en l'absence de biais.\n\n**Validité prédictive** — *predictive validity*. Capacité d'un test à annoncer un événement\nfutur. Se démontre par un suivi prospectif, jamais par une corrélation transversale, et dépend\nfortement de la fréquence de l'événement visé.\n\n**Valve** — *valve*. Dans le cœur ou les veines, clapet qui empêche le sang de refluer.\n\n**Vaste latéral** — *vastus lateralis*. Chef du quadriceps sur le côté externe de la cuisse, le plus volumineux des quatre. (visuel : muscles#vaste-lat)\n\n**Vaste médial** — *vastus medialis*. Chef du quadriceps du côté interne, qui forme le renflement en goutte au-dessus du genou. (visuel : muscles#vaste-med)\n\n**Vastes** — *vasti*. Les trois chefs du quadriceps qui ne croisent que le genou : vaste latéral, vaste médial et vaste intermédiaire. (blocs : 1) (visuel : muscles#vaste-lat+vaste-med)\n\n**Veine** — *vein*. Vaisseau qui ramène le sang au cœur ; à paroi fine, il sert de réservoir.\n\n**Ventricule** — *ventricle*. Cavité inférieure du cœur, qui éjecte le sang.\n\n**Vitesse angulaire** — *angular velocity*. Vitesse de rotation d'un segment, en radians par seconde, la même pour tous ses points. La vitesse linéaire d'un point vaut ω · r, d'où l'intérêt des segments longs pour la vitesse.\n\n**Voie oxydative** — *oxidative phosphorylation*. Production d'ATP dans les mitochondries par l'oxydation complète des glucides et des graisses grâce à l'oxygène. Capacité immense, débit maximal plus faible que les voies anaérobies. (aussi : phosphorylation oxydative)\n\n**Volume d'éjection systolique** — *stroke volume*. Volume de sang éjecté par un ventricule à chaque battement, de 60 à 100 mL au repos. (aussi : volume d'éjection, volumes d'éjection)\n\n## Z\n\n**Zone d'équivalence** — *equivalence bounds*. Intervalle centré sur zéro et borné par le plus\npetit changement digne d'intérêt, à l'intérieur duquel un effet est jugé sans conséquence\npratique. Doit être fixée avant l'analyse.\n\n**Zone de conduction** — *conducting zone*. Partie des voies respiratoires qui achemine l'air sans échange gazeux, de la cavité nasale à la plupart des bronchioles ; elle le filtre, le réchauffe et l'humidifie.\n\n**Zone respiratoire** — *respiratory zone*. Partie des poumons où se font les échanges gazeux : les dernières bronchioles et les alvéoles.\n"
   },
   {
    "id": "dco",
@@ -15780,7 +15780,8 @@ window.SOCLE = {
    "alias": [
     "Acétyl-CoAs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Acides gras",
@@ -15789,7 +15790,8 @@ window.SOCLE = {
    "alias": [
     "acide gras"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Acidose",
@@ -15799,7 +15801,8 @@ window.SOCLE = {
     "acidose lactique",
     "Acidoses"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Acromion",
@@ -15808,7 +15811,8 @@ window.SOCLE = {
    "alias": [
     "Acromions"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "ACTH",
@@ -15817,7 +15821,8 @@ window.SOCLE = {
    "alias": [
     "ACTHs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Actine",
@@ -15826,7 +15831,8 @@ window.SOCLE = {
    "alias": [
     "Actines"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Action concentrique",
@@ -15836,7 +15842,8 @@ window.SOCLE = {
     "concentrique",
     "concentriques"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Action excentrique",
@@ -15846,7 +15853,24 @@ window.SOCLE = {
     "excentrique",
     "excentriques"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Adducteurs",
+   "en": "hip adductors",
+   "def": "Groupe de muscles de la face interne de la cuisse, tendus du bassin au fémur. Ils ramènent la cuisse vers l'axe du corps ; le grand adducteur aide aussi à redresser la hanche en bas du squat.",
+   "alias": [
+    "adducteurs de hanche"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "adducteurs",
+     "gracile"
+    ]
+   }
   },
   {
    "terme": "Adrénaline",
@@ -15855,7 +15879,8 @@ window.SOCLE = {
    "alias": [
     "Adrénalines"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Afférence Ia",
@@ -15864,7 +15889,8 @@ window.SOCLE = {
    "alias": [
     "afférences Ia"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Afférence Ib",
@@ -15873,7 +15899,8 @@ window.SOCLE = {
    "alias": [
     "afférences Ib"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Agoniste",
@@ -15883,7 +15910,8 @@ window.SOCLE = {
     "agonistes",
     "Agonistes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Allégation",
@@ -15892,14 +15920,16 @@ window.SOCLE = {
    "alias": [
     "Allégations"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Allocation dissimulée",
    "en": "allocation concealment",
    "def": "Procédure garantissant que la personne qui inclut un participant ne peut pas connaître à l'avance le groupe qui lui sera attribué. Distinct de l'aveugle, qui intervient après l'inclusion. Son absence permet une sélection consciente ou non des participants selon le groupe.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Alvéole",
@@ -15909,35 +15939,40 @@ window.SOCLE = {
     "alvéoles",
     "Alvéoles"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Analyse de sensibilité",
    "en": "sensitivity analysis",
    "def": "Réexécution d'une analyse en modifiant un choix méthodologique, pour vérifier si la conclusion y survit. Le test le plus informatif d'une méta-analyse.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Analyse en intention de traiter",
    "en": "intention-to-treat analysis",
    "def": "Analyse des participants dans le groupe auquel ils ont été attribués, indépendamment de leur adhérence effective. Préserve la comparabilité produite par la randomisation, au prix d'une dilution de l'effet.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Analyse per protocole",
    "en": "per-protocol analysis",
    "def": "Analyse restreinte aux participants ayant effectivement suivi le protocole. Elle répond à une question légitime — que produit le programme quand on le fait — mais elle sélectionne sur une variable postérieure à l'attribution, ce qui rompt la comparabilité produite par le tirage au sort. À lire toujours en regard de l'analyse en intention de traiter.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Angle alpha",
    "en": "alpha angle",
    "def": "Angle, mesuré en imagerie, entre l'axe du col du fémur et le point où la tête cesse d'être ronde. Il chiffre la déformation en came.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Angle de pennation",
@@ -15946,7 +15981,8 @@ window.SOCLE = {
    "alias": [
     "pennation"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Antagoniste",
@@ -15956,7 +15992,8 @@ window.SOCLE = {
     "antagonistes",
     "Antagonistes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Antéversion",
@@ -15965,7 +16002,8 @@ window.SOCLE = {
    "alias": [
     "Antéversions"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Aponévrose",
@@ -15974,14 +16012,16 @@ window.SOCLE = {
    "alias": [
     "Aponévroses"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Architecture musculaire",
    "en": "muscle architecture",
    "def": "Agencement des fibres à l'intérieur d'un muscle : longueur des fibres, angle de pennation, section physiologique. Elle détermine la fonction du muscle davantage que son volume.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Arraché",
@@ -15990,7 +16030,8 @@ window.SOCLE = {
    "alias": [
     "Arrachés"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Artériole",
@@ -15999,7 +16040,8 @@ window.SOCLE = {
    "alias": [
     "Artérioles"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Arthrose",
@@ -16008,21 +16050,24 @@ window.SOCLE = {
    "alias": [
     "Arthroses"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Articulation gléno-humérale",
    "en": "glenohumeral joint",
    "def": "Articulation entre la glène de l'omoplate et la tête de l'humérus.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Articulation scapulo-thoracique",
    "en": "scapulothoracic joint",
    "def": "Glissement de l'omoplate sur les côtes. Sans cartilage ni capsule, ce n'est pas une vraie articulation.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Articulation synoviale",
@@ -16031,7 +16076,8 @@ window.SOCLE = {
    "alias": [
     "articulations synoviales"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Association",
@@ -16040,7 +16086,8 @@ window.SOCLE = {
    "alias": [
     "Associations"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "ATP",
@@ -16050,14 +16097,16 @@ window.SOCLE = {
     "adénosine triphosphate",
     "ATPs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "ATP synthase",
    "en": "ATP synthase",
    "def": "Enzyme de la membrane interne de la mitochondrie qui fabrique l'ATP en utilisant le gradient de protons créé par la chaîne respiratoire.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Autocrine",
@@ -16066,7 +16115,8 @@ window.SOCLE = {
    "alias": [
     "Autocrines"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Autorythmicité",
@@ -16075,14 +16125,16 @@ window.SOCLE = {
    "alias": [
     "Autorythmicités"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Avantage mécanique",
    "en": "mechanical advantage",
    "def": "Rapport du bras de levier de la force motrice à celui de la résistance. Inférieur à 1 dans la plupart des articulations des membres : le muscle produit alors plus de force que la charge ne pèse, en échange de vitesse et d'amplitude.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Aveugle",
@@ -16091,42 +16143,48 @@ window.SOCLE = {
    "alias": [
     "Aveugles"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Axe hypothalamo-hypophyso-surrénalien",
    "en": "hypothalamic-pituitary-adrenal axis",
    "def": "Cascade CRH, ACTH, cortisol : la réponse hormonale lente au stress.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Barre basse",
    "en": "low-bar squat",
    "def": "Squat où la barre repose plus bas, sur l'arrière des épaules : tronc plus penché, plus de travail de la hanche et du dos.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Barre haute",
    "en": "high-bar squat",
    "def": "Squat où la barre repose sur le haut des trapèzes : tronc plus droit, plus de travail du quadriceps.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Barre hexagonale",
    "en": "hexagonal bar",
    "def": "Barre en forme de cadre dans lequel on se tient ; elle rapproche la charge du corps et réduit les moments au bas du dos, à la hanche et à la cheville.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Base d'appui",
    "en": "base of support",
    "def": "Polygone qui englobe toutes les surfaces en contact avec le sol. Le centre de pression ne peut se trouver qu'à l'intérieur.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Bêta-oxydation",
@@ -16135,14 +16193,16 @@ window.SOCLE = {
    "alias": [
     "Bêta-oxydations"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Biais",
    "en": "bias",
    "def": "Erreur systématique, qui ne diminue pas avec la taille de l'échantillon. À distinguer strictement de l'erreur aléatoire.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Biais de confusion",
@@ -16153,14 +16213,44 @@ window.SOCLE = {
     "facteurs de confusion",
     "confusion résiduelle"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Biais de publication",
    "en": "publication bias",
    "def": "Tendance des résultats positifs et significatifs à être publiés plus souvent et plus vite que les résultats nuls. Produit une littérature qui surestime les effets.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Biceps brachial",
+   "en": "biceps brachii",
+   "def": "Muscle de la face avant du bras, à deux chefs. Il plie le coude et tourne la paume vers le haut (supination).",
+   "alias": [
+    "biceps"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "biceps"
+    ]
+   }
+  },
+  {
+   "terme": "Biceps fémoral",
+   "en": "biceps femoris",
+   "def": "Ischio-jambier du côté externe de l'arrière de la cuisse. Il plie le genou ; son chef long étend aussi la hanche.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "biceps-femoral"
+    ]
+   }
   },
   {
    "terme": "Biopsie musculaire",
@@ -16170,7 +16260,8 @@ window.SOCLE = {
     "biopsie",
     "biopsies"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Blessure de surmenage",
@@ -16179,7 +16270,8 @@ window.SOCLE = {
    "alias": [
     "blessures de surmenage"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Bourrelet",
@@ -16189,28 +16281,47 @@ window.SOCLE = {
     "labrum",
     "Bourrelets"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Brachio-radial",
+   "en": "brachioradialis",
+   "def": "Muscle de l'avant-bras, côté pouce, qui part du bas de l'humérus. Il plie le coude, surtout en prise marteau.",
+   "alias": [
+    "Brachio-radials"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "brachio-radial"
+    ]
+   }
   },
   {
    "terme": "Bras de levier",
    "en": "moment arm, lever arm",
    "def": "Distance perpendiculaire entre la ligne d'action d'une force et l'axe de rotation. Celui d'un muscle n'est pas une constante : il varie avec l'angle articulaire, avec l'intensité de la contraction et d'une personne à l'autre.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Calorimétrie indirecte",
    "en": "indirect calorimetry",
    "def": "Estimation des carburants brûlés à partir de l'oxygène consommé et du dioxyde de carbone rejeté. Moins fiable aux intensités élevées.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Capacité anaérobie",
    "en": "anaerobic capacity",
    "def": "Quantité totale d'énergie que les voies anaérobies peuvent fournir lors d'un effort épuisant, souvent estimée par le déficit en oxygène accumulé maximal.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Capillaire",
@@ -16219,14 +16330,16 @@ window.SOCLE = {
    "alias": [
     "Capillaires"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Cartilage articulaire",
    "en": "articular cartilage",
    "def": "Tissu lisse qui recouvre les surfaces osseuses d'une articulation synoviale. Il s'amincit sans charge mais ne s'épaissit pas avec une charge élevée.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Catécholamines",
@@ -16235,7 +16348,8 @@ window.SOCLE = {
    "alias": [
     "catécholamine"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Ceinture de force",
@@ -16244,7 +16358,8 @@ window.SOCLE = {
    "alias": [
     "ceinture"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Centre de gravité",
@@ -16253,21 +16368,24 @@ window.SOCLE = {
    "alias": [
     "centre de masse"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Centre de masse extrapolé",
    "en": "extrapolated centre of mass (XcoM)",
    "def": "Position du centre de gravité augmentée de sa vitesse multipliée par √(l / g), l étant la longueur de jambe. En mouvement, c'est lui, et non le centre de gravité, qui doit rester au-dessus de la base d'appui.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Centre de pression",
    "en": "centre of pressure",
    "def": "Point d'application de la résultante des forces que le sol exerce sur les pieds. Toujours dans la base d'appui ; en le déplaçant, le corps pilote son centre de gravité.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Chaîne lourde",
@@ -16277,42 +16395,58 @@ window.SOCLE = {
     "chaîne lourde de myosine",
     "chaînes lourdes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Chaîne respiratoire",
    "en": "electron transport chain",
    "def": "Ensemble de protéines de la membrane interne de la mitochondrie qui conduit les électrons jusqu'à l'oxygène et crée le gradient de protons utilisé par l'ATP synthase.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Charge lourde et lente",
    "en": "heavy slow resistance",
    "def": "Programme de musculation à charges lourdes et mouvements lents ; une option aussi efficace que l'excentrique dans la tendinopathie d'Achille.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Chef claviculaire",
    "en": "clavicular head",
    "def": "Partie haute du grand pectoral, qui part de la clavicule.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "pectoral-clav"
+    ]
+   }
   },
   {
    "terme": "Chef sternocostal",
    "en": "sternocostal head",
    "def": "Partie principale du grand pectoral, qui part du sternum et des côtes.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "pectoral-stern"
+    ]
+   }
   },
   {
    "terme": "Chirurgie placebo",
    "en": "placebo surgery, sham surgery",
    "def": "Intervention qui reproduit l'opération sans en réaliser le geste actif, pour isoler l'effet propre de ce geste.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Cinématique",
@@ -16321,7 +16455,8 @@ window.SOCLE = {
    "alias": [
     "Cinématiques"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Cinétique",
@@ -16330,28 +16465,32 @@ window.SOCLE = {
    "alias": [
     "Cinétiques"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Circulation coronaire",
    "en": "coronary circulation",
    "def": "Vaisseaux qui irriguent le muscle cardiaque lui-même.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Circulation pulmonaire",
    "en": "pulmonary circulation",
    "def": "Circuit qui va du ventricule droit aux poumons et revient à l'oreillette gauche.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Circulation systémique",
    "en": "systemic circulation",
    "def": "Circuit qui va du ventricule gauche à tout le corps et revient à l'oreillette droite.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Classes de levier",
@@ -16362,7 +16501,8 @@ window.SOCLE = {
     "levier du deuxième genre",
     "levier du troisième genre"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Cocontraction",
@@ -16371,7 +16511,8 @@ window.SOCLE = {
    "alias": [
     "Cocontractions"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Codage en fréquence",
@@ -16387,21 +16528,32 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Cohorte prospective",
    "en": "prospective cohort study",
    "def": "Suivi dans le temps de sujets classés selon leur exposition. Résout l'ambiguïté temporelle, reste exposé à la confusion.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Coiffe des rotateurs",
    "en": "rotator cuff",
    "def": "Quatre muscles de l'omoplate, sus-épineux, sous-épineux, petit rond et sous-scapulaire, dont les tendons entourent la tête humérale et la plaquent dans la glène.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "sus-epineux",
+     "sous-epineux",
+     "petit-rond",
+     "sous-scapulaire"
+    ]
+   }
   },
   {
    "terme": "Collagène",
@@ -16410,56 +16562,64 @@ window.SOCLE = {
    "alias": [
     "Collagènes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Composante prolongée",
    "en": "prolonged component",
    "def": "Partie de la consommation d'oxygène post-exercice qui peut durer des heures après un effort important, liée notamment au métabolisme des graisses.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Composante rapide",
    "en": "rapid component",
    "def": "Partie de la consommation d'oxygène post-exercice qui recharge l'oxygène, l'ATP et la phosphocréatine dans les minutes qui suivent l'effort.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Compression dans la concavité",
    "en": "concavity compression",
    "def": "Mécanisme de stabilité de l'épaule : les muscles de la coiffe plaquent la tête humérale dans le creux de la glène.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Conflit d'intérêts",
    "en": "conflict of interest",
    "def": "Situation où un intérêt secondaire — financier, professionnel ou intellectuel — peut influer sur un jugement scientifique. C'est une situation, pas un comportement : les mécanismes par lesquels il agit opèrent en grande partie sans intention. Les conflits non financiers, non déclarables, sont probablement les plus actifs en sciences de l'exercice.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Conflit fémoro-acétabulaire",
    "en": "femoroacetabular impingement",
    "def": "Contact anormal entre le col du fémur et le bord du cotyle, avant la fin du mouvement, lié à une came ou à une pince.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Conflit sous-acromial",
    "en": "subacromial impingement",
    "def": "Étiquette donnée aux douleurs attribuées à un frottement sous l'acromion ; une hypothèse clinique plus qu'une cause démontrée.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Consommation d'oxygène post-exercice",
    "en": "excess post-exercise oxygen consumption, EPOC",
    "def": "Surplus d'oxygène consommé après l'effort, au-dessus de la valeur de repos. Il comprend une composante rapide et une composante prolongée.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Consommation maximale d'oxygène",
@@ -16468,7 +16628,8 @@ window.SOCLE = {
    "alias": [
     "consommation maximale"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "CONSORT",
@@ -16477,14 +16638,16 @@ window.SOCLE = {
    "alias": [
     "CONSORTs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Contenu minéral osseux",
    "en": "bone mineral content",
    "def": "Quantité totale de minéral d'un os ou d'une région, sans rapport à sa taille.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Contraction balistique",
@@ -16503,14 +16666,16 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Contraction isométrique",
    "en": "isometric contraction",
    "def": "Contraction sans mouvement articulaire : le muscle produit de la force sans que l'angle change. Format de référence pour mesurer la force maximale et le taux de développement de la force.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Contrainte",
@@ -16522,7 +16687,8 @@ window.SOCLE = {
    ],
    "blocs": [
     1
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Corticosurrénale",
@@ -16531,7 +16697,8 @@ window.SOCLE = {
    "alias": [
     "Corticosurrénales"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Cortisol",
@@ -16540,7 +16707,8 @@ window.SOCLE = {
    "alias": [
     "Cortisols"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Cotyle",
@@ -16549,7 +16717,8 @@ window.SOCLE = {
    "alias": [
     "Cotyles"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Courbatures",
@@ -16558,7 +16727,8 @@ window.SOCLE = {
    "alias": [
     "courbature"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Courbe de force",
@@ -16567,21 +16737,24 @@ window.SOCLE = {
    "alias": [
     "courbes de force"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Courbe force-temps",
    "en": "force-time curve",
    "def": "Enregistrement de la force produite en fonction du temps, typiquement sur plateforme de force. Sa pente donne le taux de développement de la force, son aire l'impulsion.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Créatine kinase",
    "en": "creatine kinase",
    "def": "Enzyme qui transfère le phosphate de la phosphocréatine à l'ADP pour reformer de l'ATP, et réalise la réaction inverse au repos.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "CRH",
@@ -16590,21 +16763,24 @@ window.SOCLE = {
    "alias": [
     "CRHs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Critère de jugement",
    "en": "outcome",
    "def": "Grandeur mesurée pour évaluer l'effet. Un critère **principal** est préspécifié et unique ; les critères secondaires ne peuvent pas fonder la conclusion principale.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Cycle de Krebs",
    "en": "citric acid cycle",
    "def": "Suite de réactions de la mitochondrie qui oxyde l'acétyl-CoA et charge des transporteurs d'électrons, surtout le NADH.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Cycle étirement-raccourcissement",
@@ -16613,56 +16789,64 @@ window.SOCLE = {
    "alias": [
     "cycles étirement-raccourcissement"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Cycle triglycérides-acides gras",
    "en": "triglyceride-fatty acid cycling",
    "def": "Dégradation des triglycérides en acides gras, suivie de leur reconstitution ; ce cycle consomme de l'énergie.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "d de Cohen",
    "en": "Cohen's d",
    "def": "Écart entre deux moyennes divisé par une mesure de dispersion, exprimant l'effet en unités d'écart-type. Sa valeur dépend autant de la dispersion de l'échantillon que de l'effet lui-même : un même gain réel produit un d plus grand dans une population homogène. Toujours demander ce qui figure au dénominateur.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Débit cardiaque",
    "en": "cardiac output",
    "def": "Volume de sang éjecté par le cœur par minute : volume d'éjection multiplié par la fréquence cardiaque.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Décompression sous-acromiale",
    "en": "subacromial decompression",
    "def": "Opération qui retire de l'os et des tissus sous l'acromion. Elle ne fait pas mieux qu'une chirurgie placebo.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Déficit en oxygène",
    "en": "oxygen deficit",
    "def": "Écart entre l'oxygène qu'aurait exigé un effort et celui réellement consommé ; méthode la plus utilisée pour estimer la part anaérobie d'un effort maximal.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Déformation en came",
    "en": "cam deformity",
    "def": "Bosse à la jonction de la tête et du col du fémur : la tête n'est pas tout à fait ronde. Fréquente sans symptôme, surtout chez les athlètes.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Déformation en pince",
    "en": "pincer deformity",
    "def": "Cotyle qui recouvre trop la tête du fémur.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Degré de liberté",
@@ -16680,14 +16864,73 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Degrés de liberté du chercheur",
    "en": "researcher degrees of freedom",
    "def": "Ensemble des décisions analytiques laissées au libre choix de l'analyste et non déclarées. Portent le taux de faux positifs bien au-delà du seuil nominal.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Deltoïde",
+   "en": "deltoid",
+   "def": "Muscle qui coiffe l'épaule, en trois portions : antérieure (lève le bras vers l'avant), moyenne (l'écarte sur le côté), postérieure (le tire vers l'arrière).",
+   "alias": [
+    "deltoïdes",
+    "Deltoïdes"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "deltoide-ant",
+     "deltoide-moy",
+     "deltoide-post"
+    ]
+   }
+  },
+  {
+   "terme": "Deltoïde antérieur",
+   "en": "anterior deltoid",
+   "def": "Portion avant du deltoïde. Elle lève le bras vers l'avant et travaille au développé couché.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "deltoide-ant"
+    ]
+   }
+  },
+  {
+   "terme": "Deltoïde moyen",
+   "en": "middle deltoid",
+   "def": "Portion latérale du deltoïde. Elle écarte le bras sur le côté (abduction).",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "deltoide-moy"
+    ]
+   }
+  },
+  {
+   "terme": "Deltoïde postérieur",
+   "en": "posterior deltoid",
+   "def": "Portion arrière du deltoïde. Elle tire le bras vers l'arrière.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "deltoide-post"
+    ]
+   }
   },
   {
    "terme": "Demi-temps de recharge",
@@ -16696,7 +16939,8 @@ window.SOCLE = {
    "alias": [
     "demi-temps"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Densité minérale",
@@ -16705,21 +16949,29 @@ window.SOCLE = {
    "alias": [
     "densité minérale osseuse"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Dentelé antérieur",
    "en": "serratus anterior",
-   "def": "Muscle qui fait tourner l'omoplate vers le haut et la garde plaquée contre le thorax.",
+   "def": "Muscle du côté du thorax, sous l'aisselle, en digitations sur les côtes. Il fait tourner l'omoplate vers le haut et la garde plaquée contre le thorax.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "dentele"
+    ]
+   }
   },
   {
    "terme": "Dérive cardiovasculaire",
    "en": "cardiovascular drift",
    "def": "Pendant un effort prolongé à intensité constante, baisse progressive du volume d'éjection et hausse de la fréquence cardiaque, après 10 à 20 minutes.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Dérivé de tirage",
@@ -16728,49 +16980,56 @@ window.SOCLE = {
    "alias": [
     "dérivés de tirage"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Dette d'oxygène",
    "en": "oxygen debt",
    "def": "Ancien nom de la consommation d'oxygène post-exercice, lié à l'hypothèse, jugée trop simple, d'un remboursement par l'élimination du lactate.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Différence artério-veineuse",
    "en": "arteriovenous oxygen difference",
    "def": "Quantité d'oxygène retirée du sang par les tissus, entre le sang artériel et le sang veineux.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Différence d'ions forts",
    "en": "strong ion difference",
    "def": "Approche physico-chimique de l'équilibre acide-base, qui explique le pH par l'équilibre des ions chargés plutôt que par le compte des protons.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Différence moyenne standardisée",
    "en": "standardized mean difference",
    "def": ", SMD. Différence entre groupes exprimée en écarts-types, permettant l'agrégation d'études employant des échelles différentes. Le *d* de Cohen et le *g* de Hedges en sont deux variantes.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Distance acromio-humérale",
    "en": "acromiohumeral distance",
    "def": "Plus courte distance entre l'acromion et l'humérus ; elle mesure l'espace sous-acromial.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Distance biacromiale",
    "en": "biacromial distance",
    "def": "Largeur des épaules, d'un acromion à l'autre ; elle sert à exprimer la largeur de prise.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Dose-réponse",
@@ -16779,7 +17038,8 @@ window.SOCLE = {
    "alias": [
     "Dose-réponses"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Doublet",
@@ -16798,63 +17058,85 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
+  },
+  {
+   "terme": "Droit fémoral",
+   "en": "rectus femoris",
+   "def": "Chef central du quadriceps, à l'avant de la cuisse. Seul chef biarticulaire du quadriceps : il étend le genou et plie la hanche.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "droit-femoral"
+    ]
+   }
   },
   {
    "terme": "Dynamique inverse",
    "en": "inverse dynamics",
    "def": "Calcul des forces et des moments nets aux articulations à partir des mouvements mesurés et des forces extérieures, en remontant des effets aux causes. Donne des moments nets, pas la force de chaque muscle.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Dyskinésie scapulaire",
    "en": "scapular dyskinesis",
    "def": "Mouvement ou position anormale de l'omoplate, fréquente avec ou sans douleur.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Économie de course",
    "en": "running economy",
    "def": "Consommation d'oxygène à une vitesse de course donnée. Plus elle est basse, plus le coureur est économe.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Effet Bohr",
    "en": "Bohr effect",
    "def": "Baisse de l'affinité de l'hémoglobine pour l'oxygène quand le pH baisse : le sang plus acide du muscle actif y libère davantage d'oxygène.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Effet du tiroir",
    "en": "file drawer effect",
    "def": "Non-soumission des études aux résultats non significatifs. Premier des trois filtres de la sélection des résultats, probablement le plus lourd, et le seul qu'aucune lecture d'article ne peut détecter. Les registres d'essais et les rapports enregistrés sont les parades.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Effet fixe (modèle à)",
    "en": "fixed-effect model",
    "def": "Modèle d'agrégation supposant une vraie valeur unique de l'effet. Attention au faux ami : *fixed effects* au pluriel désigne autre chose en économétrie.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Effets aléatoires (modèle à)",
    "en": "random-effects model",
    "def": "Modèle d'agrégation supposant que les vraies valeurs varient selon les contextes.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Effort relatif",
    "en": "relative muscular effort",
    "def": "Moment produit par un groupe musculaire rapporté au moment maximal qu'il peut produire au même angle. Au squat, celui des extenseurs du genou augmente avec la profondeur.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Électromyographie de surface",
@@ -16865,7 +17147,8 @@ window.SOCLE = {
     "électromyographique",
     "EMG"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Endocrine",
@@ -16874,14 +17157,16 @@ window.SOCLE = {
    "alias": [
     "Endocrines"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Entraînement par intervalles",
    "en": "interval training, HIIT",
    "def": "Alternance d'efforts intenses et de récupérations, dont la réponse dépend d'une dizaine de variables : intensités, durées, nombre de répétitions et de séries.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Épaulé",
@@ -16891,70 +17176,93 @@ window.SOCLE = {
     "épaulés",
     "Épaulés"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Équation de Fick",
    "en": "Fick equation",
    "def": "Consommation d'oxygène égale au débit cardiaque multiplié par la différence artério-veineuse.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Érecteurs du rachis",
+   "en": "erector spinae",
+   "def": "Colonnes musculaires de part et d'autre de la colonne vertébrale, du bassin à la nuque. Elles redressent le dos et le gardent droit sous la charge.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "erecteurs"
+    ]
+   }
   },
   {
    "terme": "Erreur de magnitude",
    "en": "type M error, magnitude error, exaggeration ratio",
    "def": "Surestimation systématique de l'amplitude des effets qui franchissent le seuil de significativité dans une étude peu puissante. Elle se quantifie par un facteur d'exagération : le rapport entre l'amplitude attendue d'un résultat significatif et l'amplitude réelle. Distincte de l'erreur de type I, qui porte sur l'existence de l'effet et non sur sa taille.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Erreur de mesure différentielle",
    "en": "differential measurement error",
    "def": "Erreur de mesure dont l'ampleur ou le sens dépend du groupe auquel appartient le sujet. Contrairement à une erreur qui frappe les deux groupes de la même façon, elle crée un écart artificiel entre eux et ne se dilue pas quand l'effectif augmente.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Erreur de signe",
    "en": "type S error, sign error",
    "def": "Probabilité qu'un résultat statistiquement significatif pointe dans la direction opposée à l'effet réel. Négligeable à puissance élevée, elle devient substantielle en deçà de 10 % de puissance. Conséquence la plus contre-intuitive de la sous-puissance.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Erreur de type I",
    "en": "type I error",
    "def": "Rejet d'une hypothèse nulle vraie. Faux positif. Son taux nominal est le seuil de significativité.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Erreur de type II",
    "en": "type II error",
    "def": "Non-rejet d'une hypothèse nulle fausse. Faux négatif. Son complément à 1 est la puissance.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Erreur standard",
    "en": "standard error",
    "def": "Dispersion attendue d'une estimation si l'on répétait l'étude. Elle décrit la précision de l'estimation, non la variabilité entre individus — cette dernière est l'écart-type. C'est l'erreur standard qui détermine la largeur de l'intervalle de confiance et le poids d'une étude en méta-analyse.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Erreur typique",
    "en": "typical error",
    "def": ", *standard error of measurement*. Écart-type des mesures répétées d'un même individu. Mesure de fidélité exprimée dans l'unité de la grandeur mesurée, donc directement interprétable — contrairement à un coefficient de corrélation.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Espace sous-acromial",
    "en": "subacromial space",
    "def": "Espace entre la tête humérale et l'acromion, où passent le tendon du sus-épineux et une bourse séreuse.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Espérance",
@@ -16963,7 +17271,8 @@ window.SOCLE = {
    "alias": [
     "Espérances"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Essai contrôlé randomisé",
@@ -16974,21 +17283,24 @@ window.SOCLE = {
     "essai randomisé",
     "essais randomisés"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Estimation ponctuelle",
    "en": "point estimate",
    "def": "Valeur unique proposée comme meilleure estimation d'un effet, par opposition à l'intervalle qui l'accompagne. C'est le chiffre que reprennent les résumés et la diffusion secondaire, et c'est l'information la moins fiable d'une étude de petite taille.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "État stable maximal du lactate",
    "en": "maximal lactate steady state",
    "def": "Plus haute intensité à laquelle la production et l'élimination du lactate s'équilibrent pendant un effort constant.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Étude méta-épidémiologique",
@@ -16997,7 +17309,8 @@ window.SOCLE = {
    "alias": [
     "études méta-épidémiologiques"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Événement déclencheur",
@@ -17006,7 +17319,8 @@ window.SOCLE = {
    "alias": [
     "événements déclencheurs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Exercice nordique des ischio-jambiers",
@@ -17015,14 +17329,55 @@ window.SOCLE = {
    "alias": [
     "exercice nordique"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "biceps-femoral",
+     "semi-tendineux",
+     "semi-membraneux"
+    ]
+   }
+  },
+  {
+   "terme": "Extenseurs de hanche",
+   "en": "hip extensors",
+   "def": "Muscles qui ramènent la cuisse vers l'arrière ou redressent le buste : grand fessier, ischio-jambiers, grand adducteur.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "grand-fessier",
+     "biceps-femoral",
+     "semi-tendineux",
+     "semi-membraneux",
+     "adducteurs"
+    ]
+   }
+  },
+  {
+   "terme": "Extenseurs du genou",
+   "en": "knee extensors",
+   "def": "Muscles qui tendent la jambe : c'est le quadriceps.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "droit-femoral",
+     "vaste-lat",
+     "vaste-med"
+    ]
+   }
   },
   {
    "terme": "Facilitation neuromusculaire proprioceptive",
    "en": "proprioceptive neuromuscular facilitation",
    "def": "Technique d'étirement qui alterne étirement et contraction du muscle étiré ou de son opposé. Son efficacité tient surtout à la tolérance à l'étirement, pas à un relâchement réflexe.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Facteur de risque externe",
@@ -17031,7 +17386,8 @@ window.SOCLE = {
    "alias": [
     "facteurs de risque externes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Facteur de risque interne",
@@ -17040,7 +17396,8 @@ window.SOCLE = {
    "alias": [
     "facteurs de risque internes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Faisceau musculaire",
@@ -17053,21 +17410,38 @@ window.SOCLE = {
    ],
    "blocs": [
     1
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Fatigue mécanique",
    "en": "mechanical fatigue",
    "def": "Accumulation de dommages dans un matériau soumis à des charges répétées inférieures à sa résistance. Sert de modèle aux blessures de surmenage.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Fatmax",
    "en": "Fatmax",
    "def": "Intensité d'effort à laquelle l'oxydation des graisses est maximale. Elle varie beaucoup d'une personne à l'autre.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Fessiers",
+   "en": "gluteal muscles",
+   "def": "Muscles de la fesse : le grand fessier en surface ; le moyen et le petit fessier plus haut et plus en dehors, en partie dessous.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "grand-fessier",
+     "moyen-fessier"
+    ]
+   }
   },
   {
    "terme": "Fibre lente",
@@ -17078,7 +17452,8 @@ window.SOCLE = {
     "fibre de type I",
     "fibres de type I"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Fibre musculaire",
@@ -17087,7 +17462,8 @@ window.SOCLE = {
    "alias": [
     "fibres musculaires"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Fibre rapide",
@@ -17098,7 +17474,8 @@ window.SOCLE = {
     "fibre de type II",
     "fibres de type II"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Fibres hybrides",
@@ -17107,7 +17484,8 @@ window.SOCLE = {
    "alias": [
     "fibre hybride"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Fibres intrafusales",
@@ -17117,7 +17495,8 @@ window.SOCLE = {
     "fibre intrafusale",
     "intrafusales"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Fidélité",
@@ -17126,56 +17505,109 @@ window.SOCLE = {
    "alias": [
     "Fidélités"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Filaments glissants",
    "en": "sliding filament theory",
    "def": "Modèle de la contraction : les filaments d'actine et de myosine gardent leur longueur et coulissent les uns entre les autres, ce qui raccourcit le sarcomère.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Fléchisseurs du coude",
+   "en": "elbow flexors",
+   "def": "Muscles qui plient le coude : biceps brachial, brachial (en partie sous le biceps) et brachio-radial.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "biceps",
+     "brachial",
+     "brachio-radial"
+    ]
+   }
+  },
+  {
+   "terme": "Fléchisseurs du genou",
+   "en": "knee flexors",
+   "def": "Muscles qui plient le genou : surtout les ischio-jambiers, aidés par le gastrocnémien.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "biceps-femoral",
+     "semi-tendineux",
+     "semi-membraneux",
+     "gastrocnemien"
+    ]
+   }
+  },
+  {
+   "terme": "Fléchisseurs plantaires",
+   "en": "plantar flexors",
+   "def": "Muscles qui tendent la cheville, pointe du pied vers le bas, comme pour monter sur la pointe des pieds : surtout le triceps sural.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "gastrocnemien",
+     "soleaire"
+    ]
+   }
   },
   {
    "terme": "Force passive",
    "en": "passive force",
    "def": "Résistance qu'oppose un muscle à l'étirement sans être activé, due à ses structures élastiques. Elle s'ajoute à la force active aux grandes longueurs.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Forest plot",
    "en": "forest plot",
    "def": "Représentation graphique d'une méta-analyse, une ligne par étude, la surface du carré indiquant le poids et le losange final l'estimation agrégée.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Fréquence cardiaque de réserve",
    "en": "heart rate reserve",
    "def": "Écart entre la fréquence cardiaque maximale et la fréquence de repos ; sert à prescrire l'intensité en pourcentage.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Fréquence cardiaque maximale",
    "en": "maximal heart rate",
    "def": "Fréquence la plus haute atteinte à l'effort maximal. En moyenne mieux estimée par 208 − 0,7 × âge que par 220 moins l'âge ; pour un individu, l'erreur peut atteindre environ 25 battements par minute.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Fréquence de décharge",
    "en": "discharge rate, firing rate",
    "def": "Nombre d'influx nerveux émis par seconde par un motoneurone. Principal déterminant nerveux de la montée en force au tout début d'une contraction explosive.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Funnel plot",
    "en": "funnel plot",
    "def": "Nuage des estimations d'effet portées contre leur précision. Son asymétrie est un signal d'alerte, jamais une preuve de biais de publication.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Fuseau neuromusculaire",
@@ -17186,21 +17618,40 @@ window.SOCLE = {
     "fuseaux",
     "fuseaux neuromusculaires"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "g de Hedges",
    "en": "Hedges' g",
    "def": "Taille d'effet standardisée égale au d de Cohen multiplié par un facteur légèrement inférieur à 1, qui corrige la surestimation du d en petit échantillon — environ 4 % à vingt sujets, 8 % à dix. Forme à privilégier en méta-analyse.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Gastrocnémien",
+   "en": "gastrocnemius",
+   "def": "Muscle superficiel du mollet, à deux chefs qui en dessinent le galbe. Biarticulaire : il tend la cheville et aide à plier le genou.",
+   "alias": [
+    "gastrocnémiens",
+    "Gastrocnémiens"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "gastrocnemien"
+    ]
+   }
   },
   {
    "terme": "Glandes surrénales",
    "en": "adrenal glands",
    "def": "Glandes posées sur les reins, faites d'une corticosurrénale et d'une médullosurrénale.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Glène",
@@ -17209,14 +17660,16 @@ window.SOCLE = {
    "alias": [
     "Glènes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Glucocorticoïdes",
    "en": "glucocorticoids",
    "def": "Famille d'hormones de la corticosurrénale, dont le cortisol. Elles mobilisent les réserves et freinent la construction des tissus.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "GLUT4",
@@ -17225,7 +17678,8 @@ window.SOCLE = {
    "alias": [
     "GLUT4s"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Glycogène",
@@ -17234,7 +17688,8 @@ window.SOCLE = {
    "alias": [
     "Glycogènes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Glycolyse",
@@ -17245,7 +17700,23 @@ window.SOCLE = {
     "glycolytiques",
     "Glycolyses"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Gracile",
+   "en": "gracilis",
+   "def": "Long muscle fin de la face interne de la cuisse, du pubis au tibia. Il rapproche la cuisse et aide à plier le genou.",
+   "alias": [
+    "Graciles"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "gracile"
+    ]
+   }
   },
   {
    "terme": "GRADE",
@@ -17254,21 +17725,63 @@ window.SOCLE = {
    "alias": [
     "GRADEs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Grand dorsal",
    "en": "latissimus dorsi",
-   "def": "Grand muscle du dos, tendu du bas du dos et du bassin à l'humérus ; il ramène le bras le long du corps.",
+   "def": "Grand muscle plat du bas et du côté du dos, tendu du bas du dos et du bassin à l'humérus ; il ramène le bras le long du corps.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "grand-dorsal"
+    ]
+   }
+  },
+  {
+   "terme": "Grand droit",
+   "en": "rectus abdominis",
+   "def": "Muscle de l'abdomen, une bande verticale de chaque côté de la ligne médiane (les « tablettes »). Il plie le tronc vers l'avant et le rigidifie.",
+   "alias": [
+    "grand droit de l'abdomen"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "grand-droit"
+    ]
+   }
+  },
+  {
+   "terme": "Grand fessier",
+   "en": "gluteus maximus",
+   "def": "Le plus gros muscle de la fesse. Il étend la hanche : remonter du squat, se redresser au soulevé de terre, pousser au sprint.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "grand-fessier"
+    ]
+   }
   },
   {
    "terme": "Grand pectoral",
    "en": "pectoralis major",
    "def": "Muscle de la poitrine à deux chefs, claviculaire et sternocostal, qui rapproche le bras de la ligne médiane.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "pectoral-clav",
+     "pectoral-stern"
+    ]
+   }
   },
   {
    "terme": "Haltérophilie",
@@ -17277,7 +17790,8 @@ window.SOCLE = {
    "alias": [
     "Haltérophilies"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hémoconcentration",
@@ -17286,7 +17800,8 @@ window.SOCLE = {
    "alias": [
     "Hémoconcentrations"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hémoglobine",
@@ -17295,7 +17810,8 @@ window.SOCLE = {
    "alias": [
     "Hémoglobines"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Héritabilité",
@@ -17304,7 +17820,8 @@ window.SOCLE = {
    "alias": [
     "Héritabilités"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hétérogénéité",
@@ -17313,7 +17830,8 @@ window.SOCLE = {
    "alias": [
     "Hétérogénéités"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hormone",
@@ -17323,14 +17841,16 @@ window.SOCLE = {
     "hormones",
     "Hormones"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hormone de croissance",
    "en": "growth hormone",
    "def": "Hormone de l'hypophyse qui élève l'IGF-1 du sang et agit sur le muscle, l'os, le collagène et les graisses ; sa cure n'augmente pas la force du muscle sain.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hormone peptidique",
@@ -17339,7 +17859,8 @@ window.SOCLE = {
    "alias": [
     "hormones peptidiques"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hormone stéroïde",
@@ -17348,7 +17869,8 @@ window.SOCLE = {
    "alias": [
     "hormones stéroïdes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hyperlaxité",
@@ -17357,49 +17879,56 @@ window.SOCLE = {
    "alias": [
     "Hyperlaxités"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hypothèse d'identification",
    "en": "identification assumption",
    "def": "Hypothèse explicite, non vérifiable par les données seules, sous laquelle une association observée peut être lue comme un effet causal. Toute inférence causale hors essai randomisé en repose sur une : la randomisation a l'avantage de rendre la sienne quasi automatique.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hypothèse de l'hormone libre",
    "en": "free hormone hypothesis",
    "def": "Idée que seule la forme libre d'une hormone, non liée aux protéines de transport, agit sur les tissus. Elle ne vaut pas pour toutes les hormones ni tous les tissus.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hypothèse hormonale",
    "en": "hormone hypothesis",
    "def": "Idée, peu soutenue par les données, selon laquelle les pics d'hormones juste après une séance feraient grossir le muscle.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hypothèse nulle",
    "en": "null hypothesis",
    "def": "Hypothèse d'absence d'effet, ou d'effet égal à une",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hypoxémie artérielle induite par l'effort",
    "en": "exercise-induced arterial hypoxemia",
    "def": "Baisse de la saturation en oxygène du sang artériel pendant un effort intense, fréquente chez les athlètes d'endurance très entraînés ; dite légère entre 93 et 95 %.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Hystérésis",
    "en": "hysteresis",
    "def": "Part de l'énergie reçue par un tissu étiré qu'il ne restitue pas en revenant à sa longueur, dissipée en chaleur. valeur de référence, sous laquelle la valeur p est calculée.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "IGF-1",
@@ -17408,7 +17937,8 @@ window.SOCLE = {
    "alias": [
     "IGF-1s"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Impulsion",
@@ -17419,28 +17949,32 @@ window.SOCLE = {
    ],
    "blocs": [
     1
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Inférence causale",
    "en": "causal inference",
    "def": "Passage d'une association observée à l'affirmation qu'une variable produit l'autre. Elle exige soit une randomisation, soit une hypothèse d'identification explicite et défendable. Aucun ajustement statistique ne la produit à lui seul.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Inflation d'amplitude",
    "en": "effect size inflation, winner's curse",
    "def": "Surestimation systématique de la taille des effets qui franchissent le seuil de significativité dans les études de faible puissance. Elle ne résulte d'aucune faute : c'est une conséquence mécanique de la sélection des résultats par un seuil.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Inhibition autogène",
    "en": "autogenic inhibition",
    "def": "Freinage d'un muscle par ses propres organes tendineux. Son rôle protecteur sous les charges lourdes, répandu dans les manuels, n'est pas démontré.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Inhibition nerveuse",
@@ -17456,21 +17990,24 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Inhibition réciproque",
    "en": "reciprocal inhibition",
    "def": "Freinage du muscle opposé quand un muscle est étiré, par un interneurone activé par l'afférence Ia.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Insuffisance active",
    "en": "active insufficiency",
    "def": "Incapacité supposée d'un muscle biarticulaire à produire beaucoup de force quand les deux articulations le raccourcissent à la fois.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Insuline",
@@ -17479,7 +18016,8 @@ window.SOCLE = {
    "alias": [
     "Insulines"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Interneurone",
@@ -17489,35 +18027,57 @@ window.SOCLE = {
     "interneurones",
     "Interneurones"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Intervalle de compatibilité",
    "en": "compatibility interval",
    "def": "Dénomination proposée pour l'intervalle de confiance, décrivant plus fidèlement ce qu'il contient : les valeurs de paramètre compatibles avec les données sous le modèle.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Intervalle de confiance",
    "en": "confidence interval",
    "def": "Intervalle construit par une procédure dont la couverture nominale vaut sur des répétitions de l'étude. La propriété appartient à la procédure, pas à l'intervalle observé.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Intervalle de crédibilité",
    "en": "credible interval",
    "def": "Équivalent bayésien de l'intervalle de confiance, qui possède bien la propriété interprétative intuitive de contenir la vraie valeur avec la probabilité annoncée.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Intervalle de prédiction",
    "en": "prediction interval",
    "def": "Dans une méta-analyse à effets aléatoires, intervalle décrivant l'étendue des effets attendus dans un nouveau contexte. Toujours plus large que l'intervalle de confiance de la moyenne, et rarement rapporté.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Ischio-jambiers",
+   "en": "hamstrings",
+   "def": "Groupe de trois muscles de l'arrière de la cuisse : biceps fémoral, semi-tendineux, semi-membraneux. Ils plient le genou et étendent la hanche.",
+   "alias": [
+    "ischio-jambier"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "biceps-femoral",
+     "semi-tendineux",
+     "semi-membraneux"
+    ]
+   }
   },
   {
    "terme": "Isocinétique",
@@ -17526,7 +18086,8 @@ window.SOCLE = {
    "alias": [
     "Isocinétiques"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Isotonique",
@@ -17535,7 +18096,8 @@ window.SOCLE = {
    "alias": [
     "Isotoniques"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "I²",
@@ -17544,7 +18106,8 @@ window.SOCLE = {
    "alias": [
     "I²s"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Lactate",
@@ -17553,7 +18116,8 @@ window.SOCLE = {
    "alias": [
     "Lactates"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Levier",
@@ -17571,7 +18135,8 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Ligament",
@@ -17581,35 +18146,40 @@ window.SOCLE = {
     "ligaments",
     "Ligaments"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Ligament croisé antérieur",
    "en": "anterior cruciate ligament (ACL)",
    "def": "Ligament situé au centre du genou, qui limite le glissement du tibia vers l'avant sous le fémur.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Ligne d'action",
    "en": "line of action",
    "def": "Droite qui porte une force. Le bras de levier se mesure perpendiculairement à elle ; une force dont la ligne d'action passe par l'axe ne produit aucun moment.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Loi de Frank-Starling",
    "en": "Frank-Starling law",
    "def": "Le cœur ajuste son éjection à son remplissage : un ventricule plus rempli éjecte davantage.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Marge de stabilité",
    "en": "margin of stability",
    "def": "Distance entre le centre de masse extrapolé et le bord de la base d'appui. Négative, elle impose de faire un pas.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Mécanostat",
@@ -17618,7 +18188,8 @@ window.SOCLE = {
    "alias": [
     "Mécanostats"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Médullosurrénale",
@@ -17627,14 +18198,16 @@ window.SOCLE = {
    "alias": [
     "Médullosurrénales"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Membrane respiratoire",
    "en": "respiratory membrane",
    "def": "Paroi de l'alvéole et paroi du capillaire accolées, épaisses d'environ 0,5 µm, que les gaz traversent par diffusion.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Ménarche",
@@ -17643,7 +18216,8 @@ window.SOCLE = {
    "alias": [
     "Ménarches"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Méta-analyse",
@@ -17652,7 +18226,8 @@ window.SOCLE = {
    "alias": [
     "Méta-analyses"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Méta-régression",
@@ -17661,7 +18236,8 @@ window.SOCLE = {
    "alias": [
     "Méta-régressions"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Métabolisme aérobie",
@@ -17671,7 +18247,8 @@ window.SOCLE = {
     "aérobie",
     "aérobies"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Métabolisme anaérobie",
@@ -17681,7 +18258,8 @@ window.SOCLE = {
     "anaérobie",
     "anaérobies"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Métaboréflexe",
@@ -17690,7 +18268,8 @@ window.SOCLE = {
    "alias": [
     "Métaboréflexes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Mitochondrie",
@@ -17702,14 +18281,16 @@ window.SOCLE = {
     "mitochondriale",
     "Mitochondries"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Module d'Young",
    "en": "Young's modulus",
    "def": "Rapport de la contrainte à la déformation. Il décrit la rigidité du matériau seul, indépendamment de la taille de la structure.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Moment de force",
@@ -17718,21 +18299,24 @@ window.SOCLE = {
    "alias": [
     "moments de force"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Moment externe",
    "en": "external moment",
    "def": "Moment produit autour d'une articulation par les charges et le poids des segments. Il dépend de la distance horizontale entre la charge et l'articulation, donc de la posture.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Moment interne",
    "en": "internal moment",
    "def": "Moment produit par les muscles et les structures passives pour s'opposer au moment externe. À l'équilibre, les deux sont égaux.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Moment net",
@@ -17741,7 +18325,8 @@ window.SOCLE = {
    "alias": [
     "moment articulaire net"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Monoarticulaire",
@@ -17752,7 +18337,8 @@ window.SOCLE = {
     "muscles monoarticulaires",
     "Monoarticulaires"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Motoneurone alpha",
@@ -17761,7 +18347,8 @@ window.SOCLE = {
    "alias": [
     "motoneurones alpha"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Motoneurones gamma",
@@ -17770,7 +18357,21 @@ window.SOCLE = {
    "alias": [
     "motoneurone gamma"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Moyen fessier",
+   "en": "gluteus medius",
+   "def": "Muscle du haut et du côté de la fesse, en partie caché par le grand fessier. Il écarte la cuisse et tient le bassin à niveau en appui sur une jambe.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "moyen-fessier"
+    ]
+   }
   },
   {
    "terme": "Muscle biarticulaire",
@@ -17781,7 +18382,8 @@ window.SOCLE = {
     "biarticulaire",
     "biarticulaires"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Myocarde",
@@ -17790,7 +18392,8 @@ window.SOCLE = {
    "alias": [
     "Myocardes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Myofibrille",
@@ -17799,7 +18402,8 @@ window.SOCLE = {
    "alias": [
     "Myofibrilles"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Myosine",
@@ -17808,7 +18412,8 @@ window.SOCLE = {
    "alias": [
     "Myosines"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "NAD⁺",
@@ -17818,14 +18423,16 @@ window.SOCLE = {
     "NADH",
     "NAD⁺s"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Navette du lactate",
    "en": "lactate shuttle",
    "def": "Théorie selon laquelle le lactate circule entre les cellules qui le produisent et celles qui le consomment, comme carburant et comme signal.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Néoglucogenèse",
@@ -17834,7 +18441,8 @@ window.SOCLE = {
    "alias": [
     "Néoglucogenèses"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Neutralisateur",
@@ -17844,21 +18452,24 @@ window.SOCLE = {
     "neutralisateurs",
     "Neutralisateurs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Nœud auriculo-ventriculaire",
    "en": "atrioventricular node",
    "def": "Relais électrique entre oreillettes et ventricules ; l'impulsion y marque une pause d'environ 100 ms.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Nœud sinusal",
    "en": "sinoatrial node",
    "def": "Groupe de cellules de l'oreillette droite qui déclenche chaque battement du cœur.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Non-répondeur",
@@ -17868,7 +18479,8 @@ window.SOCLE = {
     "non-répondeurs",
     "Non-répondeurs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Noradrénaline",
@@ -17877,7 +18489,8 @@ window.SOCLE = {
    "alias": [
     "Noradrénalines"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Omoplate",
@@ -17886,14 +18499,21 @@ window.SOCLE = {
    "alias": [
     "Omoplates"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "omoplate"
+    ]
+   }
   },
   {
    "terme": "Onde V",
    "en": "V-wave",
    "def": "Réponse électrique d'un muscle à la stimulation de son nerf pendant une contraction maximale ; elle reflète la commande qui descend vers les motoneurones.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Oreillette",
@@ -17902,7 +18522,8 @@ window.SOCLE = {
    "alias": [
     "Oreillettes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Organe tendineux de Golgi",
@@ -17913,14 +18534,16 @@ window.SOCLE = {
     "organes tendineux",
     "organe de Golgi"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Os cortical",
    "en": "cortical bone, compact bone",
    "def": "Os compact qui forme la coque des os, surtout le long de leur partie centrale.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Os spongieux",
@@ -17929,7 +18552,8 @@ window.SOCLE = {
    "alias": [
     "os trabéculaire"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Ostéoblaste",
@@ -17939,7 +18563,8 @@ window.SOCLE = {
     "ostéoblastes",
     "Ostéoblastes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Ostéoclaste",
@@ -17949,7 +18574,8 @@ window.SOCLE = {
     "ostéoclastes",
     "Ostéoclastes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Ostéocyte",
@@ -17959,7 +18585,8 @@ window.SOCLE = {
     "ostéocytes",
     "Ostéocytes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Ostéoporose",
@@ -17968,7 +18595,8 @@ window.SOCLE = {
    "alias": [
     "Ostéoporoses"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Paracrine",
@@ -17977,21 +18605,24 @@ window.SOCLE = {
    "alias": [
     "Paracrines"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Paradoxe de Codman",
    "en": "Codman's paradox",
    "def": "Rotation de l'humérus sur son axe qui apparaît, sans avoir été commandée, au terme d'une séquence de mouvements plans de l'épaule. Conséquence du fait que les rotations en trois dimensions ne commutent pas.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Paradoxe de Lombard",
    "en": "Lombard's paradox",
    "def": "Activité simultanée de muscles antagonistes, comme quadriceps et ischio-jambiers, dans un mouvement qu'ils semblent tous deux produire. Il dépend en partie de la méthode de classement des rôles.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "PEDro",
@@ -18000,35 +18631,53 @@ window.SOCLE = {
    "alias": [
     "PEDros"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Pendule inversé",
    "en": "inverted pendulum",
    "def": "Modèle du corps debout, articulé aux chevilles. Le centre de gravité y accélère dans le sens qui l'éloigne du centre de pression, proportionnellement à l'écart entre les deux.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Perdus de vue",
    "en": "loss to follow-up, attrition",
    "def": "Participants randomisés dont le résultat final n'est pas disponible. Leur nombre, et surtout son asymétrie entre les groupes, est l'une des informations les plus utiles du diagramme de flux d'un essai : l'abandon n'est jamais aléatoire.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Petit rond",
+   "en": "teres minor",
+   "def": "Petit muscle de la coiffe des rotateurs, au bord externe de l'omoplate, sous le sous-épineux. Il tourne le bras vers l'extérieur.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "petit-rond"
+    ]
+   }
   },
   {
    "terme": "Phase de vérification",
    "en": "verification phase",
    "def": "Effort à vitesse constante au-dessus de la fin d'un test progressif, pour confirmer qu'une vraie consommation maximale a été atteinte.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Phosphate inorganique",
    "en": "inorganic phosphate",
    "def": "Phosphate libre, libéré notamment quand la phosphocréatine se dégrade. Il s'accumule pendant un effort intense et apparaît comme une cause majeure de fatigue.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Phosphocréatine",
@@ -18037,7 +18686,8 @@ window.SOCLE = {
    "alias": [
     "Phosphocréatines"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "PICOT",
@@ -18046,42 +18696,48 @@ window.SOCLE = {
    "alias": [
     "PICOTs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Pied de courbe",
    "en": "toe region",
    "def": "Début de la courbe contrainte-déformation du tendon, où la raideur augmente peu à peu avant la zone linéaire.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Plan frontal",
    "en": "frontal plane, coronal plane",
    "def": "Plan qui sépare l'avant et l'arrière du corps. Les mouvements y tournent autour d'un axe antéro-postérieur : abduction, adduction, inclinaison latérale.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Plan sagittal",
    "en": "sagittal plane",
    "def": "Plan qui sépare la gauche et la droite du corps. Les mouvements y tournent autour d'un axe médio-latéral : flexion, extension.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Plan transversal",
    "en": "transverse plane, horizontal plane",
    "def": "Plan qui sépare le haut et le bas du corps. Les mouvements y tournent autour d'un axe longitudinal : rotations interne et externe, pronation, supination.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Plateforme de force",
    "en": "force plate",
    "def": "Instrument qui mesure les forces exercées sur le sol au cours du temps. Permet de calculer la hauteur d'un saut par trois méthodes indépendantes.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Pliométrie",
@@ -18090,21 +18746,24 @@ window.SOCLE = {
    "alias": [
     "Pliométries"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Plus petit changement digne d'intérêt",
    "en": "smallest worthwhile change, minimal important\ndifference",
    "def": "Plus petite différence à partir de laquelle on accepterait de modifier une pratique, compte tenu de son coût. Ce n'est pas une quantité statistique : elle se fixe par ancrage sur une conséquence externe, par une fraction de la dispersion entre sujets — souvent 0,2 écart-type — ou par jugement. Doit être annoncée avant l'analyse, jamais découverte après.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Point de blocage",
    "en": "sticking point, sticking region",
    "def": "Portion de l'amplitude où l'écart entre ce que le muscle peut produire et ce que l'exercice exige est le plus faible. C'est là qu'une répétition échoue.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Point de croisement",
@@ -18113,7 +18772,8 @@ window.SOCLE = {
    "alias": [
     "concept du croisement"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Polarisé",
@@ -18124,14 +18784,16 @@ window.SOCLE = {
     "entraînement polarisé",
     "Polarisés"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Pompe musculaire",
    "en": "muscle pump",
    "def": "Compression des veines par les muscles qui se contractent ; les valves orientent le sang vers le cœur.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Pont d'union",
@@ -18140,14 +18802,16 @@ window.SOCLE = {
    "alias": [
     "ponts d'union"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Position anatomique",
    "en": "anatomical position",
    "def": "Posture de référence : debout, regard vers l'avant, bras le long du corps, paumes tournées vers l'avant. La plupart des angles articulaires y valent zéro par convention.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Précharge",
@@ -18156,7 +18820,8 @@ window.SOCLE = {
    "alias": [
     "Précharges"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Préenregistrement",
@@ -18165,21 +18830,24 @@ window.SOCLE = {
    "alias": [
     "Préenregistrements"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Pression diastolique",
    "en": "diastolic blood pressure",
    "def": "Pression artérielle pendant le remplissage des ventricules ; elle varie peu à l'effort dynamique.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Pression intra-abdominale",
    "en": "intra-abdominal pressure",
    "def": "Pression dans la cavité abdominale, augmentée par le gainage ou une ceinture, qui participe au soutien du tronc.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Pression partielle",
@@ -18188,14 +18856,16 @@ window.SOCLE = {
    "alias": [
     "pressions partielles"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Pression systolique",
    "en": "systolic blood pressure",
    "def": "Pression artérielle au moment où les ventricules éjectent ; elle monte nettement à l'effort dynamique.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Principe de taille",
@@ -18213,7 +18883,8 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "PRISMA",
@@ -18222,7 +18893,8 @@ window.SOCLE = {
    "alias": [
     "PRISMAs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Profil de résistance",
@@ -18231,7 +18903,8 @@ window.SOCLE = {
    "alias": [
     "profils de résistance"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Profil force-vitesse",
@@ -18249,7 +18922,8 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Pronation",
@@ -18258,7 +18932,8 @@ window.SOCLE = {
    "alias": [
     "Pronations"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Proprioception",
@@ -18267,7 +18942,8 @@ window.SOCLE = {
    "alias": [
     "Proprioceptions"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "PROSPERO",
@@ -18276,7 +18952,8 @@ window.SOCLE = {
    "alias": [
     "PROSPEROs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Protéine de transport",
@@ -18285,7 +18962,8 @@ window.SOCLE = {
    "alias": [
     "protéines de transport"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Puissance",
@@ -18296,14 +18974,16 @@ window.SOCLE = {
    ],
    "blocs": [
     0
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Puissance critique",
    "en": "critical power",
    "def": "Asymptote de la relation puissance-durée. Au-dessous, les réponses de l'organisme se stabilisent ; au-dessus, non, jusqu'à l'épuisement d'une réserve de travail.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Puissance mécanique",
@@ -18321,14 +19001,16 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Puissance rétrospective",
    "en": "post hoc power, observed power",
    "def": "Puissance recalculée après l'étude à partir de l'effet observé. Elle est une fonction directe de la valeur p obtenue et n'apporte donc aucune information nouvelle. À ne pas confondre avec le calcul, légitime, de la puissance dont l'étude disposait pour détecter un effet digne d'intérêt fixé indépendamment du résultat.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Pyruvate",
@@ -18337,14 +19019,31 @@ window.SOCLE = {
    "alias": [
     "Pyruvates"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Quadriceps",
+   "en": "quadriceps femoris",
+   "def": "Groupe de quatre muscles de l'avant de la cuisse : droit fémoral, vaste latéral, vaste médial et vaste intermédiaire, caché sous les autres. Il étend le genou.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "droit-femoral",
+     "vaste-lat",
+     "vaste-med"
+    ]
+   }
   },
   {
    "terme": "Quantité de mouvement",
    "en": "momentum",
    "def": "Produit de la masse par la vitesse, en kilogrammes-mètres par seconde. Sa variation égale l'impulsion reçue.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Quaternion",
@@ -18353,7 +19052,8 @@ window.SOCLE = {
    "alias": [
     "Quaternions"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Raideur",
@@ -18362,7 +19062,8 @@ window.SOCLE = {
    "alias": [
     "Raideurs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Randomisation",
@@ -18371,28 +19072,32 @@ window.SOCLE = {
    "alias": [
     "Randomisations"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Rapport charge aiguë-charge chronique",
    "en": "acute:chronic workload ratio (ACWR)",
    "def": "Rapport entre la charge d'entraînement récente, souvent d'une semaine, et la charge moyenne des semaines précédentes. Son usage pour prévenir les blessures n'est pas étayé.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Rapport de démultiplication",
    "en": "gear ratio",
    "def": "Rapport entre le déplacement de l'extrémité d'un segment et le raccourcissement du muscle qui le met en mouvement. Inverse de l'avantage mécanique.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Rapport enregistré",
    "en": "registered report",
    "def": "Format éditorial où la revue accepte l'article sur la base du protocole, avant collecte des données, et s'engage à publier quel que soit le résultat. Seul dispositif qui neutralise simultanément le tiroir du chercheur et la sélection par la revue.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Rapport travail-repos",
@@ -18401,14 +19106,16 @@ window.SOCLE = {
    "alias": [
     "rapports travail-repos"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Rapport ventilation-perfusion",
    "en": "ventilation-perfusion ratio",
    "def": "Rapport entre l'air qui arrive dans une région du poumon et le sang qui la traverse ; l'échange est efficace quand les deux concordent.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Récepteur",
@@ -18418,7 +19125,8 @@ window.SOCLE = {
     "récepteurs",
     "Récepteurs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Récepteur des androgènes",
@@ -18427,7 +19135,8 @@ window.SOCLE = {
    "alias": [
     "récepteurs des androgènes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Recrutement",
@@ -18450,21 +19159,24 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Récupération active",
    "en": "active recovery",
    "def": "Exercice léger après un effort intense, à la place du repos complet. Fait disparaître plus vite le lactate sanguin.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Réflexe H",
    "en": "H-reflex, Hoffmann reflex",
    "def": "Version électrique du réflexe myotatique, obtenue en stimulant le nerf. Sert à mesurer l'excitabilité des motoneurones et la transmission des afférences Ia.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Réflexe myotatique",
@@ -18473,7 +19185,8 @@ window.SOCLE = {
    "alias": [
     "réflexe d'étirement"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Régime cétogène",
@@ -18482,7 +19195,8 @@ window.SOCLE = {
    "alias": [
     "cétogène"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Relation force-vitesse",
@@ -18501,14 +19215,16 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Relation longueur-tension",
    "en": "length-tension relationship",
    "def": "Variation de la force active d'un muscle ou d'un sarcomère avec sa longueur : en cloche, avec une branche ascendante, un plateau et une branche descendante, qui suivent le chevauchement des filaments.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Remodelage",
@@ -18518,49 +19234,56 @@ window.SOCLE = {
     "remodelage osseux",
     "Remodelages"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Réponse individuelle",
    "en": "individual response",
    "def": "Variabilité vraie de l'effet d'une intervention entre personnes. Presque toujours surestimée : la dispersion des changements observés contient aussi l'erreur de mesure, comptée deux fois, et la variabilité biologique normale. L'établir exige un groupe contrôle ou la répétition de l'intervention chez les mêmes sujets.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Réponse tensionnelle exagérée",
    "en": "exaggerated blood pressure response to exercise",
    "def": "Hausse de la pression systolique à l'effort plus forte que la normale ; associée à davantage d'événements cardiovasculaires.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Réserve cardiaque",
    "en": "cardiac reserve",
    "def": "Écart entre le débit cardiaque maximal et le débit de repos.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Résistance variable",
    "en": "variable resistance training",
    "def": "Ajout d'élastiques ou de chaînes à une charge libre pour que la résistance augmente au cours du mouvement. Son avantage sur la charge constante est discuté.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "RoB 2",
    "en": "revised Cochrane risk-of-bias tool for randomized trials",
    "def": "Outil d'évaluation du risque de biais d'un essai randomisé, structuré en cinq domaines.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Rythme scapulo-huméral",
    "en": "scapulohumeral rhythm",
    "def": "Partage de l'élévation du bras entre l'humérus et l'omoplate : en moyenne 1,7° gléno-huméral pour 1° de l'omoplate.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Sarcomère",
@@ -18569,7 +19292,21 @@ window.SOCLE = {
    "alias": [
     "Sarcomères"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Sartorius",
+   "en": "sartorius",
+   "def": "Le plus long muscle du corps : une bande fine qui traverse l'avant de la cuisse en diagonale, de la hanche au côté interne du genou.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "sartorius"
+    ]
+   }
   },
   {
    "terme": "Saturation en oxygène",
@@ -18580,14 +19317,16 @@ window.SOCLE = {
    ],
    "blocs": [
     2
-   ]
+   ],
+   "visuel": null
   },
   {
    "terme": "Saut avec contre-mouvement",
    "en": "countermovement jump (CMJ)",
    "def": "Saut vertical précédé d'une flexion rapide des jambes. Sa courbe force-temps se découpe en six phases : pesée, allègement, freinage, propulsion, vol, réception.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Saut sans contre-mouvement",
@@ -18596,49 +19335,84 @@ window.SOCLE = {
    "alias": [
     "sauts sans contre-mouvement"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Score de Beighton",
    "en": "Beighton score",
    "def": "Test de l'hyperlaxité généralisée en neuf points ; elle est retenue à partir de 4 tests positifs.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Section physiologique",
    "en": "physiological cross-sectional area (PCSA)",
    "def": "Surface obtenue en coupant toutes les fibres d'un muscle perpendiculairement à leur axe. Elle fixe la force maximale, quand la longueur des fibres fixe l'amplitude et la vitesse.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Semi-tendineux",
+   "en": "semitendinosus",
+   "def": "Ischio-jambier du côté interne de l'arrière de la cuisse, terminé par un long tendon. Il plie le genou et étend la hanche.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "semi-tendineux"
+    ]
+   }
   },
   {
    "terme": "Sensibilité au changement",
    "en": "responsiveness",
    "def": "Capacité d'une mesure à détecter une variation réelle. Troisième propriété métrologique, distincte de la fidélité et de la validité : un test peut être fidèle et valide en coupe transversale et incapable de suivre une progression, si son erreur typique dépasse le changement visé.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Série de cas",
    "en": "case series",
    "def": "Description détaillée de plusieurs patients ou sujets partageant une caractéristique, sans groupe de comparaison. Sert à signaler un phénomène et à formuler une hypothèse ; n'autorise aucune inférence, causale ou même associative.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Seuil lactique",
    "en": "lactate threshold",
    "def": "Intensité d'effort au-delà de laquelle le lactate commence à s'accumuler dans le sang.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Significativité statistique",
    "en": "statistical significance",
    "def": "Franchissement d'un seuil conventionnel par la valeur p. Ne renseigne ni sur l'amplitude, ni sur l'importance pratique, ni sur la probabilité que l'effet soit réel.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Soléaire",
+   "en": "soleus",
+   "def": "Muscle du mollet placé sous le gastrocnémien, dont il dépasse de chaque côté. Il ne croise que la cheville, qu'il tend même genou plié.",
+   "alias": [
+    "Soléaires"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "soleaire"
+    ]
+   }
   },
   {
    "terme": "Sommation",
@@ -18656,14 +19430,44 @@ window.SOCLE = {
     6,
     7,
     8
-   ]
+   ],
+   "visuel": null
+  },
+  {
+   "terme": "Sous-épineux",
+   "en": "infraspinatus",
+   "def": "Muscle de la coiffe des rotateurs qui couvre l'omoplate sous son épine. Il tourne le bras vers l'extérieur.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "sous-epineux"
+    ]
+   }
+  },
+  {
+   "terme": "Sous-scapulaire",
+   "en": "subscapularis",
+   "def": "Muscle de la coiffe des rotateurs logé sur la face avant de l'omoplate, contre les côtes : on ne le voit pas de dos. Il tourne le bras vers l'intérieur.",
+   "alias": [
+    "Sous-scapulaires"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "sous-scapulaire"
+    ]
+   }
   },
   {
    "terme": "Squat avant",
    "en": "front squat",
    "def": "Squat où la barre repose sur l'avant des épaules : moins de compression et de moment au genou que le squat arrière.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Stabilisateur",
@@ -18673,7 +19477,8 @@ window.SOCLE = {
     "stabilisateurs",
     "Stabilisateurs"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Supination",
@@ -18682,35 +19487,45 @@ window.SOCLE = {
    "alias": [
     "Supinations"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Surmenage fonctionnel",
    "en": "functional overreaching",
    "def": "Baisse passagère de performance après une surcharge, suivie d'une amélioration après récupération.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Surmenage non fonctionnel",
    "en": "non-functional overreaching",
    "def": "Baisse de performance qui dure, quand l'équilibre entre entraînement et récupération n'est pas respecté.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Sus-épineux",
    "en": "supraspinatus",
    "def": "Muscle de la coiffe situé au-dessus de l'épine de l'omoplate ; son tendon passe sous l'acromion.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "sus-epineux"
+    ]
+   }
   },
   {
    "terme": "Syndrome de surentraînement",
    "en": "overtraining syndrome",
    "def": "Mauvaise adaptation prolongée à l'entraînement, plus sévère que le surmenage ; son diagnostic se fait par exclusion.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Synergiste",
@@ -18720,14 +19535,16 @@ window.SOCLE = {
     "synergistes",
     "Synergistes"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Système de coordonnées articulaires",
    "en": "joint coordinate system",
    "def": "Repère attaché aux deux os d'une articulation, qui définit les angles autour d'axes précis et rend leur valeur indépendante de l'ordre des rotations. Normalisé articulation par articulation par la Société internationale de biomécanique.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Système énergétique",
@@ -18736,14 +19553,16 @@ window.SOCLE = {
    "alias": [
     "systèmes énergétiques"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Taille d'effet",
    "en": "effect size",
    "def": "Mesure de l'amplitude d'un effet, indépendante de la taille de l'échantillon. Les seuils d'interprétation usuels — petit, moyen, grand — sont des conventions sans validité universelle.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Taux de développement de la force",
@@ -18752,14 +19571,16 @@ window.SOCLE = {
    "alias": [
     "RFD"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Témoin apparié sur le volume",
    "en": "volume-matched control",
    "def": "Groupe de comparaison recevant la même quantité totale d'entraînement que le groupe expérimental, seule la variable étudiée différant. C'est le seul montage qui isole réellement un ingrédient de l'entraînement ; son absence est la limite la plus fréquente de la littérature en programmation.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Tendinopathie",
@@ -18769,7 +19590,8 @@ window.SOCLE = {
     "tendinopathies",
     "Tendinopathies"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Tendon",
@@ -18779,21 +19601,39 @@ window.SOCLE = {
     "tendons",
     "Tendons"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Tendon d'Achille",
+   "en": "Achilles tendon",
+   "def": "Tendon qui relie le triceps sural au talon et transmet au pied la force du mollet.",
+   "alias": [
+    "tendons d'Achille"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "achille"
+    ]
+   }
   },
   {
    "terme": "Test d'Egger",
    "en": "Egger's test",
    "def": "Test de régression évaluant l'asymétrie d'un funnel plot. Une asymétrie significative est compatible avec un biais de publication, mais aussi avec une hétérogénéité liée à la taille des études, une différence de qualité, ou le hasard quand les études sont peu nombreuses.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Test d'équivalence",
    "en": "equivalence test, TOST",
    "def": "Procédure inversant la charge de la preuve : au lieu de tester l'hypothèse d'un effet nul, elle teste l'hypothèse d'un effet situé en dehors d'une zone d'équivalence bornée par le plus petit changement digne d'intérêt. Lecture graphique : si l'intervalle de confiance tient entièrement dans la zone, l'équivalence est établie. Seule façon de conclure qu'un effet est trop petit pour compter.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Testostérone",
@@ -18802,21 +19642,37 @@ window.SOCLE = {
    "alias": [
     "Testostérones"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Tibial antérieur",
+   "en": "tibialis anterior",
+   "def": "Muscle de l'avant de la jambe, le long du tibia. Il relève la pointe du pied (flexion dorsale).",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "tibial-ant"
+    ]
+   }
   },
   {
    "terme": "Tirage vertical",
    "en": "lat pull-down",
    "def": "Exercice à la poulie haute où l'on tire une barre vers le haut de la poitrine.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Tolérance à l'étirement",
    "en": "stretch tolerance",
    "def": "Capacité à supporter un étirement plus poussé avant de l'arrêter. Principale explication du gain d'amplitude obtenu par l'étirement régulier.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Transitivité",
@@ -18825,21 +19681,88 @@ window.SOCLE = {
    "alias": [
     "Transitivités"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Transversale (étude)",
    "en": "cross-sectional study",
    "def": "Mesure simultanée d'une exposition et d'un résultat. Ambiguïté temporelle irréductible.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Trapèze",
+   "en": "trapezius",
+   "def": "Grand muscle en losange de la nuque et du haut du dos, en trois parties : supérieure (hausse les épaules), moyenne (rapproche les omoplates), inférieure (les abaisse).",
+   "alias": [
+    "trapèzes",
+    "Trapèzes"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "trapeze-sup",
+     "trapeze-moy",
+     "trapeze-inf"
+    ]
+   }
+  },
+  {
+   "terme": "Trapèze inférieur",
+   "en": "lower trapezius",
+   "def": "Partie basse du trapèze, en pointe vers le milieu du dos. Elle abaisse l'omoplate et l'aide à tourner vers le haut.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "trapeze-inf"
+    ]
+   }
   },
   {
    "terme": "Travail mécanique",
    "en": "mechanical work",
    "def": "Produit d'une force par le déplacement dans sa direction, en joules. Négatif quand le muscle freine et nul sur une répétition complète, ce qui en fait une mauvaise mesure de l'effort.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Triceps brachial",
+   "en": "triceps brachii",
+   "def": "Muscle de l'arrière du bras, à trois chefs (long, latéral, médial), qui étend le coude ; le chef long croise aussi l'épaule.",
+   "alias": [
+    "triceps"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "triceps-long",
+     "triceps-lat"
+    ]
+   }
+  },
+  {
+   "terme": "Triceps sural",
+   "en": "triceps surae",
+   "def": "Le muscle du mollet : les deux chefs du gastrocnémien et le soléaire, réunis par le tendon d'Achille. Il tend la cheville.",
+   "alias": [
+    "mollet",
+    "mollets"
+   ],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "gastrocnemien",
+     "soleaire"
+    ]
+   }
   },
   {
    "terme": "Triglycérides",
@@ -18848,14 +19771,16 @@ window.SOCLE = {
    "alias": [
     "triglycéride"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Triple extension",
    "en": "triple extension",
    "def": "Extension simultanée de la hanche, du genou et de la cheville, commune au saut et au deuxième tirage des mouvements d'haltérophilie.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Typologie musculaire",
@@ -18864,7 +19789,8 @@ window.SOCLE = {
    "alias": [
     "typologie"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Unité motrice",
@@ -18873,7 +19799,8 @@ window.SOCLE = {
    "alias": [
     "unités motrices"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Unités multicellulaires de base",
@@ -18884,7 +19811,8 @@ window.SOCLE = {
     "unité de remodelage",
     "unités de remodelage"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Valeur p",
@@ -18893,35 +19821,40 @@ window.SOCLE = {
    "alias": [
     "valeurs p"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Validité concourante",
    "en": "concurrent validity",
    "def": "Accord d'un test avec une référence mesurée au même moment. N'implique jamais la validité prédictive, qui porte sur un événement futur. Conclure de l'une à l'autre est le contresens le plus documenté du domaine.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Validité externe",
    "en": "external validity",
    "def": ", *generalizability*. Degré auquel un résultat s'applique à d'autres populations, contextes ou protocoles que ceux étudiés.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Validité interne",
    "en": "internal validity",
    "def": "Degré auquel le résultat observé reflète bien l'effet de l'intervention dans l'étude considérée, en l'absence de biais.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Validité prédictive",
    "en": "predictive validity",
    "def": "Capacité d'un test à annoncer un événement futur. Se démontre par un suivi prospectif, jamais par une corrélation transversale, et dépend fortement de la fréquence de l'événement visé.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Valve",
@@ -18930,7 +19863,50 @@ window.SOCLE = {
    "alias": [
     "Valves"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
+  },
+  {
+   "terme": "Vaste latéral",
+   "en": "vastus lateralis",
+   "def": "Chef du quadriceps sur le côté externe de la cuisse, le plus volumineux des quatre.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "vaste-lat"
+    ]
+   }
+  },
+  {
+   "terme": "Vaste médial",
+   "en": "vastus medialis",
+   "def": "Chef du quadriceps du côté interne, qui forme le renflement en goutte au-dessus du genou.",
+   "alias": [],
+   "blocs": [],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "vaste-med"
+    ]
+   }
+  },
+  {
+   "terme": "Vastes",
+   "en": "vasti",
+   "def": "Les trois chefs du quadriceps qui ne croisent que le genou : vaste latéral, vaste médial et vaste intermédiaire.",
+   "alias": [],
+   "blocs": [
+    1
+   ],
+   "visuel": {
+    "planche": "muscles",
+    "ids": [
+     "vaste-lat",
+     "vaste-med"
+    ]
+   }
   },
   {
    "terme": "Veine",
@@ -18939,7 +19915,8 @@ window.SOCLE = {
    "alias": [
     "Veines"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Ventricule",
@@ -18948,14 +19925,16 @@ window.SOCLE = {
    "alias": [
     "Ventricules"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Vitesse angulaire",
    "en": "angular velocity",
    "def": "Vitesse de rotation d'un segment, en radians par seconde, la même pour tous ses points. La vitesse linéaire d'un point vaut ω · r, d'où l'intérêt des segments longs pour la vitesse.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Voie oxydative",
@@ -18964,7 +19943,8 @@ window.SOCLE = {
    "alias": [
     "phosphorylation oxydative"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Volume d'éjection systolique",
@@ -18974,28 +19954,58 @@ window.SOCLE = {
     "volume d'éjection",
     "volumes d'éjection"
    ],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Zone d'équivalence",
    "en": "equivalence bounds",
    "def": "Intervalle centré sur zéro et borné par le plus petit changement digne d'intérêt, à l'intérieur duquel un effet est jugé sans conséquence pratique. Doit être fixée avant l'analyse.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Zone de conduction",
    "en": "conducting zone",
    "def": "Partie des voies respiratoires qui achemine l'air sans échange gazeux, de la cavité nasale à la plupart des bronchioles ; elle le filtre, le réchauffe et l'humidifie.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   },
   {
    "terme": "Zone respiratoire",
    "en": "respiratory zone",
    "def": "Partie des poumons où se font les échanges gazeux : les dernières bronchioles et les alvéoles.",
    "alias": [],
-   "blocs": []
+   "blocs": [],
+   "visuel": null
   }
- ]
+ ],
+ "planches": {
+  "muscles": {
+   "credit": "Planche : OpenStax, T. Kebert & umimeto.org (CC BY-SA 4.0)",
+   "planche": "<defs><linearGradient id=\"linearGradient1793\"><stop stop-color=\"#a45e49\" offset=\"0\"/><stop stop-color=\"#adbec7\" offset=\"1\"/></linearGradient><linearGradient id=\"linearGradient1022\"><stop stop-color=\"#f39079\" offset=\"0\"/><stop stop-color=\"#eef2f3\" offset=\"1\"/></linearGradient><linearGradient id=\"linearGradient1024\" x1=\"-8.8937\" x2=\"-9.6744\" y1=\"-125.83\" y2=\"-122.92\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient1113\" x1=\"-4.8664\" x2=\"-11.056\" y1=\"-114.72\" y2=\"-102.24\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#a35c47\" offset=\"0\"/><stop stop-color=\"#b7c6ce\" offset=\"1\"/></linearGradient><linearGradient id=\"linearGradient1180\" x1=\"5.2945\" x2=\"7.8098\" y1=\"-153.26\" y2=\"-149.33\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient948\" x1=\"52.719\" x2=\"53.588\" y1=\"-210.34\" y2=\"-203.86\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient1126\" x1=\"33.409\" x2=\"45.169\" y1=\"-117.73\" y2=\"-121.74\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#dbd5c7\" offset=\"0\"/><stop stop-color=\"#e5ecef\" offset=\"1\"/></linearGradient><linearGradient id=\"linearGradient1241\" x1=\"52.719\" x2=\"53.588\" y1=\"-210.34\" y2=\"-203.86\" gradientTransform=\"matrix(-1 0 0 1 117.42 0)\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient1302\" x1=\"44.901\" x2=\"43.966\" y1=\"-248.96\" y2=\"-245.75\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient1596\" x1=\"52.719\" x2=\"53.588\" y1=\"-210.34\" y2=\"-203.86\" gradientTransform=\"matrix(-.96551 0 0 1.0018 115.16 .43453)\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2167\" x1=\"-25.966\" x2=\"-27.448\" y1=\"-90.187\" y2=\"-88.978\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2264\" x1=\"42.095\" x2=\"42.629\" y1=\"13.497\" y2=\"17.373\" gradientTransform=\"translate(-.79375)\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2266\" x1=\"42.095\" x2=\"42.629\" y1=\"13.497\" y2=\"17.373\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2270\" x1=\"51.736\" x2=\"50.38\" y1=\"-30.075\" y2=\"-29.834\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2272\" x1=\"51.273\" x2=\"49.521\" y1=\"-25.9\" y2=\"-25.316\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#a45e49\" offset=\"0\"/><stop stop-color=\"#a45e49\" stop-opacity=\"0\" offset=\"1\"/></linearGradient><linearGradient id=\"linearGradient2274\" x1=\"51.803\" x2=\"50.076\" y1=\"-36.055\" y2=\"-35.427\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2276\" x1=\"50.614\" x2=\"49.913\" y1=\"-30.87\" y2=\"-30.101\" gradientUnits=\"userSpaceOnUse\"><stop stop-color=\"#a45e49\" offset=\"0\"/><stop stop-color=\"#a45e49\" stop-opacity=\"0\" offset=\"1\"/></linearGradient><linearGradient id=\"linearGradient2278\" x1=\"41.754\" x2=\"41.537\" y1=\"-46.856\" y2=\"-26.39\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2280\" x1=\"56.587\" x2=\"58.613\" y1=\"-96.168\" y2=\"-98.132\" gradientTransform=\"translate(-2.6458)\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2282\" x1=\"41.754\" x2=\"42.577\" y1=\"-46.856\" y2=\"-44.344\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2284\" x1=\"26.787\" x2=\"26.006\" y1=\"-96.435\" y2=\"-91.784\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2286\" x1=\"52.535\" x2=\"55.576\" y1=\"-68.092\" y2=\"-55.574\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2422\" x1=\"52.218\" x2=\"51.85\" y1=\"-258.68\" y2=\"-262.53\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><clipPath id=\"clipPath1234\"><use transform=\"translate(-.11118)\" width=\"100%\" height=\"100%\" xlink:href=\"#path1304-3\"/></clipPath><clipPath id=\"clipPath1428\"><use width=\"100%\" height=\"100%\" xlink:href=\"#path1268\"/></clipPath><clipPath id=\"clipPath1901\"><path d=\"m59.167 315.24s0.37948-0.79097 1.9546-4.0486c1.0176-2.1046 3.1561-3.8753 3.9253-5.4663 1.9597-4.0538 0.96885-2.4388 0.96885-2.4388s0.91343-3.4742 1.3698-5.2118c0.45632-1.7375 2.3389-3.6301 3.5079-5.4456 1.169-1.8155 7.3165-3.675 7.3165-3.675s0.84662-2.0488 1.2695-3.0736c0.42291-1.0248 2.2052-2.7393 3.3075-4.1093 1.1022-1.37 2.8066-2.717 4.2095-4.0758 1.4029-1.3589 1.6484-4.1647 2.4722-6.2474 0.82382-2.0828 0.57935-9.9333 0.86863-14.9 0.28928-4.967 0.83522-6.9824 0.83522-6.9824l1.2027-8.7531s-2.9397 2.918-4.4099 4.3765c-1.4702 1.4586-6.3474 1.1139-9.5215 1.6704-3.1741 0.55655-11.159-3.5079-11.159-3.5079s-4.3936 10.982-6.5909 16.473c-2.1972 5.4906-1.5274 8.069-1.5274 8.069\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/></clipPath><linearGradient id=\"linearGradient2218\" x1=\"69.233\" x2=\"68.321\" y1=\"183.73\" y2=\"180.64\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient2362\" x1=\"69.233\" x2=\"68.321\" y1=\"183.73\" y2=\"180.64\" gradientTransform=\"rotate(27.609 116.51 316.75)\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3020\" x1=\"65.678\" x2=\"64.667\" y1=\"363.71\" y2=\"367.92\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3160\" x1=\"74.19\" x2=\"79.275\" y1=\"378.99\" y2=\"372.36\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3415\" x1=\"65.643\" x2=\"63.865\" y1=\"442.78\" y2=\"461.11\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3689\" x1=\"69.233\" x2=\"68.321\" y1=\"183.73\" y2=\"180.64\" gradientTransform=\"translate(0 2.6458)\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3746\" x1=\"75.223\" x2=\"80.884\" y1=\"312.72\" y2=\"317.87\" gradientTransform=\"translate(-.062896 2.6458)\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3750\" x1=\"69.459\" x2=\"62.533\" y1=\"361.89\" y2=\"364.27\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3756\" x1=\"73.336\" x2=\"74.72\" y1=\"340.52\" y2=\"346.3\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3758\" x1=\"70.793\" x2=\"67.78\" y1=\"354.6\" y2=\"356.97\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3760\" x1=\"69.233\" x2=\"68.321\" y1=\"183.73\" y2=\"180.64\" gradientTransform=\"rotate(16.695 117.07 318.33)\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3764\" x1=\"128.4\" x2=\"130.29\" y1=\"322.81\" y2=\"322.39\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3768\" x1=\"82.142\" x2=\"87.11\" y1=\"321.59\" y2=\"327.43\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3770\" x1=\"119.15\" x2=\"119.74\" y1=\"313.62\" y2=\"316.35\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3772\" x1=\"116.73\" x2=\"120.87\" y1=\"309.43\" y2=\"328.14\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1793\"/><linearGradient id=\"linearGradient3776\" x1=\"82.366\" x2=\"78.242\" y1=\"240.82\" y2=\"242.86\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3778\" x1=\"74.711\" x2=\"77.632\" y1=\"234.03\" y2=\"233.87\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><linearGradient id=\"linearGradient3780\" x1=\"79.271\" x2=\"76.343\" y1=\"233.81\" y2=\"234.37\" gradientUnits=\"userSpaceOnUse\" xlink:href=\"#linearGradient1022\"/><clipPath id=\"clipPath1349\"><path d=\"m58.255-266.38c-2.3979-0.0393-4.8031 0.41365-7.0223 1.3229-3.119 1.278-5.8984 3.5133-7.5122 6.4725-1.6601 3.0441-2.007 6.6669-1.6061 10.111 0.203 1.7439 0.58668 3.4613 0.85008 5.1971 0.47631 3.139 0.55581 6.3378 0.23616 9.4966l4.1574 4.4008 10.901-0.17208 10.901 0.17208 4.1569-4.4008c-0.31965-3.1588-0.23963-6.3576 0.23668-9.4966 0.26339-1.7358 0.64708-3.4532 0.85008-5.1971 0.40092-3.4441 0.05397-7.0669-1.6061-10.111-1.6138-2.9592-4.3933-5.1945-7.5122-6.4725-2.2192-0.90926-4.6244-1.3622-7.0223-1.3229-0.0028 5e-5 -0.0055-3e-5 -0.0083 0z\" fill=\"#fde8cc\" stop-color=\"#000000\" stroke=\"#e7be9b\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/></clipPath></defs><g transform=\"translate(43.958 276.63)\"><path d=\"m38.42-206.87 13.898-18.308 13.764 0.93544 4.8108 23.052-2.5391 41.226-17.84 0.60136z\" fill=\"#f39079\" stroke=\"#000\" stroke-width=\".26458px\"/><path d=\"m55.562-219.89 5.1972 0.33073 0.94494 16.347-1.4174 3.0711-4.4412-0.28348-0.56696-4.016z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><g transform=\"translate(.32637)\"><use transform=\"matrix(-1 0 0 1 115.87 0)\" width=\"100%\" height=\"100%\" xlink:href=\"#g2108\"/><g id=\"g2108\"><path d=\"m34.945 55.225c0.04407 0.66151 0.05522 1.3252 0.03341 1.9878-0.0155 0.47084-0.04795 0.94333-0.15034 1.4032-0.04313 0.19371-0.09865 0.38506-0.12623 0.58158-0.02758 0.19652-0.02603 0.40156 0.04271 0.58772 0.03803 0.103 0.09684 0.19922 0.17692 0.27433 0.08009 0.07511 0.18203 0.12833 0.2908 0.14328 0.13818 0.019 0.28022-0.02459 0.39678-0.1012 0.11656-0.07661 0.20977-0.1843 0.2881-0.29971 0.29012-0.42748 0.3839-0.95383 0.56795-1.4366 0.13848-0.36322 0.32923-0.70373 0.50113-1.0524 0.25219-0.5115 0.46463-1.0426 0.63477-1.5869 0.06421 0.48126 0.07544 0.96958 0.03341 1.4533-0.04043 0.46532-0.12976 0.92477-0.20045 1.3865-0.06185 0.40394-0.10953 0.81084-0.11693 1.2194-0.0095 0.52446 0.04698 1.0547-0.05011 1.5702-0.03351 0.1779-0.08504 0.35207-0.11722 0.53021-0.03218 0.17814-0.04455 0.36348 2.92e-4 0.53886 0.02873 0.11239 0.08133 0.2195 0.15852 0.3061 0.07719 0.08659 0.17954 0.15194 0.2925 0.17833 0.12888 0.03011 0.26666 0.0086 0.38728-0.0459 0.12062-0.05446 0.2251-0.1403 0.3143-0.23807 0.19762-0.21661 0.32246-0.49028 0.41137-0.76969 0.08891-0.2794 0.14481-0.56816 0.22339-0.85064 0.09245-0.33231 0.21692-0.65898 0.25057-1.0023 0.02752-0.28071-0.0067-0.56329-0.03487-0.84394-0.02816-0.28065-0.05009-0.56589 0.0015-0.8432 0.04737-0.25481 0.15728-0.49776 0.31738-0.70158 0.11086 0.47642 0.17254 0.96426 0.18375 1.4533 0.01059 0.46223-0.02377 0.92421-0.03341 1.3865-0.01737 0.83232 0.04445 1.6757-0.13363 2.4889-0.04726 0.21582-0.11115 0.42784-0.15447 0.64449-0.04332 0.21664-0.06582 0.44056-0.02928 0.65845 0.04035 0.24059 0.15106 0.46416 0.28227 0.66982 0.13121 0.20566 0.28378 0.39687 0.41931 0.59971 0.10379 0.15534 0.19946 0.31973 0.33822 0.44481 0.06938 0.06254 0.14939 0.1145 0.23788 0.14443 0.08848 0.02993 0.1858 0.03704 0.27582 0.01211 0.06938-0.01921 0.133-0.05692 0.18631-0.10529 0.05332-0.04837 0.09657-0.1072 0.13099-0.17042 0.06883-0.12646 0.10218-0.26868 0.13372-0.40916 0.15196-0.67696 0.27917-1.3619 0.31738-2.0546 0.04141-0.75083-0.02202-1.5052 0.03341-2.2551 0.06016-0.81384 0.25941-1.6112 0.35079-2.4221 0.03086-0.27392 0.05097-0.55541 0.16434-0.80667 0.05669-0.12563 0.13702-0.24211 0.24334-0.32982 0.10631-0.08771 0.23967-0.14535 0.37743-0.14974 0.11707-0.0037 0.23397 0.03099 0.33432 0.09141 0.10035 0.06041 0.18452 0.14579 0.25033 0.24268 0.15115 0.22254 0.20372 0.4995 0.20329 0.76852-4.3e-4 0.26902-0.04998 0.53514-0.08635 0.80169-0.10973 0.80418-0.09924 1.6277 0.06681 2.4221 0.13311 0.63686 0.36546 1.2558 0.41761 1.9043 0.03931 0.48887-0.02592 0.98358-0.16704 1.4533-0.08006 0.26647-0.18431 0.52555-0.25464 0.79475-0.07033 0.2692-0.10597 0.55386-0.04604 0.82557 0.06466 0.29311 0.24707 0.56322 0.50774 0.71202 0.13034 0.0744 0.27848 0.11814 0.42847 0.12322 0.14999 0.0051 0.30154-0.02885 0.43355-0.10025 0.15313-0.08283 0.27668-0.21356 0.37023-0.36039s0.15876-0.30986 0.21442-0.47483c0.23628-0.70035 0.30757-1.4528 0.23386-2.1883-0.03849-0.38399-0.11594-0.76805-0.08352-1.1526 0.03864-0.45829 0.23074-0.88819 0.33409-1.3363 0.21473-0.9311 0.04089-1.9012 0.0167-2.8564-0.03406-1.3451 0.23633-2.697 0.7851-3.9255 0.76231 0.3371 1.3376 1.0675 1.4867 1.8876 0.1269 0.698-0.03996 1.416-0.26727 2.088-0.1324 0.39143-0.28598 0.77714-0.37659 1.1803-0.09061 0.40316-0.11567 0.83119 0.0091 1.2251 0.09589 0.30276 0.27497 0.57101 0.44774 0.83748s0.34398 0.54152 0.42088 0.84966c0.10553 0.42285 0.02447 0.86788 0.05011 1.3029 0.01615 0.27407 0.07652 0.54901 0.20795 0.79005 0.13143 0.24104 0.33812 0.44643 0.59386 0.5463 0.30685 0.11983 0.66531 0.07695 0.95275-0.08396 0.28744-0.16091 0.50544-0.43132 0.63416-0.73455 0.13965-0.32898 0.17866-0.69213 0.18264-1.0495 4e-3 -0.35738-0.02545-0.71468-0.01559-1.0719 0.02332-0.84502 0.26587-1.6776 0.23386-2.5224-0.03621-0.95551-0.42278-1.8863-0.35079-2.8397 0.04485-0.59403 0.26632-1.1621 0.33409-1.754 0.06793-0.59332-0.02095-1.1961-0.18375-1.7707-0.2584-0.91201-0.70473-1.7703-1.3029-2.5057l-14.164 0.79317-0.70239 2.8985z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m38.506 42.853c-0.34335 0.68366-0.71384 1.3537-1.1103 2.008-0.68308 1.1273-1.4534 2.2299-1.819 3.4963-0.25151 0.87123-0.30041 1.8003-0.14174 2.6931l4.6302-3.3309 1.1103-6.0476z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m36.917 56.895c-0.4388-0.05083-0.86356-0.21824-1.219-0.48048-0.35548-0.26224-0.64081-0.61866-0.81889-1.0229-0.19371-0.43973-0.25938-0.92734-0.25414-1.4078 0.0052-0.48048 0.079-0.95729 0.15392-1.4319 0.17181-1.0885 0.35754-2.1975 0.86863-3.1738 0.59572-1.138 1.6305-2.0389 2.8397-2.4722l0.60136 4.6772c-0.85986 0.7453-1.5136 1.726-1.8709 2.8063-0.26587 0.80402-0.36878 1.6616-0.30068 2.5057z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m39.756 41.727c-0.59725 1.0341-1.08 2.1343-1.4366 3.274-0.35584 1.1374-0.58636 2.3172-0.63476 3.5079-0.0708 1.7416 0.24681 3.4729 0.3675 5.2118 0.09886 1.4244 0.06526 2.8581-0.10023 4.2763 0.19966-1.0003 0.59962-1.9602 1.1693-2.8063 0.11572-0.17188 0.23835-0.3391 0.3675-0.50113 0.09036 0.60674 0.17945 1.2137 0.26727 1.8208 0.1956 1.3522 0.38492 2.7052 0.56794 4.0592 0.13859-1.4042 0.41888-2.7944 0.83522-4.1427 0.18506-0.59929 0.39693-1.1903 0.63476-1.7707 0.50698 0.28307 0.94581 0.68726 1.2695 1.1693 0.62915 0.93686 0.80933 2.1253 1.47 3.0402 0.35644 0.49362 0.84614 0.89005 1.4032 1.1359 0.34173-1.0006 0.59908-2.0299 0.7684-3.0736 0.21312-1.3136 0.28652-2.6457 0.33409-3.9756 0.09904-2.7694 0.08196-5.5843-0.66817-8.2519-0.3373-1.1995-0.82086-2.3578-1.4366-3.4411z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m47.374 37.919c0.51958 1.5799 0.99864 3.173 1.4366 4.7774 0.55201 2.0224 1.0396 4.0675 1.3029 6.1472 0.20499 1.6187 0.2733 3.2511 0.4009 4.8777 0.15096 1.9243 0.38511 3.8422 0.70158 5.7463-0.64188 0.22078-1.3755 0.15861-1.9711-0.16704-0.4803-0.26263-0.85789-0.67732-1.2027-1.1025-0.7647-0.94288-1.4167-1.9771-1.9377-3.0736l-1.4032-17.339z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m39.857 30.602 4.1093-0.4009c0.77153 2.4923 1.3638 5.0401 1.7707 7.6172 0.4536 2.8729 0.67803 5.7864 1.3364 8.6194 0.65453 2.8167 1.7334 5.5325 2.205 8.3856 0.3048 1.844 0.36167 3.7631 1.1025 5.479 0.14642 0.33914 0.3187 0.66769 0.44076 1.0163 0.12205 0.34865 0.19277 0.72488 0.12719 1.0884-0.05057 0.28034-0.18658 0.55005-0.40469 0.73328-0.10906 0.09162-0.23752 0.16074-0.37524 0.19711s-0.28459 0.03957-0.42278 0.0051c-0.19428-0.04852-0.36535-0.16974-0.49717-0.32047s-0.227-0.33016-0.30464-0.51474c-0.4329-1.0292-0.3345-2.1909-0.33409-3.3075 0.0012-3.11-0.81499-6.161-1.7707-9.1206-0.71314-2.2085-1.5135-4.404-2.6727-6.4145-0.87137-1.5113-1.9414-2.908-3.1738-4.1427z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m37.798 33.522c-0.29557 0.74048-0.54812 1.4981-0.75595 2.2679-0.15277 0.56581-0.28186 1.1415-0.31373 1.7267-0.03187 0.5852 0.0367 1.1832 0.26648 1.7224 0.21128 0.49575 0.55784 0.93306 0.99219 1.252l3.4727-2.6695-0.75595-6.6618-2.9057 2.3624z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m39.121 31.207 1.5828-0.37798c0.38111 2.8491 0.8064 5.6922 1.2757 8.5281 0.77235 4.6674 1.6638 9.3151 2.6695 13.938 0.4788 2.201 0.98655 4.4502 0.7087 6.6855-0.10208 0.82123-0.30927 1.6268-0.40821 2.4484-0.09894 0.82161-0.08354 1.6812 0.24285 2.4417 0.07854 0.18298 0.17468 0.35938 0.2308 0.55043 0.02806 0.09553 0.04588 0.1946 0.04529 0.29416-5.86e-4 0.09956-0.02 0.19976-0.06348 0.28933-0.08104 0.16698-0.24411 0.28756-0.42387 0.33377-0.17976 0.04622-0.3737 0.0219-0.54469-0.05029-0.08695-0.03671-0.16915-0.08577-0.23913-0.1491-0.06998-0.06333-0.12752-0.14121-0.16247-0.22888-0.05253-0.13177-0.05204-0.27964-0.02616-0.41911s0.07588-0.2731 0.12065-0.40771c0.16797-0.50494 0.26429-1.0312 0.33073-1.5592 0.25753-2.0464 0.07159-4.1228-0.21261-6.1657-0.30933-2.2236-0.73446-4.4291-1.1339-6.6382-0.39507-2.1848-0.7652-4.3741-1.1103-6.5673 0.02382 1.378 0.01594 2.7565-0.02363 4.1341-0.0704 2.4509-0.24104 4.8977-0.35435 7.3469-0.07042 1.5221-0.1206 3.0589-0.49609 4.5357-0.13799 0.54268-0.31949 1.0752-0.41793 1.6264-0.09844 0.55123-0.10982 1.1331 0.0872 1.6573 0.08031 0.21365 0.19373 0.41389 0.27002 0.629 0.03814 0.10756 0.06693 0.21903 0.07633 0.33277s-1e-3 0.23-0.03925 0.33752c-0.06767 0.19024-0.22626 0.34678-0.41872 0.40785-0.19246 0.06106-0.41436 0.02358-0.57347-0.10074-0.08324-0.06504-0.14868-0.15142-0.19494-0.24639-0.04626-0.09497-0.07375-0.1984-0.0876-0.30312-0.0277-0.20944-0.0015-0.42179 0.02268-0.63166 0.07348-0.63673 0.12908-1.2754 0.18899-1.9135 0.32228-3.433 0.76944-6.8562 0.94494-10.3 0.13878-2.723 0.1072-5.4547-0.09449-8.1737-0.13224 1.4987-0.28976 2.9951-0.47247 4.4885-0.31784 2.5977-0.71304 5.1916-1.3702 7.7249-0.19818 0.764-0.42045 1.5238-0.54483 2.3032s-0.14834 1.5863 0.04873 2.3506c0.08703 0.33752 0.21717 0.66868 0.23274 1.0169 0.0078 0.1741-0.01426 0.35152-0.08262 0.51183-0.06837 0.16031-0.18538 0.30267-0.3391 0.38479-0.14893 0.07956-0.32926 0.09888-0.49125 0.05124s-0.30353-0.16202-0.38282-0.3111c-0.056-0.1053-0.08108-0.22541-0.08264-0.34467-0.0016-0.11926 0.01972-0.23795 0.05219-0.35272 0.06495-0.22953 0.17414-0.44441 0.24306-0.67278 0.16708-0.55365 0.08859-1.1465 0.07087-1.7245-0.06061-1.9772 0.60536-3.8927 1.0867-5.8114 0.56774-2.2632 0.88526-4.5891 0.94494-6.9217-0.18406 1.1012-0.49381 2.1814-0.92132 3.2128-0.5058 1.2203-1.1731 2.3667-1.7245 3.5672-0.58595 1.2756-1.0471 2.6702-0.87407 4.0632 0.04641 0.37368 0.13816 0.74327 0.14058 1.1198 0.0012 0.18827-0.02038 0.37796-0.07988 0.55658-0.0595 0.17863-0.15812 0.34615-0.29694 0.47334-0.08854 0.08112-0.19416 0.14576-0.31059 0.17512-0.11643 0.02936-0.24408 0.02153-0.35086-0.03338-0.09983-0.05134-0.17701-0.14135-0.22334-0.2436-0.04633-0.10225-0.06324-0.21616-0.06063-0.32839 0.0052-0.22445 0.08547-0.43921 0.14223-0.65643 0.21594-0.82647 0.09309-1.7002 0.16536-2.5513 0.08248-0.9713 0.41919-1.9046 0.83458-2.7865 0.4154-0.88186 0.91132-1.7236 1.3388-2.5997 0.49575-1.0161 0.8986-2.0773 1.2048-3.1656 0.93252-3.3143 0.95537-6.8141 0.77958-10.253-0.0944-1.8466-0.24411-3.6903-0.44885-5.5279z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m35.545-27.473c-0.72204 1.6239-1.3766 3.2778-1.9615 4.9559-2.792 8.0108-3.9749 16.645-2.8755 25.057 0.84422 6.4598 2.9988 12.662 4.8466 18.909 1.0007 3.3834 1.9143 6.7926 2.7395 10.223l1.6704-0.26727c-0.30644-2.8198-0.50708-5.651-0.60136-8.4858-0.1274-3.831-0.06047-7.6684 0.20045-11.493l-1.8041-38.754\" fill=\"url(#linearGradient2264)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m35.63-27.662c-0.43263 1.7113-0.85026 3.4263-1.2528 5.1449-1.9247 8.2165-3.5127 16.663-2.6393 25.057 0.67253 6.4631 2.7818 12.674 4.6104 18.909 0.99288 3.3857 1.9064 6.7946 2.7395 10.223l1.6704-0.26727c-0.30644-2.8198-0.50708-5.651-0.60136-8.4858-0.1274-3.831-0.06047-7.6684 0.20045-11.493l-1.8041-38.754\" fill=\"url(#linearGradient2266)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m35.58-26.827c-0.04258-1.0944 0.10505-2.196 0.43431-3.2406 0.10678-0.33878 0.23437-0.67526 0.43431-0.96885 0.37696-0.55351 1.0052-0.92084 1.669-1.0093s1.3543 0.09484 1.9058 0.47481c0.5525 0.38069 0.96689 0.95433 1.1662 1.595 0.19934 0.64065 0.18447 1.3441-0.03034 1.9797-0.18329 0.54237-0.51022 1.0355-0.93846 1.4154-0.42823 0.37997-0.95674 0.64589-1.5171 0.76332-0.56033 0.11743-1.1511 0.0861-1.6959-0.08995-0.54476-0.17604-1.0422-0.49638-1.4278-0.91951z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m37.217-28.498c-0.24806 2.0598-0.49305 4.12-0.73499 6.1806-0.72169 6.1465-1.4173 12.323-1.2027 18.508 0.2099 6.0487 1.2988 12.076 3.3409 17.773 0.93946 2.6211 2.0783 5.1699 2.94 7.8176 0.94431 2.9015 1.551 5.9127 1.8041 8.9535l2.0045 0.26727 0.53454-45.235-3.675-14.934\" fill=\"url(#linearGradient2266)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m51.783-27.93c0.4784 3.2057 0.94613 6.4129 1.4032 9.6217 0.50801 3.5666 1.004 7.1575 0.86862 10.758-0.19844 5.2757-1.7424 10.393-3.0736 15.502-1.6869 6.4742-3.0479 13.033-4.0759 19.644-0.24322-4.9916-0.53278-9.9809-0.86863-14.967-0.60843-9.0332-1.3597-18.208 0.53454-27.061 1.0132-4.7357 2.7794-9.3094 5.2118-13.497z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m42.429-18.642c0.28042 1.1837 0.5321 2.3743 0.75474 3.5702 0.98493 5.2907 1.3994 10.683 1.3229 16.064-0.06655 4.6818-0.5031 9.3514-0.61421 14.032-0.08038 3.3865 0.0097 6.7754 0.18899 10.158 0.13101 2.4719 0.3153 4.9712 1.0867 7.3233 0.33887 1.0333 0.79386 2.055 0.82682 3.1419 0.0212 0.69904-0.13452 1.4021-0.03574 2.0945 0.04939 0.34618 0.16572 0.68893 0.38042 0.96494 0.2147 0.27601 0.53522 0.4794 0.88375 0.50774 0.23311 0.01896 0.46965-0.04039 0.67449-0.15326 0.20485-0.11287 0.37874-0.27767 0.51616-0.46692 0.27483-0.37851 0.40161-0.84345 0.4883-1.3031 0.26924-1.4277 0.20116-2.9019-0.0253-4.3369-0.40422-2.5616-1.3042-5.0241-1.7245-7.5831-0.59086-3.597-0.21955-7.271-0.09449-10.914 0.10646-3.1013 0.03307-6.2056-0.04725-9.3077-0.1553-5.998-0.33308-12.045 0.7087-17.954 0.29171-1.6545 0.67836-3.2923 1.1574-4.9027l-4.8899-6.0586z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m43.298 30.87c0.16619 1.5263 0.51467 3.0326 1.0357 4.4768 0.7536 2.0889 1.8602 4.0321 3.0402 5.9133 0.71725 1.1436 1.4637 2.2688 2.2384 3.3743l0.10022-0.96885c-0.36395-0.55628-0.70943-1.1246-1.0357-1.7038-1.998-3.5472-3.2641-7.5045-3.6962-11.553z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m39.823-29.6c0.2074 1.3318 0.45252 2.6577 0.73499 3.9756 0.50519 2.3571 1.1299 4.6885 1.8709 6.9824 0.13662-0.35987 0.3685-0.68308 0.66564-0.92778 0.29714-0.2447 0.65881-0.41031 1.0382-0.47539 0.6551-0.11237 1.3263 0.07346 1.9377 0.33409 1.0659 0.45433 2.0309 1.1436 2.8063 2.0045 0.65534-1.3896 1.1284-2.865 1.4032-4.3765 0.52453-2.8853 0.31576-5.9008-0.60136-8.6863l-10.357-0.10023z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m48.61-20.379c0.50868-0.71859 1.0098-1.4425 1.5034-2.1716 1.0029-1.4815 1.9797-2.9944 2.6727-4.6438 1.0915-2.5979 1.4428-5.5021 1.0023-8.2854l-4.1761 4.5436-0.63476 3.7752c-0.0015 0.94692-0.02374 1.8938-0.06682 2.8397-0.05997 1.3167-0.16026 2.6316-0.30068 3.9422z\" fill=\"url(#linearGradient2270)\" stop-color=\"#000000\" stroke=\"url(#linearGradient2272)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m47.941-36.716c0.47801 1.2186 0.7827 2.505 0.90204 3.8086 0.11682 1.276 0.05673 2.5607 0.06682 3.842 5e-3 0.63522 0.02729 1.2703 0.06682 1.9043 0.93946-0.32509 1.7709-0.95459 2.3386-1.7707 0.627-0.90126 0.92064-1.9872 1.4032-2.9734 0.35708-0.7298 0.82014-1.4097 1.1025-2.1716 0.52001-1.4031 0.38478-2.9493 0.46772-4.4434 0.05953-1.0722 0.23484-2.1354 0.30068-3.2072 0.11116-1.8097-0.09329-3.6383-0.60136-5.3788l-3.9088 4.1427-2.1382 6.2474z\" fill=\"url(#linearGradient2274)\" stop-color=\"#000000\" stroke=\"url(#linearGradient2276)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m35.814-38.988c0.1655 0.91932 0.29924 1.8444 0.4009 2.7729 0.18818 1.7188 0.26635 3.4496 0.23386 5.1783 0.80784 0.57095 1.5685 1.2086 2.2718 1.9043 0.5199 0.51432 1.0084 1.0603 1.462 1.634-0.29043-1.2913-0.43377-2.6156-0.42634-3.9392 0.01-1.7773 0.29269-3.5527 0.83522-5.2452z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m55.659-58.465c-0.05951 1.7077-0.15653 3.4141-0.29095 5.1175-0.24314 3.0811-0.60942 6.157-1.2459 9.1814-0.49295 2.3426-1.1528 4.6651-2.205 6.8154-0.21401 0.43737-0.44631 0.87052-0.75887 1.2439-0.31256 0.37336-0.71273 0.68658-1.1788 0.82745-0.51612 0.15598-1.0965 0.08514-1.5599-0.19042-0.46344-0.27556-0.80287-0.75162-0.91232-1.2796l-6.6817 0.53454-1.8709-0.46772-4.5945-6.9891c-0.69349-1.8779-1.3831-3.7572-2.0689-5.6379-2.1147-5.7994-4.1928-11.612-6.234-17.438l-1.0674-20.249 18.041-2.4722 8.6194 17.105z\" fill=\"url(#linearGradient2278)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m53.721-68.02c0.53138-0.74174 0.91924-1.5859 1.1359-2.4722 0.27127-1.1097 0.27353-2.2653 0.26727-3.4077-0.02513-4.5883-0.16346-9.177-0.06682-13.764 0.05822-2.7638 0.20577-5.5521 0.93544-8.2185 0.39389-1.4394 0.95571-2.8327 1.6704-4.1427l-11.426-7.684-7.6172-7.7508-5.3454-2.0713 0.26727 8.5526 9.3544 23.987 10.824 16.972z\" fill=\"url(#linearGradient2280)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m54.192-100.02c-0.92964 1.2745-1.6508 2.7008-2.1261 4.205-0.7222 2.2854-0.87048 4.7048-1.1339 7.0871-0.29328 2.652-0.73517 5.2876-1.3229 7.8903\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m26.931-90.336c0.49542 2.9797 0.90512 5.9737 1.2284 8.9769 0.35969 3.3413 0.61279 6.6965 1.1339 10.016 0.92092 5.8667 2.681 11.6 5.1966 16.979 1.4734 3.1509 3.2088 6.1922 4.3473 9.4789 0.78994 2.2804 1.2856 4.674 1.3229 7.0871 0.02757 1.7832-0.1958 3.5701-0.66146 5.2917 0.92035-1.0443 2.1525-1.8102 3.4963-2.1734 1.8983-0.513 4.0054-0.19694 5.6696 0.85045-0.31893-1.0067-0.63392-2.0146-0.94494-3.0238-1.0156-3.2952-1.9914-6.614-2.5513-10.016-0.74872-4.5498-0.74388-9.1931-0.47247-13.796 0.21164-3.5894 0.58405-7.1893 0.28348-10.772-0.34113-4.0666-1.5401-8.0059-2.7403-11.906-2.514-8.1696-5.0654-16.328-7.654-24.474l-8.032 1.0394z\" fill=\"url(#linearGradient2282)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m51.594-102.38c-1.0332 0.98697-1.9267 2.1199-2.6458 3.3545-0.79098 1.3581-1.3667 2.8282-2.0316 4.2522-0.8364 1.7914-1.817 3.5154-2.9293 5.1499\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m29.718-97.518c-0.36849 1.1364-0.15018 2.4463 0.56696 3.4018 0.19724 0.2628 0.43166 0.50376 0.56696 0.8032 0.16378 0.36245 0.16646 0.77552 0.14214 1.1725-0.02432 0.397-0.07243 0.79868-4e-4 1.1898 0.05266 0.28599 0.16877 0.56035 0.18899 0.85045 0.02071 0.29726-0.06056 0.59136-0.14697 0.87653-0.08641 0.28518-0.17964 0.57365-0.18376 0.8716-0.0035 0.25103 0.0572 0.50029 0.15482 0.73158 0.09762 0.23129 0.23157 0.44568 0.37823 0.64944 0.29332 0.40752 0.64072 0.77854 0.88435 1.2176 0.20651 0.37214 0.33242 0.78236 0.48624 1.1792s0.34297 0.79156 0.64769 1.0887c0.17697 0.17254 0.38711 0.30641 0.58458 0.45505 0.19747 0.14864 0.38743 0.31819 0.5021 0.53714 0.13689 0.26138 0.15512 0.57093 0.28281 0.83693 0.06385 0.133 0.15786 0.25587 0.28628 0.3285 0.06421 0.03631 0.13633 0.05939 0.20999 0.06336 0.07366 4e-3 0.14877-0.01154 0.2131-0.04762 0.07146-0.04008 0.12784-0.10446 0.16444-0.17776 0.03661-0.0733 0.05413-0.1552 0.05782-0.23705 0.0074-0.16369-0.03895-0.32438-0.08052-0.48288-0.11722-0.44693-0.20003-0.91181-0.14174-1.3702 0.05356-0.42118 0.22354-0.81761 0.33073-1.2284 0.28373-1.0874 0.12089-2.2331 0.04725-3.3545-0.05474-0.83354-0.05899-1.6695-0.09449-2.5041-0.0422-0.99211-0.12858-1.9841-0.0945-2.9766 0.03457-1.0066 0.19365-2.0088 0.47247-2.9766l-2.2679-10.016-3.4963-0.0945-0.66146 9.2132z\" fill=\"#e5ecef\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/><path d=\"m25.419-126.31c-0.161 0.82571-0.38227 1.6396-0.66146 2.4332-0.382 1.0858-0.87787 2.1582-0.94494 3.3073-0.06538 1.1202 0.28318 2.219 0.63783 3.2837 0.41873 1.257 0.85186 2.5091 1.2993 3.7561l1.5355-10.938z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m26.647-124.87c-0.57156 3.7882-1.0913 7.5842-1.5592 11.387-0.75705 6.1534-1.3782 12.327-1.6536 18.521-0.28553 6.4213-0.19776 12.874 0.61817 19.249 0.88326 6.9018 2.6175 13.683 4.9635 20.234 1.3216 3.6903 2.8363 7.3079 4.2903 10.948 0.58387 1.4618 1.1604 2.9325 1.9271 4.3072 0.76667 1.3747 1.7356 2.6602 2.9892 3.612 0.34979 0.26558 0.72163 0.50482 1.1221 0.68508 0.07755 0.03491 0.15733 0.06791 0.2417 0.07855 0.04219 0.0053 0.08529 0.0049 0.12694-0.0037 0.04165-0.0086 0.08183-0.02548 0.11564-0.05126 0.04114-0.03138 0.07198-0.07536 0.09047-0.12369 0.01849-0.04833 0.02491-0.10085 0.02186-0.1525-0.0061-0.1033-0.04909-0.20096-0.1005-0.29077-0.20021-0.34976-0.52692-0.60485-0.82682-0.87407-1.847-1.6581-2.8329-4.0454-3.754-6.3503-2.2936-5.7388-4.5494-11.5-6.374-17.405-1.6555-5.3575-2.9628-10.928-2.5997-16.524 0.24256-3.739 1.2248-7.3872 2.2744-10.984 1.5398-5.2767 3.2453-10.553 3.7788-16.024 0.51946-5.3269-0.09974-10.762-1.8041-15.836l-3.8882-4.4022z\" fill=\"url(#linearGradient2284)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m45.593-107.49c-0.87765 0.81641-1.6568 1.7386-2.3151 2.7403-0.48967 0.74506-0.91236 1.5331-1.4174 2.2679-0.46917 0.68252-1.0084 1.3169-1.6064 1.8899\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m39.971-113.77c-0.1019 1.2576-0.16494 2.5183-0.18899 3.7798-0.02571 1.3484-0.0097 2.7186-0.37798 4.016-0.22625 0.79698-0.59619 1.5529-1.0867 2.2206\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m29.333-122.08c0.36841 5.3185 1.2194 10.604 2.5391 15.769 2.076 8.1256 5.3199 15.96 9.6885 23.119 3.0805 5.0479 6.7107 9.7528 9.6217 14.9 1.7734 3.1359 3.2732 6.4265 4.4768 9.8222-0.06835-1.8286-0.17975-3.6556-0.33409-5.479-0.20126-2.3778-0.47646-4.755-1.0023-7.0826-1.1901-5.2684-3.6299-10.155-5.9467-15.034-1.9791-4.1678-3.883-8.3709-5.8131-12.562-2.0095-4.3631-4.0475-8.7133-6.0136-13.096-1.045-2.3296-2.0696-4.6683-3.0736-7.0158z\" fill=\"url(#linearGradient2286)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m34.868-83.06c0.84613 4.1523 1.6651 8.3102 2.4568 12.473 0.75484 3.969 1.4849 7.9427 2.2679 11.906 0.82366 4.1698 1.7057 8.3281 2.6458 12.473\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m37.318 28.297c0.83703-0.88244 1.8556-1.592 2.9734-2.0713 2.2528-0.9661 4.9058-0.9537 7.1495 0.03341 0.23826 0.77551 0.41714 1.5693 0.53454 2.372 0.10514 0.71891 0.161 1.445 0.16704 2.1716-1.0972-0.14776-2.2171-0.12513-3.3075 0.06682-1.2768 0.22477-2.5045 0.67874-3.675 1.2361-1.2694 0.60449-2.4797 1.3329-3.6081 2.1716 0.26705-1.1239 0.35758-2.2895 0.26727-3.4411-0.0676-0.86199-0.23616-1.716-0.50113-2.5391z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m37.384 40.191c1.3143-0.98896 2.5751-2.049 3.7752-3.1738 1.4996-1.4056 2.9025-2.9107 4.3765-4.3431 0.81402-0.79103 1.6496-1.5598 2.5057-2.3052 0.31207 0.67197 0.58011 1.3644 0.80181 2.0713 0.1415 0.4512 0.26414 0.90832 0.3675 1.3698-1.285 0.60878-2.49 1.3859-3.5747 2.3052-1.4063 1.1919-2.5997 2.6109-3.9088 3.9088-1.2083 1.1981-2.5174 2.2945-3.9088 3.2741 0.12927-0.66067 0.1178-1.3485-0.03341-2.0045-0.08805-0.382-0.22302-0.75316-0.4009-1.1025z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m40.792 40.057c1.3288 0.13855 2.6378 0.46579 3.8754 0.96885 1.8918 0.76895 3.6142 1.9517 5.0113 3.4411v1.0357c-1.1643-0.50971-2.3226-1.0332-3.4745-1.5702-0.8574-0.39973-1.7145-0.80827-2.6161-1.0948-0.90158-0.28648-1.8562-0.44872-2.7961-0.34182-1.0678 0.12144-2.0923 0.59792-2.8731 1.3364l0.03341-1.2361\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m48.881-29.246c0.11319 0.7835 0.19203 1.572 0.23624 2.3624 0.13536 2.4205-0.05589 4.859-0.56696 7.2288\" fill=\"none\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m39.489-32.44c0.77266-1.0493 1.8728-1.8537 3.107-2.2718 1.5223-0.51568 3.2334-0.43267 4.7106 0.20045 0.60785 0.26051 1.1936 0.62573 1.5702 1.1693 0.26362 0.38045 0.41281 0.83375 0.46349 1.2938 0.05068 0.46007 0.0055 0.92729-0.09599 1.3789-0.15889 0.7069-0.46146 1.3897-0.93544 1.9377-0.40245 0.46529-0.92491 0.82635-1.5034 1.0357-1.065 0.38536-2.2521 0.24506-3.3409-0.06682-0.53165-0.15229-1.0511-0.34374-1.5702-0.53454-0.6399-0.23521-1.297-0.47972-1.8041-0.93544-0.43477-0.39075-0.73625-0.9272-0.84398-1.5017-0.10773-0.57455-0.02106-1.1838 0.24262-1.7055z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/></g></g><use transform=\"matrix(-1 0 0 1 116.03 0)\" width=\"100%\" height=\"100%\" xlink:href=\"#path1100\"/><path id=\"path1100\" d=\"m58.035-168.11-27.967 2.1382 1.2695 28.598-5.5458 8.0849c-0.36244 0.70149-0.56927 1.4828-0.60136 2.2718-0.02222 0.54645 0.0413 1.1056 0.26727 1.6036 0.28208 0.6217 0.79551 1.1064 1.3269 1.535s1.0984 0.82284 1.5462 1.3382c0.82648 0.9511 1.1734 2.2247 1.8709 3.2741 0.83305 1.2534 2.1229 2.1257 3.433 2.8664 1.3101 0.74068 2.6862 1.3911 3.8501 2.3453 1.936 1.5874 3.1351 3.8863 4.8109 5.7463 1.8982 2.1068 4.3632 3.6044 6.5481 5.4122 1.6948 1.4023 3.2863 3.0345 5.3454 3.8086 0.83295 0.31316 1.7181 0.47382 2.6059 0.53454 0.43243 0.02958 0.86645 0.03579 1.2995 0.0186\" fill=\"url(#linearGradient1126)\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m56.216-201.82c0.15571 0.0545 0.31358 0.10276 0.4731 0.14477 0.84551 0.22266 2.2942 0.22266 3.1397 0 0.15952-0.042 0.31738-0.0903 0.4731-0.14477 0.82532-0.28864 1.3452-2e-3 1.2655 0.87151-0.50675 5.5479-0.80352 11.115-0.88947 16.685-0.01353 0.87664-0.02524 2.2981-0.02615 3.1749-0.0049 4.6816 0.13907 9.3634 0.43164 14.036 0.05479 0.87504-0.37706 2.1064-0.97158 2.7508l-0.77635 0.84146a1.4647 1.4647 0 0 1-2.153 0l-0.77635-0.84146c-0.59452-0.64439-1.0264-1.8758-0.97158-2.7508 0.29256-4.6725 0.43654-9.3542 0.43164-14.036-9.19e-4 -0.87675-0.01263-2.2982-0.02616-3.1749-0.08595-5.5704-0.38272-11.137-0.88947-16.685-0.07975-0.87311 0.44015-1.1601 1.2655-0.8715z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><g transform=\"translate(-.50283)\"><path id=\"path1304\" d=\"m60.24-229.57-12.38 0.1954-4.1569-4.4004c0.31965-3.1588 0.24007-6.3577-0.23624-9.4966-0.26339-1.7358-0.64744-3.4533-0.85044-5.1972-0.40092-3.4441-0.05368-7.0667 1.6064-10.111 1.6138-2.9592 4.3933-5.1949 7.5123-6.4728 2.2218-0.91033 4.6297-1.3634 7.0304-1.3229\" fill=\"#fde8cc\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/><use transform=\"matrix(-1 0 0 1 117.52 0)\" width=\"100%\" height=\"100%\" fill=\"#fde8cc\" stop-color=\"#000000\" style=\"font-variation-settings:normal\" xlink:href=\"#path1304\"/></g><path d=\"m43.29-252.46 14.655 13.229 15.284-13.229c0.30729-4.1053-1.1655-8.3133-3.9657-11.331-2.8003-3.0177-6.8866-4.8004-11.003-4.8004s-8.2031 1.7828-11.003 4.8004c-2.8003 3.0177-4.273 7.2257-3.9657 11.331z\" clip-path=\"url(#clipPath1349)\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><g transform=\"translate(-.50283)\" fill=\"none\" stroke=\"#e7be9b\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\"><path d=\"m60.24-229.57-12.38 0.1954-4.1569-4.4004c0.31965-3.1588 0.24007-6.3577-0.23624-9.4966-0.26339-1.7358-0.64744-3.4533-0.85044-5.1972-0.40092-3.4441-0.05368-7.0667 1.6064-10.111 1.6138-2.9592 4.3933-5.1949 7.5123-6.4728 2.2218-0.91033 4.6297-1.3634 7.0304-1.3229\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/><path d=\"m57.284-229.57 12.38 0.1954 4.1569-4.4004c-0.31965-3.1588-0.24007-6.3577 0.23624-9.4966 0.26339-1.7358 0.64744-3.4533 0.85044-5.1972 0.40092-3.4441 0.05368-7.0667-1.6064-10.111-1.6138-2.9592-4.3933-5.1949-7.5123-6.4728-2.2218-0.91033-4.6297-1.3634-7.0304-1.3229\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/></g><g transform=\"translate(-.11749)\"><use transform=\"matrix(-1 0 0 1 116.75 0)\" width=\"100%\" height=\"100%\" xlink:href=\"#g2165\"/><g id=\"g2165\"><path d=\"m-8.9769-94.872c0.10259 0.82126-0.010048 1.6529 1.1e-6 2.4805 0.011264 0.92767 0.17656 1.8454 0.30711 2.764 0.14481 1.0188 0.2473 2.0437 0.30711 3.0711h-6.213l0.42522-8.3863 5.0554-0.54334c0.052768 0.20186 0.092254 0.40718 0.11812 0.61421z\" fill=\"url(#linearGradient2167)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-13.489-80.792c-0.0077 0.77891 0.25482 1.5579 0.73233 2.1734 0.46048 0.59348 1.1177 1.0316 1.8426 1.2284 0.09054-0.91966 0.16143-1.8413 0.21261-2.764 0.20445-3.6857 0.09367-7.3889-0.33073-11.056l-3.4727-0.07087 0.37798 8.6226 0.63784 1.8663z\" fill=\"url(#linearGradient2167)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-13.158-94.045c1.0288 0.55206 1.9665 1.2734 2.764 2.1261 0.9823 1.0504 1.76 2.325 2.0552 3.7325 0.29345 1.3987 0.10124 2.8529-0.18899 4.2522-0.27393 1.3208-0.63496 2.6276-0.77958 3.9688-0.095582 0.88639-0.095582 1.7831 0 2.6695-0.44371-0.42158-0.79321-0.94177-1.0158-1.5119-0.46359-1.1873-0.36281-2.5067-0.42522-3.7798-0.05196-1.0599-0.22149-2.11-0.33073-3.1655-0.12234-1.1822-0.1835-2.4208-0.77958-3.449-0.43862-0.7566-1.157-1.3467-1.9844-1.63l-0.07087-3.3782z\" fill=\"url(#linearGradient2167)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-20.279-80.916c-0.35412 1.6203-0.39972 3.3074-0.13364 4.9445 0.06241 0.38397 0.14204 0.76843 0.13521 1.1574-0.0068 0.38895-0.1096 0.79117-0.36907 1.081-0.16853 0.18825-0.39661 0.32284-0.53454 0.53454-0.10338 0.15867-0.14815 0.35462-0.12391 0.54244 0.02424 0.18782 0.11727 0.36599 0.25755 0.49322-0.33094 0.14974-0.6001 0.43114-0.73499 0.7684-0.09617 0.24045-0.12504 0.50318-0.12286 0.76214 0.0022 0.25896 0.03438 0.51659 0.05604 0.77466 0.06954 0.82846 0.02895 1.6731-0.20045 2.4722-0.17307 0.60285-0.45056 1.1711-0.63476 1.7707-0.14267 0.46437-0.22887 0.95474-0.16704 1.4366 0.03874 0.30193 0.13506 0.59763 0.13364 0.90204-0.0015 0.32837-0.11655 0.64438-0.17298 0.96787-0.02821 0.16175-0.04177 0.32759-0.01889 0.49018 0.02288 0.16259 0.08402 0.32244 0.19186 0.44624 0.0999 0.11468 0.23779 0.19485 0.386 0.22898 0.14821 0.03414 0.30601 0.02269 0.44921-0.02853 0.2178-0.07791 0.39534-0.24298 0.5308-0.43047 0.13546-0.18749 0.23383-0.39858 0.33782-0.6052 0.33979-0.6751 0.75308-1.3304 0.90203-2.0713 0.14548-0.72366 0.02742-1.4802 0.16704-2.205 0.19587-1.0168 0.87437-1.8695 1.2361-2.8397 0.26107-0.70022 0.35348-1.4627 0.26727-2.205 0.2321-0.19094 0.40818-0.44918 0.50113-0.73499 0.1007-0.30963 0.10386-0.64282 0.07528-0.96715-0.02857-0.32433-0.08781-0.64564-0.10869-0.97056-0.07623-1.1863 0.35775-2.3366 0.70158-3.4745 0.36303-1.2014 0.6314-2.4315 0.80181-3.675l-3.8086 0.43431z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-16.504-79.212c-0.02453 1.5931 0.17484 3.1878 0.06682 4.7774-0.08214 1.2089-0.34124 2.4-0.43431 3.6081-0.06934 0.90008-0.04617 1.805-0.10023 2.7061-0.05223 0.87062-0.17641 1.7356-0.23386 2.6059-0.05798 0.87818-0.04786 1.7593-0.03341 2.6393 0.0037 0.2257 0.0087 0.45683 0.08982 0.66748 0.04056 0.10533 0.10037 0.20426 0.1817 0.28252 0.08133 0.07826 0.18491 0.13508 0.29643 0.15248 0.11431 0.01784 0.23318-0.0063 0.33647-0.05848 0.10328-0.05214 0.19155-0.13119 0.26327-0.22197 0.14344-0.18157 0.22037-0.40518 0.3023-0.62158 0.22117-0.58415 0.49612-1.1474 0.70158-1.7373 0.42604-1.2231 0.54316-2.5277 0.73499-3.8086 0.13105-0.87504 0.29828-1.7446 0.50113-2.6059 0.17287-0.2207 0.30894-0.47016 0.4009-0.73499 0.17006-0.48975 0.18675-1.0209 0.1385-1.5371-0.04825-0.51618-0.15922-1.0242-0.23873-1.5365-0.29183-1.8802-0.15367-3.8259 0.4009-5.6461l-3.3409 0.23386c-0.01798 0.27808-0.02912 0.55659-0.03341 0.83522z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-16.47-81.35c-0.05308 0.21628-0.10887 0.43344-0.12332 0.65566-0.01445 0.22223 0.01499 0.45271 0.12333 0.64727 0.07701 0.1383 0.19173 0.25399 0.32412 0.34078s0.28212 0.14533 0.43625 0.18142c0.30826 0.07217 0.62969 0.0554 0.94542 0.03191 0.31816-0.02367 0.64063-0.05484 0.9383-0.16964 0.14883-0.0574 0.29042-0.13576 0.4119-0.23915 0.12148-0.10339 0.2225-0.23237 0.28488-0.37918 0.08967-0.21101 0.09624-0.44968 0.06041-0.67614-0.03583-0.22645-0.11196-0.44422-0.18358-0.66201-0.73833-2.2449-1.0291-4.6361-0.85045-6.9926l-1.5355-0.37798c0.06105 2.5683-0.21942 5.1446-0.83172 7.6396z\" fill=\"url(#linearGradient2167)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-24.889-80.615c-0.01226 1.2537-0.25112 2.5049-0.70158 3.675-0.31408 0.8158-0.73039 1.5922-1.2361 2.3052 0.07288 0.33349 0.03725 0.68981-0.10023 1.0023-0.16105 0.36602-0.45292 0.66436-0.60136 1.0357-0.10434 0.26101-0.13272 0.54622-0.13651 0.82728-0.0038 0.28107 0.01587 0.56235 0.0029 0.84315-0.0383 0.82738-0.35909 1.6185-0.7684 2.3386-0.23219 0.40848-0.49654 0.80548-0.63714 1.2538-0.0703 0.22416-0.10845 0.46028-0.09172 0.69461 0.01673 0.23433 0.09016 0.46702 0.22773 0.65746 0.08158 0.11292 0.18533 0.21032 0.30552 0.28074 0.1202 0.07042 0.25691 0.11348 0.39606 0.12016 0.26362 0.01266 0.52111-0.10589 0.72082-0.27842s0.34856-0.39585 0.48189-0.62361c0.37583-0.642 0.64708-1.3391 0.90204-2.0379 0.30181-0.82729 0.59235-1.6792 1.1359-2.372 0.13746-0.17521 0.28984-0.33842 0.42462-0.5157 0.13478-0.17728 0.25302-0.3716 0.31037-0.58678 0.06126-0.22985 0.04941-0.4786-0.03341-0.70158 0.3818-0.15209 0.67894-0.50091 0.7684-0.90204 0.06213-0.27862 0.02874-0.56852-0.0037-0.85213-0.03244-0.28361-0.06327-0.57422 0.0037-0.85171 0.09509-0.39396 0.37397-0.71325 0.56795-1.0691 0.3913-0.71777 0.42944-1.5663 0.56795-2.372 0.3172-1.8451 1.217-3.5855 2.5391-4.9111l-3.107-0.03341-1.9377 3.0736z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-19.537-86.179c-0.49021 1.1779-0.78673 2.4361-0.87407 3.7089-0.02524 0.36785-0.03295 0.73976 0.0305 1.103 0.06346 0.36321 0.2019 0.71967 0.44197 0.99952 0.21936 0.2557 0.51876 0.43947 0.84302 0.53088 0.32426 0.09141 0.67216 0.09167 0.99961 0.01246 0.38823-0.09391 0.74872-0.2997 1.027-0.58626s0.47335-0.65294 0.5558-1.0438c0.20584-1.1247 0.34789-2.261 0.42523-3.4018 0.10611-1.5651 0.09029-3.1384-0.04725-4.7011l-1.1339-0.11812z\" fill=\"url(#linearGradient2167)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-27.899-87.974c0.95686 0.28644 1.9027 0.60961 2.8348 0.96856 1.1159 0.42972 2.2119 0.91074 3.2837 1.441l2.4096-3.9215-6.3783-0.59059z\" fill=\"url(#linearGradient2167)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-25.041-80.816c0.18347-1.0637 0.51863-2.1011 0.99219-3.0711 0.5971-1.223 1.4071-2.3287 2.2442-3.4018 0.74674-0.95726 1.5188-1.8948 2.3151-2.8112l2.386 1.0394c-0.92163 1.7457-2.0951 3.3581-3.4727 4.7719-1.3199 1.3547-2.827 2.5268-4.4648 3.4727z\" fill=\"url(#linearGradient2167)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-26.222-89.391c1.1265 0.25011 2.2733 0.4083 3.4254 0.47247 1.1799 0.06572 2.3775 0.03113 3.5201-0.27024 1.1427-0.30137 2.2333-0.88572 2.9999-1.785 0.55499-0.65099 0.92732-1.4561 1.0639-2.3005 0.13661-0.84448 0.0371-1.7259-0.28435-2.5186l-5.4807 1.3938z\" fill=\"url(#linearGradient2167)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-25.206-93.573c0.55319-0.90388 1.1864-1.7588 1.8899-2.5513 0.98399-1.1087 2.1056-2.0951 3.3309-2.9293l4.7956 0.37798v1.5828z\" fill=\"url(#linearGradient2167)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-29.132-87.397c0.44318-0.96944 0.91111-1.9276 1.4032-2.8731 0.49031-0.9422 1.0079-1.877 1.6685-2.7088 0.66056-0.83175 1.4741-1.5618 2.4408-2.0019 1.1132-0.5068 2.3636-0.60521 3.5413-0.93544 1.4756-0.41374 2.8444-1.2025 3.9422-2.2718l0.53454 2.8397c-0.93989 0.57856-1.8442 1.2149-2.7061 1.9043-1.0382 0.83039-2.033 1.7492-3.2406 2.3052-0.54347 0.2502-1.1192 0.42137-1.6819 0.62468-0.5627 0.20331-1.1208 0.44344-1.5921 0.8119-0.33541 0.26216-0.6194 0.58342-0.93544 0.86863-0.9244 0.8342-2.1322 1.3484-3.3743 1.4366z\" fill=\"url(#linearGradient2167)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-29.057-87.879c-0.33826 0.01445-0.6715 0.13108-0.94494 0.33073-0.44321 0.3236-0.71576 0.86869-0.7087 1.4174-0.29867-0.09942-0.64418-0.04487-0.8977 0.14174-0.16458 0.12115-0.28808 0.29106-0.3824 0.47236-0.09431 0.1813-0.16152 0.37518-0.23181 0.56708-0.16558 0.45202-0.35455 0.9048-0.66146 1.2757-0.18247 0.2205-0.40487 0.40979-0.55501 0.65346-0.07507 0.12183-0.13114 0.2574-0.14716 0.3996-0.01602 0.1422 0.01016 0.2915 0.08796 0.4116 0.05918 0.09137 0.14644 0.16326 0.24493 0.20964 0.09849 0.04638 0.20786 0.06779 0.31672 0.06838 0.21772 0.0012 0.42848-0.0791 0.61952-0.18353 0.46487-0.25414 0.83594-0.64942 1.2757-0.94494 0.5149-0.34603 1.1121-0.5478 1.6536-0.85045 0.80323-0.4489 1.4678-1.1108 2.0552-1.819 0.43986-0.53024 0.84275-1.0911 1.2048-1.6773l-2.9293-0.47247z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-12.127-78.377c0.45895 0.69312 0.67466 1.544 0.60136 2.372-0.01691 0.19108-0.04867 0.38093-0.05603 0.57261-0.0074 0.19168 0.01088 0.38829 0.08944 0.56328 0.07553 0.16824 0.20645 0.31106 0.3675 0.4009-0.1538 0.44255-0.12932 0.94428 0.06682 1.3698 0.16737 0.36305 0.45039 0.66549 0.60136 1.0357 0.16177 0.39667 0.15942 0.83858 0.14932 1.2668-0.0101 0.42827-0.02386 0.86798 0.11795 1.2722 0.10437 0.29753 0.28767 0.5596 0.46081 0.82312 0.17314 0.26351 0.34095 0.53919 0.40782 0.84732 0.032245 0.14858 0.040243 0.30177 0.075355 0.4497 0.017556 0.07397 0.042013 0.14671 0.07851 0.2134 0.036496 0.06669 0.085401 0.12731 0.14681 0.17212 0.068324 0.04985 0.15097 0.07898 0.23519 0.08672 0.084221 0.0077 0.16988-0.0055 0.24919-0.0349 0.15863-0.05872 0.28854-0.1796 0.38424-0.31908 0.1318-0.19211 0.20392-0.41911 0.25108-0.64726 0.04716-0.22815 0.07109-0.46056 0.11641-0.68908 0.046355-0.23372 0.11517-0.46403 0.13363-0.70158 0.02758-0.35486-0.058482-0.70867-0.16591-1.048-0.10743-0.33933-0.23732-0.6733-0.30181-1.0233-0.09458-0.51335-0.045118-1.0405-0.043281-1.5625 0.00184-0.52198-0.051339-1.0661-0.32421-1.5111-0.060102-0.09801-0.13096-0.19152-0.16704-0.30068-0.027434-0.083-0.033469-0.17193-0.027474-0.25914 6e-3 -0.08721 0.023729-0.17315 0.042892-0.25844 0.038328-0.17057 0.082817-0.34612 0.051399-0.51809-0.022771-0.12465-0.084494-0.23922-0.15867-0.34195-0.074176-0.10273-0.16116-0.19544-0.24223-0.29281-0.57909-0.69552-0.84141-1.6449-0.70158-2.5391l-2.4388 0.60136z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-17.423-90.354c-2.9239 4.5233-5.5272 9.2538-7.7837 14.144-0.63381 1.3737-1.2403 2.76-1.819 4.1577l2.1025-3.0711-0.07087 3.1183c1.0495-3.1749 2.3133-6.2789 3.7798-9.284 0.69529-1.4248 1.4361-2.8273 2.2206-4.205 0.68374-1.2007 1.4007-2.3825 2.1497-3.5435-0.65414 1.9198-1.1987 3.8769-1.63 5.8586-0.38727 1.7792-0.68316 3.5769-1.0394 5.3625-0.46297 2.3204-1.0278 4.6199-1.4647 6.9453-0.20031 1.0663-0.37362 2.1377-0.51972 3.2128 0.43036-0.81244 0.83229-1.6399 1.2048-2.4805 0.27614-0.62308 0.53611-1.2533 0.77958-1.8899-0.17746 0.66627-0.30395 1.3461-0.37798 2.0316-0.0957 0.88615-0.10362 1.7818-0.02363 2.6695 0.49194-1.3152 0.85643-2.6781 1.0867-4.0632 0.29365-1.7666 0.36859-3.5619 0.59059-5.3389 0.29071-2.327 0.83283-4.6161 1.4647-6.8744 0.41074-1.4682 0.8598-2.9256 1.3465-4.3704-0.08974 1.9909-0.137 3.9838-0.14174 5.9767-0.0044 1.8444 0.02742 3.6936-0.16536 5.5279-0.21376 2.0339-0.70216 4.0334-0.87407 6.0712-0.10009 1.1865-0.09217 2.3821 0.02362 3.5672 0.12091-1.1656 0.37507-2.3172 0.75595-3.4254 0.16547-0.48143 0.35476-0.95467 0.56696-1.4174 0.09221 0.65187 0.17098 1.3056 0.23624 1.9608 0.07124 0.71522 0.12638 1.432 0.16536 2.1497 0.30465-0.83196 0.51893-1.697 0.63783-2.575 0.23596-1.7423 0.09566-3.51 0.07087-5.268-0.0291-2.0636 0.10169-4.1259 0.14174-6.1894 0.04129-2.1272-0.01391-4.2562-0.16536-6.3783 0.21775 1.1472 0.46195 2.2894 0.73233 3.4254 0.4662 1.9587 1.01 3.8979 1.5592 5.835 0.32984 1.1635 0.66169 2.3265 0.96856 3.4963 0.26947 1.0272 0.51964 2.0594 0.75595 3.0947 0.14711 0.64452 0.28886 1.2903 0.42522 1.9371 0.16212-0.84683 0.20993-1.7155 0.14174-2.575-0.039769-0.50124-0.11884-0.99936-0.23624-1.4883 0.082332 0.60212 0.24988 1.1925 0.49609 1.7481 0.1963 0.44297 0.44245 0.86382 0.73233 1.252-0.019688-0.9202-0.12261-1.8386-0.30711-2.7403-0.23044-1.1263-0.58696-2.2228-0.96856-3.3073-0.25547-0.72601-0.52252-1.4479-0.77958-2.1734-0.42425-1.1973-0.82133-2.4045-1.2757-3.5908-0.35654-0.93088-0.74897-1.8508-1.0158-2.8112-0.36864-1.3268-0.49171-2.7214-0.36114-4.0923l-3.4895-1.223-0.62632 0.83295z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m-16.154-95.189c-0.462 0.63813-0.81374 1.3559-1.035 2.112-0.25755 0.88007-0.33756 1.8117-0.23386 2.7228 0.61078-0.14828 1.253-0.16548 1.8709-0.05011 0.84142 0.15712 1.6349 0.56267 2.2551 1.1526-0.02543-0.89124-0.0031-1.7838 0.06682-2.6727 0.04838-0.61492 0.11954-1.228 0.21328-1.8377\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m53.641-220.88 3.889 0.15225c0.0261 1.9601 0.0038 3.9209-0.06682 5.8799-0.10093 2.799-0.30165 5.6026-0.83522 8.3522-0.23628 1.2176-0.53753 2.4226-0.90203 3.6081l-1.7166-0.91526c-0.14926-1.8735-0.15618-3.7583-0.02069-5.6328 0.10795-1.4935 0.30613-2.9806 0.3675-4.4768 0.09601-2.3408-0.14564-4.6952-0.71514-6.9676z\" fill=\"url(#linearGradient948)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m44.868-245.15-1.2361-0.50113v2e-5c-0.31446-0.52032-0.82322-0.92006-1.4032-1.1025-0.19198-0.0604-0.39267-0.0978-0.59386-0.0924-0.20119 5e-3 -0.40323 0.0551-0.57545 0.1592-0.16912 0.10226-0.30483 0.254-0.40689 0.42325s-0.17198 0.35603-0.22787 0.5456c-0.17537 0.5948-0.21626 1.2195-0.26727 1.8375-0.06157 0.74605-0.1389 1.5028 0 2.2384 0.1433 0.75892 0.50908 1.4546 0.86863 2.1382 0.39474 0.75046 0.79523 1.5272 0.86862 2.372 0.03066 0.35285 3e-3 0.70882 0.03344 1.0617 0.03047 0.35286 0.12748 0.71579 0.36746 0.97626 0.12249 0.13294 0.2777 0.23358 0.44441 0.30346 0.16671 0.0699 0.34492 0.10974 0.52444 0.13085 0.60203 0.0708 1.2271-0.0735 1.7373-0.40091\" fill=\"#fde8cc\" stop-color=\"#000000\" stroke=\"#e7be9b\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m49.989-237.39 3.2213-1.6863c0.65089 1.2948 1.2715 2.6049 1.8612 3.9288 0.21705 0.48727 0.4299 0.97641 0.63854 1.4674l-2.0044 2.7927c-0.61856-1.4789-1.3618-2.9056-2.2191-4.2601-0.48872-0.77208-1.0145-1.5207-1.5749-2.2425z\" fill=\"url(#linearGradient1596)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".49176\" style=\"font-variation-settings:normal\"/><path d=\"m56.72-243.04 1.7954-0.68508c0.04464 1.1348 0.0051 2.2728-0.11812 3.4018-0.41587 3.8096-1.8023 7.5094-3.9924 10.654l-1.4883 1.1339c0.10267-1.1786 0.25245-2.3532 0.44885-3.5199 0.63733-3.786 1.768-7.4888 3.3545-10.985z\" fill=\"url(#linearGradient1241)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m43.184-248.9c-0.0669-2.138 0.22173-4.2866 0.85044-6.3311 0.32346 0.11356 0.69598 0.0781 0.99219-0.0945 0.13802-0.0804 0.2586-0.18788 0.39524-0.27061 0.06832-0.0414 0.14094-0.0766 0.21806-0.0974 0.07712-0.0208 0.15905-0.0267 0.23715-0.01 0.10222 0.0219 0.19391 0.0822 0.26382 0.15991 0.06991 0.0777 0.11916 0.17226 0.15459 0.27061 0.07085 0.19671 0.08814 0.40875 0.14856 0.60891 0.08631 0.28594 0.2625 0.54403 0.49736 0.72857 0.23486 0.18453 0.52731 0.29466 0.82555 0.31087l-1.1812 8.8824c-0.70071 0.0167-1.4038-0.0712-2.0789-0.25986-0.29763-0.0832-0.58982-0.18584-0.87407-0.3071-0.26059-1.1795-0.41107-2.3834-0.44885-3.5908z\" fill=\"url(#linearGradient1302)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m46.066-245.92c0.22484-1.8421 0.44532-3.6848 0.66146-5.5279 0.31974-2.7267 0.67332-5.5752 2.2206-7.843 0.52988-0.77664 1.2047-1.4752 2.0422-1.9023 0.41877-0.21358 0.87526-0.35683 1.3432-0.40164 0.46795-0.0448 0.94732 0.0102 1.3865 0.17786 0.87165 0.33274 1.5294 1.086 1.9472 1.9202 0.41783 0.83421 0.62578 1.7548 0.84033 2.6628 0.5724 2.4224 1.2197 4.842 1.4174 7.3233 0.15597 1.9575 0.02824 3.9374-0.37798 5.8586\" fill=\"url(#linearGradient2422)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m21.248-175.33c0.82466 3.1462 1.671 6.2867 2.5391 9.4212 0.67931 2.4531 1.3719 4.9025 2.0713 7.3499 1.0891 3.8108 2.1985 7.6331 2.7395 11.559 0.27219 1.9754 0.39639 4.0072-0.06682 5.9468-0.36719 1.5375-1.0899 2.9623-1.782 4.3835-0.69209 1.4212-1.3666 2.877-1.6257 4.4364-0.23298 1.4024-0.11719 2.8614 0.33409 4.2095 1.5288 1.9912 3.2053 3.869 5.0113 5.6127 1.4568 1.4066 3.0155 2.7382 4.8109 3.675 1.2952 0.6758 2.7324 1.1419 4.1928 1.1025 0.74836-0.0202 1.4929-0.17365 2.1883-0.45102-0.14746-0.97764-0.31455-1.9523-0.50113-2.9233-0.32902-1.7122-0.71901-3.4149-0.93544-5.1449-0.49051-3.9208-0.0808-7.8907 0.26727-11.827 0.33209-3.7553 0.60784-7.5322 0.33409-11.292-0.18381-2.5245-0.61442-5.0261-0.80181-7.5504-0.14691-1.9789-0.14392-3.9662-0.26727-5.9468-0.4593-7.3746-2.7012-14.632-6.4813-20.981l-13.23 2.6727 1.2027 5.7463z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m24.899-213.08c3.4085-0.81784 6.9305-1.0222 10.394-1.5592 2.8453-0.44106 5.6948-1.1225 8.221-2.5041 2.4212-1.3241 4.4929-3.2808 5.9531-5.6224l1.8426 19.631-29.116-5.8276 1.4774-3.7953c0.40672-0.11628 0.81595-0.22382 1.2273-0.32252z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m22.301-212.04c0.18707-0.36984 0.54676-0.6477 0.95185-0.73531 0.29467-0.0637 0.60238-0.0305 0.89656 0.0354s0.58034 0.16405 0.8741 0.23187c0.89349 0.20629 1.8245 0.12672 2.7395 0.0668 1.938-0.1269 3.8933-0.15966 5.8131 0.13363 2.8917 0.44177 5.6169 1.6078 8.2854 2.8063 2.1124 0.94878 4.2133 1.9251 6.2734 2.9828 0.5194 0.26667 1.0399 0.54003 1.5986 0.70974 0.94545 0.28721 1.9663 0.2673 2.9024 0.58381 0.38949 0.1317 0.77104 0.32996 1.0273 0.65147 0.17735 0.22249 0.28593 0.49388 0.34644 0.7719 0.06051 0.27801 0.07496 0.56393 0.07952 0.84842 0.01093 0.68144-0.03381 1.3638-0.13363 2.0379l-31.237-8.5526-0.41731-2.5722z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-17.812-103.33c1.3364-3.5274 2.4882-7.1247 3.449-10.772 0.56831-2.1574 1.07-4.3329 1.7009-6.4728 0.99467-3.374 2.3096-6.6536 3.9215-9.7801l15.922 3.3073-14.647 28.301-4.583 2.3624-5.1972-2.7876z\" fill=\"url(#linearGradient1113)\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\"/><path d=\"m-17.812-103.33c-0.15286 0.53499-0.35065 1.0571-0.59059 1.5592-0.65318 1.3666-1.6229 2.5807-2.8112 3.5199 0.55675 0.06257 1.1205 0.06257 1.6773 0 0.52444-0.05893 1.0491-0.17335 1.5747-0.1269 0.26285 0.02322 0.52453 0.08785 0.75656 0.21349 0.23204 0.12564 0.43339 0.31491 0.55076 0.55125 0.11907 0.23976 0.14723 0.51513 0.13858 0.78268-0.0086 0.26756-0.052 0.53285-0.06771 0.80009-0.02715 0.4617 0.02915 0.92818 0.16536 1.3702 0.61401 0.01033 1.2267 0.09786 1.819 0.25986 0.5499 0.1504 1.0822 0.36492 1.5828 0.63784 0.4373-0.20815 0.88725-0.38971 1.3465-0.54334 0.87192-0.29165 1.7776-0.48232 2.6931-0.56696 0.35942-0.80803 0.74156-1.606 1.1458-2.3925 0.2591-0.50413 0.52729-1.0036 0.80439-1.4981-0.94051 0.11521-1.9011 0.06451-2.8243-0.14905-0.73127-0.16917-1.4471-0.44069-2.197-0.47247-0.4761-0.02017-0.95055 0.05739-1.4267 0.0769-0.47613 0.01952-0.9734-0.02495-1.3845-0.26589-0.33331-0.19534-0.58877-0.51202-0.73453-0.8698s-0.18501-0.75455-0.13954-1.1382c0.06148-0.51863 0.27783-1.0179 0.61421-1.4174z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m-16.203-95.783c0.81009-0.70764 1.5304-1.518 2.1382-2.4054 0.83424-1.2181 1.4502-2.5691 2.1382-3.8754 0.82607-1.5686 1.7591-3.0783 2.7061-4.577 2.0306-3.2136 4.1306-6.3862 6.0136-9.6885 2.7948-4.9016 5.1038-10.08 6.8822-15.435l6.7117-13.369 2.9134 0.42726c-0.62132 2.8477-1.5306 5.6325-2.7095 8.2981-1.82 4.1152-4.2662 7.9181-6.7151 11.693-4.716 7.2695-9.4817 14.508-14.032 21.883-1.1442 1.8545-2.2879 3.7475-2.8731 5.8465-0.26078 0.93532-0.40698 1.9025-0.43431 2.8731\" fill=\"url(#linearGradient1024)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-8.8548-98.457c0.93025-1.8159 1.866-3.6289 2.8071-5.4391 5.5612-10.696 11.346-21.373 14.93-32.884 0.87579-2.813 1.6171-5.668 2.2206-8.5517l2.197 0.62602c-0.39424 3.494-1.1475 6.9473-2.2442 10.288-2.0928 6.3751-5.4042 12.268-8.6462 18.143-3.2789 5.9414-6.5076 11.911-9.6856 17.907\" fill=\"url(#linearGradient1024)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-16.37-100.29c1.3226-2.0266 2.6061-4.0787 3.8498-6.1546 1.7609-2.9393 3.4432-5.9294 4.9137-9.0242 2.5538-5.3745 4.4609-11.056 5.6673-16.883l13.838-14.347 1.4011 1.9951c-1.8673 3.925-4.0138 7.7171-6.4178 11.338-2.913 4.3878-6.1975 8.5164-9.2208 12.829-4.748 6.7727-8.8485 13.999-12.228 21.549\" fill=\"url(#linearGradient1024)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m10.583-174.53c-0.79383-2.3736-1.404-4.8087-1.8231-7.2762-0.7918-4.6612-0.88781-9.5204 0.46138-14.052 1.1958-4.016 3.4984-7.6539 6.3699-10.706 1.9846-2.109 4.2465-3.9568 6.7091-5.4806 0.93545 0.40525 1.9223 0.69175 2.9293 0.85045 2.7273 0.42979 5.5228-0.0809 8.2706 0.18898 3.0963 0.30414 6.0048 1.5834 8.8099 2.9293 3.0872 1.4813 6.1311 3.0677 8.9999 4.9373 0.86757 0.56541 1.7185 1.1563 2.5513 1.7718l-1.7342 14.12z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m12.615-145c0.14782 0.0709 0.2975 0.1378 0.44885 0.20075 0.07831 0.0326 0.15706 0.0641 0.23624 0.0945 0.35701-0.40218 0.65982-0.85242 0.89769-1.3347 0.27368-0.55494 0.46031-1.1488 0.61421-1.7481 0.14801-0.57636 0.26674-1.1602 0.3556-1.7486l-1.1775-5.5872-3.9028 4.123z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m17.506-183.95 11.693-2.0713c-2.6643 1.0985-4.8416 3.3253-5.8799 6.0136-0.72132 1.8676-0.90169 3.8917-1.1359 5.8799-0.27035 2.2951-0.64748 4.6543-1.8709 6.6149-0.3404 0.54551-0.74123 1.0509-1.0928 1.5893-0.35157 0.53837-0.65724 1.12-0.77808 1.7516-0.172 0.89891 0.04129 1.8252 0 2.7395-0.04574 1.013-0.40145 1.9824-0.73499 2.94-1.021 2.9313-1.8693 5.9227-2.5391 8.9535-0.39269-0.92106-0.74941-1.8574-1.0691-2.8063-0.73224-2.1735-1.2696-4.4126-1.6036-6.6817z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m53.862-201.37c0.60804 1.3126 1.114 2.6724 1.5119 4.0632 0.57914 2.0244 0.92971 4.1382 0.75595 6.2366-0.14663 1.7708-0.66407 3.5174-0.56696 5.2917 0.07624 1.3931 0.53099 2.771 0.37798 4.1577-0.15368 1.3927-0.9098 2.6681-1.0394 4.0632-0.07237 0.77888 0.05436 1.5623 0.21778 2.3273 0.16342 0.76497 0.36443 1.5247 0.44368 2.3029 0.18304 1.7975-0.28955 3.5887-0.47247 5.3862-0.05617 0.55201-0.08542 1.1091-0.2077 1.6503-0.12228 0.54122-0.34614 1.0744-0.73725 1.468-0.39027 0.39274-0.92216 0.62036-1.4644 0.73218-0.54227 0.11181-1.1002 0.11619-1.6539 0.11826-3.442 0.0129-6.8971-0.048-10.3-0.56696-3.7304-0.5689-7.5307-1.7793-10.205-4.4412-1.3874-1.3809-2.4062-3.0891-3.2606-4.8503-0.8544-1.7612-1.5586-3.592-2.409-5.3551-1.2024-2.4926-2.6962-4.8446-4.4412-6.9926\" fill=\"#f39079\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\"/><path d=\"m-1.8899-138.86 0.18899-0.0472c2.168-1.344 4.2383-2.8454 6.1894-4.4885 2.7222-2.2925 5.2117-4.8613 7.4178-7.654 0.35566 0.66113 0.59656 1.3838 0.7087 2.1261 0.08021 0.53089 0.09489 1.0695 0.09449 1.6064-5.8e-4 0.77255-0.03211 1.5451-0.09449 2.3151-1.0502 1.3483-2.1704 2.642-3.3545 3.8743-1.1344 1.1804-2.327 2.3041-3.449 3.4963-1.4443 1.5346-2.7692 3.1802-4.2522 4.6775-2.1134 2.1336-4.5416 3.9547-7.1815 5.3862l3.7325-11.292z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m14.733-160.03c0.04141 0.96119-0.02597 1.927-0.20045 2.8732-0.54857 2.9747-2.1372 5.6687-4.0425 8.0181-2.6751 3.2986-6.028 6.045-9.7887 8.0181l2.0379-10.089 9.7553-7.8176z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-15.635-102.83c1.4716-3.1397 2.9415-6.2801 4.4099-9.4212 2.8063-6.0032 5.607-12.009 8.3522-18.041 2.2613-4.9682 4.49-9.9665 6.1472-15.168 2.2204-6.9684 3.3957-14.269 3.4745-21.582v2e-5c-1.1931 1.4016-2.3302 2.8508-3.4077 4.3431-6.688 9.2626-11.002 20.107-13.43 31.271-1.3762 6.3268-2.1666 12.78-3.8086 19.043-0.84734 3.232-1.9199 6.4048-3.2072 9.4881\" fill=\"url(#linearGradient1024)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m17.219-186.21c1.0682-0.25565 2.2297-0.0988 3.1918 0.43096 0.83995 1.6846 1.3109 3.552 1.3702 5.4334 0.13458 4.2691-1.7936 8.2885-3.0238 12.379-0.83858 2.7881-1.3897 5.7327-2.9766 8.1737-1.0199 1.5688-2.4178 2.8472-3.663 4.2439-1.07 1.2003-2.038 2.5039-2.7485 3.9464-0.79204 1.6079-1.2541 3.3774-1.3493 5.1673l-6.902 6.7754c0.79432-1.5994 1.4186-3.2832 1.8588-5.0139 0.55033-2.1633 0.81184-4.3897 0.99219-6.6146 0.33029-4.0747 0.39312-8.1695 0.8032-12.237 0.31806-3.1548 0.85272-6.3169 2.0316-9.2604 1.3675-3.4143 3.5553-6.4265 5.7169-9.4022 0.61948-0.85279 1.2429-1.7108 2.0025-2.4416 0.75961-0.73076 1.6708-1.3348 2.6959-1.5802z\" fill=\"url(#linearGradient1180)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m9.1187-164.66c0.49146-1.9852 1.0446-3.955 1.6584-5.9059 1.6947-5.3862 3.8525-10.627 6.4418-15.645\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m15.9-185.67c0.51075-2.6701 1.6072-5.2265 3.1896-7.437 2.6557-3.7096 6.5675-6.335 10.631-8.41 4.7713-2.4367 9.872-4.2276 15.119-5.3085\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m15.46-182.62c0.76012-0.596 1.4552-1.2749 2.069-2.0207 0.43075-0.52342 0.82151-1.0797 1.1678-1.6625\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m49.846-230.45c1.6621 4.1129 2.8098 8.4334 3.4077 12.829 0.4358 3.2037 0.58144 6.4488 1.2027 9.6217 0.38192 1.9505 0.9428 3.8659 1.6733 5.7144-0.23577 0.10688-0.49748 0.15595-0.75595 0.14174-0.27093-0.0149-0.53774-0.0994-0.76783-0.24321-0.23009-0.14381-0.42298-0.34661-0.55509-0.58361l-2.5986-7.2997 0.25986 4.9137c-0.69441-0.0445-1.3821-0.19276-2.0331-0.43834-0.98913-0.3731-1.879-0.9625-2.8063-1.47-0.9196-0.50324-1.8819-0.92844-2.8731-1.2695 1.015-1.4773 1.8577-3.0729 2.5057-4.744 0.63887-1.6477 1.0881-3.3669 1.3698-5.1115 0.49404-3.0596 0.47136-6.202-0.06681-9.2542l2.0379-2.8063z\" fill=\"url(#linearGradient948)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m48.017-162.56c0.26074-0.0233 0.52158-0.0457 0.78241-0.0682 0.87329-0.0753 2.2865-0.22684 3.1588-0.31574 0.49296-0.0502 0.98624-0.0928 1.4795-0.11373 0.87524-0.0371 2.3005 0.0726 3.1506 0.28362 0.39448 0.0979 0.61108 0.90829 0.54066 1.7821-0.01467 0.1821-0.0278 0.36432-0.03936 0.54664-0.05551 0.8749-0.07531 2.2973-0.04416 3.1734 0.02553 0.71814 0.07516 1.4354 0.14876 2.1502 0.08979 0.87205-0.48698 1.3976-1.3421 1.2043-0.67735-0.15313-1.9239-0.41939-2.7912-0.5469-0.26236-0.0386-1.1833-0.15875-2.0596-0.16104-0.274-7.1e-4 -0.54789 7e-3 -0.821 0.0253-0.87407 0.0571-2.2612 0.38796-3.104 0.62874-0.82257 0.23499-2.2163 0.48596-3.0898 0.43279-0.5878-0.0358-1.258-0.82537-1.4308-1.6847-0.12485-0.62096-0.30045-1.8344-0.35474-2.7092-0.04461-0.71894-0.05056-1.4403-0.01782-2.1598 0.03985-0.87562 0.82611-1.7483 1.6873-1.9125 0.33092-0.0631 0.66272-0.12166 0.99527-0.1756 0.86537-0.14039 2.2782-0.30175 3.1514-0.37966z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m42.429-150.61c0.41948-0.62487 1.0171-1.1287 1.7038-1.4366 1.0153-0.45512 2.1678-0.47333 3.2406-0.7684 0.78316-0.21541 1.5311-0.58028 2.3386-0.66817 0.63967-0.0696 1.285 0.0388 1.9135 0.1766s1.2538 0.30588 1.8951 0.35794c0.66858 0.0543 1.3511-0.0178 2.0045 0.13363 0.68826 0.15951 1.3267 0.58545 1.6704 1.2027 0.31944 0.5737 0.36729 1.2602 0.32163 1.9153-0.04566 0.65504-0.17715 1.3036-0.18799 1.9601-0.0081 0.49026 0.05119 0.98233 0 1.47-0.0405 0.38584-0.15168 0.76672-0.34746 1.1017-0.19578 0.33493-0.47823 0.62254-0.82185 0.80264-0.33686 0.17656-0.71992 0.24564-1.0991 0.2755-0.37915 0.0299-0.76067 0.0228-1.1393 0.0586-0.95581 0.0902-1.8644 0.44923-2.8063 0.63476-0.94445 0.18602-1.9132 0.19605-2.8731 0.26727-0.60147 0.0446-1.2104 0.11316-1.8041 7e-3 -0.50092-0.0896-0.97263-0.30066-1.47-0.40832-0.35048-0.0759-0.71048-0.0996-1.0691-0.10022-0.30458-5.2e-4 -0.61957 0.0137-0.90204-0.10023-0.24455-0.0986-0.44608-0.28925-0.58257-0.51487-0.13649-0.22563-0.21092-0.48488-0.24346-0.74656-0.06508-0.52336 0.03235-1.0515 0.05764-1.5783 0.03902-0.8127-0.09406-1.6257-0.06682-2.4388 0.0182-0.54318 0.10832-1.0839 0.26727-1.6036z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m44.337-142.32c0.93435 0.16936 1.887 0.23727 2.836 0.20214 1.2539-0.0464 2.4937-0.27156 3.7418-0.40091 1.2252-0.12698 2.4775-0.16529 3.6415-0.56794 0.23386-0.0809 0.46367-0.17638 0.70512-0.23055 0.24145-0.0542 0.49999-0.0648 0.73146 0.0227 0.17963 0.0679 0.33468 0.19234 0.45579 0.34138 0.12112 0.14903 0.2098 0.32218 0.2792 0.50124 0.2704 0.69764 0.25121 1.4732 0.15848 2.2156-0.09273 0.74244-0.25521 1.4795-0.25871 2.2277-0.0028 0.60459 0.09832 1.2041 0.16208 1.8054 0.06376 0.60123 0.08919 1.2174-0.06185 1.8028-0.05765 0.22347-0.14119 0.44143-0.26196 0.63809s-0.27969 0.37179-0.47303 0.4978c-0.20291 0.13225-0.43974 0.20781-0.68016 0.23707-0.24043 0.0293-0.48476 0.0134-0.72355-0.0272-0.47756-0.0811-0.93273-0.25927-1.4026-0.37696-1.3563-0.33972-2.7795-0.16655-4.1761-0.10023-1.1949 0.0567-2.4014 0.0344-3.5747 0.26727-0.40091 0.0796-0.80162 0.18925-1.2102 0.17764-0.20428-6e-3 -0.40935-0.0428-0.59602-0.12596-0.18667-0.0832-0.35443-0.21426-0.46558-0.38576-0.13954-0.21531-0.18252-0.47895-0.19532-0.7352-0.0128-0.25626 0.0012-0.51471-0.03854-0.76819-0.08802-0.56153-0.43075-1.052-0.56795-1.6036-0.17857-0.71789 0.0033-1.4684 0.09572-2.2024 0.08983-0.71326 0.09957-1.4568 0.40541-2.1074 0.28697-0.61044 0.83301-1.0938 1.4737-1.3046z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m48.456-132.43c0.8013 0.0206 1.6024 0.0626 2.4034 0.10463 0.87486 0.0459 2.2945 0.10855 3.1711 0.12484 0.34357 6e-3 0.68718 0.0103 1.0308 0.0116 0.87673 3e-3 1.6967 0.69049 1.8156 1.5591 0.01598 0.11666 0.03175 0.23335 0.04731 0.35007 0.11584 0.86906 0.28132 2.281 0.36733 3.1535 0.18272 1.8537 0.30124 3.714 0.31579 5.5753 0.0069 0.87654-0.03124 2.2978-0.07892 3.1732-0.04113 0.75521-0.09432 1.5099-0.14965 2.2644-0.06411 0.87421-0.16792 2.2918-0.21948 3.167-0.05552 0.94241-0.09843 1.8855-0.11947 2.829-0.01955 0.87643-0.01099 2.2982 0.02311 3.1743 0.02329 0.59825 0.05745 1.1961 0.10246 1.7931 0.06592 0.87424-0.43621 1.1553-1.2426 0.81521-0.69732-0.29409-2.0085-0.52297-2.8696-0.68735-0.18105-0.0346-1.078-0.16962-1.7742-0.69217-0.14719-0.11048-0.72782-0.76302-1.0845-1.5582-0.08908-0.19857-0.45324-1.0081-0.85945-1.785-0.31311-0.59879-0.91439-1.7044-1.3293-2.4768-0.56271-1.0476-1.1225-2.0968-1.6766-3.149-0.40857-0.77573-1.0686-2.0348-1.4582-2.8202-0.34296-0.69124-0.66969-1.3902-0.9597-2.1032-0.3299-0.81115-0.75831-2.1692-0.9392-3.0268-0.26474-1.255-0.38846-2.54-0.38197-3.8244 0.0044-0.87649 0.12922-2.2953 0.27519-3.1596 0.05668-0.33558 0.12197-0.66971 0.19578-1.002 0.19011-0.85564 1.1091-1.6422 1.9823-1.7188 0.07996-7e-3 0.15994-0.0137 0.23996-0.02 0.87391-0.069 2.2963-0.0945 3.1727-0.0719z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m58.017-243.52c-0.01118-0.62036-0.18047-1.232-0.44565-1.7929s-0.62463-1.0734-1.0243-1.548c-0.51587-0.61249-1.1048-1.1688-1.7788-1.6012-0.67396-0.4325-1.4356-0.73901-2.2303-0.83758-1.0017-0.12425-2.0267 0.0858-2.9518 0.4896-0.92514 0.40379-1.7578 0.99518-2.5272 1.6486-0.53963 0.45824-1.0557 0.95352-1.4563 1.5372-0.40065 0.58367-0.68262 1.2635-0.71526 1.9707-0.03055 0.66185 0.15782 1.3198 0.44974 1.9146 0.29192 0.59479 0.68498 1.1335 1.0871 1.6601 0.3987 0.52217 0.81036 1.038 1.2897 1.4873 0.47935 0.44928 1.031 0.83232 1.6503 1.0518 0.8474 0.30028 1.7859 0.27918 2.6576 0.0592 0.87172-0.21994 1.6844-0.62991 2.4539-1.0949 0.90948-0.54963 1.7803-1.1904 2.4458-2.0189 0.66551-0.82846 1.1147-1.8631 1.0955-2.9256z\" fill=\"url(#linearGradient1241)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m56.588-243.02c-0.17039-0.46222-0.4191-0.89545-0.73233-1.2757-0.93129-1.1304-2.41-1.7371-3.8743-1.7718-1.895-0.0448-3.7897 0.84838-4.9609 2.3387\" fill=\"url(#linearGradient1241)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m56.588-243.02c-1.3178 0.52617-2.7388 0.7926-4.1577 0.77957-1.8913-0.0174-3.7757-0.53579-5.4098-1.4883-0.01043 0.52357 0.13977 1.0492 0.42522 1.4883 0.38192 0.5874 0.99022 1.0035 1.6467 1.2483s1.3621 0.32966 2.0622 0.3581c0.83018 0.0337 1.6694-0.0103 2.4742-0.21692 0.80476-0.20663 1.5762-0.58211 2.1797-1.1532 0.3113-0.29462 0.57551-0.6389 0.77958-1.0158z\" fill=\"#fde8cc\" stop-color=\"#000000\" stroke=\"#e7be9b\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m43.562-236c-0.01226 1.4116 0.13061 2.8244 0.42522 4.205 0.54697 2.5631 1.6234 5.0153 3.1656 7.1343 1.6462 2.262 3.8263 4.1403 6.3311 5.3862 0.99684 0.49582 2.0431 0.89214 3.1183 1.1812-0.55929-0.89062-1.0197-1.8433-1.3702-2.8348-0.47209-1.3358-0.74378-2.7422-0.8032-4.1577-0.46646-1.7625-0.86062-3.5441-1.1812-5.3389-0.10356-0.57984-0.19981-1.1626-0.36573-1.7278-0.16592-0.56516-0.40474-1.116-0.7682-1.5795-0.48105-0.61347-1.1771-1.0549-1.9371-1.2284-0.20346 0.60947-0.4733 1.1968-0.8032 1.7481-0.39258 0.65613-0.8703 1.2612-1.4174 1.7954-0.40622-0.58197-0.69696-1.2442-0.85045-1.9371-0.08367-0.37772-0.12683-0.76335-0.20513-1.1422-0.0783-0.37887-0.19451-0.75647-0.40908-1.0784-0.30854-0.4629-0.81934-0.78566-1.3699-0.86557-0.55053-0.0799-1.132 0.0843-1.5594 0.44035z\" fill=\"url(#linearGradient1241)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m49.802-234.02c0.02584 1.4054-0.03839 2.8124-0.19217 4.2095-0.2422 2.2005-0.70695 4.3764-1.3849 6.4838 1.1367-0.91469 2.1465-1.987 2.9913-3.1765 0.8552-1.2042 1.5412-2.5283 2.0316-3.9215\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m-31.443-84.005c1.4713-0.27641 2.8824-0.86845 4.1105-1.7245 1.0983-0.76563 2.0498-1.7412 2.7876-2.8584l-0.63784-0.09449c-0.80354 0.54728-1.599 1.1065-2.386 1.6773-0.73309 0.53171-1.4589 1.0736-2.1734 1.63-0.57441 0.44737-1.1415 0.90418-1.7009 1.3702z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m22.769-173.86c1.2675 1.3748 2.7078 2.5901 4.2763 3.6081 0.55422 0.35971 1.1244 0.69489 1.7082 1.0042\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m23.904-169.45c1.1157 0.66438 2.306 1.2034 3.5413 1.6036 0.93653 0.30343 1.8988 0.52722 2.8731 0.66817\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m24.639-166.11c1.8212 0.46266 3.6563 0.8708 5.502 1.2237 1.1959 0.22864 2.3962 0.43409 3.6 0.61619\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m25.508-164.3c0.9032 0.38636 1.8139 0.75519 2.7314 1.1062 0.9072 0.34709 1.8211 0.67678 2.7409 0.98883\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/></g></g><path d=\"m58.415-224.06c-0.50585-0.76557-1.4034-1.2566-2.321-1.2697-0.9175-0.0131-1.8288 0.45212-2.3563 1.2029-0.34058 0.48476-0.52322 1.078-0.51784 1.6704 5e-3 0.54637 0.16634 1.0847 0.42076 1.5683s0.59986 0.91475 0.9824 1.3049c0.57977 0.59125 1.2494 1.0942 1.9787 1.4864v-2e-5c0.34585 0.0744 0.69729 0.12273 1.0504 0.14458 0.25391 0.0157 0.50866 0.0177 0.76279 6e-3m0-6.1137c0.50585-0.76557 1.4034-1.2566 2.321-1.2697 0.9175-0.0131 1.8288 0.45212 2.3563 1.2029 0.34058 0.48476 0.52322 1.078 0.51784 1.6704-5e-3 0.54637-0.16634 1.0847-0.42076 1.5683s-0.59986 0.91475-0.9824 1.3049c-0.57977 0.59125-1.2494 1.0942-1.9787 1.4864v-2e-5c-0.34585 0.0744-0.69729 0.12273-1.0504 0.14458-0.25391 0.0157-0.50866 0.0177-0.76279 6e-3\" fill=\"url(#linearGradient1241)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path transform=\"translate(-.12657)\" d=\"m58.386-223.03c-0.47634 0.0101-0.95289 0.0101-1.4292 0-0.63413-0.0135-1.2721-0.0454-1.8899-0.18899-0.63131-0.14674-1.2375-0.41143-1.7596-0.79549-0.5221-0.38406-0.95847-0.88883-1.2405-1.4724-0.2422-0.50103-0.36926-1.0595-0.35031-1.6157 0.01895-0.55618 0.18572-1.1089 0.49205-1.5735 0.29052-0.44061 0.69951-0.79491 1.151-1.0682 0.45151-0.27328 0.94589-0.46884 1.4476-0.63272 1.1556-0.3775 2.3641-0.59286 3.579-0.63783m0 7.9848c0.47634 0.0101 0.95289 0.0101 1.4292 0 0.63413-0.0135 1.2721-0.0454 1.8899-0.18899 0.63131-0.14674 1.2375-0.41143 1.7596-0.79549 0.5221-0.38406 0.95847-0.88883 1.2405-1.4724 0.2422-0.50103 0.36926-1.0595 0.35031-1.6157-0.01895-0.55618-0.18572-1.1089-0.49205-1.5735-0.29052-0.44061-0.69951-0.79491-1.151-1.0682-0.45151-0.27328-0.94589-0.46884-1.4476-0.63272-1.1556-0.3775-2.3641-0.59286-3.579-0.63783\" fill=\"url(#linearGradient1241)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><g transform=\"translate(.16538)\" opacity=\".994\"><path id=\"path1506\" d=\"m58.382-227.96c-0.19676 0.0506-0.4077 0.0447-0.60136-0.0167-0.29012-0.092-0.53089-0.30133-0.81852-0.40091-0.2879-0.0997-0.60565-0.0823-0.90111-8e-3 -0.29547 0.0743-0.57391 0.20288-0.85284 0.32543-0.71509 0.31417-1.4457 0.59302-2.1883 0.83521 0.35633 0.28559 0.71835 0.56407 1.0858 0.83522 0.69707 0.51441 1.4395 1.0138 2.2885 1.186 0.3563 0.0723 0.72266 0.0846 1.0858 0.0668 0.22366-0.011 0.44677-0.0333 0.66817-0.0668\" fill=\"#f5a794\" opacity=\"1\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><use transform=\"matrix(-1 0 0 1 116.28 0)\" width=\"100%\" height=\"100%\" xlink:href=\"#path1506\"/><path d=\"m53.02-227.23c1.6819 0.35732 3.4013 0.53795 5.1208 0.53795s3.4389-0.18063 5.1208-0.53795\" fill=\"#f5a794\" opacity=\"1\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/></g><path d=\"m58.348-229.97c-0.27484-0.0116-0.54467-0.11954-0.7517-0.30068-0.13304-0.11641-0.23903-0.26008-0.3611-0.38795-0.12207-0.12788-0.26775-0.24365-0.44071-0.28022-0.09444-0.02-0.19274-0.0152-0.28779 2e-3 -0.09505 0.0168-0.18753 0.0455-0.27993 0.0734-0.0924 0.0279-0.18537 0.0553-0.28086 0.0694-0.09549 0.0141-0.19418 0.0146-0.28732-0.0107-0.16883-0.0459-0.30908-0.17787-0.37708-0.33908-0.068-0.16121-0.06613-0.34813-0.0071-0.51284 0.05606-0.1565 0.15961-0.29118 0.26866-0.41665 0.10906-0.12546 0.22589-0.24546 0.31599-0.38516 0.18421-0.28561 0.24459-0.63366 0.4009-0.93544 0.18698-0.36099 0.51454-0.64681 0.89753-0.78315 0.383-0.13635 0.81748-0.12183 1.1905 0.0398m0 4.1677c0.27484-0.0116 0.54467-0.11954 0.7517-0.30068 0.13304-0.11641 0.23903-0.26008 0.3611-0.38795 0.12207-0.12788 0.26775-0.24365 0.44071-0.28022 0.09444-0.02 0.19274-0.0152 0.28779 2e-3 0.09505 0.0168 0.18753 0.0455 0.27993 0.0734 0.0924 0.0279 0.18537 0.0553 0.28086 0.0694 0.09549 0.0141 0.19418 0.0146 0.28732-0.0107 0.16883-0.0459 0.30908-0.17787 0.37708-0.33908 0.068-0.16121 0.06613-0.34813 0.0071-0.51284-0.05606-0.1565-0.15961-0.29118-0.26866-0.41665-0.10906-0.12546-0.22589-0.24546-0.31599-0.38516-0.18421-0.28561-0.24459-0.63366-0.4009-0.93544-0.18698-0.36099-0.51454-0.64681-0.89753-0.78315-0.383-0.13635-0.81748-0.12183-1.1905 0.0398\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path transform=\"translate(-.30375)\" d=\"m58.563-243.51c-0.44196 0.78049-0.80655 1.6048-1.0867 2.4568-0.34101 1.0372-0.55604 2.1117-0.73233 3.1892-0.28653 1.7513-0.47277 3.5191-0.55752 5.2917 0.19088-0.51025 0.56084-0.95149 1.03-1.2284 0.40374-0.23833 0.87832-0.3549 1.3465-0.33073m0-9.3785c0.44196 0.78049 0.80655 1.6048 1.0867 2.4568 0.34101 1.0372 0.55604 2.1117 0.73233 3.1892 0.28653 1.7513 0.47277 3.5191 0.55752 5.2917-0.19088-0.51025-0.56084-0.95149-1.03-1.2284-0.40374-0.23833-0.87832-0.3549-1.3465-0.33073\" fill=\"url(#linearGradient1241)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><g transform=\"translate(211.98 -413.58)\"><use transform=\"matrix(-1 0 0 1 118.33 0)\" width=\"100%\" height=\"100%\" xlink:href=\"#g3482\"/><g id=\"g3482\"><path d=\"m66.141 477.75c-0.06066-0.53789-0.14977-1.0726-0.26685-1.601-0.0872-0.39363-0.19111-0.78708-0.37044-1.1482-0.17933-0.36109-0.43976-0.69087-0.78588-0.89763-0.17124-0.1023-0.35929-0.17245-0.54368-0.24855s-0.36836-0.16-0.5237-0.28514c-0.21422-0.17257-0.36214-0.41423-0.47788-0.66377-0.11574-0.24955-0.20351-0.51146-0.32265-0.7594-0.27112-0.56422-0.69738-1.0417-0.97843-1.601-0.36896-0.7343-0.47039-1.5878-0.35579-2.4016 0.08818-0.62615 0.3011-1.2345 0.62264-1.779 1.0564-1.7019 1.6467-3.69 1.69-5.6927 0.01112-0.51341-0.01245-1.0323 0.09082-1.5354 0.15888-0.77394 0.60423-1.4523 0.98848-2.1426 1.1016-1.9791 1.7521-4.2075 1.8883-6.4684l5.4599-0.40156c-0.27251 3.2483-0.14515 6.53 0.3783 9.7474 0.2372 1.458 0.55516 2.9018 0.80054 4.3585 0.19371 1.1499 0.3421 2.3074 0.44473 3.469 0.36705 0.0308 0.72902 0.12132 1.0674 0.26686 0.20803 0.0895 0.40846 0.20053 0.58092 0.34728 0.17247 0.14675 0.3165 0.33072 0.3975 0.54219 0.08138 0.21248 0.09687 0.44613 0.07216 0.67231-0.02471 0.22619-0.08828 0.44633-0.16106 0.66191-0.27639 0.81869-0.68799 1.5865-1.1563 2.3126-0.27658 0.42884-0.57351 0.84455-0.88947 1.2453 0.18692 0.20987 0.338 0.45158 0.44473 0.71157 0.22957 0.5592 0.24748 1.1956 0.089 1.779-0.24514 0.90229-0.91944 1.6777-1.779 2.0458l-6.4042-0.53369z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m61.921 470.05c-0.01074-0.041-0.01074-0.0848 0-0.12578 0.01717-0.0656 0.06161-0.12256 0.11814-0.15997 0.05653-0.0374 0.12444-0.0559 0.19219-0.0581 0.1355-4e-3 0.26522 0.054 0.38152 0.12364 0.5104 0.30579 0.84426 0.83153 1.1321 1.3523 0.28356 0.51297 0.54118 1.0399 0.78619 1.5724 0.31421 0.68283 0.6079 1.3751 0.88054 2.0756l-0.81764 1.3208c-0.27001-0.47937-0.55318-0.95132-0.84909-1.4152-0.4579-0.71776-0.94897-1.421-1.2894-2.2013-0.34092-0.78161-0.52386-1.6317-0.53461-2.4844z\" fill=\"url(#linearGradient3689)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m65.113 470.82c0.48597-0.80803 1.12-1.5478 1.9342-2.0232 0.40714-0.2377 0.85647-0.40656 1.3228-0.47614 0.46629-0.0696 0.94957-0.0384 1.3973 0.10928 0.58287 0.19234 1.091 0.57733 1.4861 1.0471s0.68235 1.0222 0.90391 1.5946c0.52677 1.3609 0.69062 2.83 0.88054 4.2769 0.05702 0.43444 0.11693 0.87246 0.0831 1.3093-0.03382 0.43686-0.16961 0.87882-0.46047 1.2065-0.17701 0.19943-0.40534 0.34958-0.65071 0.45398-0.24536 0.10439-0.50783 0.16435-0.77215 0.19949-0.52865 0.0703-1.066 0.043-1.5961 0.10126-0.72807 0.0801-1.4293 0.32003-2.1526 0.43559-0.36164 0.0578-0.73054 0.0842-1.0944 0.0431-0.36391-0.0411-0.72366-0.152-1.0299-0.35288-0.298-0.19549-0.53804-0.47135-0.72086-0.77728-0.18282-0.30593-0.31054-0.64195-0.41126-0.98382-0.60365-2.0489-0.22033-4.3333 0.88054-6.1638z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m78.368 408.57c0.73042 1.8163 1.2386 3.7218 1.5095 5.6606 0.56686 4.0564 0.09149 8.1943-0.75475 12.202-0.79647 3.7718-1.9183 7.4658-2.8932 11.195-2.1499 8.2244-3.5868 16.635-4.2895 25.107l-1.8742-29.258 6.6669-25.158z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m65.789 401.4c-0.47705 3.216-0.85466 6.4466-1.1321 9.6859-0.58024 6.7743-0.72193 13.588-0.37737 20.378 0.16184 3.1895 0.43075 6.3726 0.62896 9.5601 0.47655 7.6639 0.54397 15.353 0.20187 23.024l6.9682-49.315z\" fill=\"url(#linearGradient3415)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m67.378 363.66 8.0053-3.5134 4.1361 9.6953-0.80053 7.0714-6.849 6.8934-5.7371-9.1172z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m72.315 359.39c0.50208 1.9584 1.1111 3.8895 1.8234 5.7816 0.82235 2.1844 1.792 4.3336 3.1576 6.2264 0.48686 0.67478 1.0224 1.3144 1.6011 1.9124l1.1118-1.8234-4.4474-18.279-4.7142-1.5566z\" fill=\"url(#linearGradient3750)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m78.997 371.52c-1.3633 1.6348-2.6441 3.3384-3.836 5.1022-0.61411 0.90877-1.2045 1.8333-1.7916 2.7598-0.59413 0.93755-1.185 1.8772-1.7725 2.8189l4.7899 2.7159 3.531-10.753z\" fill=\"url(#linearGradient3160)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m61.284 331.33c-0.09125 7.0794 0.61381 14.155 1.811 21.133 0.34899 2.0342 0.73979 4.0614 1.0562 6.1009 0.5582 3.5978 0.88449 7.2451 0.69396 10.881-0.0978 1.8662-0.33152 3.7306-0.25158 5.5977 0.08795 2.0542 0.55971 4.0913 1.3837 5.9751 0.26309-0.95625 0.49388-1.9214 0.69185-2.8932 1.0218-5.0162 1.1619-10.165 1.2579-15.284 0.24614-13.123 0.22517-26.251-0.06289-39.373l-5.9847-1.5838c-0.35597 3.136-0.55479 6.2899-0.59547 9.4458z\" fill=\"url(#linearGradient3020)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m59.138 325.02c1.0467 5e-3 2.0935-0.2686 3.0033-0.78621 1.6966-0.96531 2.8648-2.8027 3.019-4.7486l-0.94343-7.0129-4.3396 0.42995-0.52451 1.8579-0.21469 0.41645\" fill=\"url(#linearGradient3746)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m76.495 325.64 8.3611 5.2479v10.496l-2.4905 15.21-3.469 7.3827c-0.32956-3.0209-0.62607-6.0453-0.88948-9.0727-0.84684-9.7329-1.3513-19.496-1.5121-29.264z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/><path d=\"m65.117 320.92c-0.49585 2.7966-0.85223 5.618-1.0674 8.45-0.45715 6.0178-0.27432 12.088 0.62264 18.056 0.62901 4.1852 1.6082 8.3232 1.9501 12.542 0.26207 3.234 0.14521 6.5048-0.44474 9.6953-0.35977 1.9456-0.89719 3.9007-0.71158 5.8706 0.11534 1.224 0.51416 2.4205 1.1563 3.469l0.80053-6.4042c0.68087-0.9657 1.4242-1.8874 2.2237-2.7574 1.094-1.1904 2.323-2.3283 2.9353-3.8248 0.39145-0.95677 0.50425-2.0063 0.50334-3.0401s-0.11122-2.0642-0.14754-3.0973c-0.1517-4.3142 0.68406-8.5977 1.0674-12.897l2.0458-22.949z\" fill=\"url(#linearGradient3750)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m71.712 321.55 5.4804 0.0119c0.43365 2.6704 0.81922 5.3485 1.1565 8.0328 0.59799 4.7595 1.0441 9.5402 1.2355 14.333 0.18636 4.668 0.13126 9.3494 0.55789 14.002 0.3836 4.1831 1.1563 8.341 1.1563 12.542-6e-6 2.3288-0.23885 4.6576-0.71158 6.9379-0.38502-1.4702-0.83025-2.9246-1.3342-4.3584-0.64097-1.8236-1.3764-3.6125-2.0458-5.4258-1.4354-3.8883-2.5663-7.8893-3.3711-11.955-0.98128-4.9576-1.4762-9.9997-1.7905-15.044-0.39557-6.3495-0.50683-12.717-0.33334-19.076z\" fill=\"url(#linearGradient3756)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m67.99 323.28c-0.5356 2.8864-0.8721 5.8098-1.0063 8.7425-0.30611 6.6878 0.43867 13.374 0.69185 20.064 0.08882 2.3469 0.11713 4.6964 0.0629 7.0443-0.0843 3.6501-0.3679 7.2922-0.59528 10.936-0.1675 2.6844-0.30453 5.3707-0.41105 8.0582 0.67386-2.2605 1.1583-4.5774 1.4466-6.9185 0.21521-1.7476 0.32112-3.5066 0.43765-5.2636 0.08821-1.33 0.18854-2.686 0.69447-3.9192 0.42506-1.036 1.1167-1.9362 1.6982-2.8932 1.191-1.9602 1.9285-4.1942 2.1384-6.4782l-0.22107-28.525-4.9364-0.84723z\" fill=\"url(#linearGradient3758)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m124.18 316.01c2.2522 1.9517 4.757 3.6114 7.4322 4.9248 2.6274 1.2898 5.4086 2.2429 8.0473 3.5093 0.36314 0.17428 0.73778 0.36624 0.97488 0.69186 0.0691 0.0949 0.12541 0.20082 0.15192 0.31523 0.0265 0.1144 0.0218 0.23795-0.0261 0.34517-0.0493 0.11042-0.14206 0.19819-0.2491 0.25447-0.10703 0.0563-0.22779 0.0828-0.34841 0.0915-0.28731 0.0207-0.57482-0.0572-0.83585-0.17902-0.26104-0.1218-0.49932-0.28652-0.73654-0.44992-0.34728-0.23921-0.71342-0.4844-1.1321-0.53462-0.23987-0.0288-0.48508 9e-3 -0.7233-0.0315-0.35751-0.0603-0.66123-0.28748-0.94738-0.51013-0.28614-0.22266-0.58436-0.45459-0.93949-0.52764-0.36077-0.0742-0.7324 0.0254-1.1007 0.0314-0.50795 8e-3 -1.025-0.17492-1.3837-0.53461-0.1731-0.17355-0.30897-0.38507-0.50317-0.53462-0.16006-0.12326-0.35211-0.19813-0.54622-0.25412-0.1941-0.056-0.39299-0.0947-0.5859-0.15469-0.8168-0.25393-1.4735-0.86883-2.2642-1.195-0.69379-0.28619-1.4907-0.33551-2.2014-0.0943-0.20915 0.071-0.41008 0.16616-0.5975 0.28302 0.33224 0.63199 0.689 1.2511 1.0692 1.8554 0.57773 0.91828 1.2091 1.8017 1.8554 2.6731 0.6471 0.87238 1.3188 1.7496 1.6982 2.7674 0.0806 0.21613 0.14925 0.44106 0.28303 0.62896 0.12941 0.18176 0.3135 0.31955 0.44027 0.50316 0.17113 0.24787 0.22373 0.55846 0.23847 0.8593 0.0147 0.30085-4e-3 0.60446 0.0446 0.90177 0.0666 0.40986 0.25766 0.79011 0.48663 1.1365s0.49716 0.66501 0.73983 1.002c0.7027 0.97571 1.1818 2.0903 1.6982 3.1762 0.23365 0.49129 0.47604 0.97866 0.69185 1.478 0.30405 0.70358 0.55476 1.43 0.75474 2.1699 0.0698 0.25834 0.1337 0.51961 0.15724 0.78618 0.0111 0.1253 0.0129 0.25382-0.0231 0.37436-0.018 0.0603-0.0454 0.11805-0.0837 0.16793-0.0383 0.0499-0.0877 0.0917-0.14477 0.11814-0.0747 0.0346-0.16076 0.0416-0.24153 0.0257-0.0808-0.0159-0.15634-0.0538-0.22146-0.10412-0.13025-0.10067-0.21685-0.24676-0.29176-0.39335-0.15162-0.2967-0.26822-0.60991-0.40882-0.91199-0.43508-0.9348-1.0907-1.7456-1.6982-2.5787-0.86403-1.185-1.6409-2.432-2.3586-3.7108-0.77591-1.3826-1.4832-2.8029-2.2642-4.1826-0.70293-1.2417-1.4663-2.452-2.0756-3.7423-0.47557-1.0072-0.8629-2.0724-1.5409-2.9561-0.16315-0.21262-0.34452-0.41527-0.56606-0.56608-0.0789-0.0537-0.16373-0.10101-0.25649-0.12321-0.0928-0.0222-0.19467-0.0173-0.27812 0.0289-0.0819 0.0453-0.14008 0.1278-0.16547 0.21793-0.0254 0.0901-0.0198 0.18717 5e-3 0.27733 0.0505 0.18033 0.17407 0.32932 0.2858 0.4796 0.56993 0.76661 0.89048 1.6845 1.2265 2.5787 0.69057 1.838 1.4793 3.6381 2.3271 5.409 0.83658 1.7473 1.7496 3.5361 1.824 5.4719 0.0124 0.32294 1e-3 0.64708 0.0324 0.96872 0.0314 0.32165 0.10825 0.64569 0.28208 0.91813 0.0896 0.14039 0.20273 0.26387 0.30786 0.39303 0.10512 0.12916 0.204 0.26714 0.2582 0.42461 0.0481 0.13981 0.0592 0.28985 0.0562 0.43769s-0.0195 0.2951-0.0247 0.44287c-0.0216 0.61075 0.14919 1.2118 0.35582 1.787s0.45145 1.1394 0.58761 1.7352c0.12936 0.56599 0.15791 1.1569 0.0629 1.7296-0.0251 0.15147-0.06 0.30465-0.13959 0.43596-0.0398 0.0656-0.0906 0.12512-0.15246 0.17066-0.0618 0.0455-0.13481 0.0768-0.21112 0.0852-0.0729 8e-3 -0.14736-5e-3 -0.21532-0.0324-0.068-0.0276-0.12956-0.0694-0.1837-0.1189-0.10828-0.0989-0.18588-0.22614-0.26138-0.35187-0.45178-0.75235-0.88315-1.5195-1.2265-2.3272-0.79291-1.8653-1.0966-3.8954-1.6353-5.8493-0.52107-1.8901-1.2628-3.7106-1.9812-5.5348-0.6042-1.5343-1.193-3.0748-1.7611-4.6228-0.26967-0.73486-0.53469-1.4715-0.81764-2.2014-0.22941-0.59173-0.47057-1.1789-0.7233-1.7611 0.0128 0.79028 0.0865 1.5796 0.22013 2.3586 0.18292 1.0661 0.47919 2.1267 0.44027 3.2077-0.0122 0.33819-0.0572 0.67457-0.0687 1.0128s0.0119 0.68334 0.13163 0.99988c0.14281 0.37771 0.41463 0.69489 0.56606 1.0692 0.22275 0.55066 0.16614 1.1684 0.12579 1.7611-0.0718 1.0541-0.078 2.1312 0.22014 3.1448 0.14603 0.49644 0.36362 0.97198 0.47171 1.478 0.10555 0.49416 0.10389 1.0043 0.0944 1.5095-0.0146 0.77581-0.0465 1.5526 0 2.3272 0.0279 0.4652 0.0843 0.92949 0.18868 1.3837 0.0669 0.29111 0.15346 0.57795 0.20394 0.87235 0.0505 0.2944 0.0638 0.60069-0.0153 0.88872-0.0914 0.33279-0.3082 0.62951-0.59751 0.81764-0.29336-0.0948-0.56453-0.25745-0.78619-0.4717-0.46166-0.44624-0.68712-1.0911-0.75475-1.7296-0.0696-0.65717 0.0115-1.3218-0.0314-1.9812-0.0595-0.91386-0.35518-1.7962-0.47172-2.7045-0.1496-1.166-2e-3 -2.3531-0.12579-3.5222-0.1-0.94094-0.37521-1.8561-0.7233-2.736-0.1-0.25274-0.20634-0.50384-0.27838-0.76592-0.0721-0.26207-0.10911-0.53788-0.0675-0.80648 0.0508-0.32818 0.21489-0.62662 0.31448-0.94342 0.22978-0.7309 0.10697-1.5265-0.10634-2.2624s-0.51534-1.4487-0.64841-2.2032c-0.13976-0.79247-0.0904-1.6172-0.31448-2.39-0.0167-0.0575-0.0354-0.11574-0.0705-0.16425-0.0176-0.0243-0.0392-0.0458-0.0647-0.0615s-0.055-0.0254-0.0849-0.0258c-0.0426-5.8e-4 -0.0844 0.0179-0.11573 0.0468-0.0314 0.0288-0.0528 0.0674-0.0653 0.10817-0.0249 0.0815-0.0149 0.16897-8e-3 0.2539 0.0716 0.84175-0.15555 1.6765-0.25158 2.5158-0.16464 1.4389 0.057 2.8915 0.0629 4.3398 3e-3 0.6189-0.0343 1.2372-0.0629 1.8554-0.048 1.0383-0.0722 2.0828 0.0629 3.1133 0.0742 0.56624 0.19649 1.1276 0.22014 1.6982 0.0536 1.2937-0.40104 2.586-0.22014 3.8681 0.0268 0.18963 0.0675 0.37954 0.0553 0.57067-6e-3 0.0956-0.0256 0.19096-0.0653 0.27812-0.0396 0.0872-0.10003 0.16592-0.17874 0.22045-0.0979 0.0678-0.2215 0.0953-0.33979 0.0819-0.1183-0.0135-0.23076-0.0667-0.32062-0.14478-0.1217-0.10577-0.20075-0.25351-0.25013-0.407-0.0494-0.15349-0.0714-0.31418-0.0958-0.47356-0.19592-1.2784-0.56138-2.5263-0.75475-3.8052-0.12427-0.82182-0.17693-1.6533-0.18869-2.4844-0.02-1.4158 0.0782-2.8303 0.1258-4.2454 0.043-1.2789 0.0447-2.5596 0.12579-3.8366 0.10038-1.5816 0.31625-3.2149-0.18869-4.7172-0.20664-0.61476-0.52813-1.1848-0.75475-1.7925-0.3426-0.91869-0.46228-1.9196-0.34592-2.8932l4.3712-3.8052 4.1124 1.5978z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m122.44 321.8c0.53943 1.7246 0.69806 3.5672 0.4613 5.3586-0.0773 0.58477-0.19611 1.164-0.35529 1.732-0.61404-0.82162-1.142-1.7075-1.5726-2.6385-0.89329-1.9317-1.3615-4.0586-1.362-6.1868l0.63845-1.5814 0.90068 0.49994z\" fill=\"url(#linearGradient3760)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m123.21 320.11c1.0121 1.4969 1.6934 3.2163 1.9812 5.0002 0.094 0.58232 0.14655 1.1713 0.15724 1.7611-0.82418-0.6106-1.5844-1.3075-2.2642-2.0756-1.4106-1.5937-2.47-3.4964-3.0819-5.5348l0.15724-1.6982 1.0063 0.22013z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m126.92 322.21c0.51068-0.20273 1.0664-0.29119 1.6147-0.25706 0.3538 0.022 0.70389 0.0942 1.0583 0.0998 0.60367 0.01 1.2088-0.18099 1.6982-0.53462l0.7233 0.37738c-0.64995 0.38149-1.3496 0.67829-2.0756 0.88053-1.0195 0.284-2.091 0.38044-3.1448 0.28305z\" fill=\"url(#linearGradient3764)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m126.36 318.88c0.56936 1.1098 1.0434 2.2686 1.4152 3.4592 0.45404 1.4542 0.75504 2.9539 0.94343 4.4656 0.11577 0.92898 0.18925 1.8632 0.22014 2.7989l-4.214-7.5475-4.0253-5.5662 1.3522-0.88054z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m59.961 317.62c0.15683 0.90764 0.3885 1.8023 0.6919 2.672 0.88251 2.5297 2.4394 4.8994 4.7058 6.3283 2.0716 1.3061 4.5538 1.7373 6.9119 2.3984 2.4258 0.68015 4.7912 1.6358 6.8935 3.0242 1.9554 1.2914 3.6973 2.9938 4.6922 5.1154 0.14763 0.31482 0.27887 0.63932 0.35579 0.97843 0.17456 0.76955 0.0622 1.5704 0 2.3571-0.14651 1.853-9e-3 3.7166-0.06736 5.5745-0.08341 2.6572-0.568 5.2921-1.2961 7.849-0.62396 2.1912-1.4272 4.3314-2.3991 6.392l0.56622 4.7102c0.05914-0.3048 0.12388-0.60851 0.19417-0.91093 0.8825-3.797 2.6233-7.3314 3.9142-11.01 1.1792-3.36 1.9841-6.8491 2.4344-10.382 0.7197-5.6462 0.53433-11.374 1.1649-17.031 0.2233-2.0034 0.54905-3.9997 0.60507-6.0148 0.02054-0.73877 0.0047-1.4784-0.04-2.2161-0.05179-0.85466-0.14236-1.707-0.27131-2.5534 0.53061-0.88503 0.93307-1.8468 1.1909-2.8459 0.50974-1.9751 0.44864-4.0517 0.25837-6.0826-0.31924-3.4076-1.0108-6.8326-2.5921-9.8678-0.9712-1.8642-2.2696-3.5573-3.818-4.9788l-8.1387-0.66712-10.496 1.9569-4.4029 16.811z\" fill=\"url(#linearGradient3768)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m83.997 278.97c0.35674 1.4214 0.5782 2.8767 0.6604 4.3398 0.07675 1.3661 0.03798 2.77 0.50316 4.0568 0.35789 0.98997 1.0063 1.8838 1.1636 2.9246 0.14616 0.9672-0.17634 1.9944-0.84909 2.7045l-4.6857-2.6416-5.3147-0.66043 1.2894-5.8178z\" fill=\"url(#linearGradient3770)\" stop-color=\"#000000\" stroke=\"url(#linearGradient3772)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m66.038 303.12c0.51865-1.0777 1.0695-2.1399 1.6514-3.1848 0.87713-1.5747 1.8256-3.1107 2.8686-4.5808 0.58584-0.82578 1.2074-1.6371 1.9737-2.2988s1.6924-1.1708 2.6961-1.3036c0.93462-0.12364 1.8897 0.0811 2.8241-0.0445 0.6718-0.0903 1.3237-0.35039 2.0013-0.33356 0.6557 0.0163 1.2728 0.28978 1.8901 0.51144 1.003 0.36015 2.0519 0.5924 3.1132 0.68934-0.23388-0.99783-0.87022-1.8952-1.7345-2.4461-0.76717-0.48895-1.678-0.70034-2.5795-0.82275-1.3861-0.18821-2.798-0.18483-4.1832 0.01l-8.4251 1.814-2.0962 11.991z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m63.153 245.58 29.62 3.9137 3.0242-22.86-20.903-11.563z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/><g><path d=\"m75.6 240.98c0.23614 1.2316 0.54076 2.4501 0.91199 3.6479 0.29931 0.96579 0.64191 1.9182 1.0264 2.8533l3.1148-0.44143-0.49332-8.1354z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m78.053 241.64c0.1657 1.7134 0.47321 3.4131 0.91834 5.076 0.05064 0.18917 0.10306 0.37787 0.15724 0.56606 0.98909-0.18072 1.9863-0.31717 2.9875-0.40882 1.8447-0.16885 3.7395-0.19316 5.4719-0.84909 2.2898-0.86699 4.1204-2.863 4.7866-5.2191l0.99346-9.2912-13.711 6.6669z\" fill=\"url(#linearGradient3776)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m78.053 241.64c-0.9907 0.44129-2.1874 0.38866-3.1356-0.13791-0.52592-0.29208-0.96671-0.71287-1.4495-1.0718-0.85851-0.63812-1.8601-1.0826-2.9093-1.291l2.8991-20.337 2.3114 7.9831\" fill=\"url(#linearGradient3778)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m92.283 234.56c-1.4807 1.2488-3.0251 2.422-4.6253 3.5134-0.94585 0.64515-1.9132 1.263-2.9353 1.779-2.0697 1.0449-4.3549 1.6607-6.6693 1.7971-0.53709-2.8626-1.3339-4.8865-1.7611-7.7676-0.49281-3.3237-0.59777-7.5073-0.94343-10.849l6.5275-6.3064z\" fill=\"url(#linearGradient3780)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/></g><path d=\"m59.167 315.24c-5e-3 -3.7021 1.5521-7.3814 4.2132-9.9552 0.79442-0.76835 1.6814-1.4409 2.6356-1.9986 0.22997-1.7865 0.69162-3.543 1.3698-5.2118 0.81846-2.014 1.9648-3.9143 3.5079-5.4456 1.9699-1.9547 4.5723-3.2619 7.3165-3.675 0.25935-1.0824 0.68945-2.1237 1.2695-3.0736 0.92216-1.5101 2.2018-2.7641 3.2899-4.1594 1.3043-1.6725 2.3284-3.5419 3.3751-5.3866 0.93683-1.651 1.9008-3.2986 2.5694-5.0753 1.7462-4.6399 1.3561-9.7612 1.6234-14.712 0.12645-2.3423 0.40564-4.6764 0.83522-6.9824l1.2027-8.7531c-1.2313 1.5475-2.8316 2.7993-4.6301 3.6218-2.8862 1.3199-6.1663 1.5066-9.3328 1.2931-3.797-0.25601-7.5566-1.0588-11.127-2.3758-2.911 5.168-5.1337 10.723-6.5909 16.473-0.67294 2.6552-1.1834 5.3516-1.5274 8.069\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/><path d=\"m60.796 263.37c-0.32311 0.94323-0.22347 2.0227 0.26684 2.8908 0.41779 0.73974 1.1107 1.3198 1.9124 1.6011-0.14788 0.13813-0.25689 0.31744-0.31145 0.5123-0.05456 0.19486-0.05452 0.4047 1.31e-4 0.59954 0.0771 0.2749 0.25607 0.50855 0.43924 0.72756 0.18317 0.219 0.37732 0.43534 0.49471 0.6956 0.09958 0.22077 0.1393 0.46346 0.16671 0.70409 0.02741 0.24063 0.04365 0.48357 0.10014 0.71908 0.11656 0.48597 0.39707 0.9137 0.66711 1.3342 0.13352 0.20793 0.26846 0.42376 0.31132 0.66712 0.05147 0.29225-0.03524 0.58839-0.08533 0.88087-0.02504 0.14625-0.041 0.29538-0.02578 0.44297s0.0633 0.29446 0.15558 0.41064c0.10038 0.12638 0.24525 0.20842 0.38906 0.28168 0.14381 0.0733 0.29284 0.14258 0.41147 0.25201 0.18206 0.16794 0.27301 0.4125 0.32783 0.65404 0.05482 0.24154 0.08019 0.49065 0.16138 0.72465 0.16638 0.47952 0.54864 0.84909 0.80053 1.2897 0.16146 0.28245 0.26814 0.59218 0.40026 0.88948 0.17416 0.39188 0.39662 0.77465 0.44474 1.2008 0.03663 0.32444-0.03111 0.65342 0 0.97843 0.03122 0.32617 0.16084 0.63524 0.31588 0.92391 0.15504 0.28866 0.33683 0.56262 0.48465 0.85504 0.34363 0.67977 0.49378 1.4375 0.66711 2.1792 0.07881 0.33725 0.16354 0.67453 0.29344 0.99558 0.1299 0.32105 0.30699 0.6271 0.55156 0.87232 0.32995 0.33083 0.77962 0.53961 1.2453 0.57817-0.0218 0.37088-0.0069 0.74391 0.04447 1.1119 0.18245 1.3074 0.84049 2.5433 1.8234 3.4245l-14.187 29.62-5.0255-7.9608 0.71158-48.165 6.0484-2.8908z\" clip-path=\"url(#clipPath1901)\" fill=\"#e5ecef\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/><path d=\"m59.167 315.24c0.61494-1.8674 1.5263-3.6368 2.6896-5.2217 0.69226-0.94317 1.4721-1.8204 2.1462-2.7766 0.85526-1.2133 1.5354-2.5498 2.013-3.9554 0.22997-1.7865 0.69162-3.543 1.3698-5.2118 0.81846-2.014 1.9648-3.9143 3.5079-5.4456 1.9699-1.9547 4.5723-3.2619 7.3165-3.675 0.25935-1.0824 0.68945-2.1237 1.2695-3.0736 0.92216-1.5101 2.2018-2.7641 3.2899-4.1594 1.3043-1.6725 2.3284-3.5419 3.3751-5.3866 0.93683-1.651 1.9008-3.2986 2.5694-5.0753 1.7462-4.6399 1.3561-9.7612 1.6234-14.712 0.12645-2.3423 0.40564-4.6764 0.83522-6.9824l1.2027-8.7531c-1.2313 1.5475-2.8316 2.7993-4.6301 3.6218-2.8862 1.3199-6.1663 1.5066-9.3328 1.2931-3.797-0.25601-7.5566-1.0588-11.127-2.3758-2.911 5.168-5.1337 10.723-6.5909 16.473-0.67294 2.6552-1.1834 5.3516-1.5274 8.069\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m116.59 298.81c1.0366 1.9864 1.89 4.0684 2.5459 6.2109 0.66765 2.1809 1.135 4.4349 2.0713 6.5147 0.73847 1.6404 1.7609 3.1479 2.9734 4.4768 1.8844 2.0652 4.2404 3.7046 6.8488 4.7106 1.8246 0.70376 3.7634 1.0997 5.5458 1.9043 0.72899 0.32905 1.4265 0.72422 2.1071 1.1443 0.15581 0.0962 0.31432 0.19684 0.42523 0.34253 0.0761 0.0999 0.12775 0.22299 0.12173 0.34842-3e-3 0.0627-0.0206 0.12506-0.0536 0.17851-0.0329 0.0534-0.0815 0.0977-0.13906 0.12273-0.0695 0.0303-0.14892 0.0316-0.22326 0.0169-0.0743-0.0148-0.14468-0.0448-0.21378-0.076-0.65167-0.29378-1.2453-0.70099-1.8785-1.0326-0.61266-0.32084-1.2602-0.56979-1.913-0.79821-1.3767-0.48175-2.7826-0.87511-4.1704-1.3241-1.9765-0.63945-3.9537-1.413-5.5625-2.7273-0.68662-0.56093-1.295-1.2118-1.9726-1.7836-1.3459-1.1359-2.9628-1.9484-4.6775-2.3505l-4.0396-14.576 2.2045-1.3027z\" fill=\"url(#linearGradient3770)\" stop-color=\"#000000\" stroke=\"url(#linearGradient3772)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m120.89 322.83c0.20313 1.7955 0.01 3.6348-0.56169 5.349-0.18661 0.55955-0.41298 1.1058-0.67682 1.6334-0.44736-0.92303-0.79805-1.8929-1.0445-2.8885-0.51136-2.0659-0.56839-4.243-0.16589-6.3328l0.92635-1.432 0.78972 0.66144z\" fill=\"url(#linearGradient2362)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m103.99 277.15 4.4412 0.51972c1.7085 2.2649 3.1544 4.7277 4.2995 7.3233 1.4257 3.2317 2.3803 6.6531 3.1299 10.105 0.63456 2.922 1.1255 5.8746 1.5003 8.8411 0.44023 3.4847 0.75782 7.1105 2.5041 10.158 1.0299 1.7973 2.5046 3.2926 3.7325 4.9609 2.1878 2.9724 3.5632 6.4501 5.3389 9.6856 1.3438 2.4485 2.9252 4.7726 4.0632 7.3233 0.4736 1.0615 0.88668 2.187 1.6868 3.0301 0.14991 0.15798 0.31215 0.30442 0.45359 0.47003 0.14143 0.16561 0.26314 0.35408 0.3148 0.56565 0.0359 0.14698 0.0361 0.30552-0.0192 0.44636-0.0276 0.0704-0.0689 0.13573-0.12263 0.18903-0.0537 0.0533-0.11986 0.0944-0.19226 0.11629-0.0731 0.0222-0.15159 0.0246-0.22686 0.0114-0.0753-0.0131-0.14743-0.0416-0.21387-0.0793-0.13288-0.0755-0.24158-0.18654-0.34438-0.29961-0.89726-0.9869-1.4728-2.2158-2.0713-3.4077-1.6926-3.3705-3.6669-6.5904-5.4957-9.889-0.83008-1.4972-1.6317-3.0131-2.5725-4.4434-0.98707-1.5006-2.125-2.902-3.391-4.1761 0.50235 1.2434 1.0091 2.4852 1.5201 3.7251 0.76638 1.8594 1.5427 3.7152 2.2551 5.5959 0.97221 2.5665 1.8248 5.1776 2.823 7.7341 0.59508 1.524 1.242 3.0287 1.7707 4.577 0.40227 1.1781 0.73525 2.3793 1.019 3.5914 0.12198 0.52114 0.23558 1.0528 0.20045 1.5869-7e-3 0.10695-0.0204 0.21501-0.0606 0.31436-0.0402 0.0993-0.11016 0.19014-0.20662 0.23688-0.0729 0.0353-0.15747 0.0436-0.23719 0.0292-0.0797-0.0143-0.15462-0.0505-0.2195-0.099-0.12977-0.097-0.21753-0.23901-0.29501-0.38126-0.44251-0.8124-0.64554-1.7291-0.88533-2.6226-0.45745-1.7045-1.0642-3.3645-1.6537-5.028-1.325-3.739-2.5672-7.5096-4.0424-11.192-0.60207-1.5028-1.2427-2.9901-1.921-4.46 0.2051 1.2105 0.38889 2.4246 0.55125 3.6416 0.31738 2.379 0.55279 4.7681 0.85192 7.1494 0.25578 2.0362 0.55827 4.0679 0.71828 6.1138 0.0878 1.123 0.13261 2.249 0.18375 3.3743 0.039 0.85876 0.0849 1.7332 0.3842 2.5391 0.0874 0.23536 0.19712 0.46802 0.21716 0.71829 9e-3 0.11359-1e-3 0.23031-0.0441 0.33587-0.0429 0.10557-0.12051 0.19928-0.22315 0.24878-0.0631 0.0304-0.13394 0.0435-0.20389 0.0408-0.07-3e-3 -0.13895-0.021-0.20247-0.0504-0.12702-0.0589-0.2301-0.16074-0.31193-0.27435-0.16738-0.23237-0.25264-0.51483-0.29638-0.79784-0.0438-0.28301-0.0487-0.57039-0.0711-0.85588-0.0823-1.0471-0.3987-2.0597-0.60136-3.0903-0.43884-2.2316-0.34154-4.5288-0.48443-6.7987-0.15347-2.4379-0.58488-4.8489-1.0357-7.2497-0.36537-1.9458-0.74402-3.8892-1.1359-5.8298-0.19836 1.3242-0.34329 2.6564-0.43431 3.9924-0.14582 2.1402-0.15322 4.287-0.21716 6.4312-0.0423 1.4197-0.10948 2.8396-0.0835 4.2596 0.0249 1.3629 0.13648 2.729 0.43431 4.0591 0.10473 0.46777 0.23315 0.94774 0.15034 1.4199-0.0193 0.11017-0.0508 0.21995-0.11019 0.31473-0.0594 0.0948-0.14936 0.1738-0.25731 0.20311-0.082 0.0223-0.17078 0.0148-0.25047-0.0148-0.0797-0.0296-0.15052-0.0804-0.20911-0.14202-0.11717-0.12314-0.18419-0.28472-0.242-0.44457-0.25238-0.69781-0.37687-1.4351-0.46772-2.1716-0.19807-1.6057-0.24174-3.2264-0.25056-4.8442-0.0142-2.5952 0.0608-5.19 0.13363-7.7842 0.0923-3.2902 0.17392-6.642-0.73499-9.8055-0.24701-0.85974-0.56587-1.6988-0.95215-2.5056l-6.4425-14.846-5.2444-22.395z\" fill=\"url(#linearGradient3770)\" stop-color=\"#000000\" stroke=\"url(#linearGradient3772)\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m116.77 321.55c-0.3169 1.37-0.47553 2.7764-0.47172 4.1826 5e-3 1.7434 0.25972 3.4858 0.75475 5.1574l0.56606-5.7864 0.12579-4.4341z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m105.82 277.58c-0.0252 1.4662 0.0575 2.9342 0.24708 4.3884 0.59188 4.5392 2.2107 8.8695 3.449 13.276 1.3495 4.8025 2.2654 9.7609 4.2995 14.316 1.1483 2.5713 2.6479 5.0016 3.449 7.7012 0.59322 1.9991 0.78712 4.1158 0.56697 6.1894l-4.4412-9.3549-12.095-30.569 3.5908-6.3311z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m97.954 277.53c-0.33632 0.93068-0.51774 1.9171-0.53454 2.9066-0.02124 1.2504 0.2179 2.4902 0.50113 3.7084 1.871 8.0467 5.6794 15.509 9.889 22.618 2.5228 4.26 5.2012 8.4254 7.8176 12.628 0.52589 0.84481 1.0493 1.6912 1.5702 2.539-2.3998-6.2773-4.9849-12.484-7.7508-18.609-2.1752-4.8168-4.5004-9.7265-4.8443-15-0.17041-2.6138 0.16029-5.2594 0.96885-7.7508-0.0287-0.52979 0.088-1.0667 0.33409-1.5368 0.18847-0.36004 0.45183-0.68065 0.7684-0.93546l0.13363-2.0713-5.9802-4.3097z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m106.1 290.39c1.6586 5.4973 3.4624 10.951 5.409 16.353 1.5458 4.2896 3.1815 8.5468 4.9059 12.768-1.9724-4.2122-3.9852-8.4055-6.038-12.579-2.2968-4.6696-4.6608-9.3598-5.9436-14.403-0.71556-2.8132-1.0861-5.714-1.1007-8.6167l1.3383-0.0741 1.4291 6.5524z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m101.86 274.22c0.97534 0.70613 1.9126 1.4649 2.8063 2.2718 2.9248 2.6407 5.373 5.793 7.3165 9.2208 1.6741 2.9526 2.9792 6.1141 3.8754 9.3878-0.63102-4.094-1.57-8.1404-2.8063-12.094-0.86903-2.7789-1.8973-5.5372-3.4745-7.9847-1.2829-1.9907-2.9198-3.7526-4.8108-5.1784z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m102.43 270.98c1.4165 0.67232 2.7806 1.455 4.0759 2.3386 1.4121 0.96328 2.7423 2.0465 3.9716 3.2342\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m104.9 276.66-3.1726 4.0735\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m106.45 246.35c0.69063 2.0025 1.2282 4.0579 1.6064 6.1421 0.56206 3.0972 0.77145 6.2562 0.66146 9.4022-0.0781 2.2342-0.3229 4.4894-1.0928 6.5882-0.90956 2.4795-2.554 4.6843-4.6713 6.263-1.1603-4.4037-2.2199-8.8338-3.1779-13.286-1.5175-7.0523-2.7797-14.16-3.7834-21.303l9.1346 3.7367z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m90.27 233.73c-0.05612 2.9173-0.05612 5.8357 0 8.7531 0.1103 5.7342 0.43753 11.465 1.0023 17.172 0.50198 5.0732 1.2518 10.303 3.9422 14.633 0.80432 1.2946 1.7721 2.4875 2.8731 3.5413 0.20967-2.3398 0.4324-4.6785 0.66817-7.0158 0.40485-4.0134 0.84819-8.023 1.3364-12.027 0.30404-2.4939 0.62011-5.0669-0.0668-7.4836-0.49464-1.7402-1.4814-3.2918-2.2479-4.9306-1.445-3.0894-2.109-6.5404-1.9135-9.9455l-5.5939-2.6969z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m95.344 238.74c-0.27066 1.3685-0.18856 2.8053 0.23624 4.1341 0.42358 1.325 1.1869 2.5398 2.197 3.4963l0.16536-8.1974z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m77.567 221.38c0.09239 0.78922 0.30435 1.5643 0.62642 2.2908 0.88143 1.988 2.5259 3.5143 4.064 5.0517 2.1506 2.1495 4.1709 4.429 6.3783 6.5201 3.6382 3.4465 7.7748 6.365 12.237 8.6462 1.8092 0.92492 3.6717 1.7457 5.5752 2.4568 0.5687-2.7365 0.90106-5.522 0.99219-8.3155 0.1251-3.835-0.20604-7.6883-1.0394-11.434-0.66129-2.972-1.6666-5.9291-3.4963-8.3627-1.2169-1.6186-2.7827-2.9734-4.5593-3.9451-1.9719 0.33596-3.9487 0.64311-5.9295 0.92132-2.1559 0.30279-4.3225 0.57242-6.4333 1.1055s-4.179 1.3417-5.9323 2.6322c-0.93623 0.68909-1.7748 1.5106-2.483 2.4326z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m96.573 212.14c0.4702 0.34206 0.88637 0.75823 1.2284 1.2284 0.21006 0.28876 0.39229 0.59775 0.54334 0.92131-0.68583 0.22374-1.3571 0.49223-2.008 0.8032-1.3709 0.65491-2.6452 1.4945-3.9924 2.197-1.1989 0.62519-2.4609 1.1429-3.7798 1.441-1.2996 0.29379-2.6374 0.37127-3.9688 0.42523-0.98634 0.04-1.9761 0.0679-2.9516 0.21869-0.97556 0.15083-1.9433 0.42951-2.7889 0.93886-0.73453 0.44245-1.3656 1.0555-1.8291 1.7769l1.2149-5.0133 15.473-5.9059z\" fill=\"#dbd5c7\" stop-color=\"#000000\" stroke=\"#a6a29a\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path id=\"path1304-3\" d=\"m59.181 186.3 12.21-0.0385c0.90043-0.63111 1.7354-1.3555 2.4872-2.1579 0.8212-0.87642 1.5431-1.8459 2.1473-2.8838-0.2926-2.867-0.22765-5.7704 0.19288-8.6214 0.25618-1.7368 0.64355-3.4538 0.85044-5.1972 0.40878-3.4445 0.06975-7.074-1.6064-10.111-1.6267-2.9473-4.4196-5.143-7.5123-6.4728-2.7301-1.174-5.7276-1.7212-8.6965-1.5875\" fill=\"#fde8cc\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/><path d=\"m74.042 154.73c0.06008 2.1753 0.03619 4.353-0.07161 6.5264-0.10709 2.1592-0.29691 4.3137-0.40633 6.4728-0.17831 3.5186-0.14934 7.0927-1.0867 10.489-0.39933 1.4468-0.97165 2.8459-1.7009 4.1577l-13.985 0.23623 0.7087-39.31 13.324 2.8821z\" clip-path=\"url(#clipPath1234)\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m61.338 167.61c0.17204 0.23086 0.41443 0.40855 0.68636 0.50313 0.27193 0.0946 0.57227 0.10568 0.85044 0.0314 0.36868-0.0984 0.69233-0.34026 1.0691-0.4009 0.21645-0.0348 0.43798-7e-3 0.65371 0.0317 0.21573 0.0391 0.43033 0.0898 0.64923 0.10197 0.45998 0.0255 0.91224-0.1208 1.3363-0.30068 0.27046-0.11471 0.54222-0.24578 0.83522-0.26727 0.36184-0.0265 0.71269 0.11686 1.0427 0.26769 0.32998 0.15083 0.66634 0.3149 1.0287 0.33367 0.3126 0.0162 0.62261-0.0777 0.93544-0.0668 0.26613 9e-3 0.52422 0.0942 0.7684 0.20045 0.64747 0.28171 1.2257 0.72113 1.6704 1.2695 0.06195 1.3922-0.08496 2.7936-0.43431 4.1427-0.38668 1.4932-1.0216 2.9219-1.8709 4.2095-0.85632-0.40625-1.8607-0.49095-2.7729-0.23386-0.5949 0.16765-1.1554 0.47531-1.7707 0.53454-0.19973 0.0192-0.40104 0.0116-0.60136 0-0.69041-0.0401-1.3824-0.12757-2.0713-0.0668-0.44543 0.0393-0.88533 0.14081-1.3029 0.30068-0.4307-1.4829-0.72194-3.0064-0.86863-4.5436-0.19202-2.0124-0.13578-4.0483 0.16704-6.047z\" fill=\"#f39079\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m59.975 186.3 11.416-0.0385c0.90043-0.63111 1.7354-1.3555 2.4872-2.1579 0.8212-0.87642 1.5431-1.8459 2.1473-2.8838-0.2926-2.867-0.22765-5.7704 0.19288-8.6214 0.25618-1.7368 0.64355-3.4538 0.85044-5.1972 0.40878-3.4445 0.06975-7.074-1.6064-10.111-1.6267-2.9473-4.4196-5.143-7.5123-6.4728-2.7301-1.174-5.7276-1.7212-8.6965-1.5875\" fill=\"none\" stop-color=\"#000000\" stroke=\"#e7be9b\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m63.042 181.51 3.5413-0.30067 6.5512 20.417-4.981 1.3651-5.5793-14.633z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/><path d=\"m62.875 190.5c1.1334-0.72688 2.152-1.6323 3.0068-2.6727 0.7798-0.94913 1.4232-2.0102 1.9043-3.1404\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m63.811 195.54c1.3641-0.74081 2.6355-1.6522 3.7752-2.7061 0.72399-0.66953 1.395-1.3964 2.0045-2.1716\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m66.918 200.25c0.0443-0.0337 0.08884-0.0671 0.13364-0.10023 0.91141-0.67309 1.929-1.2128 2.7395-2.0045 0.74796-0.73057 1.2962-1.6637 1.5702-2.6727\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m64.546 180.74c0.49306-0.38621 1.1549-0.54854 1.7707-0.43432 0.33886 0.0628 0.6577 0.20349 0.9884 0.30052 0.33069 0.097 0.69141 0.14904 1.0161 0.0336 0.19612-0.0697 0.36604-0.19591 0.53881-0.31201 0.17277-0.11611 0.35768-0.22606 0.56368-0.25594 0.19553-0.0284 0.39716 0.0189 0.57316 0.10868 0.176 0.0898 0.32837 0.22029 0.46503 0.36297 0.27333 0.28536 0.49351 0.62616 0.8115 0.86074 0.41143 0.30351 0.97121 0.39484 1.4578 0.23782 0.36485 3.4454 0.65448 6.8987 0.86863 10.357 0.23835 3.8489 0.38318 7.7035 0.43431 11.559l-2.205-0.33409c-0.10387-0.80848-0.24889-1.6117-0.43431-2.4054-0.56203-2.406-1.4902-4.7078-2.372-7.0158-1.6431-4.3006-3.1366-8.6584-4.4768-13.063z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path id=\"path1268\" d=\"m59.167 267.89c1.5214-3.3245 3.0289-6.6555 4.5222-9.9927 3.6799-8.2236 7.2786-16.497 10.205-25.017 0.73824-2.1493 1.4339-4.3153 1.9844-6.5201 0.5315-2.1289 0.94214-4.3319 2.0316-6.2366 0.66858-1.1688 1.6141-2.2191 2.8348-2.7876 1.1888-0.55357 2.5372-0.61361 3.827-0.85045 1.6928-0.31085 3.3098-0.93477 4.9137-1.5592 2.3656-0.92092 4.728-1.8501 7.0871-2.7876-0.97402-1.1611-2.1456-2.1561-3.449-2.9293-2.0858-1.2372-4.4575-1.8866-6.7091-2.7876-2.8074-1.1234-5.4592-2.652-8.3627-3.4963-2.2437-0.65244-4.6537-0.90471-6.6577-2.1063-1.8943-1.1358-3.235-3.0231-4.1619-5.028-1.2133-2.6246-1.7977-5.4958-2.1734-8.3627-0.2906-2.218-0.46212-4.4516-0.51356-6.6879-0.37698 0.18082-0.81979 0.22021-1.2228 0.10877-0.31589-0.0874-0.60609-0.26562-0.82682-0.5079-0.17193 0.34298-0.4355 0.63949-0.75596 0.85044-0.11859 0.0781-0.24604 0.1451-0.38328 0.18146-0.13724 0.0364-0.28527 0.0407-0.41992-4e-3 -0.14922-0.0499-0.27226-0.15588-0.38711-0.26343s-0.22829-0.22099-0.36884-0.29172c-0.18258-0.0919-0.40427-0.10246-0.59478-0.0284-0.1905 0.0741-0.3468 0.23166-0.41933 0.42276\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/><g transform=\"translate(-.09649)\" clip-path=\"url(#clipPath1428)\"><path d=\"m64.28 179.07c0.41208 0.50946 0.6928 1.1243 0.80784 1.7694 0.11505 0.64507 0.06418 1.319-0.14638 1.9395-0.20505 0.60425-0.55408 1.1476-0.82682 1.7245-0.09836 0.20804-0.18739 0.42161-0.31062 0.61595-0.12323 0.19435-0.28504 0.3713-0.49258 0.47073-0.24435 0.11707-0.52797 0.11658-0.79742 0.0881-0.26945-0.0285-0.53864-0.0827-0.80898-0.0645-0.28594 0.0192-0.56386 0.11897-0.85044 0.11812-0.1791-5.3e-4 -0.35798-0.0412-0.51972-0.11812-0.06437 0.38191-0.08817 0.77065-0.07087 1.1576 0.02191 0.4901 0.10938 0.97514 0.14174 1.4647 0.0265 0.40086 0.01595 0.80313 0.02363 1.2048 0.0053 0.27568 0.01913 0.55114 0.02363 0.82683 0.0089 0.54383-0.01858 1.0901 0.04725 1.63 0.05241 0.42983 0.16403 0.85241 0.33073 1.252-0.1218-0.0426-0.25885-0.04-0.37896 7e-3 -0.12011 0.0472-0.22227 0.13857-0.2825 0.2527-0.04397 0.0833-0.06571 0.17739-0.07006 0.27151-0.0044 0.0941 0.0083 0.18847 0.0301 0.28014 0.04363 0.18333 0.12336 0.35584 0.1817 0.53503 0.12375 0.38008 0.15113 0.78954 0.3071 1.1576 0.17123 0.40402 0.49826 0.73965 0.89769 0.92132-0.12011-0.13373-0.30589-0.20545-0.4847-0.1871-0.17881 0.0183-0.34616 0.12627-0.43662 0.2816-0.06478 0.11124-0.09032 0.24139-0.09766 0.3699-0.0073 0.12851 0.0024 0.25733 0.0032 0.38605 9.5e-4 0.17101-0.01413 0.34182-0.01293 0.51283 0.0012 0.171 0.01937 0.34457 0.0838 0.50298 0.0905 0.22249 0.27361 0.4056 0.49609 0.4961-0.14509 0.21039-0.1897 0.48698-0.11812 0.73232 0.07836 0.26859 0.28121 0.48228 0.49609 0.66146 0.46211 0.38533 1.0043 0.65948 1.5329 0.94694s1.0565 0.5978 1.4673 1.0374c0.14217 0.15216 0.26901 0.31863 0.37798 0.49609-0.32338 9.4e-4 -0.64681-0.0148-0.96857-0.0472-0.22942-0.0231-0.45798-0.0546-0.68508-0.0945 0.10686 0.16252 0.20928 0.32797 0.3071 0.49609 0.12582 0.21624 0.24404 0.43691 0.35435 0.66146-0.33107 0.0228-0.66478 7e-3 -0.99219-0.0472-0.44406-0.0735-0.87636-0.21755-1.2757-0.42523 0.48252 0.56598 1.0401 1.0678 1.6536 1.4883 1.0859 0.74421 2.3308 1.2247 3.5908 1.6064 1.591 0.48205 3.2309 0.81773 4.8901 0.92132 0.42183 0.0263 0.84459 0.0377 1.2672 0.034-1.0425 0.2021-2.0788 0.43611-3.107 0.70159-1.0045 0.25937-2.0403 0.56991-2.8063 1.2695-0.58952 0.53838-0.97609 1.2708-1.5702 1.8041-0.1387 0.1245-0.2879 0.23729-0.4455 0.33678 0.08717 0.0923 0.198 0.16209 0.31892 0.2008 0.14861 0.0476 0.31205 0.0476 0.46066 0-0.52299 0.35815-1.0207 0.75318-1.4883 1.1812-1.6438 1.5047-2.9062 3.4229-3.638 5.5279 0.17061 0.10281 0.35952 0.17515 0.55515 0.21261 0.18654 0.0357 0.3791 0.0397 0.56696 0.0118-0.37313 0.14071-0.7033 0.39318-0.93686 0.71641-0.23356 0.32323-0.36961 0.71598-0.38605 1.1144-0.01301 0.31527 0.04816 0.63336 0.17718 0.92131-0.15537 0.32956-0.28961 0.66909-0.4016 1.0158-0.62091 1.9223-0.54043 4.0041-0.22816 5.9999 0.08694 0.55566 0.1914 1.1096 0.23386 1.6704 0.08331 1.1004-0.07318 2.2128 0.06682 3.3075 0.10972 0.85793 0.39848 1.6809 0.62431 2.5158s0.39014 1.7097 0.24432 2.5623c-0.12406 0.72529-0.46821 1.4053-0.53454 2.1382-0.04558 0.50363 0.04247 1.009 0.13929 1.5053 0.09682 0.49634 0.20325 0.99584 0.1948 1.5015-0.0075 0.45002-0.10594 0.89293-0.16154 1.3396-0.0556 0.44664-0.06617 0.91278 0.09472 1.3331 0.10322 0.26967 0.27588 0.51243 0.49675 0.69843s0.48947 0.31483 0.77278 0.37065c-0.27531 0.24347-0.50347 0.54007-0.66817 0.86862-0.3279 0.65409-0.39543 1.4065-0.4009 2.1382-0.0045 0.60246 0.02888 1.2092-0.06681 1.8041-0.04313 0.26812-0.11227 0.53195-0.14452 0.80159-0.03225 0.26964-0.02573 0.55092 0.0777 0.80202 0.07286 0.17688 0.19303 0.33401 0.34466 0.45064 0.15162 0.11664 0.33432 0.19249 0.52397 0.21754-0.19687 0.23065-0.37577 0.47663-0.53454 0.73499-0.29766 0.48439-0.523 1.0093-0.73499 1.5368-0.09839 0.24484-0.19535 0.49606-0.20897 0.75957-0.0068 0.13176 0.0078 0.26554 0.05251 0.38968 0.04466 0.12415 0.1202 0.23839 0.22328 0.32073 0.16325 0.13039 0.39371 0.1714 0.59192 0.10533 0.19821-0.0661 0.35797-0.23716 0.41034-0.43942-0.27082 0.34745-0.49607 0.73038-0.66817 1.1359-0.37794 0.89052-0.49356 1.8905-0.3288 2.8438 0.16476 0.95326 0.60932 1.8564 1.2642 2.5684l-1.2695 6.6817-6.0804-0.53454 2.038-92.141 7.6517 0.66381z\" fill=\"#e5ecef\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/></g><path d=\"m98.088 277.83c-0.33126-1.1231-0.66302-2.246-0.99528-3.3687-0.2517-0.85052-0.50368-1.701-0.75595-2.5513 0.2088-0.2146 0.37108-0.47424 0.47247-0.75597 0.19941-0.55406 0.15863-1.1628 0.09449-1.7481-0.12561-1.1463-0.33101-2.2839-0.61421-3.4018 0.11746 9e-3 0.23724-0.0119 0.34422-0.0613 0.10699-0.0494 0.20094-0.12669 0.26999-0.22216 0.13254-0.18325 0.1671-0.41938 0.17117-0.6455 0.0041-0.22612-0.01813-0.45413 0.01782-0.67741 0.04411-0.27401 0.17497-0.52899 0.34578-0.74775 0.17081-0.21875 0.38087-0.40377 0.59916-0.57517 0.18474-0.14506 0.3792-0.28424 0.51972-0.47246 0.16593-0.22228 0.24594-0.50706 0.22005-0.78323-0.02589-0.27617-0.15744-0.54112-0.3618-0.72868 0.40582-0.3035 0.74328-0.69787 0.98038-1.1457 0.33651-0.63565 0.46661-1.3785 0.36616-2.0907 0.49698 0.97886 0.93126 1.9896 1.2993 3.0238 0.29496 0.82891 0.54739 1.673 0.75596 2.5277l0.44884-1.0867c0.0955 0.33831 0.19002 0.67692 0.28348 1.0158 0.0372 0.13475 0.0744 0.27019 0.13196 0.39756 0.0576 0.12737 0.13689 0.24742 0.24602 0.33477 0.12923 0.10344 0.29162 0.15497 0.45166 0.19721 0.16005 0.0422 0.32417 0.0782 0.46966 0.15715 0.13767 0.0747 0.25266 0.18481 0.35944 0.29941 0.10679 0.11459 0.20762 0.23543 0.32564 0.33842 0.34934 0.30488 0.8467 0.43148 1.2993 0.33073-0.42225 0.11751-0.8028 0.37968-1.0631 0.73234-0.29254 0.39641-0.42687 0.8863-0.51971 1.3701-0.24735 1.2891-0.24216 2.6203-0.54335 3.8979-0.20833 0.8837-0.56086 1.7306-0.73232 2.6222-0.0857 0.44565-0.12736 0.90622-0.30711 1.3229-0.26714 0.61931-0.81448 1.0838-1.0867 1.7009-0.19144 0.43402-0.23528 0.92329-0.18274 1.3947 0.0525 0.47145 0.19776 0.92801 0.37165 1.3694 0.26863 0.68179 0.60789 1.3361 1.0157 1.945 0.52513 0.78407 1.1639 1.4919 1.8901 2.0945l-0.0945 2.008c-0.55627-0.31789-1.0863-0.68176-1.5828-1.0867-0.68796-0.56103-1.3121-1.2017-1.8426-1.9135-0.57028-0.76512-1.0299-1.6084-1.4174-2.4805-0.30376-0.6835-0.56431-1.3862-0.77957-2.1025l-0.87098-0.43466z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m75.223 294.35c1.8138 2.0229 3.3805 4.2671 4.6543 6.6669 1.5288 2.8802 2.6344 5.9846 3.2706 9.1828\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m77.11 374.73c0.28748-0.25518 0.64922-0.42897 1.0304-0.47888 0.38114-0.0499 0.78015 0.0267 1.1081 0.22729 0.24748 0.15134 0.4509 0.36916 0.60395 0.61559 0.15305 0.24643 0.25709 0.52109 0.32747 0.80251 0.14076 0.56283 0.14852 1.1489 0.2007 1.7267 0.129 1.4285 0.53229 2.8198 1.0323 4.1641 0.83347 2.2408 1.9436 4.3892 2.5077 6.7124 0.73776 3.0384 0.50579 6.2144 0.39263 9.339-0.14617 4.0362-0.09783 8.1544-1.332 12-1.1945 3.7221-3.5163 6.9559-5.4939 10.328-0.28404 0.48433-0.5634 0.97534-0.92314 1.4064s-0.80916 0.80389-1.3411 0.98359c-0.35767 0.12083-0.74578 0.15051-1.1176 0.085-0.37181-0.0655-0.72654-0.22599-1.0209-0.46242-0.4357-0.35001-0.72761-0.85339-0.91088-1.3814s-0.26602-1.0846-0.34704-1.6376c-1.3628-9.3007-2.496-18.759-1.2579-28.077 0.40631-3.058 1.0888-6.1398 2.6416-8.8054 0.90053-1.5458 2.092-2.9518 2.6416-4.6543 0.16392-0.50775 0.26745-1.0338 0.43892-1.539 0.17147-0.50525 0.41996-0.99998 0.81899-1.3542z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m68.134 374.2c0.27316-0.15895 0.60986-0.1845 0.91914-0.11952 0.30928 0.065 0.59489 0.21406 0.85981 0.38638 0.68426 0.44509 1.2591 1.0599 1.6455 1.7789 0.6158 1.1458 0.7325 2.4844 0.845 3.7803 0.15057 1.7343 0.31515 3.4674 0.44474 5.2034 0.31585 4.2312 0.42354 8.4771 0.35579 12.72-0.05825 3.6481-0.2461 7.2929-0.44474 10.936-0.20524 3.7642-0.42208 7.5282-0.53368 11.296-0.01896 0.64014-0.0425 1.3094-0.35579 1.8679-0.19706 0.35134-0.50443 0.63983-0.86776 0.81379-0.36333 0.17395-0.78096 0.23249-1.178 0.16463-0.40712-0.0696-0.78472-0.26772-1.1081-0.52468s-0.59615-0.57174-0.84878-0.89848c-0.8924-1.1542-1.5502-2.47-2.1626-3.7942-1.6284-3.5207-2.9832-7.1866-3.7377-10.992-1.2386-6.2461-0.81654-12.801 1.115-18.869 0.91812-2.8842 2.1666-5.6516 3.1842-8.5021 0.42621-1.1939 0.81259-2.405 1.0674-3.6469 0.06192-0.30179 0.11672-0.60758 0.23294-0.8929 0.11622-0.28531 0.30131-0.55323 0.56759-0.70817z\" fill=\"url(#linearGradient2218)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m73.515 473.18c0.50811-0.3743 0.98472-0.79134 1.4232-1.2453 0.19002-0.19672 0.37361-0.40131 0.52484-0.6292s0.26986-0.48065 0.32016-0.74949c0.07389-0.395-0.0072-0.8169-0.22237-1.1563-0.38322 0.54149-0.81548 1.0483-1.2897 1.5121-0.27961 0.27346-0.58005 0.54022-0.75606 0.88948-0.21452 0.42569-0.21452 0.953 0 1.3787z\" fill=\"url(#linearGradient3689)\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m76.317 422.12c-1.8829 8.2653-3.2503 16.648-4.0916 25.083-0.47438 4.7565-0.78153 9.5279-1.0674 14.299-0.14914 2.4896-0.29211 4.9948 0 7.4716 0.11321 0.95995 0.29164 1.9298 0.15216 2.8862-0.06974 0.47825-0.2212 0.94922-0.48372 1.355-0.26252 0.40579-0.6407 0.74377-1.0916 0.91775-0.5921 0.22846-1.2769 0.1573-1.846-0.1235-0.56915-0.2808-1.0276-0.75666-1.3561-1.2997-0.74274-1.2277-0.83136-2.7522-0.62744-4.1725 0.20392-1.4203 0.67521-2.7872 0.98323-4.1886 0.42751-1.945 0.53823-3.9469 0.53369-5.9384-0.0093-4.096-0.49984-8.1789-0.53369-12.275-0.0349-4.2232 0.41565-8.4339 0.88948-12.631 0.42049-3.7243 0.85961-7.4935 0.35579-11.207-0.03051-0.22491-0.06453-0.45033-0.0641-0.67731 4.33e-4 -0.22697 0.03691-0.45779 0.14036-0.65981 0.14363-0.28049 0.4039-0.48455 0.56606-0.75475 0.17162-0.28598 0.2226-0.62715 0.24917-0.95961 0.02657-0.33246 0.03295-0.67052 0.1282-0.99015 0.11232-0.3769 0.34266-0.70787 0.59824-1.0068 0.25557-0.29892 0.53975-0.57302 0.78546-0.88009 0.37956-0.47434 0.66086-1.0192 0.91199-1.5724 0.10882-0.2397 0.21572-0.48677 0.39488-0.67965 0.08958-0.0964 0.19698-0.17791 0.31887-0.22758 0.12189-0.0497 0.25879-0.0663 0.38692-0.0362 0.13812 0.0325 0.26055 0.11804 0.35112 0.22725 0.09058 0.10921 0.15089 0.24111 0.19006 0.37748 0.07834 0.27274 0.07453 0.56164 0.11922 0.84187 0.1138 0.71365 0.5325 1.3348 0.91198 1.9498 0.26135 0.42355 0.50962 0.85768 0.69185 1.3208 0.20881 0.53069 0.33394 1.1048 0.6604 1.5724 0.14531 0.20814 0.32681 0.38908 0.47172 0.5975 0.27726 0.39878 0.41074 0.89534 0.37078 1.3794z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m63.553 461.79c0.6779 0.57193 1.3752 1.1209 2.0903 1.6456 1.0181 0.74702 2.0723 1.4448 3.1576 2.0903 0.95475-0.43509 1.8772-0.94097 2.7574-1.5121 0.61468-0.39888 1.2087-0.82956 1.779-1.2897-0.04912 1.0582 0.04084 2.1227 0.26684 3.1576 0.13221 0.60543 0.3108 1.2007 0.53369 1.779l-1.2897 1.1563-3.9137 2.2237c-1.1223-0.24935-2.2062-0.67086-3.2021-1.2453-1.42-0.81902-2.6587-1.9506-3.6024-3.2911z\" fill=\"#e5ecef\" stop-color=\"#000000\" stroke=\"#adbec7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".4\" style=\"font-variation-settings:normal\"/><path d=\"m75.871 170.39c0.29562-0.11471 0.57184-0.2792 0.81355-0.48445 0.30216-0.25658 0.55259-0.57747 0.8903-0.78506 0.2405-0.14784 0.52011-0.23233 0.80235-0.23872 0.28224-6e-3 0.56633 0.0658 0.80944 0.20932 0.35172 0.20764 0.60758 0.55907 0.73562 0.94692 0.19899 0.60274 0.10142 1.257 0.03423 1.8881-0.08218 0.77203-0.11647 1.554-0.3103 2.3058-0.19238 0.74619-0.53682 1.4427-0.86863 2.1382-0.3637 0.76232-0.71821 1.5409-0.86862 2.372-0.12377 0.6839-0.11085 1.4064-0.4009 2.0379-0.1581 0.34427-0.40794 0.65174-0.73348 0.84549-0.32554 0.19374-0.72896 0.2662-1.0933 0.16254-0.22182-0.0631-0.42519-0.18975-0.57967-0.36098-0.15448-0.17124-0.2596-0.38652-0.29961-0.61365\" fill=\"#fde8cc\" stop-color=\"#000000\" stroke=\"#e7be9b\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/><path d=\"m59.167 267.89c1.5214-3.3245 3.0289-6.6555 4.5222-9.9927 3.6799-8.2236 7.2786-16.497 10.205-25.017 0.73824-2.1493 1.4339-4.3153 1.9844-6.5201 0.5315-2.1289 0.94214-4.3319 2.0316-6.2366 0.66858-1.1688 1.6141-2.2191 2.8348-2.7876 1.1888-0.55357 2.5372-0.61361 3.827-0.85045 1.6928-0.31085 3.3098-0.93477 4.9137-1.5592 2.3656-0.92092 4.728-1.8501 7.0871-2.7876-0.97402-1.1611-2.1456-2.1561-3.449-2.9293-2.0858-1.2372-4.4575-1.8866-6.7091-2.7876-2.8074-1.1234-5.4592-2.652-8.3627-3.4963-2.2437-0.65244-4.6537-0.90471-6.6577-2.1063-1.8943-1.1358-3.235-3.0231-4.1619-5.028-1.2133-2.6246-1.7977-5.4958-2.1734-8.3627-0.2906-2.218-0.46212-4.4516-0.51356-6.6879-0.37698 0.18082-0.81979 0.22021-1.2228 0.10877-0.31589-0.0874-0.60609-0.26562-0.82682-0.5079-0.17202 0.34292-0.43556 0.63941-0.75596 0.85044-0.11858 0.0781-0.24602 0.14519-0.38327 0.18157-0.13725 0.0364-0.2853 0.0407-0.41993-4e-3 -0.14919-0.05-0.27209-0.15617-0.38688-0.26378-0.1148-0.10761-0.22832-0.22103-0.36907-0.29137-0.21174-0.10582-0.47582-0.0992-0.68202 0.017\" fill=\"none\" stop-color=\"#000000\" stroke=\"#a45e49\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\".5\" style=\"font-variation-settings:normal\"/></g></g><path d=\"m270.92-146.86 0.0904 0.27517 0.0393 0.49137 0.19262-0.74295 0.26337-0.40489v-85.138h-0.88085z\" fill=\"#e5ecef\"/><path d=\"m271.01-99.715 0.1405 0.59206 0.17193-0.59992v-45.711h-0.35373z\" fill=\"#e5ecef\" stop-color=\"#000000\" style=\"font-variation-settings:normal\"/></g>",
+   "vues": {
+    "face": {
+     "vb": [
+      7.0,
+      7.0,
+      190.4,
+      340.4
+     ],
+     "zones": "<path class=\"am-r\" data-m=\"adducteurs\" d=\"M84.1 166.0 83.7 171.3 85.3 174.7 85.6 174.8 85.8 175.9 89.6 184.1 89.9 184.2 89.9 184.8 93.9 193.3 94.3 193.3 95.7 182.9 96.4 180.3 97.6 177.9 97.6 177.4 95.1 175.6 94.7 175.6 94.6 175.2 89.1 170.8 88.5 170.6 85.9 167.9 84.5 166.0Z\"/><path class=\"am-r mir\" data-m=\"adducteurs\" d=\"M120.2 165.4 119.8 165.4 117.7 168.2 115.8 170.0 115.7 170.4 115.0 170.6 109.6 174.9 109.5 175.3 108.9 175.5 106.7 177.4 107.9 180.2 108.6 182.7 110.0 193.3 110.4 193.3 114.3 185.1 114.4 184.1 114.8 184.0 118.8 175.3 118.7 174.7 119.1 174.6 120.7 171.2 120.3 168.8Z\"/><path class=\"am-r\" data-m=\"biceps\" d=\"M62.4 90.4 61.2 92.1 59.7 93.6 59.5 93.4 60.6 91.2 60.6 90.7 59.8 90.8 58.3 91.9 54.6 96.7 52.1 100.6 50.9 103.0 49.6 106.8 48.8 111.1 47.7 127.1 48.3 127.0 54.2 123.3 55.4 121.6 58.9 117.8 60.7 114.7 64.8 101.8 65.4 98.9 65.4 94.5 64.6 91.6 64.2 90.8Z\"/><path class=\"am-r mir\" data-m=\"biceps\" d=\"M140.1 90.8 139.0 94.2 138.8 95.9 138.9 98.7 139.8 102.7 143.9 115.3 145.2 117.5 150.2 123.3 156.0 126.9 156.3 127.5 156.7 127.5 155.5 110.8 154.6 106.3 153.4 102.9 150.5 97.8 147.2 93.2 145.7 91.6 144.5 90.8 143.7 90.6 143.7 91.2 144.9 93.5 144.8 93.7 143.4 92.4 141.9 90.4Z\"/><path class=\"am-r\" data-m=\"brachial\" d=\"M65.4 92.3 65.0 92.3 65.0 92.9 65.6 95.3 65.6 98.1 64.9 101.6 61.0 114.0 59.9 116.3 58.5 118.2 58.2 120.3 57.5 122.1 57.5 123.1 58.7 126.3 59.1 126.3 60.3 121.6 62.0 116.6 62.2 112.3 62.9 110.8 64.2 109.0 65.1 107.0 65.8 103.8 66.4 98.8 67.4 96.0 67.3 95.2Z\"/><path class=\"am-r mir\" data-m=\"brachial\" d=\"M138.9 92.4 137.1 95.1 136.9 95.9 137.8 98.2 139.1 106.5 140.2 109.1 142.0 111.9 142.4 116.8 144.1 121.8 145.2 126.3 145.7 126.3 146.8 123.2 146.9 122.3 146.2 120.5 145.8 118.1 144.2 115.9 143.3 113.9 139.2 100.7 138.7 97.7 138.7 95.7 139.3 92.4Z\"/><path class=\"am-r\" data-m=\"brachio-radial\" d=\"M48.5 112.5 48.1 112.5 43.3 119.7 40.4 125.2 38.7 129.0 36.8 134.0 34.6 141.3 32.9 149.1 32.5 152.0 37.7 153.3 44.5 138.2 46.7 132.2 47.3 129.3 47.8 124.6Z\"/><path class=\"am-r mir\" data-m=\"brachio-radial\" d=\"M155.8 112.5 156.6 125.5 157.1 129.7 157.7 132.4 159.8 138.1 166.6 153.3 171.7 152.0 171.6 150.0 169.6 140.8 168.4 136.6 166.0 129.9 163.8 124.9 161.1 119.8 156.4 112.7Z\"/><path class=\"am-r\" data-m=\"deltoide-ant\" d=\"M62.4 83.6 62.8 83.6 64.3 81.7 67.2 79.0 71.7 76.0 78.6 72.7 83.8 70.9 88.0 69.9 88.0 69.4 83.3 67.2 79.3 65.9 77.4 65.6 70.0 65.6 67.8 65.2 66.6 64.7 65.6 64.8 62.4 67.2Z\"/><path class=\"am-r mir\" data-m=\"deltoide-ant\" d=\"M141.9 83.6 141.9 67.1 138.9 64.9 137.8 64.7 136.5 65.2 134.3 65.6 126.9 65.6 125.5 65.8 121.8 66.9 116.4 69.4 116.4 69.9 119.9 70.7 123.9 72.0 128.3 73.8 132.3 75.8 137.5 79.3 140.3 82.0 141.5 83.6Z\"/><path class=\"am-r\" data-m=\"deltoide-moy\" d=\"M62.7 67.3 62.2 67.3 60.1 69.2 56.7 73.2 54.2 77.5 53.0 80.7 52.2 84.7 52.0 89.0 52.3 93.1 53.3 98.1 53.8 98.0 57.7 92.6 59.7 90.9 60.8 87.1 62.7 83.8Z\"/><path class=\"am-r mir\" data-m=\"deltoide-moy\" d=\"M141.6 67.2 141.6 83.7 143.4 86.8 144.7 90.9 146.9 92.9 150.6 98.1 151.1 98.1 151.9 94.1 152.3 90.1 152.2 85.2 151.3 80.6 149.5 76.2 147.2 72.6 143.4 68.4 142.0 67.2Z\"/><path class=\"am-r\" data-m=\"dentele\" d=\"M66.7 98.3 66.2 100.6 65.9 104.5 70.0 119.2 79.2 119.2 79.2 111.1 76.1 109.5 74.5 108.2 73.0 106.5 71.6 104.3 68.7 97.9 68.2 97.8Z\"/><path class=\"am-r mir\" data-m=\"dentele\" d=\"M137.7 98.3 135.7 97.8 132.9 104.0 131.1 106.8 128.5 109.3 125.1 111.1 125.1 119.2 134.4 119.1 138.5 104.3Z\"/><path class=\"am-r\" data-m=\"droit-femoral\" d=\"M74.4 182.4 72.0 190.8 73.2 202.9 73.9 207.4 75.5 213.9 77.7 220.0 81.5 227.8 83.2 232.1 83.9 232.1 89.4 230.4 88.7 223.5 88.7 218.6 89.3 208.7 89.2 205.1 88.8 202.0 87.2 195.6 83.1 188.7 80.2 182.4 79.8 182.4 80.1 190.4 79.6 192.5 79.8 194.8 79.6 195.1 79.1 194.7 78.7 193.6 77.5 192.6 76.6 190.5 75.3 188.6 75.6 187.0 75.4 183.5 74.9 182.5Z\"/><path class=\"am-r mir\" data-m=\"droit-femoral\" d=\"M129.9 182.5 129.3 182.7 128.9 183.9 128.8 187.3 129.1 188.1 129.0 188.7 127.6 190.7 126.9 192.5 125.5 193.8 124.9 195.2 124.6 194.9 124.8 192.7 124.3 191.1 124.6 182.3 124.2 182.3 121.4 188.4 117.1 195.7 115.6 201.7 115.1 205.6 115.1 210.8 115.6 217.6 115.6 224.4 114.9 230.5 115.5 230.4 120.7 232.2 121.1 232.2 122.2 229.2 125.8 221.9 127.4 218.1 129.1 213.0 130.4 207.6 131.1 203.2 132.3 190.6Z\"/><path class=\"am-r\" data-m=\"gastrocnemien\" d=\"M96.4 251.4 95.3 251.8 94.7 253.1 94.2 256.1 92.5 261.2 91.5 267.3 91.2 272.4 91.4 282.4 91.3 300.8 91.7 300.8 93.3 292.2 96.9 278.1 98.1 271.5 98.1 263.8Z\"/><path class=\"am-r mir\" data-m=\"gastrocnemien\" d=\"M107.9 251.5 106.2 264.2 106.2 271.1 107.0 276.2 110.4 289.4 112.6 300.6 113.1 300.6 113.2 295.6 112.9 290.8 113.1 271.2 112.8 267.0 111.9 261.5 111.2 258.8 110.0 255.6 109.6 253.0 109.1 251.8Z\"/><path class=\"am-r\" data-m=\"gracile\" d=\"M97.6 177.8 96.5 180.1 95.9 182.3 94.3 194.1 97.1 200.5 98.6 205.8 99.1 206.0 99.3 204.7 99.2 188.2 99.5 184.1 100.3 180.0 98.0 177.8Z\"/><path class=\"am-r mir\" data-m=\"gracile\" d=\"M106.7 177.7 106.3 177.7 104.1 180.1 104.8 183.8 105.1 187.2 105.0 203.7 105.3 206.0 105.7 206.0 107.1 200.9 110.0 194.2 108.6 183.1 107.8 180.0Z\"/><path class=\"am-r\" data-m=\"grand-droit\" d=\"M88.2 144.4 87.0 145.5 86.5 148.3 86.7 153.6 88.2 158.2 94.6 170.4 95.2 171.0 96.1 171.4 99.8 172.3 100.7 172.3 100.9 172.0 100.8 164.5 101.3 158.4 101.3 152.4 100.6 145.6 99.5 144.5 92.9 144.2ZM100.2 133.5 98.9 133.3 97.0 133.9 91.9 134.5 88.0 134.3 87.4 134.6 86.5 135.9 86.2 138.0 86.2 140.1 86.8 141.5 87.0 143.1 87.5 143.4 88.8 143.4 91.2 143.0 96.0 142.9 98.2 143.5 99.9 143.3 100.4 142.6 100.6 141.6 100.4 137.7 100.7 134.9ZM101.0 124.9 100.2 124.1 99.5 123.8 97.1 123.7 95.0 123.2 93.0 123.2 90.9 123.9 88.2 124.4 87.2 124.9 86.2 126.0 86.0 127.1 86.1 132.2 86.9 132.9 88.3 132.9 89.9 133.4 94.2 133.3 97.5 132.5 99.8 132.3 100.7 131.6 101.1 130.5 101.3 126.2ZM100.6 113.9 99.0 113.6 96.3 113.6 89.4 114.3 87.0 114.8 86.5 115.2 86.0 116.3 86.1 119.7 86.7 122.3 87.5 123.0 89.6 122.9 93.8 121.9 96.6 122.0 99.3 122.6 100.7 122.5 100.9 122.2 100.9 114.8Z\"/><path class=\"am-r mir\" data-m=\"grand-droit\" d=\"M116.1 144.4 111.4 144.2 104.9 144.5 104.3 144.8 103.8 145.5 103.0 153.3 103.0 157.3 103.6 165.9 103.4 171.3 103.6 172.3 104.5 172.3 109.0 171.1 109.6 170.6 116.0 158.5 117.3 155.1 117.9 151.4 117.9 149.1 117.5 146.0 117.0 145.0ZM104.0 133.7 103.7 134.5 103.7 136.6 104.0 138.2 103.8 142.1 104.5 143.3 106.1 143.5 108.3 142.9 110.8 142.9 116.9 143.4 117.4 143.0 117.5 141.7 118.2 139.8 118.2 138.5 117.8 135.8 116.8 134.5 112.5 134.5 107.3 133.9 105.5 133.3 104.5 133.3ZM103.4 124.8 103.1 125.6 103.3 130.8 104.1 132.1 104.8 132.4 106.8 132.5 109.5 133.2 111.5 133.4 114.4 133.4 116.0 132.9 117.5 132.9 118.2 132.3 118.2 126.2 117.9 125.6 116.8 124.7 111.4 123.2 109.3 123.2 107.3 123.7 104.9 123.8 104.0 124.2ZM103.6 114.1 103.4 122.1 103.8 122.6 105.0 122.6 108.6 121.9 110.5 121.9 114.2 122.8 116.8 123.0 117.7 122.2 118.3 119.1 118.3 116.1 117.9 115.3 117.3 114.8 115.0 114.3 108.1 113.6 105.3 113.6 104.0 113.8Z\"/><path class=\"am-r\" data-m=\"obliques\" d=\"M78.9 111.1 78.8 118.9 70.0 118.9 72.2 127.9 72.7 131.6 72.7 133.7 72.1 136.5 69.2 143.1 68.9 144.5 68.9 147.1 69.3 148.7 71.0 150.8 73.9 153.9 76.6 156.3 78.9 157.8 80.5 158.5 82.3 158.9 83.8 158.9 85.2 158.6 85.3 157.5 84.1 151.6 83.7 147.7 84.7 129.7 83.7 119.6 83.4 112.3Z\"/><path class=\"am-r mir\" data-m=\"obliques\" d=\"M125.4 111.1 121.2 112.2 120.9 112.5 120.6 120.0 119.7 127.9 119.7 133.5 120.5 142.7 120.6 148.5 120.2 151.8 119.0 157.8 119.1 158.6 120.5 158.9 122.7 158.8 124.4 158.3 126.3 157.3 128.6 155.6 132.0 152.3 135.1 148.6 135.5 146.4 135.2 143.3 132.3 136.7 131.6 133.1 132.1 128.1 134.3 118.9 125.5 118.9Z\"/><path class=\"am-r\" data-m=\"pectoral-clav\" d=\"M98.9 78.4 98.0 75.9 97.3 74.9 94.5 73.0 89.0 69.9 87.9 69.9 83.6 71.0 78.9 72.6 71.5 76.1 66.3 79.7 62.9 83.4 62.9 83.8 98.9 78.8Z\"/><path class=\"am-r mir\" data-m=\"pectoral-clav\" d=\"M105.5 78.2 105.5 78.8 141.4 83.8 141.0 82.8 138.5 80.1 136.0 78.1 133.2 76.3 128.5 73.9 124.9 72.4 120.4 70.9 116.4 69.9 115.4 69.9 114.0 70.6 106.9 75.0Z\"/><path class=\"am-r\" data-m=\"pectoral-stern\" d=\"M98.2 111.9 98.7 110.6 99.3 105.9 99.3 103.3 98.7 100.7 98.6 99.1 99.7 95.2 99.3 89.3 99.9 85.7 99.8 82.2 98.9 78.5 62.8 83.5 60.9 86.9 60.0 89.5 59.9 90.6 62.5 90.2 64.3 90.9 67.8 96.1 72.1 105.2 73.6 107.3 75.0 108.7 76.7 109.9 78.9 111.0 81.7 111.9 84.9 112.5 89.4 112.9 96.5 112.9 97.6 112.5Z\"/><path class=\"am-r mir\" data-m=\"pectoral-stern\" d=\"M106.0 111.7 106.6 112.4 107.9 112.9 115.0 112.9 118.7 112.6 122.2 112.0 124.9 111.2 127.3 110.1 129.1 108.9 131.0 107.0 132.1 105.4 136.1 96.9 139.8 91.2 140.3 90.7 141.8 90.2 144.5 90.6 143.4 86.8 141.6 83.6 105.4 78.5 104.6 81.8 104.4 84.9 105.1 90.2 104.6 94.7 105.7 98.8 105.7 100.3 105.0 103.6 105.0 105.5 105.6 110.4Z\"/><path class=\"am-r\" data-m=\"sartorius\" d=\"M73.9 157.5 74.6 163.2 76.2 170.7 78.4 177.9 80.7 183.7 84.8 191.8 94.4 206.5 96.6 210.4 98.7 215.1 99.1 215.1 99.6 214.8 99.6 213.3 98.8 206.7 97.9 203.0 95.7 197.1 79.1 161.0 76.0 159.2 74.3 157.5Z\"/><path class=\"am-r mir\" data-m=\"sartorius\" d=\"M130.5 156.6 130.1 156.6 129.6 157.5 128.1 159.0 125.4 160.7 108.9 196.5 107.2 200.7 105.8 205.4 105.0 210.4 104.7 215.1 105.7 214.9 106.8 212.3 109.4 207.4 118.1 194.2 121.4 188.4 123.6 183.8 125.9 178.0 127.9 171.6 129.7 163.4Z\"/><path class=\"am-r\" data-m=\"tibial-ant\" d=\"M82.7 247.7 81.5 247.9 79.9 262.0 79.5 271.1 79.8 276.9 80.9 283.8 82.7 290.2 83.7 292.8 84.1 292.8 84.5 292.5 88.0 292.1 88.7 275.2 88.1 266.1 86.6 257.6 85.6 254.5 84.4 249.0 83.4 247.8Z\"/><path class=\"am-r mir\" data-m=\"tibial-ant\" d=\"M121.1 247.7 119.9 249.1 118.8 254.3 117.8 257.4 116.3 265.6 115.7 272.8 115.7 280.0 116.4 292.1 120.7 292.7 121.5 290.6 123.4 284.0 124.3 278.9 124.8 273.0 124.6 264.1 122.8 247.9Z\"/><path class=\"am-r\" data-m=\"trapeze-sup\" d=\"M91.8 56.2 91.4 56.2 90.0 57.6 88.1 59.0 84.3 60.8 79.8 61.9 69.1 63.4 68.6 63.6 68.6 64.0 76.1 64.0 78.1 64.3 81.3 65.2 87.2 67.8 87.9 67.9 89.2 65.8 90.4 63.1 91.3 60.1Z\"/><path class=\"am-r mir\" data-m=\"trapeze-sup\" d=\"M112.5 56.2 112.7 58.4 113.4 61.5 114.6 64.7 116.4 67.9 116.9 67.9 122.5 65.4 126.2 64.3 128.3 64.0 135.7 64.0 135.7 63.5 124.5 61.9 119.8 60.7 116.4 59.1 114.7 57.9 112.9 56.2Z\"/><path class=\"am-r\" data-m=\"vaste-lat\" d=\"M71.6 192.4 70.7 197.2 70.5 202.0 70.9 206.3 72.2 212.4 75.1 221.5 80.3 234.9 81.9 237.8 83.9 239.9 84.3 239.9 84.1 235.7 83.1 231.7 81.4 227.6 77.6 219.8 74.8 211.6 73.3 204.3 72.0 192.4Z\"/><path class=\"am-r mir\" data-m=\"vaste-lat\" d=\"M132.7 192.3 132.3 192.3 131.1 203.9 129.7 211.0 126.9 219.4 121.6 230.7 120.3 235.3 120.0 239.9 120.4 239.9 121.8 238.6 123.9 235.2 129.2 221.6 132.0 212.9 133.3 207.2 133.8 202.8 133.7 197.7Z\"/><path class=\"am-r\" data-m=\"vaste-med\" d=\"M87.8 197.1 89.0 202.7 89.4 206.3 88.8 222.5 89.5 230.3 90.5 234.8 92.2 240.6 95.1 240.6 95.0 241.2 96.4 245.1 96.8 245.1 98.0 242.7 98.4 240.9 98.8 232.7 98.4 232.7 98.3 232.3 99.3 226.4 99.8 217.9 98.0 213.3 95.3 208.0 88.3 197.2Z\"/><path class=\"am-r mir\" data-m=\"vaste-med\" d=\"M116.5 197.2 116.1 197.2 109.5 207.2 106.9 212.1 104.5 218.0 105.0 226.0 106.0 232.4 105.6 232.5 106.0 241.4 106.4 242.9 107.5 245.0 107.9 245.0 109.3 240.8 109.6 240.5 112.1 240.7 113.7 235.3 114.8 230.5 115.5 223.8 115.5 218.3 114.9 208.5 115.0 205.4Z\"/>"
+    },
+    "dos": {
+     "vb": [
+      230.2,
+      9.0,
+      169.7,
+      336.4
+     ],
+     "zones": "<path class=\"am-r\" data-m=\"achille\" d=\"M301.5 276.9 301.2 277.3 300.9 278.9 299.5 281.3 299.0 282.8 298.1 284.0 298.0 285.6 299.9 294.5 301.3 303.4 302.4 313.4 303.3 327.4 305.1 328.4 305.7 328.4 307.2 327.4 306.8 324.4 306.7 320.2 307.3 307.4 307.0 302.0 305.8 290.7 305.8 287.2 306.1 284.2 305.3 283.0 304.8 280.6 303.4 279.0 302.5 277.2 302.1 276.9Z\"/><path class=\"am-r mir\" data-m=\"achille\" d=\"M328.6 276.9 327.7 277.1 326.8 278.9 325.4 280.5 325.0 281.5 324.9 282.8 324.0 284.3 324.3 286.9 324.3 291.0 322.9 305.2 322.9 312.2 323.4 319.6 323.4 323.2 322.9 327.4 324.4 328.4 325.5 328.2 326.6 327.6 326.9 327.1 327.6 314.9 328.7 304.3 330.2 294.6 332.1 285.7 332.1 284.2 331.2 282.9 330.7 281.5 329.1 278.6 329.0 277.5Z\"/><path class=\"am-r\" data-m=\"biceps-femoral\" d=\"M301.0 217.6 300.6 217.6 298.9 225.1 295.6 234.3 295.8 235.3 296.3 235.3 298.3 232.3 301.0 225.6 301.2 224.3ZM300.7 192.4 297.8 193.5 295.7 194.6 295.0 201.1 294.8 205.6 295.3 205.5 300.6 206.8 300.7 210.1 301.1 210.1 301.2 192.4Z\"/><path class=\"am-r mir\" data-m=\"biceps-femoral\" d=\"M329.1 217.5 328.9 219.5 329.0 225.2 330.6 229.7 332.0 232.6 333.9 235.3 334.3 235.3 334.6 234.5 331.7 226.7 330.2 221.2 329.5 217.5ZM328.9 192.4 329.0 207.5 329.4 207.5 329.5 206.8 335.3 205.4 335.3 203.7 334.4 194.6 331.4 193.1 329.5 192.4Z\"/><path class=\"am-r\" data-m=\"deltoide-moy\" d=\"M274.7 78.3 274.1 78.4 273.0 79.3 270.6 82.2 269.0 85.5 267.9 89.2 267.2 93.1 266.8 98.0 267.0 104.2 267.8 109.2 270.7 108.2 274.7 106.2Z\"/><path class=\"am-r mir\" data-m=\"deltoide-moy\" d=\"M355.4 78.3 355.4 106.2 359.9 108.4 362.3 109.2 363.2 103.3 363.3 97.5 363.0 93.7 362.1 88.7 361.0 85.2 359.7 82.5 358.6 80.9 357.0 79.2 355.9 78.3Z\"/><path class=\"am-r\" data-m=\"deltoide-post\" d=\"M294.8 83.0 293.1 82.5 287.2 82.1 284.5 81.5 276.2 77.4 275.6 77.4 274.4 78.2 274.4 106.1 274.9 106.1 277.0 104.9 281.9 101.5 285.4 98.5 294.2 89.5 295.6 87.6 296.6 84.8 296.6 84.3Z\"/><path class=\"am-r mir\" data-m=\"deltoide-post\" d=\"M333.6 84.2 333.6 85.2 334.1 86.8 334.9 88.2 342.2 96.0 346.4 100.0 350.1 102.9 355.2 106.1 355.7 106.1 355.7 78.2 354.5 77.4 354.0 77.4 345.3 81.6 342.9 82.1 336.5 82.6 335.1 83.1Z\"/><path class=\"am-r\" data-m=\"gastrocnemien\" d=\"M305.8 237.1 305.1 237.1 304.2 237.5 302.6 239.3 302.0 241.4 301.5 246.9 301.4 245.9 299.1 242.3 297.4 238.0 296.3 237.3 294.9 237.5 294.1 238.7 293.4 243.2 291.0 249.2 290.1 252.5 289.9 254.1 290.2 267.2 290.8 271.3 291.7 274.2 292.8 276.6 297.5 284.4 298.0 284.4 298.8 283.2 299.3 281.8 300.9 278.9 301.0 277.8 301.6 276.9 301.7 276.0 301.8 276.8 302.5 277.3 303.4 279.1 304.8 280.7 305.2 281.6 305.5 283.4 306.1 284.3 306.7 284.2 308.1 281.8 310.1 277.2 311.5 273.0 312.4 269.1 312.9 264.4 312.9 260.9 312.1 254.5 310.5 249.0 307.5 241.3 306.6 237.7Z\"/><path class=\"am-r mir\" data-m=\"gastrocnemien\" d=\"M324.3 237.1 323.4 238.0 322.9 240.4 319.3 249.9 318.0 254.6 317.2 261.3 317.3 265.7 317.8 269.5 318.5 272.6 319.9 276.9 321.5 280.7 323.4 284.2 324.0 284.4 324.7 283.3 325.2 280.9 326.5 279.4 327.5 277.5 328.3 276.8 328.4 276.4 328.5 276.9 329.0 277.4 329.3 279.1 330.7 281.5 331.2 283.0 332.1 284.4 332.6 284.4 337.0 277.2 338.3 274.5 339.2 271.8 339.8 268.4 340.1 263.8 340.3 255.7 340.0 252.4 339.3 249.7 336.8 243.5 336.3 241.5 336.1 239.0 335.5 237.7 334.7 237.3 333.8 237.3 332.7 238.0 331.4 241.6 329.1 245.2 328.6 246.6 328.1 241.3 327.7 239.7 326.2 237.7 325.0 237.1Z\"/><path class=\"am-r\" data-m=\"gracile\" d=\"M312.1 187.2 311.5 187.2 309.9 188.9 310.5 196.5 310.4 203.2 309.6 210.7 307.8 221.1 307.5 225.3 307.6 229.2 308.9 229.2 308.9 231.2 309.3 231.2 309.6 224.4 311.9 210.4 312.7 202.5 312.9 197.9 312.8 190.5 312.6 187.6Z\"/><path class=\"am-r mir\" data-m=\"gracile\" d=\"M318.1 187.2 317.6 187.5 317.2 194.3 317.3 200.3 317.8 206.9 318.6 213.1 320.4 223.4 320.8 229.5 321.2 229.5 321.3 229.1 322.5 229.4 322.6 224.7 322.4 221.9 320.3 209.2 319.7 202.8 319.6 197.3 320.2 188.8 318.6 187.2Z\"/><path class=\"am-r\" data-m=\"grand-dorsal\" d=\"M284.0 106.2 283.6 116.1 284.0 119.7 284.2 127.6 284.6 130.9 285.5 134.3 287.0 137.5 289.8 142.4 294.9 149.1 296.0 151.9 298.4 152.5 300.2 153.3 301.8 154.4 302.4 154.4 302.9 153.0 303.0 151.5 304.0 151.1 304.9 149.8 305.5 147.3 306.5 145.4 306.7 143.4 308.2 140.7 308.5 139.5 309.6 138.6 309.5 137.0 310.5 135.2 310.7 133.7 311.7 132.3 311.8 131.5 311.6 131.0 313.2 129.7 313.7 128.6 313.6 127.6 304.6 107.3 298.8 108.5 292.8 108.9 288.4 108.2 287.0 107.7 284.4 106.2Z\"/><path class=\"am-r mir\" data-m=\"grand-dorsal\" d=\"M346.1 106.2 345.7 106.2 343.6 107.5 341.4 108.3 337.3 108.9 332.1 108.6 325.5 107.3 316.4 127.9 316.4 128.5 317.0 129.8 318.5 131.0 318.5 132.5 319.4 133.7 319.7 135.4 320.6 136.9 320.5 138.6 321.6 139.5 321.9 140.7 323.1 142.7 323.6 144.0 323.6 145.4 324.5 147.0 325.3 150.0 326.0 151.0 327.1 151.5 327.2 152.9 327.8 154.4 328.3 154.4 330.1 153.2 331.7 152.5 334.1 151.9 335.4 148.8 340.0 142.9 342.9 137.9 344.5 134.6 345.6 130.5 346.0 126.2 346.1 120.1 346.5 116.3Z\"/><path class=\"am-r\" data-m=\"grand-fessier\" d=\"M300.4 155.2 299.8 155.2 298.9 157.5 294.8 164.9 291.4 171.7 291.2 173.0 290.6 173.4 287.9 179.8 285.0 179.9 285.0 184.3 285.3 184.3 295.2 192.7 296.4 194.0 296.9 194.0 301.5 192.1 306.7 190.7 309.3 189.4 310.8 188.1 312.3 186.1 313.6 183.3 314.2 181.0 313.4 174.5 309.7 169.5 306.6 163.0 303.8 158.5 301.9 156.2Z\"/><path class=\"am-r mir\" data-m=\"grand-fessier\" d=\"M329.7 155.2 328.7 155.8 327.3 157.2 325.7 159.4 323.2 163.6 320.6 169.2 316.6 174.8 315.9 180.9 316.7 183.8 317.7 185.9 318.8 187.5 320.7 189.3 323.7 190.8 329.3 192.3 333.2 194.0 333.7 194.0 334.1 193.4 344.6 184.5 345.1 184.5 345.1 179.9 342.2 179.8 339.5 173.4 339.0 173.1 338.7 171.8 334.5 163.4 331.1 157.3 330.3 155.2Z\"/><path class=\"am-r\" data-m=\"grand-rond\" d=\"M302.8 102.6 301.7 102.8 298.5 104.9 297.6 108.5 300.7 108.1 304.4 107.2 304.4 106.6ZM284.1 99.6 284.0 105.9 285.2 106.8 288.2 108.1 290.6 108.6 292.7 108.7 292.6 108.1 294.2 105.0 294.2 104.4 290.6 103.4 288.1 102.1 284.6 99.6Z\"/><path class=\"am-r mir\" data-m=\"grand-rond\" d=\"M327.3 102.6 325.8 106.4 325.7 107.2 328.9 108.0 332.5 108.5 331.6 104.8 330.9 104.6 328.6 102.9ZM346.0 99.6 345.4 99.7 342.5 101.8 340.2 103.1 335.9 104.5 335.9 105.0 337.5 108.1 337.4 108.7 339.5 108.6 341.9 108.1 343.8 107.4 346.1 106.0Z\"/><path class=\"am-r\" data-m=\"moyen-fessier\" d=\"M300.2 155.1 299.1 154.8 296.1 154.8 295.1 154.5 293.5 154.5 288.4 156.0 287.0 157.9 285.8 160.2 284.8 163.0 283.8 168.7 283.7 173.1 284.1 175.4 285.2 177.9 285.0 180.2 288.2 180.2 290.9 174.0 291.3 171.9 291.9 171.8 298.9 158.3 298.9 157.9 298.6 157.8 299.4 157.3Z\"/><path class=\"am-r mir\" data-m=\"moyen-fessier\" d=\"M329.9 155.1 330.7 157.3 331.5 157.8 331.2 157.9 331.2 158.3 338.3 172.1 338.9 172.2 339.2 174.0 341.9 180.2 345.1 180.2 344.9 177.9 345.9 175.8 346.4 173.3 346.3 168.5 345.2 162.6 344.2 159.9 343.0 157.7 341.7 156.0 336.6 154.5 335.1 154.5 334.0 154.8 331.0 154.8Z\"/><path class=\"am-r\" data-m=\"obliques\" d=\"M290.4 143.2 290.0 143.2 289.4 149.4 287.9 153.4 288.0 154.7 288.6 155.8 289.1 155.8 289.9 154.0 291.2 152.9 292.9 152.3 295.9 152.1 295.7 150.8 294.8 148.9Z\"/><path class=\"am-r mir\" data-m=\"obliques\" d=\"M339.7 143.2 335.5 148.6 334.5 150.6 334.2 152.1 336.6 152.2 338.5 152.7 340.3 154.1 341.0 155.8 341.6 155.8 342.1 154.8 342.2 153.2 340.8 149.7 340.2 143.4Z\"/><path class=\"am-r\" data-m=\"semi-membraneux\" d=\"M301.3 218.7 301.2 227.1 301.5 228.7 302.9 231.1 305.5 233.9 305.9 233.9 305.5 227.7 305.1 225.5 304.5 224.1 302.7 221.3 301.7 218.7ZM309.8 189.2 309.4 189.2 307.0 190.6 307.4 196.3 307.4 200.4 306.5 217.7 306.9 230.0 307.3 230.0 307.5 229.5 307.4 224.5 307.6 222.0 309.5 210.8 310.2 204.5 310.3 194.6Z\"/><path class=\"am-r mir\" data-m=\"semi-membraneux\" d=\"M328.9 218.5 328.5 218.5 327.9 220.3 325.8 223.8 324.9 225.9 324.2 234.0 324.6 234.0 327.3 231.0 328.2 229.7 328.7 228.4 328.9 227.3 328.7 222.2ZM320.3 189.2 319.8 195.0 319.9 204.2 320.5 210.0 322.5 221.8 322.7 224.2 322.6 229.6 322.8 229.7 322.8 230.4 323.2 230.4 323.6 222.7 323.6 216.6 322.7 199.8 323.1 190.6 320.7 189.2Z\"/><path class=\"am-r\" data-m=\"semi-tendineux\" d=\"M306.9 190.8 301.3 192.3 301.1 215.8 301.6 218.5 302.8 221.5 303.3 221.4 305.9 218.0 306.4 217.8 307.2 202.8 307.2 194.5Z\"/><path class=\"am-r mir\" data-m=\"semi-tendineux\" d=\"M323.3 190.8 322.9 194.9 322.9 202.2 323.6 213.4 323.7 219.4 324.1 219.4 324.2 218.1 326.9 221.5 327.3 221.5 328.4 218.9 329.0 216.0 328.8 192.2Z\"/><path class=\"am-r\" data-m=\"soleaire\" d=\"M294.2 279.6 294.2 283.3 294.8 287.9 299.5 306.6 301.1 315.1 302.0 322.6 302.4 322.6 302.6 317.2 302.0 310.1 300.8 300.4 299.2 291.1 297.9 284.9 294.6 279.6ZM309.8 278.8 309.4 278.8 308.0 282.0 306.2 284.8 305.9 287.4 306.0 292.1 307.3 304.6 307.3 314.2 307.5 315.6 308.8 315.5 309.0 308.0 310.0 292.8 310.1 285.6Z\"/><path class=\"am-r mir\" data-m=\"soleaire\" d=\"M335.9 279.7 335.4 279.8 332.3 284.7 330.9 291.2 329.4 299.9 328.2 309.4 327.5 317.5 327.7 322.6 328.1 322.6 329.1 314.6 330.6 306.7 335.0 289.6 335.9 283.6ZM320.3 278.7 320.1 292.3 321.1 307.6 321.3 316.0 321.7 316.0 321.8 315.5 322.6 315.7 322.9 313.6 322.7 310.5 322.8 305.0 324.1 292.4 324.2 287.0 323.9 284.7 322.6 282.9 320.7 278.7Z\"/><path class=\"am-r\" data-m=\"sous-epineux\" d=\"M298.9 91.4 298.5 91.4 298.2 95.5 297.6 98.7 297.5 104.3 297.1 104.5 297.1 104.9 299.2 104.6 301.2 103.1 302.5 102.5 302.5 101.8 300.8 97.4ZM297.0 84.8 296.6 84.8 296.2 86.4 294.4 89.2 284.5 99.2 284.7 99.8 288.6 102.4 291.7 103.8 294.8 104.5 295.5 104.5 295.3 103.9 298.2 89.3 297.6 86.3Z\"/><path class=\"am-r mir\" data-m=\"sous-epineux\" d=\"M331.2 91.5 327.6 101.9 327.6 102.5 328.9 103.1 330.9 104.6 333.0 104.9 332.6 103.9 332.5 98.6 331.9 95.4 331.6 91.5ZM333.1 84.8 332.5 86.4 331.9 89.4 334.8 103.8 334.6 104.5 335.3 104.5 338.1 103.9 341.0 102.7 345.4 99.8 345.6 99.2 335.8 89.3 334.2 87.0 333.5 84.8Z\"/><path class=\"am-r\" data-m=\"trapeze-inf\" d=\"M300.5 95.8 300.5 96.4 306.5 111.8 313.0 126.4 313.4 126.4 313.9 124.5 313.8 122.7 313.4 121.6 314.0 121.2 314.1 120.1 312.9 117.7 313.5 117.0 313.6 115.9 313.3 114.4 313.3 112.1 312.6 110.5 313.4 109.8 313.7 108.9 313.5 106.0 313.8 104.8 313.8 103.1 313.2 100.5 314.2 95.8Z\"/><path class=\"am-r mir\" data-m=\"trapeze-inf\" d=\"M329.7 95.8 315.9 95.8 316.0 97.0 316.9 100.3 316.8 101.7 316.3 103.2 316.6 105.9 316.5 109.3 316.7 109.8 317.5 110.5 316.9 111.7 316.6 116.9 317.2 117.7 316.0 120.3 316.2 121.3 316.7 121.6 316.3 122.8 316.3 125.1 316.7 126.3 317.1 126.3 324.0 110.9 327.6 102.0Z\"/><path class=\"am-r\" data-m=\"trapeze-moy\" d=\"M280.3 75.8 280.3 76.2 287.0 78.8 293.0 80.1 294.3 80.8 295.3 81.7 296.4 83.2 297.4 85.5 299.2 92.5 300.5 96.2 314.2 96.2 314.2 92.9 314.6 90.7 314.7 87.8 314.5 86.2 313.9 84.5 314.0 83.0 313.4 81.9 313.8 81.6 313.8 81.2 312.7 78.8 310.3 75.8Z\"/><path class=\"am-r mir\" data-m=\"trapeze-moy\" d=\"M315.9 96.2 329.7 96.2 331.1 91.9 332.9 85.0 334.4 82.2 335.7 80.9 337.1 80.1 341.4 79.3 343.7 78.6 349.6 76.3 349.8 75.8 319.9 75.8 317.8 78.2 316.4 81.0 316.4 81.6 316.8 81.9 316.2 82.7 316.2 84.5 315.7 85.8 315.4 88.2 315.9 92.7Z\"/><path class=\"am-r\" data-m=\"trapeze-sup\" d=\"M314.2 48.6 311.3 48.5 310.7 48.0 310.0 46.6 309.6 46.6 308.9 52.7 307.7 57.2 305.7 61.1 303.5 63.4 301.3 64.6 293.9 66.7 288.0 69.4 282.6 71.4 279.7 73.1 277.9 74.8 277.9 75.2 280.3 76.2 310.3 76.2 310.3 75.8 309.2 74.9 309.4 74.3 307.1 71.9 306.2 71.4 303.4 70.6 306.8 69.9 309.5 69.0 311.5 67.9 312.8 66.7 312.8 66.3 311.0 66.7 311.3 65.5 310.0 65.5 313.3 63.3 313.6 62.7 313.5 62.1 314.0 61.4 314.0 59.7 313.7 59.1 314.4 57.1 314.4 56.4 313.8 55.9 314.0 55.2Z\"/><path class=\"am-r mir\" data-m=\"trapeze-sup\" d=\"M316.0 48.5 315.9 50.4 316.3 55.9 315.8 56.2 315.7 56.9 316.5 59.2 316.1 59.9 316.1 61.3 316.6 62.1 316.6 62.9 316.9 63.4 320.1 65.5 318.9 65.5 319.2 66.7 317.3 66.3 317.3 66.7 318.5 67.8 320.6 69.0 323.7 70.0 326.8 70.6 324.2 71.3 323.0 71.9 320.7 74.3 320.9 74.9 319.9 75.8 319.9 76.2 349.8 76.2 352.2 75.2 352.2 74.8 350.4 73.1 347.3 71.3 341.4 69.1 335.7 66.5 330.0 65.0 326.9 63.6 324.5 61.2 322.5 57.4 321.2 52.6 320.5 46.7 320.0 46.8 319.5 47.9 318.8 48.5Z\"/><path class=\"am-r\" data-m=\"triceps-lat\" d=\"M276.3 105.5 275.9 105.5 271.6 107.8 267.9 109.3 267.0 111.8 266.2 115.3 265.6 120.2 265.6 126.4 266.0 129.4 266.7 131.8 267.6 133.7 269.1 135.8 270.8 137.4 271.2 137.4 271.2 136.7 270.3 133.6 270.0 130.5 269.5 129.1 268.8 128.5 269.6 128.2 270.4 127.4 271.2 127.2 272.0 125.5 272.1 125.8 272.6 125.8 274.0 121.9 273.7 118.3 273.8 115.9 274.7 112.8 276.4 109.5Z\"/><path class=\"am-r mir\" data-m=\"triceps-lat\" d=\"M353.8 105.5 353.7 109.5 355.5 113.0 356.3 115.7 356.4 118.8 356.1 121.9 357.5 125.7 358.0 125.8 358.2 125.6 358.8 127.1 359.7 127.4 360.5 128.2 361.3 128.5 360.6 129.1 360.2 130.1 359.8 133.7 358.9 136.8 358.9 137.4 359.3 137.4 361.1 135.7 362.4 133.9 363.5 131.6 364.1 129.5 364.5 126.6 364.6 122.0 363.9 115.2 362.3 109.3 357.9 107.5 354.3 105.5Z\"/><path class=\"am-r\" data-m=\"triceps-long\" d=\"M283.9 100.1 283.2 100.3 279.1 103.5 278.4 106.6 277.6 108.0 276.4 109.4 274.8 112.6 274.0 115.1 274.1 120.9 274.5 121.0 274.7 122.8 275.7 124.1 275.5 125.4 276.9 126.8 277.2 127.5 277.2 128.6 277.9 129.1 277.3 132.6 277.3 133.8 277.9 135.0 276.5 140.1 277.2 139.8 279.4 136.7 280.9 133.4 282.1 128.9 282.9 123.1 283.6 114.3Z\"/><path class=\"am-r mir\" data-m=\"triceps-long\" d=\"M346.2 100.1 346.6 115.5 347.2 122.9 348.0 128.8 348.8 132.1 349.9 135.1 351.8 138.4 353.2 140.1 353.6 140.1 353.6 139.4 352.3 135.3 352.8 133.9 352.8 132.3 352.2 129.1 352.9 128.6 353.1 127.0 354.6 125.4 354.4 124.1 355.5 122.6 355.6 121.0 356.1 120.8 356.3 118.3 356.1 115.0 355.4 112.8 353.6 109.2 352.3 107.7 351.6 106.3 351.1 104.5 351.1 103.5 346.8 100.2Z\"/><path class=\"am-r\" data-m=\"vaste-lat\" d=\"M295.5 195.0 295.1 195.0 294.2 195.6 292.0 197.6 290.9 199.1 290.0 201.2 290.1 209.1 290.4 212.5 291.8 218.4 293.5 222.6 293.9 222.6 294.2 219.3 294.6 205.4Z\"/><path class=\"am-r mir\" data-m=\"vaste-lat\" d=\"M334.6 195.0 335.5 205.1 335.9 219.0 336.2 222.5 336.7 222.6 338.6 217.5 339.7 212.6 340.0 209.6 340.1 201.1 339.4 199.4 338.2 197.7 335.8 195.5Z\"/><path class=\"am-r am-p\" data-m=\"omoplate\" d=\"M279.0 76.5 290.0 79.0 300.0 81.5 301.5 90.0 301.0 107.5 297.5 108.5 289.0 105.0 283.0 96.0 280.0 86.0Z\"/><path class=\"am-r am-p mir\" data-m=\"omoplate\" d=\"M351.1 76.5 340.1 79.0 330.1 81.5 328.6 90.0 329.1 107.5 332.6 108.5 341.1 105.0 347.1 96.0 350.1 86.0Z\"/><path class=\"am-r am-p\" data-m=\"sous-scapulaire\" d=\"M280.0 78.0 290.0 80.0 299.5 82.5 300.5 90.0 300.0 106.5 297.5 107.5 289.5 104.0 284.0 95.5 281.0 86.0Z\"/><path class=\"am-r am-p mir\" data-m=\"sous-scapulaire\" d=\"M350.1 78.0 340.1 80.0 330.6 82.5 329.6 90.0 330.1 106.5 332.6 107.5 340.6 104.0 346.1 95.5 349.1 86.0Z\"/><path class=\"am-r am-p\" data-m=\"sus-epineux\" d=\"M280.0 77.0 290.0 79.0 299.5 81.5 300.0 86.0 292.0 84.5 283.0 81.5Z\"/><path class=\"am-r am-p mir\" data-m=\"sus-epineux\" d=\"M350.1 77.0 340.1 79.0 330.6 81.5 330.1 86.0 338.1 84.5 347.1 81.5Z\"/><path class=\"am-r am-p\" data-m=\"petit-rond\" d=\"M283.8 99.0 288.0 100.0 291.5 101.2 291.2 103.0 287.0 102.2 283.6 101.0Z\"/><path class=\"am-r am-p mir\" data-m=\"petit-rond\" d=\"M346.3 99.0 342.1 100.0 338.6 101.2 338.9 103.0 343.1 102.2 346.5 101.0Z\"/><path class=\"am-r am-p\" data-m=\"erecteurs\" d=\"M309.5 116.0 313.2 115.0 313.8 140.0 313.8 172.0 311.2 171.5 309.8 155.0 308.8 135.0Z\"/><path class=\"am-r am-p mir\" data-m=\"erecteurs\" d=\"M320.6 116.0 316.9 115.0 316.3 140.0 316.3 172.0 318.9 171.5 320.3 155.0 321.3 135.0Z\"/>"
+    }
+   }
+  }
+ }
 };

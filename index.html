@@ -166,6 +166,16 @@ table.t td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:no
 .fig .hd{fill:var(--muted)}
 .fig .hd-a{fill:var(--accent)}
 
+/* ---------- planches anatomiques (modale d'un terme du glossaire) ---------- */
+.anat{display:flex;gap:10px;justify-content:center;margin:2px 0 6px}
+/* la planche est dessinée pour un fond clair : carte claire aussi en thème sombre */
+.anat-v{flex:0 1 230px;min-width:0;background:#fdfcfa;border:1px solid var(--border);border-radius:10px;padding:6px 6px 4px}
+.anat-v svg{display:block;width:100%;height:auto}
+.anat-v .cap{text-align:center;font-size:10.5px;letter-spacing:.8px;text-transform:uppercase;color:#7a736c;margin-top:3px}
+.anat-bar{text-align:center;margin:0 0 12px;font-size:13px}
+.anat-cr{font-size:10.5px;color:var(--muted);margin-top:4px}
+.anat .am-z{fill:none;stroke:#8a5a2b;stroke-width:1.6px;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+.anat .am-z.am-p{fill:#8a5a2b;fill-opacity:.35;stroke-dasharray:4 3}
 /* ---------- glossaire : infobulles ---------- */
 .gl{border-bottom:1px dotted var(--accent);cursor:help;position:relative}
 .gl:hover{background:var(--accent-soft)}
@@ -374,14 +384,19 @@ const $ = s => document.querySelector(s);
 const main = $('#main');
 const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 const byId = (arr,id) => arr.find(x=>x.id===id);
-const today = () => new Date().toISOString().slice(0,10);
-const addDays = (d,n) => { const x=new Date(d+'T00:00:00'); x.setDate(x.getDate()+n); return x.toISOString().slice(0,10); };
+/* Dates en heure locale. toISOString() donne l'heure UTC : à Paris, minuit local
+   tombe la veille en UTC, ce qui décalait toutes les échéances d'un jour. */
+const isoLocal = x => x.getFullYear()+'-'+String(x.getMonth()+1).padStart(2,'0')+'-'+String(x.getDate()).padStart(2,'0');
+const today = () => isoLocal(new Date());
+const addDays = (d,n) => { const x=new Date(d+'T12:00:00'); x.setDate(x.getDate()+n); return isoLocal(x); };
+const ecartJours = (a,b) => Math.round((new Date(b+'T12:00:00')-new Date(a+'T12:00:00'))/864e5);
 
 function store(k,v){ try{ localStorage.setItem(k,JSON.stringify(v)); }catch(e){} }
 function load(k,def){ try{ const v=localStorage.getItem(k); return v?JSON.parse(v):def; }catch(e){ return def; } }
 
 const P = Object.assign({qcm:{},cards:{},sessions:[]}, load('socle.progress',{}));
 const saveP = () => store('socle.progress',P);
+migrerCartes();
 
 /* ============================================================ markdown */
 function inline(s){
@@ -532,9 +547,68 @@ function glossaireModal(terme){
   if(!g) return;
   openModal('<h3 style="margin:0 0 4px;font-family:var(--serif);font-size:21px">'+esc(g.terme)+'</h3>'+
     (g.en?'<p style="margin:0 0 12px;color:var(--muted);font-style:italic">'+esc(g.en)+'</p>':'')+
+    (g.visuel ? anatHtml(g.visuel) : '')+
     '<div class="md" style="font-size:15.5px">'+md2html(g.def)+'</div>'+
     '<p class="noprint" style="margin:16px 0 0;font-size:12.5px;color:var(--muted)">'+
     'Définition canonique du glossaire. <a href="#" data-doc="glossaire">Ouvrir le glossaire complet</a></p>');
+  if(g.visuel) anatCadre($('#modalbox'), false);
+}
+
+/* Planche anatomique : une vraie planche (OpenStax, CC BY-SA), affichée en vue de face et de dos
+   (même dessin, deux cadrages). Le muscle désigné garde ses couleurs, le reste passe en gris pâle ;
+   gros plan sur le muscle, bouton pour le corps entier. Les muscles cachés sur la planche
+   (sous-scapulaire, sus-épineux…) sont dessinés en pointillé. */
+function anatHtml(v){
+  const pl = (D.planches||{})[v.planche];
+  if(!pl || !pl.vues) return '';
+  const nom = {face:'Face', dos:'Dos'};
+  let h = '<div class="anat">';
+  Object.keys(pl.vues).forEach(k=>{
+    const q = 'am'+k[0]+'-', vu = pl.vues[k];
+    const base = pl.planche.replace(/\bid="/g,'id="'+q).replace(/url\(#/g,'url(#'+q).replace(/href="#/g,'href="#'+q);
+    const zones = new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg">'+vu.zones+'</svg>','image/svg+xml').documentElement;
+    let clip = '', marques = '';
+    v.ids.forEach(id=>zones.querySelectorAll('[data-m="'+id+'"]').forEach(e=>{
+      const d = e.getAttribute('d'), mir = e.classList.contains('mir') ? ' mir' : '';
+      if(e.classList.contains('am-p')) marques += '<path class="am-z am-p on'+mir+'" d="'+d+'"/>';
+      else { clip += '<path d="'+d+'"/>'; marques += '<path class="am-z on'+mir+'" d="'+d+'"/>'; }
+    }));
+    const vb = vu.vb.join(' ');
+    h += '<div class="anat-v"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="'+vb+'" data-vb0="'+vb+'">'+
+      '<defs><filter id="'+q+'gris"><feColorMatrix type="saturate" values="0"/>'+
+      '<feComponentTransfer><feFuncA type="linear" slope="0.4"/></feComponentTransfer></filter>'+
+      '<clipPath id="'+q+'clip">'+clip+'</clipPath></defs>'+
+      '<g filter="url(#'+q+'gris)"><g id="'+q+'pl">'+base+'</g></g>'+
+      (clip ? '<use href="#'+q+'pl" xlink:href="#'+q+'pl" clip-path="url(#'+q+'clip)"/>' : '')+
+      marques+'</svg><div class="cap">'+(nom[k]||k)+'</div></div>';
+  });
+  return h+'</div><div class="anat-bar"><button class="lnk" onclick="anatBascule(this)">Voir le corps entier</button>'+
+    (pl.credit ? '<div class="anat-cr">'+esc(pl.credit)+'</div>' : '')+'</div>';
+}
+function anatCadre(root, entier){
+  root.querySelectorAll('.anat-v').forEach(div=>{
+    const svg = div.querySelector('svg');
+    const vb0 = svg.dataset.vb0, [X, Y, W, H] = vb0.split(' ').map(Number);
+    div.style.display = '';
+    const on = [...svg.querySelectorAll('.on:not(.mir)')];
+    if(entier){ svg.setAttribute('viewBox', vb0); return; }
+    if(!on.length){ div.style.display = 'none'; return; }
+    let x0=1e9, y0=1e9, x1=-1e9, y1=-1e9;
+    on.forEach(e=>{ const b = e.getBBox();
+      x0=Math.min(x0,b.x); y0=Math.min(y0,b.y); x1=Math.max(x1,b.x+b.width); y1=Math.max(y1,b.y+b.height); });
+    /* la partie occupe environ la moitié du cadre : assez de contexte pour se repérer */
+    let h = Math.max(H*0.3, (y1-y0)*2.2, (x1-x0)*2.2*4/3), w = h*3/4;
+    h = Math.min(h, H); w = Math.min(w, W);
+    const x = Math.min(Math.max((x0+x1)/2 - w/2, X), X+W-w), y = Math.min(Math.max((y0+y1)/2 - h/2, Y), Y+H-h);
+    svg.setAttribute('viewBox', [x,y,w,h].map(n=>n.toFixed(1)).join(' '));
+  });
+}
+function anatBascule(btn){
+  const root = btn.closest('.anat-bar').parentNode;
+  const entier = btn.dataset.entier !== '1';
+  btn.dataset.entier = entier ? '1' : '';
+  btn.textContent = entier ? 'Revenir au gros plan' : 'Voir le corps entier';
+  anatCadre(root, entier);
 }
 
 /* ============================================================ état */
@@ -591,9 +665,14 @@ function qcmStats(filter){
   });
   return {vus, justes, pct: vus? justes/vus*100 : 0};
 }
+/* Cartes ouvertes : celles des fiches terminées, plus toutes celles déjà vues. */
+function cartesOuvertes(){
+  const faites = new Set(D.fiches.filter(f=>finie(f.id)).map(f=>f.id));
+  return D.anki.filter(x=>P.cards[x.id] || x.tags.some(tg=>faites.has(tg)));
+}
 function cardsDue(){
-  const t = today();
-  return D.anki.filter(c=>{ const s=P.cards[c.id]; return !s || s.due<=t; });
+  const cur = seanceCourante();
+  return cartesOuvertes().filter(c=>{ const s=P.cards[c.id]; return !s || s.ech<=cur; });
 }
 
 /* ============================================================ navigation */
@@ -676,7 +755,7 @@ function vDash(){
     '<em>Recall</em> et <em>Analysis</em> est le signal le plus utile de cette page.</p></div>';
 
   h += '<div class="card"><div class="lbl">Prochaine action</div><div style="margin-top:10px">';
-  if(due>0) h += '<p style="margin:0 0 12px">'+due+' carte'+(due>1?'s':'')+' à réviser aujourd\'hui.</p>'+
+  if(due>0) h += '<p style="margin:0 0 12px">'+due+' carte'+(due>1?'s':'')+' à réviser.</p>'+
     '<button class="btn primary" data-go="rev">Réviser maintenant</button>';
   else if(qs.vus===0) h += '<p style="margin:0 0 12px">Aucun QCM n\'a encore été passé. Le premier lot porte sur les trois fiches du bloc 0.</p>'+
     '<button class="btn primary" data-go="qcm">Lancer un QCM</button>';
@@ -977,18 +1056,18 @@ function vRev(){
   const nouv = D.anki.filter(c=>!P.cards[c.id]).length;
   let h = '<h2 class="page">Révision espacée</h2>'+
     '<p class="lede">Une carte pose une question. On y répond dans sa tête, on la retourne, puis on '+
-    'dit honnêtement si l\'on avait trouvé. Plus c\'était facile, plus la carte revient tard : '+
-    'demain, dans trois jours, une semaine, puis de plus en plus loin. Une carte ratée revient dans la '+
-    'même session, puis le lendemain. La progression est stockée dans ce navigateur — '+
+    'dit honnêtement si l\'on avait trouvé. Les délais se comptent en séances (un jour où l\'on révise), '+
+    'pas en jours : une carte ratée revient en fin de séance puis à la suivante ; une carte trouvée revient '+
+    'de plus en plus loin, d\'autant plus vite qu\'elle était facile. La progression est stockée dans ce navigateur — '+
     'utilisez le bouton <em>Exporter</em> pour la sauvegarder.</p>';
   h += '<div class="grid g3">'+
-    stat('À réviser aujourd\'hui', due.length+'<small> cartes</small>', total?due.length/total*100:0)+
+    stat('À réviser à cette séance', due.length+'<small> cartes</small>', total?due.length/total*100:0)+
     stat('Jamais vues', nouv+'<small> / '+total+'</small>', total?nouv/total*100:0)+
     stat('En mémoire', (total-nouv)+'<small> cartes</small>', total?(total-nouv)/total*100:0)+
     '</div>';
   h += '<div class="card">'+
     (due.length? '<button class="btn primary" onclick="startR()">Réviser '+due.length+' carte'+(due.length>1?'s':'')+'</button>'
-      : '<p style="margin:0 0 12px">Rien à réviser aujourd\'hui.</p><button class="btn" onclick="startR(true)">Réviser quand même</button>')+
+      : '<p style="margin:0 0 12px">Rien à réviser à cette séance.</p><button class="btn" onclick="startR(true)">Réviser quand même</button>')+
     '</div>';
   h += '<div class="card"><div class="lbl">Le deck</div><p style="font-size:13.5px;color:var(--muted);margin:10px 0 0">'+
     'Les mêmes cartes sont exportées au format Anki dans <code>anki/</code>, une ligne par carte, '+
@@ -997,8 +1076,8 @@ function vRev(){
   main.innerHTML = h;
 }
 function startR(all){
-  let list = all? D.anki.slice() : cardsDue();
-  for(let i=list.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [list[i],list[j]]=[list[j],list[i]]; }
+  let list = all ? espacer(melange(cartesOuvertes().slice()))
+                 : cartesEchauffement(999).map(id=>byId(D.anki,id));
   R = {list, i:0, show:false, done:0};
   renderR();
 }
@@ -1028,38 +1107,55 @@ function renderR(){
     c.tags.map(t=>'<span class="tag">'+esc(t)+'</span>').join('')+'</div>';
   main.innerHTML = h;
 }
-/* Répétition espacée, variante simplifiée de SM-2, partagée par la révision
-   et l'échauffement du mode séance. Trois réponses possibles :
-     0 — pas trouvé : la carte revient dans la même session ;
-     3 — trouvé en cherchant : intervalle court, la carte devient « plus dure » ;
-     5 — trouvé tout de suite : intervalle long, la carte devient « plus facile ».
-   L'intervalle grandit à chaque réussite (facteur ef, propre à chaque carte). */
+/* Répétition espacée, partagée par la révision et l'échauffement du mode séance.
+   L'unité est la SÉANCE, pas le jour : on ne révise que les jours d'entraînement,
+   à intervalles irréguliers. Une séance = un jour où l'on a noté au moins une carte
+   (deux passages le même jour comptent pour une seule séance).
+   Trois réponses :
+     0 — pas trouvé : revient en fin de séance, puis à la séance suivante ;
+     3 — trouvé en cherchant : 1 séance, puis l'intervalle croît de 40 % à chaque fois ;
+     5 — trouvé tout de suite : 2 séances, puis l'intervalle est multiplié par ef (≈ 2,5).
+   « En cherchant » fait toujours avancer la carte : l'ancien réglage la bloquait à
+   quelques jours pour toujours (l'intervalle était multiplié par moins de 1).
+   Au-delà de 3 séances, l'échéance est étalée de ± 15 % pour que des cartes apprises
+   le même jour ne reviennent pas toujours ensemble. */
+function seanceCourante(){ const n = P.nSeance||0; return P.jourCartes===today() ? n : n+1; }
+function ouvrirSeanceCartes(){ if(P.jourCartes!==today()){ P.nSeance=(P.nSeance||0)+1; P.jourCartes=today(); } }
 function planifier(s0,g){
   const s = Object.assign({ef:2.5, n:0, iv:0}, s0||{});
-  if(g<3){ s.n=0; s.iv=0; }
-  else{
-    const facile = g>=5;
-    s.n++;
-    s.ef = Math.max(1.3, s.ef + (facile ? 0.1 : -0.14));
-    if(s.n===1) s.iv = facile ? 3 : 1;
-    else if(s.n===2) s.iv = facile ? 7 : 3;
-    else s.iv = Math.max(s.iv+1, Math.round(s.iv*s.ef*(facile?1:0.6)));
-  }
-  s.due = addDays(today(), s.iv);
+  if(g<3){ s.n=0; s.iv=1; s.ef=Math.max(1.3, s.ef-0.2); }
+  else if(g<5){ s.n++; s.iv = s.n===1 ? 1 : Math.max(s.iv+1, Math.round(s.iv*1.4)); s.ef=Math.max(1.3, s.ef-0.05); }
+  else { s.n++; s.iv = s.n===1 ? 2 : Math.max(s.iv+1, Math.round(s.iv*s.ef)); s.ef=Math.min(3, s.ef+0.1); }
+  s.iv = Math.min(s.iv, 60);
+  let iv = s.iv;
+  if(iv>=3){ const f = Math.max(1, Math.round(iv*0.15)); iv += Math.floor(Math.random()*(2*f+1))-f; }
+  s.ech = seanceCourante() + iv;
+  delete s.due;
   return s;
 }
-function noter(id,g){ const s = planifier(P.cards[id], g); s.vu = today(); P.cards[id]=s; saveP(); return s; }
-function delai(id,g){
-  if(g<3) return 'elle revient tout à l\'heure';
-  const iv = planifier(P.cards[id], g).iv;
-  return iv===1 ? 'elle revient demain' : 'elle revient dans '+(iv>=60 ? Math.round(iv/30)+' mois' : iv+' jours');
+function noter(id,g){ ouvrirSeanceCartes(); const s = planifier(P.cards[id], g); s.vu = today(); P.cards[id]=s; saveP(); return s; }
+/* Conversion unique de l'ancienne progression (échéances en dates) vers les séances.
+   Une séance ≈ 2,5 jours. L'ancienne date était en avance d'un jour (bug UTC). */
+function migrerCartes(){
+  let chg = false;
+  const cur = seanceCourante();
+  Object.keys(P.cards||{}).forEach(id=>{
+    const s = P.cards[id];
+    if(s.ech!==undefined) return;
+    const reste = s.due ? ecartJours(today(), s.due) + 1 : 0;
+    s.ech = cur + Math.max(0, Math.round(reste/2.5));
+    s.iv = s.n>0 ? Math.max(1, Math.round((s.iv||0)/2.5)) : 1;
+    s.ef = Math.max(2.0, s.ef||2.5);
+    delete s.due; chg = true;
+  });
+  if(chg) saveP();
 }
 /* Les trois boutons, identiques en révision et en séance. */
 function boutonsCarte(id, fn){
   return '<div class="se-stack">'+
-    '<button class="big ko" onclick="'+fn+'(0)">Je ne savais pas<small>'+delai(id,0)+'</small></button>'+
-    '<button class="big" onclick="'+fn+'(3)">J\'ai trouvé, en cherchant<small>'+delai(id,3)+'</small></button>'+
-    '<button class="big ok" onclick="'+fn+'(5)">J\'ai trouvé tout de suite<small>'+delai(id,5)+'</small></button></div>';
+    '<button class="big ko" onclick="'+fn+'(0)">Je ne savais pas</button>'+
+    '<button class="big" onclick="'+fn+'(3)">J\'ai trouvé, en cherchant</button>'+
+    '<button class="big ok" onclick="'+fn+'(5)">J\'ai trouvé tout de suite</button></div>';
 }
 function grade(g){
   const c = R.list[R.i];
@@ -1079,7 +1175,7 @@ function grade(g){
 
    Déroulé : échauffement (cartes échues des fiches déjà terminées), lecture
    pause par pause, puis consolidation par les QCM de la fiche lue.         */
-const SE_CIBLE = 220, SE_PLAFOND = 340, SE_MIN = 70, SE_CARTES = 8, SE_MPM = 170;
+const SE_CIBLE = 220, SE_PLAFOND = 340, SE_MIN = 70, SE_CARTES = 12, SE_MPM = 170;
 const SE_SKIP = /^(Notions liées|À vérifier)/i;
 
 function mots(s){
@@ -1185,14 +1281,40 @@ function ficheDuJour(){
   return fs.find(f=>l[f.id] && !l[f.id].fini && l[f.id].pos>0)
       || fs.find(f=>!finie(f.id)) || fs[0];
 }
+/* Tirage des cartes d'une séance.
+   - Les cartes vues arrivées à échéance passent par ordre de retard.
+   - Une part des places (40 %, au moins 2) est réservée aux cartes jamais vues, tirées
+     à tour de rôle dans chaque bloc : sans ce quota, les révisions du premier bloc lu
+     occupaient toutes les places et les cartes des fiches suivantes n'entraient jamais.
+   - Le paquet est mélangé, en évitant deux cartes de la même fiche à la suite. */
 function cartesEchauffement(max){
-  const t = today();
-  const faites = new Set(D.fiches.filter(f=>finie(f.id)).map(f=>f.id));
-  const c = melange(D.anki.filter(x=>x.tags.some(tg=>faites.has(tg)) &&
-    (!P.cards[x.id] || P.cards[x.id].due<=t)));
-  /* les cartes déjà vues et arrivées à échéance passent avant les nouvelles */
-  c.sort((a,b)=>(P.cards[b.id]?1:0)-(P.cards[a.id]?1:0));
-  return c.slice(0,max).map(x=>x.id);
+  const cur = seanceCourante(), ouv = cartesOuvertes();
+  const ech = x => P.cards[x.id].ech;
+  const vues = melange(ouv.filter(x=>P.cards[x.id] && ech(x)<=cur)).sort((a,b)=>ech(a)-ech(b));
+  const neuves = tourniquet(ouv.filter(x=>!P.cards[x.id]));
+  let nN = Math.min(neuves.length, Math.max(2, Math.ceil(max*0.4)));
+  const nV = Math.min(vues.length, max-nN);
+  nN = Math.min(neuves.length, max-nV);
+  return espacer(melange(vues.slice(0,nV).concat(neuves.slice(0,nN)))).map(x=>x.id);
+}
+const ficheDe = c => (c.tags.find(t=>/^[A-Z]{3}-\d{3}$/.test(t))||'');
+/* cartes neuves : une par bloc à tour de rôle, au hasard dans chaque bloc */
+function tourniquet(cs){
+  const g = {};
+  melange(cs.slice()).forEach(c=>{ const b = ficheDe(c).slice(0,3); (g[b]=g[b]||[]).push(c); });
+  const files = melange(Object.values(g)), out = [];
+  while(files.some(f=>f.length)) files.forEach(f=>{ if(f.length) out.push(f.shift()); });
+  return out;
+}
+/* évite deux cartes de la même fiche côte à côte quand c'est possible */
+function espacer(cs){
+  const out = [], rest = cs.slice();
+  while(rest.length){
+    const prev = out.length ? ficheDe(out[out.length-1]) : null;
+    let i = rest.findIndex(c=>ficheDe(c)!==prev); if(i<0) i = 0;
+    out.push(rest.splice(i,1)[0]);
+  }
+  return out;
 }
 
 function seRender(){ if(V.view!=='seance') V={view:'seance', arg:null}; render(); window.scrollTo(0,0); }
@@ -1459,7 +1581,7 @@ function importProgress(inp){
   const f = inp.files[0]; if(!f) return;
   const r = new FileReader();
   r.onload = e => { try{ const d=JSON.parse(e.target.result);
-    Object.assign(P,d); saveP(); render(); alert('Progression importée.'); }
+    Object.assign(P,d); migrerCartes(); saveP(); render(); alert('Progression importée.'); }
     catch(err){ alert('Fichier illisible.'); } };
   r.readAsText(f);
 }
@@ -1548,6 +1670,7 @@ function verifierMaj(){
     const m = t.match(/"genere":\s*"([^"]+)"/);
     if(m && m[1]!==D.genere && !document.getElementById('maj')){
       fetch('./?frais='+Date.now()).catch(()=>{});
+      fetch('index.html?frais='+Date.now()).catch(()=>{});
       const b = document.createElement('button');
       b.id='maj'; b.className='maj';
       b.innerHTML='Nouvelle version disponible <span>Toucher pour l\'afficher</span>';
