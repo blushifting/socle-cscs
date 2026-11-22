@@ -1,6 +1,6 @@
 // Généré par outils/build.py — ne pas éditer à la main.
 window.SOCLE = {
- "genere": "2026-11-22 12:37",
+ "genere": "2026-11-22 14:15",
  "blocs": [
   {
    "id": "00-methodo",
@@ -13033,7 +13033,7 @@ window.SOCLE = {
    "id": "glossaire",
    "titre": "Glossaire",
    "fichier": "glossaire.md",
-   "md": "# Glossaire\n\n**Dernière révision** : 2026-11-22 · **Entrées** : 418\n\nUne seule définition canonique par terme. Si une fiche a besoin d'une définition différente,\nc'est le glossaire qu'on modifie, pas la fiche. L'équivalent anglais figure systématiquement,\npuisque l'examen se passe en anglais et que la traduction française n'est pas toujours celle\nqu'on croit.\n\nLe glossaire se remplit au fil des blocs. À ce stade, il couvre le bloc 0, le bloc 1 et le début du\nbloc 2.\n\nTrois mentions techniques peuvent clore une définition. `(aussi : …)` déclare les formes\nfléchies à reconnaître dans les fiches. `(blocs : …)` réserve l'infobulle aux fiches de ces\nblocs : c'est ce qui permet de garder deux homonymes, comme la puissance statistique du bloc 0\net la puissance mécanique du bloc 1. `(visuel : planche#partie)` affiche, quand on touche le\nterme, la planche anatomique avec cette partie mise en évidence (plusieurs parties : `a+b`) ;\nles planches sont dans `planches/`, produites par `outils/figures/anatomie/`. Ordre :\n`(aussi : …)`, puis `(blocs : …)`, puis `(visuel : …)`.\n\n---\n\n## A\n\n**Acétyl-CoA** — *acetyl-CoA*. Molécule à laquelle aboutissent glucides et graisses avant d'entrer dans le cycle de Krebs, dans la mitochondrie.\n\n**Acides gras** — *fatty acids*. Forme sous laquelle les graisses circulent dans le sang et entrent dans la mitochondrie, où la bêta-oxydation les découpe. (aussi : acide gras)\n\n**Acidose** — *acidosis*. Baisse du pH d'un milieu, c'est-à-dire hausse de son acidité. Pendant un effort épuisant, elle accompagne la montée du lactate ; sa cause et son rôle dans la fatigue sont discutés. (aussi : acidose lactique)\n\n**Acromion** — *acromion*. Avancée de l'omoplate qui forme le toit osseux de l'épaule, au-dessus de la tête humérale.\n\n**ACTH** — *adrenocorticotropic hormone*. Hormone libérée par l'hypophyse sous l'effet de la CRH ; elle fait libérer le cortisol par la corticosurrénale.\n\n**Actine** — *actin*. Protéine qui forme les filaments fins du sarcomère, ancrés à ses extrémités. Les têtes de myosine s'y accrochent pour la faire coulisser.\n\n**Action concentrique** — *concentric muscle action*. Action d'un muscle qui se raccourcit en produisant de la force : son moment dépasse le moment externe. La montée d'un curl. (aussi : concentrique, concentriques)\n\n**Action excentrique** — *eccentric muscle action*. Action d'un muscle qui s'allonge tout en produisant de la force, parce que le moment externe dépasse le sien. La descente contrôlée d'un curl ; le travail mécanique du muscle y est négatif. (aussi : excentrique, excentriques)\n\n**Adducteurs** — *hip adductors*. Groupe de muscles de la face interne de la cuisse, tendus du bassin au fémur. Ils ramènent la cuisse vers l'axe du corps ; le grand adducteur aide aussi à redresser la hanche en bas du squat. (aussi : adducteurs de hanche) (visuel : muscles#adducteurs+gracile)\n\n**Adrénaline** — *epinephrine, adrenaline*. Catécholamine libérée par la médullosurrénale ; elle accélère le cœur et mobilise les carburants pendant l'effort.\n\n**Afférence Ia** — *group Ia afferent*. Fibre nerveuse sensitive principale du fuseau neuromusculaire, très sensible à la vitesse d'étirement. Elle excite directement les motoneurones du même muscle. (aussi : afférences Ia)\n\n**Afférence Ib** — *group Ib afferent*. Fibre nerveuse sensitive de l'organe tendineux de Golgi, qui signale la force de contraction. (aussi : afférences Ib)\n\n**Agoniste** — *agonist, prime mover*. Muscle qui produit le mouvement voulu. C'est un rôle tenu dans un mouvement donné, pas une propriété du muscle. (aussi : agonistes)\n\n**Allégation** — *claim*. Affirmation d'effet portée par un produit ou un service. Une\névaluation systématique des allégations de performance sportive a conclu que la qualité des\npreuves les soutenant était largement insuffisante. À distinguer du résultat d'étude sur lequel\nelle prétend s'appuyer.\n\n**Allocation dissimulée** — *allocation concealment*. Procédure garantissant que la personne\nqui inclut un participant ne peut pas connaître à l'avance le groupe qui lui sera attribué.\nDistinct de l'aveugle, qui intervient après l'inclusion. Son absence permet une sélection\nconsciente ou non des participants selon le groupe.\n\n**Alvéole** — *alveolus*. Petit sac terminal des voies respiratoires, d'environ 200 µm de diamètre, où se font les échanges gazeux. (aussi : alvéoles)\n\n**Analyse de sensibilité** — *sensitivity analysis*. Réexécution d'une analyse en modifiant un\nchoix méthodologique, pour vérifier si la conclusion y survit. Le test le plus informatif d'une\nméta-analyse.\n\n**Analyse en intention de traiter** — *intention-to-treat analysis*. Analyse des participants\ndans le groupe auquel ils ont été attribués, indépendamment de leur adhérence effective.\nPréserve la comparabilité produite par la randomisation, au prix d'une dilution de l'effet.\n\n**Analyse per protocole** — *per-protocol analysis*. Analyse restreinte aux participants ayant\neffectivement suivi le protocole. Elle répond à une question légitime — que produit le\nprogramme quand on le fait — mais elle sélectionne sur une variable postérieure à\nl'attribution, ce qui rompt la comparabilité produite par le tirage au sort. À lire toujours en\nregard de l'analyse en intention de traiter.\n\n**Angle alpha** — *alpha angle*. Angle, mesuré en imagerie, entre l'axe du col du fémur et le point où la tête cesse d'être ronde. Il chiffre la déformation en came.\n\n**Angle de pennation** — *pennation angle*. Angle entre les fibres d'un muscle penné et la lame tendineuse sur laquelle elles s'insèrent. Seule la composante F × cos θ de la force d'une fibre est transmise ; il augmente avec l'hypertrophie. (aussi : pennation)\n\n**Antagoniste** — *antagonist*. Muscle dont l'action est opposée à celle de l'agoniste dans un mouvement donné. Il ne se tait pas forcément : il peut produire un moment opposé notable. (aussi : antagonistes)\n\n**Antéversion** — *femoral anteversion*. Angle dont le col du fémur est tourné vers l'avant par rapport à l'axe du genou. Il varie jusqu'à 30° entre adultes en bonne santé.\n\n**Aponévrose** — *aponeurosis*. Lame de tissu conjonctif, prolongement du tendon, sur laquelle s'insèrent obliquement les fibres d'un muscle penné.\n\n**Architecture musculaire** — *muscle architecture*. Agencement des fibres à l'intérieur d'un muscle : longueur des fibres, angle de pennation, section physiologique. Elle détermine la fonction du muscle davantage que son volume.\n\n**Arraché** — *snatch*. Mouvement d'haltérophilie où la barre passe du sol au-dessus de la tête en un seul geste.\n\n**Artériole** — *arteriole*. Petite artère dont le muscle lisse règle la résistance et la répartition du sang entre les organes.\n\n**Arthrose** — *osteoarthritis*. Maladie d'une articulation marquée par la dégradation du cartilage.\n\n**Articulation gléno-humérale** — *glenohumeral joint*. Articulation entre la glène de l'omoplate et la tête de l'humérus.\n\n**Articulation scapulo-thoracique** — *scapulothoracic joint*. Glissement de l'omoplate sur les côtes. Sans cartilage ni capsule, ce n'est pas une vraie articulation.\n\n**Articulation synoviale** — *synovial joint*. Articulation où deux surfaces osseuses couvertes de cartilage glissent l'une sur l'autre, dans une capsule renforcée de ligaments. (aussi : articulations synoviales)\n\n**Association** — *association*. Relation statistique entre deux variables. N'implique aucun\nordre temporel ni aucune causalité.\n\n**ATP** — *adenosine triphosphate*. Molécule dont la scission en ADP et phosphate fournit l'énergie de la contraction. Les réserves du muscle sont faibles et doivent être reconstituées en continu. (aussi : adénosine triphosphate)\n\n**ATP synthase** — *ATP synthase*. Enzyme de la membrane interne de la mitochondrie qui fabrique l'ATP en utilisant le gradient de protons créé par la chaîne respiratoire.\n\n**Autocrine** — *autocrine*. Se dit d'un signal qui agit sur la cellule même qui l'a produit.\n\n**Autorythmicité** — *autorhythmicity*. Propriété du muscle cardiaque de déclencher seul des impulsions électriques, à un rythme fixe.\n\n**Avantage mécanique** — *mechanical advantage*. Rapport du bras de levier de la force motrice à celui de la résistance. Inférieur à 1 dans la plupart des articulations des membres : le muscle produit alors plus de force que la charge ne pèse, en échange de vitesse et d'amplitude.\n\n**Aveugle** — *blinding*, *masking*. Dissimulation de l'attribution du groupe aux participants,\naux intervenants ou aux évaluateurs. En sciences de l'exercice, l'aveugle des participants est\ngénéralement impossible ; celui des évaluateurs du critère de jugement reste réalisable et\nconstitue un marqueur de qualité.\n\n**Axe hypothalamo-hypophyso-surrénalien** — *hypothalamic-pituitary-adrenal axis*. Cascade CRH, ACTH, cortisol : la réponse hormonale lente au stress.\n\n## B\n\n**Barre basse** — *low-bar squat*. Squat où la barre repose plus bas, sur l'arrière des épaules : tronc plus penché, plus de travail de la hanche et du dos.\n\n**Barre haute** — *high-bar squat*. Squat où la barre repose sur le haut des trapèzes : tronc plus droit, plus de travail du quadriceps.\n\n**Barre hexagonale** — *hexagonal bar*. Barre en forme de cadre dans lequel on se tient ; elle rapproche la charge du corps et réduit les moments au bas du dos, à la hanche et à la cheville.\n\n**Base d'appui** — *base of support*. Polygone qui englobe toutes les surfaces en contact avec le sol. Le centre de pression ne peut se trouver qu'à l'intérieur.\n\n**Bêta-oxydation** — *beta-oxidation*. Découpage des acides gras en acétyl-CoA dans la mitochondrie : première étape de l'oxydation des graisses.\n\n**Biais** — *bias*. Erreur systématique, qui ne diminue pas avec la taille de l'échantillon. À\ndistinguer strictement de l'erreur aléatoire.\n\n**Biais de confusion** — *confounding*. Situation où une troisième variable, associée à la fois à\nl'exposition et au résultat, produit tout ou partie de l'association observée. Le problème que\nla randomisation résout. (aussi : facteur de confusion, facteurs de confusion, confusion résiduelle)\n\n**Biais de publication** — *publication bias*. Tendance des résultats positifs et significatifs\nà être publiés plus souvent et plus vite que les résultats nuls. Produit une littérature qui\nsurestime les effets.\n\n**Biceps brachial** — *biceps brachii*. Muscle de la face avant du bras, à deux chefs. Il plie le coude et tourne la paume vers le haut (supination). (aussi : biceps) (visuel : muscles#biceps)\n\n**Biceps fémoral** — *biceps femoris*. Ischio-jambier du côté externe de l'arrière de la cuisse. Il plie le genou ; son chef long étend aussi la hanche. (visuel : muscles#biceps-femoral)\n\n**Biopsie musculaire** — *muscle biopsy*. Prélèvement d'un petit fragment de muscle à l'aiguille, pour mesurer types de fibres, glycogène ou métabolites. Ne représente qu'un point d'un muscle hétérogène. (aussi : biopsie, biopsies)\n\n**Blessure de surmenage** — *overuse injury*. Blessure due à des charges répétées dont aucune, isolément, ne dépasse la résistance du tissu. (aussi : blessures de surmenage)\n\n**Bourrelet** — *labrum*. Anneau qui borde le cotyle et l'approfondit. (aussi : labrum)\n\n**Brachio-radial** — *brachioradialis*. Muscle de l'avant-bras, côté pouce, qui part du bas de l'humérus. Il plie le coude, surtout en prise marteau. (visuel : muscles#brachio-radial)\n\n**Bras de levier** — *moment arm, lever arm*. Distance perpendiculaire entre la ligne d'action d'une force et l'axe de rotation. Celui d'un muscle n'est pas une constante : il varie avec l'angle articulaire, avec l'intensité de la contraction et d'une personne à l'autre.\n\n## C\n\n**Calorimétrie indirecte** — *indirect calorimetry*. Estimation des carburants brûlés à partir de l'oxygène consommé et du dioxyde de carbone rejeté. Moins fiable aux intensités élevées.\n\n**Capacité anaérobie** — *anaerobic capacity*. Quantité totale d'énergie que les voies anaérobies peuvent fournir lors d'un effort épuisant, souvent estimée par le déficit en oxygène accumulé maximal.\n\n**Capillaire** — *capillary*. Vaisseau le plus fin, où se font les échanges de gaz et de nutriments entre le sang et les tissus.\n\n**Cartilage articulaire** — *articular cartilage*. Tissu lisse qui recouvre les surfaces osseuses d'une articulation synoviale. Il s'amincit sans charge mais ne s'épaissit pas avec une charge élevée.\n\n**Catécholamines** — *catecholamines*. Hormones du stress, comme l'adrénaline, indispensables à la production de force et à la libération d'énergie pendant l'effort. (aussi : catécholamine)\n\n**Ceinture de force** — *weightlifting belt*. Ceinture qui augmente la pression intra-abdominale et aide à soutenir le tronc sous charge lourde. (aussi : ceinture)\n\n**Centre de gravité** — *centre of gravity, centre of mass*. Point où l'on peut considérer que s'applique le poids d'un corps ou d'un système, par exemple le système corps-barre. Sa position dépend de la posture. (aussi : centre de masse)\n\n**Centre de masse extrapolé** — *extrapolated centre of mass (XcoM)*. Position du centre de gravité augmentée de sa vitesse multipliée par √(l / g), l étant la longueur de jambe. En mouvement, c'est lui, et non le centre de gravité, qui doit rester au-dessus de la base d'appui.\n\n**Centre de pression** — *centre of pressure*. Point d'application de la résultante des forces que le sol exerce sur les pieds. Toujours dans la base d'appui ; en le déplaçant, le corps pilote son centre de gravité.\n\n**Chaîne lourde** — *myosin heavy chain*. Partie de la myosine dont la forme varie d'une fibre à l'autre ; elle sert de marqueur pour classer les types de fibres. (aussi : chaîne lourde de myosine, chaînes lourdes)\n\n**Chaîne respiratoire** — *electron transport chain*. Ensemble de protéines de la membrane interne de la mitochondrie qui conduit les électrons jusqu'à l'oxygène et crée le gradient de protons utilisé par l'ATP synthase.\n\n**Charge lourde et lente** — *heavy slow resistance*. Programme de musculation à charges lourdes et mouvements lents ; une option aussi efficace que l'excentrique dans la tendinopathie d'Achille.\n\n**Chef claviculaire** — *clavicular head*. Partie haute du grand pectoral, qui part de la clavicule. (visuel : muscles#pectoral-clav)\n\n**Chef sternocostal** — *sternocostal head*. Partie principale du grand pectoral, qui part du sternum et des côtes. (visuel : muscles#pectoral-stern)\n\n**Chirurgie placebo** — *placebo surgery, sham surgery*. Intervention qui reproduit l'opération sans en réaliser le geste actif, pour isoler l'effet propre de ce geste.\n\n**Cinématique** — *kinematics*. Description du mouvement — positions, vitesses, accélérations — sans considération de ses causes. Préalable de toute analyse de la charge.\n\n**Cinétique** — *kinetics*. Étude des causes du mouvement : forces, moments, impulsions. En biomécanique, rien à voir avec la cinétique chimique, qui étudie la vitesse des réactions.\n\n**Circulation coronaire** — *coronary circulation*. Vaisseaux qui irriguent le muscle cardiaque lui-même.\n\n**Circulation pulmonaire** — *pulmonary circulation*. Circuit qui va du ventricule droit aux poumons et revient à l'oreillette gauche.\n\n**Circulation systémique** — *systemic circulation*. Circuit qui va du ventricule gauche à tout le corps et revient à l'oreillette droite.\n\n**Classes de levier** — *lever classes*. Classement d'un levier selon l'élément placé au milieu : l'axe (premier genre), la résistance (deuxième genre) ou la force motrice (troisième genre). La classe dépend du point choisi comme axe et de la force appelée résistance. (aussi : levier du premier genre, levier du deuxième genre, levier du troisième genre)\n\n**Cocontraction** — *coactivation, co-contraction*. Activation simultanée de muscles aux actions opposées autour d'une articulation, par exemple ischio-jambiers et quadriceps au genou.\n\n**Codage en fréquence** — *rate coding*. Modulation de la force par la fréquence de décharge des unités motrices déjà actives. Prédomine au-delà des forces faibles et dans les contractions rapides. (blocs : 1-8)\n\n**Cohorte prospective** — *prospective cohort study*. Suivi dans le temps de sujets classés\nselon leur exposition. Résout l'ambiguïté temporelle, reste exposé à la confusion.\n\n**Coiffe des rotateurs** — *rotator cuff*. Quatre muscles de l'omoplate, sus-épineux, sous-épineux, petit rond et sous-scapulaire, dont les tendons entourent la tête humérale et la plaquent dans la glène. (visuel : muscles#sus-epineux+sous-epineux+petit-rond+sous-scapulaire)\n\n**Collagène** — *collagen*. Protéine fibreuse, principal constituant des tendons et des ligaments, assemblée en fibrilles, en fibres puis en faisceaux.\n\n**Composante prolongée** — *prolonged component*. Partie de la consommation d'oxygène post-exercice qui peut durer des heures après un effort important, liée notamment au métabolisme des graisses.\n\n**Composante rapide** — *rapid component*. Partie de la consommation d'oxygène post-exercice qui recharge l'oxygène, l'ATP et la phosphocréatine dans les minutes qui suivent l'effort.\n\n**Compression dans la concavité** — *concavity compression*. Mécanisme de stabilité de l'épaule : les muscles de la coiffe plaquent la tête humérale dans le creux de la glène.\n\n**Conflit d'intérêts** — *conflict of interest*. Situation où un intérêt secondaire —\nfinancier, professionnel ou intellectuel — peut influer sur un jugement scientifique. C'est une\nsituation, pas un comportement : les mécanismes par lesquels il agit opèrent en grande partie\nsans intention. Les conflits non financiers, non déclarables, sont probablement les plus actifs\nen sciences de l'exercice.\n\n**Conflit fémoro-acétabulaire** — *femoroacetabular impingement*. Contact anormal entre le col du fémur et le bord du cotyle, avant la fin du mouvement, lié à une came ou à une pince.\n\n**Conflit sous-acromial** — *subacromial impingement*. Étiquette donnée aux douleurs attribuées à un frottement sous l'acromion ; une hypothèse clinique plus qu'une cause démontrée.\n\n**Consommation d'oxygène post-exercice** — *excess post-exercise oxygen consumption, EPOC*. Surplus d'oxygène consommé après l'effort, au-dessus de la valeur de repos. Il comprend une composante rapide et une composante prolongée.\n\n**Consommation maximale d'oxygène** — *maximal oxygen uptake, VO2max*. Plus haut débit d'oxygène que l'organisme peut consommer pendant un effort. Produit du débit cardiaque maximal et de la différence artério-veineuse. (aussi : consommation maximale)\n\n**CONSORT** — *CONSORT statement*. Ligne directrice de rapportage des essais contrôlés\nrandomisés : 25 points et un diagramme de flux. Évalue ce qui est décrit, pas ce qui a été fait\n— même distinction que pour [[PRISMA]]. Le diagramme de flux donne le nombre de randomisés et\nle nombre d'analysés, donc les perdus de vue.\n\n**Contenu minéral osseux** — *bone mineral content*. Quantité totale de minéral d'un os ou d'une région, sans rapport à sa taille.\n\n**Contraction balistique** — *ballistic contraction*. Contraction produite le plus vite possible, en une salve de décharges à très haute fréquence qui précède la montée de la force. (aussi : balistique, balistiques) (blocs : 1-8)\n\n**Contraction isométrique** — *isometric contraction*. Contraction sans mouvement articulaire : le muscle produit de la force sans que l'angle change. Format de référence pour mesurer la force maximale et le taux de développement de la force.\n\n**Contrainte** — *stress*. Force rapportée à la section du tissu qui la supporte. Avec la déformation, elle décrit la sollicitation mécanique d'un os, d'un tendon ou d'un ligament. (aussi : contraintes) (blocs : 1)\n\n**Corticosurrénale** — *adrenal cortex*. Partie périphérique de la glande surrénale ; elle libère notamment le cortisol, sous l'effet de l'ACTH.\n\n**Cortisol** — *cortisol*. Glucocorticoïde libéré par la corticosurrénale. Il mobilise les réserves ; élevé longtemps, il fait fondre le muscle.\n\n**Cotyle** — *acetabulum*. Cavité de l'os coxal qui reçoit la tête du fémur.\n\n**Courbatures** — *delayed-onset muscle soreness*. Douleurs musculaires qui apparaissent dans les jours suivant une séance, surtout après des actions excentriques. Sans lien établi avec le lactate. (aussi : courbature)\n\n**Courbe de force** — *strength curve*. Moment maximal qu'une personne peut produire en fonction de l'angle articulaire. Elle dépend de la relation longueur-tension et des bras de levier. (aussi : courbes de force)\n\n**Courbe force-temps** — *force-time curve*. Enregistrement de la force produite en fonction du temps, typiquement sur plateforme de force. Sa pente donne le taux de développement de la force, son aire l'impulsion.\n\n**Créatine kinase** — *creatine kinase*. Enzyme qui transfère le phosphate de la phosphocréatine à l'ADP pour reformer de l'ATP, et réalise la réaction inverse au repos.\n\n**CRH** — *corticotropin-releasing hormone*. Hormone libérée par l'hypothalamus ; elle fait libérer l'ACTH par l'hypophyse.\n\n**Critère de jugement** — *outcome*. Grandeur mesurée pour évaluer l'effet. Un critère\n**principal** est préspécifié et unique ; les critères secondaires ne peuvent pas fonder la\nconclusion principale.\n\n**Cycle de Krebs** — *citric acid cycle*. Suite de réactions de la mitochondrie qui oxyde l'acétyl-CoA et charge des transporteurs d'électrons, surtout le NADH.\n\n**Cycle étirement-raccourcissement** — *stretch-shortening cycle*. Étirement d'un muscle sous charge suivi aussitôt de son raccourcissement, comme dans un rebond. Produit plus de force, à vitesse égale, qu'un raccourcissement seul. (aussi : cycles étirement-raccourcissement)\n\n**Cycle triglycérides-acides gras** — *triglyceride-fatty acid cycling*. Dégradation des triglycérides en acides gras, suivie de leur reconstitution ; ce cycle consomme de l'énergie.\n\n## D\n\n**d de Cohen** — *Cohen's d*. Écart entre deux moyennes divisé par une mesure de dispersion,\nexprimant l'effet en unités d'écart-type. Sa valeur dépend autant de la dispersion de\nl'échantillon que de l'effet lui-même : un même gain réel produit un d plus grand dans une\npopulation homogène. Toujours demander ce qui figure au dénominateur.\n\n**Débit cardiaque** — *cardiac output*. Volume de sang éjecté par le cœur par minute : volume d'éjection multiplié par la fréquence cardiaque.\n\n**Décompression sous-acromiale** — *subacromial decompression*. Opération qui retire de l'os et des tissus sous l'acromion. Elle ne fait pas mieux qu'une chirurgie placebo.\n\n**Déficit en oxygène** — *oxygen deficit*. Écart entre l'oxygène qu'aurait exigé un effort et celui réellement consommé ; méthode la plus utilisée pour estimer la part anaérobie d'un effort maximal.\n\n**Déformation en came** — *cam deformity*. Bosse à la jonction de la tête et du col du fémur : la tête n'est pas tout à fait ronde. Fréquente sans symptôme, surtout chez les athlètes.\n\n**Déformation en pince** — *pincer deformity*. Cotyle qui recouvre trop la tête du fémur.\n\n**Degré de liberté** — *degree of freedom*. Nombre de rotations indépendantes qu'autorise une articulation : un pour une charnière, trois pour une rotule comme la hanche. La description complète du mouvement relatif de deux os en demande six, trois rotations et trois translations. (aussi : degrés de liberté) (blocs : 1-8)\n\n**Degrés de liberté du chercheur** — *researcher degrees of freedom*. Ensemble des décisions\nanalytiques laissées au libre choix de l'analyste et non déclarées. Portent le taux de faux\npositifs bien au-delà du seuil nominal.\n\n**Deltoïde** — *deltoid*. Muscle qui coiffe l'épaule, en trois portions : antérieure (lève le bras vers l'avant), moyenne (l'écarte sur le côté), postérieure (le tire vers l'arrière). (aussi : deltoïdes) (visuel : muscles#deltoide-ant+deltoide-moy+deltoide-post)\n\n**Deltoïde antérieur** — *anterior deltoid*. Portion avant du deltoïde. Elle lève le bras vers l'avant et travaille au développé couché. (visuel : muscles#deltoide-ant)\n\n**Deltoïde moyen** — *middle deltoid*. Portion latérale du deltoïde. Elle écarte le bras sur le côté (abduction). (visuel : muscles#deltoide-moy)\n\n**Deltoïde postérieur** — *posterior deltoid*. Portion arrière du deltoïde. Elle tire le bras vers l'arrière. (visuel : muscles#deltoide-post)\n\n**Demi-temps de recharge** — *half-time of resynthesis*. Temps nécessaire pour reconstituer la moitié de la phosphocréatine perdue. Varie de 20 secondes environ à près d'une minute selon l'effort précédent et l'oxygène disponible. (aussi : demi-temps)\n\n**Densité minérale** — *bone mineral density*. Quantité de minéral rapportée à une surface ou à un volume d'os, mesurée par absorptiométrie. Indicateur imparfait de la solidité. (aussi : densité minérale osseuse)\n\n**Dentelé antérieur** — *serratus anterior*. Muscle du côté du thorax, sous l'aisselle, en digitations sur les côtes. Il fait tourner l'omoplate vers le haut et la garde plaquée contre le thorax. (visuel : muscles#dentele)\n\n**Dérive cardiovasculaire** — *cardiovascular drift*. Pendant un effort prolongé à intensité constante, baisse progressive du volume d'éjection et hausse de la fréquence cardiaque, après 10 à 20 minutes.\n\n**Dérivé de tirage** — *weightlifting pulling derivative*. Variante d'un mouvement d'haltérophilie qui supprime la réception de la barre : tirage d'épaulé ou d'arraché, tirage haut, shrug sauté, tirage depuis la mi-cuisse. (aussi : dérivés de tirage)\n\n**Dette d'oxygène** — *oxygen debt*. Ancien nom de la consommation d'oxygène post-exercice, lié à l'hypothèse, jugée trop simple, d'un remboursement par l'élimination du lactate.\n\n**Différence artério-veineuse** — *arteriovenous oxygen difference*. Quantité d'oxygène retirée du sang par les tissus, entre le sang artériel et le sang veineux.\n\n**Différence d'ions forts** — *strong ion difference*. Approche physico-chimique de l'équilibre acide-base, qui explique le pH par l'équilibre des ions chargés plutôt que par le compte des protons.\n\n**Différence moyenne standardisée** — *standardized mean difference*, SMD. Différence entre\ngroupes exprimée en écarts-types, permettant l'agrégation d'études employant des échelles\ndifférentes. Le *d* de Cohen et le *g* de Hedges en sont deux variantes.\n\n**Distance acromio-humérale** — *acromiohumeral distance*. Plus courte distance entre l'acromion et l'humérus ; elle mesure l'espace sous-acromial.\n\n**Distance biacromiale** — *biacromial distance*. Largeur des épaules, d'un acromion à l'autre ; elle sert à exprimer la largeur de prise.\n\n**Dose-réponse** — *dose-response*. Relation monotone entre l'intensité d'une exposition et\nl'amplitude d'un résultat. Argument causal classique, difficile à produire par une confusion\nsimple.\n\n**Doublet** — *doublet discharge*. Deux décharges d'un motoneurone très rapprochées, qui accélèrent la montée en force. Plus fréquents après un entraînement à contractions rapides. (aussi : doublets) (blocs : 1-8)\n\n**Droit fémoral** — *rectus femoris*. Chef central du quadriceps, à l'avant de la cuisse. Seul chef biarticulaire du quadriceps : il étend le genou et plie la hanche. (visuel : muscles#droit-femoral)\n\n**Dynamique inverse** — *inverse dynamics*. Calcul des forces et des moments nets aux articulations à partir des mouvements mesurés et des forces extérieures, en remontant des effets aux causes. Donne des moments nets, pas la force de chaque muscle.\n\n**Dyskinésie scapulaire** — *scapular dyskinesis*. Mouvement ou position anormale de l'omoplate, fréquente avec ou sans douleur.\n\n## E\n\n**Économie de course** — *running economy*. Consommation d'oxygène à une vitesse de course donnée. Plus elle est basse, plus le coureur est économe.\n\n**Effet Bohr** — *Bohr effect*. Baisse de l'affinité de l'hémoglobine pour l'oxygène quand le pH baisse : le sang plus acide du muscle actif y libère davantage d'oxygène.\n\n**Effet du tiroir** — *file drawer effect*. Non-soumission des études aux résultats non\nsignificatifs. Premier des trois filtres de la sélection des résultats, probablement le plus\nlourd, et le seul qu'aucune lecture d'article ne peut détecter. Les registres d'essais et les\nrapports enregistrés sont les parades.\n\n**Effet fixe (modèle à)** — *fixed-effect model*. Modèle d'agrégation supposant une vraie\nvaleur unique de l'effet. Attention au faux ami : *fixed effects* au pluriel désigne autre\nchose en économétrie.\n\n**Effets aléatoires (modèle à)** — *random-effects model*. Modèle d'agrégation supposant que\nles vraies valeurs varient selon les contextes.\n\n**Effort relatif** — *relative muscular effort*. Moment produit par un groupe musculaire rapporté au moment maximal qu'il peut produire au même angle. Au squat, celui des extenseurs du genou augmente avec la profondeur.\n\n**Électromyographie de surface** — *surface electromyography (sEMG)*. Enregistrement, par des électrodes posées sur la peau, de l'activité électrique d'un muscle. Son amplitude ne mesure pas directement le recrutement et ne prédit pas l'adaptation. (aussi : électromyographie, électromyographique, EMG)\n\n**Endocrine** — *endocrine*. Se dit d'un signal libéré dans le sang, qui agit sur des cellules lointaines.\n\n**Entraînement par intervalles** — *interval training, HIIT*. Alternance d'efforts intenses et de récupérations, dont la réponse dépend d'une dizaine de variables : intensités, durées, nombre de répétitions et de séries.\n\n**Épaulé** — *clean*. Mouvement d'haltérophilie où la barre passe du sol aux épaules ; suivi du jeté, il forme l'épaulé-jeté. L'épaulé en force (*power clean*) se réceptionne jambes peu fléchies. (aussi : épaulés)\n\n**Équation de Fick** — *Fick equation*. Consommation d'oxygène égale au débit cardiaque multiplié par la différence artério-veineuse.\n\n**Érecteurs du rachis** — *erector spinae*. Colonnes musculaires de part et d'autre de la colonne vertébrale, du bassin à la nuque. Elles redressent le dos et le gardent droit sous la charge. (visuel : muscles#erecteurs)\n\n**Erreur de magnitude** — *type M error, magnitude error, exaggeration ratio*. Surestimation\nsystématique de l'amplitude des effets qui franchissent le seuil de significativité dans une\nétude peu puissante. Elle se quantifie par un facteur d'exagération : le rapport entre\nl'amplitude attendue d'un résultat significatif et l'amplitude réelle. Distincte de l'erreur de\ntype I, qui porte sur l'existence de l'effet et non sur sa taille.\n\n**Erreur de mesure différentielle** — *differential measurement error*. Erreur de mesure dont\nl'ampleur ou le sens dépend du groupe auquel appartient le sujet. Contrairement à une erreur\nqui frappe les deux groupes de la même façon, elle crée un écart artificiel entre eux et ne se\ndilue pas quand l'effectif augmente.\n\n**Erreur de signe** — *type S error, sign error*. Probabilité qu'un résultat statistiquement\nsignificatif pointe dans la direction opposée à l'effet réel. Négligeable à puissance élevée,\nelle devient substantielle en deçà de 10 % de puissance. Conséquence la plus contre-intuitive\nde la sous-puissance.\n\n**Erreur de type I** — *type I error*. Rejet d'une hypothèse nulle vraie. Faux positif. Son\ntaux nominal est le seuil de significativité.\n\n**Erreur de type II** — *type II error*. Non-rejet d'une hypothèse nulle fausse. Faux négatif.\nSon complément à 1 est la puissance.\n\n**Erreur standard** — *standard error*. Dispersion attendue d'une estimation si l'on répétait\nl'étude. Elle décrit la précision de l'estimation, non la variabilité entre individus — cette\ndernière est l'écart-type. C'est l'erreur standard qui détermine la largeur de l'intervalle de\nconfiance et le poids d'une étude en méta-analyse.\n\n**Erreur typique** — *typical error*, *standard error of measurement*. Écart-type des mesures\nrépétées d'un même individu. Mesure de fidélité exprimée dans l'unité de la grandeur mesurée,\ndonc directement interprétable — contrairement à un coefficient de corrélation.\n\n**Espace sous-acromial** — *subacromial space*. Espace entre la tête humérale et l'acromion, où passent le tendon du sus-épineux et une bourse séreuse.\n\n**Espérance** — *expectation, expected value*. Valeur moyenne d'une quantité aléatoire sur un\ntrès grand nombre de répétitions. Dire que la randomisation équilibre les groupes « en\nespérance » signifie qu'elle les équilibre en moyenne sur l'ensemble des tirages possibles, pas\nnécessairement dans le tirage effectué.\n\n**Essai contrôlé randomisé** — *randomised controlled trial, RCT*. Étude dans laquelle\nl'attribution de l'intervention est décidée par un procédé aléatoire. C'est ce tirage au sort,\net lui seul, qui autorise une conclusion causale — la présence d'un groupe contrôle sans\nrandomisation ne suffit pas. (aussi : essais contrôlés randomisés, essai randomisé, essais\nrandomisés)\n\n**Estimation ponctuelle** — *point estimate*. Valeur unique proposée comme meilleure estimation\nd'un effet, par opposition à l'intervalle qui l'accompagne. C'est le chiffre que reprennent les\nrésumés et la diffusion secondaire, et c'est l'information la moins fiable d'une étude de\npetite taille.\n\n**État stable maximal du lactate** — *maximal lactate steady state*. Plus haute intensité à laquelle la production et l'élimination du lactate s'équilibrent pendant un effort constant.\n\n**Étude méta-épidémiologique** — *meta-epidemiological study*. Étude qui prend pour unité\nd'analyse non pas un patient mais un essai. On rassemble un grand nombre de méta-analyses, on\nclasse les essais selon la présence d'un dispositif méthodologique, et on compare les\nestimations d'effet des deux classes. C'est ainsi qu'a été mesuré le coût de l'absence\nd'allocation dissimulée ou d'aveugle. (aussi : études méta-épidémiologiques)\n\n**Événement déclencheur** — *inciting event*. Dans le modèle multifactoriel de la blessure, la situation et le mécanisme précis au moment où elle survient. (aussi : événements déclencheurs)\n\n**Exercice nordique des ischio-jambiers** — *Nordic hamstring exercise*. Exercice à genoux, chevilles tenues, où l'on freine la chute du buste vers l'avant par une contraction excentrique des ischio-jambiers. (aussi : exercice nordique) (visuel : muscles#biceps-femoral+semi-tendineux+semi-membraneux)\n\n**Extenseurs de hanche** — *hip extensors*. Muscles qui ramènent la cuisse vers l'arrière ou redressent le buste : grand fessier, ischio-jambiers, grand adducteur. (visuel : muscles#grand-fessier+biceps-femoral+semi-tendineux+semi-membraneux+adducteurs)\n\n**Extenseurs du genou** — *knee extensors*. Muscles qui tendent la jambe : c'est le quadriceps. (visuel : muscles#droit-femoral+vaste-lat+vaste-med)\n\n## F\n\n**Facilitation neuromusculaire proprioceptive** — *proprioceptive neuromuscular facilitation*. Technique d'étirement qui alterne étirement et contraction du muscle étiré ou de son opposé. Son efficacité tient surtout à la tolérance à l'étirement, pas à un relâchement réflexe.\n\n**Facteur de risque externe** — *external risk factor*. Caractéristique de l'environnement ou de l'activité qui modifie le risque de blessure. (aussi : facteurs de risque externes)\n\n**Facteur de risque interne** — *internal risk factor*. Caractéristique propre à l'athlète qui modifie son risque de blessure. (aussi : facteurs de risque internes)\n\n**Faisceau musculaire** — *muscle fascicle*. Groupe de fibres musculaires entouré de périmysium. C'est l'unité visible à l'échographie, sur laquelle on mesure longueur et angle de pennation. (aussi : faisceaux musculaires, faisceau, faisceaux) (blocs : 1)\n\n**Fatigue mécanique** — *mechanical fatigue*. Accumulation de dommages dans un matériau soumis à des charges répétées inférieures à sa résistance. Sert de modèle aux blessures de surmenage.\n\n**Fatmax** — *Fatmax*. Intensité d'effort à laquelle l'oxydation des graisses est maximale. Elle varie beaucoup d'une personne à l'autre.\n\n**Fessiers** — *gluteal muscles*. Muscles de la fesse : le grand fessier en surface ; le moyen et le petit fessier plus haut et plus en dehors, en partie dessous. (visuel : muscles#grand-fessier+moyen-fessier)\n\n**Fibre lente** — *slow-twitch fiber, type I fiber*. Fibre de type I : contraction lente, puissance plus faible, métabolisme très oxydatif. Elle travaille la première dans un effort modéré. (aussi : fibres lentes, fibre de type I, fibres de type I)\n\n**Fibre musculaire** — *muscle fibre*. Cellule musculaire, très longue et à plusieurs noyaux, remplie de myofibrilles. (aussi : fibres musculaires)\n\n**Fibre rapide** — *fast-twitch fiber, type II fiber*. Fibre de type II, IIa ou IIx : contraction plus rapide, puissance plus grande. Les études humaines anciennes appellent « IIb » les fibres IIx. (aussi : fibres rapides, fibre de type II, fibres de type II)\n\n**Fibres hybrides** — *hybrid fibers*. Fibres musculaires qui contiennent deux formes de myosine à la fois : I et IIa, ou IIa et IIx. (aussi : fibre hybride)\n\n**Fibres intrafusales** — *intrafusal fibers*. Fibres musculaires spécialisées contenues dans le fuseau neuromusculaire, commandées par les motoneurones gamma. (aussi : fibre intrafusale, intrafusales)\n\n**Fidélité** — *reliability*. Reproductibilité d'une mesure sur des essais répétés. **Faux ami\nmajeur** : *reliability* ne se traduit pas par « fiabilité » dans ce contexte technique, et n'a\nrien à voir avec la validité.\n\n**Filaments glissants** — *sliding filament theory*. Modèle de la contraction : les filaments d'actine et de myosine gardent leur longueur et coulissent les uns entre les autres, ce qui raccourcit le sarcomère.\n\n**Fléchisseurs du coude** — *elbow flexors*. Muscles qui plient le coude : biceps brachial, brachial (en partie sous le biceps) et brachio-radial. (visuel : muscles#biceps+brachial+brachio-radial)\n\n**Fléchisseurs du genou** — *knee flexors*. Muscles qui plient le genou : surtout les ischio-jambiers, aidés par le gastrocnémien. (visuel : muscles#biceps-femoral+semi-tendineux+semi-membraneux+gastrocnemien)\n\n**Fléchisseurs plantaires** — *plantar flexors*. Muscles qui tendent la cheville, pointe du pied vers le bas, comme pour monter sur la pointe des pieds : surtout le triceps sural. (visuel : muscles#gastrocnemien+soleaire)\n\n**Force passive** — *passive force*. Résistance qu'oppose un muscle à l'étirement sans être activé, due à ses structures élastiques. Elle s'ajoute à la force active aux grandes longueurs.\n\n**Forest plot** — *forest plot*. Représentation graphique d'une méta-analyse, une ligne par\nétude, la surface du carré indiquant le poids et le losange final l'estimation agrégée.\n\n**Fréquence cardiaque de réserve** — *heart rate reserve*. Écart entre la fréquence cardiaque maximale et la fréquence de repos ; sert à prescrire l'intensité en pourcentage.\n\n**Fréquence cardiaque maximale** — *maximal heart rate*. Fréquence la plus haute atteinte à l'effort maximal. En moyenne mieux estimée par 208 − 0,7 × âge que par 220 moins l'âge ; pour un individu, l'erreur peut atteindre environ 25 battements par minute.\n\n**Fréquence de décharge** — *discharge rate, firing rate*. Nombre d'influx nerveux émis par seconde par un motoneurone. Principal déterminant nerveux de la montée en force au tout début d'une contraction explosive.\n\n**Funnel plot** — *funnel plot*. Nuage des estimations d'effet portées contre leur précision.\nSon asymétrie est un signal d'alerte, jamais une preuve de biais de publication.\n\n**Fuseau neuromusculaire** — *muscle spindle*. Capteur logé parmi les fibres du muscle, qui signale sa longueur et la vitesse de son changement. Contrairement aux autres capteurs mécaniques, il reçoit une commande motrice propre, par les motoneurones gamma. (aussi : fuseau, fuseaux, fuseaux neuromusculaires)\n\n## G\n\n**g de Hedges** — *Hedges' g*. Taille d'effet standardisée égale au d de Cohen multiplié par un\nfacteur légèrement inférieur à 1, qui corrige la surestimation du d en petit échantillon —\nenviron 4 % à vingt sujets, 8 % à dix. Forme à privilégier en méta-analyse.\n\n**Gastrocnémien** — *gastrocnemius*. Muscle superficiel du mollet, à deux chefs qui en dessinent le galbe. Biarticulaire : il tend la cheville et aide à plier le genou. (aussi : gastrocnémiens) (visuel : muscles#gastrocnemien)\n\n**Glandes surrénales** — *adrenal glands*. Glandes posées sur les reins, faites d'une corticosurrénale et d'une médullosurrénale.\n\n**Glène** — *glenoid cavity*. Surface articulaire de l'omoplate, petite et peu creuse, qui reçoit la tête humérale.\n\n**Glucocorticoïdes** — *glucocorticoids*. Famille d'hormones de la corticosurrénale, dont le cortisol. Elles mobilisent les réserves et freinent la construction des tissus.\n\n**GLUT4** — *glucose transporter 4*. Transporteur par lequel le glucose entre dans la fibre musculaire. La contraction et l'insuline le font migrer vers la membrane.\n\n**Glycogène** — *glycogen*. Réserve de glucose stockée dans le muscle et le foie. Le muscle le consomme d'autant plus vite que l'effort est intense.\n\n**Glycolyse** — *glycolysis*. Découpage du glucose, issu surtout du glycogène musculaire, en pyruvate puis en lactate. Produit de l'ATP sans oxygène, à débit élevé mais pour une durée limitée. (aussi : glycolytique, glycolytiques)\n\n**Gracile** — *gracilis*. Long muscle fin de la face interne de la cuisse, du pubis au tibia. Il rapproche la cuisse et aide à plier le genou. (visuel : muscles#gracile)\n\n**GRADE** — *Grading of Recommendations Assessment, Development and Evaluation*. Cadre\ninternational de cotation de la certitude des preuves, fondé sur un déclassement et un\nreclassement par domaines plutôt que sur le seul protocole d'étude.\n\n**Grand dorsal** — *latissimus dorsi*. Grand muscle plat du bas et du côté du dos, tendu du bas du dos et du bassin à l'humérus ; il ramène le bras le long du corps. (visuel : muscles#grand-dorsal)\n\n**Grand droit** — *rectus abdominis*. Muscle de l'abdomen, une bande verticale de chaque côté de la ligne médiane (les « tablettes »). Il plie le tronc vers l'avant et le rigidifie. (aussi : grand droit de l'abdomen) (visuel : muscles#grand-droit)\n\n**Grand fessier** — *gluteus maximus*. Le plus gros muscle de la fesse. Il étend la hanche : remonter du squat, se redresser au soulevé de terre, pousser au sprint. (visuel : muscles#grand-fessier)\n\n**Grand pectoral** — *pectoralis major*. Muscle de la poitrine à deux chefs, claviculaire et sternocostal, qui rapproche le bras de la ligne médiane. (visuel : muscles#pectoral-clav+pectoral-stern)\n\n## H\n\n**Haltérophilie** — *Olympic weightlifting*. Sport de force à deux mouvements, l'arraché et l'épaulé-jeté ; par extension, l'entraînement fondé sur ces mouvements et leurs variantes.\n\n**Hémoconcentration** — *hemoconcentration*. Concentration du sang quand le plasma perd de l'eau à l'effort ; elle augmente les dosages sans sécrétion accrue.\n\n**Hémoglobine** — *hemoglobin*. Protéine des globules rouges qui transporte environ 98,5 % de l'oxygène du sang ; la fixation de chaque molécule d'oxygène facilite celle de la suivante.\n\n**Héritabilité** — *heritability*. Part de la variabilité d'un caractère entre personnes attribuée aux différences génétiques, dans une population donnée.\n\n**Hétérogénéité** — *heterogeneity*. Variabilité des vraies valeurs d'effet entre les études\nd'une méta-analyse, par opposition à la variabilité d'échantillonnage.\n\n**Hormone** — *hormone*. Messager chimique libéré par une glande, qui agit sur les cellules portant son récepteur. (aussi : hormones)\n\n**Hormone de croissance** — *growth hormone*. Hormone de l'hypophyse qui élève l'IGF-1 du sang et agit sur le muscle, l'os, le collagène et les graisses ; sa cure n'augmente pas la force du muscle sain.\n\n**Hormone peptidique** — *peptide hormone*. Hormone qui agit par un récepteur de la membrane, comme l'insuline. (aussi : hormones peptidiques)\n\n**Hormone stéroïde** — *steroid hormone*. Hormone qui traverse la membrane de la cellule et agit par un récepteur intérieur, comme la testostérone. (aussi : hormones stéroïdes)\n\n**Hyperlaxité** — *generalized joint hypermobility*. Amplitude inhabituellement grande dans plusieurs articulations. Plus fréquente chez l'enfant et la femme.\n\n**Hypothèse d'identification** — *identification assumption*. Hypothèse explicite, non\nvérifiable par les données seules, sous laquelle une association observée peut être lue comme\nun effet causal. Toute inférence causale hors essai randomisé en repose sur une : la\nrandomisation a l'avantage de rendre la sienne quasi automatique.\n\n**Hypothèse de l'hormone libre** — *free hormone hypothesis*. Idée que seule la forme libre d'une hormone, non liée aux protéines de transport, agit sur les tissus. Elle ne vaut pas pour toutes les hormones ni tous les tissus.\n\n**Hypothèse hormonale** — *hormone hypothesis*. Idée, peu soutenue par les données, selon laquelle les pics d'hormones juste après une séance feraient grossir le muscle.\n\n**Hypothèse nulle** — *null hypothesis*. Hypothèse d'absence d'effet, ou d'effet égal à une\n\n**Hypoxémie artérielle induite par l'effort** — *exercise-induced arterial hypoxemia*. Baisse de la saturation en oxygène du sang artériel pendant un effort intense, fréquente chez les athlètes d'endurance très entraînés ; dite légère entre 93 et 95 %.\n\n**Hystérésis** — *hysteresis*. Part de l'énergie reçue par un tissu étiré qu'il ne restitue pas en revenant à sa longueur, dissipée en chaleur.\nvaleur de référence, sous laquelle la valeur p est calculée.\n\n## I\n\n**IGF-1** — *insulin-like growth factor 1*. Facteur de croissance. Le muscle en produit ses propres formes sous l'effet de la tension mécanique.\n\n**Impulsion** — *impulse*. Intégrale de la force sur sa durée d'application, en newtons-secondes. Égale à la variation de quantité de mouvement : c'est elle, nette du poids du corps, qui fixe la vitesse de décollage d'un saut. (blocs : 1)\n\n**Inférence causale** — *causal inference*. Passage d'une association observée à l'affirmation\nqu'une variable produit l'autre. Elle exige soit une randomisation, soit une hypothèse\nd'identification explicite et défendable. Aucun ajustement statistique ne la produit à lui\nseul.\n\n**Inflation d'amplitude** — *effect size inflation, winner's curse*. Surestimation systématique\nde la taille des effets qui franchissent le seuil de significativité dans les études de faible\npuissance. Elle ne résulte d'aucune faute : c'est une conséquence mécanique de la sélection des\nrésultats par un seuil.\n\n**Inhibition autogène** — *autogenic inhibition*. Freinage d'un muscle par ses propres organes tendineux. Son rôle protecteur sous les charges lourdes, répandu dans les manuels, n'est pas démontré.\n\n**Inhibition nerveuse** — *neural inhibition*. Baisse de l'activation volontaire d'un muscle malgré un effort maximal, avancée pour expliquer que la force excentrique humaine dépasse peu la force isométrique. Réduite par l'entraînement ; son existence même reste discutée. (blocs : 1-8)\n\n**Inhibition réciproque** — *reciprocal inhibition*. Freinage du muscle opposé quand un muscle est étiré, par un interneurone activé par l'afférence Ia.\n\n**Insuffisance active** — *active insufficiency*. Incapacité supposée d'un muscle biarticulaire à produire beaucoup de force quand les deux articulations le raccourcissent à la fois.\n\n**Insuline** — *insulin*. Hormone peptidique dont la sécrétion dépend du glucose et des acides aminés du sang ; elle agit surtout sur le muscle, le foie et le tissu adipeux.\n\n**Interneurone** — *interneuron*. Neurone de la moelle épinière intercalé entre une fibre sensitive et un motoneurone, par exemple pour inhiber le muscle opposé. (aussi : interneurones)\n\n**Intervalle de compatibilité** — *compatibility interval*. Dénomination proposée pour\nl'intervalle de confiance, décrivant plus fidèlement ce qu'il contient : les valeurs de\nparamètre compatibles avec les données sous le modèle.\n\n**Intervalle de confiance** — *confidence interval*. Intervalle construit par une procédure\ndont la couverture nominale vaut sur des répétitions de l'étude. La propriété appartient à la\nprocédure, pas à l'intervalle observé.\n\n**Intervalle de crédibilité** — *credible interval*. Équivalent bayésien de l'intervalle de\nconfiance, qui possède bien la propriété interprétative intuitive de contenir la vraie valeur\navec la probabilité annoncée.\n\n**Intervalle de prédiction** — *prediction interval*. Dans une méta-analyse à effets\naléatoires, intervalle décrivant l'étendue des effets attendus dans un nouveau contexte.\nToujours plus large que l'intervalle de confiance de la moyenne, et rarement rapporté.\n\n**Ischio-jambiers** — *hamstrings*. Groupe de trois muscles de l'arrière de la cuisse : biceps fémoral, semi-tendineux, semi-membraneux. Ils plient le genou et étendent la hanche. (aussi : ischio-jambier) (visuel : muscles#biceps-femoral+semi-tendineux+semi-membraneux)\n\n**Isocinétique** — *isokinetic*. Se dit d'un mouvement à vitesse angulaire constante, imposée par un dynamomètre qui oppose une résistance égale à la force appliquée. Outil surtout de mesure et de rééducation.\n\n**Isotonique** — *isotonic*. Littéralement « à tension constante ». Désigne couramment le travail à charge constante, où la force musculaire varie pourtant avec les bras de levier et l'accélération : terme trompeur, à comprendre comme « à charge constante ».\n\n**I²** — *I-squared*. Proportion de la variabilité observée entre études attribuable à\nl'hétérogénéité plutôt qu'à l'erreur d'échantillonnage. Proportion, jamais quantité absolue.\n\n## L\n\n**Lactate** — *lactate*. Produit de la glycolyse formé en permanence, y compris en conditions aérobies. Carburant, précurseur du glucose et molécule de signalisation, et non simple déchet.\n\n**Levier** — *lever*. Solide qui tourne autour d'un axe sous l'action d'une force motrice et d'une résistance. Il ne crée pas d'énergie : il échange de la force contre du déplacement, ou l'inverse. (blocs : 1-8)\n\n**Ligament** — *ligament*. Tissu de collagène qui relie deux os et participe à la stabilité d'une articulation. (aussi : ligaments)\n\n**Ligament croisé antérieur** — *anterior cruciate ligament (ACL)*. Ligament situé au centre du genou, qui limite le glissement du tibia vers l'avant sous le fémur.\n\n**Ligne d'action** — *line of action*. Droite qui porte une force. Le bras de levier se mesure perpendiculairement à elle ; une force dont la ligne d'action passe par l'axe ne produit aucun moment.\n\n**Loi de Frank-Starling** — *Frank-Starling law*. Le cœur ajuste son éjection à son remplissage : un ventricule plus rempli éjecte davantage.\n\n## M\n\n**Marge de stabilité** — *margin of stability*. Distance entre le centre de masse extrapolé et le bord de la base d'appui. Négative, elle impose de faire un pas.\n\n**Mécanostat** — *mechanostat*. Hypothèse selon laquelle l'usage mécanique règle l'essentiel de la solidité d'un os sain, qui s'adapte aux charges reçues.\n\n**Médullosurrénale** — *adrenal medulla*. Partie centrale de la glande surrénale, prolongement du système nerveux sympathique ; elle libère l'adrénaline et la noradrénaline.\n\n**Membrane respiratoire** — *respiratory membrane*. Paroi de l'alvéole et paroi du capillaire accolées, épaisses d'environ 0,5 µm, que les gaz traversent par diffusion.\n\n**Ménarche** — *menarche*. Premières règles. Sert de repère de maturation dans les études sur l'os des filles.\n\n**Méta-analyse** — *meta-analysis*. Agrégation quantitative des estimations d'un ensemble\nd'études, généralement par pondération inverse-variance.\n\n**Méta-régression** — *meta-regression*. Modélisation de la variation de l'effet entre études\nen fonction de caractéristiques d'étude. Puissante et fortement exposée à l'exploration\nopportuniste.\n\n**Métabolisme aérobie** — *aerobic metabolism*. Production d'ATP avec oxygène, par la voie oxydative. Contribue dès le début de l'effort et devient majoritaire au-delà de 80 secondes environ d'effort maximal. (aussi : aérobie, aérobies)\n\n**Métabolisme anaérobie** — *anaerobic metabolism*. Production d'ATP sans oxygène, par la phosphocréatine et la glycolyse. Majoritaire dans un effort maximal de moins de 80 secondes environ. (aussi : anaérobie, anaérobies)\n\n**Métaboréflexe** — *metaboreflex*. Réflexe déclenché par l'accumulation de métabolites dans un muscle qui se fatigue ; celui des muscles respiratoires resserre les vaisseaux des muscles locomoteurs.\n\n**Mitochondrie** — *mitochondrion*. Organite de la cellule où se déroule la voie oxydative. Sa densité dans le muscle conditionne la capacité aérobie. (aussi : mitochondries, mitochondrial, mitochondriale)\n\n**Module d'Young** — *Young's modulus*. Rapport de la contrainte à la déformation. Il décrit la rigidité du matériau seul, indépendamment de la taille de la structure.\n\n**Moment de force** — *torque, moment of force*. Produit d'une force par son bras de levier, M = r × F, en newtons-mètres. C'est lui, et non la force, qui fait tourner une articulation. (aussi : moments de force)\n\n**Moment externe** — *external moment*. Moment produit autour d'une articulation par les charges et le poids des segments. Il dépend de la distance horizontale entre la charge et l'articulation, donc de la posture.\n\n**Moment interne** — *internal moment*. Moment produit par les muscles et les structures passives pour s'opposer au moment externe. À l'équilibre, les deux sont égaux.\n\n**Moment net** — *net joint moment*. Somme algébrique des moments de tous les muscles et structures qui croisent une articulation. C'est ce que calcule la dynamique inverse ; il masque les co-contractions, qui augmentent la force réelle des agonistes. (aussi : moment articulaire net)\n\n**Monoarticulaire** — *monoarticular muscle*. Se dit d'un muscle qui ne croise qu'une articulation, comme le soléaire. (aussi : muscle monoarticulaire, muscles monoarticulaires)\n\n**Motoneurone alpha** — *alpha motor neuron*. Neurone de la moelle épinière qui commande les fibres productrices de force d'une unité motrice. (aussi : motoneurones alpha)\n\n**Motoneurones gamma** — *gamma motor neurons, fusimotor neurons*. Neurones qui commandent les fibres intrafusales et règlent la sensibilité du fuseau. Activés avec les motoneurones alpha lors d'une contraction volontaire. (aussi : motoneurone gamma)\n\n**Moyen fessier** — *gluteus medius*. Muscle du haut et du côté de la fesse, en partie caché par le grand fessier. Il écarte la cuisse et tient le bassin à niveau en appui sur une jambe. (visuel : muscles#moyen-fessier)\n\n**Muscle biarticulaire** — *biarticular muscle, two-joint muscle*. Muscle qui croise deux articulations, comme le droit fémoral, la plupart des ischio-jambiers ou le gastrocnémien. Sa longueur dépend des deux angles. (aussi : muscles biarticulaires, biarticulaire, biarticulaires)\n\n**Myocarde** — *myocardium*. Muscle du cœur.\n\n**Myofibrille** — *myofibril*. Filament contractile qui parcourt la fibre musculaire sur toute sa longueur, fait de sarcomères placés bout à bout.\n\n**Myosine** — *myosin*. Protéine qui forme les filaments épais du sarcomère. Ses têtes s'accrochent à l'actine, basculent et la tirent : ce sont les moteurs de la contraction.\n\n## N\n\n**NAD⁺** — *nicotinamide adenine dinucleotide*. Molécule qui accepte des électrons et devient NADH. La glycolyse en consomme ; la formation de lactate le régénère. (aussi : NADH)\n\n**Navette du lactate** — *lactate shuttle*. Théorie selon laquelle le lactate circule entre les cellules qui le produisent et celles qui le consomment, comme carburant et comme signal.\n\n**Néoglucogenèse** — *gluconeogenesis*. Fabrication de glucose à partir d'autres molécules, dont le lactate, qui en est la principale matière première.\n\n**Neutralisateur** — *neutralizer*. Muscle qui annule une action secondaire indésirable de l'agoniste. (aussi : neutralisateurs)\n\n**Nœud auriculo-ventriculaire** — *atrioventricular node*. Relais électrique entre oreillettes et ventricules ; l'impulsion y marque une pause d'environ 100 ms.\n\n**Nœud sinusal** — *sinoatrial node*. Groupe de cellules de l'oreillette droite qui déclenche chaque battement du cœur.\n\n**Non-répondeur** — *non-responder*. Personne qui ne progresse pas, au-delà de l'erreur de mesure, sur une variable après un programme donné. (aussi : non-répondeurs)\n\n**Noradrénaline** — *norepinephrine, noradrenaline*. Catécholamine libérée par les nerfs sympathiques et la médullosurrénale.\n\n## O\n\n**Omoplate** — *scapula*. Os plat triangulaire du dos, qui porte la glène et l'acromion. (visuel : muscles#omoplate)\n\n**Onde V** — *V-wave*. Réponse électrique d'un muscle à la stimulation de son nerf pendant une contraction maximale ; elle reflète la commande qui descend vers les motoneurones.\n\n**Oreillette** — *atrium*. Cavité supérieure du cœur, qui reçoit le sang.\n\n**Organe tendineux de Golgi** — *Golgi tendon organ*. Capteur situé à la jonction du muscle et du tendon, qui signale la force de contraction par son afférence Ib. (aussi : organe tendineux, organes tendineux, organe de Golgi)\n\n**Os cortical** — *cortical bone, compact bone*. Os compact qui forme la coque des os, surtout le long de leur partie centrale.\n\n**Os spongieux** — *cancellous bone, trabecular bone*. Os en réseau de travées, à l'intérieur des extrémités des os longs et des vertèbres. (aussi : os trabéculaire)\n\n**Ostéoblaste** — *osteoblast*. Cellule qui fabrique l'os nouveau puis le minéralise. (aussi : ostéoblastes)\n\n**Ostéoclaste** — *osteoclast*. Cellule qui résorbe l'os. (aussi : ostéoclastes)\n\n**Ostéocyte** — *osteocyte*. Cellule enfermée dans l'os ; leur réseau perçoit les contraintes mécaniques. (aussi : ostéocytes)\n\n**Ostéoporose** — *osteoporosis*. Fragilité osseuse avec risque accru de fracture ; en densitométrie, un T-score inférieur à - 2,5. Son diagnostic et son traitement relèvent du médecin.\n\n## P\n\n**Paracrine** — *paracrine*. Se dit d'un signal qui agit sur des cellules voisines, sans passer par le sang.\n\n**Paradoxe de Codman** — *Codman's paradox*. Rotation de l'humérus sur son axe qui apparaît, sans avoir été commandée, au terme d'une séquence de mouvements plans de l'épaule. Conséquence du fait que les rotations en trois dimensions ne commutent pas.\n\n**Paradoxe de Lombard** — *Lombard's paradox*. Activité simultanée de muscles antagonistes, comme quadriceps et ischio-jambiers, dans un mouvement qu'ils semblent tous deux produire. Il dépend en partie de la méthode de classement des rôles.\n\n**PEDro** — base de données d'essais et de revues en thérapie physique, chaque essai coté sur\nl'échelle PEDro.\n\n**Pendule inversé** — *inverted pendulum*. Modèle du corps debout, articulé aux chevilles. Le centre de gravité y accélère dans le sens qui l'éloigne du centre de pression, proportionnellement à l'écart entre les deux.\n\n**Perdus de vue** — *loss to follow-up, attrition*. Participants randomisés dont le résultat\nfinal n'est pas disponible. Leur nombre, et surtout son asymétrie entre les groupes, est l'une\ndes informations les plus utiles du diagramme de flux d'un essai : l'abandon n'est jamais\naléatoire.\n\n**Petit rond** — *teres minor*. Petit muscle de la coiffe des rotateurs, au bord externe de l'omoplate, sous le sous-épineux. Il tourne le bras vers l'extérieur. (visuel : muscles#petit-rond)\n\n**Phase de vérification** — *verification phase*. Effort à vitesse constante au-dessus de la fin d'un test progressif, pour confirmer qu'une vraie consommation maximale a été atteinte.\n\n**Phosphate inorganique** — *inorganic phosphate*. Phosphate libre, libéré notamment quand la phosphocréatine se dégrade. Il s'accumule pendant un effort intense et apparaît comme une cause majeure de fatigue.\n\n**Phosphocréatine** — *phosphocreatine (PCr)*. Réserve de phosphate riche en énergie qui refait de l'ATP en une seule réaction. Voie la plus rapide, épuisée en quelques secondes d'effort maximal, rechargée grâce à l'oxygène.\n\n**PICOT** — *Population, Intervention, Comparison, Outcome, Time*. Structure de formulation\nd'une question de recherche à laquelle on peut répondre. Explicitement au programme de l'examen\n(DCO SF 1.J.2).\n\n**Pied de courbe** — *toe region*. Début de la courbe contrainte-déformation du tendon, où la raideur augmente peu à peu avant la zone linéaire.\n\n**Plan frontal** — *frontal plane, coronal plane*. Plan qui sépare l'avant et l'arrière du corps. Les mouvements y tournent autour d'un axe antéro-postérieur : abduction, adduction, inclinaison latérale.\n\n**Plan sagittal** — *sagittal plane*. Plan qui sépare la gauche et la droite du corps. Les mouvements y tournent autour d'un axe médio-latéral : flexion, extension.\n\n**Plan transversal** — *transverse plane, horizontal plane*. Plan qui sépare le haut et le bas du corps. Les mouvements y tournent autour d'un axe longitudinal : rotations interne et externe, pronation, supination.\n\n**Plateforme de force** — *force plate*. Instrument qui mesure les forces exercées sur le sol au cours du temps. Permet de calculer la hauteur d'un saut par trois méthodes indépendantes.\n\n**Pliométrie** — *plyometric training*. Entraînement fait de sauts et de rebonds enchaînés, qui sollicite le cycle étirement-raccourcissement.\n\n**Plus petit changement digne d'intérêt** — *smallest worthwhile change, minimal important\ndifference*. Plus petite différence à partir de laquelle on accepterait de modifier une\npratique, compte tenu de son coût. Ce n'est pas une quantité statistique : elle se fixe par\nancrage sur une conséquence externe, par une fraction de la dispersion entre sujets — souvent\n0,2 écart-type — ou par jugement. Doit être annoncée avant l'analyse, jamais découverte après.\n\n**Point de blocage** — *sticking point, sticking region*. Portion de l'amplitude où l'écart entre ce que le muscle peut produire et ce que l'exercice exige est le plus faible. C'est là qu'une répétition échoue.\n\n**Point de croisement** — *crossover point*. Intensité à partir de laquelle les glucides fournissent plus d'énergie que les graisses. Cœur du concept du croisement, dont la portée est discutée. (aussi : concept du croisement)\n\n**Polarisé** — *polarized training*. Se dit d'une répartition de l'entraînement qui combine beaucoup de travail à faible intensité et un peu de travail très intense, avec peu de travail au seuil. (aussi : polarisée, entraînement polarisé)\n\n**Pompe musculaire** — *muscle pump*. Compression des veines par les muscles qui se contractent ; les valves orientent le sang vers le cœur.\n\n**Pont d'union** — *cross-bridge*. Liaison transitoire entre une tête de myosine et un filament d'actine. La force d'un sarcomère est la somme de celles de ses ponts d'union actifs. (aussi : ponts d'union)\n\n**Position anatomique** — *anatomical position*. Posture de référence : debout, regard vers l'avant, bras le long du corps, paumes tournées vers l'avant. La plupart des angles articulaires y valent zéro par convention.\n\n**Précharge** — *preload*. Remplissage du ventricule avant sa contraction.\n\n**Préenregistrement** — *preregistration*. Dépôt public du protocole et du plan d'analyse avant\nla collecte des données. Il distingue un résultat testé d'un résultat trouvé, en fermant la\npossibilité de choisir après coup le critère de jugement ou l'analyse qui donne le résultat le\nplus favorable.\n\n**Pression diastolique** — *diastolic blood pressure*. Pression artérielle pendant le remplissage des ventricules ; elle varie peu à l'effort dynamique.\n\n**Pression intra-abdominale** — *intra-abdominal pressure*. Pression dans la cavité abdominale, augmentée par le gainage ou une ceinture, qui participe au soutien du tronc.\n\n**Pression partielle** — *partial pressure*. Pression exercée par un gaz dans un mélange. Un gaz se déplace de là où sa pression partielle est la plus haute vers là où elle est la plus basse. (aussi : pressions partielles)\n\n**Pression systolique** — *systolic blood pressure*. Pression artérielle au moment où les ventricules éjectent ; elle monte nettement à l'effort dynamique.\n\n**Principe de taille** — *size principle, Henneman's principle*. Ordre de recrutement des unités motrices, des plus petites, à motoneurone de petite taille, aux plus grandes. Conservé dans les contractions lentes comme explosives. (aussi : principe de Henneman) (blocs : 1-8)\n\n**PRISMA** — *Preferred Reporting Items for Systematic Reviews and Meta-Analyses*. Ligne\ndirectrice de **rapportage** des revues systématiques. N'évalue ni la conduite de l'étude ni la\nqualité des études incluses.\n\n**Profil de résistance** — *resistance profile*. Variation du moment externe à vaincre le long de l'amplitude d'un exercice. Il dépend du dispositif : charge libre, câble, came, élastique, chaînes. (aussi : profils de résistance)\n\n**Profil force-vitesse** — *force-velocity profile*. Droite force-vitesse d'un athlète, mesurée par quelques sauts ou poussées sous charges croissantes et résumée par la force à vitesse nulle et la vitesse à force nulle. Outil descriptif ; son usage pour individualiser l'entraînement n'est pas validé. (aussi : profils force-vitesse) (blocs : 1-8)\n\n**Pronation** — *pronation*. Rotation de l'avant-bras qui tourne la paume vers l'arrière, bras le long du corps. Aux tractions, la prise en pronation place les paumes vers l'avant.\n\n**Proprioception** — *proprioception*. Sens de la position, du mouvement et de la force des membres, alimenté notamment par les fuseaux et les organes tendineux. Elle se dégrade avec l'âge.\n\n**PROSPERO** — registre international de préenregistrement des revues systématiques. Sa mention\ndans un article est un marqueur de sérieux vérifiable.\n\n**Protéine de transport** — *binding protein*. Protéine du sang à laquelle une hormone peut se lier pour circuler. (aussi : protéines de transport)\n\n**Puissance** — *statistical power*. Probabilité de détecter un effet d'une amplitude donnée\ns'il existe. Une puissance faible ne fait pas que manquer des effets : elle gonfle l'amplitude\nde ceux qu'elle détecte. (blocs : 0)\n\n**Puissance critique** — *critical power*. Asymptote de la relation puissance-durée. Au-dessous, les réponses de l'organisme se stabilisent ; au-dessus, non, jusqu'à l'épuisement d'une réserve de travail.\n\n**Puissance mécanique** — *mechanical power*. Travail mécanique par unité de temps, en watts ; instantanément, P = F · v. À distinguer de l'usage courant qui appelle « puissance » une qualité d'effort bref et intense. (aussi : puissance) (blocs : 1-8)\n\n**Puissance rétrospective** — *post hoc power, observed power*. Puissance recalculée après\nl'étude à partir de l'effet observé. Elle est une fonction directe de la valeur p obtenue et\nn'apporte donc aucune information nouvelle. À ne pas confondre avec le calcul, légitime, de la\npuissance dont l'étude disposait pour détecter un effet digne d'intérêt fixé indépendamment du\nrésultat.\n\n**Pyruvate** — *pyruvate*. Produit de la glycolyse. Il entre dans la mitochondrie pour y être oxydé, ou devient lactate.\n\n## Q\n\n**Quadriceps** — *quadriceps femoris*. Groupe de quatre muscles de l'avant de la cuisse : droit fémoral, vaste latéral, vaste médial et vaste intermédiaire, caché sous les autres. Il étend le genou. (visuel : muscles#droit-femoral+vaste-lat+vaste-med)\n\n**Quantité de mouvement** — *momentum*. Produit de la masse par la vitesse, en kilogrammes-mètres par seconde. Sa variation égale l'impulsion reçue.\n\n**Quaternion** — *quaternion*. Représentation d'une orientation en trois dimensions par quatre nombres, équivalente à une rotation d'un angle donné autour d'un axe. Ne souffre ni de singularités ni du paradoxe de Codman, au prix d'une lecture moins intuitive que les angles articulaires.\n\n## R\n\n**Raideur** — *stiffness*. Force, ou moment, nécessaire pour déformer une structure d'une unité : par exemple, pour allonger un tendon d'un millimètre. Elle dépend du matériau et de la taille de la structure.\n\n**Randomisation** — *randomization*. Attribution de l'intervention par un procédé aléatoire.\nFondement de l'inférence causale expérimentale.\n\n**Rapport charge aiguë-charge chronique** — *acute:chronic workload ratio (ACWR)*. Rapport entre la charge d'entraînement récente, souvent d'une semaine, et la charge moyenne des semaines précédentes. Son usage pour prévenir les blessures n'est pas étayé.\n\n**Rapport de démultiplication** — *gear ratio*. Rapport entre le déplacement de l'extrémité d'un segment et le raccourcissement du muscle qui le met en mouvement. Inverse de l'avantage mécanique.\n\n**Rapport enregistré** — *registered report*. Format éditorial où la revue accepte l'article\nsur la base du protocole, avant collecte des données, et s'engage à publier quel que soit le\nrésultat. Seul dispositif qui neutralise simultanément le tiroir du chercheur et la sélection\npar la revue.\n\n**Rapport travail-repos** — *work-to-rest ratio*. Rapport entre la durée de l'effort et celle de la récupération dans une séance par intervalles. (aussi : rapports travail-repos)\n\n**Rapport ventilation-perfusion** — *ventilation-perfusion ratio*. Rapport entre l'air qui arrive dans une région du poumon et le sang qui la traverse ; l'échange est efficace quand les deux concordent.\n\n**Récepteur** — *receptor*. Protéine qui reconnaît une molécule précise, hormone ou autre signal, et s'y lie pour déclencher une réponse de la cellule. (aussi : récepteurs)\n\n**Récepteur des androgènes** — *androgen receptor*. Récepteur situé dans la cellule, par lequel agit la testostérone. (aussi : récepteurs des androgènes)\n\n**Recrutement** — *motor unit recruitment*. Entrée en activité d'unités motrices supplémentaires pour augmenter la force. L'un des deux leviers nerveux de la gradation de la force, avec le codage en fréquence. (aussi : recruter, recrutée, recrutées, recruté, recrutés) (blocs : 1-8)\n\n**Récupération active** — *active recovery*. Exercice léger après un effort intense, à la place du repos complet. Fait disparaître plus vite le lactate sanguin.\n\n**Réflexe H** — *H-reflex, Hoffmann reflex*. Version électrique du réflexe myotatique, obtenue en stimulant le nerf. Sert à mesurer l'excitabilité des motoneurones et la transmission des afférences Ia.\n\n**Réflexe myotatique** — *stretch reflex*. Contraction d'un muscle en réponse à son étirement, par la synapse directe entre l'afférence Ia du fuseau et ses motoneurones alpha. (aussi : réflexe d'étirement)\n\n**Régime cétogène** — *ketogenic diet, low-carbohydrate high-fat diet*. Alimentation très pauvre en glucides et riche en graisses. Augmente fortement l'oxydation des graisses à l'effort, sans gain de performance démontré. (aussi : cétogène)\n\n**Relation force-vitesse** — *force-velocity relationship*. Relation entre la force qu'un muscle peut produire et sa vitesse de raccourcissement : plus il va vite, moins il est fort. Hyperbolique sur muscle isolé, presque linéaire mesurée sur un geste à plusieurs articulations. (aussi : courbe force-vitesse, courbes force-vitesse) (blocs : 1-8)\n\n**Relation longueur-tension** — *length-tension relationship*. Variation de la force active d'un muscle ou d'un sarcomère avec sa longueur : en cloche, avec une branche ascendante, un plateau et une branche descendante, qui suivent le chevauchement des filaments.\n\n**Remodelage** — *bone remodeling*. Renouvellement permanent de l'os par la résorption puis la reformation, qui règle sa densité et répare ses microdommages. (aussi : remodelage osseux)\n\n**Réponse individuelle** — *individual response*. Variabilité vraie de l'effet d'une\nintervention entre personnes. Presque toujours surestimée : la dispersion des changements\nobservés contient aussi l'erreur de mesure, comptée deux fois, et la variabilité biologique\nnormale. L'établir exige un groupe contrôle ou la répétition de l'intervention chez les mêmes\nsujets.\n\n**Réponse tensionnelle exagérée** — *exaggerated blood pressure response to exercise*. Hausse de la pression systolique à l'effort plus forte que la normale ; associée à davantage d'événements cardiovasculaires.\n\n**Réserve cardiaque** — *cardiac reserve*. Écart entre le débit cardiaque maximal et le débit de repos.\n\n**Résistance variable** — *variable resistance training*. Ajout d'élastiques ou de chaînes à une charge libre pour que la résistance augmente au cours du mouvement. Son avantage sur la charge constante est discuté.\n\n**RoB 2** — *revised Cochrane risk-of-bias tool for randomized trials*. Outil d'évaluation du\nrisque de biais d'un essai randomisé, structuré en cinq domaines.\n\n**Rythme scapulo-huméral** — *scapulohumeral rhythm*. Partage de l'élévation du bras entre l'humérus et l'omoplate : en moyenne 1,7° gléno-huméral pour 1° de l'omoplate.\n\n## S\n\n**Sarcomère** — *sarcomere*. Unité contractile du muscle, segment répété bout à bout le long des myofibrilles, délimité par deux disques où s'ancrent les filaments d'actine.\n\n**Sartorius** — *sartorius*. Le plus long muscle du corps : une bande fine qui traverse l'avant de la cuisse en diagonale, de la hanche au côté interne du genou. (visuel : muscles#sartorius)\n\n**Saturation en oxygène** — *oxygen saturation*. Part des sites de l'hémoglobine occupés par l'oxygène ; de 95 à 99 % chez une personne en bonne santé. (aussi : saturation) (blocs : 2)\n\n**Saut avec contre-mouvement** — *countermovement jump (CMJ)*. Saut vertical précédé d'une flexion rapide des jambes. Sa courbe force-temps se découpe en six phases : pesée, allègement, freinage, propulsion, vol, réception.\n\n**Saut sans contre-mouvement** — *squat jump (SJ)*. Saut vertical lancé depuis une position fléchie immobile, sans flexion préalable. (aussi : sauts sans contre-mouvement)\n\n**Score de Beighton** — *Beighton score*. Test de l'hyperlaxité généralisée en neuf points ; elle est retenue à partir de 4 tests positifs.\n\n**Section physiologique** — *physiological cross-sectional area (PCSA)*. Surface obtenue en coupant toutes les fibres d'un muscle perpendiculairement à leur axe. Elle fixe la force maximale, quand la longueur des fibres fixe l'amplitude et la vitesse.\n\n**Semi-tendineux** — *semitendinosus*. Ischio-jambier du côté interne de l'arrière de la cuisse, terminé par un long tendon. Il plie le genou et étend la hanche. (visuel : muscles#semi-tendineux)\n\n**Sensibilité au changement** — *responsiveness*. Capacité d'une mesure à détecter une\nvariation réelle. Troisième propriété métrologique, distincte de la fidélité et de la validité\n: un test peut être fidèle et valide en coupe transversale et incapable de suivre une\nprogression, si son erreur typique dépasse le changement visé.\n\n**Série de cas** — *case series*. Description détaillée de plusieurs patients ou sujets\npartageant une caractéristique, sans groupe de comparaison. Sert à signaler un phénomène et à\nformuler une hypothèse ; n'autorise aucune inférence, causale ou même associative.\n\n**Seuil lactique** — *lactate threshold*. Intensité d'effort au-delà de laquelle le lactate commence à s'accumuler dans le sang.\n\n**Significativité statistique** — *statistical significance*. Franchissement d'un seuil\nconventionnel par la valeur p. Ne renseigne ni sur l'amplitude, ni sur l'importance pratique,\nni sur la probabilité que l'effet soit réel.\n\n**Soléaire** — *soleus*. Muscle du mollet placé sous le gastrocnémien, dont il dépasse de chaque côté. Il ne croise que la cheville, qu'il tend même genou plié. (visuel : muscles#soleaire)\n\n**Sommation** — *summation*. Addition des secousses d'une fibre quand les influx arrivent avant qu'elle ne se relâche ; à fréquence élevée, la contraction devient continue et maximale. (blocs : 1-8)\n\n**Sous-épineux** — *infraspinatus*. Muscle de la coiffe des rotateurs qui couvre l'omoplate sous son épine. Il tourne le bras vers l'extérieur. (visuel : muscles#sous-epineux)\n\n**Sous-scapulaire** — *subscapularis*. Muscle de la coiffe des rotateurs logé sur la face avant de l'omoplate, contre les côtes : on ne le voit pas de dos. Il tourne le bras vers l'intérieur. (visuel : muscles#sous-scapulaire)\n\n**Squat avant** — *front squat*. Squat où la barre repose sur l'avant des épaules : moins de compression et de moment au genou que le squat arrière.\n\n**Stabilisateur** — *stabilizer*. Muscle qui immobilise un segment pour donner à l'agoniste un appui solide. (aussi : stabilisateurs)\n\n**Supination** — *supination*. Rotation de l'avant-bras qui tourne la paume vers l'avant, bras le long du corps. Aux tractions, la prise en supination place les paumes vers soi.\n\n**Surmenage fonctionnel** — *functional overreaching*. Baisse passagère de performance après une surcharge, suivie d'une amélioration après récupération.\n\n**Surmenage non fonctionnel** — *non-functional overreaching*. Baisse de performance qui dure, quand l'équilibre entre entraînement et récupération n'est pas respecté.\n\n**Sus-épineux** — *supraspinatus*. Muscle de la coiffe situé au-dessus de l'épine de l'omoplate ; son tendon passe sous l'acromion. (visuel : muscles#sus-epineux)\n\n**Syndrome de surentraînement** — *overtraining syndrome*. Mauvaise adaptation prolongée à l'entraînement, plus sévère que le surmenage ; son diagnostic se fait par exclusion.\n\n**Synergiste** — *synergist*. Muscle qui aide l'agoniste à produire le mouvement. (aussi : synergistes)\n\n**Système de coordonnées articulaires** — *joint coordinate system*. Repère attaché aux deux os d'une articulation, qui définit les angles autour d'axes précis et rend leur valeur indépendante de l'ordre des rotations. Normalisé articulation par articulation par la Société internationale de biomécanique.\n\n**Système énergétique** — *energy system*. Ensemble des réactions qui reconstituent l'ATP : phosphagènes, glycolyse, voie oxydative. Les trois fonctionnent simultanément, dans des proportions qui dépendent de l'intensité et de la durée. (aussi : systèmes énergétiques)\n\n## T\n\n**Taille d'effet** — *effect size*. Mesure de l'amplitude d'un effet, indépendante de la taille\nde l'échantillon. Les seuils d'interprétation usuels — petit, moyen, grand — sont des\nconventions sans validité universelle.\n\n**Taux de développement de la force** — *rate of force development (RFD)*. Pente de la courbe force-temps, en newtons par seconde. Mesure la capacité à produire de la force vite, qualité distincte de la force maximale. (aussi : RFD)\n\n**Témoin apparié sur le volume** — *volume-matched control*. Groupe de comparaison recevant la\nmême quantité totale d'entraînement que le groupe expérimental, seule la variable étudiée\ndifférant. C'est le seul montage qui isole réellement un ingrédient de l'entraînement ; son\nabsence est la limite la plus fréquente de la littérature en programmation.\n\n**Tendinopathie** — *tendinopathy*. Atteinte douloureuse d'un tendon, liée à la surcharge. (aussi : tendinopathies)\n\n**Tendon** — *tendon*. Tissu de collagène qui relie un muscle à un os et lui transmet la force du muscle. Il se comporte comme un ressort raide. (aussi : tendons)\n\n**Tendon d'Achille** — *Achilles tendon*. Tendon qui relie le triceps sural au talon et transmet au pied la force du mollet. (aussi : tendons d'Achille) (visuel : muscles#achille)\n\n**Test d'Egger** — *Egger's test*. Test de régression évaluant l'asymétrie d'un funnel plot.\nUne asymétrie significative est compatible avec un biais de publication, mais aussi avec une\nhétérogénéité liée à la taille des études, une différence de qualité, ou le hasard quand les\nétudes sont peu nombreuses.\n\n**Test d'équivalence** — *equivalence test, TOST*. Procédure inversant la charge de la preuve :\nau lieu de tester l'hypothèse d'un effet nul, elle teste l'hypothèse d'un effet situé en dehors\nd'une zone d'équivalence bornée par le plus petit changement digne d'intérêt. Lecture graphique\n: si l'intervalle de confiance tient entièrement dans la zone, l'équivalence est établie. Seule\nfaçon de conclure qu'un effet est trop petit pour compter.\n\n**Testostérone** — *testosterone*. Hormone stéroïde androgène. Dans le muscle, elle stimule la synthèse des protéines et freine leur dégradation.\n\n**Tibial antérieur** — *tibialis anterior*. Muscle de l'avant de la jambe, le long du tibia. Il relève la pointe du pied (flexion dorsale). (visuel : muscles#tibial-ant)\n\n**Tirage vertical** — *lat pull-down*. Exercice à la poulie haute où l'on tire une barre vers le haut de la poitrine.\n\n**Tolérance à l'étirement** — *stretch tolerance*. Capacité à supporter un étirement plus poussé avant de l'arrêter. Principale explication du gain d'amplitude obtenu par l'étirement régulier.\n\n**Transitivité** — *transitivity*. Hypothèse propre aux méta-analyses en réseau : les essais\ncomparant A à B et ceux comparant B à C doivent être suffisamment semblables sur tout le reste\npour qu'on puisse en déduire la comparaison entre A et C. Elle est forte et rarement\nvérifiable.\n\n**Transversale (étude)** — *cross-sectional study*. Mesure simultanée d'une exposition et d'un\nrésultat. Ambiguïté temporelle irréductible.\n\n**Trapèze** — *trapezius*. Grand muscle en losange de la nuque et du haut du dos, en trois parties : supérieure (hausse les épaules), moyenne (rapproche les omoplates), inférieure (les abaisse). (aussi : trapèzes) (visuel : muscles#trapeze-sup+trapeze-moy+trapeze-inf)\n\n**Trapèze inférieur** — *lower trapezius*. Partie basse du trapèze, en pointe vers le milieu du dos. Elle abaisse l'omoplate et l'aide à tourner vers le haut. (visuel : muscles#trapeze-inf)\n\n**Travail mécanique** — *mechanical work*. Produit d'une force par le déplacement dans sa direction, en joules. Négatif quand le muscle freine et nul sur une répétition complète, ce qui en fait une mauvaise mesure de l'effort.\n\n**Triceps brachial** — *triceps brachii*. Muscle de l'arrière du bras, à trois chefs (long, latéral, médial), qui étend le coude ; le chef long croise aussi l'épaule. (aussi : triceps) (visuel : muscles#triceps-long+triceps-lat)\n\n**Triceps sural** — *triceps surae*. Le muscle du mollet : les deux chefs du gastrocnémien et le soléaire, réunis par le tendon d'Achille. Il tend la cheville. (aussi : mollet, mollets) (visuel : muscles#gastrocnemien+soleaire)\n\n**Triglycérides** — *triglycerides*. Forme de stockage des graisses, dans le tissu adipeux et dans le muscle. (aussi : triglycéride)\n\n**Triple extension** — *triple extension*. Extension simultanée de la hanche, du genou et de la cheville, commune au saut et au deuxième tirage des mouvements d'haltérophilie.\n\n**Typologie musculaire** — *muscle fiber typology*. Proportion de fibres lentes et rapides d'une personne. Estimable sans biopsie par spectroscopie, méthode encore en validation. (aussi : typologie)\n\n## U\n\n**Unité motrice** — *motor unit*. Un motoneurone et l'ensemble des fibres musculaires qu'il commande. Unité élémentaire de la gradation de la force. (aussi : unités motrices)\n\n**Unités multicellulaires de base** — *basic multicellular units*. Groupes temporaires d'ostéoclastes et d'ostéoblastes qui renouvellent chacun une petite zone d'os. (aussi : unité multicellulaire de base, unité de remodelage, unités de remodelage)\n\n## V\n\n**Valeur p** — *p-value*. Probabilité d'observer un écart au moins aussi grand que celui\nobtenu, si l'hypothèse nulle **et l'ensemble des autres hypothèses du modèle** étaient vraies.\nCe n'est ni la probabilité que l'hypothèse nulle soit vraie, ni la probabilité que le résultat\nsoit dû au hasard, ni une mesure de l'importance de l'effet. (aussi : valeurs p)\n\n**Validité concourante** — *concurrent validity*. Accord d'un test avec une référence mesurée\nau même moment. N'implique jamais la validité prédictive, qui porte sur un événement futur.\nConclure de l'une à l'autre est le contresens le plus documenté du domaine.\n\n**Validité externe** — *external validity*, *generalizability*. Degré auquel un résultat\ns'applique à d'autres populations, contextes ou protocoles que ceux étudiés.\n\n**Validité interne** — *internal validity*. Degré auquel le résultat observé reflète bien\nl'effet de l'intervention dans l'étude considérée, en l'absence de biais.\n\n**Validité prédictive** — *predictive validity*. Capacité d'un test à annoncer un événement\nfutur. Se démontre par un suivi prospectif, jamais par une corrélation transversale, et dépend\nfortement de la fréquence de l'événement visé.\n\n**Valve** — *valve*. Dans le cœur ou les veines, clapet qui empêche le sang de refluer.\n\n**Vaste latéral** — *vastus lateralis*. Chef du quadriceps sur le côté externe de la cuisse, le plus volumineux des quatre. (visuel : muscles#vaste-lat)\n\n**Vaste médial** — *vastus medialis*. Chef du quadriceps du côté interne, qui forme le renflement en goutte au-dessus du genou. (visuel : muscles#vaste-med)\n\n**Vastes** — *vasti*. Les trois chefs du quadriceps qui ne croisent que le genou : vaste latéral, vaste médial et vaste intermédiaire. (blocs : 1) (visuel : muscles#vaste-lat+vaste-med)\n\n**Veine** — *vein*. Vaisseau qui ramène le sang au cœur ; à paroi fine, il sert de réservoir.\n\n**Ventricule** — *ventricle*. Cavité inférieure du cœur, qui éjecte le sang.\n\n**Vitesse angulaire** — *angular velocity*. Vitesse de rotation d'un segment, en radians par seconde, la même pour tous ses points. La vitesse linéaire d'un point vaut ω · r, d'où l'intérêt des segments longs pour la vitesse.\n\n**Voie oxydative** — *oxidative phosphorylation*. Production d'ATP dans les mitochondries par l'oxydation complète des glucides et des graisses grâce à l'oxygène. Capacité immense, débit maximal plus faible que les voies anaérobies. (aussi : phosphorylation oxydative)\n\n**Volume d'éjection systolique** — *stroke volume*. Volume de sang éjecté par un ventricule à chaque battement, de 60 à 100 mL au repos. (aussi : volume d'éjection, volumes d'éjection)\n\n## Z\n\n**Zone d'équivalence** — *equivalence bounds*. Intervalle centré sur zéro et borné par le plus\npetit changement digne d'intérêt, à l'intérieur duquel un effet est jugé sans conséquence\npratique. Doit être fixée avant l'analyse.\n\n**Zone de conduction** — *conducting zone*. Partie des voies respiratoires qui achemine l'air sans échange gazeux, de la cavité nasale à la plupart des bronchioles ; elle le filtre, le réchauffe et l'humidifie.\n\n**Zone respiratoire** — *respiratory zone*. Partie des poumons où se font les échanges gazeux : les dernières bronchioles et les alvéoles.\n"
+   "md": "# Glossaire\n\n**Dernière révision** : 2026-11-22 · **Entrées** : 418\n\nUne seule définition canonique par terme. Si une fiche a besoin d'une définition différente,\nc'est le glossaire qu'on modifie, pas la fiche. L'équivalent anglais figure systématiquement,\npuisque l'examen se passe en anglais et que la traduction française n'est pas toujours celle\nqu'on croit.\n\nLe glossaire se remplit au fil des blocs. À ce stade, il couvre le bloc 0, le bloc 1 et le début du\nbloc 2.\n\nQuatre mentions techniques peuvent clore une définition. `(aussi : …)` déclare les formes\nfléchies à reconnaître dans les fiches. `(blocs : …)` réserve l'infobulle aux fiches de ces\nblocs : c'est ce qui permet de garder deux homonymes, comme la puissance statistique du bloc 0\net la puissance mécanique du bloc 1. `(visuel : planche#partie)` affiche, quand on touche le\nterme, la planche anatomique avec cette partie mise en évidence (plusieurs parties : `a+b`) ;\nles planches sont dans `planches/`, produites par `outils/figures/anatomie/`. `(schéma : id)`\nreprend dans la définition le schéma d'une fiche qui montre la notion (id du repère\n`<!-- fig:id -->`), avec le terme mis en couleur dans le schéma. Ordre : `(aussi : …)`, puis\n`(blocs : …)`, puis `(visuel : …)`, puis `(schéma : …)`.\n\n---\n\n## A\n\n**Acétyl-CoA** — *acetyl-CoA*. Molécule à laquelle aboutissent glucides et graisses avant d'entrer dans le cycle de Krebs, dans la mitochondrie. (schéma : phy004-mitochondrie)\n\n**Acides gras** — *fatty acids*. Forme sous laquelle les graisses circulent dans le sang et entrent dans la mitochondrie, où la bêta-oxydation les découpe. (aussi : acide gras)\n\n**Acidose** — *acidosis*. Baisse du pH d'un milieu, c'est-à-dire hausse de son acidité. Pendant un effort épuisant, elle accompagne la montée du lactate ; sa cause et son rôle dans la fatigue sont discutés. (aussi : acidose lactique)\n\n**Acromion** — *acromion*. Avancée de l'omoplate qui forme le toit osseux de l'épaule, au-dessus de la tête humérale. (schéma : bio019-complexe)\n\n**ACTH** — *adrenocorticotropic hormone*. Hormone libérée par l'hypophyse sous l'effet de la CRH ; elle fait libérer le cortisol par la corticosurrénale. (schéma : phy011-axes)\n\n**Actine** — *actin*. Protéine qui forme les filaments fins du sarcomère, ancrés à ses extrémités. Les têtes de myosine s'y accrochent pour la faire coulisser. (schéma : bio008-courbe)\n\n**Action concentrique** — *concentric muscle action*. Action d'un muscle qui se raccourcit en produisant de la force : son moment dépasse le moment externe. La montée d'un curl. (aussi : concentrique, concentriques) (schéma : bio009-force-vitesse)\n\n**Action excentrique** — *eccentric muscle action*. Action d'un muscle qui s'allonge tout en produisant de la force, parce que le moment externe dépasse le sien. La descente contrôlée d'un curl ; le travail mécanique du muscle y est négatif. (aussi : excentrique, excentriques) (schéma : bio009-force-vitesse)\n\n**Adducteurs** — *hip adductors*. Groupe de muscles de la face interne de la cuisse, tendus du bassin au fémur. Ils ramènent la cuisse vers l'axe du corps ; le grand adducteur aide aussi à redresser la hanche en bas du squat. (aussi : adducteurs de hanche) (visuel : muscles#adducteurs+gracile)\n\n**Adrénaline** — *epinephrine, adrenaline*. Catécholamine libérée par la médullosurrénale ; elle accélère le cœur et mobilise les carburants pendant l'effort. (schéma : phy011-axes)\n\n**Afférence Ia** — *group Ia afferent*. Fibre nerveuse sensitive principale du fuseau neuromusculaire, très sensible à la vitesse d'étirement. Elle excite directement les motoneurones du même muscle. (aussi : afférences Ia) (schéma : bio012-capteurs)\n\n**Afférence Ib** — *group Ib afferent*. Fibre nerveuse sensitive de l'organe tendineux de Golgi, qui signale la force de contraction. (aussi : afférences Ib) (schéma : bio012-capteurs)\n\n**Agoniste** — *agonist, prime mover*. Muscle qui produit le mouvement voulu. C'est un rôle tenu dans un mouvement donné, pas une propriété du muscle. (aussi : agonistes) (schéma : bio013-coactivation)\n\n**Allégation** — *claim*. Affirmation d'effet portée par un produit ou un service. Une\névaluation systématique des allégations de performance sportive a conclu que la qualité des\npreuves les soutenant était largement insuffisante. À distinguer du résultat d'étude sur lequel\nelle prétend s'appuyer.\n\n**Allocation dissimulée** — *allocation concealment*. Procédure garantissant que la personne\nqui inclut un participant ne peut pas connaître à l'avance le groupe qui lui sera attribué.\nDistinct de l'aveugle, qui intervient après l'inclusion. Son absence permet une sélection\nconsciente ou non des participants selon le groupe.\n\n**Alvéole** — *alveolus*. Petit sac terminal des voies respiratoires, d'environ 200 µm de diamètre, où se font les échanges gazeux. (aussi : alvéoles) (schéma : phy013-zones)\n\n**Analyse de sensibilité** — *sensitivity analysis*. Réexécution d'une analyse en modifiant un\nchoix méthodologique, pour vérifier si la conclusion y survit. Le test le plus informatif d'une\nméta-analyse.\n\n**Analyse en intention de traiter** — *intention-to-treat analysis*. Analyse des participants\ndans le groupe auquel ils ont été attribués, indépendamment de leur adhérence effective.\nPréserve la comparabilité produite par la randomisation, au prix d'une dilution de l'effet.\n\n**Analyse per protocole** — *per-protocol analysis*. Analyse restreinte aux participants ayant\neffectivement suivi le protocole. Elle répond à une question légitime — que produit le\nprogramme quand on le fait — mais elle sélectionne sur une variable postérieure à\nl'attribution, ce qui rompt la comparabilité produite par le tirage au sort. À lire toujours en\nregard de l'analyse en intention de traiter.\n\n**Angle alpha** — *alpha angle*. Angle, mesuré en imagerie, entre l'axe du col du fémur et le point où la tête cesse d'être ronde. Il chiffre la déformation en came.\n\n**Angle de pennation** — *pennation angle*. Angle entre les fibres d'un muscle penné et la lame tendineuse sur laquelle elles s'insèrent. Seule la composante F × cos θ de la force d'une fibre est transmise ; il augmente avec l'hypertrophie. (aussi : pennation) (schéma : bio007-pennation)\n\n**Antagoniste** — *antagonist*. Muscle dont l'action est opposée à celle de l'agoniste dans un mouvement donné. Il ne se tait pas forcément : il peut produire un moment opposé notable. (aussi : antagonistes) (schéma : bio013-coactivation)\n\n**Antéversion** — *femoral anteversion*. Angle dont le col du fémur est tourné vers l'avant par rapport à l'axe du genou. Il varie jusqu'à 30° entre adultes en bonne santé. (schéma : bio016-anteversion)\n\n**Aponévrose** — *aponeurosis*. Lame de tissu conjonctif, prolongement du tendon, sur laquelle s'insèrent obliquement les fibres d'un muscle penné.\n\n**Architecture musculaire** — *muscle architecture*. Agencement des fibres à l'intérieur d'un muscle : longueur des fibres, angle de pennation, section physiologique. Elle détermine la fonction du muscle davantage que son volume. (schéma : bio007-hierarchie)\n\n**Arraché** — *snatch*. Mouvement d'haltérophilie où la barre passe du sol au-dessus de la tête en un seul geste.\n\n**Artériole** — *arteriole*. Petite artère dont le muscle lisse règle la résistance et la répartition du sang entre les organes. (schéma : phy012-vaisseaux)\n\n**Arthrose** — *osteoarthritis*. Maladie d'une articulation marquée par la dégradation du cartilage.\n\n**Articulation gléno-humérale** — *glenohumeral joint*. Articulation entre la glène de l'omoplate et la tête de l'humérus.\n\n**Articulation scapulo-thoracique** — *scapulothoracic joint*. Glissement de l'omoplate sur les côtes. Sans cartilage ni capsule, ce n'est pas une vraie articulation. (schéma : bio019-complexe)\n\n**Articulation synoviale** — *synovial joint*. Articulation où deux surfaces osseuses couvertes de cartilage glissent l'une sur l'autre, dans une capsule renforcée de ligaments. (aussi : articulations synoviales)\n\n**Association** — *association*. Relation statistique entre deux variables. N'implique aucun\nordre temporel ni aucune causalité.\n\n**ATP** — *adenosine triphosphate*. Molécule dont la scission en ADP et phosphate fournit l'énergie de la contraction. Les réserves du muscle sont faibles et doivent être reconstituées en continu. (aussi : adénosine triphosphate) (schéma : phy001-cellule)\n\n**ATP synthase** — *ATP synthase*. Enzyme de la membrane interne de la mitochondrie qui fabrique l'ATP en utilisant le gradient de protons créé par la chaîne respiratoire. (schéma : phy004-mitochondrie)\n\n**Autocrine** — *autocrine*. Se dit d'un signal qui agit sur la cellule même qui l'a produit. (schéma : phy008-modes)\n\n**Autorythmicité** — *autorhythmicity*. Propriété du muscle cardiaque de déclencher seul des impulsions électriques, à un rythme fixe.\n\n**Avantage mécanique** — *mechanical advantage*. Rapport du bras de levier de la force motrice à celui de la résistance. Inférieur à 1 dans la plupart des articulations des membres : le muscle produit alors plus de force que la charge ne pèse, en échange de vitesse et d'amplitude. (schéma : bio003-arcs)\n\n**Aveugle** — *blinding*, *masking*. Dissimulation de l'attribution du groupe aux participants,\naux intervenants ou aux évaluateurs. En sciences de l'exercice, l'aveugle des participants est\ngénéralement impossible ; celui des évaluateurs du critère de jugement reste réalisable et\nconstitue un marqueur de qualité. (schéma : met002-chronologie)\n\n**Axe hypothalamo-hypophyso-surrénalien** — *hypothalamic-pituitary-adrenal axis*. Cascade CRH, ACTH, cortisol : la réponse hormonale lente au stress.\n\n## B\n\n**Barre basse** — *low-bar squat*. Squat où la barre repose plus bas, sur l'arrière des épaules : tronc plus penché, plus de travail de la hanche et du dos. (schéma : bio017-barres)\n\n**Barre haute** — *high-bar squat*. Squat où la barre repose sur le haut des trapèzes : tronc plus droit, plus de travail du quadriceps. (schéma : bio017-barres)\n\n**Barre hexagonale** — *hexagonal bar*. Barre en forme de cadre dans lequel on se tient ; elle rapproche la charge du corps et réduit les moments au bas du dos, à la hanche et à la cheville. (schéma : bio018-hexagonale)\n\n**Base d'appui** — *base of support*. Polygone qui englobe toutes les surfaces en contact avec le sol. Le centre de pression ne peut se trouver qu'à l'intérieur. (schéma : bio005-xcom)\n\n**Bêta-oxydation** — *beta-oxidation*. Découpage des acides gras en acétyl-CoA dans la mitochondrie : première étape de l'oxydation des graisses. (schéma : phy004-mitochondrie)\n\n**Biais** — *bias*. Erreur systématique, qui ne diminue pas avec la taille de l'échantillon. À\ndistinguer strictement de l'erreur aléatoire.\n\n**Biais de confusion** — *confounding*. Situation où une troisième variable, associée à la fois à\nl'exposition et au résultat, produit tout ou partie de l'association observée. Le problème que\nla randomisation résout. (aussi : facteur de confusion, facteurs de confusion, confusion résiduelle)\n\n**Biais de publication** — *publication bias*. Tendance des résultats positifs et significatifs\nà être publiés plus souvent et plus vite que les résultats nuls. Produit une littérature qui\nsurestime les effets. (schéma : met009-entonnoir)\n\n**Biceps brachial** — *biceps brachii*. Muscle de la face avant du bras, à deux chefs. Il plie le coude et tourne la paume vers le haut (supination). (aussi : biceps) (visuel : muscles#biceps)\n\n**Biceps fémoral** — *biceps femoris*. Ischio-jambier du côté externe de l'arrière de la cuisse. Il plie le genou ; son chef long étend aussi la hanche. (visuel : muscles#biceps-femoral)\n\n**Biopsie musculaire** — *muscle biopsy*. Prélèvement d'un petit fragment de muscle à l'aiguille, pour mesurer types de fibres, glycogène ou métabolites. Ne représente qu'un point d'un muscle hétérogène. (aussi : biopsie, biopsies) (schéma : bio011-mosaique)\n\n**Blessure de surmenage** — *overuse injury*. Blessure due à des charges répétées dont aucune, isolément, ne dépasse la résistance du tissu. (aussi : blessures de surmenage)\n\n**Bourrelet** — *labrum*. Anneau qui borde le cotyle et l'approfondit. (aussi : labrum) (schéma : bio016-hanche)\n\n**Brachio-radial** — *brachioradialis*. Muscle de l'avant-bras, côté pouce, qui part du bas de l'humérus. Il plie le coude, surtout en prise marteau. (visuel : muscles#brachio-radial)\n\n**Bras de levier** — *moment arm, lever arm*. Distance perpendiculaire entre la ligne d'action d'une force et l'axe de rotation. Celui d'un muscle n'est pas une constante : il varie avec l'angle articulaire, avec l'intensité de la contraction et d'une personne à l'autre. (schéma : bio002-curl)\n\n## C\n\n**Calorimétrie indirecte** — *indirect calorimetry*. Estimation des carburants brûlés à partir de l'oxygène consommé et du dioxyde de carbone rejeté. Moins fiable aux intensités élevées.\n\n**Capacité anaérobie** — *anaerobic capacity*. Quantité totale d'énergie que les voies anaérobies peuvent fournir lors d'un effort épuisant, souvent estimée par le déficit en oxygène accumulé maximal.\n\n**Capillaire** — *capillary*. Vaisseau le plus fin, où se font les échanges de gaz et de nutriments entre le sang et les tissus. (schéma : phy012-vaisseaux)\n\n**Cartilage articulaire** — *articular cartilage*. Tissu lisse qui recouvre les surfaces osseuses d'une articulation synoviale. Il s'amincit sans charge mais ne s'épaissit pas avec une charge élevée. (schéma : bio016-hanche)\n\n**Catécholamines** — *catecholamines*. Hormones du stress, comme l'adrénaline, indispensables à la production de force et à la libération d'énergie pendant l'effort. (aussi : catécholamine)\n\n**Ceinture de force** — *weightlifting belt*. Ceinture qui augmente la pression intra-abdominale et aide à soutenir le tronc sous charge lourde. (aussi : ceinture)\n\n**Centre de gravité** — *centre of gravity, centre of mass*. Point où l'on peut considérer que s'applique le poids d'un corps ou d'un système, par exemple le système corps-barre. Sa position dépend de la posture. (aussi : centre de masse) (schéma : bio005-pendule)\n\n**Centre de masse extrapolé** — *extrapolated centre of mass (XcoM)*. Position du centre de gravité augmentée de sa vitesse multipliée par √(l / g), l étant la longueur de jambe. En mouvement, c'est lui, et non le centre de gravité, qui doit rester au-dessus de la base d'appui. (schéma : bio005-xcom)\n\n**Centre de pression** — *centre of pressure*. Point d'application de la résultante des forces que le sol exerce sur les pieds. Toujours dans la base d'appui ; en le déplaçant, le corps pilote son centre de gravité. (schéma : bio005-pendule)\n\n**Chaîne lourde** — *myosin heavy chain*. Partie de la myosine dont la forme varie d'une fibre à l'autre ; elle sert de marqueur pour classer les types de fibres. (aussi : chaîne lourde de myosine, chaînes lourdes)\n\n**Chaîne respiratoire** — *electron transport chain*. Ensemble de protéines de la membrane interne de la mitochondrie qui conduit les électrons jusqu'à l'oxygène et crée le gradient de protons utilisé par l'ATP synthase. (schéma : phy004-mitochondrie)\n\n**Charge lourde et lente** — *heavy slow resistance*. Programme de musculation à charges lourdes et mouvements lents ; une option aussi efficace que l'excentrique dans la tendinopathie d'Achille.\n\n**Chef claviculaire** — *clavicular head*. Partie haute du grand pectoral, qui part de la clavicule. (visuel : muscles#pectoral-clav)\n\n**Chef sternocostal** — *sternocostal head*. Partie principale du grand pectoral, qui part du sternum et des côtes. (visuel : muscles#pectoral-stern)\n\n**Chirurgie placebo** — *placebo surgery, sham surgery*. Intervention qui reproduit l'opération sans en réaliser le geste actif, pour isoler l'effet propre de ce geste.\n\n**Cinématique** — *kinematics*. Description du mouvement — positions, vitesses, accélérations — sans considération de ses causes. Préalable de toute analyse de la charge.\n\n**Cinétique** — *kinetics*. Étude des causes du mouvement : forces, moments, impulsions. En biomécanique, rien à voir avec la cinétique chimique, qui étudie la vitesse des réactions.\n\n**Circulation coronaire** — *coronary circulation*. Vaisseaux qui irriguent le muscle cardiaque lui-même.\n\n**Circulation pulmonaire** — *pulmonary circulation*. Circuit qui va du ventricule droit aux poumons et revient à l'oreillette gauche.\n\n**Circulation systémique** — *systemic circulation*. Circuit qui va du ventricule gauche à tout le corps et revient à l'oreillette droite.\n\n**Classes de levier** — *lever classes*. Classement d'un levier selon l'élément placé au milieu : l'axe (premier genre), la résistance (deuxième genre) ou la force motrice (troisième genre). La classe dépend du point choisi comme axe et de la force appelée résistance. (aussi : levier du premier genre, levier du deuxième genre, levier du troisième genre) (schéma : bio003-classes)\n\n**Cocontraction** — *coactivation, co-contraction*. Activation simultanée de muscles aux actions opposées autour d'une articulation, par exemple ischio-jambiers et quadriceps au genou.\n\n**Codage en fréquence** — *rate coding*. Modulation de la force par la fréquence de décharge des unités motrices déjà actives. Prédomine au-delà des forces faibles et dans les contractions rapides. (blocs : 1-8)\n\n**Cohorte prospective** — *prospective cohort study*. Suivi dans le temps de sujets classés\nselon leur exposition. Résout l'ambiguïté temporelle, reste exposé à la confusion. (schéma : met001-designs)\n\n**Coiffe des rotateurs** — *rotator cuff*. Quatre muscles de l'omoplate, sus-épineux, sous-épineux, petit rond et sous-scapulaire, dont les tendons entourent la tête humérale et la plaquent dans la glène. (visuel : muscles#sus-epineux+sous-epineux+petit-rond+sous-scapulaire)\n\n**Collagène** — *collagen*. Protéine fibreuse, principal constituant des tendons et des ligaments, assemblée en fibrilles, en fibres puis en faisceaux. (schéma : bio015-structure)\n\n**Composante prolongée** — *prolonged component*. Partie de la consommation d'oxygène post-exercice qui peut durer des heures après un effort important, liée notamment au métabolisme des graisses. (schéma : phy007-courbe)\n\n**Composante rapide** — *rapid component*. Partie de la consommation d'oxygène post-exercice qui recharge l'oxygène, l'ATP et la phosphocréatine dans les minutes qui suivent l'effort. (schéma : phy007-courbe)\n\n**Compression dans la concavité** — *concavity compression*. Mécanisme de stabilité de l'épaule : les muscles de la coiffe plaquent la tête humérale dans le creux de la glène.\n\n**Conflit d'intérêts** — *conflict of interest*. Situation où un intérêt secondaire —\nfinancier, professionnel ou intellectuel — peut influer sur un jugement scientifique. C'est une\nsituation, pas un comportement : les mécanismes par lesquels il agit opèrent en grande partie\nsans intention. Les conflits non financiers, non déclarables, sont probablement les plus actifs\nen sciences de l'exercice.\n\n**Conflit fémoro-acétabulaire** — *femoroacetabular impingement*. Contact anormal entre le col du fémur et le bord du cotyle, avant la fin du mouvement, lié à une came ou à une pince.\n\n**Conflit sous-acromial** — *subacromial impingement*. Étiquette donnée aux douleurs attribuées à un frottement sous l'acromion ; une hypothèse clinique plus qu'une cause démontrée.\n\n**Consommation d'oxygène post-exercice** — *excess post-exercise oxygen consumption, EPOC*. Surplus d'oxygène consommé après l'effort, au-dessus de la valeur de repos. Il comprend une composante rapide et une composante prolongée. (schéma : phy007-courbe)\n\n**Consommation maximale d'oxygène** — *maximal oxygen uptake, VO2max*. Plus haut débit d'oxygène que l'organisme peut consommer pendant un effort. Produit du débit cardiaque maximal et de la différence artério-veineuse. (aussi : consommation maximale)\n\n**CONSORT** — *CONSORT statement*. Ligne directrice de rapportage des essais contrôlés\nrandomisés : 25 points et un diagramme de flux. Évalue ce qui est décrit, pas ce qui a été fait\n— même distinction que pour [[PRISMA]]. Le diagramme de flux donne le nombre de randomisés et\nle nombre d'analysés, donc les perdus de vue.\n\n**Contenu minéral osseux** — *bone mineral content*. Quantité totale de minéral d'un os ou d'une région, sans rapport à sa taille.\n\n**Contraction balistique** — *ballistic contraction*. Contraction produite le plus vite possible, en une salve de décharges à très haute fréquence qui précède la montée de la force. (aussi : balistique, balistiques) (blocs : 1-8)\n\n**Contraction isométrique** — *isometric contraction*. Contraction sans mouvement articulaire : le muscle produit de la force sans que l'angle change. Format de référence pour mesurer la force maximale et le taux de développement de la force.\n\n**Contrainte** — *stress*. Force rapportée à la section du tissu qui la supporte. Avec la déformation, elle décrit la sollicitation mécanique d'un os, d'un tendon ou d'un ligament. (aussi : contraintes) (blocs : 1) (schéma : bio015-courbes)\n\n**Corticosurrénale** — *adrenal cortex*. Partie périphérique de la glande surrénale ; elle libère notamment le cortisol, sous l'effet de l'ACTH. (schéma : phy011-axes)\n\n**Cortisol** — *cortisol*. Glucocorticoïde libéré par la corticosurrénale. Il mobilise les réserves ; élevé longtemps, il fait fondre le muscle. (schéma : phy011-axes)\n\n**Cotyle** — *acetabulum*. Cavité de l'os coxal qui reçoit la tête du fémur. (schéma : bio016-hanche)\n\n**Courbatures** — *delayed-onset muscle soreness*. Douleurs musculaires qui apparaissent dans les jours suivant une séance, surtout après des actions excentriques. Sans lien établi avec le lactate. (aussi : courbature)\n\n**Courbe de force** — *strength curve*. Moment maximal qu'une personne peut produire en fonction de l'angle articulaire. Elle dépend de la relation longueur-tension et des bras de levier. (aussi : courbes de force)\n\n**Courbe force-temps** — *force-time curve*. Enregistrement de la force produite en fonction du temps, typiquement sur plateforme de force. Sa pente donne le taux de développement de la force, son aire l'impulsion.\n\n**Créatine kinase** — *creatine kinase*. Enzyme qui transfère le phosphate de la phosphocréatine à l'ADP pour reformer de l'ATP, et réalise la réaction inverse au repos.\n\n**CRH** — *corticotropin-releasing hormone*. Hormone libérée par l'hypothalamus ; elle fait libérer l'ACTH par l'hypophyse. (schéma : phy011-axes)\n\n**Critère de jugement** — *outcome*. Grandeur mesurée pour évaluer l'effet. Un critère\n**principal** est préspécifié et unique ; les critères secondaires ne peuvent pas fonder la\nconclusion principale.\n\n**Cycle de Krebs** — *citric acid cycle*. Suite de réactions de la mitochondrie qui oxyde l'acétyl-CoA et charge des transporteurs d'électrons, surtout le NADH.\n\n**Cycle étirement-raccourcissement** — *stretch-shortening cycle*. Étirement d'un muscle sous charge suivi aussitôt de son raccourcissement, comme dans un rebond. Produit plus de force, à vitesse égale, qu'un raccourcissement seul. (aussi : cycles étirement-raccourcissement)\n\n**Cycle triglycérides-acides gras** — *triglyceride-fatty acid cycling*. Dégradation des triglycérides en acides gras, suivie de leur reconstitution ; ce cycle consomme de l'énergie.\n\n## D\n\n**d de Cohen** — *Cohen's d*. Écart entre deux moyennes divisé par une mesure de dispersion,\nexprimant l'effet en unités d'écart-type. Sa valeur dépend autant de la dispersion de\nl'échantillon que de l'effet lui-même : un même gain réel produit un d plus grand dans une\npopulation homogène. Toujours demander ce qui figure au dénominateur. (schéma : met004-formules)\n\n**Débit cardiaque** — *cardiac output*. Volume de sang éjecté par le cœur par minute : volume d'éjection multiplié par la fréquence cardiaque.\n\n**Décompression sous-acromiale** — *subacromial decompression*. Opération qui retire de l'os et des tissus sous l'acromion. Elle ne fait pas mieux qu'une chirurgie placebo.\n\n**Déficit en oxygène** — *oxygen deficit*. Écart entre l'oxygène qu'aurait exigé un effort et celui réellement consommé ; méthode la plus utilisée pour estimer la part anaérobie d'un effort maximal. (schéma : phy007-courbe)\n\n**Déformation en came** — *cam deformity*. Bosse à la jonction de la tête et du col du fémur : la tête n'est pas tout à fait ronde. Fréquente sans symptôme, surtout chez les athlètes. (schéma : bio016-came-pince)\n\n**Déformation en pince** — *pincer deformity*. Cotyle qui recouvre trop la tête du fémur. (schéma : bio016-came-pince)\n\n**Degré de liberté** — *degree of freedom*. Nombre de rotations indépendantes qu'autorise une articulation : un pour une charnière, trois pour une rotule comme la hanche. La description complète du mouvement relatif de deux os en demande six, trois rotations et trois translations. (aussi : degrés de liberté) (blocs : 1-8)\n\n**Degrés de liberté du chercheur** — *researcher degrees of freedom*. Ensemble des décisions\nanalytiques laissées au libre choix de l'analyste et non déclarées. Portent le taux de faux\npositifs bien au-delà du seuil nominal.\n\n**Deltoïde** — *deltoid*. Muscle qui coiffe l'épaule, en trois portions : antérieure (lève le bras vers l'avant), moyenne (l'écarte sur le côté), postérieure (le tire vers l'arrière). (aussi : deltoïdes) (visuel : muscles#deltoide-ant+deltoide-moy+deltoide-post)\n\n**Deltoïde antérieur** — *anterior deltoid*. Portion avant du deltoïde. Elle lève le bras vers l'avant et travaille au développé couché. (visuel : muscles#deltoide-ant)\n\n**Deltoïde moyen** — *middle deltoid*. Portion latérale du deltoïde. Elle écarte le bras sur le côté (abduction). (visuel : muscles#deltoide-moy)\n\n**Deltoïde postérieur** — *posterior deltoid*. Portion arrière du deltoïde. Elle tire le bras vers l'arrière. (visuel : muscles#deltoide-post)\n\n**Demi-temps de recharge** — *half-time of resynthesis*. Temps nécessaire pour reconstituer la moitié de la phosphocréatine perdue. Varie de 20 secondes environ à près d'une minute selon l'effort précédent et l'oxygène disponible. (aussi : demi-temps)\n\n**Densité minérale** — *bone mineral density*. Quantité de minéral rapportée à une surface ou à un volume d'os, mesurée par absorptiométrie. Indicateur imparfait de la solidité. (aussi : densité minérale osseuse)\n\n**Dentelé antérieur** — *serratus anterior*. Muscle du côté du thorax, sous l'aisselle, en digitations sur les côtes. Il fait tourner l'omoplate vers le haut et la garde plaquée contre le thorax. (visuel : muscles#dentele)\n\n**Dérive cardiovasculaire** — *cardiovascular drift*. Pendant un effort prolongé à intensité constante, baisse progressive du volume d'éjection et hausse de la fréquence cardiaque, après 10 à 20 minutes.\n\n**Dérivé de tirage** — *weightlifting pulling derivative*. Variante d'un mouvement d'haltérophilie qui supprime la réception de la barre : tirage d'épaulé ou d'arraché, tirage haut, shrug sauté, tirage depuis la mi-cuisse. (aussi : dérivés de tirage)\n\n**Dette d'oxygène** — *oxygen debt*. Ancien nom de la consommation d'oxygène post-exercice, lié à l'hypothèse, jugée trop simple, d'un remboursement par l'élimination du lactate.\n\n**Différence artério-veineuse** — *arteriovenous oxygen difference*. Quantité d'oxygène retirée du sang par les tissus, entre le sang artériel et le sang veineux. (schéma : phy005-fick)\n\n**Différence d'ions forts** — *strong ion difference*. Approche physico-chimique de l'équilibre acide-base, qui explique le pH par l'équilibre des ions chargés plutôt que par le compte des protons.\n\n**Différence moyenne standardisée** — *standardized mean difference*, SMD. Différence entre\ngroupes exprimée en écarts-types, permettant l'agrégation d'études employant des échelles\ndifférentes. Le *d* de Cohen et le *g* de Hedges en sont deux variantes.\n\n**Distance acromio-humérale** — *acromiohumeral distance*. Plus courte distance entre l'acromion et l'humérus ; elle mesure l'espace sous-acromial.\n\n**Distance biacromiale** — *biacromial distance*. Largeur des épaules, d'un acromion à l'autre ; elle sert à exprimer la largeur de prise.\n\n**Dose-réponse** — *dose-response*. Relation monotone entre l'intensité d'une exposition et\nl'amplitude d'un résultat. Argument causal classique, difficile à produire par une confusion\nsimple.\n\n**Doublet** — *doublet discharge*. Deux décharges d'un motoneurone très rapprochées, qui accélèrent la montée en force. Plus fréquents après un entraînement à contractions rapides. (aussi : doublets) (blocs : 1-8)\n\n**Droit fémoral** — *rectus femoris*. Chef central du quadriceps, à l'avant de la cuisse. Seul chef biarticulaire du quadriceps : il étend le genou et plie la hanche. (visuel : muscles#droit-femoral)\n\n**Dynamique inverse** — *inverse dynamics*. Calcul des forces et des moments nets aux articulations à partir des mouvements mesurés et des forces extérieures, en remontant des effets aux causes. Donne des moments nets, pas la force de chaque muscle.\n\n**Dyskinésie scapulaire** — *scapular dyskinesis*. Mouvement ou position anormale de l'omoplate, fréquente avec ou sans douleur.\n\n## E\n\n**Économie de course** — *running economy*. Consommation d'oxygène à une vitesse de course donnée. Plus elle est basse, plus le coureur est économe.\n\n**Effet Bohr** — *Bohr effect*. Baisse de l'affinité de l'hémoglobine pour l'oxygène quand le pH baisse : le sang plus acide du muscle actif y libère davantage d'oxygène.\n\n**Effet du tiroir** — *file drawer effect*. Non-soumission des études aux résultats non\nsignificatifs. Premier des trois filtres de la sélection des résultats, probablement le plus\nlourd, et le seul qu'aucune lecture d'article ne peut détecter. Les registres d'essais et les\nrapports enregistrés sont les parades.\n\n**Effet fixe (modèle à)** — *fixed-effect model*. Modèle d'agrégation supposant une vraie\nvaleur unique de l'effet. Attention au faux ami : *fixed effects* au pluriel désigne autre\nchose en économétrie.\n\n**Effets aléatoires (modèle à)** — *random-effects model*. Modèle d'agrégation supposant que\nles vraies valeurs varient selon les contextes.\n\n**Effort relatif** — *relative muscular effort*. Moment produit par un groupe musculaire rapporté au moment maximal qu'il peut produire au même angle. Au squat, celui des extenseurs du genou augmente avec la profondeur.\n\n**Électromyographie de surface** — *surface electromyography (sEMG)*. Enregistrement, par des électrodes posées sur la peau, de l'activité électrique d'un muscle. Son amplitude ne mesure pas directement le recrutement et ne prédit pas l'adaptation. (aussi : électromyographie, électromyographique, EMG)\n\n**Endocrine** — *endocrine*. Se dit d'un signal libéré dans le sang, qui agit sur des cellules lointaines. (schéma : phy008-modes)\n\n**Entraînement par intervalles** — *interval training, HIIT*. Alternance d'efforts intenses et de récupérations, dont la réponse dépend d'une dizaine de variables : intensités, durées, nombre de répétitions et de séries.\n\n**Épaulé** — *clean*. Mouvement d'haltérophilie où la barre passe du sol aux épaules ; suivi du jeté, il forme l'épaulé-jeté. L'épaulé en force (*power clean*) se réceptionne jambes peu fléchies. (aussi : épaulés)\n\n**Équation de Fick** — *Fick equation*. Consommation d'oxygène égale au débit cardiaque multiplié par la différence artério-veineuse. (schéma : phy005-fick)\n\n**Érecteurs du rachis** — *erector spinae*. Colonnes musculaires de part et d'autre de la colonne vertébrale, du bassin à la nuque. Elles redressent le dos et le gardent droit sous la charge. (visuel : muscles#erecteurs)\n\n**Erreur de magnitude** — *type M error, magnitude error, exaggeration ratio*. Surestimation\nsystématique de l'amplitude des effets qui franchissent le seuil de significativité dans une\nétude peu puissante. Elle se quantifie par un facteur d'exagération : le rapport entre\nl'amplitude attendue d'un résultat significatif et l'amplitude réelle. Distincte de l'erreur de\ntype I, qui porte sur l'existence de l'effet et non sur sa taille. (schéma : met005-erreurs)\n\n**Erreur de mesure différentielle** — *differential measurement error*. Erreur de mesure dont\nl'ampleur ou le sens dépend du groupe auquel appartient le sujet. Contrairement à une erreur\nqui frappe les deux groupes de la même façon, elle crée un écart artificiel entre eux et ne se\ndilue pas quand l'effectif augmente.\n\n**Erreur de signe** — *type S error, sign error*. Probabilité qu'un résultat statistiquement\nsignificatif pointe dans la direction opposée à l'effet réel. Négligeable à puissance élevée,\nelle devient substantielle en deçà de 10 % de puissance. Conséquence la plus contre-intuitive\nde la sous-puissance. (schéma : met005-erreurs)\n\n**Erreur de type I** — *type I error*. Rejet d'une hypothèse nulle vraie. Faux positif. Son\ntaux nominal est le seuil de significativité.\n\n**Erreur de type II** — *type II error*. Non-rejet d'une hypothèse nulle fausse. Faux négatif.\nSon complément à 1 est la puissance.\n\n**Erreur standard** — *standard error*. Dispersion attendue d'une estimation si l'on répétait\nl'étude. Elle décrit la précision de l'estimation, non la variabilité entre individus — cette\ndernière est l'écart-type. C'est l'erreur standard qui détermine la largeur de l'intervalle de\nconfiance et le poids d'une étude en méta-analyse.\n\n**Erreur typique** — *typical error*, *standard error of measurement*. Écart-type des mesures\nrépétées d'un même individu. Mesure de fidélité exprimée dans l'unité de la grandeur mesurée,\ndonc directement interprétable — contrairement à un coefficient de corrélation. (schéma : met006-bruit)\n\n**Espace sous-acromial** — *subacromial space*. Espace entre la tête humérale et l'acromion, où passent le tendon du sus-épineux et une bourse séreuse. (schéma : bio019-coiffe)\n\n**Espérance** — *expectation, expected value*. Valeur moyenne d'une quantité aléatoire sur un\ntrès grand nombre de répétitions. Dire que la randomisation équilibre les groupes « en\nespérance » signifie qu'elle les équilibre en moyenne sur l'ensemble des tirages possibles, pas\nnécessairement dans le tirage effectué.\n\n**Essai contrôlé randomisé** — *randomised controlled trial, RCT*. Étude dans laquelle\nl'attribution de l'intervention est décidée par un procédé aléatoire. C'est ce tirage au sort,\net lui seul, qui autorise une conclusion causale — la présence d'un groupe contrôle sans\nrandomisation ne suffit pas. (aussi : essais contrôlés randomisés, essai randomisé, essais\nrandomisés) (schéma : met001-confusion)\n\n**Estimation ponctuelle** — *point estimate*. Valeur unique proposée comme meilleure estimation\nd'un effet, par opposition à l'intervalle qui l'accompagne. C'est le chiffre que reprennent les\nrésumés et la diffusion secondaire, et c'est l'information la moins fiable d'une étude de\npetite taille.\n\n**État stable maximal du lactate** — *maximal lactate steady state*. Plus haute intensité à laquelle la production et l'élimination du lactate s'équilibrent pendant un effort constant.\n\n**Étude méta-épidémiologique** — *meta-epidemiological study*. Étude qui prend pour unité\nd'analyse non pas un patient mais un essai. On rassemble un grand nombre de méta-analyses, on\nclasse les essais selon la présence d'un dispositif méthodologique, et on compare les\nestimations d'effet des deux classes. C'est ainsi qu'a été mesuré le coût de l'absence\nd'allocation dissimulée ou d'aveugle. (aussi : études méta-épidémiologiques)\n\n**Événement déclencheur** — *inciting event*. Dans le modèle multifactoriel de la blessure, la situation et le mécanisme précis au moment où elle survient. (aussi : événements déclencheurs)\n\n**Exercice nordique des ischio-jambiers** — *Nordic hamstring exercise*. Exercice à genoux, chevilles tenues, où l'on freine la chute du buste vers l'avant par une contraction excentrique des ischio-jambiers. (aussi : exercice nordique) (visuel : muscles#biceps-femoral+semi-tendineux+semi-membraneux)\n\n**Extenseurs de hanche** — *hip extensors*. Muscles qui ramènent la cuisse vers l'arrière ou redressent le buste : grand fessier, ischio-jambiers, grand adducteur. (visuel : muscles#grand-fessier+biceps-femoral+semi-tendineux+semi-membraneux+adducteurs)\n\n**Extenseurs du genou** — *knee extensors*. Muscles qui tendent la jambe : c'est le quadriceps. (visuel : muscles#droit-femoral+vaste-lat+vaste-med)\n\n## F\n\n**Facilitation neuromusculaire proprioceptive** — *proprioceptive neuromuscular facilitation*. Technique d'étirement qui alterne étirement et contraction du muscle étiré ou de son opposé. Son efficacité tient surtout à la tolérance à l'étirement, pas à un relâchement réflexe.\n\n**Facteur de risque externe** — *external risk factor*. Caractéristique de l'environnement ou de l'activité qui modifie le risque de blessure. (aussi : facteurs de risque externes)\n\n**Facteur de risque interne** — *internal risk factor*. Caractéristique propre à l'athlète qui modifie son risque de blessure. (aussi : facteurs de risque internes)\n\n**Faisceau musculaire** — *muscle fascicle*. Groupe de fibres musculaires entouré de périmysium. C'est l'unité visible à l'échographie, sur laquelle on mesure longueur et angle de pennation. (aussi : faisceaux musculaires, faisceau, faisceaux) (blocs : 1) (schéma : bio007-hierarchie)\n\n**Fatigue mécanique** — *mechanical fatigue*. Accumulation de dommages dans un matériau soumis à des charges répétées inférieures à sa résistance. Sert de modèle aux blessures de surmenage.\n\n**Fatmax** — *Fatmax*. Intensité d'effort à laquelle l'oxydation des graisses est maximale. Elle varie beaucoup d'une personne à l'autre. (schéma : phy004-fatmax)\n\n**Fessiers** — *gluteal muscles*. Muscles de la fesse : le grand fessier en surface ; le moyen et le petit fessier plus haut et plus en dehors, en partie dessous. (visuel : muscles#grand-fessier+moyen-fessier)\n\n**Fibre lente** — *slow-twitch fiber, type I fiber*. Fibre de type I : contraction lente, puissance plus faible, métabolisme très oxydatif. Elle travaille la première dans un effort modéré. (aussi : fibres lentes, fibre de type I, fibres de type I) (schéma : bio011-mosaique)\n\n**Fibre musculaire** — *muscle fibre*. Cellule musculaire, très longue et à plusieurs noyaux, remplie de myofibrilles. (aussi : fibres musculaires) (schéma : bio007-hierarchie)\n\n**Fibre rapide** — *fast-twitch fiber, type II fiber*. Fibre de type II, IIa ou IIx : contraction plus rapide, puissance plus grande. Les études humaines anciennes appellent « IIb » les fibres IIx. (aussi : fibres rapides, fibre de type II, fibres de type II) (schéma : bio011-mosaique)\n\n**Fibres hybrides** — *hybrid fibers*. Fibres musculaires qui contiennent deux formes de myosine à la fois : I et IIa, ou IIa et IIx. (aussi : fibre hybride)\n\n**Fibres intrafusales** — *intrafusal fibers*. Fibres musculaires spécialisées contenues dans le fuseau neuromusculaire, commandées par les motoneurones gamma. (aussi : fibre intrafusale, intrafusales)\n\n**Fidélité** — *reliability*. Reproductibilité d'une mesure sur des essais répétés. **Faux ami\nmajeur** : *reliability* ne se traduit pas par « fiabilité » dans ce contexte technique, et n'a\nrien à voir avec la validité. (schéma : met007-triangle)\n\n**Filaments glissants** — *sliding filament theory*. Modèle de la contraction : les filaments d'actine et de myosine gardent leur longueur et coulissent les uns entre les autres, ce qui raccourcit le sarcomère. (schéma : bio008-courbe)\n\n**Fléchisseurs du coude** — *elbow flexors*. Muscles qui plient le coude : biceps brachial, brachial (en partie sous le biceps) et brachio-radial. (visuel : muscles#biceps+brachial+brachio-radial)\n\n**Fléchisseurs du genou** — *knee flexors*. Muscles qui plient le genou : surtout les ischio-jambiers, aidés par le gastrocnémien. (visuel : muscles#biceps-femoral+semi-tendineux+semi-membraneux+gastrocnemien)\n\n**Fléchisseurs plantaires** — *plantar flexors*. Muscles qui tendent la cheville, pointe du pied vers le bas, comme pour monter sur la pointe des pieds : surtout le triceps sural. (visuel : muscles#gastrocnemien+soleaire)\n\n**Force passive** — *passive force*. Résistance qu'oppose un muscle à l'étirement sans être activé, due à ses structures élastiques. Elle s'ajoute à la force active aux grandes longueurs.\n\n**Forest plot** — *forest plot*. Représentation graphique d'une méta-analyse, une ligne par\nétude, la surface du carré indiquant le poids et le losange final l'estimation agrégée. (schéma : met008-forest)\n\n**Fréquence cardiaque de réserve** — *heart rate reserve*. Écart entre la fréquence cardiaque maximale et la fréquence de repos ; sert à prescrire l'intensité en pourcentage.\n\n**Fréquence cardiaque maximale** — *maximal heart rate*. Fréquence la plus haute atteinte à l'effort maximal. En moyenne mieux estimée par 208 − 0,7 × âge que par 220 moins l'âge ; pour un individu, l'erreur peut atteindre environ 25 battements par minute.\n\n**Fréquence de décharge** — *discharge rate, firing rate*. Nombre d'influx nerveux émis par seconde par un motoneurone. Principal déterminant nerveux de la montée en force au tout début d'une contraction explosive.\n\n**Funnel plot** — *funnel plot*. Nuage des estimations d'effet portées contre leur précision.\nSon asymétrie est un signal d'alerte, jamais une preuve de biais de publication. (schéma : met008-funnel)\n\n**Fuseau neuromusculaire** — *muscle spindle*. Capteur logé parmi les fibres du muscle, qui signale sa longueur et la vitesse de son changement. Contrairement aux autres capteurs mécaniques, il reçoit une commande motrice propre, par les motoneurones gamma. (aussi : fuseau, fuseaux, fuseaux neuromusculaires) (schéma : bio012-capteurs)\n\n## G\n\n**g de Hedges** — *Hedges' g*. Taille d'effet standardisée égale au d de Cohen multiplié par un\nfacteur légèrement inférieur à 1, qui corrige la surestimation du d en petit échantillon —\nenviron 4 % à vingt sujets, 8 % à dix. Forme à privilégier en méta-analyse. (schéma : met004-formules)\n\n**Gastrocnémien** — *gastrocnemius*. Muscle superficiel du mollet, à deux chefs qui en dessinent le galbe. Biarticulaire : il tend la cheville et aide à plier le genou. (aussi : gastrocnémiens) (visuel : muscles#gastrocnemien)\n\n**Glandes surrénales** — *adrenal glands*. Glandes posées sur les reins, faites d'une corticosurrénale et d'une médullosurrénale.\n\n**Glène** — *glenoid cavity*. Surface articulaire de l'omoplate, petite et peu creuse, qui reçoit la tête humérale. (schéma : bio019-complexe)\n\n**Glucocorticoïdes** — *glucocorticoids*. Famille d'hormones de la corticosurrénale, dont le cortisol. Elles mobilisent les réserves et freinent la construction des tissus.\n\n**GLUT4** — *glucose transporter 4*. Transporteur par lequel le glucose entre dans la fibre musculaire. La contraction et l'insuline le font migrer vers la membrane.\n\n**Glycogène** — *glycogen*. Réserve de glucose stockée dans le muscle et le foie. Le muscle le consomme d'autant plus vite que l'effort est intense.\n\n**Glycolyse** — *glycolysis*. Découpage du glucose, issu surtout du glycogène musculaire, en pyruvate puis en lactate. Produit de l'ATP sans oxygène, à débit élevé mais pour une durée limitée. (aussi : glycolytique, glycolytiques) (schéma : phy001-cellule)\n\n**Gracile** — *gracilis*. Long muscle fin de la face interne de la cuisse, du pubis au tibia. Il rapproche la cuisse et aide à plier le genou. (visuel : muscles#gracile)\n\n**GRADE** — *Grading of Recommendations Assessment, Development and Evaluation*. Cadre\ninternational de cotation de la certitude des preuves, fondé sur un déclassement et un\nreclassement par domaines plutôt que sur le seul protocole d'étude.\n\n**Grand dorsal** — *latissimus dorsi*. Grand muscle plat du bas et du côté du dos, tendu du bas du dos et du bassin à l'humérus ; il ramène le bras le long du corps. (visuel : muscles#grand-dorsal)\n\n**Grand droit** — *rectus abdominis*. Muscle de l'abdomen, une bande verticale de chaque côté de la ligne médiane (les « tablettes »). Il plie le tronc vers l'avant et le rigidifie. (aussi : grand droit de l'abdomen) (visuel : muscles#grand-droit)\n\n**Grand fessier** — *gluteus maximus*. Le plus gros muscle de la fesse. Il étend la hanche : remonter du squat, se redresser au soulevé de terre, pousser au sprint. (visuel : muscles#grand-fessier)\n\n**Grand pectoral** — *pectoralis major*. Muscle de la poitrine à deux chefs, claviculaire et sternocostal, qui rapproche le bras de la ligne médiane. (visuel : muscles#pectoral-clav+pectoral-stern)\n\n## H\n\n**Haltérophilie** — *Olympic weightlifting*. Sport de force à deux mouvements, l'arraché et l'épaulé-jeté ; par extension, l'entraînement fondé sur ces mouvements et leurs variantes.\n\n**Hémoconcentration** — *hemoconcentration*. Concentration du sang quand le plasma perd de l'eau à l'effort ; elle augmente les dosages sans sécrétion accrue.\n\n**Hémoglobine** — *hemoglobin*. Protéine des globules rouges qui transporte environ 98,5 % de l'oxygène du sang ; la fixation de chaque molécule d'oxygène facilite celle de la suivante.\n\n**Héritabilité** — *heritability*. Part de la variabilité d'un caractère entre personnes attribuée aux différences génétiques, dans une population donnée.\n\n**Hétérogénéité** — *heterogeneity*. Variabilité des vraies valeurs d'effet entre les études\nd'une méta-analyse, par opposition à la variabilité d'échantillonnage. (schéma : met008-i2)\n\n**Hormone** — *hormone*. Messager chimique libéré par une glande, qui agit sur les cellules portant son récepteur. (aussi : hormones)\n\n**Hormone de croissance** — *growth hormone*. Hormone de l'hypophyse qui élève l'IGF-1 du sang et agit sur le muscle, l'os, le collagène et les graisses ; sa cure n'augmente pas la force du muscle sain.\n\n**Hormone peptidique** — *peptide hormone*. Hormone qui agit par un récepteur de la membrane, comme l'insuline. (aussi : hormones peptidiques) (schéma : phy008-voies)\n\n**Hormone stéroïde** — *steroid hormone*. Hormone qui traverse la membrane de la cellule et agit par un récepteur intérieur, comme la testostérone. (aussi : hormones stéroïdes) (schéma : phy008-voies)\n\n**Hyperlaxité** — *generalized joint hypermobility*. Amplitude inhabituellement grande dans plusieurs articulations. Plus fréquente chez l'enfant et la femme.\n\n**Hypothèse d'identification** — *identification assumption*. Hypothèse explicite, non\nvérifiable par les données seules, sous laquelle une association observée peut être lue comme\nun effet causal. Toute inférence causale hors essai randomisé en repose sur une : la\nrandomisation a l'avantage de rendre la sienne quasi automatique.\n\n**Hypothèse de l'hormone libre** — *free hormone hypothesis*. Idée que seule la forme libre d'une hormone, non liée aux protéines de transport, agit sur les tissus. Elle ne vaut pas pour toutes les hormones ni tous les tissus.\n\n**Hypothèse hormonale** — *hormone hypothesis*. Idée, peu soutenue par les données, selon laquelle les pics d'hormones juste après une séance feraient grossir le muscle.\n\n**Hypothèse nulle** — *null hypothesis*. Hypothèse d'absence d'effet, ou d'effet égal à une (schéma : met003-conditionnement)\n\n**Hypoxémie artérielle induite par l'effort** — *exercise-induced arterial hypoxemia*. Baisse de la saturation en oxygène du sang artériel pendant un effort intense, fréquente chez les athlètes d'endurance très entraînés ; dite légère entre 93 et 95 %.\n\n**Hystérésis** — *hysteresis*. Part de l'énergie reçue par un tissu étiré qu'il ne restitue pas en revenant à sa longueur, dissipée en chaleur.\nvaleur de référence, sous laquelle la valeur p est calculée. (schéma : bio015-courbes)\n\n## I\n\n**IGF-1** — *insulin-like growth factor 1*. Facteur de croissance. Le muscle en produit ses propres formes sous l'effet de la tension mécanique.\n\n**Impulsion** — *impulse*. Intégrale de la force sur sa durée d'application, en newtons-secondes. Égale à la variation de quantité de mouvement : c'est elle, nette du poids du corps, qui fixe la vitesse de décollage d'un saut. (blocs : 1)\n\n**Inférence causale** — *causal inference*. Passage d'une association observée à l'affirmation\nqu'une variable produit l'autre. Elle exige soit une randomisation, soit une hypothèse\nd'identification explicite et défendable. Aucun ajustement statistique ne la produit à lui\nseul.\n\n**Inflation d'amplitude** — *effect size inflation, winner's curse*. Surestimation systématique\nde la taille des effets qui franchissent le seuil de significativité dans les études de faible\npuissance. Elle ne résulte d'aucune faute : c'est une conséquence mécanique de la sélection des\nrésultats par un seuil.\n\n**Inhibition autogène** — *autogenic inhibition*. Freinage d'un muscle par ses propres organes tendineux. Son rôle protecteur sous les charges lourdes, répandu dans les manuels, n'est pas démontré.\n\n**Inhibition nerveuse** — *neural inhibition*. Baisse de l'activation volontaire d'un muscle malgré un effort maximal, avancée pour expliquer que la force excentrique humaine dépasse peu la force isométrique. Réduite par l'entraînement ; son existence même reste discutée. (blocs : 1-8)\n\n**Inhibition réciproque** — *reciprocal inhibition*. Freinage du muscle opposé quand un muscle est étiré, par un interneurone activé par l'afférence Ia.\n\n**Insuffisance active** — *active insufficiency*. Incapacité supposée d'un muscle biarticulaire à produire beaucoup de force quand les deux articulations le raccourcissent à la fois.\n\n**Insuline** — *insulin*. Hormone peptidique dont la sécrétion dépend du glucose et des acides aminés du sang ; elle agit surtout sur le muscle, le foie et le tissu adipeux.\n\n**Interneurone** — *interneuron*. Neurone de la moelle épinière intercalé entre une fibre sensitive et un motoneurone, par exemple pour inhiber le muscle opposé. (aussi : interneurones) (schéma : bio012-reflexe)\n\n**Intervalle de compatibilité** — *compatibility interval*. Dénomination proposée pour\nl'intervalle de confiance, décrivant plus fidèlement ce qu'il contient : les valeurs de\nparamètre compatibles avec les données sous le modèle.\n\n**Intervalle de confiance** — *confidence interval*. Intervalle construit par une procédure\ndont la couverture nominale vaut sur des répétitions de l'étude. La propriété appartient à la\nprocédure, pas à l'intervalle observé. (schéma : met003-intervalles)\n\n**Intervalle de crédibilité** — *credible interval*. Équivalent bayésien de l'intervalle de\nconfiance, qui possède bien la propriété interprétative intuitive de contenir la vraie valeur\navec la probabilité annoncée.\n\n**Intervalle de prédiction** — *prediction interval*. Dans une méta-analyse à effets\naléatoires, intervalle décrivant l'étendue des effets attendus dans un nouveau contexte.\nToujours plus large que l'intervalle de confiance de la moyenne, et rarement rapporté.\n\n**Ischio-jambiers** — *hamstrings*. Groupe de trois muscles de l'arrière de la cuisse : biceps fémoral, semi-tendineux, semi-membraneux. Ils plient le genou et étendent la hanche. (aussi : ischio-jambier) (visuel : muscles#biceps-femoral+semi-tendineux+semi-membraneux)\n\n**Isocinétique** — *isokinetic*. Se dit d'un mouvement à vitesse angulaire constante, imposée par un dynamomètre qui oppose une résistance égale à la force appliquée. Outil surtout de mesure et de rééducation.\n\n**Isotonique** — *isotonic*. Littéralement « à tension constante ». Désigne couramment le travail à charge constante, où la force musculaire varie pourtant avec les bras de levier et l'accélération : terme trompeur, à comprendre comme « à charge constante ».\n\n**I²** — *I-squared*. Proportion de la variabilité observée entre études attribuable à\nl'hétérogénéité plutôt qu'à l'erreur d'échantillonnage. Proportion, jamais quantité absolue. (schéma : met008-i2)\n\n## L\n\n**Lactate** — *lactate*. Produit de la glycolyse formé en permanence, y compris en conditions aérobies. Carburant, précurseur du glucose et molécule de signalisation, et non simple déchet. (schéma : phy003-cellule)\n\n**Levier** — *lever*. Solide qui tourne autour d'un axe sous l'action d'une force motrice et d'une résistance. Il ne crée pas d'énergie : il échange de la force contre du déplacement, ou l'inverse. (blocs : 1-8) (schéma : bio003-classes)\n\n**Ligament** — *ligament*. Tissu de collagène qui relie deux os et participe à la stabilité d'une articulation. (aussi : ligaments) (schéma : bio015-structure)\n\n**Ligament croisé antérieur** — *anterior cruciate ligament (ACL)*. Ligament situé au centre du genou, qui limite le glissement du tibia vers l'avant sous le fémur.\n\n**Ligne d'action** — *line of action*. Droite qui porte une force. Le bras de levier se mesure perpendiculairement à elle ; une force dont la ligne d'action passe par l'axe ne produit aucun moment.\n\n**Loi de Frank-Starling** — *Frank-Starling law*. Le cœur ajuste son éjection à son remplissage : un ventricule plus rempli éjecte davantage.\n\n## M\n\n**Marge de stabilité** — *margin of stability*. Distance entre le centre de masse extrapolé et le bord de la base d'appui. Négative, elle impose de faire un pas.\n\n**Mécanostat** — *mechanostat*. Hypothèse selon laquelle l'usage mécanique règle l'essentiel de la solidité d'un os sain, qui s'adapte aux charges reçues.\n\n**Médullosurrénale** — *adrenal medulla*. Partie centrale de la glande surrénale, prolongement du système nerveux sympathique ; elle libère l'adrénaline et la noradrénaline. (schéma : phy011-axes)\n\n**Membrane respiratoire** — *respiratory membrane*. Paroi de l'alvéole et paroi du capillaire accolées, épaisses d'environ 0,5 µm, que les gaz traversent par diffusion.\n\n**Ménarche** — *menarche*. Premières règles. Sert de repère de maturation dans les études sur l'os des filles.\n\n**Méta-analyse** — *meta-analysis*. Agrégation quantitative des estimations d'un ensemble\nd'études, généralement par pondération inverse-variance. (schéma : met008-forest)\n\n**Méta-régression** — *meta-regression*. Modélisation de la variation de l'effet entre études\nen fonction de caractéristiques d'étude. Puissante et fortement exposée à l'exploration\nopportuniste.\n\n**Métabolisme aérobie** — *aerobic metabolism*. Production d'ATP avec oxygène, par la voie oxydative. Contribue dès le début de l'effort et devient majoritaire au-delà de 80 secondes environ d'effort maximal. (aussi : aérobie, aérobies) (schéma : phy001-continuum)\n\n**Métabolisme anaérobie** — *anaerobic metabolism*. Production d'ATP sans oxygène, par la phosphocréatine et la glycolyse. Majoritaire dans un effort maximal de moins de 80 secondes environ. (aussi : anaérobie, anaérobies) (schéma : phy001-continuum)\n\n**Métaboréflexe** — *metaboreflex*. Réflexe déclenché par l'accumulation de métabolites dans un muscle qui se fatigue ; celui des muscles respiratoires resserre les vaisseaux des muscles locomoteurs.\n\n**Mitochondrie** — *mitochondrion*. Organite de la cellule où se déroule la voie oxydative. Sa densité dans le muscle conditionne la capacité aérobie. (aussi : mitochondries, mitochondrial, mitochondriale) (schéma : phy004-mitochondrie)\n\n**Module d'Young** — *Young's modulus*. Rapport de la contrainte à la déformation. Il décrit la rigidité du matériau seul, indépendamment de la taille de la structure.\n\n**Moment de force** — *torque, moment of force*. Produit d'une force par son bras de levier, M = r × F, en newtons-mètres. C'est lui, et non la force, qui fait tourner une articulation. (aussi : moments de force) (schéma : bio002-equilibre)\n\n**Moment externe** — *external moment*. Moment produit autour d'une articulation par les charges et le poids des segments. Il dépend de la distance horizontale entre la charge et l'articulation, donc de la posture.\n\n**Moment interne** — *internal moment*. Moment produit par les muscles et les structures passives pour s'opposer au moment externe. À l'équilibre, les deux sont égaux.\n\n**Moment net** — *net joint moment*. Somme algébrique des moments de tous les muscles et structures qui croisent une articulation. C'est ce que calcule la dynamique inverse ; il masque les co-contractions, qui augmentent la force réelle des agonistes. (aussi : moment articulaire net)\n\n**Monoarticulaire** — *monoarticular muscle*. Se dit d'un muscle qui ne croise qu'une articulation, comme le soléaire. (aussi : muscle monoarticulaire, muscles monoarticulaires)\n\n**Motoneurone alpha** — *alpha motor neuron*. Neurone de la moelle épinière qui commande les fibres productrices de force d'une unité motrice. (aussi : motoneurones alpha) (schéma : bio012-reflexe)\n\n**Motoneurones gamma** — *gamma motor neurons, fusimotor neurons*. Neurones qui commandent les fibres intrafusales et règlent la sensibilité du fuseau. Activés avec les motoneurones alpha lors d'une contraction volontaire. (aussi : motoneurone gamma)\n\n**Moyen fessier** — *gluteus medius*. Muscle du haut et du côté de la fesse, en partie caché par le grand fessier. Il écarte la cuisse et tient le bassin à niveau en appui sur une jambe. (visuel : muscles#moyen-fessier)\n\n**Muscle biarticulaire** — *biarticular muscle, two-joint muscle*. Muscle qui croise deux articulations, comme le droit fémoral, la plupart des ischio-jambiers ou le gastrocnémien. Sa longueur dépend des deux angles. (aussi : muscles biarticulaires, biarticulaire, biarticulaires) (schéma : bio013-transfert)\n\n**Myocarde** — *myocardium*. Muscle du cœur.\n\n**Myofibrille** — *myofibril*. Filament contractile qui parcourt la fibre musculaire sur toute sa longueur, fait de sarcomères placés bout à bout. (schéma : bio007-hierarchie)\n\n**Myosine** — *myosin*. Protéine qui forme les filaments épais du sarcomère. Ses têtes s'accrochent à l'actine, basculent et la tirent : ce sont les moteurs de la contraction. (schéma : bio008-courbe)\n\n## N\n\n**NAD⁺** — *nicotinamide adenine dinucleotide*. Molécule qui accepte des électrons et devient NADH. La glycolyse en consomme ; la formation de lactate le régénère. (aussi : NADH) (schéma : phy003-cellule)\n\n**Navette du lactate** — *lactate shuttle*. Théorie selon laquelle le lactate circule entre les cellules qui le produisent et celles qui le consomment, comme carburant et comme signal.\n\n**Néoglucogenèse** — *gluconeogenesis*. Fabrication de glucose à partir d'autres molécules, dont le lactate, qui en est la principale matière première.\n\n**Neutralisateur** — *neutralizer*. Muscle qui annule une action secondaire indésirable de l'agoniste. (aussi : neutralisateurs)\n\n**Nœud auriculo-ventriculaire** — *atrioventricular node*. Relais électrique entre oreillettes et ventricules ; l'impulsion y marque une pause d'environ 100 ms. (schéma : phy012-conduction)\n\n**Nœud sinusal** — *sinoatrial node*. Groupe de cellules de l'oreillette droite qui déclenche chaque battement du cœur. (schéma : phy012-conduction)\n\n**Non-répondeur** — *non-responder*. Personne qui ne progresse pas, au-delà de l'erreur de mesure, sur une variable après un programme donné. (aussi : non-répondeurs)\n\n**Noradrénaline** — *norepinephrine, noradrenaline*. Catécholamine libérée par les nerfs sympathiques et la médullosurrénale. (schéma : phy011-axes)\n\n## O\n\n**Omoplate** — *scapula*. Os plat triangulaire du dos, qui porte la glène et l'acromion. (visuel : muscles#omoplate)\n\n**Onde V** — *V-wave*. Réponse électrique d'un muscle à la stimulation de son nerf pendant une contraction maximale ; elle reflète la commande qui descend vers les motoneurones.\n\n**Oreillette** — *atrium*. Cavité supérieure du cœur, qui reçoit le sang. (schéma : phy012-coeur)\n\n**Organe tendineux de Golgi** — *Golgi tendon organ*. Capteur situé à la jonction du muscle et du tendon, qui signale la force de contraction par son afférence Ib. (aussi : organe tendineux, organes tendineux, organe de Golgi) (schéma : bio012-capteurs)\n\n**Os cortical** — *cortical bone, compact bone*. Os compact qui forme la coque des os, surtout le long de leur partie centrale. (schéma : bio014-remodelage)\n\n**Os spongieux** — *cancellous bone, trabecular bone*. Os en réseau de travées, à l'intérieur des extrémités des os longs et des vertèbres. (aussi : os trabéculaire) (schéma : bio014-remodelage)\n\n**Ostéoblaste** — *osteoblast*. Cellule qui fabrique l'os nouveau puis le minéralise. (aussi : ostéoblastes) (schéma : bio014-remodelage)\n\n**Ostéoclaste** — *osteoclast*. Cellule qui résorbe l'os. (aussi : ostéoclastes) (schéma : bio014-remodelage)\n\n**Ostéocyte** — *osteocyte*. Cellule enfermée dans l'os ; leur réseau perçoit les contraintes mécaniques. (aussi : ostéocytes) (schéma : bio014-remodelage)\n\n**Ostéoporose** — *osteoporosis*. Fragilité osseuse avec risque accru de fracture ; en densitométrie, un T-score inférieur à - 2,5. Son diagnostic et son traitement relèvent du médecin.\n\n## P\n\n**Paracrine** — *paracrine*. Se dit d'un signal qui agit sur des cellules voisines, sans passer par le sang. (schéma : phy008-modes)\n\n**Paradoxe de Codman** — *Codman's paradox*. Rotation de l'humérus sur son axe qui apparaît, sans avoir été commandée, au terme d'une séquence de mouvements plans de l'épaule. Conséquence du fait que les rotations en trois dimensions ne commutent pas.\n\n**Paradoxe de Lombard** — *Lombard's paradox*. Activité simultanée de muscles antagonistes, comme quadriceps et ischio-jambiers, dans un mouvement qu'ils semblent tous deux produire. Il dépend en partie de la méthode de classement des rôles.\n\n**PEDro** — base de données d'essais et de revues en thérapie physique, chaque essai coté sur\nl'échelle PEDro.\n\n**Pendule inversé** — *inverted pendulum*. Modèle du corps debout, articulé aux chevilles. Le centre de gravité y accélère dans le sens qui l'éloigne du centre de pression, proportionnellement à l'écart entre les deux.\n\n**Perdus de vue** — *loss to follow-up, attrition*. Participants randomisés dont le résultat\nfinal n'est pas disponible. Leur nombre, et surtout son asymétrie entre les groupes, est l'une\ndes informations les plus utiles du diagramme de flux d'un essai : l'abandon n'est jamais\naléatoire.\n\n**Petit rond** — *teres minor*. Petit muscle de la coiffe des rotateurs, au bord externe de l'omoplate, sous le sous-épineux. Il tourne le bras vers l'extérieur. (visuel : muscles#petit-rond)\n\n**Phase de vérification** — *verification phase*. Effort à vitesse constante au-dessus de la fin d'un test progressif, pour confirmer qu'une vraie consommation maximale a été atteinte.\n\n**Phosphate inorganique** — *inorganic phosphate*. Phosphate libre, libéré notamment quand la phosphocréatine se dégrade. Il s'accumule pendant un effort intense et apparaît comme une cause majeure de fatigue.\n\n**Phosphocréatine** — *phosphocreatine (PCr)*. Réserve de phosphate riche en énergie qui refait de l'ATP en une seule réaction. Voie la plus rapide, épuisée en quelques secondes d'effort maximal, rechargée grâce à l'oxygène. (schéma : phy001-cellule)\n\n**PICOT** — *Population, Intervention, Comparison, Outcome, Time*. Structure de formulation\nd'une question de recherche à laquelle on peut répondre. Explicitement au programme de l'examen\n(DCO SF 1.J.2). (schéma : met013-picot)\n\n**Pied de courbe** — *toe region*. Début de la courbe contrainte-déformation du tendon, où la raideur augmente peu à peu avant la zone linéaire.\n\n**Plan frontal** — *frontal plane, coronal plane*. Plan qui sépare l'avant et l'arrière du corps. Les mouvements y tournent autour d'un axe antéro-postérieur : abduction, adduction, inclinaison latérale. (schéma : bio001-plans)\n\n**Plan sagittal** — *sagittal plane*. Plan qui sépare la gauche et la droite du corps. Les mouvements y tournent autour d'un axe médio-latéral : flexion, extension. (schéma : bio001-plans)\n\n**Plan transversal** — *transverse plane, horizontal plane*. Plan qui sépare le haut et le bas du corps. Les mouvements y tournent autour d'un axe longitudinal : rotations interne et externe, pronation, supination. (schéma : bio001-plans)\n\n**Plateforme de force** — *force plate*. Instrument qui mesure les forces exercées sur le sol au cours du temps. Permet de calculer la hauteur d'un saut par trois méthodes indépendantes.\n\n**Pliométrie** — *plyometric training*. Entraînement fait de sauts et de rebonds enchaînés, qui sollicite le cycle étirement-raccourcissement.\n\n**Plus petit changement digne d'intérêt** — *smallest worthwhile change, minimal important\ndifference*. Plus petite différence à partir de laquelle on accepterait de modifier une\npratique, compte tenu de son coût. Ce n'est pas une quantité statistique : elle se fixe par\nancrage sur une conséquence externe, par une fraction de la dispersion entre sujets — souvent\n0,2 écart-type — ou par jugement. Doit être annoncée avant l'analyse, jamais découverte après. (schéma : met006-zones)\n\n**Point de blocage** — *sticking point, sticking region*. Portion de l'amplitude où l'écart entre ce que le muscle peut produire et ce que l'exercice exige est le plus faible. C'est là qu'une répétition échoue. (schéma : bio006-blocage)\n\n**Point de croisement** — *crossover point*. Intensité à partir de laquelle les glucides fournissent plus d'énergie que les graisses. Cœur du concept du croisement, dont la portée est discutée. (aussi : concept du croisement)\n\n**Polarisé** — *polarized training*. Se dit d'une répartition de l'entraînement qui combine beaucoup de travail à faible intensité et un peu de travail très intense, avec peu de travail au seuil. (aussi : polarisée, entraînement polarisé)\n\n**Pompe musculaire** — *muscle pump*. Compression des veines par les muscles qui se contractent ; les valves orientent le sang vers le cœur.\n\n**Pont d'union** — *cross-bridge*. Liaison transitoire entre une tête de myosine et un filament d'actine. La force d'un sarcomère est la somme de celles de ses ponts d'union actifs. (aussi : ponts d'union)\n\n**Position anatomique** — *anatomical position*. Posture de référence : debout, regard vers l'avant, bras le long du corps, paumes tournées vers l'avant. La plupart des angles articulaires y valent zéro par convention.\n\n**Précharge** — *preload*. Remplissage du ventricule avant sa contraction.\n\n**Préenregistrement** — *preregistration*. Dépôt public du protocole et du plan d'analyse avant\nla collecte des données. Il distingue un résultat testé d'un résultat trouvé, en fermant la\npossibilité de choisir après coup le critère de jugement ou l'analyse qui donne le résultat le\nplus favorable.\n\n**Pression diastolique** — *diastolic blood pressure*. Pression artérielle pendant le remplissage des ventricules ; elle varie peu à l'effort dynamique.\n\n**Pression intra-abdominale** — *intra-abdominal pressure*. Pression dans la cavité abdominale, augmentée par le gainage ou une ceinture, qui participe au soutien du tronc.\n\n**Pression partielle** — *partial pressure*. Pression exercée par un gaz dans un mélange. Un gaz se déplace de là où sa pression partielle est la plus haute vers là où elle est la plus basse. (aussi : pressions partielles) (schéma : phy013-pressions)\n\n**Pression systolique** — *systolic blood pressure*. Pression artérielle au moment où les ventricules éjectent ; elle monte nettement à l'effort dynamique.\n\n**Principe de taille** — *size principle, Henneman's principle*. Ordre de recrutement des unités motrices, des plus petites, à motoneurone de petite taille, aux plus grandes. Conservé dans les contractions lentes comme explosives. (aussi : principe de Henneman) (blocs : 1-8)\n\n**PRISMA** — *Preferred Reporting Items for Systematic Reviews and Meta-Analyses*. Ligne\ndirectrice de **rapportage** des revues systématiques. N'évalue ni la conduite de l'étude ni la\nqualité des études incluses.\n\n**Profil de résistance** — *resistance profile*. Variation du moment externe à vaincre le long de l'amplitude d'un exercice. Il dépend du dispositif : charge libre, câble, came, élastique, chaînes. (aussi : profils de résistance) (schéma : bio006-profils)\n\n**Profil force-vitesse** — *force-velocity profile*. Droite force-vitesse d'un athlète, mesurée par quelques sauts ou poussées sous charges croissantes et résumée par la force à vitesse nulle et la vitesse à force nulle. Outil descriptif ; son usage pour individualiser l'entraînement n'est pas validé. (aussi : profils force-vitesse) (blocs : 1-8)\n\n**Pronation** — *pronation*. Rotation de l'avant-bras qui tourne la paume vers l'arrière, bras le long du corps. Aux tractions, la prise en pronation place les paumes vers l'avant. (schéma : bio001-plans)\n\n**Proprioception** — *proprioception*. Sens de la position, du mouvement et de la force des membres, alimenté notamment par les fuseaux et les organes tendineux. Elle se dégrade avec l'âge.\n\n**PROSPERO** — registre international de préenregistrement des revues systématiques. Sa mention\ndans un article est un marqueur de sérieux vérifiable.\n\n**Protéine de transport** — *binding protein*. Protéine du sang à laquelle une hormone peut se lier pour circuler. (aussi : protéines de transport)\n\n**Puissance** — *statistical power*. Probabilité de détecter un effet d'une amplitude donnée\ns'il existe. Une puissance faible ne fait pas que manquer des effets : elle gonfle l'amplitude\nde ceux qu'elle détecte. (blocs : 0) (schéma : met005-quatuor)\n\n**Puissance critique** — *critical power*. Asymptote de la relation puissance-durée. Au-dessous, les réponses de l'organisme se stabilisent ; au-dessus, non, jusqu'à l'épuisement d'une réserve de travail. (schéma : phy005-seuils)\n\n**Puissance mécanique** — *mechanical power*. Travail mécanique par unité de temps, en watts ; instantanément, P = F · v. À distinguer de l'usage courant qui appelle « puissance » une qualité d'effort bref et intense. (aussi : puissance) (blocs : 1-8)\n\n**Puissance rétrospective** — *post hoc power, observed power*. Puissance recalculée après\nl'étude à partir de l'effet observé. Elle est une fonction directe de la valeur p obtenue et\nn'apporte donc aucune information nouvelle. À ne pas confondre avec le calcul, légitime, de la\npuissance dont l'étude disposait pour détecter un effet digne d'intérêt fixé indépendamment du\nrésultat.\n\n**Pyruvate** — *pyruvate*. Produit de la glycolyse. Il entre dans la mitochondrie pour y être oxydé, ou devient lactate. (schéma : phy003-cellule)\n\n## Q\n\n**Quadriceps** — *quadriceps femoris*. Groupe de quatre muscles de l'avant de la cuisse : droit fémoral, vaste latéral, vaste médial et vaste intermédiaire, caché sous les autres. Il étend le genou. (visuel : muscles#droit-femoral+vaste-lat+vaste-med)\n\n**Quantité de mouvement** — *momentum*. Produit de la masse par la vitesse, en kilogrammes-mètres par seconde. Sa variation égale l'impulsion reçue.\n\n**Quaternion** — *quaternion*. Représentation d'une orientation en trois dimensions par quatre nombres, équivalente à une rotation d'un angle donné autour d'un axe. Ne souffre ni de singularités ni du paradoxe de Codman, au prix d'une lecture moins intuitive que les angles articulaires.\n\n## R\n\n**Raideur** — *stiffness*. Force, ou moment, nécessaire pour déformer une structure d'une unité : par exemple, pour allonger un tendon d'un millimètre. Elle dépend du matériau et de la taille de la structure. (schéma : bio015-courbes)\n\n**Randomisation** — *randomization*. Attribution de l'intervention par un procédé aléatoire.\nFondement de l'inférence causale expérimentale. (schéma : met002-chronologie)\n\n**Rapport charge aiguë-charge chronique** — *acute:chronic workload ratio (ACWR)*. Rapport entre la charge d'entraînement récente, souvent d'une semaine, et la charge moyenne des semaines précédentes. Son usage pour prévenir les blessures n'est pas étayé.\n\n**Rapport de démultiplication** — *gear ratio*. Rapport entre le déplacement de l'extrémité d'un segment et le raccourcissement du muscle qui le met en mouvement. Inverse de l'avantage mécanique.\n\n**Rapport enregistré** — *registered report*. Format éditorial où la revue accepte l'article\nsur la base du protocole, avant collecte des données, et s'engage à publier quel que soit le\nrésultat. Seul dispositif qui neutralise simultanément le tiroir du chercheur et la sélection\npar la revue.\n\n**Rapport travail-repos** — *work-to-rest ratio*. Rapport entre la durée de l'effort et celle de la récupération dans une séance par intervalles. (aussi : rapports travail-repos)\n\n**Rapport ventilation-perfusion** — *ventilation-perfusion ratio*. Rapport entre l'air qui arrive dans une région du poumon et le sang qui la traverse ; l'échange est efficace quand les deux concordent.\n\n**Récepteur** — *receptor*. Protéine qui reconnaît une molécule précise, hormone ou autre signal, et s'y lie pour déclencher une réponse de la cellule. (aussi : récepteurs) (schéma : phy008-voies)\n\n**Récepteur des androgènes** — *androgen receptor*. Récepteur situé dans la cellule, par lequel agit la testostérone. (aussi : récepteurs des androgènes) (schéma : phy009-signaux)\n\n**Recrutement** — *motor unit recruitment*. Entrée en activité d'unités motrices supplémentaires pour augmenter la force. L'un des deux leviers nerveux de la gradation de la force, avec le codage en fréquence. (aussi : recruter, recrutée, recrutées, recruté, recrutés) (blocs : 1-8) (schéma : bio010-unite-motrice)\n\n**Récupération active** — *active recovery*. Exercice léger après un effort intense, à la place du repos complet. Fait disparaître plus vite le lactate sanguin.\n\n**Réflexe H** — *H-reflex, Hoffmann reflex*. Version électrique du réflexe myotatique, obtenue en stimulant le nerf. Sert à mesurer l'excitabilité des motoneurones et la transmission des afférences Ia.\n\n**Réflexe myotatique** — *stretch reflex*. Contraction d'un muscle en réponse à son étirement, par la synapse directe entre l'afférence Ia du fuseau et ses motoneurones alpha. (aussi : réflexe d'étirement) (schéma : bio012-reflexe)\n\n**Régime cétogène** — *ketogenic diet, low-carbohydrate high-fat diet*. Alimentation très pauvre en glucides et riche en graisses. Augmente fortement l'oxydation des graisses à l'effort, sans gain de performance démontré. (aussi : cétogène)\n\n**Relation force-vitesse** — *force-velocity relationship*. Relation entre la force qu'un muscle peut produire et sa vitesse de raccourcissement : plus il va vite, moins il est fort. Hyperbolique sur muscle isolé, presque linéaire mesurée sur un geste à plusieurs articulations. (aussi : courbe force-vitesse, courbes force-vitesse) (blocs : 1-8) (schéma : bio009-force-vitesse)\n\n**Relation longueur-tension** — *length-tension relationship*. Variation de la force active d'un muscle ou d'un sarcomère avec sa longueur : en cloche, avec une branche ascendante, un plateau et une branche descendante, qui suivent le chevauchement des filaments. (schéma : bio008-courbe)\n\n**Remodelage** — *bone remodeling*. Renouvellement permanent de l'os par la résorption puis la reformation, qui règle sa densité et répare ses microdommages. (aussi : remodelage osseux) (schéma : bio014-remodelage)\n\n**Réponse individuelle** — *individual response*. Variabilité vraie de l'effet d'une\nintervention entre personnes. Presque toujours surestimée : la dispersion des changements\nobservés contient aussi l'erreur de mesure, comptée deux fois, et la variabilité biologique\nnormale. L'établir exige un groupe contrôle ou la répétition de l'intervention chez les mêmes\nsujets.\n\n**Réponse tensionnelle exagérée** — *exaggerated blood pressure response to exercise*. Hausse de la pression systolique à l'effort plus forte que la normale ; associée à davantage d'événements cardiovasculaires.\n\n**Réserve cardiaque** — *cardiac reserve*. Écart entre le débit cardiaque maximal et le débit de repos.\n\n**Résistance variable** — *variable resistance training*. Ajout d'élastiques ou de chaînes à une charge libre pour que la résistance augmente au cours du mouvement. Son avantage sur la charge constante est discuté.\n\n**RoB 2** — *revised Cochrane risk-of-bias tool for randomized trials*. Outil d'évaluation du\nrisque de biais d'un essai randomisé, structuré en cinq domaines. (schéma : met010-rob2)\n\n**Rythme scapulo-huméral** — *scapulohumeral rhythm*. Partage de l'élévation du bras entre l'humérus et l'omoplate : en moyenne 1,7° gléno-huméral pour 1° de l'omoplate. (schéma : bio019-rythme)\n\n## S\n\n**Sarcomère** — *sarcomere*. Unité contractile du muscle, segment répété bout à bout le long des myofibrilles, délimité par deux disques où s'ancrent les filaments d'actine. (schéma : bio007-hierarchie)\n\n**Sartorius** — *sartorius*. Le plus long muscle du corps : une bande fine qui traverse l'avant de la cuisse en diagonale, de la hanche au côté interne du genou. (visuel : muscles#sartorius)\n\n**Saturation en oxygène** — *oxygen saturation*. Part des sites de l'hémoglobine occupés par l'oxygène ; de 95 à 99 % chez une personne en bonne santé. (aussi : saturation) (blocs : 2)\n\n**Saut avec contre-mouvement** — *countermovement jump (CMJ)*. Saut vertical précédé d'une flexion rapide des jambes. Sa courbe force-temps se découpe en six phases : pesée, allègement, freinage, propulsion, vol, réception. (schéma : bio004-cmj)\n\n**Saut sans contre-mouvement** — *squat jump (SJ)*. Saut vertical lancé depuis une position fléchie immobile, sans flexion préalable. (aussi : sauts sans contre-mouvement)\n\n**Score de Beighton** — *Beighton score*. Test de l'hyperlaxité généralisée en neuf points ; elle est retenue à partir de 4 tests positifs.\n\n**Section physiologique** — *physiological cross-sectional area (PCSA)*. Surface obtenue en coupant toutes les fibres d'un muscle perpendiculairement à leur axe. Elle fixe la force maximale, quand la longueur des fibres fixe l'amplitude et la vitesse. (schéma : bio007-pennation)\n\n**Semi-tendineux** — *semitendinosus*. Ischio-jambier du côté interne de l'arrière de la cuisse, terminé par un long tendon. Il plie le genou et étend la hanche. (visuel : muscles#semi-tendineux)\n\n**Sensibilité au changement** — *responsiveness*. Capacité d'une mesure à détecter une\nvariation réelle. Troisième propriété métrologique, distincte de la fidélité et de la validité\n: un test peut être fidèle et valide en coupe transversale et incapable de suivre une\nprogression, si son erreur typique dépasse le changement visé.\n\n**Série de cas** — *case series*. Description détaillée de plusieurs patients ou sujets\npartageant une caractéristique, sans groupe de comparaison. Sert à signaler un phénomène et à\nformuler une hypothèse ; n'autorise aucune inférence, causale ou même associative. (schéma : met001-designs)\n\n**Seuil lactique** — *lactate threshold*. Intensité d'effort au-delà de laquelle le lactate commence à s'accumuler dans le sang. (schéma : phy005-seuils)\n\n**Significativité statistique** — *statistical significance*. Franchissement d'un seuil\nconventionnel par la valeur p. Ne renseigne ni sur l'amplitude, ni sur l'importance pratique,\nni sur la probabilité que l'effet soit réel.\n\n**Soléaire** — *soleus*. Muscle du mollet placé sous le gastrocnémien, dont il dépasse de chaque côté. Il ne croise que la cheville, qu'il tend même genou plié. (visuel : muscles#soleaire)\n\n**Sommation** — *summation*. Addition des secousses d'une fibre quand les influx arrivent avant qu'elle ne se relâche ; à fréquence élevée, la contraction devient continue et maximale. (blocs : 1-8)\n\n**Sous-épineux** — *infraspinatus*. Muscle de la coiffe des rotateurs qui couvre l'omoplate sous son épine. Il tourne le bras vers l'extérieur. (visuel : muscles#sous-epineux)\n\n**Sous-scapulaire** — *subscapularis*. Muscle de la coiffe des rotateurs logé sur la face avant de l'omoplate, contre les côtes : on ne le voit pas de dos. Il tourne le bras vers l'intérieur. (visuel : muscles#sous-scapulaire)\n\n**Squat avant** — *front squat*. Squat où la barre repose sur l'avant des épaules : moins de compression et de moment au genou que le squat arrière.\n\n**Stabilisateur** — *stabilizer*. Muscle qui immobilise un segment pour donner à l'agoniste un appui solide. (aussi : stabilisateurs)\n\n**Supination** — *supination*. Rotation de l'avant-bras qui tourne la paume vers l'avant, bras le long du corps. Aux tractions, la prise en supination place les paumes vers soi. (schéma : bio001-plans)\n\n**Surmenage fonctionnel** — *functional overreaching*. Baisse passagère de performance après une surcharge, suivie d'une amélioration après récupération.\n\n**Surmenage non fonctionnel** — *non-functional overreaching*. Baisse de performance qui dure, quand l'équilibre entre entraînement et récupération n'est pas respecté.\n\n**Sus-épineux** — *supraspinatus*. Muscle de la coiffe situé au-dessus de l'épine de l'omoplate ; son tendon passe sous l'acromion. (visuel : muscles#sus-epineux)\n\n**Syndrome de surentraînement** — *overtraining syndrome*. Mauvaise adaptation prolongée à l'entraînement, plus sévère que le surmenage ; son diagnostic se fait par exclusion.\n\n**Synergiste** — *synergist*. Muscle qui aide l'agoniste à produire le mouvement. (aussi : synergistes)\n\n**Système de coordonnées articulaires** — *joint coordinate system*. Repère attaché aux deux os d'une articulation, qui définit les angles autour d'axes précis et rend leur valeur indépendante de l'ordre des rotations. Normalisé articulation par articulation par la Société internationale de biomécanique.\n\n**Système énergétique** — *energy system*. Ensemble des réactions qui reconstituent l'ATP : phosphagènes, glycolyse, voie oxydative. Les trois fonctionnent simultanément, dans des proportions qui dépendent de l'intensité et de la durée. (aussi : systèmes énergétiques)\n\n## T\n\n**Taille d'effet** — *effect size*. Mesure de l'amplitude d'un effet, indépendante de la taille\nde l'échantillon. Les seuils d'interprétation usuels — petit, moyen, grand — sont des\nconventions sans validité universelle. (schéma : met004-formules)\n\n**Taux de développement de la force** — *rate of force development (RFD)*. Pente de la courbe force-temps, en newtons par seconde. Mesure la capacité à produire de la force vite, qualité distincte de la force maximale. (aussi : RFD) (schéma : bio004-rfd)\n\n**Témoin apparié sur le volume** — *volume-matched control*. Groupe de comparaison recevant la\nmême quantité totale d'entraînement que le groupe expérimental, seule la variable étudiée\ndifférant. C'est le seul montage qui isole réellement un ingrédient de l'entraînement ; son\nabsence est la limite la plus fréquente de la littérature en programmation.\n\n**Tendinopathie** — *tendinopathy*. Atteinte douloureuse d'un tendon, liée à la surcharge. (aussi : tendinopathies)\n\n**Tendon** — *tendon*. Tissu de collagène qui relie un muscle à un os et lui transmet la force du muscle. Il se comporte comme un ressort raide. (aussi : tendons) (schéma : bio015-structure)\n\n**Tendon d'Achille** — *Achilles tendon*. Tendon qui relie le triceps sural au talon et transmet au pied la force du mollet. (aussi : tendons d'Achille) (visuel : muscles#achille)\n\n**Test d'Egger** — *Egger's test*. Test de régression évaluant l'asymétrie d'un funnel plot.\nUne asymétrie significative est compatible avec un biais de publication, mais aussi avec une\nhétérogénéité liée à la taille des études, une différence de qualité, ou le hasard quand les\nétudes sont peu nombreuses.\n\n**Test d'équivalence** — *equivalence test, TOST*. Procédure inversant la charge de la preuve :\nau lieu de tester l'hypothèse d'un effet nul, elle teste l'hypothèse d'un effet situé en dehors\nd'une zone d'équivalence bornée par le plus petit changement digne d'intérêt. Lecture graphique\n: si l'intervalle de confiance tient entièrement dans la zone, l'équivalence est établie. Seule\nfaçon de conclure qu'un effet est trop petit pour compter.\n\n**Testostérone** — *testosterone*. Hormone stéroïde androgène. Dans le muscle, elle stimule la synthèse des protéines et freine leur dégradation.\n\n**Tibial antérieur** — *tibialis anterior*. Muscle de l'avant de la jambe, le long du tibia. Il relève la pointe du pied (flexion dorsale). (visuel : muscles#tibial-ant)\n\n**Tirage vertical** — *lat pull-down*. Exercice à la poulie haute où l'on tire une barre vers le haut de la poitrine.\n\n**Tolérance à l'étirement** — *stretch tolerance*. Capacité à supporter un étirement plus poussé avant de l'arrêter. Principale explication du gain d'amplitude obtenu par l'étirement régulier.\n\n**Transitivité** — *transitivity*. Hypothèse propre aux méta-analyses en réseau : les essais\ncomparant A à B et ceux comparant B à C doivent être suffisamment semblables sur tout le reste\npour qu'on puisse en déduire la comparaison entre A et C. Elle est forte et rarement\nvérifiable.\n\n**Transversale (étude)** — *cross-sectional study*. Mesure simultanée d'une exposition et d'un\nrésultat. Ambiguïté temporelle irréductible.\n\n**Trapèze** — *trapezius*. Grand muscle en losange de la nuque et du haut du dos, en trois parties : supérieure (hausse les épaules), moyenne (rapproche les omoplates), inférieure (les abaisse). (aussi : trapèzes) (visuel : muscles#trapeze-sup+trapeze-moy+trapeze-inf)\n\n**Trapèze inférieur** — *lower trapezius*. Partie basse du trapèze, en pointe vers le milieu du dos. Elle abaisse l'omoplate et l'aide à tourner vers le haut. (visuel : muscles#trapeze-inf)\n\n**Travail mécanique** — *mechanical work*. Produit d'une force par le déplacement dans sa direction, en joules. Négatif quand le muscle freine et nul sur une répétition complète, ce qui en fait une mauvaise mesure de l'effort.\n\n**Triceps brachial** — *triceps brachii*. Muscle de l'arrière du bras, à trois chefs (long, latéral, médial), qui étend le coude ; le chef long croise aussi l'épaule. (aussi : triceps) (visuel : muscles#triceps-long+triceps-lat)\n\n**Triceps sural** — *triceps surae*. Le muscle du mollet : les deux chefs du gastrocnémien et le soléaire, réunis par le tendon d'Achille. Il tend la cheville. (aussi : mollet, mollets) (visuel : muscles#gastrocnemien+soleaire)\n\n**Triglycérides** — *triglycerides*. Forme de stockage des graisses, dans le tissu adipeux et dans le muscle. (aussi : triglycéride) (schéma : phy004-reserves)\n\n**Triple extension** — *triple extension*. Extension simultanée de la hanche, du genou et de la cheville, commune au saut et au deuxième tirage des mouvements d'haltérophilie.\n\n**Typologie musculaire** — *muscle fiber typology*. Proportion de fibres lentes et rapides d'une personne. Estimable sans biopsie par spectroscopie, méthode encore en validation. (aussi : typologie)\n\n## U\n\n**Unité motrice** — *motor unit*. Un motoneurone et l'ensemble des fibres musculaires qu'il commande. Unité élémentaire de la gradation de la force. (aussi : unités motrices) (schéma : bio010-unite-motrice)\n\n**Unités multicellulaires de base** — *basic multicellular units*. Groupes temporaires d'ostéoclastes et d'ostéoblastes qui renouvellent chacun une petite zone d'os. (aussi : unité multicellulaire de base, unité de remodelage, unités de remodelage) (schéma : bio014-remodelage)\n\n## V\n\n**Valeur p** — *p-value*. Probabilité d'observer un écart au moins aussi grand que celui\nobtenu, si l'hypothèse nulle **et l'ensemble des autres hypothèses du modèle** étaient vraies.\nCe n'est ni la probabilité que l'hypothèse nulle soit vraie, ni la probabilité que le résultat\nsoit dû au hasard, ni une mesure de l'importance de l'effet. (aussi : valeurs p) (schéma : met003-conditionnement)\n\n**Validité concourante** — *concurrent validity*. Accord d'un test avec une référence mesurée\nau même moment. N'implique jamais la validité prédictive, qui porte sur un événement futur.\nConclure de l'une à l'autre est le contresens le plus documenté du domaine.\n\n**Validité externe** — *external validity*, *generalizability*. Degré auquel un résultat\ns'applique à d'autres populations, contextes ou protocoles que ceux étudiés.\n\n**Validité interne** — *internal validity*. Degré auquel le résultat observé reflète bien\nl'effet de l'intervention dans l'étude considérée, en l'absence de biais.\n\n**Validité prédictive** — *predictive validity*. Capacité d'un test à annoncer un événement\nfutur. Se démontre par un suivi prospectif, jamais par une corrélation transversale, et dépend\nfortement de la fréquence de l'événement visé.\n\n**Valve** — *valve*. Dans le cœur ou les veines, clapet qui empêche le sang de refluer. (schéma : phy012-coeur)\n\n**Vaste latéral** — *vastus lateralis*. Chef du quadriceps sur le côté externe de la cuisse, le plus volumineux des quatre. (visuel : muscles#vaste-lat)\n\n**Vaste médial** — *vastus medialis*. Chef du quadriceps du côté interne, qui forme le renflement en goutte au-dessus du genou. (visuel : muscles#vaste-med)\n\n**Vastes** — *vasti*. Les trois chefs du quadriceps qui ne croisent que le genou : vaste latéral, vaste médial et vaste intermédiaire. (blocs : 1) (visuel : muscles#vaste-lat+vaste-med)\n\n**Veine** — *vein*. Vaisseau qui ramène le sang au cœur ; à paroi fine, il sert de réservoir. (schéma : phy012-vaisseaux)\n\n**Ventricule** — *ventricle*. Cavité inférieure du cœur, qui éjecte le sang. (schéma : phy012-coeur)\n\n**Vitesse angulaire** — *angular velocity*. Vitesse de rotation d'un segment, en radians par seconde, la même pour tous ses points. La vitesse linéaire d'un point vaut ω · r, d'où l'intérêt des segments longs pour la vitesse.\n\n**Voie oxydative** — *oxidative phosphorylation*. Production d'ATP dans les mitochondries par l'oxydation complète des glucides et des graisses grâce à l'oxygène. Capacité immense, débit maximal plus faible que les voies anaérobies. (aussi : phosphorylation oxydative) (schéma : phy001-cellule)\n\n**Volume d'éjection systolique** — *stroke volume*. Volume de sang éjecté par un ventricule à chaque battement, de 60 à 100 mL au repos. (aussi : volume d'éjection, volumes d'éjection) (schéma : phy014-reponses)\n\n## Z\n\n**Zone d'équivalence** — *equivalence bounds*. Intervalle centré sur zéro et borné par le plus\npetit changement digne d'intérêt, à l'intérieur duquel un effet est jugé sans conséquence\npratique. Doit être fixée avant l'analyse. (schéma : met006-equivalence)\n\n**Zone de conduction** — *conducting zone*. Partie des voies respiratoires qui achemine l'air sans échange gazeux, de la cavité nasale à la plupart des bronchioles ; elle le filtre, le réchauffe et l'humidifie. (schéma : phy013-zones)\n\n**Zone respiratoire** — *respiratory zone*. Partie des poumons où se font les échanges gazeux : les dernières bronchioles et les alvéoles.\n (schéma : phy013-zones)"
   },
   {
    "id": "dco",
@@ -15781,7 +15781,8 @@ window.SOCLE = {
     "Acétyl-CoAs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy004-mitochondrie"
   },
   {
    "terme": "Acides gras",
@@ -15791,7 +15792,8 @@ window.SOCLE = {
     "acide gras"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Acidose",
@@ -15802,7 +15804,8 @@ window.SOCLE = {
     "Acidoses"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Acromion",
@@ -15812,7 +15815,8 @@ window.SOCLE = {
     "Acromions"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio019-complexe"
   },
   {
    "terme": "ACTH",
@@ -15822,7 +15826,8 @@ window.SOCLE = {
     "ACTHs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy011-axes"
   },
   {
    "terme": "Actine",
@@ -15832,7 +15837,8 @@ window.SOCLE = {
     "Actines"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio008-courbe"
   },
   {
    "terme": "Action concentrique",
@@ -15843,7 +15849,8 @@ window.SOCLE = {
     "concentriques"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio009-force-vitesse"
   },
   {
    "terme": "Action excentrique",
@@ -15854,7 +15861,8 @@ window.SOCLE = {
     "excentriques"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio009-force-vitesse"
   },
   {
    "terme": "Adducteurs",
@@ -15870,7 +15878,8 @@ window.SOCLE = {
      "adducteurs",
      "gracile"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Adrénaline",
@@ -15880,7 +15889,8 @@ window.SOCLE = {
     "Adrénalines"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy011-axes"
   },
   {
    "terme": "Afférence Ia",
@@ -15890,7 +15900,8 @@ window.SOCLE = {
     "afférences Ia"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio012-capteurs"
   },
   {
    "terme": "Afférence Ib",
@@ -15900,7 +15911,8 @@ window.SOCLE = {
     "afférences Ib"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio012-capteurs"
   },
   {
    "terme": "Agoniste",
@@ -15911,7 +15923,8 @@ window.SOCLE = {
     "Agonistes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio013-coactivation"
   },
   {
    "terme": "Allégation",
@@ -15921,7 +15934,8 @@ window.SOCLE = {
     "Allégations"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Allocation dissimulée",
@@ -15929,7 +15943,8 @@ window.SOCLE = {
    "def": "Procédure garantissant que la personne qui inclut un participant ne peut pas connaître à l'avance le groupe qui lui sera attribué. Distinct de l'aveugle, qui intervient après l'inclusion. Son absence permet une sélection consciente ou non des participants selon le groupe.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Alvéole",
@@ -15940,7 +15955,8 @@ window.SOCLE = {
     "Alvéoles"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy013-zones"
   },
   {
    "terme": "Analyse de sensibilité",
@@ -15948,7 +15964,8 @@ window.SOCLE = {
    "def": "Réexécution d'une analyse en modifiant un choix méthodologique, pour vérifier si la conclusion y survit. Le test le plus informatif d'une méta-analyse.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Analyse en intention de traiter",
@@ -15956,7 +15973,8 @@ window.SOCLE = {
    "def": "Analyse des participants dans le groupe auquel ils ont été attribués, indépendamment de leur adhérence effective. Préserve la comparabilité produite par la randomisation, au prix d'une dilution de l'effet.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Analyse per protocole",
@@ -15964,7 +15982,8 @@ window.SOCLE = {
    "def": "Analyse restreinte aux participants ayant effectivement suivi le protocole. Elle répond à une question légitime — que produit le programme quand on le fait — mais elle sélectionne sur une variable postérieure à l'attribution, ce qui rompt la comparabilité produite par le tirage au sort. À lire toujours en regard de l'analyse en intention de traiter.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Angle alpha",
@@ -15972,7 +15991,8 @@ window.SOCLE = {
    "def": "Angle, mesuré en imagerie, entre l'axe du col du fémur et le point où la tête cesse d'être ronde. Il chiffre la déformation en came.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Angle de pennation",
@@ -15982,7 +16002,8 @@ window.SOCLE = {
     "pennation"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio007-pennation"
   },
   {
    "terme": "Antagoniste",
@@ -15993,7 +16014,8 @@ window.SOCLE = {
     "Antagonistes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio013-coactivation"
   },
   {
    "terme": "Antéversion",
@@ -16003,7 +16025,8 @@ window.SOCLE = {
     "Antéversions"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio016-anteversion"
   },
   {
    "terme": "Aponévrose",
@@ -16013,7 +16036,8 @@ window.SOCLE = {
     "Aponévroses"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Architecture musculaire",
@@ -16021,7 +16045,8 @@ window.SOCLE = {
    "def": "Agencement des fibres à l'intérieur d'un muscle : longueur des fibres, angle de pennation, section physiologique. Elle détermine la fonction du muscle davantage que son volume.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio007-hierarchie"
   },
   {
    "terme": "Arraché",
@@ -16031,7 +16056,8 @@ window.SOCLE = {
     "Arrachés"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Artériole",
@@ -16041,7 +16067,8 @@ window.SOCLE = {
     "Artérioles"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy012-vaisseaux"
   },
   {
    "terme": "Arthrose",
@@ -16051,7 +16078,8 @@ window.SOCLE = {
     "Arthroses"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Articulation gléno-humérale",
@@ -16059,7 +16087,8 @@ window.SOCLE = {
    "def": "Articulation entre la glène de l'omoplate et la tête de l'humérus.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Articulation scapulo-thoracique",
@@ -16067,7 +16096,8 @@ window.SOCLE = {
    "def": "Glissement de l'omoplate sur les côtes. Sans cartilage ni capsule, ce n'est pas une vraie articulation.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio019-complexe"
   },
   {
    "terme": "Articulation synoviale",
@@ -16077,7 +16107,8 @@ window.SOCLE = {
     "articulations synoviales"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Association",
@@ -16087,7 +16118,8 @@ window.SOCLE = {
     "Associations"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "ATP",
@@ -16098,7 +16130,8 @@ window.SOCLE = {
     "ATPs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy001-cellule"
   },
   {
    "terme": "ATP synthase",
@@ -16106,7 +16139,8 @@ window.SOCLE = {
    "def": "Enzyme de la membrane interne de la mitochondrie qui fabrique l'ATP en utilisant le gradient de protons créé par la chaîne respiratoire.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy004-mitochondrie"
   },
   {
    "terme": "Autocrine",
@@ -16116,7 +16150,8 @@ window.SOCLE = {
     "Autocrines"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy008-modes"
   },
   {
    "terme": "Autorythmicité",
@@ -16126,7 +16161,8 @@ window.SOCLE = {
     "Autorythmicités"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Avantage mécanique",
@@ -16134,7 +16170,8 @@ window.SOCLE = {
    "def": "Rapport du bras de levier de la force motrice à celui de la résistance. Inférieur à 1 dans la plupart des articulations des membres : le muscle produit alors plus de force que la charge ne pèse, en échange de vitesse et d'amplitude.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio003-arcs"
   },
   {
    "terme": "Aveugle",
@@ -16144,7 +16181,8 @@ window.SOCLE = {
     "Aveugles"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met002-chronologie"
   },
   {
    "terme": "Axe hypothalamo-hypophyso-surrénalien",
@@ -16152,7 +16190,8 @@ window.SOCLE = {
    "def": "Cascade CRH, ACTH, cortisol : la réponse hormonale lente au stress.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Barre basse",
@@ -16160,7 +16199,8 @@ window.SOCLE = {
    "def": "Squat où la barre repose plus bas, sur l'arrière des épaules : tronc plus penché, plus de travail de la hanche et du dos.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio017-barres"
   },
   {
    "terme": "Barre haute",
@@ -16168,7 +16208,8 @@ window.SOCLE = {
    "def": "Squat où la barre repose sur le haut des trapèzes : tronc plus droit, plus de travail du quadriceps.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio017-barres"
   },
   {
    "terme": "Barre hexagonale",
@@ -16176,7 +16217,8 @@ window.SOCLE = {
    "def": "Barre en forme de cadre dans lequel on se tient ; elle rapproche la charge du corps et réduit les moments au bas du dos, à la hanche et à la cheville.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio018-hexagonale"
   },
   {
    "terme": "Base d'appui",
@@ -16184,7 +16226,8 @@ window.SOCLE = {
    "def": "Polygone qui englobe toutes les surfaces en contact avec le sol. Le centre de pression ne peut se trouver qu'à l'intérieur.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio005-xcom"
   },
   {
    "terme": "Bêta-oxydation",
@@ -16194,7 +16237,8 @@ window.SOCLE = {
     "Bêta-oxydations"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy004-mitochondrie"
   },
   {
    "terme": "Biais",
@@ -16202,7 +16246,8 @@ window.SOCLE = {
    "def": "Erreur systématique, qui ne diminue pas avec la taille de l'échantillon. À distinguer strictement de l'erreur aléatoire.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Biais de confusion",
@@ -16214,7 +16259,8 @@ window.SOCLE = {
     "confusion résiduelle"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Biais de publication",
@@ -16222,7 +16268,8 @@ window.SOCLE = {
    "def": "Tendance des résultats positifs et significatifs à être publiés plus souvent et plus vite que les résultats nuls. Produit une littérature qui surestime les effets.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met009-entonnoir"
   },
   {
    "terme": "Biceps brachial",
@@ -16237,7 +16284,8 @@ window.SOCLE = {
     "ids": [
      "biceps"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Biceps fémoral",
@@ -16250,7 +16298,8 @@ window.SOCLE = {
     "ids": [
      "biceps-femoral"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Biopsie musculaire",
@@ -16261,7 +16310,8 @@ window.SOCLE = {
     "biopsies"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio011-mosaique"
   },
   {
    "terme": "Blessure de surmenage",
@@ -16271,7 +16321,8 @@ window.SOCLE = {
     "blessures de surmenage"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Bourrelet",
@@ -16282,7 +16333,8 @@ window.SOCLE = {
     "Bourrelets"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio016-hanche"
   },
   {
    "terme": "Brachio-radial",
@@ -16297,7 +16349,8 @@ window.SOCLE = {
     "ids": [
      "brachio-radial"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Bras de levier",
@@ -16305,7 +16358,8 @@ window.SOCLE = {
    "def": "Distance perpendiculaire entre la ligne d'action d'une force et l'axe de rotation. Celui d'un muscle n'est pas une constante : il varie avec l'angle articulaire, avec l'intensité de la contraction et d'une personne à l'autre.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio002-curl"
   },
   {
    "terme": "Calorimétrie indirecte",
@@ -16313,7 +16367,8 @@ window.SOCLE = {
    "def": "Estimation des carburants brûlés à partir de l'oxygène consommé et du dioxyde de carbone rejeté. Moins fiable aux intensités élevées.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Capacité anaérobie",
@@ -16321,7 +16376,8 @@ window.SOCLE = {
    "def": "Quantité totale d'énergie que les voies anaérobies peuvent fournir lors d'un effort épuisant, souvent estimée par le déficit en oxygène accumulé maximal.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Capillaire",
@@ -16331,7 +16387,8 @@ window.SOCLE = {
     "Capillaires"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy012-vaisseaux"
   },
   {
    "terme": "Cartilage articulaire",
@@ -16339,7 +16396,8 @@ window.SOCLE = {
    "def": "Tissu lisse qui recouvre les surfaces osseuses d'une articulation synoviale. Il s'amincit sans charge mais ne s'épaissit pas avec une charge élevée.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio016-hanche"
   },
   {
    "terme": "Catécholamines",
@@ -16349,7 +16407,8 @@ window.SOCLE = {
     "catécholamine"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Ceinture de force",
@@ -16359,7 +16418,8 @@ window.SOCLE = {
     "ceinture"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Centre de gravité",
@@ -16369,7 +16429,8 @@ window.SOCLE = {
     "centre de masse"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio005-pendule"
   },
   {
    "terme": "Centre de masse extrapolé",
@@ -16377,7 +16438,8 @@ window.SOCLE = {
    "def": "Position du centre de gravité augmentée de sa vitesse multipliée par √(l / g), l étant la longueur de jambe. En mouvement, c'est lui, et non le centre de gravité, qui doit rester au-dessus de la base d'appui.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio005-xcom"
   },
   {
    "terme": "Centre de pression",
@@ -16385,7 +16447,8 @@ window.SOCLE = {
    "def": "Point d'application de la résultante des forces que le sol exerce sur les pieds. Toujours dans la base d'appui ; en le déplaçant, le corps pilote son centre de gravité.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio005-pendule"
   },
   {
    "terme": "Chaîne lourde",
@@ -16396,7 +16459,8 @@ window.SOCLE = {
     "chaînes lourdes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Chaîne respiratoire",
@@ -16404,7 +16468,8 @@ window.SOCLE = {
    "def": "Ensemble de protéines de la membrane interne de la mitochondrie qui conduit les électrons jusqu'à l'oxygène et crée le gradient de protons utilisé par l'ATP synthase.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy004-mitochondrie"
   },
   {
    "terme": "Charge lourde et lente",
@@ -16412,7 +16477,8 @@ window.SOCLE = {
    "def": "Programme de musculation à charges lourdes et mouvements lents ; une option aussi efficace que l'excentrique dans la tendinopathie d'Achille.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Chef claviculaire",
@@ -16425,7 +16491,8 @@ window.SOCLE = {
     "ids": [
      "pectoral-clav"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Chef sternocostal",
@@ -16438,7 +16505,8 @@ window.SOCLE = {
     "ids": [
      "pectoral-stern"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Chirurgie placebo",
@@ -16446,7 +16514,8 @@ window.SOCLE = {
    "def": "Intervention qui reproduit l'opération sans en réaliser le geste actif, pour isoler l'effet propre de ce geste.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Cinématique",
@@ -16456,7 +16525,8 @@ window.SOCLE = {
     "Cinématiques"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Cinétique",
@@ -16466,7 +16536,8 @@ window.SOCLE = {
     "Cinétiques"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Circulation coronaire",
@@ -16474,7 +16545,8 @@ window.SOCLE = {
    "def": "Vaisseaux qui irriguent le muscle cardiaque lui-même.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Circulation pulmonaire",
@@ -16482,7 +16554,8 @@ window.SOCLE = {
    "def": "Circuit qui va du ventricule droit aux poumons et revient à l'oreillette gauche.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Circulation systémique",
@@ -16490,7 +16563,8 @@ window.SOCLE = {
    "def": "Circuit qui va du ventricule gauche à tout le corps et revient à l'oreillette droite.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Classes de levier",
@@ -16502,7 +16576,8 @@ window.SOCLE = {
     "levier du troisième genre"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio003-classes"
   },
   {
    "terme": "Cocontraction",
@@ -16512,7 +16587,8 @@ window.SOCLE = {
     "Cocontractions"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Codage en fréquence",
@@ -16529,7 +16605,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Cohorte prospective",
@@ -16537,7 +16614,8 @@ window.SOCLE = {
    "def": "Suivi dans le temps de sujets classés selon leur exposition. Résout l'ambiguïté temporelle, reste exposé à la confusion.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met001-designs"
   },
   {
    "terme": "Coiffe des rotateurs",
@@ -16553,7 +16631,8 @@ window.SOCLE = {
      "petit-rond",
      "sous-scapulaire"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Collagène",
@@ -16563,7 +16642,8 @@ window.SOCLE = {
     "Collagènes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio015-structure"
   },
   {
    "terme": "Composante prolongée",
@@ -16571,7 +16651,8 @@ window.SOCLE = {
    "def": "Partie de la consommation d'oxygène post-exercice qui peut durer des heures après un effort important, liée notamment au métabolisme des graisses.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy007-courbe"
   },
   {
    "terme": "Composante rapide",
@@ -16579,7 +16660,8 @@ window.SOCLE = {
    "def": "Partie de la consommation d'oxygène post-exercice qui recharge l'oxygène, l'ATP et la phosphocréatine dans les minutes qui suivent l'effort.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy007-courbe"
   },
   {
    "terme": "Compression dans la concavité",
@@ -16587,7 +16669,8 @@ window.SOCLE = {
    "def": "Mécanisme de stabilité de l'épaule : les muscles de la coiffe plaquent la tête humérale dans le creux de la glène.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Conflit d'intérêts",
@@ -16595,7 +16678,8 @@ window.SOCLE = {
    "def": "Situation où un intérêt secondaire — financier, professionnel ou intellectuel — peut influer sur un jugement scientifique. C'est une situation, pas un comportement : les mécanismes par lesquels il agit opèrent en grande partie sans intention. Les conflits non financiers, non déclarables, sont probablement les plus actifs en sciences de l'exercice.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Conflit fémoro-acétabulaire",
@@ -16603,7 +16687,8 @@ window.SOCLE = {
    "def": "Contact anormal entre le col du fémur et le bord du cotyle, avant la fin du mouvement, lié à une came ou à une pince.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Conflit sous-acromial",
@@ -16611,7 +16696,8 @@ window.SOCLE = {
    "def": "Étiquette donnée aux douleurs attribuées à un frottement sous l'acromion ; une hypothèse clinique plus qu'une cause démontrée.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Consommation d'oxygène post-exercice",
@@ -16619,7 +16705,8 @@ window.SOCLE = {
    "def": "Surplus d'oxygène consommé après l'effort, au-dessus de la valeur de repos. Il comprend une composante rapide et une composante prolongée.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy007-courbe"
   },
   {
    "terme": "Consommation maximale d'oxygène",
@@ -16629,7 +16716,8 @@ window.SOCLE = {
     "consommation maximale"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "CONSORT",
@@ -16639,7 +16727,8 @@ window.SOCLE = {
     "CONSORTs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Contenu minéral osseux",
@@ -16647,7 +16736,8 @@ window.SOCLE = {
    "def": "Quantité totale de minéral d'un os ou d'une région, sans rapport à sa taille.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Contraction balistique",
@@ -16667,7 +16757,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Contraction isométrique",
@@ -16675,7 +16766,8 @@ window.SOCLE = {
    "def": "Contraction sans mouvement articulaire : le muscle produit de la force sans que l'angle change. Format de référence pour mesurer la force maximale et le taux de développement de la force.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Contrainte",
@@ -16688,7 +16780,8 @@ window.SOCLE = {
    "blocs": [
     1
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio015-courbes"
   },
   {
    "terme": "Corticosurrénale",
@@ -16698,7 +16791,8 @@ window.SOCLE = {
     "Corticosurrénales"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy011-axes"
   },
   {
    "terme": "Cortisol",
@@ -16708,7 +16802,8 @@ window.SOCLE = {
     "Cortisols"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy011-axes"
   },
   {
    "terme": "Cotyle",
@@ -16718,7 +16813,8 @@ window.SOCLE = {
     "Cotyles"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio016-hanche"
   },
   {
    "terme": "Courbatures",
@@ -16728,7 +16824,8 @@ window.SOCLE = {
     "courbature"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Courbe de force",
@@ -16738,7 +16835,8 @@ window.SOCLE = {
     "courbes de force"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Courbe force-temps",
@@ -16746,7 +16844,8 @@ window.SOCLE = {
    "def": "Enregistrement de la force produite en fonction du temps, typiquement sur plateforme de force. Sa pente donne le taux de développement de la force, son aire l'impulsion.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Créatine kinase",
@@ -16754,7 +16853,8 @@ window.SOCLE = {
    "def": "Enzyme qui transfère le phosphate de la phosphocréatine à l'ADP pour reformer de l'ATP, et réalise la réaction inverse au repos.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "CRH",
@@ -16764,7 +16864,8 @@ window.SOCLE = {
     "CRHs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy011-axes"
   },
   {
    "terme": "Critère de jugement",
@@ -16772,7 +16873,8 @@ window.SOCLE = {
    "def": "Grandeur mesurée pour évaluer l'effet. Un critère **principal** est préspécifié et unique ; les critères secondaires ne peuvent pas fonder la conclusion principale.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Cycle de Krebs",
@@ -16780,7 +16882,8 @@ window.SOCLE = {
    "def": "Suite de réactions de la mitochondrie qui oxyde l'acétyl-CoA et charge des transporteurs d'électrons, surtout le NADH.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Cycle étirement-raccourcissement",
@@ -16790,7 +16893,8 @@ window.SOCLE = {
     "cycles étirement-raccourcissement"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Cycle triglycérides-acides gras",
@@ -16798,7 +16902,8 @@ window.SOCLE = {
    "def": "Dégradation des triglycérides en acides gras, suivie de leur reconstitution ; ce cycle consomme de l'énergie.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "d de Cohen",
@@ -16806,7 +16911,8 @@ window.SOCLE = {
    "def": "Écart entre deux moyennes divisé par une mesure de dispersion, exprimant l'effet en unités d'écart-type. Sa valeur dépend autant de la dispersion de l'échantillon que de l'effet lui-même : un même gain réel produit un d plus grand dans une population homogène. Toujours demander ce qui figure au dénominateur.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met004-formules"
   },
   {
    "terme": "Débit cardiaque",
@@ -16814,7 +16920,8 @@ window.SOCLE = {
    "def": "Volume de sang éjecté par le cœur par minute : volume d'éjection multiplié par la fréquence cardiaque.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Décompression sous-acromiale",
@@ -16822,7 +16929,8 @@ window.SOCLE = {
    "def": "Opération qui retire de l'os et des tissus sous l'acromion. Elle ne fait pas mieux qu'une chirurgie placebo.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Déficit en oxygène",
@@ -16830,7 +16938,8 @@ window.SOCLE = {
    "def": "Écart entre l'oxygène qu'aurait exigé un effort et celui réellement consommé ; méthode la plus utilisée pour estimer la part anaérobie d'un effort maximal.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy007-courbe"
   },
   {
    "terme": "Déformation en came",
@@ -16838,7 +16947,8 @@ window.SOCLE = {
    "def": "Bosse à la jonction de la tête et du col du fémur : la tête n'est pas tout à fait ronde. Fréquente sans symptôme, surtout chez les athlètes.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio016-came-pince"
   },
   {
    "terme": "Déformation en pince",
@@ -16846,7 +16956,8 @@ window.SOCLE = {
    "def": "Cotyle qui recouvre trop la tête du fémur.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio016-came-pince"
   },
   {
    "terme": "Degré de liberté",
@@ -16865,7 +16976,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Degrés de liberté du chercheur",
@@ -16873,7 +16985,8 @@ window.SOCLE = {
    "def": "Ensemble des décisions analytiques laissées au libre choix de l'analyste et non déclarées. Portent le taux de faux positifs bien au-delà du seuil nominal.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Deltoïde",
@@ -16891,7 +17004,8 @@ window.SOCLE = {
      "deltoide-moy",
      "deltoide-post"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Deltoïde antérieur",
@@ -16904,7 +17018,8 @@ window.SOCLE = {
     "ids": [
      "deltoide-ant"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Deltoïde moyen",
@@ -16917,7 +17032,8 @@ window.SOCLE = {
     "ids": [
      "deltoide-moy"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Deltoïde postérieur",
@@ -16930,7 +17046,8 @@ window.SOCLE = {
     "ids": [
      "deltoide-post"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Demi-temps de recharge",
@@ -16940,7 +17057,8 @@ window.SOCLE = {
     "demi-temps"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Densité minérale",
@@ -16950,7 +17068,8 @@ window.SOCLE = {
     "densité minérale osseuse"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Dentelé antérieur",
@@ -16963,7 +17082,8 @@ window.SOCLE = {
     "ids": [
      "dentele"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Dérive cardiovasculaire",
@@ -16971,7 +17091,8 @@ window.SOCLE = {
    "def": "Pendant un effort prolongé à intensité constante, baisse progressive du volume d'éjection et hausse de la fréquence cardiaque, après 10 à 20 minutes.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Dérivé de tirage",
@@ -16981,7 +17102,8 @@ window.SOCLE = {
     "dérivés de tirage"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Dette d'oxygène",
@@ -16989,7 +17111,8 @@ window.SOCLE = {
    "def": "Ancien nom de la consommation d'oxygène post-exercice, lié à l'hypothèse, jugée trop simple, d'un remboursement par l'élimination du lactate.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Différence artério-veineuse",
@@ -16997,7 +17120,8 @@ window.SOCLE = {
    "def": "Quantité d'oxygène retirée du sang par les tissus, entre le sang artériel et le sang veineux.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy005-fick"
   },
   {
    "terme": "Différence d'ions forts",
@@ -17005,7 +17129,8 @@ window.SOCLE = {
    "def": "Approche physico-chimique de l'équilibre acide-base, qui explique le pH par l'équilibre des ions chargés plutôt que par le compte des protons.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Différence moyenne standardisée",
@@ -17013,7 +17138,8 @@ window.SOCLE = {
    "def": ", SMD. Différence entre groupes exprimée en écarts-types, permettant l'agrégation d'études employant des échelles différentes. Le *d* de Cohen et le *g* de Hedges en sont deux variantes.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Distance acromio-humérale",
@@ -17021,7 +17147,8 @@ window.SOCLE = {
    "def": "Plus courte distance entre l'acromion et l'humérus ; elle mesure l'espace sous-acromial.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Distance biacromiale",
@@ -17029,7 +17156,8 @@ window.SOCLE = {
    "def": "Largeur des épaules, d'un acromion à l'autre ; elle sert à exprimer la largeur de prise.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Dose-réponse",
@@ -17039,7 +17167,8 @@ window.SOCLE = {
     "Dose-réponses"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Doublet",
@@ -17059,7 +17188,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Droit fémoral",
@@ -17072,7 +17202,8 @@ window.SOCLE = {
     "ids": [
      "droit-femoral"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Dynamique inverse",
@@ -17080,7 +17211,8 @@ window.SOCLE = {
    "def": "Calcul des forces et des moments nets aux articulations à partir des mouvements mesurés et des forces extérieures, en remontant des effets aux causes. Donne des moments nets, pas la force de chaque muscle.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Dyskinésie scapulaire",
@@ -17088,7 +17220,8 @@ window.SOCLE = {
    "def": "Mouvement ou position anormale de l'omoplate, fréquente avec ou sans douleur.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Économie de course",
@@ -17096,7 +17229,8 @@ window.SOCLE = {
    "def": "Consommation d'oxygène à une vitesse de course donnée. Plus elle est basse, plus le coureur est économe.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Effet Bohr",
@@ -17104,7 +17238,8 @@ window.SOCLE = {
    "def": "Baisse de l'affinité de l'hémoglobine pour l'oxygène quand le pH baisse : le sang plus acide du muscle actif y libère davantage d'oxygène.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Effet du tiroir",
@@ -17112,7 +17247,8 @@ window.SOCLE = {
    "def": "Non-soumission des études aux résultats non significatifs. Premier des trois filtres de la sélection des résultats, probablement le plus lourd, et le seul qu'aucune lecture d'article ne peut détecter. Les registres d'essais et les rapports enregistrés sont les parades.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Effet fixe (modèle à)",
@@ -17120,7 +17256,8 @@ window.SOCLE = {
    "def": "Modèle d'agrégation supposant une vraie valeur unique de l'effet. Attention au faux ami : *fixed effects* au pluriel désigne autre chose en économétrie.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Effets aléatoires (modèle à)",
@@ -17128,7 +17265,8 @@ window.SOCLE = {
    "def": "Modèle d'agrégation supposant que les vraies valeurs varient selon les contextes.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Effort relatif",
@@ -17136,7 +17274,8 @@ window.SOCLE = {
    "def": "Moment produit par un groupe musculaire rapporté au moment maximal qu'il peut produire au même angle. Au squat, celui des extenseurs du genou augmente avec la profondeur.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Électromyographie de surface",
@@ -17148,7 +17287,8 @@ window.SOCLE = {
     "EMG"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Endocrine",
@@ -17158,7 +17298,8 @@ window.SOCLE = {
     "Endocrines"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy008-modes"
   },
   {
    "terme": "Entraînement par intervalles",
@@ -17166,7 +17307,8 @@ window.SOCLE = {
    "def": "Alternance d'efforts intenses et de récupérations, dont la réponse dépend d'une dizaine de variables : intensités, durées, nombre de répétitions et de séries.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Épaulé",
@@ -17177,7 +17319,8 @@ window.SOCLE = {
     "Épaulés"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Équation de Fick",
@@ -17185,7 +17328,8 @@ window.SOCLE = {
    "def": "Consommation d'oxygène égale au débit cardiaque multiplié par la différence artério-veineuse.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy005-fick"
   },
   {
    "terme": "Érecteurs du rachis",
@@ -17198,7 +17342,8 @@ window.SOCLE = {
     "ids": [
      "erecteurs"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Erreur de magnitude",
@@ -17206,7 +17351,8 @@ window.SOCLE = {
    "def": "Surestimation systématique de l'amplitude des effets qui franchissent le seuil de significativité dans une étude peu puissante. Elle se quantifie par un facteur d'exagération : le rapport entre l'amplitude attendue d'un résultat significatif et l'amplitude réelle. Distincte de l'erreur de type I, qui porte sur l'existence de l'effet et non sur sa taille.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met005-erreurs"
   },
   {
    "terme": "Erreur de mesure différentielle",
@@ -17214,7 +17360,8 @@ window.SOCLE = {
    "def": "Erreur de mesure dont l'ampleur ou le sens dépend du groupe auquel appartient le sujet. Contrairement à une erreur qui frappe les deux groupes de la même façon, elle crée un écart artificiel entre eux et ne se dilue pas quand l'effectif augmente.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Erreur de signe",
@@ -17222,7 +17369,8 @@ window.SOCLE = {
    "def": "Probabilité qu'un résultat statistiquement significatif pointe dans la direction opposée à l'effet réel. Négligeable à puissance élevée, elle devient substantielle en deçà de 10 % de puissance. Conséquence la plus contre-intuitive de la sous-puissance.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met005-erreurs"
   },
   {
    "terme": "Erreur de type I",
@@ -17230,7 +17378,8 @@ window.SOCLE = {
    "def": "Rejet d'une hypothèse nulle vraie. Faux positif. Son taux nominal est le seuil de significativité.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Erreur de type II",
@@ -17238,7 +17387,8 @@ window.SOCLE = {
    "def": "Non-rejet d'une hypothèse nulle fausse. Faux négatif. Son complément à 1 est la puissance.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Erreur standard",
@@ -17246,7 +17396,8 @@ window.SOCLE = {
    "def": "Dispersion attendue d'une estimation si l'on répétait l'étude. Elle décrit la précision de l'estimation, non la variabilité entre individus — cette dernière est l'écart-type. C'est l'erreur standard qui détermine la largeur de l'intervalle de confiance et le poids d'une étude en méta-analyse.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Erreur typique",
@@ -17254,7 +17405,8 @@ window.SOCLE = {
    "def": ", *standard error of measurement*. Écart-type des mesures répétées d'un même individu. Mesure de fidélité exprimée dans l'unité de la grandeur mesurée, donc directement interprétable — contrairement à un coefficient de corrélation.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met006-bruit"
   },
   {
    "terme": "Espace sous-acromial",
@@ -17262,7 +17414,8 @@ window.SOCLE = {
    "def": "Espace entre la tête humérale et l'acromion, où passent le tendon du sus-épineux et une bourse séreuse.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio019-coiffe"
   },
   {
    "terme": "Espérance",
@@ -17272,7 +17425,8 @@ window.SOCLE = {
     "Espérances"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Essai contrôlé randomisé",
@@ -17284,7 +17438,8 @@ window.SOCLE = {
     "essais randomisés"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met001-confusion"
   },
   {
    "terme": "Estimation ponctuelle",
@@ -17292,7 +17447,8 @@ window.SOCLE = {
    "def": "Valeur unique proposée comme meilleure estimation d'un effet, par opposition à l'intervalle qui l'accompagne. C'est le chiffre que reprennent les résumés et la diffusion secondaire, et c'est l'information la moins fiable d'une étude de petite taille.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "État stable maximal du lactate",
@@ -17300,7 +17456,8 @@ window.SOCLE = {
    "def": "Plus haute intensité à laquelle la production et l'élimination du lactate s'équilibrent pendant un effort constant.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Étude méta-épidémiologique",
@@ -17310,7 +17467,8 @@ window.SOCLE = {
     "études méta-épidémiologiques"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Événement déclencheur",
@@ -17320,7 +17478,8 @@ window.SOCLE = {
     "événements déclencheurs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Exercice nordique des ischio-jambiers",
@@ -17337,7 +17496,8 @@ window.SOCLE = {
      "semi-tendineux",
      "semi-membraneux"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Extenseurs de hanche",
@@ -17354,7 +17514,8 @@ window.SOCLE = {
      "semi-membraneux",
      "adducteurs"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Extenseurs du genou",
@@ -17369,7 +17530,8 @@ window.SOCLE = {
      "vaste-lat",
      "vaste-med"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Facilitation neuromusculaire proprioceptive",
@@ -17377,7 +17539,8 @@ window.SOCLE = {
    "def": "Technique d'étirement qui alterne étirement et contraction du muscle étiré ou de son opposé. Son efficacité tient surtout à la tolérance à l'étirement, pas à un relâchement réflexe.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Facteur de risque externe",
@@ -17387,7 +17550,8 @@ window.SOCLE = {
     "facteurs de risque externes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Facteur de risque interne",
@@ -17397,7 +17561,8 @@ window.SOCLE = {
     "facteurs de risque internes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Faisceau musculaire",
@@ -17411,7 +17576,8 @@ window.SOCLE = {
    "blocs": [
     1
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio007-hierarchie"
   },
   {
    "terme": "Fatigue mécanique",
@@ -17419,7 +17585,8 @@ window.SOCLE = {
    "def": "Accumulation de dommages dans un matériau soumis à des charges répétées inférieures à sa résistance. Sert de modèle aux blessures de surmenage.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Fatmax",
@@ -17427,7 +17594,8 @@ window.SOCLE = {
    "def": "Intensité d'effort à laquelle l'oxydation des graisses est maximale. Elle varie beaucoup d'une personne à l'autre.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy004-fatmax"
   },
   {
    "terme": "Fessiers",
@@ -17441,7 +17609,8 @@ window.SOCLE = {
      "grand-fessier",
      "moyen-fessier"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Fibre lente",
@@ -17453,7 +17622,8 @@ window.SOCLE = {
     "fibres de type I"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio011-mosaique"
   },
   {
    "terme": "Fibre musculaire",
@@ -17463,7 +17633,8 @@ window.SOCLE = {
     "fibres musculaires"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio007-hierarchie"
   },
   {
    "terme": "Fibre rapide",
@@ -17475,7 +17646,8 @@ window.SOCLE = {
     "fibres de type II"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio011-mosaique"
   },
   {
    "terme": "Fibres hybrides",
@@ -17485,7 +17657,8 @@ window.SOCLE = {
     "fibre hybride"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Fibres intrafusales",
@@ -17496,7 +17669,8 @@ window.SOCLE = {
     "intrafusales"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Fidélité",
@@ -17506,7 +17680,8 @@ window.SOCLE = {
     "Fidélités"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met007-triangle"
   },
   {
    "terme": "Filaments glissants",
@@ -17514,7 +17689,8 @@ window.SOCLE = {
    "def": "Modèle de la contraction : les filaments d'actine et de myosine gardent leur longueur et coulissent les uns entre les autres, ce qui raccourcit le sarcomère.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio008-courbe"
   },
   {
    "terme": "Fléchisseurs du coude",
@@ -17529,7 +17705,8 @@ window.SOCLE = {
      "brachial",
      "brachio-radial"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Fléchisseurs du genou",
@@ -17545,7 +17722,8 @@ window.SOCLE = {
      "semi-membraneux",
      "gastrocnemien"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Fléchisseurs plantaires",
@@ -17559,7 +17737,8 @@ window.SOCLE = {
      "gastrocnemien",
      "soleaire"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Force passive",
@@ -17567,7 +17746,8 @@ window.SOCLE = {
    "def": "Résistance qu'oppose un muscle à l'étirement sans être activé, due à ses structures élastiques. Elle s'ajoute à la force active aux grandes longueurs.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Forest plot",
@@ -17575,7 +17755,8 @@ window.SOCLE = {
    "def": "Représentation graphique d'une méta-analyse, une ligne par étude, la surface du carré indiquant le poids et le losange final l'estimation agrégée.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met008-forest"
   },
   {
    "terme": "Fréquence cardiaque de réserve",
@@ -17583,7 +17764,8 @@ window.SOCLE = {
    "def": "Écart entre la fréquence cardiaque maximale et la fréquence de repos ; sert à prescrire l'intensité en pourcentage.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Fréquence cardiaque maximale",
@@ -17591,7 +17773,8 @@ window.SOCLE = {
    "def": "Fréquence la plus haute atteinte à l'effort maximal. En moyenne mieux estimée par 208 − 0,7 × âge que par 220 moins l'âge ; pour un individu, l'erreur peut atteindre environ 25 battements par minute.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Fréquence de décharge",
@@ -17599,7 +17782,8 @@ window.SOCLE = {
    "def": "Nombre d'influx nerveux émis par seconde par un motoneurone. Principal déterminant nerveux de la montée en force au tout début d'une contraction explosive.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Funnel plot",
@@ -17607,7 +17791,8 @@ window.SOCLE = {
    "def": "Nuage des estimations d'effet portées contre leur précision. Son asymétrie est un signal d'alerte, jamais une preuve de biais de publication.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met008-funnel"
   },
   {
    "terme": "Fuseau neuromusculaire",
@@ -17619,7 +17804,8 @@ window.SOCLE = {
     "fuseaux neuromusculaires"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio012-capteurs"
   },
   {
    "terme": "g de Hedges",
@@ -17627,7 +17813,8 @@ window.SOCLE = {
    "def": "Taille d'effet standardisée égale au d de Cohen multiplié par un facteur légèrement inférieur à 1, qui corrige la surestimation du d en petit échantillon — environ 4 % à vingt sujets, 8 % à dix. Forme à privilégier en méta-analyse.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met004-formules"
   },
   {
    "terme": "Gastrocnémien",
@@ -17643,7 +17830,8 @@ window.SOCLE = {
     "ids": [
      "gastrocnemien"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Glandes surrénales",
@@ -17651,7 +17839,8 @@ window.SOCLE = {
    "def": "Glandes posées sur les reins, faites d'une corticosurrénale et d'une médullosurrénale.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Glène",
@@ -17661,7 +17850,8 @@ window.SOCLE = {
     "Glènes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio019-complexe"
   },
   {
    "terme": "Glucocorticoïdes",
@@ -17669,7 +17859,8 @@ window.SOCLE = {
    "def": "Famille d'hormones de la corticosurrénale, dont le cortisol. Elles mobilisent les réserves et freinent la construction des tissus.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "GLUT4",
@@ -17679,7 +17870,8 @@ window.SOCLE = {
     "GLUT4s"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Glycogène",
@@ -17689,7 +17881,8 @@ window.SOCLE = {
     "Glycogènes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Glycolyse",
@@ -17701,7 +17894,8 @@ window.SOCLE = {
     "Glycolyses"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy001-cellule"
   },
   {
    "terme": "Gracile",
@@ -17716,7 +17910,8 @@ window.SOCLE = {
     "ids": [
      "gracile"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "GRADE",
@@ -17726,7 +17921,8 @@ window.SOCLE = {
     "GRADEs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Grand dorsal",
@@ -17739,7 +17935,8 @@ window.SOCLE = {
     "ids": [
      "grand-dorsal"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Grand droit",
@@ -17754,7 +17951,8 @@ window.SOCLE = {
     "ids": [
      "grand-droit"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Grand fessier",
@@ -17767,7 +17965,8 @@ window.SOCLE = {
     "ids": [
      "grand-fessier"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Grand pectoral",
@@ -17781,7 +17980,8 @@ window.SOCLE = {
      "pectoral-clav",
      "pectoral-stern"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Haltérophilie",
@@ -17791,7 +17991,8 @@ window.SOCLE = {
     "Haltérophilies"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Hémoconcentration",
@@ -17801,7 +18002,8 @@ window.SOCLE = {
     "Hémoconcentrations"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Hémoglobine",
@@ -17811,7 +18013,8 @@ window.SOCLE = {
     "Hémoglobines"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Héritabilité",
@@ -17821,7 +18024,8 @@ window.SOCLE = {
     "Héritabilités"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Hétérogénéité",
@@ -17831,7 +18035,8 @@ window.SOCLE = {
     "Hétérogénéités"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met008-i2"
   },
   {
    "terme": "Hormone",
@@ -17842,7 +18047,8 @@ window.SOCLE = {
     "Hormones"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Hormone de croissance",
@@ -17850,7 +18056,8 @@ window.SOCLE = {
    "def": "Hormone de l'hypophyse qui élève l'IGF-1 du sang et agit sur le muscle, l'os, le collagène et les graisses ; sa cure n'augmente pas la force du muscle sain.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Hormone peptidique",
@@ -17860,7 +18067,8 @@ window.SOCLE = {
     "hormones peptidiques"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy008-voies"
   },
   {
    "terme": "Hormone stéroïde",
@@ -17870,7 +18078,8 @@ window.SOCLE = {
     "hormones stéroïdes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy008-voies"
   },
   {
    "terme": "Hyperlaxité",
@@ -17880,7 +18089,8 @@ window.SOCLE = {
     "Hyperlaxités"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Hypothèse d'identification",
@@ -17888,7 +18098,8 @@ window.SOCLE = {
    "def": "Hypothèse explicite, non vérifiable par les données seules, sous laquelle une association observée peut être lue comme un effet causal. Toute inférence causale hors essai randomisé en repose sur une : la randomisation a l'avantage de rendre la sienne quasi automatique.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Hypothèse de l'hormone libre",
@@ -17896,7 +18107,8 @@ window.SOCLE = {
    "def": "Idée que seule la forme libre d'une hormone, non liée aux protéines de transport, agit sur les tissus. Elle ne vaut pas pour toutes les hormones ni tous les tissus.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Hypothèse hormonale",
@@ -17904,7 +18116,8 @@ window.SOCLE = {
    "def": "Idée, peu soutenue par les données, selon laquelle les pics d'hormones juste après une séance feraient grossir le muscle.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Hypothèse nulle",
@@ -17912,7 +18125,8 @@ window.SOCLE = {
    "def": "Hypothèse d'absence d'effet, ou d'effet égal à une",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met003-conditionnement"
   },
   {
    "terme": "Hypoxémie artérielle induite par l'effort",
@@ -17920,7 +18134,8 @@ window.SOCLE = {
    "def": "Baisse de la saturation en oxygène du sang artériel pendant un effort intense, fréquente chez les athlètes d'endurance très entraînés ; dite légère entre 93 et 95 %.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Hystérésis",
@@ -17928,7 +18143,8 @@ window.SOCLE = {
    "def": "Part de l'énergie reçue par un tissu étiré qu'il ne restitue pas en revenant à sa longueur, dissipée en chaleur. valeur de référence, sous laquelle la valeur p est calculée.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio015-courbes"
   },
   {
    "terme": "IGF-1",
@@ -17938,7 +18154,8 @@ window.SOCLE = {
     "IGF-1s"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Impulsion",
@@ -17950,7 +18167,8 @@ window.SOCLE = {
    "blocs": [
     1
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Inférence causale",
@@ -17958,7 +18176,8 @@ window.SOCLE = {
    "def": "Passage d'une association observée à l'affirmation qu'une variable produit l'autre. Elle exige soit une randomisation, soit une hypothèse d'identification explicite et défendable. Aucun ajustement statistique ne la produit à lui seul.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Inflation d'amplitude",
@@ -17966,7 +18185,8 @@ window.SOCLE = {
    "def": "Surestimation systématique de la taille des effets qui franchissent le seuil de significativité dans les études de faible puissance. Elle ne résulte d'aucune faute : c'est une conséquence mécanique de la sélection des résultats par un seuil.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Inhibition autogène",
@@ -17974,7 +18194,8 @@ window.SOCLE = {
    "def": "Freinage d'un muscle par ses propres organes tendineux. Son rôle protecteur sous les charges lourdes, répandu dans les manuels, n'est pas démontré.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Inhibition nerveuse",
@@ -17991,7 +18212,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Inhibition réciproque",
@@ -17999,7 +18221,8 @@ window.SOCLE = {
    "def": "Freinage du muscle opposé quand un muscle est étiré, par un interneurone activé par l'afférence Ia.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Insuffisance active",
@@ -18007,7 +18230,8 @@ window.SOCLE = {
    "def": "Incapacité supposée d'un muscle biarticulaire à produire beaucoup de force quand les deux articulations le raccourcissent à la fois.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Insuline",
@@ -18017,7 +18241,8 @@ window.SOCLE = {
     "Insulines"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Interneurone",
@@ -18028,7 +18253,8 @@ window.SOCLE = {
     "Interneurones"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio012-reflexe"
   },
   {
    "terme": "Intervalle de compatibilité",
@@ -18036,7 +18262,8 @@ window.SOCLE = {
    "def": "Dénomination proposée pour l'intervalle de confiance, décrivant plus fidèlement ce qu'il contient : les valeurs de paramètre compatibles avec les données sous le modèle.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Intervalle de confiance",
@@ -18044,7 +18271,8 @@ window.SOCLE = {
    "def": "Intervalle construit par une procédure dont la couverture nominale vaut sur des répétitions de l'étude. La propriété appartient à la procédure, pas à l'intervalle observé.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met003-intervalles"
   },
   {
    "terme": "Intervalle de crédibilité",
@@ -18052,7 +18280,8 @@ window.SOCLE = {
    "def": "Équivalent bayésien de l'intervalle de confiance, qui possède bien la propriété interprétative intuitive de contenir la vraie valeur avec la probabilité annoncée.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Intervalle de prédiction",
@@ -18060,7 +18289,8 @@ window.SOCLE = {
    "def": "Dans une méta-analyse à effets aléatoires, intervalle décrivant l'étendue des effets attendus dans un nouveau contexte. Toujours plus large que l'intervalle de confiance de la moyenne, et rarement rapporté.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Ischio-jambiers",
@@ -18077,7 +18307,8 @@ window.SOCLE = {
      "semi-tendineux",
      "semi-membraneux"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Isocinétique",
@@ -18087,7 +18318,8 @@ window.SOCLE = {
     "Isocinétiques"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Isotonique",
@@ -18097,7 +18329,8 @@ window.SOCLE = {
     "Isotoniques"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "I²",
@@ -18107,7 +18340,8 @@ window.SOCLE = {
     "I²s"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met008-i2"
   },
   {
    "terme": "Lactate",
@@ -18117,7 +18351,8 @@ window.SOCLE = {
     "Lactates"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy003-cellule"
   },
   {
    "terme": "Levier",
@@ -18136,7 +18371,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio003-classes"
   },
   {
    "terme": "Ligament",
@@ -18147,7 +18383,8 @@ window.SOCLE = {
     "Ligaments"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio015-structure"
   },
   {
    "terme": "Ligament croisé antérieur",
@@ -18155,7 +18392,8 @@ window.SOCLE = {
    "def": "Ligament situé au centre du genou, qui limite le glissement du tibia vers l'avant sous le fémur.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Ligne d'action",
@@ -18163,7 +18401,8 @@ window.SOCLE = {
    "def": "Droite qui porte une force. Le bras de levier se mesure perpendiculairement à elle ; une force dont la ligne d'action passe par l'axe ne produit aucun moment.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Loi de Frank-Starling",
@@ -18171,7 +18410,8 @@ window.SOCLE = {
    "def": "Le cœur ajuste son éjection à son remplissage : un ventricule plus rempli éjecte davantage.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Marge de stabilité",
@@ -18179,7 +18419,8 @@ window.SOCLE = {
    "def": "Distance entre le centre de masse extrapolé et le bord de la base d'appui. Négative, elle impose de faire un pas.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Mécanostat",
@@ -18189,7 +18430,8 @@ window.SOCLE = {
     "Mécanostats"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Médullosurrénale",
@@ -18199,7 +18441,8 @@ window.SOCLE = {
     "Médullosurrénales"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy011-axes"
   },
   {
    "terme": "Membrane respiratoire",
@@ -18207,7 +18450,8 @@ window.SOCLE = {
    "def": "Paroi de l'alvéole et paroi du capillaire accolées, épaisses d'environ 0,5 µm, que les gaz traversent par diffusion.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Ménarche",
@@ -18217,7 +18461,8 @@ window.SOCLE = {
     "Ménarches"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Méta-analyse",
@@ -18227,7 +18472,8 @@ window.SOCLE = {
     "Méta-analyses"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met008-forest"
   },
   {
    "terme": "Méta-régression",
@@ -18237,7 +18483,8 @@ window.SOCLE = {
     "Méta-régressions"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Métabolisme aérobie",
@@ -18248,7 +18495,8 @@ window.SOCLE = {
     "aérobies"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy001-continuum"
   },
   {
    "terme": "Métabolisme anaérobie",
@@ -18259,7 +18507,8 @@ window.SOCLE = {
     "anaérobies"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy001-continuum"
   },
   {
    "terme": "Métaboréflexe",
@@ -18269,7 +18518,8 @@ window.SOCLE = {
     "Métaboréflexes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Mitochondrie",
@@ -18282,7 +18532,8 @@ window.SOCLE = {
     "Mitochondries"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy004-mitochondrie"
   },
   {
    "terme": "Module d'Young",
@@ -18290,7 +18541,8 @@ window.SOCLE = {
    "def": "Rapport de la contrainte à la déformation. Il décrit la rigidité du matériau seul, indépendamment de la taille de la structure.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Moment de force",
@@ -18300,7 +18552,8 @@ window.SOCLE = {
     "moments de force"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio002-equilibre"
   },
   {
    "terme": "Moment externe",
@@ -18308,7 +18561,8 @@ window.SOCLE = {
    "def": "Moment produit autour d'une articulation par les charges et le poids des segments. Il dépend de la distance horizontale entre la charge et l'articulation, donc de la posture.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Moment interne",
@@ -18316,7 +18570,8 @@ window.SOCLE = {
    "def": "Moment produit par les muscles et les structures passives pour s'opposer au moment externe. À l'équilibre, les deux sont égaux.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Moment net",
@@ -18326,7 +18581,8 @@ window.SOCLE = {
     "moment articulaire net"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Monoarticulaire",
@@ -18338,7 +18594,8 @@ window.SOCLE = {
     "Monoarticulaires"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Motoneurone alpha",
@@ -18348,7 +18605,8 @@ window.SOCLE = {
     "motoneurones alpha"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio012-reflexe"
   },
   {
    "terme": "Motoneurones gamma",
@@ -18358,7 +18616,8 @@ window.SOCLE = {
     "motoneurone gamma"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Moyen fessier",
@@ -18371,7 +18630,8 @@ window.SOCLE = {
     "ids": [
      "moyen-fessier"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Muscle biarticulaire",
@@ -18383,7 +18643,8 @@ window.SOCLE = {
     "biarticulaires"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio013-transfert"
   },
   {
    "terme": "Myocarde",
@@ -18393,7 +18654,8 @@ window.SOCLE = {
     "Myocardes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Myofibrille",
@@ -18403,7 +18665,8 @@ window.SOCLE = {
     "Myofibrilles"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio007-hierarchie"
   },
   {
    "terme": "Myosine",
@@ -18413,7 +18676,8 @@ window.SOCLE = {
     "Myosines"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio008-courbe"
   },
   {
    "terme": "NAD⁺",
@@ -18424,7 +18688,8 @@ window.SOCLE = {
     "NAD⁺s"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy003-cellule"
   },
   {
    "terme": "Navette du lactate",
@@ -18432,7 +18697,8 @@ window.SOCLE = {
    "def": "Théorie selon laquelle le lactate circule entre les cellules qui le produisent et celles qui le consomment, comme carburant et comme signal.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Néoglucogenèse",
@@ -18442,7 +18708,8 @@ window.SOCLE = {
     "Néoglucogenèses"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Neutralisateur",
@@ -18453,7 +18720,8 @@ window.SOCLE = {
     "Neutralisateurs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Nœud auriculo-ventriculaire",
@@ -18461,7 +18729,8 @@ window.SOCLE = {
    "def": "Relais électrique entre oreillettes et ventricules ; l'impulsion y marque une pause d'environ 100 ms.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy012-conduction"
   },
   {
    "terme": "Nœud sinusal",
@@ -18469,7 +18738,8 @@ window.SOCLE = {
    "def": "Groupe de cellules de l'oreillette droite qui déclenche chaque battement du cœur.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy012-conduction"
   },
   {
    "terme": "Non-répondeur",
@@ -18480,7 +18750,8 @@ window.SOCLE = {
     "Non-répondeurs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Noradrénaline",
@@ -18490,7 +18761,8 @@ window.SOCLE = {
     "Noradrénalines"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy011-axes"
   },
   {
    "terme": "Omoplate",
@@ -18505,7 +18777,8 @@ window.SOCLE = {
     "ids": [
      "omoplate"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Onde V",
@@ -18513,7 +18786,8 @@ window.SOCLE = {
    "def": "Réponse électrique d'un muscle à la stimulation de son nerf pendant une contraction maximale ; elle reflète la commande qui descend vers les motoneurones.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Oreillette",
@@ -18523,7 +18797,8 @@ window.SOCLE = {
     "Oreillettes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy012-coeur"
   },
   {
    "terme": "Organe tendineux de Golgi",
@@ -18535,7 +18810,8 @@ window.SOCLE = {
     "organe de Golgi"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio012-capteurs"
   },
   {
    "terme": "Os cortical",
@@ -18543,7 +18819,8 @@ window.SOCLE = {
    "def": "Os compact qui forme la coque des os, surtout le long de leur partie centrale.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio014-remodelage"
   },
   {
    "terme": "Os spongieux",
@@ -18553,7 +18830,8 @@ window.SOCLE = {
     "os trabéculaire"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio014-remodelage"
   },
   {
    "terme": "Ostéoblaste",
@@ -18564,7 +18842,8 @@ window.SOCLE = {
     "Ostéoblastes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio014-remodelage"
   },
   {
    "terme": "Ostéoclaste",
@@ -18575,7 +18854,8 @@ window.SOCLE = {
     "Ostéoclastes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio014-remodelage"
   },
   {
    "terme": "Ostéocyte",
@@ -18586,7 +18866,8 @@ window.SOCLE = {
     "Ostéocytes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio014-remodelage"
   },
   {
    "terme": "Ostéoporose",
@@ -18596,7 +18877,8 @@ window.SOCLE = {
     "Ostéoporoses"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Paracrine",
@@ -18606,7 +18888,8 @@ window.SOCLE = {
     "Paracrines"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy008-modes"
   },
   {
    "terme": "Paradoxe de Codman",
@@ -18614,7 +18897,8 @@ window.SOCLE = {
    "def": "Rotation de l'humérus sur son axe qui apparaît, sans avoir été commandée, au terme d'une séquence de mouvements plans de l'épaule. Conséquence du fait que les rotations en trois dimensions ne commutent pas.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Paradoxe de Lombard",
@@ -18622,7 +18906,8 @@ window.SOCLE = {
    "def": "Activité simultanée de muscles antagonistes, comme quadriceps et ischio-jambiers, dans un mouvement qu'ils semblent tous deux produire. Il dépend en partie de la méthode de classement des rôles.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "PEDro",
@@ -18632,7 +18917,8 @@ window.SOCLE = {
     "PEDros"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Pendule inversé",
@@ -18640,7 +18926,8 @@ window.SOCLE = {
    "def": "Modèle du corps debout, articulé aux chevilles. Le centre de gravité y accélère dans le sens qui l'éloigne du centre de pression, proportionnellement à l'écart entre les deux.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Perdus de vue",
@@ -18648,7 +18935,8 @@ window.SOCLE = {
    "def": "Participants randomisés dont le résultat final n'est pas disponible. Leur nombre, et surtout son asymétrie entre les groupes, est l'une des informations les plus utiles du diagramme de flux d'un essai : l'abandon n'est jamais aléatoire.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Petit rond",
@@ -18661,7 +18949,8 @@ window.SOCLE = {
     "ids": [
      "petit-rond"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Phase de vérification",
@@ -18669,7 +18958,8 @@ window.SOCLE = {
    "def": "Effort à vitesse constante au-dessus de la fin d'un test progressif, pour confirmer qu'une vraie consommation maximale a été atteinte.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Phosphate inorganique",
@@ -18677,7 +18967,8 @@ window.SOCLE = {
    "def": "Phosphate libre, libéré notamment quand la phosphocréatine se dégrade. Il s'accumule pendant un effort intense et apparaît comme une cause majeure de fatigue.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Phosphocréatine",
@@ -18687,7 +18978,8 @@ window.SOCLE = {
     "Phosphocréatines"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy001-cellule"
   },
   {
    "terme": "PICOT",
@@ -18697,7 +18989,8 @@ window.SOCLE = {
     "PICOTs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met013-picot"
   },
   {
    "terme": "Pied de courbe",
@@ -18705,7 +18998,8 @@ window.SOCLE = {
    "def": "Début de la courbe contrainte-déformation du tendon, où la raideur augmente peu à peu avant la zone linéaire.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Plan frontal",
@@ -18713,7 +19007,8 @@ window.SOCLE = {
    "def": "Plan qui sépare l'avant et l'arrière du corps. Les mouvements y tournent autour d'un axe antéro-postérieur : abduction, adduction, inclinaison latérale.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio001-plans"
   },
   {
    "terme": "Plan sagittal",
@@ -18721,7 +19016,8 @@ window.SOCLE = {
    "def": "Plan qui sépare la gauche et la droite du corps. Les mouvements y tournent autour d'un axe médio-latéral : flexion, extension.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio001-plans"
   },
   {
    "terme": "Plan transversal",
@@ -18729,7 +19025,8 @@ window.SOCLE = {
    "def": "Plan qui sépare le haut et le bas du corps. Les mouvements y tournent autour d'un axe longitudinal : rotations interne et externe, pronation, supination.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio001-plans"
   },
   {
    "terme": "Plateforme de force",
@@ -18737,7 +19034,8 @@ window.SOCLE = {
    "def": "Instrument qui mesure les forces exercées sur le sol au cours du temps. Permet de calculer la hauteur d'un saut par trois méthodes indépendantes.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Pliométrie",
@@ -18747,7 +19045,8 @@ window.SOCLE = {
     "Pliométries"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Plus petit changement digne d'intérêt",
@@ -18755,7 +19054,8 @@ window.SOCLE = {
    "def": "Plus petite différence à partir de laquelle on accepterait de modifier une pratique, compte tenu de son coût. Ce n'est pas une quantité statistique : elle se fixe par ancrage sur une conséquence externe, par une fraction de la dispersion entre sujets — souvent 0,2 écart-type — ou par jugement. Doit être annoncée avant l'analyse, jamais découverte après.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met006-zones"
   },
   {
    "terme": "Point de blocage",
@@ -18763,7 +19063,8 @@ window.SOCLE = {
    "def": "Portion de l'amplitude où l'écart entre ce que le muscle peut produire et ce que l'exercice exige est le plus faible. C'est là qu'une répétition échoue.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio006-blocage"
   },
   {
    "terme": "Point de croisement",
@@ -18773,7 +19074,8 @@ window.SOCLE = {
     "concept du croisement"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Polarisé",
@@ -18785,7 +19087,8 @@ window.SOCLE = {
     "Polarisés"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Pompe musculaire",
@@ -18793,7 +19096,8 @@ window.SOCLE = {
    "def": "Compression des veines par les muscles qui se contractent ; les valves orientent le sang vers le cœur.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Pont d'union",
@@ -18803,7 +19107,8 @@ window.SOCLE = {
     "ponts d'union"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Position anatomique",
@@ -18811,7 +19116,8 @@ window.SOCLE = {
    "def": "Posture de référence : debout, regard vers l'avant, bras le long du corps, paumes tournées vers l'avant. La plupart des angles articulaires y valent zéro par convention.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Précharge",
@@ -18821,7 +19127,8 @@ window.SOCLE = {
     "Précharges"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Préenregistrement",
@@ -18831,7 +19138,8 @@ window.SOCLE = {
     "Préenregistrements"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Pression diastolique",
@@ -18839,7 +19147,8 @@ window.SOCLE = {
    "def": "Pression artérielle pendant le remplissage des ventricules ; elle varie peu à l'effort dynamique.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Pression intra-abdominale",
@@ -18847,7 +19156,8 @@ window.SOCLE = {
    "def": "Pression dans la cavité abdominale, augmentée par le gainage ou une ceinture, qui participe au soutien du tronc.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Pression partielle",
@@ -18857,7 +19167,8 @@ window.SOCLE = {
     "pressions partielles"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy013-pressions"
   },
   {
    "terme": "Pression systolique",
@@ -18865,7 +19176,8 @@ window.SOCLE = {
    "def": "Pression artérielle au moment où les ventricules éjectent ; elle monte nettement à l'effort dynamique.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Principe de taille",
@@ -18884,7 +19196,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "PRISMA",
@@ -18894,7 +19207,8 @@ window.SOCLE = {
     "PRISMAs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Profil de résistance",
@@ -18904,7 +19218,8 @@ window.SOCLE = {
     "profils de résistance"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio006-profils"
   },
   {
    "terme": "Profil force-vitesse",
@@ -18923,7 +19238,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Pronation",
@@ -18933,7 +19249,8 @@ window.SOCLE = {
     "Pronations"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio001-plans"
   },
   {
    "terme": "Proprioception",
@@ -18943,7 +19260,8 @@ window.SOCLE = {
     "Proprioceptions"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "PROSPERO",
@@ -18953,7 +19271,8 @@ window.SOCLE = {
     "PROSPEROs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Protéine de transport",
@@ -18963,7 +19282,8 @@ window.SOCLE = {
     "protéines de transport"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Puissance",
@@ -18975,7 +19295,8 @@ window.SOCLE = {
    "blocs": [
     0
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": "met005-quatuor"
   },
   {
    "terme": "Puissance critique",
@@ -18983,7 +19304,8 @@ window.SOCLE = {
    "def": "Asymptote de la relation puissance-durée. Au-dessous, les réponses de l'organisme se stabilisent ; au-dessus, non, jusqu'à l'épuisement d'une réserve de travail.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy005-seuils"
   },
   {
    "terme": "Puissance mécanique",
@@ -19002,7 +19324,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Puissance rétrospective",
@@ -19010,7 +19333,8 @@ window.SOCLE = {
    "def": "Puissance recalculée après l'étude à partir de l'effet observé. Elle est une fonction directe de la valeur p obtenue et n'apporte donc aucune information nouvelle. À ne pas confondre avec le calcul, légitime, de la puissance dont l'étude disposait pour détecter un effet digne d'intérêt fixé indépendamment du résultat.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Pyruvate",
@@ -19020,7 +19344,8 @@ window.SOCLE = {
     "Pyruvates"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy003-cellule"
   },
   {
    "terme": "Quadriceps",
@@ -19035,7 +19360,8 @@ window.SOCLE = {
      "vaste-lat",
      "vaste-med"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Quantité de mouvement",
@@ -19043,7 +19369,8 @@ window.SOCLE = {
    "def": "Produit de la masse par la vitesse, en kilogrammes-mètres par seconde. Sa variation égale l'impulsion reçue.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Quaternion",
@@ -19053,7 +19380,8 @@ window.SOCLE = {
     "Quaternions"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Raideur",
@@ -19063,7 +19391,8 @@ window.SOCLE = {
     "Raideurs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio015-courbes"
   },
   {
    "terme": "Randomisation",
@@ -19073,7 +19402,8 @@ window.SOCLE = {
     "Randomisations"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met002-chronologie"
   },
   {
    "terme": "Rapport charge aiguë-charge chronique",
@@ -19081,7 +19411,8 @@ window.SOCLE = {
    "def": "Rapport entre la charge d'entraînement récente, souvent d'une semaine, et la charge moyenne des semaines précédentes. Son usage pour prévenir les blessures n'est pas étayé.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Rapport de démultiplication",
@@ -19089,7 +19420,8 @@ window.SOCLE = {
    "def": "Rapport entre le déplacement de l'extrémité d'un segment et le raccourcissement du muscle qui le met en mouvement. Inverse de l'avantage mécanique.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Rapport enregistré",
@@ -19097,7 +19429,8 @@ window.SOCLE = {
    "def": "Format éditorial où la revue accepte l'article sur la base du protocole, avant collecte des données, et s'engage à publier quel que soit le résultat. Seul dispositif qui neutralise simultanément le tiroir du chercheur et la sélection par la revue.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Rapport travail-repos",
@@ -19107,7 +19440,8 @@ window.SOCLE = {
     "rapports travail-repos"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Rapport ventilation-perfusion",
@@ -19115,7 +19449,8 @@ window.SOCLE = {
    "def": "Rapport entre l'air qui arrive dans une région du poumon et le sang qui la traverse ; l'échange est efficace quand les deux concordent.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Récepteur",
@@ -19126,7 +19461,8 @@ window.SOCLE = {
     "Récepteurs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy008-voies"
   },
   {
    "terme": "Récepteur des androgènes",
@@ -19136,7 +19472,8 @@ window.SOCLE = {
     "récepteurs des androgènes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy009-signaux"
   },
   {
    "terme": "Recrutement",
@@ -19160,7 +19497,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio010-unite-motrice"
   },
   {
    "terme": "Récupération active",
@@ -19168,7 +19506,8 @@ window.SOCLE = {
    "def": "Exercice léger après un effort intense, à la place du repos complet. Fait disparaître plus vite le lactate sanguin.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Réflexe H",
@@ -19176,7 +19515,8 @@ window.SOCLE = {
    "def": "Version électrique du réflexe myotatique, obtenue en stimulant le nerf. Sert à mesurer l'excitabilité des motoneurones et la transmission des afférences Ia.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Réflexe myotatique",
@@ -19186,7 +19526,8 @@ window.SOCLE = {
     "réflexe d'étirement"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio012-reflexe"
   },
   {
    "terme": "Régime cétogène",
@@ -19196,7 +19537,8 @@ window.SOCLE = {
     "cétogène"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Relation force-vitesse",
@@ -19216,7 +19558,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio009-force-vitesse"
   },
   {
    "terme": "Relation longueur-tension",
@@ -19224,7 +19567,8 @@ window.SOCLE = {
    "def": "Variation de la force active d'un muscle ou d'un sarcomère avec sa longueur : en cloche, avec une branche ascendante, un plateau et une branche descendante, qui suivent le chevauchement des filaments.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio008-courbe"
   },
   {
    "terme": "Remodelage",
@@ -19235,7 +19579,8 @@ window.SOCLE = {
     "Remodelages"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio014-remodelage"
   },
   {
    "terme": "Réponse individuelle",
@@ -19243,7 +19588,8 @@ window.SOCLE = {
    "def": "Variabilité vraie de l'effet d'une intervention entre personnes. Presque toujours surestimée : la dispersion des changements observés contient aussi l'erreur de mesure, comptée deux fois, et la variabilité biologique normale. L'établir exige un groupe contrôle ou la répétition de l'intervention chez les mêmes sujets.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Réponse tensionnelle exagérée",
@@ -19251,7 +19597,8 @@ window.SOCLE = {
    "def": "Hausse de la pression systolique à l'effort plus forte que la normale ; associée à davantage d'événements cardiovasculaires.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Réserve cardiaque",
@@ -19259,7 +19606,8 @@ window.SOCLE = {
    "def": "Écart entre le débit cardiaque maximal et le débit de repos.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Résistance variable",
@@ -19267,7 +19615,8 @@ window.SOCLE = {
    "def": "Ajout d'élastiques ou de chaînes à une charge libre pour que la résistance augmente au cours du mouvement. Son avantage sur la charge constante est discuté.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "RoB 2",
@@ -19275,7 +19624,8 @@ window.SOCLE = {
    "def": "Outil d'évaluation du risque de biais d'un essai randomisé, structuré en cinq domaines.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met010-rob2"
   },
   {
    "terme": "Rythme scapulo-huméral",
@@ -19283,7 +19633,8 @@ window.SOCLE = {
    "def": "Partage de l'élévation du bras entre l'humérus et l'omoplate : en moyenne 1,7° gléno-huméral pour 1° de l'omoplate.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio019-rythme"
   },
   {
    "terme": "Sarcomère",
@@ -19293,7 +19644,8 @@ window.SOCLE = {
     "Sarcomères"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio007-hierarchie"
   },
   {
    "terme": "Sartorius",
@@ -19306,7 +19658,8 @@ window.SOCLE = {
     "ids": [
      "sartorius"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Saturation en oxygène",
@@ -19318,7 +19671,8 @@ window.SOCLE = {
    "blocs": [
     2
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Saut avec contre-mouvement",
@@ -19326,7 +19680,8 @@ window.SOCLE = {
    "def": "Saut vertical précédé d'une flexion rapide des jambes. Sa courbe force-temps se découpe en six phases : pesée, allègement, freinage, propulsion, vol, réception.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio004-cmj"
   },
   {
    "terme": "Saut sans contre-mouvement",
@@ -19336,7 +19691,8 @@ window.SOCLE = {
     "sauts sans contre-mouvement"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Score de Beighton",
@@ -19344,7 +19700,8 @@ window.SOCLE = {
    "def": "Test de l'hyperlaxité généralisée en neuf points ; elle est retenue à partir de 4 tests positifs.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Section physiologique",
@@ -19352,7 +19709,8 @@ window.SOCLE = {
    "def": "Surface obtenue en coupant toutes les fibres d'un muscle perpendiculairement à leur axe. Elle fixe la force maximale, quand la longueur des fibres fixe l'amplitude et la vitesse.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio007-pennation"
   },
   {
    "terme": "Semi-tendineux",
@@ -19365,7 +19723,8 @@ window.SOCLE = {
     "ids": [
      "semi-tendineux"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Sensibilité au changement",
@@ -19373,7 +19732,8 @@ window.SOCLE = {
    "def": "Capacité d'une mesure à détecter une variation réelle. Troisième propriété métrologique, distincte de la fidélité et de la validité : un test peut être fidèle et valide en coupe transversale et incapable de suivre une progression, si son erreur typique dépasse le changement visé.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Série de cas",
@@ -19381,7 +19741,8 @@ window.SOCLE = {
    "def": "Description détaillée de plusieurs patients ou sujets partageant une caractéristique, sans groupe de comparaison. Sert à signaler un phénomène et à formuler une hypothèse ; n'autorise aucune inférence, causale ou même associative.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met001-designs"
   },
   {
    "terme": "Seuil lactique",
@@ -19389,7 +19750,8 @@ window.SOCLE = {
    "def": "Intensité d'effort au-delà de laquelle le lactate commence à s'accumuler dans le sang.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy005-seuils"
   },
   {
    "terme": "Significativité statistique",
@@ -19397,7 +19759,8 @@ window.SOCLE = {
    "def": "Franchissement d'un seuil conventionnel par la valeur p. Ne renseigne ni sur l'amplitude, ni sur l'importance pratique, ni sur la probabilité que l'effet soit réel.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Soléaire",
@@ -19412,7 +19775,8 @@ window.SOCLE = {
     "ids": [
      "soleaire"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Sommation",
@@ -19431,7 +19795,8 @@ window.SOCLE = {
     7,
     8
    ],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Sous-épineux",
@@ -19444,7 +19809,8 @@ window.SOCLE = {
     "ids": [
      "sous-epineux"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Sous-scapulaire",
@@ -19459,7 +19825,8 @@ window.SOCLE = {
     "ids": [
      "sous-scapulaire"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Squat avant",
@@ -19467,7 +19834,8 @@ window.SOCLE = {
    "def": "Squat où la barre repose sur l'avant des épaules : moins de compression et de moment au genou que le squat arrière.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Stabilisateur",
@@ -19478,7 +19846,8 @@ window.SOCLE = {
     "Stabilisateurs"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Supination",
@@ -19488,7 +19857,8 @@ window.SOCLE = {
     "Supinations"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio001-plans"
   },
   {
    "terme": "Surmenage fonctionnel",
@@ -19496,7 +19866,8 @@ window.SOCLE = {
    "def": "Baisse passagère de performance après une surcharge, suivie d'une amélioration après récupération.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Surmenage non fonctionnel",
@@ -19504,7 +19875,8 @@ window.SOCLE = {
    "def": "Baisse de performance qui dure, quand l'équilibre entre entraînement et récupération n'est pas respecté.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Sus-épineux",
@@ -19517,7 +19889,8 @@ window.SOCLE = {
     "ids": [
      "sus-epineux"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Syndrome de surentraînement",
@@ -19525,7 +19898,8 @@ window.SOCLE = {
    "def": "Mauvaise adaptation prolongée à l'entraînement, plus sévère que le surmenage ; son diagnostic se fait par exclusion.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Synergiste",
@@ -19536,7 +19910,8 @@ window.SOCLE = {
     "Synergistes"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Système de coordonnées articulaires",
@@ -19544,7 +19919,8 @@ window.SOCLE = {
    "def": "Repère attaché aux deux os d'une articulation, qui définit les angles autour d'axes précis et rend leur valeur indépendante de l'ordre des rotations. Normalisé articulation par articulation par la Société internationale de biomécanique.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Système énergétique",
@@ -19554,7 +19930,8 @@ window.SOCLE = {
     "systèmes énergétiques"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Taille d'effet",
@@ -19562,7 +19939,8 @@ window.SOCLE = {
    "def": "Mesure de l'amplitude d'un effet, indépendante de la taille de l'échantillon. Les seuils d'interprétation usuels — petit, moyen, grand — sont des conventions sans validité universelle.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met004-formules"
   },
   {
    "terme": "Taux de développement de la force",
@@ -19572,7 +19950,8 @@ window.SOCLE = {
     "RFD"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio004-rfd"
   },
   {
    "terme": "Témoin apparié sur le volume",
@@ -19580,7 +19959,8 @@ window.SOCLE = {
    "def": "Groupe de comparaison recevant la même quantité totale d'entraînement que le groupe expérimental, seule la variable étudiée différant. C'est le seul montage qui isole réellement un ingrédient de l'entraînement ; son absence est la limite la plus fréquente de la littérature en programmation.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Tendinopathie",
@@ -19591,7 +19971,8 @@ window.SOCLE = {
     "Tendinopathies"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Tendon",
@@ -19602,7 +19983,8 @@ window.SOCLE = {
     "Tendons"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio015-structure"
   },
   {
    "terme": "Tendon d'Achille",
@@ -19617,7 +19999,8 @@ window.SOCLE = {
     "ids": [
      "achille"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Test d'Egger",
@@ -19625,7 +20008,8 @@ window.SOCLE = {
    "def": "Test de régression évaluant l'asymétrie d'un funnel plot. Une asymétrie significative est compatible avec un biais de publication, mais aussi avec une hétérogénéité liée à la taille des études, une différence de qualité, ou le hasard quand les études sont peu nombreuses.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Test d'équivalence",
@@ -19633,7 +20017,8 @@ window.SOCLE = {
    "def": "Procédure inversant la charge de la preuve : au lieu de tester l'hypothèse d'un effet nul, elle teste l'hypothèse d'un effet situé en dehors d'une zone d'équivalence bornée par le plus petit changement digne d'intérêt. Lecture graphique : si l'intervalle de confiance tient entièrement dans la zone, l'équivalence est établie. Seule façon de conclure qu'un effet est trop petit pour compter.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Testostérone",
@@ -19643,7 +20028,8 @@ window.SOCLE = {
     "Testostérones"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Tibial antérieur",
@@ -19656,7 +20042,8 @@ window.SOCLE = {
     "ids": [
      "tibial-ant"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Tirage vertical",
@@ -19664,7 +20051,8 @@ window.SOCLE = {
    "def": "Exercice à la poulie haute où l'on tire une barre vers le haut de la poitrine.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Tolérance à l'étirement",
@@ -19672,7 +20060,8 @@ window.SOCLE = {
    "def": "Capacité à supporter un étirement plus poussé avant de l'arrêter. Principale explication du gain d'amplitude obtenu par l'étirement régulier.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Transitivité",
@@ -19682,7 +20071,8 @@ window.SOCLE = {
     "Transitivités"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Transversale (étude)",
@@ -19690,7 +20080,8 @@ window.SOCLE = {
    "def": "Mesure simultanée d'une exposition et d'un résultat. Ambiguïté temporelle irréductible.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Trapèze",
@@ -19708,7 +20099,8 @@ window.SOCLE = {
      "trapeze-moy",
      "trapeze-inf"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Trapèze inférieur",
@@ -19721,7 +20113,8 @@ window.SOCLE = {
     "ids": [
      "trapeze-inf"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Travail mécanique",
@@ -19729,7 +20122,8 @@ window.SOCLE = {
    "def": "Produit d'une force par le déplacement dans sa direction, en joules. Négatif quand le muscle freine et nul sur une répétition complète, ce qui en fait une mauvaise mesure de l'effort.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Triceps brachial",
@@ -19745,7 +20139,8 @@ window.SOCLE = {
      "triceps-long",
      "triceps-lat"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Triceps sural",
@@ -19762,7 +20157,8 @@ window.SOCLE = {
      "gastrocnemien",
      "soleaire"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Triglycérides",
@@ -19772,7 +20168,8 @@ window.SOCLE = {
     "triglycéride"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy004-reserves"
   },
   {
    "terme": "Triple extension",
@@ -19780,7 +20177,8 @@ window.SOCLE = {
    "def": "Extension simultanée de la hanche, du genou et de la cheville, commune au saut et au deuxième tirage des mouvements d'haltérophilie.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Typologie musculaire",
@@ -19790,7 +20188,8 @@ window.SOCLE = {
     "typologie"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Unité motrice",
@@ -19800,7 +20199,8 @@ window.SOCLE = {
     "unités motrices"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio010-unite-motrice"
   },
   {
    "terme": "Unités multicellulaires de base",
@@ -19812,7 +20212,8 @@ window.SOCLE = {
     "unités de remodelage"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "bio014-remodelage"
   },
   {
    "terme": "Valeur p",
@@ -19822,7 +20223,8 @@ window.SOCLE = {
     "valeurs p"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met003-conditionnement"
   },
   {
    "terme": "Validité concourante",
@@ -19830,7 +20232,8 @@ window.SOCLE = {
    "def": "Accord d'un test avec une référence mesurée au même moment. N'implique jamais la validité prédictive, qui porte sur un événement futur. Conclure de l'une à l'autre est le contresens le plus documenté du domaine.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Validité externe",
@@ -19838,7 +20241,8 @@ window.SOCLE = {
    "def": ", *generalizability*. Degré auquel un résultat s'applique à d'autres populations, contextes ou protocoles que ceux étudiés.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Validité interne",
@@ -19846,7 +20250,8 @@ window.SOCLE = {
    "def": "Degré auquel le résultat observé reflète bien l'effet de l'intervention dans l'étude considérée, en l'absence de biais.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Validité prédictive",
@@ -19854,7 +20259,8 @@ window.SOCLE = {
    "def": "Capacité d'un test à annoncer un événement futur. Se démontre par un suivi prospectif, jamais par une corrélation transversale, et dépend fortement de la fréquence de l'événement visé.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Valve",
@@ -19864,7 +20270,8 @@ window.SOCLE = {
     "Valves"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy012-coeur"
   },
   {
    "terme": "Vaste latéral",
@@ -19877,7 +20284,8 @@ window.SOCLE = {
     "ids": [
      "vaste-lat"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Vaste médial",
@@ -19890,7 +20298,8 @@ window.SOCLE = {
     "ids": [
      "vaste-med"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Vastes",
@@ -19906,7 +20315,8 @@ window.SOCLE = {
      "vaste-lat",
      "vaste-med"
     ]
-   }
+   },
+   "schema": null
   },
   {
    "terme": "Veine",
@@ -19916,7 +20326,8 @@ window.SOCLE = {
     "Veines"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy012-vaisseaux"
   },
   {
    "terme": "Ventricule",
@@ -19926,7 +20337,8 @@ window.SOCLE = {
     "Ventricules"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy012-coeur"
   },
   {
    "terme": "Vitesse angulaire",
@@ -19934,7 +20346,8 @@ window.SOCLE = {
    "def": "Vitesse de rotation d'un segment, en radians par seconde, la même pour tous ses points. La vitesse linéaire d'un point vaut ω · r, d'où l'intérêt des segments longs pour la vitesse.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": null
   },
   {
    "terme": "Voie oxydative",
@@ -19944,7 +20357,8 @@ window.SOCLE = {
     "phosphorylation oxydative"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy001-cellule"
   },
   {
    "terme": "Volume d'éjection systolique",
@@ -19955,7 +20369,8 @@ window.SOCLE = {
     "volumes d'éjection"
    ],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy014-reponses"
   },
   {
    "terme": "Zone d'équivalence",
@@ -19963,7 +20378,8 @@ window.SOCLE = {
    "def": "Intervalle centré sur zéro et borné par le plus petit changement digne d'intérêt, à l'intérieur duquel un effet est jugé sans conséquence pratique. Doit être fixée avant l'analyse.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "met006-equivalence"
   },
   {
    "terme": "Zone de conduction",
@@ -19971,7 +20387,8 @@ window.SOCLE = {
    "def": "Partie des voies respiratoires qui achemine l'air sans échange gazeux, de la cavité nasale à la plupart des bronchioles ; elle le filtre, le réchauffe et l'humidifie.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy013-zones"
   },
   {
    "terme": "Zone respiratoire",
@@ -19979,7 +20396,8 @@ window.SOCLE = {
    "def": "Partie des poumons où se font les échanges gazeux : les dernières bronchioles et les alvéoles.",
    "alias": [],
    "blocs": [],
-   "visuel": null
+   "visuel": null,
+   "schema": "phy013-zones"
   }
  ],
  "planches": {

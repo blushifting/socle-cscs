@@ -176,6 +176,35 @@ table.t td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:no
 .anat-cr{font-size:10.5px;color:var(--muted);margin-top:4px}
 .anat .am-z{fill:none;stroke:#8a5a2b;stroke-width:1.6px;vector-effect:non-scaling-stroke;stroke-linejoin:round}
 .anat .am-z.am-p{fill:#8a5a2b;fill-opacity:.35;stroke-dasharray:4 3}
+.anat .am-hit{fill:transparent;cursor:pointer}
+.anat .am-hit:hover{fill:#8a5a2b;fill-opacity:.12}
+/* carte « quel est ce muscle ? » */
+.flash .anat,.se-card .anat{margin:14px 0 2px}
+.flash .anat-cr,.se-card .anat-cr{font-family:var(--sans);font-size:10px;color:var(--muted);text-align:center;font-weight:400}
+/* page « Carte des muscles » */
+.mu-tabs{display:none;gap:6px;justify-content:center;margin:0 0 10px}
+.mu-tabs button{border:1px solid var(--border);background:var(--panel);color:var(--text);border-radius:999px;
+  padding:6px 18px;font:inherit;font-size:13.5px;cursor:pointer}
+.mu-tabs button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.anat.mu .anat-v{flex:0 1 330px}
+.mu-nom{position:sticky;top:0;z-index:4;text-align:center;font-size:15px;padding:8px 10px;margin:0 0 8px;
+  background:var(--bg);border-bottom:1px solid var(--border)}
+.mu-nom b{font-family:var(--serif);font-size:18px;margin-right:6px}
+.mu-info h3{margin:0 0 2px;font-family:var(--serif);font-size:20px}
+.mu-info .en{margin:0 0 10px;color:var(--muted);font-style:italic;font-size:14px}
+.mu-l{margin:10px 0 0;line-height:2.1}
+.mu-l .lbl{margin-right:6px}
+.mu-l .k{font-size:12px;color:var(--muted);margin-right:6px}
+.mu-chip{cursor:pointer;font:inherit;font-size:13px}
+.mu-chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.mu-f{display:inline-block;margin-right:6px;font-size:13.5px}
+.mu-f.lu{font-weight:600}
+@media (max-width:860px){ .mu-tabs{display:flex} .anat.mu .anat-v.off{display:none} .anat.mu .anat-v{flex:1 1 100%} }
+/* schéma de fiche repris dans le glossaire */
+.gl-sch{margin:16px 0 0}
+.gl-sch .lbl{margin-bottom:6px}
+.gl-sch figure.fig{margin:0}
+.gl-sch svg text.gl-hit{fill:var(--accent)!important;font-weight:700}
 /* ---------- glossaire : infobulles ---------- */
 .gl{border-bottom:1px dotted var(--accent);cursor:help;position:relative}
 .gl:hover{background:var(--accent-soft)}
@@ -545,61 +574,114 @@ function glossify(root, bloc){
 function glossaireModal(terme){
   const g = GL.find(x=>x.terme===terme);
   if(!g) return;
+  const carte = g.visuel && g.visuel.planche==='muscles';
   openModal('<h3 style="margin:0 0 4px;font-family:var(--serif);font-size:21px">'+esc(g.terme)+'</h3>'+
     (g.en?'<p style="margin:0 0 12px;color:var(--muted);font-style:italic">'+esc(g.en)+'</p>':'')+
     (g.visuel ? anatHtml(g.visuel) : '')+
-    '<div class="md" style="font-size:15.5px">'+md2html(g.def)+'</div>'+
+    '<div class="md" style="font-size:15.5px">'+md2html(g.def)+(g.schema ? schemaHtml(g) : '')+'</div>'+
     '<p class="noprint" style="margin:16px 0 0;font-size:12.5px;color:var(--muted)">'+
-    'Définition canonique du glossaire. <a href="#" data-doc="glossaire">Ouvrir le glossaire complet</a></p>');
+    'Définition canonique du glossaire. '+
+    (carte ? '<a href="#" onclick="closeModal();go(\'muscles\',this.dataset.t);return false" data-t="'+esc(g.terme)+'">Carte des muscles</a> · ' : '')+
+    '<a href="#" data-doc="glossaire">Ouvrir le glossaire complet</a></p>');
   if(g.visuel) anatCadre($('#modalbox'), false);
 }
 
-/* Planche anatomique : une vraie planche (OpenStax, CC BY-SA), affichée en vue de face et de dos
-   (même dessin, deux cadrages). Le muscle désigné garde ses couleurs, le reste passe en gris pâle ;
-   gros plan sur le muscle, bouton pour le corps entier. Les muscles cachés sur la planche
-   (sous-scapulaire, sus-épineux…) sont dessinés en pointillé. */
-function anatHtml(v){
+/* Schéma de fiche repris dans une définition : le schéma qui montre la notion, avec les
+   étiquettes qui la nomment mises en couleur. Un toucher l'agrandit, comme dans la fiche. */
+function figureDeFiche(id){
+  for(const f of D.fiches){
+    const md = f.md||'', i = md.indexOf('<!-- fig:'+id+' -->');
+    if(i<0) continue;
+    const a = md.indexOf('<figure', i), b = md.indexOf('</figure>', a);
+    return (a<0||b<0) ? null : {fiche:f, html:md.slice(a, b+9)};
+  }
+  return null;
+}
+function schemaHtml(g){
+  const r = figureDeFiche(g.schema);
+  if(!r) return '';
+  const formes = [g.terme].concat(g.alias||[]).map(s=>s.toLowerCase());
+  const box = document.createElement('div'); box.innerHTML = r.html;
+  box.querySelectorAll('text').forEach(t=>{
+    const x = t.textContent.toLowerCase();
+    if(formes.some(f=>x.includes(f))) t.classList.add('gl-hit');
+  });
+  return '<div class="gl-sch"><div class="lbl">Schéma de la fiche <a href="#" data-fiche="'+r.fiche.id+'">'+
+    r.fiche.id+'</a> · toucher pour agrandir</div>'+box.innerHTML+'</div>';
+}
+
+/* ---------------------------------------------------------------- planche anatomique
+   Une vraie planche (OpenStax, CC BY-SA), affichée en vue de face et de dos (même dessin,
+   deux cadrages). Les muscles désignés gardent leurs couleurs, le reste passe en gris pâle.
+   Les muscles cachés sur la planche (sous-scapulaire, sus-épineux…) sont en pointillé. */
+const ANAT_NOM = {face:'Face', dos:'Dos'};
+let ANAT_N = 0;
+function anatZones(pl, k){
+  pl._z = pl._z || {};
+  if(!pl._z[k]){
+    const dom = new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg">'+pl.vues[k].zones+'</svg>','image/svg+xml').documentElement;
+    pl._z[k] = [...dom.children].map(e=>({id:e.getAttribute('data-m'), d:e.getAttribute('d'),
+      mir:e.classList.contains('mir'), deep:e.classList.contains('am-p')}));
+  }
+  return pl._z[k];
+}
+/* hit : couche transparente pour toucher les muscles (page « Carte des muscles ») */
+function anatSvg(pl, k, ids, hit){
+  const q = 'am'+(++ANAT_N)+'-', vb = pl.vues[k].vb.join(' '), sel = new Set(ids||[]);
+  const base = pl.planche.replace(/\bid="/g,'id="'+q).replace(/url\(#/g,'url(#'+q).replace(/href="#/g,'href="#'+q);
+  let clip = '', marques = '', touches = '';
+  anatZones(pl,k).forEach(z=>{
+    if(sel.has(z.id)){
+      const c = ' on'+(z.mir?' mir':'');
+      if(z.deep) marques += '<path class="am-z am-p'+c+'" d="'+z.d+'"/>';
+      else { clip += '<path d="'+z.d+'"/>'; marques += '<path class="am-z'+c+'" d="'+z.d+'"/>'; }
+    }
+    if(hit && !z.deep) touches += '<path class="am-hit" data-m="'+z.id+'" d="'+z.d+'"/>';
+  });
+  const dessin = sel.size
+    ? '<defs><filter id="'+q+'gris"><feColorMatrix type="saturate" values="0"/>'+
+        '<feComponentTransfer><feFuncA type="linear" slope="0.4"/></feComponentTransfer></filter>'+
+        '<clipPath id="'+q+'clip">'+clip+'</clipPath></defs>'+
+      '<g filter="url(#'+q+'gris)"><g id="'+q+'pl">'+base+'</g></g>'+
+      (clip ? '<use href="#'+q+'pl" xlink:href="#'+q+'pl" clip-path="url(#'+q+'clip)"/>' : '')
+    : '<g>'+base+'</g>';
+  return '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="'+vb+
+    '" data-vb0="'+vb+'" data-vue="'+k+'">'+dessin+marques+touches+'</svg>';
+}
+function anatHtml(v, mode){
   const pl = (D.planches||{})[v.planche];
   if(!pl || !pl.vues) return '';
-  const nom = {face:'Face', dos:'Dos'};
   let h = '<div class="anat">';
   Object.keys(pl.vues).forEach(k=>{
-    const q = 'am'+k[0]+'-', vu = pl.vues[k];
-    const base = pl.planche.replace(/\bid="/g,'id="'+q).replace(/url\(#/g,'url(#'+q).replace(/href="#/g,'href="#'+q);
-    const zones = new DOMParser().parseFromString('<svg xmlns="http://www.w3.org/2000/svg">'+vu.zones+'</svg>','image/svg+xml').documentElement;
-    let clip = '', marques = '';
-    v.ids.forEach(id=>zones.querySelectorAll('[data-m="'+id+'"]').forEach(e=>{
-      const d = e.getAttribute('d'), mir = e.classList.contains('mir') ? ' mir' : '';
-      if(e.classList.contains('am-p')) marques += '<path class="am-z am-p on'+mir+'" d="'+d+'"/>';
-      else { clip += '<path d="'+d+'"/>'; marques += '<path class="am-z on'+mir+'" d="'+d+'"/>'; }
-    }));
-    const vb = vu.vb.join(' ');
-    h += '<div class="anat-v"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="'+vb+'" data-vb0="'+vb+'">'+
-      '<defs><filter id="'+q+'gris"><feColorMatrix type="saturate" values="0"/>'+
-      '<feComponentTransfer><feFuncA type="linear" slope="0.4"/></feComponentTransfer></filter>'+
-      '<clipPath id="'+q+'clip">'+clip+'</clipPath></defs>'+
-      '<g filter="url(#'+q+'gris)"><g id="'+q+'pl">'+base+'</g></g>'+
-      (clip ? '<use href="#'+q+'pl" xlink:href="#'+q+'pl" clip-path="url(#'+q+'clip)"/>' : '')+
-      marques+'</svg><div class="cap">'+(nom[k]||k)+'</div></div>';
+    h += '<div class="anat-v">'+anatSvg(pl,k,v.ids,false)+'<div class="cap">'+(ANAT_NOM[k]||k)+'</div></div>';
   });
-  return h+'</div><div class="anat-bar"><button class="lnk" onclick="anatBascule(this)">Voir le corps entier</button>'+
-    (pl.credit ? '<div class="anat-cr">'+esc(pl.credit)+'</div>' : '')+'</div>';
+  h += '</div>';
+  const cr = pl.credit ? '<div class="anat-cr">'+esc(pl.credit)+'</div>' : '';
+  if(mode==='carte') return h+cr;
+  return h+'<div class="anat-bar"><button class="lnk" onclick="anatBascule(this)">Voir le corps entier</button>'+cr+'</div>';
 }
-function anatCadre(root, entier){
+/* Gros plan. Quand le muscle existe des deux côtés et que les deux tiennent ensemble
+   (jambes, tronc, bassin), le cadre les prend tous les deux, centré sur l'axe du corps.
+   Quand ils sont trop écartés (bras, épaules), un seul côté, exactement centré : un cadre
+   sur les deux bras ferait un plan large où le muscle serait petit. */
+function anatCadre(root, entier, large){
   root.querySelectorAll('.anat-v').forEach(div=>{
     const svg = div.querySelector('svg');
-    const vb0 = svg.dataset.vb0, [X, Y, W, H] = vb0.split(' ').map(Number);
+    const vb0 = svg.dataset.vb0, [, , W, H] = vb0.split(' ').map(Number);
     div.style.display = '';
-    const on = [...svg.querySelectorAll('.on:not(.mir)')];
     if(entier){ svg.setAttribute('viewBox', vb0); return; }
-    if(!on.length){ div.style.display = 'none'; return; }
-    let x0=1e9, y0=1e9, x1=-1e9, y1=-1e9;
-    on.forEach(e=>{ const b = e.getBBox();
-      x0=Math.min(x0,b.x); y0=Math.min(y0,b.y); x1=Math.max(x1,b.x+b.width); y1=Math.max(y1,b.y+b.height); });
+    const un = [...svg.querySelectorAll('.am-z.on:not(.mir)')], tous = [...svg.querySelectorAll('.am-z.on')];
+    if(!un.length){ div.style.display = 'none'; return; }
+    const boite = els => { let x0=1e9, y0=1e9, x1=-1e9, y1=-1e9;
+      els.forEach(e=>{ const b = e.getBBox();
+        x0=Math.min(x0,b.x); y0=Math.min(y0,b.y); x1=Math.max(x1,b.x+b.width); y1=Math.max(y1,b.y+b.height); });
+      return {x0,y0,x1,y1}; };
+    const b2 = boite(tous), b = (b2.x1-b2.x0) <= W*0.55 ? b2 : boite(un);
     /* la partie occupe environ la moitié du cadre : assez de contexte pour se repérer */
-    let h = Math.max(H*0.3, (y1-y0)*2.2, (x1-x0)*2.2*4/3), w = h*3/4;
+    const k = large || 1;
+    let h = Math.max(H*0.3*k, (b.y1-b.y0)*2.2*k, (b.x1-b.x0)*1.5*k*4/3), w = h*3/4;
     h = Math.min(h, H); w = Math.min(w, W);
-    const x = Math.min(Math.max((x0+x1)/2 - w/2, X), X+W-w), y = Math.min(Math.max((y0+y1)/2 - h/2, Y), Y+H-h);
+    const x = (b.x0+b.x1)/2 - w/2, y = (b.y0+b.y1)/2 - h/2;
     svg.setAttribute('viewBox', [x,y,w,h].map(n=>n.toFixed(1)).join(' '));
   });
 }
@@ -609,6 +691,129 @@ function anatBascule(btn){
   btn.dataset.entier = entier ? '1' : '';
   btn.textContent = entier ? 'Revenir au gros plan' : 'Voir le corps entier';
   anatCadre(root, entier);
+}
+
+/* ---------------------------------------------------------------- muscles : données */
+const esr = s => s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+const MU_REGIONS = [
+  ['Épaule et bras', ['deltoide-ant','deltoide-moy','deltoide-post','sus-epineux','sous-epineux','petit-rond','grand-rond',
+    'sous-scapulaire','biceps','brachial','brachio-radial','triceps-long','triceps-lat','omoplate']],
+  ['Tronc', ['pectoral-clav','pectoral-stern','dentele','grand-droit','obliques','trapeze-sup','trapeze-moy','trapeze-inf',
+    'grand-dorsal','erecteurs']],
+  ['Hanche et cuisse', ['grand-fessier','moyen-fessier','adducteurs','gracile','sartorius','droit-femoral','vaste-lat',
+    'vaste-med','biceps-femoral','semi-tendineux','semi-membraneux']],
+  ['Jambe', ['gastrocnemien','soleaire','tibial-ant','achille']]
+];
+/* zones de la planche qui n'ont pas (encore) d'entrée propre dans le glossaire */
+const MU_NOMS = {brachial:'Brachial', obliques:'Obliques de l\'abdomen', 'grand-rond':'Grand rond'};
+const MU_GROUPE = /^(Adducteurs|Coiffe|Extenseurs|Fessiers|Fléchisseurs|Ischio|Quadriceps|Triceps sural|Vastes)/;
+function muEntrees(){
+  return GL.filter(g=>g.visuel && g.visuel.planche==='muscles' && !/^(Exercice|Omoplate)/.test(g.terme))
+    .sort((a,b)=>a.terme.localeCompare(b.terme,'fr'));
+}
+function muRegion(g){ const i = MU_REGIONS.findIndex(r=>r[1].includes(g.visuel.ids[0])); return i<0 ? 0 : i; }
+function muDeZone(id){
+  return muEntrees().filter(g=>g.visuel.ids.includes(id))
+    .sort((a,b)=>a.visuel.ids.length-b.visuel.ids.length)[0] || null;
+}
+/* fiches où le terme (ou une de ses formes) apparaît, dans l'ordre du parcours */
+function fichesAvec(g){
+  const rx = new RegExp('(^|[^\\p{L}\\p{N}_-])('+[g.terme].concat(g.alias||[]).map(esr).join('|')+')(?![\\p{L}\\p{N}_-])','iu');
+  return ordre().filter(f=>(!g.blocs || !g.blocs.length || g.blocs.indexOf(blocNum(f.bloc))>=0) && rx.test(f.texte||f.md||''));
+}
+
+/* Cartes « quel est ce muscle ? » : une par muscle ou groupe de la planche, ajoutée au
+   paquet ; elle s'ouvre (comme les autres) quand la première fiche qui emploie le nom est
+   terminée. Les groupes fonctionnels (fléchisseurs, extenseurs) sont exclus : le dessin
+   seul ne les distingue pas du groupe anatomique qui porte les mêmes muscles. */
+function cartesMuscles(){
+  const vus = new Set();
+  muEntrees().forEach(g=>{
+    if(/^(Fléchisseurs|Extenseurs)/.test(g.terme)) return;
+    const cle = g.visuel.ids.slice().sort().join('+');
+    if(vus.has(cle)) return; vus.add(cle);
+    const fs = fichesAvec(g);
+    if(!fs.length) return;
+    const slug = g.terme.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-');
+    D.anki.push({id:'VIS-'+slug, visuel:g.visuel, tags:[fs[0].id,'anatomie'],
+      recto: MU_GROUPE.test(g.terme) ? 'Quel est ce groupe de muscles ?' : 'Quel est ce muscle, ou cette partie de muscle ?',
+      verso: '**'+g.terme+'** — '+g.def});
+  });
+}
+function carteRecto(c){ return inline(c.recto)+(c.visuel ? anatHtml(c.visuel,'carte') : ''); }
+
+/* ---------------------------------------------------------------- page « Carte des muscles » */
+let MU_VUE = 'face';
+function muChoisir(arg, depuisCarte){
+  V.arg = arg;
+  const g = muSel(arg), pl = (D.planches||{}).muscles;
+  if(g && pl){   // bascule vers la vue où la partie apparaît, si elle n'est pas dans la vue courante
+    const ids = g.ids, dans = k => anatZones(pl,k).some(z=>ids.includes(z.id));
+    if(!dans(MU_VUE)) MU_VUE = MU_VUE==='face' ? 'dos' : 'face';
+  }
+  const y = window.scrollY;
+  render();
+  if(depuisCarte) window.scrollTo(0, y);
+  else { const m = document.getElementById('mu-carte'); if(m) m.scrollIntoView({block:'start'}); }
+}
+function muSel(arg){
+  if(!arg) return null;
+  if(arg.startsWith('zone:')){
+    const id = arg.slice(5), g = muDeZone(id);
+    if(g && g.visuel.ids.length===1) return {g, ids:g.visuel.ids};
+    return {g:null, nom:MU_NOMS[id] || (g ? g.terme : id), ids:[id], zone:id};
+  }
+  const g = GL.find(x=>x.terme===arg);
+  return g && g.visuel ? {g, ids:g.visuel.ids} : null;
+}
+function vMuscles(){
+  const pl = (D.planches||{}).muscles;
+  if(!pl){ main.innerHTML = '<p class="empty">Planche indisponible.</p>'; return; }
+  const s = muSel(V.arg), ids = s ? s.ids : [];
+  let h = '<h2 class="page">Carte des muscles</h2>'+
+    '<p class="lede">Touchez un muscle sur la carte, ou un nom dans la liste : il s\'allume, avec sa définition et les fiches qui en parlent.</p>';
+  h += '<div id="mu-carte"><div class="mu-tabs">'+['face','dos'].map(k=>
+    '<button class="'+(MU_VUE===k?'on':'')+'" onclick="MU_VUE=\''+k+'\';render()">'+ANAT_NOM[k]+'</button>').join('')+'</div>';
+  h += '<div class="mu-nom">'+(s ? '<b>'+esc(s.g ? s.g.terme : s.nom)+'</b> <a href="#" onclick="document.getElementById(\'mu-info\').scrollIntoView({behavior:\'smooth\'});return false">définition ↓</a>'
+    : 'Aucun muscle choisi')+'</div>';
+  h += '<div class="anat mu">'+Object.keys(pl.vues).map(k=>'<div class="anat-v'+(k===MU_VUE?'':' off')+'">'+
+    anatSvg(pl,k,ids,true)+'<div class="cap">'+ANAT_NOM[k]+'</div></div>').join('')+'</div>';
+  h += '<div class="anat-cr" style="text-align:center">'+esc(pl.credit||'')+'</div></div>';
+  /* fiche du muscle choisi */
+  if(s){
+    const g = s.g;
+    h += '<div class="card mu-info" id="mu-info">';
+    if(g){
+      h += '<h3>'+esc(g.terme)+'</h3>'+(g.en ? '<p class="en">'+esc(g.en)+'</p>' : '')+
+        '<div class="md">'+md2html(g.def)+'</div>';
+    } else {
+      h += '<h3>'+esc(s.nom)+'</h3><p class="en">Pas encore d\'entrée à son nom dans le glossaire.</p>';
+    }
+    const chips = l => l.map(x=>'<button class="tag mu-chip" data-mu="'+esc(x.terme)+'">'+esc(x.terme)+'</button>').join(' ');
+    const set = new Set(s.ids), E = muEntrees().filter(x=>!g || x.terme!==g.terme);
+    const dans = E.filter(x=>s.ids.every(i=>x.visuel.ids.includes(i)) && x.visuel.ids.length>s.ids.length);
+    const comprend = E.filter(x=>x.visuel.ids.every(i=>set.has(i)) && x.visuel.ids.length<s.ids.length);
+    if(dans.length) h += '<div class="mu-l"><span class="lbl">Fait partie de</span> '+chips(dans)+'</div>';
+    if(comprend.length) h += '<div class="mu-l"><span class="lbl">Comprend</span> '+chips(comprend)+'</div>';
+    if(g){
+      const fs = fichesAvec(g);
+      h += '<div class="mu-l"><span class="lbl">'+(fs.length ? 'Apparaît dans' : 'Pas encore employé dans une fiche')+'</span> '+
+        fs.map(f=>'<a href="#" class="mu-f'+(finie(f.id)?' lu':'')+'" data-fiche="'+f.id+'" title="'+esc(f.titre)+'">'+f.id+'</a>').join(' ')+'</div>';
+    }
+    h += '</div>';
+  }
+  /* liste par région */
+  const E = muEntrees();
+  MU_REGIONS.forEach((r,i)=>{
+    const l = E.filter(g=>muRegion(g)===i);
+    if(!l.length) return;
+    const btn = g => '<button class="tag mu-chip'+(s && s.g && s.g.terme===g.terme?' on':'')+'" data-mu="'+esc(g.terme)+'">'+esc(g.terme)+'</button>';
+    const grp = l.filter(g=>MU_GROUPE.test(g.terme)), mus = l.filter(g=>!MU_GROUPE.test(g.terme));
+    h += '<div class="card mu-reg"><div class="lbl">'+r[0]+'</div>'+
+      (grp.length ? '<div class="mu-l"><span class="k">Groupes</span> '+grp.map(btn).join(' ')+'</div>' : '')+
+      '<div class="mu-l"><span class="k">Muscles</span> '+mus.map(btn).join(' ')+'</div></div>';
+  });
+  main.innerHTML = h;
 }
 
 /* ============================================================ état */
@@ -692,6 +897,7 @@ function renderNav(){
     ['doc:dco','Référentiel CSCS',''],
     ['doc:biblio','Bibliographie', D.sources.length],
     ['doc:glossaire','Glossaire',''],
+    ['muscles','Carte des muscles',''],
     ['doc:protocole','Protocole de sourçage',''],
     ['doc:phase0','Phase 0 : écarts',''],
     ['doc:readme','Mode d\'emploi','']
@@ -1092,7 +1298,7 @@ function renderR(){
   let h = '<div class="topbar noprint"><button class="btn" onclick="R=null;go(\'rev\')">Quitter</button>'+
     '<div class="grow"></div><span style="color:var(--muted);font-size:13px">'+(R.i+1)+' / '+R.list.length+'</span></div>';
   h += '<div class="prog"><i style="width:'+(R.i/R.list.length*100).toFixed(1)+'%"></i></div>';
-  h += '<div class="card flash"><div class="r">'+inline(c.recto)+'</div>'+
+  h += '<div class="card flash"><div class="r">'+carteRecto(c)+'</div>'+
     (R.show? '<div class="v">'+inline(c.verso)+'</div>':'')+'</div>';
   if(!R.show){
     h += '<p class="consigne">Réponds dans ta tête, puis retourne la carte.</p>'+
@@ -1106,6 +1312,7 @@ function renderR(){
   h += '<div class="card" style="margin-top:20px"><span class="lbl">Tags</span> '+
     c.tags.map(t=>'<span class="tag">'+esc(t)+'</span>').join('')+'</div>';
   main.innerHTML = h;
+  if(c.visuel) anatCadre(main, false, 1.6);
 }
 /* Répétition espacée, partagée par la révision et l'échauffement du mode séance.
    L'unité est la SÉANCE, pas le jour : on ne révise que les jours d'entraînement,
@@ -1397,6 +1604,7 @@ function vSeance(){
   else h += seFin(S);
   main.innerHTML = h + '</div>';
   if(S && S.phase==='lecture'){ const f = byId(D.fiches,S.fiche); glossify(main.querySelector('.md'), f ? blocNum(f.bloc) : null); }
+  if(S && S.phase==='cartes') anatCadre(main, false, 1.6);
 }
 
 function seAccueil(){
@@ -1451,7 +1659,7 @@ function seCartes(S){
   let h = '<div class="se-head"><span><b>Échauffement</b> · carte '+(S.ci+1)+' / '+S.cartes.length+'</span>'+
     '<div class="grow"></div><button class="lnk" onclick="seSkipCartes()">Passer →</button></div>'+
     '<div class="prog"><i style="width:'+(S.ci/S.cartes.length*100).toFixed(1)+'%"></i></div>';
-  h += '<div class="se-card"><div class="r">'+inline(c.recto)+'</div>'+
+  h += '<div class="se-card"><div class="r">'+carteRecto(c)+'</div>'+
     (S.montre ? '<div class="v">'+inline(c.verso)+'</div>' : '')+'</div>';
   h += S.montre
     ? '<p class="consigne">Avais-tu trouvé ?</p>'+boutonsCarte(c.id,'seGrade')
@@ -1602,6 +1810,7 @@ function render(){
     case 'rev': vRev(); break;
     case 'cas': vCas(); break;
     case 'doc': vDoc(V.arg); break;
+    case 'muscles': vMuscles(); break;
     default: vDash();
   }
 }
@@ -1611,6 +1820,10 @@ document.addEventListener('click', e=>{
   const g = e.target.closest('[data-go]');
   if(g){ e.preventDefault(); const v=g.dataset.go;
     if(v.startsWith('doc:')) go('doc',v.slice(4)); else { Q=null;R=null; go(v); } return; }
+  const hz = e.target.closest('.am-hit');
+  if(hz && V.view==='muscles'){ e.preventDefault(); muChoisir('zone:'+hz.dataset.m, true); return; }
+  const mu = e.target.closest('[data-mu]');
+  if(mu){ e.preventDefault(); muChoisir(mu.dataset.mu); return; }
   const f = e.target.closest('[data-fiche]');
   if(f){ e.preventDefault(); closeModal(); go('fiche',f.dataset.fiche); return; }
   const s = e.target.closest('[data-src]');
@@ -1650,6 +1863,7 @@ document.addEventListener('keydown', e=>{
 document.documentElement.setAttribute('data-theme',
   load('socle.theme', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'));
 try{ history.replaceState({view:V.view, arg:V.arg},''); }catch(e){}
+cartesMuscles();
 render();
 
 /* Hors ligne et installation sur l'écran d'accueil (uniquement servi en http,
