@@ -318,6 +318,8 @@ label.chk{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:va
 .se-hero h3{font-family:var(--serif);font-size:23px;line-height:1.3;margin:8px 0 8px;font-weight:600}
 .se-hero p{margin:0;color:var(--muted);font-size:14.5px}
 .se-stack{display:flex;flex-direction:column;gap:10px}
+.qvis .anat{margin:4px 0 6px}
+.qvis .anat-cr{font-family:var(--sans);font-size:10px;color:var(--muted);text-align:center}
 .se-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:26px 20px;
   min-height:220px;display:flex;flex-direction:column;justify-content:center}
 .se-card .r{font-family:var(--serif);font-size:21px;line-height:1.45}
@@ -407,7 +409,7 @@ label.chk{display:inline-flex;align-items:center;gap:6px;font-size:14px;color:va
 <script src="data.js"></script>
 <script>
 /* ============================================================ utilitaires */
-const D = window.SOCLE || {blocs:[],fiches:[],qcm:[],anki:[],cas:[],docs:[],sources:[],glossaire:[]};
+const D = window.SOCLE || {blocs:[],fiches:[],qcm:[],anki:[],mus:[],cas:[],docs:[],sources:[],glossaire:[]};
 if(!D.glossaire) D.glossaire = [];
 const $ = s => document.querySelector(s);
 const main = $('#main');
@@ -722,11 +724,12 @@ function fichesAvec(g){
   return ordre().filter(f=>(!g.blocs || !g.blocs.length || g.blocs.indexOf(blocNum(f.bloc))>=0) && rx.test(f.texte||f.md||''));
 }
 
-/* Cartes « quel est ce muscle ? » : une par muscle ou groupe de la planche, ajoutée au
-   paquet ; elle s'ouvre (comme les autres) quand la première fiche qui emploie le nom est
-   terminée. Les groupes fonctionnels (fléchisseurs, extenseurs) sont exclus : le dessin
-   seul ne les distingue pas du groupe anatomique qui porte les mêmes muscles. */
+/* Questions « quel est ce muscle ? » : une par muscle ou groupe de la planche ; elle s'ouvre
+   quand la première fiche qui emploie le nom est terminée. Les groupes fonctionnels
+   (fléchisseurs, extenseurs) sont exclus : le dessin seul ne les distingue pas du groupe
+   anatomique qui porte les mêmes muscles. Les options sont tirées dans muscleQ(). */
 function cartesMuscles(){
+  D.mus = [];
   const vus = new Set();
   muEntrees().forEach(g=>{
     if(/^(Fléchisseurs|Extenseurs)/.test(g.terme)) return;
@@ -734,13 +737,10 @@ function cartesMuscles(){
     if(vus.has(cle)) return; vus.add(cle);
     const fs = fichesAvec(g);
     if(!fs.length) return;
-    const slug = g.terme.normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-');
-    D.anki.push({id:'VIS-'+slug, visuel:g.visuel, tags:[fs[0].id,'anatomie'],
-      recto: MU_GROUPE.test(g.terme) ? 'Quel est ce groupe de muscles ?' : 'Quel est ce muscle, ou cette partie de muscle ?',
-      verso: '**'+g.terme+'** — '+g.def});
+    const slug = g.terme.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-');
+    D.mus.push({id:'VIS-'+slug, terme:g.terme, def:g.def, visuel:g.visuel, fiche:fs[0].id, groupe:MU_GROUPE.test(g.terme)});
   });
 }
-function carteRecto(c){ return inline(c.recto)+(c.visuel ? anatHtml(c.visuel,'carte') : ''); }
 
 /* ---------------------------------------------------------------- page « Carte des muscles » */
 let MU_VUE = 'face';
@@ -861,6 +861,19 @@ function couverture(){
   D.blocs.forEach(b=>{ tot+=b.items; acq += b.items * blocStats(b).pct/100; });
   return {acq, tot, pct: tot? acq/tot*100 : 0};
 }
+/* Réussite d'une fiche : ses QCM réussis à la dernière réponse, sur le nombre de ses QCM.
+   C'est l'indicateur de maîtrise affiché partout (liste des fiches, fiche, séance, tableau de bord). */
+function maitrise(fid){
+  const qs = D.qcm.filter(q=>q.fiche===fid);
+  let ok=0, vus=0;
+  qs.forEach(q=>{ const r = P.qcm[q.id]; if(r && r.vus){ vus++; if(r.dernierOk) ok++; } });
+  return {n:qs.length, vus, ok, pct: qs.length ? ok/qs.length*100 : 0};
+}
+function maitriseTag(fid){
+  const m = maitrise(fid);
+  if(!m.vus) return '';
+  return '<span class="tag'+(m.ok===m.n?' v':'')+'">QCM '+m.ok+' / '+m.n+'</span>';
+}
 function qcmStats(filter){
   let vus=0, justes=0;
   D.qcm.forEach(q=>{
@@ -870,10 +883,12 @@ function qcmStats(filter){
   });
   return {vus, justes, pct: vus? justes/vus*100 : 0};
 }
-/* Cartes ouvertes : celles des fiches terminées, plus toutes celles déjà vues. */
+/* Questions ouvertes à la révision : les QCM des fiches terminées (et des fiches de leur
+   renvoi), les questions de muscles dont la fiche est terminée, plus tout ce qui a déjà été vu. */
+function qcmPret(q){ return finie(q.fiche) && ((q.renvoi||'').match(/[A-Z]{3}-\d{3}/g)||[]).every(finie); }
 function cartesOuvertes(){
-  const faites = new Set(D.fiches.filter(f=>finie(f.id)).map(f=>f.id));
-  return D.anki.filter(x=>P.cards[x.id] || x.tags.some(tg=>faites.has(tg)));
+  return D.qcm.filter(q=>q.revision && (P.cards[q.id] || qcmPret(q)))
+    .concat((D.mus||[]).filter(m=>P.cards[m.id] || finie(m.fiche)));
 }
 function cardsDue(){
   const cur = seanceCourante();
@@ -896,6 +911,7 @@ function renderNav(){
     ['doc:curriculum','Curriculum',''],
     ['doc:dco','Référentiel CSCS',''],
     ['doc:biblio','Bibliographie', D.sources.length],
+    ['doc:preuves','Niveaux de preuve',''],
     ['doc:glossaire','Glossaire',''],
     ['muscles','Carte des muscles',''],
     ['doc:protocole','Protocole de sourçage',''],
@@ -947,6 +963,20 @@ function vDash(){
     '* Nombre d\'items estimé par répartition uniforme des sous-domaines : la NSCA ne publie pas '+
     'de ventilation sous le niveau du domaine. Voir le curriculum, §1.</p></div>';
 
+  /* fiches à consolider : celles dont les QCM sont le moins réussis */
+  const fr = D.fiches.map(f=>Object.assign({f}, maitrise(f.id))).filter(x=>x.vus).sort((a,b)=>a.pct-b.pct);
+  if(fr.length){
+    h += '<div class="card"><div class="lbl">Réussite par fiche</div><p style="font-size:12.5px;color:var(--muted);margin:6px 0 10px">'+
+      'QCM réussis à la dernière réponse. Les fiches les moins réussies en premier : ce sont celles à relire.</p>'+
+      '<div class="tw" style="margin:0"><table class="t"><tbody>';
+    fr.forEach(x=>{
+      h += '<tr><td><a href="#" data-fiche="'+x.f.id+'">'+esc(x.f.id)+'</a> <span class="hm" style="color:var(--muted)">'+esc(x.f.titre)+'</span></td>'+
+        '<td class="num">'+x.ok+' / '+x.n+'</td>'+
+        '<td style="width:110px"><div class="bar'+(x.ok===x.n?' ok':'')+'"><i style="width:'+x.pct.toFixed(0)+'%"></i></div></td></tr>';
+    });
+    h += '</tbody></table></div></div>';
+  }
+
   /* réussite par niveau cognitif */
   const niv = ['Recall','Application','Analysis'];
   h += '<div class="grid g2"><div class="card"><div class="lbl">Réussite par niveau cognitif</div>'+
@@ -961,7 +991,7 @@ function vDash(){
     '<em>Recall</em> et <em>Analysis</em> est le signal le plus utile de cette page.</p></div>';
 
   h += '<div class="card"><div class="lbl">Prochaine action</div><div style="margin-top:10px">';
-  if(due>0) h += '<p style="margin:0 0 12px">'+due+' carte'+(due>1?'s':'')+' à réviser.</p>'+
+  if(due>0) h += '<p style="margin:0 0 12px">'+due+' question'+(due>1?'s':'')+' à réviser.</p>'+
     '<button class="btn primary" data-go="rev">Réviser maintenant</button>';
   else if(qs.vus===0) h += '<p style="margin:0 0 12px">Aucun QCM n\'a encore été passé. Le premier lot porte sur les trois fiches du bloc 0.</p>'+
     '<button class="btn primary" data-go="qcm">Lancer un QCM</button>';
@@ -989,7 +1019,7 @@ function stat(lbl,val,pct,sub){
 
 function vFiches(){
   let h = '<h2 class="page">Fiches</h2><p class="lede">Une fiche répond à une question et une seule. '+
-    'Le statut <em>validé</em> signifie que sa section « À vérifier » est vide.</p>';
+    'Le statut <em>validé</em> signifie que toutes ses sources et ses chiffres ont été vérifiés.</p>';
   D.blocs.forEach(b=>{
     const f = D.fiches.filter(x=>x.bloc===b.id);
     if(!f.length) return;
@@ -1000,6 +1030,7 @@ function vFiches(){
         '<div class="m"><span class="tag '+(/valid/i.test(x.statut)?'v':'')+'">'+esc(x.id)+' · '+esc(x.statut)+'</span>'+
         x.dco.map(d=>'<span class="tag">'+esc(d)+'</span>').join('')+
         (estLue(x.id)?'<span class="tag v">lue le '+P.lues[x.id]+'</span>':'<span class="tag">non lue</span>')+
+        maitriseTag(x.id)+
         '</div></button>';
     });
   });
@@ -1018,8 +1049,11 @@ function vFiche(id){
     '<div class="grow"></div>'+
     (qs.length? '<button class="btn" data-qcm="'+id+'">Se tester ('+qs.length+')</button>':'')+
     '<button class="btn" onclick="window.print()">Imprimer</button></div>';
-  if(s.vus) h += '<div class="card noprint" style="padding:12px 18px"><span class="lbl">Vos résultats sur cette fiche</span> '+
-    '<strong>'+s.justes+' / '+s.vus+'</strong> <span style="color:var(--muted)">('+s.pct.toFixed(0)+' %)</span></div>';
+  const m = maitrise(id);
+  if(m.vus) h += '<div class="card noprint" style="padding:12px 18px"><span class="lbl">Réussite aux QCM de cette fiche</span> '+
+    '<strong>'+m.ok+' / '+m.n+'</strong> <span style="color:var(--muted)">réussis à la dernière réponse · '+
+    s.justes+' / '+s.vus+' sur toutes les réponses</span>'+
+    '<div class="bar'+(m.ok===m.n?' ok':'')+'" style="margin-top:8px"><i style="width:'+m.pct.toFixed(0)+'%"></i></div></div>';
   h += mdBlock(f.md);
   if(f.liens.length){
     h += '<div class="card noprint"><div class="lbl">Fiches liées</div><div style="margin-top:8px">'+
@@ -1177,10 +1211,15 @@ function renderQ(){
   main.innerHTML = h;
   tick();
 }
-function corrHtml(q){
-  const keys = Object.keys(q.justif);
-  let h = '<div class="corr"><p><strong>Réponse : '+esc(q.reponse)+'</strong></p>';
-  keys.forEach(k=> h += '<p><strong>'+esc(k)+'</strong> — '+inline(q.justif[k])+'</p>');
+function corrHtml(q, perm){
+  const aff = L => perm ? LETTRES[perm.indexOf(L)] : L;
+  const cle = k => k.replace(/[ABC]$/, L=>aff(L));
+  const keys = Object.keys(q.justif).sort((a,b)=>{
+    const ra = /pas/.test(a), rb = /pas/.test(b);
+    return ra!==rb ? (ra?1:-1) : cle(a).localeCompare(cle(b)); });
+  let h = '<div class="corr"><p><strong>Réponse : '+esc(aff(q.reponse))+'</strong></p>';
+  if(q.def) h += '<p>'+inline(q.def)+'</p>';
+  keys.forEach(k=> h += '<p><strong>'+esc(cle(k))+'</strong> — '+inline(q.justif[k])+'</p>');
   if(q.renvoi) h += '<p style="color:var(--muted);font-size:13.5px">Renvoi : '+inline(q.renvoi)+'</p>';
   return h+'</div>';
 }
@@ -1192,7 +1231,9 @@ function answer(L){
   const r = P.qcm[q.id] || {vus:0,justes:0};
   r.vus++; if(L===q.reponse) r.justes++;
   r.dernierOk = (L===q.reponse); r.dernier = today();
-  P.qcm[q.id] = r; saveP();
+  P.qcm[q.id] = r;
+  if(q.revision) noter(q.id, L===q.reponse ? 5 : 0);
+  saveP();
   renderQ();
 }
 function navQ(d){ Q.i = Math.max(0, Math.min(Q.list.length-1, Q.i+d)); Q.qt=Date.now(); renderQ(); }
@@ -1253,77 +1294,158 @@ function tick(){
   setTimeout(tick,1000);
 }
 
-/* ============================================================ révision espacée */
+/* ============================================================ révision espacée (QCM)
+
+   Depuis le 2026-11-28, la révision espacée porte sur les QCM (format de l'examen) et sur
+   les questions visuelles « Quel est ce muscle ? », à la place des cartes question-réponse.
+   Un QCM s'ouvre quand sa fiche (et les fiches de son renvoi) est terminée ; sa première
+   présentation est la consolidation de fin de fiche. Bonne réponse = « trouvé » (2 séances,
+   puis × ef) ; mauvaise = revient en fin de session puis à la séance suivante.
+   L'ordre des options est tiré au hasard à chaque présentation, pour qu'on ne retienne pas
+   « c'était la B ». */
+const LETTRES = 'ABC';
+function permDe(q){ return melange(['A','B','C'].filter(L=>q.options[L])); }
+/* identifiant → objet question (les questions de muscles sont construites à la volée et
+   gardées dans l'état de la session, pour rester identiques si l'on recharge la page) */
+function itemQ(id, st){
+  if(!/^VIS-/.test(id)) return byId(D.qcm,id);
+  st.vis = st.vis || {};
+  if(!st.vis[id]){ const m = byId(D.mus||[],id); if(!m) return null; st.vis[id] = muscleQ(m); }
+  return st.vis[id];
+}
+function qItemHtml(q, perm, rep, fn){
+  let h = '<div class="qtxt">'+inline(q.enonce)+'</div>';
+  if(q.visuel) h += '<div class="qvis">'+anatHtml(q.visuel,'carte')+'</div>';
+  perm.forEach((L,i)=>{
+    let cls = 'opt';
+    if(rep!==undefined){ if(L===q.reponse) cls+=' good'; else if(L===rep) cls+=' bad'; }
+    h += '<button class="'+cls+'" onclick="'+fn+'('+i+')"'+(rep!==undefined?' disabled':'')+'><b>'+LETTRES[i]+'.</b> '+inline(q.options[L])+'</button>';
+  });
+  if(rep!==undefined) h += corrHtml(q, perm);
+  return h;
+}
+/* enregistre une réponse : statistiques QCM + planification */
+function enregistrer(q, ok){
+  if(!q.visuel){
+    const r = P.qcm[q.id] || {vus:0,justes:0};
+    r.vus++; if(ok) r.justes++; r.dernierOk = ok; r.dernier = today();
+    P.qcm[q.id] = r;
+  }
+  if(q.visuel || q.revision) noter(q.id, ok ? 5 : 0);
+}
+/* ---- questions « Quel est ce muscle ? »
+   Distracteurs choisis sur la planche : des muscles voisins, pour que la question ne se
+   règle pas en un coup d'œil. Tant que la question n'a pas été réussie deux fois : un
+   voisin proche et un muscle plus éloigné (éliminable). Ensuite : deux voisins proches.
+   Jamais un distracteur qui recouvre la bonne réponse (« Quadriceps » pour « Vaste latéral »),
+   et un groupe a pour distracteurs des groupes, un muscle des muscles. */
+const MU_CENTRES = {};
+function muCentre(ids, vue){
+  const k = vue+':'+ids.slice().sort().join('+');
+  if(k in MU_CENTRES) return MU_CENTRES[k];
+  const pl = (D.planches||{}).muscles; let zs = pl ? anatZones(pl,vue).filter(z=>ids.includes(z.id)) : [];
+  if(zs.some(z=>!z.mir)) zs = zs.filter(z=>!z.mir);
+  let sx=0, sy=0, n=0;
+  zs.forEach(z=>{ const v = (z.d.match(/-?\d+(\.\d+)?/g)||[]).map(Number);
+    for(let i=0;i+1<v.length;i+=2){ sx+=v[i]; sy+=v[i+1]; n++; } });
+  return MU_CENTRES[k] = n ? [sx/n, sy/n] : null;
+}
+function muscleQ(m){
+  const vue = muCentre(m.visuel.ids,'face') ? 'face' : 'dos', c0 = muCentre(m.visuel.ids, vue);
+  const recouvre = (a,b) => a.visuel.ids.some(i=>b.visuel.ids.includes(i));
+  const tous = muEntrees().filter(g=>!/^(Fléchisseurs|Extenseurs)/.test(g.terme) && g.terme!==m.terme);
+  const cand = mode => tous.filter(g=>!recouvre(g,m) && (mode || MU_GROUPE.test(g.terme)===m.groupe))
+    .map(g=>{ const c = muCentre(g.visuel.ids, vue); return {g, d: c&&c0 ? Math.hypot(c[0]-c0[0], c[1]-c0[1]) : null}; })
+    .filter(o=>o.d!==null).sort((a,b)=>a.d-b.d);
+  let pool = cand(false); if(pool.length<4) pool = cand(true);
+  const pick = arr => arr[Math.floor(Math.random()*arr.length)];
+  const s = P.cards[m.id], fort = s && s.n>=2;
+  const d1 = pick(pool.slice(0,3));
+  const reste = pool.filter(o=>o!==d1 && !recouvre(o.g,d1.g));
+  const d2 = fort ? pick(reste.slice(0,3)) : pick(reste.slice(Math.floor(reste.length/2)));
+  const noms = melange([m.terme, d1.g.terme, d2.g.terme]);
+  const options = {}; noms.forEach((t,i)=>options[LETTRES[i]] = t);
+  return {id:m.id, fiche:m.fiche, niveau:'Anatomie', visuel:m.visuel,
+    enonce: m.groupe ? 'Quel est ce groupe de muscles ?' : 'Quel est ce muscle, ou cette partie de muscle ?',
+    options, reponse: LETTRES[noms.indexOf(m.terme)], justif:{}, def:'**'+m.terme+'** — '+m.def};
+}
+
 let R = null;
 function vRev(){
   if(R) return renderR();
-  const due = cardsDue();
-  const total = D.anki.length;
-  const nouv = D.anki.filter(c=>!P.cards[c.id]).length;
+  const due = cardsDue(), ouv = cartesOuvertes();
+  const vues = ouv.filter(c=>P.cards[c.id]).length;
   let h = '<h2 class="page">Révision espacée</h2>'+
-    '<p class="lede">Une carte pose une question. On y répond dans sa tête, on la retourne, puis on '+
-    'dit honnêtement si l\'on avait trouvé. Les délais se comptent en séances (un jour où l\'on révise), '+
-    'pas en jours : une carte ratée revient en fin de séance puis à la suivante ; une carte trouvée revient '+
-    'de plus en plus loin, d\'autant plus vite qu\'elle était facile. La progression est stockée dans ce navigateur — '+
-    'utilisez le bouton <em>Exporter</em> pour la sauvegarder.</p>';
+    '<p class="lede">Les QCM des fiches terminées que l\'examen interroge reviennent à intervalles croissants, avec les questions '+
+    '« Quel est ce muscle ? ». Les délais se comptent en séances (un jour où l\'on révise), pas en jours : '+
+    'une question ratée revient en fin de session puis à la séance suivante ; une question réussie revient '+
+    'de plus en plus loin. L\'ordre des réponses change à chaque passage. La progression est stockée dans ce '+
+    'navigateur — utilisez le bouton <em>Exporter</em> pour la sauvegarder.</p>';
   h += '<div class="grid g3">'+
-    stat('À réviser à cette séance', due.length+'<small> cartes</small>', total?due.length/total*100:0)+
-    stat('Jamais vues', nouv+'<small> / '+total+'</small>', total?nouv/total*100:0)+
-    stat('En mémoire', (total-nouv)+'<small> cartes</small>', total?(total-nouv)/total*100:0)+
+    stat('À réviser à cette séance', due.length+'<small> questions</small>', ouv.length?due.length/ouv.length*100:0)+
+    stat('Ouvertes', ouv.length+'<small> / '+(D.qcm.filter(q=>q.revision).length+(D.mus||[]).length)+'</small>', 0, 'celles des fiches terminées')+
+    stat('Déjà vues', vues+'<small> questions</small>', ouv.length?vues/ouv.length*100:0)+
     '</div>';
   h += '<div class="card">'+
-    (due.length? '<button class="btn primary" onclick="startR()">Réviser '+due.length+' carte'+(due.length>1?'s':'')+'</button>'
-      : '<p style="margin:0 0 12px">Rien à réviser à cette séance.</p><button class="btn" onclick="startR(true)">Réviser quand même</button>')+
+    (due.length? '<button class="btn primary" onclick="startR()">Réviser '+due.length+' question'+(due.length>1?'s':'')+'</button>'
+      : '<p style="margin:0 0 12px">'+(ouv.length ? 'Rien à réviser à cette séance.' : 'Les questions s\'ouvrent quand une fiche est terminée en mode Séance.')+'</p>'+
+        (ouv.length ? '<button class="btn" onclick="startR(true)">Réviser quand même</button>' : ''))+
     '</div>';
-  h += '<div class="card"><div class="lbl">Le deck</div><p style="font-size:13.5px;color:var(--muted);margin:10px 0 0">'+
-    'Les mêmes cartes sont exportées au format Anki dans <code>anki/</code>, une ligne par carte, '+
-    'séparateur <code>|</code>, la troisième colonne contenant les tags. Pour les importer dans Anki : '+
-    'Fichier → Importer, choisir le séparateur « Pipe », et cocher « La 3e colonne contient les tags ».</p></div>';
   main.innerHTML = h;
 }
 function startR(all){
-  let list = all ? espacer(melange(cartesOuvertes().slice()))
-                 : cartesEchauffement(999).map(id=>byId(D.anki,id));
-  R = {list, i:0, show:false, done:0};
+  const list = all ? espacer(melange(cartesOuvertes().slice())).map(x=>x.id) : cartesEchauffement(999);
+  R = {list, i:0, perm:null, rep:undefined, done:0, justes:0};
   renderR();
 }
 function renderR(){
   if(R.i>=R.list.length){
     main.innerHTML = '<h2 class="page">Session terminée</h2>'+
-      '<div class="card"><p style="margin:0 0 14px">'+R.done+' carte'+(R.done>1?'s':'')+' révisée'+(R.done>1?'s':'')+'.</p>'+
-      '<button class="btn primary" onclick="R=null;go(\'rev\')">Retour</button></div>';
+      '<div class="card"><p style="margin:0 0 14px">'+R.justes+' bonne'+(R.justes>1?'s':'')+' réponse'+(R.justes>1?'s':'')+
+      ' sur '+R.done+'.</p><button class="btn primary" onclick="R=null;go(\'rev\')">Retour</button></div>';
     R=null; return;
   }
-  const c = R.list[R.i];
+  const q = itemQ(R.list[R.i], R);
+  if(!q){ R.i++; return renderR(); }
+  if(!R.perm) R.perm = permDe(q);
   let h = '<div class="topbar noprint"><button class="btn" onclick="R=null;go(\'rev\')">Quitter</button>'+
     '<div class="grow"></div><span style="color:var(--muted);font-size:13px">'+(R.i+1)+' / '+R.list.length+'</span></div>';
   h += '<div class="prog"><i style="width:'+(R.i/R.list.length*100).toFixed(1)+'%"></i></div>';
-  h += '<div class="card flash"><div class="r">'+carteRecto(c)+'</div>'+
-    (R.show? '<div class="v">'+inline(c.verso)+'</div>':'')+'</div>';
-  if(!R.show){
-    h += '<p class="consigne">Réponds dans ta tête, puis retourne la carte.</p>'+
-      '<div class="topbar"><div class="grow"></div><button class="btn primary" onclick="R.show=true;renderR()">Retourner la carte</button><div class="grow"></div></div>'+
-      '<p style="text-align:center;font-size:12px;color:var(--muted)" class="noprint"><span class="kbd">Espace</span> pour retourner</p>';
-  } else {
-    h += '<p class="consigne">Avais-tu trouvé ?</p>'+boutonsCarte(c.id,'grade')+
-      '<p style="text-align:center;font-size:12px;color:var(--muted);margin-top:12px" class="noprint">'+
-      '<span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span></p>';
-  }
-  h += '<div class="card" style="margin-top:20px"><span class="lbl">Tags</span> '+
-    c.tags.map(t=>'<span class="tag">'+esc(t)+'</span>').join('')+'</div>';
+  h += '<div class="qnum">Fiche '+esc(q.fiche)+' · '+esc(q.niveau)+'</div>';
+  h += qItemHtml(q, R.perm, R.rep, 'repR');
+  if(R.rep!==undefined) h += '<div class="se-foot"><button class="big primary" onclick="nextR()">'+
+    (R.i<R.list.length-1 ? 'Question suivante →' : 'Terminer')+'</button></div>';
+  h += '<p style="font-size:12px;color:var(--muted);margin-top:14px;text-align:center" class="noprint">'+
+    '<span class="kbd">A</span> <span class="kbd">B</span> <span class="kbd">C</span> pour répondre · '+
+    '<span class="kbd">Entrée</span> pour avancer</p>';
   main.innerHTML = h;
-  if(c.visuel) anatCadre(main, false, 1.6);
+  if(q.visuel) anatCadre(main, false, 1.6);
 }
+function repR(i){
+  const id = R.list[R.i], q = itemQ(id, R);
+  if(R.rep!==undefined || !q) return;
+  R.rep = R.perm[i];
+  const ok = R.rep===q.reponse;
+  enregistrer(q, ok); saveP();
+  if(!ok){ R.rpt = R.rpt||{}; if(!R.rpt[id]){ R.rpt[id]=1; R.list.push(id); } }
+  R.done++; if(ok) R.justes++;
+  renderR();
+  const c = document.querySelector('.corr'); if(c) c.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function nextR(){
+  const id = R.list[R.i];
+  if(R.vis) delete R.vis[id];          // si la question revient, nouveaux distracteurs
+  R.i++; R.perm=null; R.rep=undefined; renderR(); window.scrollTo(0,0);
+}
+
 /* Répétition espacée, partagée par la révision et l'échauffement du mode séance.
    L'unité est la SÉANCE, pas le jour : on ne révise que les jours d'entraînement,
    à intervalles irréguliers. Une séance = un jour où l'on a noté au moins une carte
    (deux passages le même jour comptent pour une seule séance).
-   Trois réponses :
+   Deux réponses (2026-11-27 : « en cherchant » retiré) :
      0 — pas trouvé : revient en fin de séance, puis à la séance suivante ;
-     3 — trouvé en cherchant : 1 séance, puis l'intervalle croît de 40 % à chaque fois ;
-     5 — trouvé tout de suite : 2 séances, puis l'intervalle est multiplié par ef (≈ 2,5).
-   « En cherchant » fait toujours avancer la carte : l'ancien réglage la bloquait à
-   quelques jours pour toujours (l'intervalle était multiplié par moins de 1).
+     5 — trouvé : 2 séances, puis l'intervalle est multiplié par ef (≈ 2,5).
+   La note 3 reste comprise par planifier() pour l'historique, mais n'est plus proposée.
    Au-delà de 3 séances, l'échéance est étalée de ± 15 % pour que des cartes apprises
    le même jour ne reviennent pas toujours ensemble. */
 function seanceCourante(){ const n = P.nSeance||0; return P.jourCartes===today() ? n : n+1; }
@@ -1346,6 +1468,14 @@ function noter(id,g){ ouvrirSeanceCartes(); const s = planifier(P.cards[id], g);
 function migrerCartes(){
   let chg = false;
   const cur = seanceCourante();
+  /* 2026-11-28 : les cartes question-réponse sont retirées ; les QCM déjà faits entrent
+     dans la révision espacée selon leur dernier résultat. */
+  if(!P.migQcm){
+    Object.keys(P.cards||{}).forEach(id=>{ if(!/^(QCM|VIS)-/.test(id)) delete P.cards[id]; });
+    Object.keys(P.qcm||{}).forEach(id=>{ const r = P.qcm[id];
+      if(r && r.vus && !P.cards[id]) P.cards[id] = Object.assign(planifier(null, r.dernierOk ? 5 : 0), {vu:r.dernier}); });
+    P.migQcm = 1; chg = true;
+  }
   Object.keys(P.cards||{}).forEach(id=>{
     const s = P.cards[id];
     if(s.ech!==undefined) return;
@@ -1356,20 +1486,6 @@ function migrerCartes(){
     delete s.due; chg = true;
   });
   if(chg) saveP();
-}
-/* Les trois boutons, identiques en révision et en séance. */
-function boutonsCarte(id, fn){
-  return '<div class="se-stack">'+
-    '<button class="big ko" onclick="'+fn+'(0)">Je ne savais pas</button>'+
-    '<button class="big" onclick="'+fn+'(3)">J\'ai trouvé, en cherchant</button>'+
-    '<button class="big ok" onclick="'+fn+'(5)">J\'ai trouvé tout de suite</button></div>';
-}
-function grade(g){
-  const c = R.list[R.i];
-  noter(c.id,g);
-  /* une carte ratée repasse une fois en fin de session */
-  if(g<3){ R.rep = R.rep||{}; if(!R.rep[c.id]){ R.rep[c.id]=1; R.list.push(c); } }
-  R.done++; R.i++; R.show=false; renderR();
 }
 
 /* ============================================================ mode séance
@@ -1504,7 +1620,7 @@ function cartesEchauffement(max){
   nN = Math.min(neuves.length, max-nV);
   return espacer(melange(vues.slice(0,nV).concat(neuves.slice(0,nN)))).map(x=>x.id);
 }
-const ficheDe = c => (c.tags.find(t=>/^[A-Z]{3}-\d{3}$/.test(t))||'');
+const ficheDe = c => c.fiche || '';
 /* cartes neuves : une par bloc à tour de rôle, au hasard dans chaque bloc */
 function tourniquet(cs){
   const g = {};
@@ -1527,10 +1643,10 @@ function espacer(cs){
 function seRender(){ if(V.view!=='seance') V={view:'seance', arg:null}; render(); window.scrollTo(0,0); }
 function seStart(seules){
   const f = seules ? null : ficheDuJour();
-  const cartes = cartesEchauffement(seules ? 20 : SE_CARTES);
+  const cartes = cartesEchauffement(seules ? 15 : SE_CARTES);
   if(f){ const l = lect(f.id); if(l.fini && l.pos>=pauses(f).length) l.pos = 0; }
   P.seance = {fiche: f ? f.id : null, phase: cartes.length ? 'cartes' : (f ? 'lecture' : 'fin'),
-    cartes, ci:0, montre:false, revues:0, qs:[], qi:0, ans:{}, debut:today(), seules:!!seules};
+    cartes, ci:0, perm:null, revues:0, qs:[], qi:0, ans:{}, debut:today(), seules:!!seules};
   saveP(); seRender();
 }
 function seStop(){ P.seance = null; saveP(); seRender(); }
@@ -1542,12 +1658,22 @@ function seChoisir(id){
 function seListe(on){ V.arg = on ? 'liste' : null; seRender();
   const c = on && document.getElementById('se-cur'); if(c) c.scrollIntoView({block:'center'}); }
 
-/* échauffement */
-function seReveal(){ P.seance.montre = true; saveP(); seRender(); }
-function seGrade(g){
-  const S = P.seance, id = S.cartes[S.ci]; noter(id, g);
-  if(g<3){ S.rep = S.rep||{}; if(!S.rep[id]){ S.rep[id]=1; S.cartes.push(id); } }
-  S.ci++; S.revues++; S.montre = false;
+/* échauffement : questions échues (QCM des fiches terminées, muscles) */
+function seRep(i){
+  const S = P.seance, id = S.cartes[S.ci], q = itemQ(id, S);
+  if(S.rep!==undefined || !q) return;
+  S.rep = S.perm[i];
+  const ok = S.rep===q.reponse;
+  enregistrer(q, ok);
+  if(!ok){ S.rpt = S.rpt||{}; if(!S.rpt[id]){ S.rpt[id]=1; S.cartes.push(id); } }
+  S.revues++; if(ok) S.revJustes = (S.revJustes||0)+1;
+  saveP(); seRender();
+  const c = document.querySelector('.corr'); if(c) c.scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+function seSuivant(){
+  const S = P.seance, id = S.cartes[S.ci];
+  if(S.vis) delete S.vis[id];
+  S.ci++; S.perm = null; S.rep = undefined;
   if(S.ci>=S.cartes.length) S.phase = S.fiche ? 'lecture' : 'fin';
   saveP(); seRender();
 }
@@ -1571,18 +1697,17 @@ function seNext(){
 function sePrev(){ const l = lect(P.seance.fiche); if(l.pos>0){ l.pos--; saveP(); seRender(); } }
 
 /* consolidation */
-function seAnswer(L){
+function seAnswer(i){
   const S = P.seance, q = byId(D.qcm,S.qs[S.qi]);
   if(S.ans[q.id]!==undefined) return;
+  const L = S.qperm[i];
   S.ans[q.id] = L;
-  const r = P.qcm[q.id] || {vus:0,justes:0};
-  r.vus++; if(L===q.reponse) r.justes++;
-  r.dernierOk = (L===q.reponse); r.dernier = today();
-  P.qcm[q.id] = r; saveP(); render();
+  enregistrer(q, L===q.reponse);
+  saveP(); render();
   const c = document.querySelector('.corr'); if(c) c.scrollIntoView({behavior:'smooth',block:'start'});
 }
 function seQNext(){
-  const S = P.seance; S.qi++;
+  const S = P.seance; S.qi++; S.qperm = null;
   if(S.qi>=S.qs.length){
     S.phase = 'fin';
     const justes = S.qs.filter(id=>S.ans[id]===byId(D.qcm,id).reponse).length;
@@ -1623,15 +1748,15 @@ function seAccueil(){
     '</div>';
   h += '<div class="se-stack">'+
     '<button class="big primary" onclick="seStart(false)">Commencer la séance'+
-      '<small>'+(cartes ? cartes+' carte'+(cartes>1?'s':'')+' d\'échauffement, puis la lecture' : 'Lecture directe')+'</small></button>'+
-    (toutes ? '<button class="big" onclick="seStart(true)">Cartes seules<small>'+toutes+' à réviser · pour les jours de grosses charges</small></button>' : '')+
+      '<small>'+(cartes ? cartes+' question'+(cartes>1?'s':'')+' d\'échauffement, puis la lecture' : 'Lecture directe')+'</small></button>'+
+    (toutes ? '<button class="big" onclick="seStart(true)">Questions seules<small>'+toutes+' à réviser · pour les jours de grosses charges</small></button>' : '')+
     '</div>';
   h += '<div style="display:flex;justify-content:space-between;align-items:center;margin-top:14px">'+
     '<button class="lnk" onclick="seListe(true)">Choisir une autre fiche</button>'+
     '<span style="font-size:13px;color:var(--muted)">'+nf+' / '+D.fiches.length+' fiches terminées</span></div>';
   h += '<p style="font-size:13px;color:var(--muted);margin:22px 0 0;line-height:1.55">Une pause correspond à une '+
     'récupération : lire, poser le téléphone, faire la série. La position est enregistrée à chaque pause — '+
-    'ce qui n\'est pas fini en salle se termine ailleurs. Sur les mouvements lourds, préférer les cartes : '+
+    'ce qui n\'est pas fini en salle se termine ailleurs. Sur les mouvements lourds, préférer les questions seules : '+
     'lire allonge la récupération sans qu\'on s\'en aperçoive.</p>';
   return h;
 }
@@ -1645,7 +1770,8 @@ function seListeHtml(){
     h += '<div class="lbl" style="margin:16px 0 8px">'+(k ? 'Hors parcours' : 'Parcours, dans l\'ordre')+'</div>';
     fs.forEach(f=>{
       const l = (P.lecture||{})[f.id], n = pauses(f).length;
-      const pip = l && l.fini ? '<span class="pip ok">terminée</span>'
+      const mq = maitrise(f.id);
+      const pip = l && l.fini ? '<span class="pip ok">'+(mq.vus ? 'QCM '+mq.ok+' / '+mq.n : 'terminée')+'</span>'
         : (l && l.pos>0 ? '<span class="pip on">'+l.pos+' / '+n+'</span>' : '<span class="pip">'+n+' pauses</span>');
       h += '<button class="item" onclick="seChoisir(\''+f.id+'\')"'+(f.id===cur.id?' id="se-cur" style="border-color:var(--accent)"':'')+
         '><div class="grow"><div class="t">'+esc(f.titre)+'</div><div class="m">'+esc(f.id)+' · '+esc(nomBloc(f.bloc))+'</div></div>'+pip+'</button>';
@@ -1654,17 +1780,17 @@ function seListeHtml(){
   return h+'</div>';
 }
 function seCartes(S){
-  const c = byId(D.anki,S.cartes[S.ci]);
-  if(!c){ S.phase = S.fiche?'lecture':'fin'; saveP(); return S.fiche ? seLecture(S) : seFin(S); }
-  let h = '<div class="se-head"><span><b>Échauffement</b> · carte '+(S.ci+1)+' / '+S.cartes.length+'</span>'+
+  let q = itemQ(S.cartes[S.ci]||'', S);
+  while(!q && S.ci<S.cartes.length){ S.ci++; q = itemQ(S.cartes[S.ci]||'', S); }
+  if(!q){ S.phase = S.fiche?'lecture':'fin'; saveP(); return S.fiche ? seLecture(S) : seFin(S); }
+  if(!S.perm){ S.perm = permDe(q); saveP(); }
+  let h = '<div class="se-head"><span><b>Échauffement</b> · question '+(S.ci+1)+' / '+S.cartes.length+'</span>'+
     '<div class="grow"></div><button class="lnk" onclick="seSkipCartes()">Passer →</button></div>'+
-    '<div class="prog"><i style="width:'+(S.ci/S.cartes.length*100).toFixed(1)+'%"></i></div>';
-  h += '<div class="se-card"><div class="r">'+carteRecto(c)+'</div>'+
-    (S.montre ? '<div class="v">'+inline(c.verso)+'</div>' : '')+'</div>';
-  h += S.montre
-    ? '<p class="consigne">Avais-tu trouvé ?</p>'+boutonsCarte(c.id,'seGrade')
-    : '<p class="consigne">Réponds dans ta tête, puis retourne la carte.</p>'+
-      '<div class="se-foot"><button class="big primary" onclick="seReveal()">Retourner la carte</button></div>';
+    '<div class="prog"><i style="width:'+(S.ci/S.cartes.length*100).toFixed(1)+'%"></i></div>'+
+    '<div class="qnum">Fiche '+esc(q.fiche)+' · '+esc(q.niveau)+'</div>';
+  h += qItemHtml(q, S.perm, S.rep, 'seRep');
+  if(S.rep!==undefined) h += '<div class="se-foot"><button class="big primary" onclick="seSuivant()">'+
+    (S.ci<S.cartes.length-1 ? 'Question suivante →' : (S.fiche ? 'Passer à la lecture →' : 'Terminer'))+'</button></div>';
   return h;
 }
 function seLecture(S){
@@ -1688,19 +1814,14 @@ function seLecture(S){
 function seQcm(S){
   const q = byId(D.qcm,S.qs[S.qi]);
   if(!q){ S.phase='fin'; saveP(); return seFin(S); }
+  if(!S.qperm){ S.qperm = permDe(q); saveP(); }
   const a = S.ans[q.id];
   let h = '<div class="se-head"><span><b>Consolidation</b> · question '+(S.qi+1)+' / '+S.qs.length+'</span>'+
     '<div class="grow"></div><button class="lnk" onclick="seSkipQcm()">Passer</button></div>'+
     '<div class="prog"><i style="width:'+(S.qi/S.qs.length*100).toFixed(1)+'%"></i></div>'+
-    '<div class="qnum">Fiche '+esc(q.fiche)+' · '+esc(q.niveau)+'</div><div class="qtxt">'+inline(q.enonce)+'</div>';
-  ['A','B','C'].forEach(L=>{
-    if(!q.options[L]) return;
-    let cls = 'opt';
-    if(a!==undefined){ if(L===q.reponse) cls+=' good'; else if(L===a) cls+=' bad'; }
-    h += '<button class="'+cls+'" onclick="seAnswer(\''+L+'\')"'+(a!==undefined?' disabled':'')+'><b>'+L+'.</b> '+inline(q.options[L])+'</button>';
-  });
+    '<div class="qnum">Fiche '+esc(q.fiche)+' · '+esc(q.niveau)+'</div>';
+  h += qItemHtml(q, S.qperm, a, 'seAnswer');
   if(a!==undefined){
-    h += corrHtml(q);
     h += '<div class="se-foot"><button class="big primary" onclick="seQNext()">'+
       (S.qi<S.qs.length-1 ? 'Question suivante →' : 'Terminer')+'</button></div>';
   }
@@ -1710,16 +1831,16 @@ function seFin(S){
   const f = S.fiche ? byId(D.fiches,S.fiche) : null;
   const justes = S.qs.filter(id=>{ const q=byId(D.qcm,id); return q && S.ans[id]===q.reponse; }).length;
   const repondues = S.qs.filter(id=>S.ans[id]!==undefined).length;
-  const nc = f ? D.anki.filter(c=>c.tags.includes(f.id)).length : 0;
+  const nc = f ? D.qcm.filter(q=>q.fiche===f.id).length : 0;
   let h = '<div class="se-hero"><div class="k">Séance terminée</div>'+
-    (f ? '<h3>'+esc(f.titre)+'</h3>' : '<h3>Révision des cartes</h3>')+
-    '<p>'+[S.revues ? S.revues+' carte'+(S.revues>1?'s':'')+' révisée'+(S.revues>1?'s':'') : '',
+    (f ? '<h3>'+esc(f.titre)+'</h3>' : '<h3>Révision</h3>')+
+    '<p>'+[S.revues ? 'échauffement : '+(S.revJustes||0)+' / '+S.revues : '',
            repondues ? 'QCM : '+justes+' / '+repondues : '',
-           f && nc ? 'ses '+nc+' cartes rejoindront l\'échauffement des prochaines séances' : '']
+           f && nc ? 'ses '+nc+' QCM reviendront dans l\'échauffement des prochaines séances' : '']
       .filter(Boolean).join(' · ')+'</p></div>';
   const errs = S.qs.filter(id=>S.ans[id]!==undefined && S.ans[id]!==byId(D.qcm,id).reponse);
   if(errs.length) h += '<p style="font-size:14px;color:var(--muted);margin:0 0 14px">'+errs.length+' erreur'+
-    (errs.length>1?'s':'')+' : la portée « Mes erreurs » de l\'onglet QCM les représentera.</p>';
+    (errs.length>1?'s':'')+' : '+(errs.length>1?'elles reviendront':'elle reviendra')+' dès la prochaine séance.</p>';
   h += '<div class="se-stack"><button class="big primary" onclick="seStop()">Préparer la fiche suivante</button>'+
     (f ? '<button class="big" data-fiche="'+f.id+'">Relire la fiche en entier</button>' : '')+'</div>';
   return h;
@@ -1854,8 +1975,9 @@ document.addEventListener('keydown', e=>{
     if(e.key==='Enter'){ if(Q.i<Q.list.length-1) navQ(1); else endQ(); return; }
   }
   if(R){
-    if(e.key===' '){ e.preventDefault(); if(!R.show){R.show=true;renderR();} return; }
-    if(R.show && /^[1-3]$/.test(e.key)){ grade([0,3,5][+e.key-1]); return; }
+    const k = e.key.toUpperCase();
+    if(R.rep===undefined && /^[ABC123]$/.test(k)){ repR('ABC123'.indexOf(k)%3); return; }
+    if(R.rep!==undefined && (e.key==='Enter'||e.key===' ')){ e.preventDefault(); nextR(); return; }
   }
 });
 
